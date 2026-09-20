@@ -39,3 +39,15 @@
 - All seven pages: named references are OMS antenatal-care recommendations, MSPBS prenatal/PAI guidance and ACOG fetal-development education; URLs/access dates and reviewedBy remain null. No fresh consultation claimed. Review heat, food, caffeine/herb counseling and individualized PAI record review; no vaccine schedule or dose asserted.
 - All seven pages: seed size objects and milestones preserved; validate growth references and milestone timing against friendly-week counting. Clinical appointment windows use completed weeks and days.
 - All seven pages: revalidate Ley 7383/2024 scope and proof requirements; only the app-facts-supported maximum of four paid prenatal-control hours is stated, without frequency. Service availability, IPS/private coverage and preparation instructions are referred to the attending service, not promised.
+
+## W3 — weeks 15–19 and 21 — 2026-09-20 (offline editorial review)
+- /semana/15/: pending medical review of skeletal/sensory development, gum and nasal symptoms, dental care, nutrition and second-trimester control.
+- /semana/16/: pending medical review of neuromuscular development, first movement perception, constipation/supplement tolerance, brief ligament discomfort and activity guidance.
+- /semana/17/: pending medical review of ossification and fat development, posture/back pain, vaginal discharge and urinary/fluid-loss warning signs.
+- /semana/18/: pending medical review of sensory development, approximate 18–24-week anatomy-scan window and limitations, belly variation, dizziness, sleep comfort and first movements.
+- /semana/19/: pending medical review of vernix/lanugo, anatomy-scan interpretation, belly variation, pelvic discomfort, itching, cramps and unilateral leg warning signs.
+- /semana/21/: pending medical review of digestive/renal development, movement perception and reduced/absent movement advice, anatomy-scan follow-up, reflux, edema and hypertensive warning signs.
+- All six authored pages: OMS antenatal-care recommendations, MSPBS prenatal/PAI guidance and ACOG fetal-development education are named public references, without fresh consultation; URLs/access dates and reviewedBy remain null. Review heat, hydration, food safety, herbs/caffeine and mosquito counseling; no vaccine schedule, doses or service availability asserted.
+- All six: preserve seed size and milestone bytes; validate growth references and sensory/milestone timing (especially week 15 light/hearing and week 19 genital wording) against friendly-week counting. Clinical appointment dates use completed weeks and days.
+- All six: revalidate Ley 7383/2024 scope and documentation; only the app-facts-supported maximum of four paid prenatal-control hours is asserted, with no frequency. Service requirements and coverage are referred to the attending provider.
+- Week 20 remains byte-identical to the exemplar, including its existing links and related slugs; its medical/legal review remains recorded under T1.
