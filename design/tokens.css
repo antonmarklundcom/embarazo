@@ -1,0 +1,170 @@
+/* ==========================================================================
+   Mi Bebé — embarazo.com.py — design tokens
+   --------------------------------------------------------------------------
+   THIS FILE IS THE CONTRACT. T0 copies the :root block below verbatim into
+   assets/css/site.css. Names follow php-site-template conventions
+   (--bg, --surface, --ink, --muted, --accent, --accent-text, --font-display,
+   --font-body, --radius-*, --space-*) plus the app's pastel tones.
+
+   Source of truth for colour values: the app's app/globals.css, mirrored in
+   docs/app-facts.md. Two values are deliberately DARKER than the app's —
+   see "AA deviations" below. Everything else is verbatim.
+
+   Mobile values are the defaults. Desktop is a widening (one @media block).
+   ========================================================================== */
+
+:root {
+  /* ---- Brand ground -------------------------------------------------- */
+  --bg: #FBF7F1;              /* cream — the page */
+  --surface: #FFFFFF;         /* cards, islands, the sheet */
+  --surface-sunken: #F5EFE6;  /* wells inside a card (result rows, code) */
+  --ink: #322E29;             /* body text — 12.6:1 on --bg */
+  --muted: #6E675D;           /* meta, captions — 5.2:1 on --bg (see AA note) */
+  --line: #EDE5DA;            /* hairlines, card borders */
+  --line-strong: #DFD3C3;     /* dividers that must read at 360 px */
+
+  /* ---- Structure (petrol) -------------------------------------------- */
+  --petrol: #2F5D50;          /* headings, header bar, footer — 7.0:1 on --bg */
+  --petrol-dark: #24463D;     /* pressed/hover, footer ground */
+  --petrol-tint: #E8EFEC;     /* petrol at ~8 % — quiet section ground */
+  --on-petrol: #FBF7F1;       /* cream on petrol — 6.9:1 */
+
+  /* ---- Accent (terracotta) — the ONLY CTA colour --------------------- */
+  --accent: #C96342;          /* brand terracotta: rings, icons, underlines,
+                                 tints, the progress arc. Decorative + large
+                                 only — 3.7:1, not a text colour. */
+  --accent-text: #B24A2A;     /* terracotta-700: CTA fill, links, eyebrows.
+                                 5.0:1 on --bg, 5.4:1 on --surface,
+                                 5.4:1 against white text. AA everywhere. */
+  --accent-dark: #93381C;     /* :hover / :active on the CTA fill */
+  --accent-tint: #F7E4DC;     /* CTA halo, selected chip */
+  --on-accent: #FFFFFF;       /* label on --accent-text — 5.4:1 */
+
+  /* ---- Pastel section tones (app palette) ---------------------------- */
+  --tone-rosa: #F3DAD4;
+  --tone-celeste: #D9E5EC;
+  --tone-salvia: #DFE8D8;
+  --tone-lavanda: #E6E0F0;
+  --tone-arena: #F8E2CB;
+  --tone-arena-text: #8A5A2E; /* 4.7:1 on --tone-arena */
+
+  /* ---- Semantic ------------------------------------------------------ */
+  --sage: #6F8A66;            /* "sí / seguro" marks, decorative */
+  --sage-text: #4C6544;       /* 5.3:1 on --bg */
+  --rose: #E0A4A0;            /* decorative only, never a state */
+  --alert: #A4362A;           /* señales de alarma, "no es normal" — 6.0:1 */
+  --alert-bg: #FBEBE7;
+  --whatsapp: #25D366;        /* brand mark only */
+  --whatsapp-text: #0E7A3C;   /* 4.6:1 — the share button's fill */
+
+  /* ---- Focus --------------------------------------------------------- */
+  --focus: #1C4C9C;           /* deliberately NOT terracotta: a focus ring the
+                                 same hue as the CTA is invisible on the CTA */
+  --focus-width: 3px;
+  --focus-offset: 2px;
+
+  /* ---- Type ---------------------------------------------------------- */
+  /* Nunito Sans self-hosted (T0 drops woff2 into assets/fonts/ and declares
+     @font-face with font-display:swap). The fallback stack is metric-close
+     enough that swap costs no measurable CLS. Display == body by decision:
+     brand-exact with the app; editorial voice comes from scale, not a
+     second face. */
+  --font-body: "Nunito Sans", "Segoe UI", Roboto, system-ui, -apple-system, sans-serif;
+  --font-display: var(--font-body);
+  --font-mono: ui-monospace, "SF Mono", "Cascadia Mono", Menlo, monospace;
+
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-bold: 700;
+
+  /* Type scale — major third (1.25), base 16 px. Mobile ceiling is
+     --step-4; --step-5 exists for desktop display only. */
+  --step--2: 0.64rem;    /* 10.24 — overline, legal micro */
+  --step--1: 0.8rem;     /* 12.80 — meta, sources, captions */
+  --step-0:  1rem;       /* 16.00 — UI, labels */
+  --step-1:  1.125rem;   /* 18.00 — body copy (long-form reads at 18) */
+  --step-2:  1.25rem;    /* 20.00 — lead, H4 */
+  --step-3:  1.5625rem;  /* 25.00 — H3 */
+  --step-4:  1.9531rem;  /* 31.25 — H2, mobile H1 */
+  --step-5:  2.4414rem;  /* 39.06 — desktop H1, big-type hub */
+  --step-6:  3.0518rem;  /* 48.83 — desktop hero H1 / the number in a week card */
+
+  --leading-tight: 1.15;
+  --leading-heading: 1.22;
+  --leading-body: 1.65;
+  --measure: 34rem;      /* ~68 characters at --step-1 */
+  --measure-narrow: 26rem;
+
+  /* ---- Space — 4 px base --------------------------------------------- */
+  --space-3xs: 0.25rem;  /*  4 */
+  --space-2xs: 0.5rem;   /*  8 */
+  --space-xs:  0.75rem;  /* 12 */
+  --space-s:   1rem;     /* 16 */
+  --space-m:   1.5rem;   /* 24 */
+  --space-l:   2rem;     /* 32 */
+  --space-xl:  3rem;     /* 48 */
+  --space-2xl: 4rem;     /* 64 */
+  --space-3xl: 5rem;     /* 80 — desktop section rhythm */
+
+  --gutter: var(--space-s);      /* 16 px at 360; page edge padding */
+  --wrap: 72rem;                 /* 1152 — full-width container */
+  --wrap-text: 40rem;            /* 640 — article column */
+
+  /* ---- Radii --------------------------------------------------------- */
+  --radius-xs: 6px;
+  --radius-s: 10px;
+  --radius-tile: 14px;   /* app value */
+  --radius-card: 16px;   /* app value */
+  --radius-l: 22px;      /* phone frame, hero panel */
+  --radius-pill: 999px;
+
+  /* ---- Elevation ----------------------------------------------------- */
+  --shadow-soft:
+    0 1px 3px rgba(42, 39, 36, 0.06),
+    0 1px 2px rgba(42, 39, 36, 0.04);           /* app value */
+  --shadow-lift:
+    0 6px 16px rgba(42, 39, 36, 0.10),
+    0 2px 4px rgba(42, 39, 36, 0.06);
+  --shadow-bar:
+    0 -2px 12px rgba(42, 39, 36, 0.10);          /* sticky CTA bar, upward */
+
+  /* ---- Motion — one per screen, all reduced-motion aware -------------- */
+  --dur-fast: 120ms;
+  --dur: 200ms;
+  --ease: cubic-bezier(0.2, 0, 0.2, 1);
+
+  /* ---- Layout constants ---------------------------------------------- */
+  --tap: 44px;              /* minimum tap target — never smaller */
+  --header-h: 56px;
+  --ctabar-h: 64px;
+
+  color-scheme: light;      /* the brand has no dark mode — see §Decisions */
+}
+
+/* ---- Desktop widening. One breakpoint; the layout grid shifts at 720 px
+        in preview.css, but the TOKENS only change at 1024 px. ----------- */
+@media (min-width: 64rem) {
+  :root {
+    --gutter: var(--space-l);
+    --space-3xl: 7rem;
+    --step-1: 1.1875rem;   /* 19 px body on wide screens */
+    --header-h: 72px;
+  }
+}
+
+/* ==========================================================================
+   AA deviations from the app's globals.css — both intentional, both in the
+   same direction (darker), both documented in docs/design-decisions.md:
+
+   1. --muted is #6E675D, not the app's #7A7369. The app value is 4.39:1 on
+      cream: below AA for the meta lines this site sets in it ("actualizado
+      el", source citations, card kickers). #6E675D is 5.22:1.
+   2. --accent-text is #B24A2A, not #C96342. White on #C96342 is 3.93:1 and
+      #C96342 on cream is 3.68:1 — both fail AA, and the CTA is the one
+      element on this site that must never be hard to read. #C96342 survives
+      untouched as --accent for every non-text use, so the page still reads
+      as the app's terracotta.
+
+   Everything else (cream, petrol, petrol-dark, ink, line, the five pastels,
+   sand, sage, rose, whatsapp, radii, shadow-soft) is the app's value.
+   ========================================================================== */

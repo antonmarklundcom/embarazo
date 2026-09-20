@@ -1,0 +1,1019 @@
+<!DOCTYPE html>
+<html lang="es-PY">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Componentes · Mi Bebé — embarazo.com.py</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="stylesheet" href="preview.css">
+<style>
+  /* Gallery-only page chrome. Never copied into the site. */
+  body { background: #F1EBE2; }
+  .gal-page { background: var(--bg); }
+</style>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Saltar al contenido</a>
+
+<header class="header">
+  <div class="wrap header__bar">
+    <a class="brand" href="../design/components.html">
+      <span class="brand__mark" aria-hidden="true">MB</span>
+      <span>Mi&nbsp;Bebé <span style="font-weight:400;color:var(--muted);font-size:var(--step--1)">· componentes</span></span>
+    </a>
+    <span class="meta">D0 · 2026-09-20</span>
+  </div>
+</header>
+
+<main id="main" class="wrap gal-page">
+
+  <section class="section section--tight">
+    <h1>Biblioteca de componentes</h1>
+    <p class="lead">Cada componente en sus estados, a 360&nbsp;px (la columna angosta) y a 1024&nbsp;px
+      (la columna ancha). Los nombres de clase son el contrato con <code>partials/*.php</code>:
+      T1 los copia tal cual.</p>
+    <p class="meta">Abrí este archivo directo del disco. No hay build, no hay scripts externos, no hay
+      peticiones de red. Lo único que lleva JavaScript en todo el sitio es la isla de la calculadora
+      (§16) — el menú, el acordeón de preguntas y el cierre de la barra fija son HTML puro.</p>
+
+    <h2>Índice</h2>
+    <div class="gal__toc">
+      <ol>
+        <li><a href="#c-color">Color y contraste</a></li>
+        <li><a href="#c-type">Tipografía</a></li>
+        <li><a href="#c-btn">Botones</a></li>
+        <li><a href="#c-header">Header + menú sheet</a></li>
+        <li><a href="#c-crumbs">Breadcrumbs</a></li>
+        <li><a href="#c-ctabar">Barra fija de CTA</a></li>
+        <li><a href="#c-cta">CTA: primary / week / tool</a></li>
+        <li><a href="#c-trust">Trust strip</a></li>
+        <li><a href="#c-weekcard">Week card + grilla</a></li>
+        <li><a href="#c-hubcard">Hub card</a></li>
+        <li><a href="#c-artcard">Article card</a></li>
+        <li><a href="#c-blogcard">Blog card</a></li>
+        <li><a href="#c-phone">Phone frame + fallback</a></li>
+        <li><a href="#c-bento">Bento tiles (5 tonos)</a></li>
+        <li><a href="#c-faq">FAQ accordion</a></li>
+        <li><a href="#c-disc">Disclaimer médico / legal</a></li>
+        <li><a href="#c-sources">Sources + actualizado</a></li>
+        <li><a href="#c-wa">WhatsApp share</a></li>
+        <li><a href="#c-weeknav">Week prev/next</a></li>
+        <li><a href="#c-timeline">Timeline de trimestre</a></li>
+        <li><a href="#c-calc">Isla calculadora</a></li>
+        <li><a href="#c-gn">Guaraní strip</a></li>
+        <li><a href="#c-footer">Footer</a></li>
+        <li><a href="#c-404">404</a></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ================================================================== -->
+  <section class="gal" id="c-color">
+    <h2 class="gal__h">Color y contraste</h2>
+    <p class="gal__note">Los valores salen de <code>app/globals.css</code> de la app. Dos se
+      oscurecieron para llegar a AA: <code>--muted</code> y <code>--accent-text</code>. La terracota
+      de marca <code>--accent</code> #C96342 sigue intacta para todo lo que no es texto.</p>
+
+    <ul class="keyfacts" style="max-width:var(--measure)">
+      <li><span>Texto <code>--ink</code> #322E29 sobre cream</span> <b>12.6:1 · AAA</b></li>
+      <li><span>Meta <code>--muted</code> #6E675D sobre cream</span> <b>5.2:1 · AA</b></li>
+      <li><span>Títulos <code>--petrol</code> #2F5D50 sobre cream</span> <b>7.0:1 · AAA</b></li>
+      <li><span>CTA <code>--accent-text</code> #B24A2A sobre cream</span> <b>5.0:1 · AA</b></li>
+      <li><span>Blanco sobre <code>--accent-text</code></span> <b>5.4:1 · AA</b></li>
+      <li><span><code>--tone-arena-text</code> sobre arena</span> <b>4.7:1 · AA</b></li>
+      <li><span><code>--alert</code> #A4362A sobre <code>--alert-bg</code></span> <b>6.0:1 · AA</b></li>
+    </ul>
+
+    <p class="gal__state">Tonos pastel de sección (fondo siempre con <code>--ink</code> encima):</p>
+    <div class="grid grid--3">
+      <div class="hub-card hub-card--rosa"><h3>rosa</h3><p>#F3DAD4 — planear, familia</p></div>
+      <div class="hub-card hub-card--celeste"><h3>celeste</h3><p>#D9E5EC — salud, disclaimer médico</p></div>
+      <div class="hub-card hub-card--salvia"><h3>salvia</h3><p>#DFE8D8 — alimentación, guaraní</p></div>
+      <div class="hub-card hub-card--lavanda"><h3>lavanda</h3><p>#E6E0F0 — derechos, disclaimer legal</p></div>
+      <div class="hub-card hub-card--arena"><h3>arena</h3><p>#F8E2CB — semanas, resultados, trámites</p></div>
+      <div class="hub-card hub-card--petrol"><h3>petrol tint</h3><p>#E8EFEC — secciones neutras, parto</p></div>
+    </div>
+  </section>
+
+  <!-- ================================================================== -->
+  <section class="gal" id="c-type">
+    <h2 class="gal__h">Tipografía</h2>
+    <p class="gal__note">Nunito Sans para todo (<code>--font-display</code> = <code>--font-body</code>).
+      Escala 1.25 desde 16&nbsp;px. El cuerpo largo se lee a 18&nbsp;px en móvil y 19&nbsp;px en
+      escritorio. En móvil el H1 no pasa de <code>--step-4</code> (31&nbsp;px): a 360&nbsp;px
+      "Licencia de maternidad en Paraguay" entra en tres líneas sin partir palabras.</p>
+    <div class="gal__pair">
+      <div class="gal__frame gal__frame--360">
+        <span class="gal__cap">360 px</span>
+        <div class="gal__inner">
+          <h1>Semana 20 de embarazo</h1>
+          <p class="lead">Llegaste a la mitad del camino: tu bebé mide unos 25&nbsp;cm y ya traga líquido.</p>
+          <h2>Tu bebé esta semana</h2>
+          <p>Esta semana tu bebé pesa alrededor de 300&nbsp;gramos. Los riñones ya producen pis y lo
+            devuelve al líquido amniótico, que renueva varias veces por día.</p>
+          <h3>Un subtítulo de tercer nivel</h3>
+          <p class="meta">actualizado el 20 de septiembre de 2026</p>
+        </div>
+      </div>
+      <div class="gal__frame">
+        <span class="gal__cap">1024 px</span>
+        <div class="gal__inner">
+          <h1>Semana 20 de embarazo</h1>
+          <p class="lead">Llegaste a la mitad del camino: tu bebé mide unos 25&nbsp;cm y ya traga líquido.</p>
+          <h2>Tu bebé esta semana</h2>
+          <p>Esta semana tu bebé pesa alrededor de 300&nbsp;gramos. Los riñones ya producen pis y lo
+            devuelve al líquido amniótico, que renueva varias veces por día.</p>
+          <h3>Un subtítulo de tercer nivel</h3>
+          <p class="meta">actualizado el 20 de septiembre de 2026</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================================== -->
+  <section class="gal" id="c-btn">
+    <h2 class="gal__h">Botones · <code>.btn</code></h2>
+    <p class="gal__note">Altura mínima 44&nbsp;px siempre. Una sola familia de color para la acción:
+      terracota. El foco es azul a propósito — un anillo terracota sobre un botón terracota no se ve.</p>
+
+    <p class="gal__state">estados: default · hover (pasá el mouse) · focus (tabulá) · disabled</p>
+    <div class="gal__pair">
+      <div class="gal__frame gal__frame--360">
+        <span class="gal__cap">360 px — el primario va a ancho completo</span>
+        <div class="gal__inner stack">
+          <a class="btn btn--primary btn--lg btn--block" href="#c-btn">Abrir Mi Bebé — es gratis</a>
+          <a class="btn btn--secondary btn--block" href="#c-btn">Ver semana a semana</a>
+          <a class="btn btn--ghost btn--block" href="#c-btn">Cómo se calcula</a>
+          <a class="btn btn--wa btn--block" href="#c-btn">
+            <svg class="btn__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15l-1.3 4.8 4.9-1.3A10 10 0 1 0 12 2Zm5.6 14.2c-.2.6-1.2 1.2-1.7 1.2-.5.1-1 .1-1.6-.1-1.6-.6-3.1-1.6-4.3-2.9-.8-.9-1.5-1.9-1.9-3-.2-.6-.1-1.2.2-1.7l.6-.7c.2-.2.5-.2.7 0l1 1.7c.1.2.1.4 0 .6l-.4.6c-.1.2-.1.4 0 .5.6 1 1.4 1.8 2.4 2.4.2.1.4.1.5 0l.6-.5c.2-.1.4-.2.6-.1l1.7 1c.2.1.3.4.2.6l-.6.4Z"/></svg>
+            Compartir por WhatsApp
+          </a>
+          <button class="btn btn--primary btn--block" aria-disabled="true">Ingresá una fecha</button>
+        </div>
+      </div>
+      <div class="gal__frame">
+        <span class="gal__cap">1024 px — en fila</span>
+        <div class="gal__inner">
+          <div style="display:flex;flex-wrap:wrap;gap:var(--space-2xs);align-items:center">
+            <a class="btn btn--primary btn--lg" href="#c-btn">Abrir Mi Bebé — es gratis</a>
+            <a class="btn btn--secondary" href="#c-btn">Ver semana a semana</a>
+            <a class="btn btn--ghost" href="#c-btn">Cómo se calcula</a>
+            <button class="btn btn--primary" aria-disabled="true">Ingresá una fecha</button>
+            <a class="link-arrow" href="#c-btn">Leer la guía completa</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================================== -->
+  <section class="gal" id="c-header">
+    <h2 class="gal__h">Header + menú sheet · <code>.header</code> / <code>.nav</code></h2>
+    <p class="gal__note">Seis ítems: Semana a semana · Calculadora · Guías · Blog · La app · Instalar.
+      A 360&nbsp;px el menú es un <code>&lt;details&gt;</code> que abre una hoja debajo de la barra —
+      sin JavaScript, sin bloquear el scroll del body, sin trampas de foco que programar. A partir de
+      1024&nbsp;px el <code>&lt;summary&gt;</code> desaparece y la misma lista se vuelve una fila.</p>
+
+    <p class="gal__state">estado: cerrado (360) · abierto (360) · fila (1024)</p>
+    <div class="gal__pair">
+      <div class="gal__frame gal__frame--360">
+        <span class="gal__cap">360 px — cerrado</span>
+        <div style="position:relative">
+          <div class="header" style="position:static">
+            <div class="wrap header__bar">
+              <a class="brand" href="#c-header"><span class="brand__mark" aria-hidden="true">MB</span> Mi&nbsp;Bebé</a>
+              <details class="nav">
+                <summary aria-label="Abrir el menú"><span class="nav__burger" aria-hidden="true"></span></summary>
+                <div class="nav__sheet">
+                  <ul class="nav__list">
+                    <li><a href="#c-header">Semana a semana</a></li>
+                    <li><a href="#c-header">Calculadora</a></li>
+                    <li><a href="#c-header">Guías</a></li>
+                    <li><a href="#c-header">Blog</a></li>
+                    <li><a href="#c-header">La app</a></li>
+                    <li><a href="#c-header">Instalar</a></li>
+                  </ul>
+                  <div class="nav__cta"><a class="btn btn--primary btn--block" href="#c-header">Abrir Mi Bebé</a></div>
+                </div>
+              </details>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="gal__frame gal__frame--360">
+        <span class="gal__cap">360 px — abierto</span>
+        <div style="position:relative;padding-bottom:340px">
+          <div class="header" style="position:static">
+            <div class="wrap header__bar">
+              <a class="brand" href="#c-header"><span class="brand__mark" aria-hidden="true">MB</span> Mi&nbsp;Bebé</a>
+              <details class="nav" open>
+                <summary aria-label="Cerrar el menú"><span class="nav__burger" aria-hidden="true"></span></summary>
+                <div class="nav__sheet">
+                  <ul class="nav__list">
+                    <li><a href="#c-header" aria-current="page">Semana a semana</a></li>
+                    <li><a href="#c-header">Calculadora</a></li>
+                    <li><a href="#c-header">Guías</a></li>
+                    <li><a href="#c-header">Blog</a></li>
+                    <li><a href="#c-header">La app</a></li>
+                    <li><a href="#c-header">Instalar</a></li>
+                  </ul>
+                  <div class="nav__cta"><a class="btn btn--primary btn--block" href="#c-header">Abrir Mi Bebé</a></div>
+                </div>
+              </details>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p class="gal__state">1024 px — la misma marcación, sin <code>summary</code></p>
+    <div class="gal__frame">
+      <span class="gal__cap">1024 px</span>
+      <div class="header" style="position:static">
+        <div class="wrap header__bar">
+          <a class="brand" href="#c-header"><span class="brand__mark" aria-hidden="true">MB</span> Mi&nbsp;Bebé</a>
+          <details class="nav" open>
+            <summary><span class="nav__burger" aria-hidden="true"></span></summary>
+            <div class="nav__sheet">
+              <ul class="nav__list">
+                <li><a href="#c-header" aria-current="page">Semana a semana</a></li>
+                <li><a href="#c-header">Calculadora</a></li>
+                <li><a href="#c-header">Guías</a></li>
+                <li><a href="#c-header">Blog</a></li>
+                <li><a href="#c-header">La app</a></li>
+                <li><a href="#c-header">Instalar</a></li>
+              </ul>
+              <div class="nav__cta"><a class="btn btn--primary" href="#c-header">Abrir Mi Bebé</a></div>
+            </div>
+          </details>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================================== -->
+  <section class="gal" id="c-crumbs">
+    <h2 class="gal__h">Breadcrumbs · <code>.crumbs</code></h2>
+    <p class="gal__note">Siempre presentes fuera de la home; alimentan <code>BreadcrumbList</code>.
+      En móvil envuelven, no hacen scroll horizontal.</p>
+    <div class="gal__frame gal__frame--360">
+      <span class="gal__cap">360 px</span>
+      <div class="gal__inner">
+        <nav class="crumbs" aria-label="Migas de pan">
+          <ol>
+            <li><a href="#c-crumbs">Inicio</a></li>
+            <li><a href="#c-crumbs">Derechos</a></li>
+            <li><span aria-current="page">Licencia de maternidad</span></li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================================== -->
+  <section class="gal" id="c-ctabar">
+    <h2 class="gal__h">Barra fija de CTA · <code>.ctabar</code></h2>
+    <p class="gal__note"><strong>Solo en páginas de contenido</strong> (semanas, artículos, hubs,
+      blog) y una sola vez por página. En <code>/</code>, <code>/app</code> e <code>/instalar</code> no
+      va: ahí el CTA duro ya está en el hero. Se cierra con un <code>&lt;input type="checkbox"&gt;</code>
+      oculto — cero JavaScript. El <code>.ctabar-spacer</code> reserva su altura para que nunca tape el
+      footer y el CLS quede en 0. Desaparece a partir de 720&nbsp;px.</p>
+    <p class="gal__state">estado: visible · cerrada (tocá la ✕)</p>
+    <div class="gal__frame gal__frame--360">
+      <span class="gal__cap">360 px — fija abajo (acá se muestra en su lugar)</span>
+      <div class="gal__inner">
+        <input type="checkbox" id="demo-ctabar" class="ctabar-switch">
+        <div class="ctabar" style="position:static;box-shadow:none;border-radius:var(--radius-card);border:1px solid var(--line-strong)">
+          <p class="ctabar__text"><b>Semana 20 en tu teléfono</b>Tamaño, pataditas y tu control.</p>
+          <a class="btn btn--primary" href="#c-ctabar">Abrir</a>
+          <label class="ctabar__close" for="demo-ctabar" aria-label="Cerrar esta barra" role="button" tabindex="0">×</label>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================================== -->
+  <section class="gal" id="c-cta">
+    <h2 class="gal__h">Las tres CTA de contenido · <code>content/cta.php</code></h2>
+    <p class="gal__note">Una sola por alto de pantalla. Todas construidas con
+      <code>app_link()</code>, nunca a mano.</p>
+
+    <p class="gal__state">1 · <code>.cta-primary</code> — el CTA duro (home, /app, /instalar, cierre de artículo)</p>
+    <div class="gal__pair">
+      <div class="gal__frame gal__frame--360">
+        <span class="gal__cap">360 px</span>
+        <div class="gal__inner">
+          <div class="cta-primary">
+            <h3>Seguí tu embarazo en Mi Bebé</h3>
+            <p>Se instala desde un link, no ocupa lugar y funciona sin datos.</p>
+            <a class="btn btn--primary btn--lg btn--block" href="#c-cta">Abrir Mi Bebé — es gratis</a>
+            <ul class="trust-strip">
+              <li>Gratis</li><li>sin tienda</li><li>funciona sin datos</li><li>tus datos quedan en tu teléfono</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="gal__frame">
+        <span class="gal__cap">1024 px</span>
+        <div class="gal__inner">
+          <div class="cta-primary">
+            <h3>Seguí tu embarazo en Mi Bebé</h3>
+            <p>Se instala desde un link, no ocupa lugar y funciona sin datos.</p>
+            <a class="btn btn--primary btn--lg" href="#c-cta">Abrir Mi Bebé — es gratis</a>
+            <ul class="trust-strip">
+              <li>Gratis</li><li>sin tienda</li><li>funciona sin datos</li><li>tus datos quedan en tu teléfono</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <p class="gal__state">2 · <code>.cta-week</code> — la tarjeta contextual dentro de una semana (deep link <code>w=20</code>)</p>
+    <div class="gal__pair">
+      <div class="gal__frame gal__frame--360">
+        <span class="gal__cap">360 px</span>
+        <div class="gal__inner">
+          <aside class="cta-week">
+            <span class="cta-week__n" aria-hidden="true">20</span>
+            <div class="cta-week__body">
+              <h3>Registrá las pataditas</h3>
+              <p>Mi Bebé abre directo en la semana 20 y guarda los movimientos sin conexión.</p>
+              <a class="btn btn--primary" href="#c-cta">Abrir en la semana 20</a>
+            </div>
+          </aside>
+        </div>
+      </div>
+      <div class="gal__frame">
+        <span class="gal__cap">1024 px</span>
+        <div class="gal__inner">
+          <aside class="cta-week">
+            <span class="cta-week__n" aria-hidden="true">20</span>
+            <div class="cta-week__body">
+              <h3>Registrá las pataditas</h3>
+              <p>Mi Bebé abre directo en la semana 20 y guarda los movimientos sin conexión.</p>
+              <a class="btn btn--primary" href="#c-cta">Abrir en la semana 20</a>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </div>
+
+    <p class="gal__state">3 · <code>.cta-tool</code> — el hand-off de herramienta (deep link <code>fpp=</code> o <code>modo=planeando</code>)</p>
+    <div class="gal__frame gal__frame--360">
+      <span class="gal__cap">360 px</span>
+      <div class="gal__inner">
+        <aside class="cta-tool">
+          <h3>Guardá tu fecha en Mi Bebé</h3>
+          <p>La app se abre con tu FPP ya cargada. No hace falta crear cuenta.</p>
+          <a class="btn btn--primary btn--block" href="#c-cta">Guardar mi fecha</a>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================================== -->
+  <section class="gal" id="c-trust">
+    <h2 class="gal__h">Trust strip · <code>.trust-strip</code></h2>
+    <p class="gal__note">Cuatro hechos, nunca el H1, siempre pegado a un CTA. Dos variantes de fondo:
+      sobre cream y sobre petrol.</p>
+    <div class="gal__pair">
+      <div class="gal__frame gal__frame--360">
+        <span class="gal__cap">360 px — sobre cream</span>
+        <div class="gal__inner">
+          <ul class="trust-strip">
+            <li>Gratis</li><li>sin tienda</li><li>funciona sin datos</li><li>tus datos quedan en tu teléfono</li>
+          </ul>
+        </div>
+      </div>
+      <div class="gal__frame">
+        <span class="gal__cap">1024 px — sobre petrol</span>
+        <div class="gal__inner" style="background:var(--petrol);border-radius:var(--radius-card)">
+          <ul class="trust-strip">
+            <li style="color:#C9D6D1">Gratis</li><li style="color:#C9D6D1">sin tienda</li>
+            <li style="color:#C9D6D1">funciona sin datos</li><li style="color:#C9D6D1">tus datos quedan en tu teléfono</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================================== -->
+  <section class="gal" id="c-weekcard">
+    <h2 class="gal__h">Week card + grilla · <code>.week-card</code> / <code>.week-grid</code></h2>
+    <p class="gal__note">Tres columnas a 360&nbsp;px (targets de 104&nbsp;px), seis a 720, siete a 1024.
+      El estado <code>aria-current="page"</code> marca la semana en la que estás.</p>
+    <div class="gal__pair">
+      <div class="gal__frame gal__frame--360">
+        <span class="gal__cap">360 px</span>
+        <div class="gal__inner">
+          <ul class="week-grid">
+            <li><a class="week-card" href="#c-weekcard"><span class="week-card__n">18</span><span class="week-card__size">un pimiento</span></a></li>
+            <li><a class="week-card" href="#c-weekcard"><span class="week-card__n">19</span><span class="week-card__size">un mango</span></a></li>
+            <li><a class="week-card" href="#c-weekcard" aria-current="page"><span class="week-card__n">20</span><span class="week-card__size">una banana</span></a></li>
+            <li><a class="week-card" href="#c-weekcard"><span class="week-card__n">21</span><span class="week-card__size">un choclo</span></a></li>
+            <li><a class="week-card" href="#c-weekcard"><span class="week-card__n">22</span><span class="week-card__size">un mamón</span></a></li>
+            <li><a class="week-card" href="#c-weekcard"><span class="week-card__n">23</span><span class="week-card__size">una palta</span></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="gal__frame">
+        <span class="gal__cap">1024 px</span>
+        <div class="gal__inner">
+          <ul class="week-grid">
+            <li><a class="week-card" href="#c-weekcard"><span class="week-card__n">15</span><span class="week-card__size">una naranja</span></a></li>
+            <li><a class="week-card" href="#c-weekcard"><span class="week-card__n">16</span><span class="week-card__size">una palta chica</span></a></li>
+            <li><a class="week-card" href="#c-weekcard"><span class="week-card__n">17</span><span class="week-card__size">una granada</span></a></li>
+            <li><a class="week-card" href="#c-weekcard"><span class="week-card__n">18</span><span class="week-card__size">un pimiento</span></a></li>
+            <li><a class="week-card" href="#c-weekcard"><span class="week-card__n">19</span><span class="week-card__size">un mango</span></a></li>
+            <li><a class="week-card" href="#c-weekcard" aria-current="page"><span class="week-card__n">20</span><span class="week-card__size">una banana</span></a></li>
+            <li><a class="week-card" href="#c-weekcard"><span class="week-card__n">21</span><span class="week-card__size">un choclo</span></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================================== -->
+  <section class="gal" id="c-hubcard">
+    <h2 class="gal__h">Hub card · <code>.hub-card</code></h2>
+    <p class="gal__note">Un tono pastel por clúster, fijo en todo el sitio: salud = celeste,
+      alimentación = salvia, derechos = lavanda, trámites = arena, planear = rosa, parto = petrol tint.
+      Eso es lo que hace que la navegación se aprenda por color.</p>
+    <div class="gal__pair">
+      <div class="gal__frame gal__frame--360">
+        <span class="gal__cap">360 px — una columna</span>
+        <div class="gal__inner grid">
+          <a class="hub-card hub-card--lavanda" href="#c-hubcard">
+            <h3>Derechos</h3>
+            <p>Licencia, subsidio de IPS, permisos para controles y fuero maternal, con la ley citada.</p>
+            <span class="hub-card__count">8 artículos →</span>
+          </a>
+          <a class="hub-card hub-card--celeste" href="#c-hubcard">
+            <h3>Salud</h3>
+            <p>Vacunas del PAI, dengue, señales de alarma, presión alta y diabetes gestacional.</p>
+            <span class="hub-card__count">8 artículos →</span>
+          </a>
+        </div>
+      </div>
+      <div class="gal__frame">
+        <span class="gal__cap">1024 px — tres columnas</span>
+        <div class="gal__inner grid grid--3">
+          <a class="hub-card hub-card--lavanda" href="#c-hubcard"><h3>Derechos</h3><p>Licencia, subsidio de IPS, permisos y fuero maternal.</p><span class="hub-card__count">8 artículos →</span></a>
+          <a class="hub-card hub-card--arena" href="#c-hubcard"><h3>Trámites</h3><p>Carné perinatal, IPS, Registro Civil y cédula del bebé.</p><span class="hub-card__count">8 artículos →</span></a>
+          <a class="hub-card hub-card--salvia" href="#c-hubcard"><h3>Alimentación</h3><p>Tereré, yuyos, pescado de río y el calor paraguayo.</p><span class="hub-card__count">7 artículos →</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================================== -->
+  <section class="gal" id="c-artcard">
+    <h2 class="gal__h">Article card · <code>.article-card</code></h2>
+    <p class="gal__note">Horizontal siempre, también en escritorio: los "relacionados" al pie de un
+      artículo se escanean mejor en lista que en grilla. La miniatura tiene fallback tipográfico
+      mientras S9 no generó la imagen.</p>
+    <div class="gal__pair">
+      <div class="gal__frame gal__frame--360">
+        <span class="gal__cap">360 px — con fallback de miniatura</span>
+        <div class="gal__inner grid">
+          <a class="article-card" href="#c-artcard">
+            <span class="article-card__thumb" aria-hidden="true">₲</span>
+            <span class="article-card__body">
+              <h3>Subsidio de maternidad de IPS: cuánto es y cómo se cobra</h3>
+              <p>Derechos · 6 min de lectura</p>
+            </span>
+          </a>
+          <a class="article-card" href="#c-artcard">
+            <span class="article-card__thumb" style="background:var(--tone-salvia)" aria-hidden="true">🧉</span>
+            <span class="article-card__body">
+              <h3>Tereré en el embarazo: qué dice la evidencia, sin mitos</h3>
+              <p>Alimentación · 8 min de lectura</p>
+            </span>
+          </a>
+        </div>
+      </div>
+      <div class="gal__frame">
+        <span class="gal__cap">1024 px</span>
+        <div class="gal__inner grid">
+          <a class="article-card" href="#c-artcard">
+            <span class="article-card__thumb" aria-hidden="true">₲</span>
+            <span class="article-card__body">
+              <h3>Subsidio de maternidad de IPS: cuánto es y cómo se cobra</h3>
+              <p>Derechos · 6 min de lectura</p>
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================================== -->
+  <section class="gal" id="c-blogcard">
+    <h2 class="gal__h">Blog card · <code>.blog-card</code></h2>
+    <div class="gal__pair">
+      <div class="gal__frame gal__frame--360">
+        <span class="gal__cap">360 px</span>
+        <div class="gal__inner">
+          <a class="blog-card" href="#c-blogcard">
+            <span class="blog-card__media" aria-hidden="true">🦟</span>
+            <span class="blog-card__body">
+              <span class="tag tag--news">Novedades</span>
+              <h3>Temporada de dengue 2026–27: qué cambia si estás embarazada</h3>
+              <p>12 de septiembre de 2026</p>
+            </span>
+          </a>
+        </div>
+      </div>
+      <div class="gal__frame">
+        <span class="gal__cap">1024 px — dos por fila</span>
+        <div class="gal__inner grid grid--2">
+          <a class="blog-card" href="#c-blogcard">
+            <span class="blog-card__media" aria-hidden="true">🦟</span>
+            <span class="blog-card__body"><span class="tag tag--news">Novedades</span>
+              <h3>Temporada de dengue 2026–27: qué cambia si estás embarazada</h3><p>12 de septiembre de 2026</p></span>
+          </a>
+          <a class="blog-card" href="#c-blogcard">
+            <span class="blog-card__media" style="background:var(--tone-arena)" aria-hidden="true">📱</span>
+            <span class="blog-card__body"><span class="tag tag--news">Novedades</span>
+              <h3>Mi Bebé: la app de embarazo hecha en Paraguay ya se puede instalar</h3><p>1 de septiembre de 2026</p></span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================================== -->
+  <section class="gal" id="c-phone">
+    <h2 class="gal__h">Phone frame · <code>.phone</code></h2>
+    <p class="gal__note">La pantalla es HTML y CSS, no una imagen: pesa cero, no mueve el layout y
+      hoy ya muestra los números reales de la semana 20. Cuando lleguen las capturas de verdad
+      (checklist humano #10), <code>partials/phone-frame.php</code> reemplaza
+      <code>.phone__mock</code> por un <code>&lt;img&gt;</code> del mismo tamaño y nada más cambia.
+      La variante <code>.phone--fallback</code> es lo que se muestra si una captura falta.</p>
+    <p class="gal__state">estado: mock de la pantalla de semana · fallback tipográfico</p>
+    <div class="gal__pair">
+      <div class="gal__frame gal__frame--360">
+        <span class="gal__cap">360 px — mock</span>
+        <div class="gal__inner">
+          <div class="phone" role="img" aria-label="La pantalla de la semana 20 en Mi Bebé: un anillo de progreso a la mitad, el tamaño comparado con una banana y los accesos a pataditas, síntomas, carné y comer.">
+            <div class="phone__screen"><div class="phone__mock">
+              <div class="phone__status"><span>9:41</span><span>◍ ◍ ▮</span></div>
+              <div class="phone__ring"><span><span class="phone__wk">semana</span><span class="phone__wkn">20</span></span></div>
+              <div class="phone__card"><b>Del tamaño de una banana</b>25,6 cm · 300 g · mitad del camino</div>
+              <div class="phone__card">Traga líquido y sus riñones ya producen pis.</div>
+              <div class="phone__chips">
+                <span class="phone__chip">Pataditas</span><span class="phone__chip">Síntomas</span>
+                <span class="phone__chip">Carné</span><span class="phone__chip">Comer</span>
+              </div>
+              <div class="phone__tabs"><span>Semana</span><span>Herramientas</span><span>Familia</span></div>
+            </div></div>
+          </div>
+        </div>
+      </div>
+      <div class="gal__frame gal__frame--360">
+        <span class="gal__cap">360 px — fallback</span>
+        <div class="gal__inner">
+          <div class="phone phone--fallback">
+            <div class="phone__screen">
+              <div class="phone__fallback">
+                <b>Semana&nbsp;20</b>
+                <span>del tamaño de una banana</span>
+                <small>25,6 cm · 300 g</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================================== -->
+  <section class="gal" id="c-bento">
+    <h2 class="gal__h">Bento · <code>.bento__tile</code>, cinco tonos</h2>
+    <p class="gal__note"><strong>El orden de origen es el orden móvil</strong> y en escritorio solo
+      cambian los <em>spans</em>, nunca el orden: 1 Semana a semana (wide) · 2 Herramientas · 3
+      Derechos · 4 Emergencia · 5 Familia por WhatsApp. Esa secuencia es la del valor decreciente
+      para alguien que llega de una búsqueda de síntomas.</p>
+    <div class="gal__pair">
+      <div class="gal__frame gal__frame--360">
+        <span class="gal__cap">360 px — una columna, orden de origen</span>
+        <div class="gal__inner">
+          <div class="bento">
+            <a class="bento__tile bento__tile--arena bento__tile--wide" href="#c-bento">
+              <span class="bento__icon" aria-hidden="true">📅</span><h3>Semana a semana</h3>
+              <p>Las 42 semanas con el tamaño en frutas de acá y el control que te toca.</p>
+              <span class="link-arrow">Ver la semana 20</span></a>
+            <a class="bento__tile bento__tile--celeste" href="#c-bento">
+              <span class="bento__icon" aria-hidden="true">🧰</span><h3>17 herramientas</h3>
+              <p>Pataditas, contracciones, peso, carné, síntomas, Kegel, nombres.</p>
+              <span class="link-arrow">Abrir herramientas</span></a>
+            <a class="bento__tile bento__tile--lavanda" href="#c-bento">
+              <span class="bento__icon" aria-hidden="true">⚖️</span><h3>Tus derechos</h3>
+              <p>Calcula tu licencia con tu FPP y te dice qué ley la respalda.</p>
+              <span class="link-arrow">Ver derechos</span></a>
+            <a class="bento__tile bento__tile--rosa" href="#c-bento">
+              <span class="bento__icon" aria-hidden="true">🚑</span><h3>Emergencia</h3>
+              <p>141 SEME y 911 a un toque, con las señales de alarma en guaraní.</p>
+              <span class="link-arrow">Ver emergencia</span></a>
+            <a class="bento__tile bento__tile--salvia" href="#c-bento">
+              <span class="bento__icon" aria-hidden="true">👨‍👩‍👧</span><h3>Familia por WhatsApp</h3>
+              <p>Compartís un link y el papá o la abuela siguen la semana con vos.</p>
+              <span class="link-arrow">Ver familia</span></a>
+          </div>
+        </div>
+      </div>
+      <div class="gal__frame">
+        <span class="gal__cap">1024 px — tres columnas, mismo orden</span>
+        <div class="gal__inner">
+          <div class="bento">
+            <a class="bento__tile bento__tile--arena bento__tile--wide" href="#c-bento">
+              <span class="bento__icon" aria-hidden="true">📅</span><h3>Semana a semana</h3>
+              <p>Las 42 semanas con el tamaño en frutas de acá y el control que te toca.</p>
+              <span class="link-arrow">Ver la semana 20</span></a>
+            <a class="bento__tile bento__tile--celeste" href="#c-bento">
+              <span class="bento__icon" aria-hidden="true">🧰</span><h3>17 herramientas</h3>
+              <p>Pataditas, contracciones, peso, carné, síntomas.</p>
+              <span class="link-arrow">Abrir herramientas</span></a>
+            <a class="bento__tile bento__tile--lavanda" href="#c-bento">
+              <span class="bento__icon" aria-hidden="true">⚖️</span><h3>Tus derechos</h3>
+              <p>Calcula tu licencia con tu FPP y cita la ley.</p>
+              <span class="link-arrow">Ver derechos</span></a>
+            <a class="bento__tile bento__tile--rosa" href="#c-bento">
+              <span class="bento__icon" aria-hidden="true">🚑</span><h3>Emergencia</h3>
+              <p>141 SEME y 911 a un toque.</p>
+              <span class="link-arrow">Ver emergencia</span></a>
+            <a class="bento__tile bento__tile--salvia" href="#c-bento">
+              <span class="bento__icon" aria-hidden="true">👨‍👩‍👧</span><h3>Familia por WhatsApp</h3>
+              <p>Compartís un link y te siguen la semana.</p>
+              <span class="link-arrow">Ver familia</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================================== -->
+  <section class="gal" id="c-faq">
+    <h2 class="gal__h">FAQ accordion · <code>.faq</code> (<code>&lt;details&gt;</code>, sin JS)</h2>
+    <p class="gal__note">La primera queda abierta: es la que más se lee y la que Google suele citar.
+      Alimenta <code>FAQPage</code>.</p>
+    <p class="gal__state">estado: primera abierta · resto cerrado</p>
+    <div class="gal__pair">
+      <div class="gal__frame gal__frame--360">
+        <span class="gal__cap">360 px</span>
+        <div class="gal__inner">
+          <div class="faq">
+            <details class="faq__item" open>
+              <summary>¿La semana 20 es la mitad exacta?</summary>
+              <div class="faq__answer"><p>Prácticamente sí. El embarazo se cuenta en 40 semanas desde
+                tu última menstruación, así que la semana 20 es la mitad del conteo. Nacer entre la
+                semana 37 y la 42 es normal.</p></div>
+            </details>
+            <details class="faq__item">
+              <summary>¿Y si todavía no siento pataditas?</summary>
+              <div class="faq__answer"><p>En un primer embarazo es común sentirlas recién entre la
+                semana 18 y la 22, y a veces más tarde si la placenta está adelante. Comentalo en tu
+                próximo control.</p></div>
+            </details>
+            <details class="faq__item">
+              <summary>¿Dónde me hago la ecografía morfológica?</summary>
+              <div class="faq__answer"><p>En IPS si estás asegurada, en el hospital distrital o
+                regional del MSPBS, o en un sanatorio privado. Pedila con tiempo: la ventana buena es
+                entre la semana 20 y la 24.</p></div>
+            </details>
+          </div>
+        </div>
+      </div>
+      <div class="gal__frame">
+        <span class="gal__cap">1024 px — el ancho de lectura no crece más allá de --measure</span>
+        <div class="gal__inner">
+          <div class="faq">
+            <details class="faq__item" open>
+              <summary>¿La semana 20 es la mitad exacta?</summary>
+              <div class="faq__answer"><p>Prácticamente sí. El embarazo se cuenta en 40 semanas desde
+                tu última menstruación, así que la semana 20 es la mitad del conteo.</p></div>
+            </details>
+            <details class="faq__item">
+              <summary>¿Y si todavía no siento pataditas?</summary>
+              <div class="faq__answer"><p>En un primer embarazo es común sentirlas recién entre la
+                semana 18 y la 22.</p></div>
+            </details>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================================== -->
+  <section class="gal" id="c-disc">
+    <h2 class="gal__h">Disclaimer · <code>.disclaimer</code></h2>
+    <p class="gal__note">Dos tipos (<code>medical</code>, <code>legal</code>), cada uno con y sin
+      línea de revisor. Hoy <code>reviewedBy</code> es <code>null</code> en todo el sitio, así que lo
+      que se ve es la variante "pendiente": decir que falta revisor es más honesto que callarlo.</p>
+
+    <p class="gal__state">medical · sin revisor (el estado de hoy)</p>
+    <div class="gal__frame gal__frame--360"><span class="gal__cap">360 px</span><div class="gal__inner">
+      <aside class="disclaimer disclaimer--medical">
+        <span class="disclaimer__icon" aria-hidden="true">ⓘ</span>
+        <div>
+          <p><b>Esto es información general, no un diagnóstico.</b></p>
+          <p>Cada embarazo es distinto. Ante cualquier duda o síntoma, hablá con tu obstetra o
+            partera, o llamá al 141 (SEME).</p>
+          <p class="disclaimer__pending">Todavía no tenemos revisor médico. Cuando lo tengamos, su
+            nombre y su registro van a aparecer acá.</p>
+        </div>
+      </aside>
+    </div></div>
+
+    <p class="gal__state">medical · con revisor (cuando se complete <code>reviewedBy</code>)</p>
+    <div class="gal__frame gal__frame--360"><span class="gal__cap">360 px</span><div class="gal__inner">
+      <aside class="disclaimer disclaimer--medical">
+        <span class="disclaimer__icon" aria-hidden="true">ⓘ</span>
+        <div>
+          <p><b>Esto es información general, no un diagnóstico.</b></p>
+          <p>Cada embarazo es distinto. Ante cualquier duda o síntoma, hablá con tu obstetra o
+            partera, o llamá al 141 (SEME).</p>
+          <p class="disclaimer__reviewer">Revisado por [Nombre], gineco-obstetra · Reg. Prof. [N.º] ·
+            13 de septiembre de 2026</p>
+        </div>
+      </aside>
+    </div></div>
+
+    <p class="gal__state">legal · sin revisor, con "vigente a"</p>
+    <div class="gal__frame gal__frame--360"><span class="gal__cap">360 px</span><div class="gal__inner">
+      <aside class="disclaimer disclaimer--legal">
+        <span class="disclaimer__icon" aria-hidden="true">§</span>
+        <div>
+          <p><b>No es asesoría legal.</b></p>
+          <p>Vigente al 20 de septiembre de 2026. Las leyes y los montos cambian: antes de un trámite,
+            confirmá en IPS, en el MTESS o con un abogado laboral.</p>
+        </div>
+      </aside>
+    </div></div>
+
+    <p class="gal__state">alarma · el único componente en rojo del sitio (señales de alarma, emergencia)</p>
+    <div class="gal__frame gal__frame--360"><span class="gal__cap">360 px</span><div class="gal__inner">
+      <aside class="alarm">
+        <h3>Llamá ya al 141 o andá al sanatorio si tenés…</h3>
+        <ul>
+          <li>sangrado, pérdida de líquido o dolor de panza que no afloja;</li>
+          <li>dolor de cabeza fuerte con visión borrosa o hinchazón de cara y manos;</li>
+          <li>fiebre, o que el bebé se mueva mucho menos que otros días.</li>
+        </ul>
+        <p><a href="#c-disc">141 SEME</a> · <a href="#c-disc">911</a></p>
+      </aside>
+    </div></div>
+  </section>
+
+  <!-- ================================================================== -->
+  <section class="gal" id="c-sources">
+    <h2 class="gal__h">Sources + actualizado · <code>.sources</code></h2>
+    <p class="gal__note"><code>verify.sh</code> falla si una página médica o legal llega con
+      <code>sources[]</code> vacío. La lista es <code>&lt;ol&gt;</code> para poder citarla por número
+      desde el cuerpo.</p>
+    <div class="gal__frame gal__frame--360"><span class="gal__cap">360 px</span><div class="gal__inner">
+      <section class="sources">
+        <h2>Fuentes</h2>
+        <ol>
+          <li><cite>Ley N.º 5508/2015, "De promoción, protección de la maternidad y apoyo a la
+            lactancia materna"</cite> — Biblioteca y Archivo Central del Congreso Nacional.
+            Consultado el 20 de septiembre de 2026.</li>
+          <li><cite>Ley N.º 7383/2024, permiso remunerado para controles prenatales</cite> — BACN.
+            Consultado el 20 de septiembre de 2026.</li>
+          <li><cite>Subsidio por reposo de maternidad</cite> — Instituto de Previsión Social (IPS).
+            Consultado el 20 de septiembre de 2026.</li>
+        </ol>
+        <p class="updated">Actualizado el 20 de septiembre de 2026.</p>
+      </section>
+    </div></div>
+  </section>
+
+  <!-- ================================================================== -->
+  <section class="gal" id="c-wa">
+    <h2 class="gal__h">WhatsApp share · <code>.wa-share</code></h2>
+    <p class="gal__note">Verde oscurecido (<code>--whatsapp-text</code> #0E7A3C) para llegar a AA con
+      texto blanco; el #25D366 de marca queda para el ícono cuando va sobre fondo claro. Es el único
+      botón que compite con el CTA, y por eso nunca aparece en el mismo alto de pantalla que él.</p>
+    <div class="gal__frame gal__frame--360"><span class="gal__cap">360 px</span><div class="gal__inner">
+      <div class="wa-share">
+        <span class="wa-share__label">¿Le sirve a alguien que conocés?</span>
+        <a class="btn btn--wa" href="#c-wa">
+          <svg class="btn__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15l-1.3 4.8 4.9-1.3A10 10 0 1 0 12 2Zm5.6 14.2c-.2.6-1.2 1.2-1.7 1.2-.5.1-1 .1-1.6-.1-1.6-.6-3.1-1.6-4.3-2.9-.8-.9-1.5-1.9-1.9-3-.2-.6-.1-1.2.2-1.7l.6-.7c.2-.2.5-.2.7 0l1 1.7c.1.2.1.4 0 .6l-.4.6c-.1.2-.1.4 0 .5.6 1 1.4 1.8 2.4 2.4.2.1.4.1.5 0l.6-.5c.2-.1.4-.2.6-.1l1.7 1c.2.1.3.4.2.6l-.6.4Z"/></svg>
+          Compartir por WhatsApp
+        </a>
+      </div>
+    </div></div>
+  </section>
+
+  <!-- ================================================================== -->
+  <section class="gal" id="c-weeknav">
+    <h2 class="gal__h">Week prev/next · <code>.week-nav</code></h2>
+    <p class="gal__note">Dos columnas incluso a 360&nbsp;px: son 44&nbsp;px de alto y 168 de ancho,
+      de sobra. En la semana 1 y en la 42 el lado que falta se renderiza deshabilitado, no se omite,
+      para que el layout no salte.</p>
+    <p class="gal__state">estado: ambos lados · sin anterior (semana 1)</p>
+    <div class="gal__pair">
+      <div class="gal__frame gal__frame--360"><span class="gal__cap">360 px — semana 20</span><div class="gal__inner">
+        <nav class="week-nav" aria-label="Navegación entre semanas">
+          <a class="week-nav__link" href="#c-weeknav"><small>← Anterior</small><b>Semana 19</b></a>
+          <a class="week-nav__link week-nav__link--next" href="#c-weeknav"><small>Siguiente →</small><b>Semana 21</b></a>
+        </nav>
+      </div></div>
+      <div class="gal__frame gal__frame--360"><span class="gal__cap">360 px — semana 1</span><div class="gal__inner">
+        <nav class="week-nav" aria-label="Navegación entre semanas">
+          <span class="week-nav__link" style="opacity:.45"><small>← Anterior</small><b>—</b></span>
+          <a class="week-nav__link week-nav__link--next" href="#c-weeknav"><small>Siguiente →</small><b>Semana 2</b></a>
+        </nav>
+      </div></div>
+    </div>
+  </section>
+
+  <!-- ================================================================== -->
+  <section class="gal" id="c-timeline">
+    <h2 class="gal__h">Timeline de trimestre · <code>.timeline</code></h2>
+    <p class="gal__note">Un punto por hito: control, estudio, vacuna o derecho. Los que ya pasaron
+      llevan <code>.is-past</code> y el punto se apaga.</p>
+    <div class="gal__frame gal__frame--360"><span class="gal__cap">360 px — segundo trimestre</span><div class="gal__inner">
+      <ol class="timeline">
+        <li class="is-past"><span class="timeline__wk">Semana 14</span><span class="timeline__what">Segundo control prenatal: peso, presión y altura uterina.</span></li>
+        <li class="is-past"><span class="timeline__wk">Semana 16</span><span class="timeline__what">Resultados del laboratorio del primer trimestre.</span></li>
+        <li><span class="timeline__wk">Semana 20</span><span class="timeline__what">Ecografía morfológica — la ventana buena va hasta la 24.</span></li>
+        <li><span class="timeline__wk">Semana 24</span><span class="timeline__what">Test de tolerancia a la glucosa (diabetes gestacional).</span></li>
+        <li><span class="timeline__wk">Semana 27</span><span class="timeline__what">dTpa del esquema PAI: se da entre la 27 y la 36.</span></li>
+      </ol>
+    </div></div>
+  </section>
+
+  <!-- ================================================================== -->
+  <section class="gal" id="c-calc">
+    <h2 class="gal__h">Isla calculadora · <code>.calc</code></h2>
+    <p class="gal__note">El único componente con JavaScript en todo el sitio. Acá se muestra
+      estático en sus tres estados; la versión que funciona está en
+      <a href="preview/calculadora.html">preview/calculadora.html</a>.</p>
+
+    <p class="gal__state">estado 1 — idle (sin fecha todavía)</p>
+    <div class="gal__frame gal__frame--360"><span class="gal__cap">360 px</span><div class="gal__inner">
+      <div class="calc">
+        <div class="calc__modes" role="tablist" aria-label="Con qué dato calculás">
+          <button class="calc__mode" role="tab" aria-selected="true" type="button">Mi FUM</button>
+          <button class="calc__mode" role="tab" aria-selected="false" type="button">Mi FPP</button>
+        </div>
+        <label class="field">
+          <span class="field__label">¿Cuándo empezó tu última menstruación?</span>
+          <span class="field__hint">El primer día, no el último. Si no te acordás con exactitud, poné
+            el día más probable: después lo ajustás con la ecografía.</span>
+          <input type="date" value="">
+        </label>
+        <button class="btn btn--primary btn--block btn--lg" type="button" aria-disabled="true">Calcular</button>
+      </div>
+    </div></div>
+
+    <p class="gal__state">estado 2 — resultado (FUM 2026-03-02, hoy 2026-09-20)</p>
+    <div class="gal__frame gal__frame--360"><span class="gal__cap">360 px</span><div class="gal__inner">
+      <div class="calc">
+        <div class="calc__modes" role="tablist" aria-label="Con qué dato calculás">
+          <button class="calc__mode" role="tab" aria-selected="true" type="button">Mi FUM</button>
+          <button class="calc__mode" role="tab" aria-selected="false" type="button">Mi FPP</button>
+        </div>
+        <label class="field">
+          <span class="field__label">¿Cuándo empezó tu última menstruación?</span>
+          <input type="date" value="2026-03-02">
+        </label>
+        <button class="btn btn--primary btn--block btn--lg" type="button">Calcular</button>
+        <div class="calc__result">
+          <div class="result-card">
+            <strong class="result-card__wk">29<small>estás en la semana</small></strong>
+            <ul class="result-card__rows">
+              <li><span>Gestación</span><b>28 semanas y 6 días</b></li>
+              <li><span>Fecha probable de parto</span><b>7 de diciembre de 2026</b></li>
+              <li><span>Trimestre</span><b>Tercero</b></li>
+              <li><span>Tamaño</span><b>como un coco</b></li>
+            </ul>
+          </div>
+          <aside class="cta-tool" style="margin-top:var(--space-s)">
+            <h3>Guardá tu fecha en Mi Bebé</h3>
+            <p>Se abre con el 7 de diciembre ya cargado. No hace falta cuenta.</p>
+            <a class="btn btn--primary btn--block" href="#c-calc">Guardar mi fecha</a>
+          </aside>
+        </div>
+      </div>
+    </div></div>
+
+    <p class="gal__state">estado 3 — error (fecha futura o de hace más de 42 semanas)</p>
+    <div class="gal__frame gal__frame--360"><span class="gal__cap">360 px</span><div class="gal__inner">
+      <div class="calc">
+        <div class="calc__modes" role="tablist" aria-label="Con qué dato calculás">
+          <button class="calc__mode" role="tab" aria-selected="true" type="button">Mi FUM</button>
+          <button class="calc__mode" role="tab" aria-selected="false" type="button">Mi FPP</button>
+        </div>
+        <p class="calc__error" role="alert"><span aria-hidden="true">⚠</span>
+          Esa fecha es futura. La FUM tiene que ser anterior a hoy.</p>
+        <label class="field" data-invalid="true">
+          <span class="field__label">¿Cuándo empezó tu última menstruación?</span>
+          <input type="date" value="2027-01-10" aria-invalid="true">
+        </label>
+        <button class="btn btn--primary btn--block btn--lg" type="button">Calcular</button>
+      </div>
+    </div></div>
+  </section>
+
+  <!-- ================================================================== -->
+  <section class="gal" id="c-gn">
+    <h2 class="gal__h">Guaraní strip · <code>.gn</code> (<code>lang="gn"</code>)</h2>
+    <p class="gal__note">Solo en dos lugares del sitio: el artículo de señales de alarma y el hub de
+      derechos — los dos donde el idioma puede decidir si alguien llama o no. Las cadenas salen de
+      <code>lib/derechos.ts</code> de la app (jopara, pendiente de revisión nativa), y eso se dice en
+      voz alta al pie del bloque. Sin rutas <code>/gn/</code>.</p>
+    <div class="gal__pair">
+      <div class="gal__frame gal__frame--360"><span class="gal__cap">360 px</span><div class="gal__inner">
+        <aside class="gn">
+          <span class="gn__label">Guaraníme</span>
+          <dl>
+            <dt lang="gn">Licencia maternidad: 18 semana</dt>
+            <dd>Licencia de maternidad: 18 semanas.</dd>
+            <dt lang="gn">IPS subsidio: rehupyty 100% licencia aja</dt>
+            <dd>Subsidio de IPS: cobrás el 100&nbsp;% durante la licencia.</dd>
+            <dt lang="gn">Ne mba'apo opytáva (fuero maternal)</dt>
+            <dd>Estabilidad laboral (fuero maternal).</dd>
+          </dl>
+          <p class="gn__note">Traducción en jopara tomada de Mi Bebé. Todavía no la revisó un
+            hablante nativo; si ves un error, escribinos.</p>
+        </aside>
+      </div></div>
+      <div class="gal__frame"><span class="gal__cap">1024 px</span><div class="gal__inner">
+        <aside class="gn">
+          <span class="gn__label">Guaraníme</span>
+          <dl>
+            <dt lang="gn">Control prenatal reihúva reipagá'ỹre Salud Pública-pe</dt>
+            <dd>Controles prenatales gratuitos en Salud Pública.</dd>
+            <dt lang="gn">Permiso opagapyre reho haguã ne controles-pe</dt>
+            <dd>Permiso pagado para ir a tus controles.</dd>
+          </dl>
+          <p class="gn__note">Traducción en jopara tomada de Mi Bebé, pendiente de revisión nativa.</p>
+        </aside>
+      </div></div>
+    </div>
+  </section>
+
+  <!-- ================================================================== -->
+  <section class="gal" id="c-footer">
+    <h2 class="gal__h">Footer · <code>.footer</code></h2>
+    <p class="gal__note">Petrol oscuro, tres columnas en escritorio, apiladas en móvil. La política de
+      privacidad y los términos viven en la app, no acá: el sitio nunca duplica texto legal.</p>
+  </section>
+
+  <!-- ================================================================== -->
+  <section class="gal" id="c-404">
+    <h2 class="gal__h">404 · <code>.e404</code></h2>
+    <div class="gal__frame gal__frame--360"><span class="gal__cap">360 px</span><div class="gal__inner">
+      <div class="e404">
+        <p class="e404__code">404</p>
+        <h2>Esta página no existe</h2>
+        <p>Puede que el link esté viejo o que la hayamos movido. Probá desde la semana en la que estás.</p>
+        <a class="btn btn--primary" href="#c-404">Ir a semana a semana</a>
+      </div>
+    </div></div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__cols">
+      <div class="footer__brand">
+        <a class="brand" href="#c-footer"><span class="brand__mark" aria-hidden="true">MB</span> Mi&nbsp;Bebé</a>
+        <p style="margin-top:var(--space-2xs)">La app de embarazo hecha en Paraguay. Gratis, se instala
+          desde un link y funciona sin datos.</p>
+        <a class="btn btn--primary" href="#c-footer">Abrir Mi Bebé — es gratis</a>
+      </div>
+      <div>
+        <h2>El embarazo</h2>
+        <ul>
+          <li><a href="#c-footer">Semana a semana</a></li>
+          <li><a href="#c-footer">Calculadora de embarazo</a></li>
+          <li><a href="#c-footer">Primer trimestre</a></li>
+          <li><a href="#c-footer">Segundo trimestre</a></li>
+          <li><a href="#c-footer">Tercer trimestre</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Guías</h2>
+        <ul>
+          <li><a href="#c-footer">Derechos</a></li>
+          <li><a href="#c-footer">Trámites</a></li>
+          <li><a href="#c-footer">Salud</a></li>
+          <li><a href="#c-footer">Alimentación</a></li>
+          <li><a href="#c-footer">Parto</a></li>
+          <li><a href="#c-footer">Planear</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="footer__legal">© 2026 Mi Bebé · embarazo.com.py · Asunción, Paraguay.
+      Información general, no reemplaza la consulta con tu obstetra o partera.
+      La <a href="#c-footer">política de privacidad</a> y los <a href="#c-footer">términos</a> de la
+      app están en app.embarazo.com.py.</p>
+  </div>
+</footer>
+
+</body>
+</html>
