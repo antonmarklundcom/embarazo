@@ -17,7 +17,8 @@ function e(?string $value): string
 /** Escape first; only local Markdown links with a restricted path become HTML. */
 function rich(string $text): string
 {
-    return preg_replace('~\[([^\[\]\r\n]+)\]\((/(?!/)[A-Za-z0-9/-]*(?:#[A-Za-z0-9-]+)?)\)~', '<a href="$2">$1</a>', e($text)) ?? e($text);
+    // Exact emergency destinations only; escaping still precedes link conversion.
+    return preg_replace('~\[([^\[\]\r\n]+)\]\((/(?!/)[A-Za-z0-9/-]*(?:#[A-Za-z0-9-]+)?|tel:141|tel:911)\)~', '<a href="$2">$1</a>', e($text)) ?? e($text);
 }
 
 /** es-PY measurements, preserving missing values and trimming decimal zeroes. */

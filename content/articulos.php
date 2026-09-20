@@ -2619,4 +2619,1281 @@ return [
         'updated' => '2026-09-20',
         'image' => null
     ],
+    'vacunas-en-el-embarazo' => [
+        'cluster' => 'salud',
+        'path' => '/salud/vacunas-en-el-embarazo/',
+        'title' => 'Vacunas en el embarazo: guía para Paraguay',
+        'seoTitle' => 'Vacunas en el embarazo: guía para Paraguay',
+        'metaDescription' => 'Vacunas en el embarazo en Paraguay: conocé qué protección ofrecen, cómo revisar tu carné y qué preguntar sobre el calendario PAI vigente.',
+        'kind' => 'medical',
+        'lead' => 'Durante el embarazo se revisan las vacunas contra influenza, tos convulsa, tétanos, difteria y COVID-19 según tus antecedentes y las indicaciones vigentes. Algunas protegen también al bebé mediante anticuerpos que pasan por la placenta. Llevá tu carné y confirmá el esquema actual del PAI con el equipo de salud: el momento y las vacunas que te corresponden dependen de tu historia y de la recomendación local.',
+        'sections' => [
+            [
+                'h2' => 'Por qué revisar las vacunas en el control prenatal',
+                'body' => [
+                    'El embarazo cambia la respuesta del cuerpo a algunas infecciones. Vacunarte cuando corresponde ayuda a reducir enfermedades que pueden complicar tu salud y el seguimiento del bebé. La protección no es inmediata ni completa para todas las personas, pero puede disminuir el riesgo de cuadros graves. Los anticuerpos maternos también pueden ofrecer protección al recién nacido mientras empieza su propio calendario.',
+                    'La revisión parte de lo que ya recibiste, no solamente de la semana en que estás. Llevá registros de otros embarazos, de campañas y de vacunas aplicadas fuera del país si los tenés. Si falta un comprobante, contalo: el equipo puede reconstruir antecedentes y decidir cómo continuar. No hace falta adivinar fechas ni copiar el esquema de una familiar.',
+                    'En el [hub de salud](/salud/) encontrás otras preguntas para el control. Vacunas, estudios y medición de presión cumplen funciones distintas; recibir una vacuna no reemplaza el seguimiento prenatal ni evita consultar por un síntoma nuevo.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Influenza: protección frente a la gripe',
+                'body' => [
+                    'La gripe puede causar fiebre, tos, dolores musculares y complicaciones respiratorias durante el embarazo. La vacuna inyectable inactivada contra influenza se utiliza en embarazadas y puede indicarse en cualquier trimestre. Su composición se actualiza para responder a los virus esperados; por eso haber recibido una vacuna en otro momento no resuelve por sí solo la consulta actual.',
+                    'Preguntá cuál es la vacuna correspondiente a la campaña vigente y cómo registrarla en tu carné. Si tenés una enfermedad aguda o antecedentes de reacción importante, explicalos antes de la aplicación para que evalúen tu situación. Un resfrío previo no demuestra que ya estés protegida contra influenza, porque distintas infecciones pueden producir molestias parecidas.',
+                    'Además de la vacunación, ventilar ambientes y evitar el contacto cercano con personas enfermas ayuda a reducir exposiciones. Si aparece dificultad para respirar, dolor de pecho o decaimiento marcado, buscá atención; no atribuyas automáticamente esos síntomas a una reacción de la vacuna.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Tos convulsa, tétanos y difteria: qué significa dTpa',
+                'body' => [
+                    'La dTpa reúne componentes contra tétanos, difteria y tos convulsa. La protección frente a tos convulsa interesa especialmente al comienzo de la vida, cuando el bebé todavía está completando sus propias vacunas. La vacunación materna busca favorecer el paso de anticuerpos antes del nacimiento. Por ese motivo, la oportunidad de aplicación dentro del embarazo importa además del antecedente de vacunas anteriores.',
+                    'Habitualmente se conversa esta vacuna en la segunda mitad del embarazo. La ventana concreta corresponde al esquema PAI vigente y a la evaluación de tu equipo; pedí que te indiquen la semana en tu registro prenatal. Haber recibido una vacuna antitetánica no confirma que esa aplicación haya incluido el componente contra tos convulsa: revisá el nombre completo.',
+                    'La doble bacteriana contra tétanos y difteria puede entrar en la revisión cuando falta completar antecedentes. No es intercambiable sin más con la dTpa para la protección frente a tos convulsa. Si tu carné dice solamente una abreviatura, pedí que la identifiquen antes de dar por resuelto el esquema.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'COVID-19: antecedentes y recomendación vigente',
+                'body' => [
+                    'Las recomendaciones de vacunación contra COVID-19 consideran la protección frente a enfermedad grave, las aplicaciones previas y las vacunas disponibles. El embarazo es un dato relevante al evaluar riesgos. Contá si tuviste una infección reciente y llevá las fechas de vacunación: ambas cosas pueden influir en la organización del esquema, sin que una infección anterior garantice protección permanente.',
+                    'No hay una fecha única que puedas deducir solamente del trimestre. Confirmá con el equipo la indicación vigente para embarazadas y qué presentación corresponde. Si encontrás información de campañas anteriores, revisá su fecha antes de usarla para planificar. Un cambio de recomendación puede responder a nueva evidencia o a cambios en los productos disponibles.',
+                    'Si estás con síntomas respiratorios, avisá al servicio antes de concurrir para recibir indicaciones de atención. La consulta por síntomas y la decisión sobre vacunación son conversaciones relacionadas, pero una no sustituye a la otra.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Otras vacunas y situaciones particulares',
+                'body' => [
+                    'La revisión también puede incluir hepatitis B según antecedentes y riesgo de exposición. Otras vacunas, como la protección materna frente al virus respiratorio sincitial, dependen de indicaciones, incorporación local y ventanas específicas. Preguntá si corresponde evaluarlas en tu caso; su existencia no demuestra que formen parte del calendario disponible en Paraguay para todas las embarazadas.',
+                    'Las vacunas vivas atenuadas, como algunas utilizadas contra sarampión, rubéola o varicela, generalmente se planifican fuera del embarazo. Si recibiste una antes de saber que estabas embarazada, comunicá cuál fue y cuándo, para una evaluación individual. Ese antecedente por sí solo no permite sacar conclusiones sobre el bebé.',
+                    'Un viaje, una exposición laboral o una enfermedad previa pueden requerir una conversación adicional. Llevá destino, fechas y antecedentes al control. La tabla te ayuda a separar las preguntas sin convertir una orientación general en un calendario personal.'
+                ],
+                'items' => [],
+                'table' => [
+                    'head' => [
+                        'Vacuna o grupo',
+                        'Qué revisar con el equipo'
+                    ],
+                    'rows' => [
+                        [
+                            'Influenza',
+                            'Campaña actual y vacuna inactivada; puede indicarse en cualquier trimestre'
+                        ],
+                        [
+                            'dTpa',
+                            'Ventana gestacional vigente y protección frente a tos convulsa'
+                        ],
+                        [
+                            'Tétanos y difteria',
+                            'Antecedentes completos y necesidad de completar esquema'
+                        ],
+                        [
+                            'COVID-19',
+                            'Aplicaciones previas, infección reciente e indicación actual'
+                        ],
+                        [
+                            'Otras vacunas',
+                            'Riesgos individuales e incorporación al esquema local'
+                        ]
+                    ]
+                ]
+            ],
+            [
+                'h2' => 'Después de la aplicación y registro',
+                'body' => [
+                    'Podés notar dolor en el brazo o malestar transitorio después de algunas vacunas. Antes de salir, preguntá qué reacciones se esperan, cómo comunicar una molestia y dónde consultar. Dificultad para respirar, desmayo o hinchazón de labios y cara requieren atención inmediata. Revisá [las señales de alarma](/salud/senales-de-alarma/) para reconocer otras situaciones que necesitan evaluación durante el embarazo.',
+                    'Guardá la constancia con nombre de vacuna y fecha, y pedí que el registro prenatal quede actualizado. Si cambiás de servicio, llevá esa información. Una anotación clara evita confundir una aplicación realizada con una indicación pendiente y ayuda a coordinar los próximos controles.'
+                ],
+                'items' => [],
+                'table' => null
+            ]
+        ],
+        'steps' => [
+            [
+                'title' => 'Reuní los antecedentes',
+                'body' => [
+                    'Llevá tu carné de vacunas y registro prenatal, y anotá reacciones previas que quieras conversar.'
+                ]
+            ],
+            [
+                'title' => 'Confirmá el calendario personal',
+                'body' => [
+                    'Pedí que te indiquen qué corresponde ahora y qué queda para otro momento del embarazo o después del nacimiento.'
+                ]
+            ],
+            [
+                'title' => 'Conservá la constancia',
+                'body' => [
+                    'Revisá que la aplicación figure con su nombre y fecha para el próximo control.'
+                ]
+            ]
+        ],
+        'appHandoff' => [
+            'text' => 'Mi Bebé tiene una guía de vacunas y un resumen prenatal. Usalos para preparar tus preguntas y llevá el carné al equipo que confirma tu esquema.',
+            'medium' => 'article',
+            'extra' => []
+        ],
+        'faq' => [
+            [
+                'q' => '¿Puedo vacunarme en el primer trimestre?',
+                'a' => 'Algunas vacunas, como la influenza inactivada, pueden indicarse en cualquier trimestre. Otras tienen una ventana específica; revisá cada una con tu equipo.'
+            ],
+            [
+                'q' => '¿La antitetánica siempre incluye tos convulsa?',
+                'a' => 'No. El nombre y los componentes importan: la dTpa incluye tos convulsa, mientras que otras formulaciones contra tétanos y difteria no.'
+            ],
+            [
+                'q' => '¿Qué hago si perdí mi carné?',
+                'a' => 'Contá qué recordás y dónde te vacunaste. El equipo evaluará cómo recuperar antecedentes y organizar el esquema sin inventar fechas.'
+            ]
+        ],
+        'related' => [
+            'senales-de-alarma',
+            'dengue-en-el-embarazo'
+        ],
+        'weeks' => [
+            12,
+            20,
+            28,
+            32
+        ],
+        'appGuideSlug' => 'vacunas-en-el-embarazo-pai',
+        'guarani' => [],
+        'reviewedBy' => null,
+        'reviewedAt' => null,
+        'validAsOf' => null,
+        'sources' => [
+            [
+                'title' => 'Recomendaciones de la OMS sobre atención prenatal para una experiencia positiva del embarazo',
+                'publisher' => 'Organización Mundial de la Salud (OMS)',
+                'url' => null,
+                'accessed' => null
+            ],
+            [
+                'title' => 'Orientaciones sobre atención prenatal y salud materna',
+                'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)',
+                'url' => null,
+                'accessed' => null
+            ],
+            [
+                'title' => 'Orientaciones sobre vacunación durante el embarazo',
+                'publisher' => 'Programa Ampliado de Inmunizaciones (PAI), MSPBS',
+                'url' => null,
+                'accessed' => null
+            ]
+        ],
+        'updated' => '2026-09-20',
+        'image' => null
+    ],
+    'dengue-en-el-embarazo' => [
+        'cluster' => 'salud',
+        'path' => '/salud/dengue-en-el-embarazo/',
+        'title' => 'Dengue, zika y chikungunya en el embarazo',
+        'seoTitle' => 'Dengue, zika y chikungunya en el embarazo',
+        'metaDescription' => 'Dengue, zika y chikungunya en el embarazo: cómo prevenir picaduras, eliminar criaderos y reconocer síntomas que necesitan atención médica.',
+        'kind' => 'medical',
+        'lead' => 'Si estás embarazada y tenés fiebre, dolor de cuerpo o una erupción, consultá sin demora e informá tu embarazo. Dengue, zika y chikungunya pueden parecerse y necesitan evaluación. Para prevenirlos, combiná repelente usado según su etiqueta, ropa que cubra la piel, mosquiteros y eliminación de agua acumulada. Dolor abdominal fuerte, sangrado, vómitos persistentes o dificultad para respirar requieren atención urgente.',
+        'sections' => [
+            [
+                'h2' => 'Tres infecciones que pueden parecerse',
+                'body' => [
+                    'Dengue, zika y chikungunya se transmiten principalmente por mosquitos Aedes. La fiebre, los dolores y las manchas en la piel pueden aparecer en más de una de estas infecciones. No es posible distinguirlas con seguridad por una foto de la erupción o por el relato de alguien del barrio. La evaluación toma en cuenta tus síntomas, su comienzo y la circulación local.',
+                    'Durante el embarazo, el dengue puede requerir vigilancia estrecha porque puede complicar la salud materna. El zika merece atención por su posible efecto sobre el desarrollo del bebé. El chikungunya suele provocar dolor articular importante y tiene consideraciones especiales cerca del nacimiento. Tener síntomas compatibles no significa que alguna de estas complicaciones vaya a ocurrir, pero sí justifica una consulta oportuna.',
+                    'Al comunicarte, explicá de cuántas semanas estás, desde cuándo te sentís mal y si hubo viajes o personas enfermas en tu entorno. Si ya te evaluaron, llevá los resultados y las indicaciones recibidas. La información del [hub de salud](/salud/) puede ayudarte con otras dudas del seguimiento prenatal.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Repelente: usarlo de manera que proteja',
+                'body' => [
+                    'Los repelentes con principios activos como DEET o icaridina pueden utilizarse durante el embarazo siguiendo las indicaciones del producto. Revisá que la etiqueta identifique el principio activo y la forma de aplicación. La duración de protección varía entre formulaciones; repetirlo a una hora fija para todos los productos puede dejar intervalos sin protección o llevar a usos innecesarios.',
+                    'Aplicalo en la piel expuesta según la etiqueta, evitando ojos, boca, heridas y zonas irritadas. Para la cara, primero ponelo en las manos y después distribuí con cuidado. No lo apliques debajo de la ropa. Si también usás protector solar, colocá primero el protector y luego el repelente, respetando las instrucciones de ambos.',
+                    'Una pulsera, un perfume o un preparado casero no ofrecen la misma protección demostrada que un repelente adecuado. Tampoco conviene asumir que un producto es seguro y eficaz por llevar la palabra natural. Si una aplicación causa irritación, lavá la zona y consultá por una alternativa. Compartí la etiqueta con el equipo si tenés dudas sobre el producto que conseguís.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Barreras en casa, en el trabajo y durante la siesta',
+                'body' => [
+                    'El mosquito puede picar durante el día; protegerte solamente de noche deja parte de la exposición sin cubrir. Usá prendas livianas que cubran brazos y piernas cuando sea posible, sin aumentar demasiado el calor. Las telas mosquiteras en puertas y ventanas y el mosquitero al descansar ayudan a reducir el contacto, también durante la siesta.',
+                    'Revisá que el mosquitero esté cerrado y sin roturas, y que no queden espacios por donde entren mosquitos. En el trabajo, identificá si hay recipientes con agua cerca del lugar donde pasás varias horas. La prevención funciona mejor cuando incluye los ambientes de todos los días, no solo el dormitorio.',
+                    'Si alguien en casa está enfermo, evitar nuevas picaduras también importa. El mosquito puede adquirir el virus al picar a una persona infectada y transmitirlo después. Organizar las barreras y el control de criaderos es una tarea compartida: no hace falta que la embarazada haga sola el trabajo del patio.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Dónde buscar agua acumulada',
+                'body' => [
+                    'Los criaderos pueden ser pequeños: un plato de maceta, una botella cortada o el pliegue de una lona alcanza para retener agua. Revisá el patio y los espacios interiores con recipientes. Después de la lluvia, recorré los lugares donde suele juntarse agua. Los huevos pueden quedar adheridos a las paredes, por eso vaciar sin limpiar no siempre resuelve el problema.',
+                    'Cepillá los recipientes que se usan de nuevo y mantené tapados los depósitos de agua. Los bebederos de animales necesitan recambio de agua y limpieza. Eliminá o guardá bajo techo los objetos que no se usan; una cubierta o un balde dado vuelta puede volver a juntar agua si queda mal apoyado.',
+                    'Para canaletas altas, tanques pesados o acumulaciones difíciles de mover, pedí ayuda. No te expongas a una caída ni cargues objetos incómodos para completar la limpieza. Una revisión regular y después de lluvias es más útil que una limpieza grande aislada.'
+                ],
+                'items' => [],
+                'table' => [
+                    'head' => [
+                        'Lugar',
+                        'Acción práctica'
+                    ],
+                    'rows' => [
+                        [
+                            'Platos de macetas y floreros',
+                            'Evitar agua estancada y limpiar las paredes'
+                        ],
+                        [
+                            'Bebederos',
+                            'Cambiar el agua y cepillar el recipiente'
+                        ],
+                        [
+                            'Baldes, botellas y cubiertas',
+                            'Vaciar, limpiar y guardar protegidos de la lluvia'
+                        ],
+                        [
+                            'Tanques y depósitos',
+                            'Mantener bien tapados'
+                        ],
+                        [
+                            'Canaletas y lonas',
+                            'Revisar acumulaciones con ayuda si hay altura o peso'
+                        ]
+                    ]
+                ]
+            ],
+            [
+                'h2' => 'Cuándo consultar y qué cambios comunicar',
+                'body' => [
+                    'La fiebre durante el embarazo necesita evaluación. También consultá por erupción, dolor detrás de los ojos, dolores musculares o articulares importantes, aunque no aparezcan todos juntos. Contá si podés beber, si orinás menos de lo habitual y si sentís mareos. El equipo decidirá qué estudios corresponden según el momento de la enfermedad; un resultado aislado no se interpreta sin ese contexto.',
+                    'El descenso de la fiebre no siempre significa que el dengue terminó. Si después aparecen dolor abdominal intenso, vómitos persistentes, sangrado, somnolencia marcada, debilidad importante o dificultad para respirar, buscá atención urgente. No esperes un nuevo pico de fiebre para volver a consultar. Estas situaciones están entre [las señales de alarma](/salud/senales-de-alarma/).',
+                    'Si recibís atención ambulatoria, pedí instrucciones claras sobre el próximo control y cómo consultar ante cambios. Si no podés retener líquidos, eso también requiere atención. Evitá que una dificultad para conseguir un estudio retrase la evaluación de un síntoma de alarma.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Zika, contactos y seguimiento del embarazo',
+                'body' => [
+                    'El zika también puede transmitirse por vía sexual. Si vos o tu pareja tuvieron síntomas, una exposición posible o un viaje a una zona con transmisión, conversá sobre prevención sexual y seguimiento durante el embarazo. El uso de preservativo reduce la exposición por esa vía; la orientación concreta depende de los antecedentes y del contexto.',
+                    'Si se sospecha alguna de estas infecciones, el equipo puede ajustar los controles maternos y del bebé. Una ecografía o un análisis responden preguntas diferentes y pueden necesitar seguimiento. Llevá una cronología sencilla de síntomas y consultas para que los profesionales puedan relacionar los resultados con la evolución.'
+                ],
+                'items' => [],
+                'table' => null
+            ]
+        ],
+        'steps' => [
+            [
+                'title' => 'Recorré los recipientes',
+                'body' => [
+                    'Revisá dónde se acumula agua y pedí ayuda con objetos pesados o lugares altos.'
+                ]
+            ],
+            [
+                'title' => 'Combiná protección',
+                'body' => [
+                    'Prepará ropa liviana que cubra la piel, repelente según etiqueta y mosquitero para descansar.'
+                ]
+            ],
+            [
+                'title' => 'Comunicá síntomas',
+                'body' => [
+                    'Ante fiebre o síntomas compatibles, consultá sin demora e informá las semanas de embarazo.'
+                ]
+            ]
+        ],
+        'appHandoff' => [
+            'text' => 'La guía de dengue, zika y chikungunya de Mi Bebé acompaña estas medidas de prevención. El resumen prenatal puede ayudarte a ordenar antecedentes para la consulta.',
+            'medium' => 'article',
+            'extra' => []
+        ],
+        'faq' => [
+            [
+                'q' => '¿Solo tengo que cuidarme de noche?',
+                'a' => 'No. Los mosquitos Aedes también pican durante el día. Repelente, ropa, mosquiteros y control de criaderos se complementan.'
+            ],
+            [
+                'q' => '¿Que baje la fiebre significa que ya pasó?',
+                'a' => 'No siempre. En dengue pueden aparecer signos de alarma cuando la fiebre baja; dolor fuerte, sangrado o vómitos persistentes requieren atención urgente.'
+            ],
+            [
+                'q' => '¿Puedo saber cuál infección tengo por las manchas?',
+                'a' => 'No. Las erupciones y otros síntomas se superponen; la evaluación clínica y los estudios indicados ayudan a aclararlo.'
+            ]
+        ],
+        'related' => [
+            'senales-de-alarma',
+            'vacunas-en-el-embarazo'
+        ],
+        'weeks' => [
+            12,
+            20,
+            30
+        ],
+        'appGuideSlug' => 'dengue-zika-chikungunya-embarazo',
+        'guarani' => [],
+        'reviewedBy' => null,
+        'reviewedAt' => null,
+        'validAsOf' => null,
+        'sources' => [
+            [
+                'title' => 'Recomendaciones de la OMS sobre atención prenatal para una experiencia positiva del embarazo',
+                'publisher' => 'Organización Mundial de la Salud (OMS)',
+                'url' => null,
+                'accessed' => null
+            ],
+            [
+                'title' => 'Orientaciones sobre atención prenatal y salud materna',
+                'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)',
+                'url' => null,
+                'accessed' => null
+            ],
+            [
+                'title' => 'Orientaciones sobre dengue, zika y chikungunya',
+                'publisher' => 'Organización Panamericana de la Salud (OPS/OMS)',
+                'url' => null,
+                'accessed' => null
+            ]
+        ],
+        'updated' => '2026-09-20',
+        'image' => null
+    ],
+    'senales-de-alarma' => [
+        'cluster' => 'salud',
+        'path' => '/salud/senales-de-alarma/',
+        'title' => 'Señales de alarma en el embarazo',
+        'seoTitle' => 'Señales de alarma en el embarazo',
+        'metaDescription' => 'Reconocé señales de alarma en el embarazo: sangrado, pérdida de líquido, dolor intenso y menos movimientos. Qué informar al buscar atención.',
+        'kind' => 'medical',
+        'lead' => 'Buscá atención inmediata ante sangrado vaginal, pérdida de líquido, dolor abdominal fuerte, dolor de cabeza intenso con cambios de visión, dificultad para respirar, convulsiones o menos movimientos del bebé de lo habitual. La fiebre y los vómitos que impiden retener líquidos también necesitan atención sin demora. En una emergencia, llamá al [141 SEME](tel:141) o al [911](tel:911). No esperes al próximo control prenatal para consultar.',
+        'sections' => [
+            [
+                'h2' => 'Síntomas por los que hay que pedir ayuda',
+                'body' => [
+                    'Sangrado vaginal, salida de líquido por la vagina, dolor fuerte en la panza y contracciones dolorosas antes de término necesitan evaluación. También son señales de alarma un dolor de cabeza intenso o persistente, visión borrosa o luces, hinchazón brusca de cara o manos, dolor de pecho, falta de aire importante, desmayo o convulsiones. Si los movimientos del bebé disminuyen respecto de su patrón habitual, contactá a tu servicio de inmediato.',
+                    'La fiebre, los vómitos repetidos que no te dejan beber, una debilidad marcada o sentirte muy enferma son otros motivos para consultar sin demora. Ardor al orinar, especialmente acompañado de fiebre o dolor en la espalda, requiere evaluación. No hace falta presentar varios síntomas a la vez ni alcanzar una intensidad insoportable para pedir ayuda.',
+                    'En una emergencia llamá al [141 SEME](tel:141) o al [911](tel:911) y explicá que estás embarazada. Si estás acompañando a alguien, describí lo que observás con palabras sencillas. Seguí las indicaciones del servicio de emergencia. La prioridad es acceder a atención, no terminar de leer esta página ni reunir todos los documentos.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Sangrado o pérdida de líquido',
+                'body' => [
+                    'El sangrado puede tener distintas causas según el momento del embarazo. Su cantidad visible no alcanza para saber qué está pasando. Si aparece, buscá evaluación y contá cuándo empezó, si hay dolor, mareo o debilidad, y si continúa. Sangrado abundante, desmayo o dolor intenso son una emergencia; pedí ayuda para trasladarte y no conduzcas si te sentís mal.',
+                    'La pérdida de líquido puede sentirse como un chorro o como humedad que vuelve una y otra vez. No siempre es fácil distinguirla de orina o flujo en casa. Consultá de inmediato para que evalúen si corresponde a líquido amniótico. Podés usar una toalla higiénica externa para observar el color mientras vas a la atención; evitá introducir objetos en la vagina.',
+                    'Si recordás la hora de inicio, el color o el olor, comunicalos. No intentes comprobar en casa la causa mediante pruebas improvisadas. Que no haya dolor no descarta que la pérdida necesite revisión. Llevá tu registro prenatal si está a mano, sin demorar la salida para buscarlo.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Dolor de cabeza, visión y dolor en la parte alta de la panza',
+                'body' => [
+                    'Un dolor de cabeza fuerte que no es habitual, visión borrosa, destellos o dolor intenso en la parte superior del abdomen pueden acompañar problemas de presión. La hinchazón brusca de cara o manos también merece atención, especialmente si aparece junto con otros síntomas. Consultá de inmediato aunque nunca antes te hayan dicho que tenés presión alta.',
+                    'La [presión alta y preeclampsia](/salud/presion-alta-y-preeclampsia/) pueden aparecer sin molestias claras; por eso la medición en los controles sigue siendo importante. Una lectura de presión que parezca normal en casa no debe usarse para descartar un síntoma de alarma. Tampoco hace falta esperar a encontrar un tensiómetro antes de pedir ayuda.',
+                    'Si hay una convulsión, quien te acompañe debe llamar a emergencias, apartar objetos peligrosos y seguir las instrucciones recibidas. No debe sujetarte con fuerza ni introducir nada en tu boca. La asistencia profesional es urgente; informar el embarazo ayuda a orientar la respuesta.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Cambios en los movimientos del bebé',
+                'body' => [
+                    'A medida que reconocés los movimientos, vas conociendo un patrón propio de tu bebé. No todos se mueven de la misma forma ni a las mismas horas. Lo importante es notar un cambio respecto de lo habitual para ese embarazo. Una reducción clara, ausencia de movimientos que antes sentías o una preocupación por ese cambio requieren contacto inmediato con tu servicio.',
+                    'No esperes hasta el día siguiente ni retrases la consulta para probar comidas, bebidas frías o una sesión de conteo. Un dispositivo casero que parece detectar latidos tampoco permite confirmar que todo esté bien. Si te preocupa un cambio, la evaluación corresponde al equipo que puede revisar tu embarazo.',
+                    'Hacia el final, el tipo de movimiento puede sentirse distinto por el espacio, pero no se considera normal dejar de sentir al bebé porque se acerca el parto. Si ya consultaste y vuelve a ocurrir una disminución, volvé a comunicarte. Haber tenido una evaluación tranquilizadora antes no invalida una preocupación nueva.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Fiebre, vómitos, respiración y dolor al orinar',
+                'body' => [
+                    'La fiebre puede acompañar infecciones que requieren atención durante el embarazo. Informá si además tenés tos, dolor al orinar, erupción o dolor de cuerpo. En Paraguay, una consulta por fiebre también puede necesitar valorar [dengue y otras infecciones transmitidas por mosquitos](/salud/dengue-en-el-embarazo/). No esperes a identificar la causa por tu cuenta.',
+                    'Si vomitás repetidamente y no retenés líquidos, orinás muy poco o estás muy mareada, buscá atención. Las náuseas comunes no explican automáticamente cualquier episodio de vómitos. Dolor abdominal fuerte, sangre o decaimiento marcado junto con vómitos refuerzan la necesidad de evaluación urgente.',
+                    'La falta de aire súbita, el dolor de pecho o una dificultad importante para respirar son una emergencia. También necesita evaluación urgente una pierna que se hincha de forma llamativa y duele, especialmente de un solo lado. No atribuyas estos cambios solamente al peso de la panza o al cansancio.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Qué decir al pedir atención y cómo acompañarte',
+                'body' => [
+                    'Empezá por el síntoma principal y las semanas de embarazo: “Estoy embarazada y tengo sangrado desde hace un rato”. Después agregá si estás sola, dónde estás y si hay dificultad para moverte o respirar. Una dirección clara y una referencia del lugar ayudan cuando pedís asistencia. Si no sabés un dato, decilo sin intentar adivinarlo.',
+                    'Tené a mano el carné, resultados y lista de indicaciones si podés acceder a ellos fácilmente. Pedí a una persona de confianza que te acompañe o ayude con otras personas a cargo. Si el primer contacto no responde y hay una alarma, buscá otra vía de atención de urgencia. Los síntomas también pueden necesitar atención después del parto; informá si el nacimiento fue reciente.'
+                ],
+                'items' => [],
+                'table' => null
+            ]
+        ],
+        'steps' => [
+            [
+                'title' => 'Pedí ayuda ahora',
+                'body' => [
+                    'Contactá al servicio de urgencias. Ante una emergencia, llamá al 141 SEME o al 911.'
+                ]
+            ],
+            [
+                'title' => 'Explicá lo principal',
+                'body' => [
+                    'Decí dónde estás, el síntoma que comenzó y las semanas de embarazo que conocés.'
+                ]
+            ],
+            [
+                'title' => 'Organizá compañía',
+                'body' => [
+                    'Si te sentís mal, pedí ayuda para llegar a la atención y seguí las instrucciones del servicio.'
+                ]
+            ]
+        ],
+        'appHandoff' => [
+            'text' => 'Mi Bebé reúne señales de alarma y los números de emergencia en su sección de emergencia. Tené además los contactos de tu equipo guardados en el teléfono para ubicarlos rápidamente.',
+            'medium' => 'article',
+            'extra' => []
+        ],
+        'faq' => [
+            [
+                'q' => '¿Tengo que esperar al próximo control?',
+                'a' => 'No. Ante una señal de alarma buscá atención en el momento, aunque tu control programado sea pronto.'
+            ],
+            [
+                'q' => '¿Espero a que el bebé se mueva después de tomar algo?',
+                'a' => 'No retrases la consulta con pruebas caseras. Si se mueve menos de lo habitual, contactá a tu servicio inmediatamente.'
+            ],
+            [
+                'q' => '¿Puedo consultar aunque ya me hayan revisado?',
+                'a' => 'Sí. Un síntoma nuevo, persistente o que empeora merece una nueva comunicación, aunque una evaluación anterior haya sido tranquilizadora.'
+            ],
+            [
+                'q' => '¿A qué número llamo en una emergencia?',
+                'a' => 'En Paraguay, 141 SEME o 911. Explicá el síntoma, que estás embarazada y dónde estás.'
+            ]
+        ],
+        'related' => [
+            'presion-alta-y-preeclampsia',
+            'dengue-en-el-embarazo',
+            'diabetes-gestacional'
+        ],
+        'weeks' => [
+            8,
+            20,
+            28,
+            36
+        ],
+        'appGuideSlug' => 'senales-de-alarma-embarazo',
+        'guarani' => [],
+        'reviewedBy' => null,
+        'reviewedAt' => null,
+        'validAsOf' => null,
+        'sources' => [
+            [
+                'title' => 'Recomendaciones de la OMS sobre atención prenatal para una experiencia positiva del embarazo',
+                'publisher' => 'Organización Mundial de la Salud (OMS)',
+                'url' => null,
+                'accessed' => null
+            ],
+            [
+                'title' => 'Orientaciones sobre atención prenatal y salud materna',
+                'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)',
+                'url' => null,
+                'accessed' => null
+            ],
+            [
+                'title' => 'Mi Bebé: sección pública de emergencia, 141 SEME y 911',
+                'publisher' => 'Mi Bebé',
+                'url' => null,
+                'accessed' => null
+            ]
+        ],
+        'updated' => '2026-09-20',
+        'image' => null
+    ],
+    'presion-alta-y-preeclampsia' => [
+        'cluster' => 'salud',
+        'path' => '/salud/presion-alta-y-preeclampsia/',
+        'title' => 'Presión alta y preeclampsia en el embarazo',
+        'seoTitle' => 'Presión alta y preeclampsia en el embarazo',
+        'metaDescription' => 'Presión alta y preeclampsia en el embarazo: entendé para qué sirven los controles, qué síntomas requieren atención y cómo llevar tus registros.',
+        'kind' => 'medical',
+        'lead' => 'La presión alta en el embarazo puede no dar síntomas y se detecta con mediciones en los controles. La preeclampsia es una complicación que puede afectar distintos órganos y necesita seguimiento médico. Dolor de cabeza fuerte, cambios de visión, dolor intenso en la parte alta de la panza o falta de aire requieren atención inmediata. No esperes a medir tu presión para consultar por estas señales.',
+        'sections' => [
+            [
+                'h2' => 'Presión alta no significa siempre lo mismo',
+                'body' => [
+                    'La presión arterial expresa la fuerza con que la sangre circula por las arterias. Durante el control prenatal se mide para identificar cambios que pueden necesitar seguimiento. Algunas personas ya tenían hipertensión antes del embarazo; otras presentan valores elevados durante la gestación. Conocer esa diferencia ayuda al equipo a interpretar las mediciones y planificar controles.',
+                    'La preeclampsia suele aparecer a partir de la segunda mitad del embarazo y puede afectar órganos como riñones o hígado, además de la circulación de la placenta. No se define solamente por tener hinchados los pies. La evaluación combina presión, síntomas, análisis y el estado del bebé. También puede manifestarse después del nacimiento, por lo que las molestias nuevas en el posparto merecen atención.',
+                    'Sentirte bien no confirma que la presión esté dentro de lo esperado. Por eso los controles siguen siendo útiles cuando no tenés molestias. Si necesitás organizar el seguimiento, podés revisar las preguntas sobre [control prenatal](/tramites/control-prenatal-ips-vs-privado/) y llevar tus resultados al servicio donde te atendés.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Qué antecedentes conviene contar',
+                'body' => [
+                    'Informá si tuviste presión alta, preeclampsia o problemas renales en otro embarazo, si ya recibías tratamiento antes de quedar embarazada o si hay enfermedades crónicas que el equipo todavía no conoce. Los antecedentes familiares también pueden aportar información. No tener antecedentes no elimina la posibilidad de presentar un problema durante este embarazo.',
+                    'Si el embarazo es múltiple o hay otras condiciones que requieren seguimiento, preguntá cómo cambia tu plan de controles. El equipo puede indicar medidas preventivas o estudios según el conjunto de factores. No copies tratamientos ni recomendaciones de otra embarazada: la prevención se decide con tu historia clínica y necesita supervisión.',
+                    'Contá también qué medicamentos y suplementos usás, incluso si vienen de una indicación anterior o los comprás sin receta. El propósito es revisar su adecuación al embarazo y coordinar a quienes te atienden. No cambies por tu cuenta una indicación al leer un resultado o al sentirte mejor.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Cómo se obtiene una medición útil',
+                'body' => [
+                    'Una medición de presión puede variar con la actividad reciente, la postura, el tamaño del brazalete y la técnica. En consulta suelen pedirte que descanses sentada, con la espalda apoyada y el brazo sostenido. El brazalete se coloca sobre el brazo descubierto y debe tener un tamaño adecuado. Hablar durante la medición puede interferir con el registro.',
+                    'Si te indicaron medir en casa, pedí que revisen el aparato y te enseñen a usarlo. Anotá fecha, hora, ambos valores y cualquier síntoma, tal como aparecen. No selecciones solamente el valor más bajo de varias mediciones para mostrarlo después. El patrón completo ayuda a interpretar lo que está ocurriendo.',
+                    'Antes de salir del control, acordá qué hacer con un resultado fuera del rango que te hayan indicado y a qué contacto avisar. Si aparece una señal de alarma, la conducta es buscar atención inmediata, aunque una medición doméstica parezca habitual. Repetir muchas veces el registro no reemplaza esa evaluación.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Para qué sirven la orina, la sangre y las ecografías',
+                'body' => [
+                    'Si hay sospecha de un trastorno hipertensivo, pueden solicitar estudios de orina y sangre. La orina ayuda a evaluar pérdida de proteínas; los análisis pueden aportar información sobre riñones, hígado y plaquetas. Ningún papel aislado resume toda la situación. Es importante que alguien del equipo integre los resultados con las mediciones y los síntomas.',
+                    'El seguimiento del bebé puede incluir evaluación del crecimiento, del líquido amniótico y, cuando corresponde, de la circulación. Que te indiquen más controles no significa por sí solo que haya ocurrido un daño. Significa que necesitan observar aspectos concretos para tomar decisiones con información actualizada.',
+                    'Pedí que te expliquen qué busca cada estudio, cuándo revisarán el resultado y cómo lo recibirás. Si te atendés en más de un lugar, llevá los informes completos. Un cambio en el seguimiento puede requerir coordinación entre servicios; conservar una cronología ayuda a evitar que una indicación importante quede sin revisar.'
+                ],
+                'items' => [],
+                'table' => [
+                    'head' => [
+                        'Control',
+                        'Qué aporta'
+                    ],
+                    'rows' => [
+                        [
+                            'Presión arterial',
+                            'Valores y evolución en el tiempo'
+                        ],
+                        [
+                            'Orina',
+                            'Información sobre pérdida de proteínas cuando se investiga'
+                        ],
+                        [
+                            'Sangre',
+                            'Evaluación de órganos y plaquetas según indicación'
+                        ],
+                        [
+                            'Control del bebé',
+                            'Crecimiento y bienestar según la situación clínica'
+                        ]
+                    ]
+                ]
+            ],
+            [
+                'h2' => 'Señales que requieren evaluación inmediata',
+                'body' => [
+                    'Dolor de cabeza intenso o persistente, luces o visión borrosa, dolor fuerte en la parte alta del abdomen, falta de aire y una hinchazón brusca de cara o manos necesitan consulta urgente. Una convulsión es una emergencia. No esperes que aparezcan todos los síntomas ni que alguien confirme una presión alta antes de pedir ayuda.',
+                    'Si el bebé se mueve menos de lo habitual, contactá al servicio inmediatamente. Esto merece evaluación aunque estés haciendo controles por presión y el último haya resultado tranquilizador. En [las señales de alarma](/salud/senales-de-alarma/) encontrás cómo comunicar el síntoma y pedir atención.',
+                    'Después del parto, avisá que el nacimiento fue reciente si consultás por dolor de cabeza fuerte, alteraciones visuales, dolor abdominal o falta de aire. El final del embarazo no elimina de inmediato todos los riesgos relacionados con la presión. Conservá el plan de seguimiento que te hayan indicado al alta.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Cómo organizar el seguimiento cotidiano',
+                'body' => [
+                    'Si el equipo indica controles más frecuentes, acordá cómo vas a llegar y quién puede acompañarte. Separá en tu registro las mediciones, los síntomas y las preguntas para la próxima consulta. Anotá también cambios de indicación para no mezclar un plan anterior con el actual. Si algo resulta difícil de cumplir, comunicalo para buscar una alternativa concreta.',
+                    'La necesidad de internación o de adelantar el nacimiento depende de la gravedad, las semanas y la evaluación materna y fetal. No hay una decisión universal que se pueda anticipar desde un único valor. Pedí una explicación del motivo de cada cambio y de qué se va a vigilar. Entender el plan ayuda a participar sin cargar con la tarea de interpretar sola los resultados.'
+                ],
+                'items' => [],
+                'table' => null
+            ]
+        ],
+        'steps' => [],
+        'appHandoff' => [
+            'text' => 'Mi Bebé incluye un resumen prenatal para acompañar tus controles. Usalo junto con los registros que te haya pedido el equipo; una app no interpreta ni reemplaza la medición clínica.',
+            'medium' => 'article',
+            'extra' => []
+        ],
+        'faq' => [
+            [
+                'q' => '¿La presión alta siempre da dolor de cabeza?',
+                'a' => 'No. Puede no provocar síntomas; por eso se mide durante el control prenatal.'
+            ],
+            [
+                'q' => '¿Los pies hinchados confirman preeclampsia?',
+                'a' => 'No. La hinchazón aislada no establece el diagnóstico. La aparición brusca, especialmente en cara o manos o junto con otros síntomas, necesita evaluación.'
+            ],
+            [
+                'q' => '¿Puede aparecer después del parto?',
+                'a' => 'Sí. Ante síntomas de alarma después del nacimiento, buscá atención e informá que tuviste un parto reciente.'
+            ]
+        ],
+        'related' => [
+            'senales-de-alarma',
+            'diabetes-gestacional'
+        ],
+        'weeks' => [
+            20,
+            28,
+            36
+        ],
+        'appGuideSlug' => null,
+        'guarani' => [],
+        'reviewedBy' => null,
+        'reviewedAt' => null,
+        'validAsOf' => null,
+        'sources' => [
+            [
+                'title' => 'Recomendaciones de la OMS sobre atención prenatal para una experiencia positiva del embarazo',
+                'publisher' => 'Organización Mundial de la Salud (OMS)',
+                'url' => null,
+                'accessed' => null
+            ],
+            [
+                'title' => 'Orientaciones sobre atención prenatal y salud materna',
+                'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)',
+                'url' => null,
+                'accessed' => null
+            ]
+        ],
+        'updated' => '2026-09-20',
+        'image' => null
+    ],
+    'diabetes-gestacional' => [
+        'cluster' => 'salud',
+        'path' => '/salud/diabetes-gestacional/',
+        'title' => 'Diabetes gestacional: estudios y cuidados',
+        'seoTitle' => 'Diabetes gestacional: estudios y cuidados',
+        'metaDescription' => 'Diabetes gestacional: para qué se estudia la glucosa, cómo preparar la consulta y qué cambios de alimentación, movimiento y seguimiento se evalúan.',
+        'kind' => 'medical',
+        'lead' => 'La diabetes gestacional es una alteración de la glucosa que se detecta durante el embarazo y muchas veces no da síntomas. Se busca con estudios porque tratarla ayuda a reducir complicaciones para vos y tu bebé. El seguimiento puede incluir cambios de alimentación, actividad adaptada, mediciones y tratamiento indicado por el equipo. No es una culpa personal ni se confirma por haber comido algo dulce.',
+        'sections' => [
+            [
+                'h2' => 'Por qué puede cambiar la glucosa en el embarazo',
+                'body' => [
+                    'La glucosa es una fuente de energía para el cuerpo. La insulina ayuda a que pase de la sangre a las células. Durante el embarazo, los cambios hormonales pueden hacer que la insulina actúe con menos eficacia. Si el organismo no compensa esa mayor necesidad, la glucosa puede elevarse. Esto explica por qué puede aparecer diabetes gestacional en alguien que antes no tenía diabetes conocida.',
+                    'La alimentación importa en el seguimiento, pero el diagnóstico no se reduce a cuánto azúcar comiste. Los antecedentes personales y familiares, entre otros factores, ayudan al equipo a decidir cómo evaluar. También puede presentarse sin factores de riesgo evidentes. Compararte con otra embarazada o culparte por una comida no ayuda a interpretar el resultado.',
+                    'Controlar la glucosa busca reducir problemas como crecimiento excesivo del bebé y dificultades alrededor del nacimiento. El diagnóstico no significa que esas complicaciones vayan a ocurrir. Un plan acordado y revisado según la evolución permite responder a las necesidades de tu embarazo.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Cuándo y cómo se buscan alteraciones',
+                'body' => [
+                    'Muchos esquemas de control incluyen la evaluación de diabetes gestacional aproximadamente entre las semanas 24 y 28. Según los antecedentes, pueden estudiar la glucosa antes. El tipo de prueba y la interpretación corresponden al protocolo del servicio y a tu situación. Tener una medición normal al comienzo no siempre reemplaza el estudio indicado más adelante.',
+                    'Una prueba de tolerancia oral evalúa cómo responde el cuerpo a una bebida con glucosa mediante extracciones de sangre en momentos definidos. La preparación varía según la prueba: confirmá si necesitás ayuno, cuánto dura la visita y qué hacer con tus indicaciones habituales. No cambies por tu cuenta tu alimentación durante varios días para intentar modificar el resultado.',
+                    'Avisá si estás enferma, si no pudiste cumplir la preparación o si vomitás durante la prueba. Esos datos pueden afectar cómo se realiza o interpreta. Al recibir el informe, coordiná su revisión; no compares números de pruebas diferentes como si fueran equivalentes. Las [guías de salud](/salud/) reúnen otros temas para acompañar ese control.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Alimentación: distribuir y combinar',
+                'body' => [
+                    'Un plan de alimentación busca aportar lo que vos y el bebé necesitan, con una distribución de carbohidratos que ayude a manejar la glucosa. Suele ser útil ordenar comidas y evitar largos períodos sin comer seguidos de una comida muy abundante. La cantidad y los horarios se adaptan a tus resultados, apetito, trabajo y posibilidades de acceso a alimentos.',
+                    'Pan, arroz, fideos, mandioca, frutas y leche contienen carbohidratos en distintas proporciones. No se trata de eliminar todos esos alimentos ni de dejar de comer fruta. Combinar porciones acordadas con verduras, proteínas y fuentes de fibra puede ayudar. Una chipa o una porción de sopa paraguaya se evalúan dentro del conjunto de la comida y del plan, sin clasificar un alimento como una falta personal.',
+                    'Las bebidas azucaradas aportan azúcar de rápida absorción y pueden elevar la glucosa con facilidad. El agua es una opción habitual para acompañar las comidas. Si te cuesta organizar un menú por náuseas, horarios o presupuesto, llevá ejemplos de un día real a la consulta nutricional. Eso permite proponer cambios que puedas sostener.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Movimiento y mediciones en casa',
+                'body' => [
+                    'La actividad física adaptada puede ayudar al manejo de la glucosa cuando no hay una contraindicación obstétrica. Caminar a un ritmo cómodo es una opción frecuente, pero el tipo y la duración se ajustan a tu experiencia y al seguimiento. No hace falta empezar una rutina intensa. La guía de [ejercicio y Kegel](/salud/ejercicio-y-kegel/) explica cómo conversar una actividad segura.',
+                    'Si te indican un glucómetro, pedí una demostración: cómo preparar las manos, obtener la muestra, usar las tiras y registrar el resultado. El horario respecto de las comidas importa. Anotá lo que te pidan, sin cambiar el momento de medición para conseguir una cifra que parezca más conveniente. Llevá el registro completo a la revisión.',
+                    'Si una cifra sale fuera del rango acordado, seguí el plan de contacto que te dieron. Una medición no es una nota sobre tu esfuerzo. Permite ajustar el seguimiento. Si hay mareos, sudoración, temblor o malestar importante, especialmente con tratamiento, aplicá las instrucciones personales recibidas y pedí atención según ese plan; ante pérdida de conciencia, la ayuda es urgente.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Qué pasa si hace falta tratamiento',
+                'body' => [
+                    'Algunas personas necesitan tratamiento además de alimentación y movimiento. Eso no significa que hayan fallado. Los cambios propios del embarazo pueden aumentar las necesidades a medida que avanzan las semanas. El equipo revisa los registros y decide qué alternativa corresponde, cómo usarla y qué controles requiere.',
+                    'Pedí que te expliquen qué hacer si no podés comer, si estás enferma o si una indicación resulta difícil de seguir. No uses el esquema de otra persona ni cambies cantidades por un resultado aislado. La educación para reconocer y responder a una glucosa baja forma parte del plan cuando el tratamiento puede producirla.',
+                    'La evaluación puede incluir controles del crecimiento del bebé y planificación del nacimiento según la evolución. Tener diabetes gestacional no determina por sí solo una vía de parto. Las decisiones consideran distintos factores maternos y fetales, y se conversan durante el seguimiento.'
+                ],
+                'items' => [],
+                'table' => [
+                    'head' => [
+                        'Parte del plan',
+                        'Pregunta útil'
+                    ],
+                    'rows' => [
+                        [
+                            'Comidas',
+                            '¿Cómo distribuyo porciones con mis horarios?'
+                        ],
+                        [
+                            'Actividad',
+                            '¿Qué movimiento puedo hacer en mi situación?'
+                        ],
+                        [
+                            'Mediciones',
+                            '¿Cuándo mido y a quién aviso un resultado fuera de rango?'
+                        ],
+                        [
+                            'Tratamiento',
+                            '¿Qué hago si estoy enferma o no puedo comer?'
+                        ],
+                        [
+                            'Después del nacimiento',
+                            '¿Qué estudio y control quedan programados?'
+                        ]
+                    ]
+                ]
+            ],
+            [
+                'h2' => 'Después del nacimiento también hay seguimiento',
+                'body' => [
+                    'La glucosa puede volver a valores habituales después del parto, pero hace falta comprobarlo con el estudio que te indiquen. Haber tenido diabetes gestacional aumenta la posibilidad de desarrollar diabetes en el futuro. Por eso conviene conservar el antecedente y comunicarlo en consultas posteriores y antes de otro embarazo.',
+                    'Antes del alta, preguntá cuándo realizar el control y cómo revisar el resultado. Si estás amamantando, contalo al conversar alimentación y cualquier tratamiento. Ante vómitos persistentes, dificultad para respirar, confusión o disminución de movimientos durante el embarazo, buscá atención inmediata y revisá [las señales de alarma](/salud/senales-de-alarma/). Esos síntomas no se resuelven esperando la siguiente medición de rutina.'
+                ],
+                'items' => [],
+                'table' => null
+            ]
+        ],
+        'steps' => [],
+        'appHandoff' => [
+            'text' => 'Mi Bebé tiene herramientas de alimentación y un resumen prenatal. Pueden acompañar tus preguntas; el registro de glucosa y sus objetivos se acuerdan con el equipo que te atiende.',
+            'medium' => 'article',
+            'extra' => []
+        ],
+        'faq' => [
+            [
+                'q' => '¿Puedo tener diabetes gestacional sin síntomas?',
+                'a' => 'Sí. Muchas veces se detecta con estudios del control prenatal, aunque te sientas bien.'
+            ],
+            [
+                'q' => '¿Tengo que dejar todos los carbohidratos?',
+                'a' => 'No. El equipo adapta cantidades, combinaciones y distribución; eliminar grupos enteros por tu cuenta puede dificultar una alimentación suficiente.'
+            ],
+            [
+                'q' => '¿Necesitar tratamiento significa que hice algo mal?',
+                'a' => 'No. Las necesidades cambian con el embarazo y algunas personas requieren tratamiento aunque sigan las medidas acordadas.'
+            ],
+            [
+                'q' => '¿Se termina el seguimiento al nacer el bebé?',
+                'a' => 'No. Hace falta un control posterior y conservar el antecedente para la atención futura.'
+            ]
+        ],
+        'related' => [
+            'ejercicio-y-kegel',
+            'presion-alta-y-preeclampsia',
+            'senales-de-alarma'
+        ],
+        'weeks' => [
+            24,
+            28,
+            32
+        ],
+        'appGuideSlug' => null,
+        'guarani' => [],
+        'reviewedBy' => null,
+        'reviewedAt' => null,
+        'validAsOf' => null,
+        'sources' => [
+            [
+                'title' => 'Recomendaciones de la OMS sobre atención prenatal para una experiencia positiva del embarazo',
+                'publisher' => 'Organización Mundial de la Salud (OMS)',
+                'url' => null,
+                'accessed' => null
+            ],
+            [
+                'title' => 'Orientaciones sobre atención prenatal y salud materna',
+                'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)',
+                'url' => null,
+                'accessed' => null
+            ]
+        ],
+        'updated' => '2026-09-20',
+        'image' => null
+    ],
+    'salud-dental' => [
+        'cluster' => 'salud',
+        'path' => '/salud/salud-dental/',
+        'title' => 'Salud dental durante el embarazo',
+        'seoTitle' => 'Salud dental durante el embarazo',
+        'metaDescription' => 'Salud dental en el embarazo: cuidados de encías y dientes, qué hacer con las náuseas y cuándo consultar por dolor, sangrado o hinchazón.',
+        'kind' => 'medical',
+        'lead' => 'Durante el embarazo podés y conviene recibir atención odontológica. Las encías pueden inflamarse y sangrar con más facilidad, pero el dolor o una infección no se dejan para después del parto. Cepillado suave con pasta fluorada, limpieza entre los dientes y revisión odontológica ayudan a cuidar la boca. Informá que estás embarazada y de cuántas semanas antes de cualquier procedimiento.',
+        'sections' => [
+            [
+                'h2' => 'Por qué pueden sangrar las encías',
+                'body' => [
+                    'Los cambios hormonales del embarazo pueden aumentar la respuesta de las encías a la placa dental. Podés notar enrojecimiento, hinchazón o sangrado al cepillarte. Eso no significa que tengas que dejar de limpiar la zona. Cuando la placa permanece, la inflamación puede sostenerse o empeorar. Una limpieza cuidadosa y una evaluación odontológica ayudan a identificar qué está ocurriendo.',
+                    'El sangrado repetido merece una consulta, especialmente si hay dolor, mal aliento persistente o una zona que cambió de aspecto. La revisión permite diferenciar inflamación de encías de otros problemas que necesitan tratamiento. No se puede saber la profundidad de una lesión mirando solamente el color de la encía en una foto.',
+                    'El embarazo no implica que necesariamente vayas a perder dientes. La idea de que el bebé toma calcio directamente de los dientes confunde cómo funciona el cuerpo. Las caries y los problemas de encías tienen causas que se pueden evaluar y tratar. En las [guías de salud](/salud/) también encontrás información para preparar otros controles.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Cepillado y limpieza entre los dientes',
+                'body' => [
+                    'Usá un cepillo de cerdas suaves y pasta con flúor, y cepillá todas las caras de los dientes con movimientos suaves. Prestá atención al borde donde se encuentran diente y encía, sin frotar con fuerza. Cepillarte de forma habitual por la mañana y antes de dormir ayuda a controlar la placa. Escupí el exceso de pasta al terminar.',
+                    'El hilo dental o los elementos de limpieza interdental que te recomienden llegan a espacios donde el cepillo no entra bien. Si no sabés cómo usarlos, pedí una demostración. Una técnica brusca puede lastimar; encontrar una forma cómoda facilita mantenerla. Un enjuague no reemplaza el cepillado ni la limpieza entre dientes.',
+                    'Si una encía sangra al empezar a mejorar la higiene, no abandones toda la limpieza. Consultá para revisar la técnica y la causa. Si el sangrado es abundante, espontáneo o se acompaña de otras molestias importantes, buscá atención. No uses productos concentrados o mezclas caseras para intentar desinfectar una zona dolorida.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Náuseas, vómitos y sensibilidad',
+                'body' => [
+                    'Las náuseas pueden hacer difícil acercar el cepillo a la parte posterior de la boca. Podés probar un cabezal pequeño, movimientos lentos y un momento del día en que toleres mejor la higiene. Evitá forzarte hasta provocar arcadas repetidas. Si una pasta te resulta muy desagradable, consultá una alternativa fluorada que puedas usar de manera constante.',
+                    'Después de vomitar, enjuagate con agua para retirar parte del ácido de la boca. Evitá cepillarte inmediatamente con fuerza sobre los dientes recién expuestos al ácido; comentá los episodios frecuentes en la consulta para adaptar el cuidado. El reflujo también puede contribuir a sensibilidad o desgaste, aunque no siempre sea visible al principio.',
+                    'Si los vómitos no te permiten retener líquidos, necesitás evaluación médica sin demora. No es solamente un problema dental. Podés revisar [las señales de alarma](/salud/senales-de-alarma/) para reconocer cuándo buscar atención. Para molestias nocturnas relacionadas con reflujo, la guía sobre [dormir en el embarazo](/salud/dormir-en-el-embarazo/) reúne ajustes de comodidad.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Comidas y bebidas que tocan los dientes muchas veces',
+                'body' => [
+                    'La frecuencia de exposición al azúcar importa para las caries. Tomar sorbitos de una bebida azucarada durante horas mantiene exposiciones repetidas, aunque el recipiente parezca pequeño. El agua puede acompañar el día sin agregar esa exposición. Las bebidas ácidas también pueden contribuir al desgaste; no conviene mantenerlas en la boca o usarlas para enjuagarte.',
+                    'Si necesitás comer más seguido por náuseas, no se trata de pasar hambre para cuidar los dientes. Buscá opciones que puedas tolerar y conversá cómo combinarlas con higiene. Un registro sencillo de bebidas y picoteos ayuda al odontólogo a detectar momentos en que podés hacer un cambio útil sin complicar toda la alimentación.',
+                    'La sensibilidad al frío o al dulce puede tener distintas causas. No la tapes durante meses evitando masticar de ese lado. Una revisión permite ver si hay caries, desgaste u otro problema. Cuanto antes se evalúe una molestia persistente, más claro será qué cuidado necesita.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Qué contar antes de una consulta odontológica',
+                'body' => [
+                    'Informá las semanas de embarazo, condiciones del seguimiento prenatal, alergias y todos los medicamentos que usás. Si tenés informes o indicaciones que puedan influir en la atención, llevalos. El odontólogo puede coordinar con tu equipo obstétrico cuando haga falta. Una limpieza o el tratamiento de un problema no se posponen automáticamente por estar embarazada.',
+                    'Si se necesita una radiografía para responder una pregunta clínica, el profesional evalúa su justificación y las medidas de protección correspondientes. Del mismo modo, la anestesia y cualquier otra indicación se eligen considerando el embarazo. Pedí que te expliquen el procedimiento y su propósito; no hace falta asumir que todo estudio o tratamiento está prohibido.',
+                    'En etapas avanzadas, estar mucho tiempo completamente acostada puede resultar incómodo. Avisá si sentís mareo, náusea o falta de aire en el sillón para que ajusten la posición y hagan pausas. La comodidad se puede conversar antes de empezar, junto con la duración prevista de la atención.'
+                ],
+                'items' => [],
+                'table' => [
+                    'head' => [
+                        'Dato para contar',
+                        'Por qué ayuda'
+                    ],
+                    'rows' => [
+                        [
+                            'Semanas y seguimiento obstétrico',
+                            'Adaptar la atención y coordinar cuando corresponda'
+                        ],
+                        [
+                            'Dolor, sangrado o hinchazón',
+                            'Identificar el problema principal y su evolución'
+                        ],
+                        [
+                            'Alergias e indicaciones actuales',
+                            'Elegir procedimientos y cuidados adecuados'
+                        ],
+                        [
+                            'Náuseas o mareos al recostarte',
+                            'Ajustar postura y pausas durante la consulta'
+                        ]
+                    ]
+                ]
+            ],
+            [
+                'h2' => 'Dolor, hinchazón o infección: cuándo pedir atención',
+                'body' => [
+                    'Dolor fuerte, una zona hinchada, pus, fiebre o dificultad para abrir la boca necesitan consulta rápida. Si la hinchazón se extiende hacia la cara o el cuello, o tenés dificultad para tragar o respirar, buscá atención de urgencia. Una infección dental no se resuelve esperando al nacimiento ni poniendo sustancias irritantes sobre la encía.',
+                    'Después de un procedimiento, pedí instrucciones claras de higiene y seguimiento. Si el dolor empeora, aparece fiebre o no podés alimentarte o beber, volvé a comunicarte. Conservá el contacto del servicio y la información de lo realizado para que otro profesional pueda continuar la atención si lo necesitás.'
+                ],
+                'items' => [],
+                'table' => null
+            ]
+        ],
+        'steps' => [
+            [
+                'title' => 'Identificá la molestia',
+                'body' => [
+                    'Anotá dónde duele, desde cuándo y si hay hinchazón, fiebre o dificultad para comer.'
+                ]
+            ],
+            [
+                'title' => 'Prepará tus antecedentes',
+                'body' => [
+                    'Informá semanas, alergias e indicaciones actuales antes del procedimiento.'
+                ]
+            ],
+            [
+                'title' => 'Acordá el seguimiento',
+                'body' => [
+                    'Pedí las instrucciones posteriores y cómo contactar al servicio si aparece un cambio.'
+                ]
+            ]
+        ],
+        'appHandoff' => [
+            'text' => 'Mi Bebé incluye una herramienta de salud dental. Usala para acompañar el cuidado cotidiano y llevá tus molestias y preguntas a la consulta odontológica.',
+            'medium' => 'article',
+            'extra' => []
+        ],
+        'faq' => [
+            [
+                'q' => '¿Puedo ir al odontólogo embarazada?',
+                'a' => 'Sí. Informá el embarazo y tus antecedentes para adaptar la atención. El dolor y las infecciones necesitan evaluación, sin esperar al parto.'
+            ],
+            [
+                'q' => '¿Dejo de cepillar si sangran las encías?',
+                'a' => 'No abandones la higiene. Usá una técnica suave y consultá para revisar por qué sangran y cómo limpiar sin lastimar.'
+            ],
+            [
+                'q' => '¿El bebé me quita calcio de los dientes?',
+                'a' => 'No toma calcio directamente de los dientes. Las molestias dentales requieren revisar caries, encías y otros factores concretos.'
+            ]
+        ],
+        'related' => [
+            'dormir-en-el-embarazo',
+            'senales-de-alarma'
+        ],
+        'weeks' => [
+            12,
+            20,
+            30
+        ],
+        'appGuideSlug' => null,
+        'guarani' => [],
+        'reviewedBy' => null,
+        'reviewedAt' => null,
+        'validAsOf' => null,
+        'sources' => [
+            [
+                'title' => 'Recomendaciones de la OMS sobre atención prenatal para una experiencia positiva del embarazo',
+                'publisher' => 'Organización Mundial de la Salud (OMS)',
+                'url' => null,
+                'accessed' => null
+            ],
+            [
+                'title' => 'Orientaciones sobre atención prenatal y salud materna',
+                'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)',
+                'url' => null,
+                'accessed' => null
+            ],
+            [
+                'title' => 'Orientaciones sobre salud bucodental',
+                'publisher' => 'Organización Mundial de la Salud (OMS)',
+                'url' => null,
+                'accessed' => null
+            ]
+        ],
+        'updated' => '2026-09-20',
+        'image' => null
+    ],
+    'dormir-en-el-embarazo' => [
+        'cluster' => 'salud',
+        'path' => '/salud/dormir-en-el-embarazo/',
+        'title' => 'Dormir en el embarazo: postura y descanso',
+        'seoTitle' => 'Dormir en el embarazo: postura y descanso',
+        'metaDescription' => 'Dormir en el embarazo: posiciones cómodas, ideas para el reflujo y los despertares, y señales que conviene conversar con tu equipo de salud.',
+        'kind' => 'medical',
+        'lead' => 'Para dormir mejor en el embarazo, probá acostarte de costado, apoyar la panza y las rodillas con almohadas y mantener horarios regulares. En la segunda mitad suele ser más cómodo evitar permanecer boca arriba. Si te despertás en esa posición, girate de lado sin alarmarte. El insomnio persistente, los ronquidos con pausas al respirar o un cansancio que impide tu actividad necesitan consulta.',
+        'sections' => [
+            [
+                'h2' => 'Por qué cambia el sueño',
+                'body' => [
+                    'Al comienzo del embarazo podés tener más sueño durante el día y, al mismo tiempo, despertarte por náuseas o ganas de orinar. Más adelante, el tamaño de la panza, el reflujo y la dificultad para encontrar postura pueden interrumpir el descanso. Las preocupaciones por el nacimiento o por asuntos cotidianos también pueden mantenerte despierta aunque estés cansada.',
+                    'Una noche mala no describe todo tu descanso. Mirá cómo te sentís durante varios días: si podés concentrarte, si te dormís sin querer o si el cansancio te impide trabajar o moverte con seguridad. Contarle al equipo esos efectos concretos ayuda más que decir solamente que dormís poco. Si conducís y estás somnolienta, evitá hacerlo y buscá otra forma de traslado.',
+                    'Las necesidades de sueño varían entre personas. La meta es encontrar una rutina que favorezca el descanso y reconocer molestias que necesitan atención. No hace falta convertir cada noche en una evaluación de cuánto deberías haber dormido. El [hub de salud](/salud/) reúne otras dudas que pueden aparecer junto con el cansancio.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'De costado y con apoyos cómodos',
+                'body' => [
+                    'Dormir de costado suele facilitar la comodidad a medida que crece la panza. Una almohada entre las rodillas puede reducir la tensión en caderas y espalda, y otra debajo de la panza puede ofrecer apoyo. No necesitás una almohada especial si con las que tenés conseguís una postura estable. Probá cambios pequeños para reconocer qué te resulta cómodo.',
+                    'En la segunda mitad del embarazo, permanecer boca arriba puede comprimir grandes vasos y provocar malestar en algunas personas. Acostarte de lado evita esa presión. Podés alternar costados según comodidad; no hace falta pasar toda la noche inmóvil. Si te despertás boca arriba, simplemente acomodate de lado y continuá descansando.',
+                    'Para salir de la cama, girá primero hacia un costado y ayudate con los brazos al incorporarte. Hacelo despacio si tendés a marearte. Si aparece falta de aire importante, dolor de pecho o un desmayo, buscá atención inmediata; no lo atribuyas solamente a una mala postura. Consultá [las señales de alarma](/salud/senales-de-alarma/) para otras situaciones urgentes.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Reflujo y ganas de orinar durante la noche',
+                'body' => [
+                    'El reflujo puede sentirse como ardor que sube desde la parte alta del abdomen hacia el pecho o la garganta, especialmente al recostarte. Una cena menos abundante y dejar un tiempo entre comer y acostarte pueden mejorar la comodidad. Si reconocés alimentos que te provocan ardor, comentá ese patrón y probá evitarlos en la comida nocturna sin eliminar grupos enteros de alimentos.',
+                    'Elevar de forma cómoda la parte superior del cuerpo puede ayudar a algunas personas. Buscá un apoyo que sostenga el torso, sin doblar solamente el cuello con muchas almohadas. Si el dolor es intenso, diferente de tu ardor habitual o se acompaña de otros síntomas, necesitás evaluación. El dolor fuerte en la parte alta de la panza no se da por hecho como reflujo.',
+                    'Orinar más seguido es frecuente, pero no conviene pasar el día sin beber para evitar levantarte. Distribuí los líquidos y observá si tomar mucho justo antes de acostarte aumenta los despertares. Ardor al orinar, fiebre o dolor en la espalda requieren consulta; levantarte de noche no explica por sí solo esos síntomas.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Una rutina que ayude a bajar el ritmo',
+                'body' => [
+                    'Intentá mantener una hora parecida para levantarte y reservá un rato tranquilo antes de dormir. Una luz tenue, una lectura breve o una actividad relajante pueden marcar el cierre del día. Si el teléfono te mantiene pendiente de mensajes o noticias, dejalo fuera del alcance de la mano durante ese rato. Lo importante es reducir lo que te activa, no cumplir una lista perfecta.',
+                    'La cafeína de café, mate, tereré y otras bebidas puede dificultar el sueño, especialmente cerca de la noche. Observá cómo se relacionan tus horarios de consumo y tus despertares. Si hacés siesta y después te cuesta dormir, probá que sea más breve o más temprano. No hace falta suprimir un descanso que te ayuda sin mirar el conjunto del día.',
+                    'El movimiento adaptado durante el día también puede favorecer el bienestar. En [ejercicio y Kegel](/salud/ejercicio-y-kegel/) encontrás ideas para conversar una rutina. Evitá usar el ejercicio intenso al final del día como forma de agotarte para dormir. Si una actividad te deja acelerada, buscá otro horario.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Cuando la cabeza sigue trabajando',
+                'body' => [
+                    'Las preocupaciones pueden hacerse más presentes cuando la casa se queda en silencio. Anotar una duda y una acción concreta para el día siguiente puede ayudarte a no repasarla toda la noche. También podés conversar con alguien de confianza sobre qué ayuda necesitás, como repartir tareas o acompañarte a un control. Tener dificultades para dormir no significa que estés llevando mal el embarazo.',
+                    'Si te quedás despierta y frustrada mucho tiempo, una actividad tranquila con poca luz puede ayudar a salir de esa lucha con el reloj; volvé a acostarte cuando aparezca sueño. Buscá una opción segura y cómoda para vos. Mirar la hora repetidamente suele aumentar la sensación de presión.',
+                    'Si la ansiedad, tristeza o miedo ocupan gran parte del día, pedí apoyo profesional. El sueño y la salud emocional se influyen mutuamente. No uses preparados para dormir, yuyos o suplementos por recomendación de otra persona sin revisar su seguridad con el equipo. Natural no describe su efecto ni su adecuación al embarazo.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Ronquidos, piernas inquietas y cansancio persistente',
+                'body' => [
+                    'Los ronquidos fuertes con pausas observadas en la respiración, despertares con sensación de ahogo o somnolencia marcada durante el día merecen evaluación. Contá si alguien notó esos episodios y desde cuándo. No es necesario grabarte toda la noche para que la consulta sea válida. El equipo puede valorar si hace falta estudiar la respiración durante el sueño.',
+                    'Una necesidad intensa de mover las piernas al descansar, calambres frecuentes o dolor pueden tener causas diferentes. Describí qué sentís y si mejora al moverte; esa diferencia orienta la conversación. El cansancio persistente también puede requerir revisar anemia u otras condiciones. Pedí una evaluación cuando el descanso no te permite recuperar tu actividad habitual, en lugar de asumir que todo se explica por estar embarazada.'
+                ],
+                'items' => [],
+                'table' => [
+                    'head' => [
+                        'Lo que notás',
+                        'Qué conversar'
+                    ],
+                    'rows' => [
+                        [
+                            'Despertares con ardor',
+                            'Comidas, postura y características del dolor'
+                        ],
+                        [
+                            'Ronquidos con pausas',
+                            'Respiración durante el sueño y cansancio diurno'
+                        ],
+                        [
+                            'Piernas inquietas',
+                            'Momento, sensación y relación con el movimiento'
+                        ],
+                        [
+                            'Insomnio persistente',
+                            'Rutina, ánimo e impacto en tu día'
+                        ]
+                    ]
+                ]
+            ]
+        ],
+        'steps' => [],
+        'appHandoff' => [
+            'text' => 'Mi Bebé incluye una herramienta de sueño y un diario. Podés usarlos para acompañar tu rutina y preparar ejemplos concretos de cómo descansás para el próximo control.',
+            'medium' => 'article',
+            'extra' => []
+        ],
+        'faq' => [
+            [
+                'q' => '¿Qué pasa si me despierto boca arriba?',
+                'a' => 'Girate de costado sin alarmarte. No necesitás mantener una postura inmóvil toda la noche.'
+            ],
+            [
+                'q' => '¿Tengo que dormir siempre sobre el lado izquierdo?',
+                'a' => 'Podés alternar costados según comodidad, salvo una indicación particular de tu equipo. Los apoyos pueden ayudarte a encontrar una postura estable.'
+            ],
+            [
+                'q' => '¿Los yuyos para dormir son seguros?',
+                'a' => 'No se puede asumir seguridad por ser naturales. Consultá el producto y sus ingredientes antes de usarlo durante el embarazo.'
+            ]
+        ],
+        'related' => [
+            'ejercicio-y-kegel',
+            'salud-dental',
+            'senales-de-alarma'
+        ],
+        'weeks' => [
+            12,
+            28,
+            34
+        ],
+        'appGuideSlug' => null,
+        'guarani' => [],
+        'reviewedBy' => null,
+        'reviewedAt' => null,
+        'validAsOf' => null,
+        'sources' => [
+            [
+                'title' => 'Recomendaciones de la OMS sobre atención prenatal para una experiencia positiva del embarazo',
+                'publisher' => 'Organización Mundial de la Salud (OMS)',
+                'url' => null,
+                'accessed' => null
+            ],
+            [
+                'title' => 'Orientaciones sobre atención prenatal y salud materna',
+                'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)',
+                'url' => null,
+                'accessed' => null
+            ]
+        ],
+        'updated' => '2026-09-20',
+        'image' => null
+    ],
+    'ejercicio-y-kegel' => [
+        'cluster' => 'salud',
+        'path' => '/salud/ejercicio-y-kegel/',
+        'title' => 'Ejercicio y Kegel durante el embarazo',
+        'seoTitle' => 'Ejercicio y Kegel durante el embarazo',
+        'metaDescription' => 'Ejercicio y Kegel en el embarazo: cómo empezar de a poco, adaptar el movimiento, reconocer molestias y practicar el suelo pélvico sin forzarlo.',
+        'kind' => 'medical',
+        'lead' => 'En un embarazo sin contraindicaciones, moverte de forma regular y moderada suele ser beneficioso. Podés empezar con caminatas cómodas y adaptar la actividad a tu experiencia y síntomas. Los ejercicios de Kegel trabajan el suelo pélvico: consisten en contraer y después relajar esos músculos, sin contener la respiración. Si hay dolor, presión pélvica o dudas sobre la técnica, pedí evaluación antes de insistir.',
+        'sections' => [
+            [
+                'h2' => 'Qué actividad se adapta a tu punto de partida',
+                'body' => [
+                    'Caminar, nadar o hacer ejercicios adaptados pueden ayudarte a mantener movilidad, bienestar y capacidad para las tareas cotidianas. La elección depende de lo que hacías antes, de tu comodidad y de la evolución del embarazo. No hace falta empezar con una rutina larga ni buscar una marca nueva. Un comienzo gradual permite reconocer cómo responde tu cuerpo.',
+                    'Si antes eras sedentaria, probá períodos cortos de movimiento y aumentá de a poco según tolerancia y orientación. Si ya entrenabas, conversá qué ajustes necesita tu actividad, especialmente si incluye impacto, cargas importantes o competencia. Estar acostumbrada a un deporte no elimina todos los cambios de equilibrio, respiración y comodidad del embarazo.',
+                    'Antes de comenzar o continuar una rutina, comentá tus antecedentes y cualquier indicación obstétrica. Sangrado, pérdida de líquido, problemas de presión u otras complicaciones pueden requerir una evaluación específica. La guía de [presión alta y preeclampsia](/salud/presion-alta-y-preeclampsia/) explica por qué algunos embarazos necesitan controles diferentes.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Intensidad, calor y pausas',
+                'body' => [
+                    'Una intensidad moderada suele permitirte hablar mientras te movés, aunque respires más rápido. Si no podés sostener una conversación, bajá el ritmo y evaluá cómo te sentís. Esa referencia ayuda a ajustar el esfuerzo sin depender de comparaciones con otra persona. El objetivo es una actividad tolerable, no terminar exhausta.',
+                    'En días calurosos, elegí un lugar ventilado o un horario más fresco, llevá agua y hacé pausas. La ropa cómoda y un calzado estable facilitan el movimiento. Si el piso está mojado o irregular, cambiá de recorrido para reducir el riesgo de caída. Pedí ayuda para adaptar el entorno cuando una barrera hace difícil moverte con seguridad.',
+                    'Empezá y terminá de manera progresiva. Mareos, sensación de desmayo o malestar importante son motivos para detenerte y buscar orientación. No uses el sudor como medida de cuánto te sirvió la actividad. En Paraguay, el calor puede hacer que un esfuerzo habitual se sienta más intenso, incluso en una caminata corta.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Movimientos y situaciones que necesitan adaptación',
+                'body' => [
+                    'A medida que crece la panza, cambia el centro de gravedad y algunas posturas dejan de resultar cómodas. Evitá actividades con alto riesgo de caídas, golpes en el abdomen o contacto físico intenso. El buceo con equipo no se recomienda durante el embarazo. Para cualquier actividad que no conozcas, preguntá antes de asumir que una clase general se adapta a vos.',
+                    'Si una postura boca arriba te provoca mareo o falta de aire, girate de lado e incorporáte con cuidado. Los ejercicios pueden adaptarse sentada, de costado o con apoyos según el caso. No hace falta atravesar dolor para conseguir un beneficio. El dolor en pelvis, espalda o articulaciones indica que conviene revisar el movimiento y la carga.',
+                    'Al trabajar fuerza, una técnica controlada y respirar durante el esfuerzo ayudan a evitar tensiones innecesarias. No contengas la respiración para empujar una carga. Si no sabés cómo adaptar un ejercicio, pedí supervisión de alguien capacitado en actividad durante el embarazo. La experiencia previa y los síntomas orientan las modificaciones.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Qué es el suelo pélvico y qué hace un Kegel',
+                'body' => [
+                    'El suelo pélvico es un conjunto de músculos y tejidos que sostiene órganos de la pelvis y participa en la continencia y otras funciones. Durante el embarazo soporta cambios de carga y presión. Los ejercicios de contracción pueden ayudar a reconocer y trabajar esos músculos, pero la capacidad de relajarlos también es importante.',
+                    'Para identificar la sensación, imaginá que cerrás suavemente alrededor de la uretra, la vagina y el ano, con un pequeño movimiento hacia adentro y arriba. Después soltá por completo. Mantené el resto del cuerpo lo más relajado posible y seguí respirando. Apretar fuerte las nalgas, juntar las rodillas o empujar hacia abajo no es el mismo movimiento.',
+                    'No uses cortar el chorro de orina como entrenamiento habitual. Practicá fuera del baño, en una posición cómoda. Si no distinguís contracción de empuje, una evaluación de suelo pélvico puede ayudarte. No hace falta aumentar repeticiones para compensar una técnica que todavía no sentís clara.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Relajar también forma parte del ejercicio',
+                'body' => [
+                    'Entre contracciones, dejá que los músculos vuelvan al descanso. Una sensación de tensión que no cede, dolor durante la práctica o dificultad para relajar son razones para consultar. Más fuerza no siempre es la respuesta a cualquier molestia pélvica. Algunas personas necesitan trabajar coordinación o relajación antes de seguir un programa de fortalecimiento.',
+                    'Las pérdidas de orina, sensación de peso vaginal o dolor con ciertas actividades merecen conversación clínica. Aunque sean frecuentes, no tenés que resignarte a convivir con ellas ni aumentar Kegel sin evaluación. Explicá cuándo aparecen: al toser, al caminar, durante una relación sexual o después de estar mucho tiempo de pie.',
+                    'Un profesional puede ayudarte a ajustar la duración y cantidad de contracciones y comprobar si la técnica corresponde a tu situación. Una app o un temporizador organizan el momento, pero no comprueban qué músculos estás usando. El progreso se valora por función y comodidad, no solamente por completar una serie.'
+                ],
+                'items' => [],
+                'table' => [
+                    'head' => [
+                        'Durante la práctica',
+                        'Qué revisar'
+                    ],
+                    'rows' => [
+                        [
+                            'Contracción suave hacia adentro y arriba',
+                            'Respirar y evitar apretar todo el cuerpo'
+                        ],
+                        [
+                            'Pausa entre contracciones',
+                            'Soltar por completo antes de repetir'
+                        ],
+                        [
+                            'Dolor o peso pélvico',
+                            'Pedir evaluación y adaptar la rutina'
+                        ],
+                        [
+                            'Duda sobre qué músculo trabaja',
+                            'Buscar demostración y revisión de técnica'
+                        ]
+                    ]
+                ]
+            ],
+            [
+                'h2' => 'Cuándo parar y pedir atención',
+                'body' => [
+                    'Detené la actividad y buscá atención ante sangrado, salida de líquido, dolor abdominal importante, contracciones dolorosas persistentes, dolor de pecho, falta de aire intensa o desmayo. Si el bebé se mueve menos de lo habitual, consultá inmediatamente. Revisá [las señales de alarma](/salud/senales-de-alarma/); no esperes a terminar una clase para comunicar estos cambios.',
+                    'Para molestias leves que se repiten con un movimiento, suspendé ese ejercicio y conversá una adaptación antes de retomarlo. Registrar qué estabas haciendo ayuda a identificar la dificultad. También importan la recuperación y el descanso: en [dormir en el embarazo](/salud/dormir-en-el-embarazo/) encontrás ideas de postura y rutina. Una actividad sostenible deja lugar a las variaciones de energía y a las indicaciones de cada etapa.'
+                ],
+                'items' => [],
+                'table' => null
+            ]
+        ],
+        'steps' => [
+            [
+                'title' => 'Elegí una posición cómoda',
+                'body' => [
+                    'Empezá sin dolor, con el cuerpo apoyado y respiración tranquila.'
+                ]
+            ],
+            [
+                'title' => 'Reconocé el movimiento',
+                'body' => [
+                    'Buscá una contracción suave hacia adentro y arriba, sin empujar ni contener el aire.'
+                ]
+            ],
+            [
+                'title' => 'Soltá y evaluá',
+                'body' => [
+                    'Relajá por completo. Si no podés soltar o sentís dolor, pedí una revisión antes de continuar.'
+                ]
+            ]
+        ],
+        'appHandoff' => [
+            'text' => 'Mi Bebé incluye herramientas de ejercicios y Kegel. Pueden acompañar una rutina acordada con tu equipo, sin reemplazar la revisión de técnica ni las indicaciones de tu embarazo.',
+            'medium' => 'article',
+            'extra' => []
+        ],
+        'faq' => [
+            [
+                'q' => '¿Puedo empezar si antes no hacía ejercicio?',
+                'a' => 'En ausencia de contraindicaciones, suele ser posible comenzar de forma gradual. Conversá tu situación y elegí una actividad cómoda con pausas.'
+            ],
+            [
+                'q' => '¿Kegel se practica mientras hago pis?',
+                'a' => 'No como rutina. Practicá fuera del baño y pedí ayuda si no reconocés la contracción y la relajación.'
+            ],
+            [
+                'q' => '¿Si me duele sigo para fortalecer?',
+                'a' => 'No. El dolor o la presión pélvica requieren revisar la técnica y el plan; insistir con más repeticiones puede no ser adecuado.'
+            ],
+            [
+                'q' => '¿La app puede comprobar mi técnica?',
+                'a' => 'No. Una guía o un temporizador no evalúan qué músculos usás; esa revisión necesita un profesional.'
+            ]
+        ],
+        'related' => [
+            'dormir-en-el-embarazo',
+            'diabetes-gestacional',
+            'senales-de-alarma'
+        ],
+        'weeks' => [
+            12,
+            20,
+            28,
+            34
+        ],
+        'appGuideSlug' => null,
+        'guarani' => [],
+        'reviewedBy' => null,
+        'reviewedAt' => null,
+        'validAsOf' => null,
+        'sources' => [
+            [
+                'title' => 'Recomendaciones de la OMS sobre atención prenatal para una experiencia positiva del embarazo',
+                'publisher' => 'Organización Mundial de la Salud (OMS)',
+                'url' => null,
+                'accessed' => null
+            ],
+            [
+                'title' => 'Orientaciones sobre atención prenatal y salud materna',
+                'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)',
+                'url' => null,
+                'accessed' => null
+            ],
+            [
+                'title' => 'Directrices de la OMS sobre actividad física y hábitos sedentarios',
+                'publisher' => 'Organización Mundial de la Salud (OMS)',
+                'url' => null,
+                'accessed' => null
+            ]
+        ],
+        'updated' => '2026-09-20',
+        'image' => null
+    ],
 ];

@@ -196,13 +196,13 @@ return [
     'noindex' => true
 ],
     '/salud/' => [
-    'title' => 'Salud',
-    'description' => 'Salud: estamos preparando esta sección de Mi Bebé para Paraguay. Mientras tanto, podés abrir la app y conocer sus opciones desde tu teléfono.',
-    'h1' => 'Salud',
-    'lead' => 'Estamos preparando esta sección para vos.',
+    'title' => 'Salud en el embarazo',
+    'description' => 'Guías de salud para el embarazo en Paraguay: vacunas, dengue, señales de alarma, presión, diabetes, cuidado dental, sueño y actividad física.',
+    'h1' => 'Salud en el embarazo en Paraguay',
+    'lead' => 'Encontrá información sobre cuidados cotidianos, controles y señales que necesitan atención.',
     'sections' => [],
-    'stub' => true,
-    'noindex' => true
+    'stub' => false,
+    'noindex' => false
 ],
     '/alimentacion/' => [
     'title' => 'Alimentación',
