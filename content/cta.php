@@ -10,7 +10,7 @@ return [
     'primary' => 'Abrí Mi Bebé',
     'week' => 'Seguí la semana {n} en Mi Bebé',
     'tool' => 'Continuá en Mi Bebé',
-    'trust' => 'Gratis, sin tienda, funciona sin datos, tus datos son tuyos.',
+    'trust' => 'Gratis · sin tienda · cuenta opcional · tus datos son tuyos',
     'disclaimers' => [
         'medical' => 'Información general, no es un diagnóstico. Todavía no contamos con revisor médico; esta información no reemplaza tu consulta.',
         'legal' => 'No es asesoría legal. Consultá los requisitos y la normativa vigente para tu caso.',
