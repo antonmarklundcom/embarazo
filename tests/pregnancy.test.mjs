@@ -1,8 +1,23 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
+import { runInNewContext } from 'node:vm';
 import '../assets/js/tools/pregnancy.js';
 const p = globalThis.Pregnancy;
 const DAY = 86400000;
+
+test('classic week data exports all 42 seed sizes, including week 29', () => {
+  const context = { window: {} };
+  runInNewContext(readFileSync(new URL('../assets/js/tools/semanas-data.js', import.meta.url), 'utf8'), context);
+  const sizes = context.window.MiBebeSemanas;
+  assert.equal(Object.keys(sizes).length, 42);
+  for (let week = 1; week <= 42; week++) {
+    assert.deepEqual(Object.keys(sizes[week]), ['name', 'lengthCm', 'weightG']);
+    assert.equal(typeof sizes[week].name, 'string');
+  }
+  // Literal verified in content/semanas.php's week-29 seed record.
+  assert.equal(sizes[29].name, 'un coco grande');
+});
 
 test('app clampWeek vectors', () => {
   for (const [input, expected] of [[0,1],[-5,1],[43,42],[100,42],[1,1],[20,20],[20.9,20],[NaN,1]]) {

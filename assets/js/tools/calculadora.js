@@ -3,14 +3,7 @@
   "use strict";
   var { parseISO, lmpFromDueDate, getRawWeek, MAX_WEEK, MIN_WEEK, getCurrentWeek, getCompletedGestation, getDueDate, getDaysRemaining, formatCompletedGestation, getTrimester, toISO } = Pregnancy;
   var copy = ToolsShared.config();
-  var sizes = {};
-  fetch('/assets/js/tools/semanas.json', { credentials: 'omit', referrerPolicy: 'no-referrer' })
-    .then(function (response) { if (!response.ok) throw new Error('weeks'); return response.json(); })
-    .then(function (data) {
-      sizes = data;
-      var week = document.getElementById('r-week').textContent;
-      if (sizes[week]) document.getElementById('r-size').textContent = sizes[week].name;
-    }).catch(function () { /* Date arithmetic remains available without size data. */ });
+  var sizes = window.MiBebeSemanas || {};
   /* ---- "hoy", overridable for testing --------------------------------- */
 
   var params = new URLSearchParams(location.search);

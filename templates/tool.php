@@ -86,6 +86,7 @@ require ROOT_DIR . '/partials/header.php';
 
   <script src="<?= e(asset('/assets/js/market/' . market_id() . '.js')) ?>" defer></script>
   <script src="<?= e(asset('/assets/js/tools/tools-shared.js')) ?>" defer></script>
+  <?php if ($slug === 'calculadora'): ?><script src="<?= e(asset('/assets/js/tools/semanas-data.js')) ?>" defer></script><?php endif; ?>
   <script src="<?= e(asset('/assets/js/tools/' . $slug . '.js')) ?>" defer></script>
 </main>
 <?php require ROOT_DIR . '/partials/footer.php'; ?>
