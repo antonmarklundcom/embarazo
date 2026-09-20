@@ -29,22 +29,6 @@ foreach (content('pages') as $path => $meta) {
     ];
 }
 
-foreach (services() as $service) {
-    $urls[] = [
-        'loc'        => url($service['path']),
-        'changefreq' => 'monthly',
-        'priority'   => '0.8',
-    ];
-}
-
-foreach (nav('tools') as $tool) {
-    $urls[] = ['loc' => url($tool['path']), 'changefreq' => 'monthly', 'priority' => '0.7'];
-}
-
-foreach (nav('guias') as $guide) {
-    $urls[] = ['loc' => url($guide['path']), 'changefreq' => 'monthly', 'priority' => '0.6'];
-}
-
 foreach (content('blog') as $article) {
     $urls[] = [
         'loc'        => url('/blog/' . $article['slug'] . '/'),
@@ -54,9 +38,6 @@ foreach (content('blog') as $article) {
     ];
 }
 
-foreach (content('segmentos') as $segmento) {
-    $urls[] = ['loc' => url($segmento['path']), 'changefreq' => 'monthly', 'priority' => '0.7'];
-}
 
 header('Content-Type: application/xml; charset=utf-8');
 echo '<?xml version="1.0" encoding="UTF-8"?>', "\n";

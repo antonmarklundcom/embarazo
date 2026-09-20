@@ -31,6 +31,12 @@ $page = [
     'breadcrumbs' => [['label' => $meta['title'], 'path' => $path]],
 ];
 
+if (!empty($meta['stub'])) {
+    $page['noindex'] = true;
+    require ROOT_DIR . '/templates/page-stub.php';
+    return;
+}
+
 require ROOT_DIR . '/partials/head.php';
 require ROOT_DIR . '/partials/header.php';
 ?>

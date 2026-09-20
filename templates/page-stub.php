@@ -36,12 +36,12 @@ require ROOT_DIR . '/partials/header.php';
     <div class="container stack">
       <p class="lead"><?= e(ui('placeholder.notice')) ?> <?= e(ui('placeholder.action')) ?></p>
       <div class="btn-row">
-        <a class="btn btn--primary" href="/contacto/"><?= e(ui('cta.consult')) ?></a>
-        <a class="btn btn--secondary" href="/servicios/"><?= e(ui('nav.all_services')) ?></a>
+        <a class="btn btn--primary" href="<?= e(app_link()) ?>"><?= e(ui('cta.open')) ?></a>
+        <a class="btn btn--secondary" href="/"><?= e(ui('cta.home')) ?></a>
       </div>
     </div>
   </section>
 
-  <?php require ROOT_DIR . '/partials/cta-band.php'; ?>
+
 </main>
 <?php require ROOT_DIR . '/partials/footer.php'; ?>

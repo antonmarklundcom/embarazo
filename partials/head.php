@@ -16,8 +16,6 @@ declare(strict_types=1);
 /** @var array $page */
 $page        = $page ?? [];
 $currentPath = $page['path'] ?? '/';
-$ga4         = cfg('GA4_ID', '');
-$ads         = cfg('ADS_ID', '');
 $htmlLang    = $page['lang'] ?? market_locale();
 ?>
 <!doctype html>
@@ -49,30 +47,15 @@ $htmlLang    = $page['lang'] ?? market_locale();
 <meta name="twitter:card" content="summary_large_image">
 
 <!-- Keep in step with --ink in assets/css/site.css. -->
-<meta name="theme-color" content="#0F1B2D">
+<meta name="theme-color" content="#2F5D50">
 <link rel="icon" href="<?= e(asset('/assets/img/favicon.svg')) ?>" type="image/svg+xml">
 
-<link rel="preload" href="<?= e(asset('/assets/fonts/onest-latin.woff2')) ?>" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="<?= e(asset('/assets/fonts/bricolage-grotesque-latin.woff2')) ?>" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="<?= e(asset('/assets/css/site.css')) ?>">
 
 <?php foreach (seo_jsonld($page) as $block): ?>
 <script type="application/ld+json"><?= json_ld($block) ?></script>
 <?php endforeach; ?>
 
-<?php if ($ga4 !== '' || $ads !== ''): ?>
-<!-- GA4 / Google Ads. No-op until config.php sets GA4_ID/ADS_ID;
-     assets/js/analytics.js's dataLayer.push() calls are inert until this
-     snippet is present, so filling in the ids here is what turns them on. -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=<?= e($ga4 !== '' ? $ga4 : $ads) ?>"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  <?php if ($ga4 !== ''): ?>gtag('config', '<?= e($ga4) ?>');<?php endif; ?>
-  <?php if ($ads !== ''): ?>gtag('config', '<?= e($ads) ?>');<?php endif; ?>
-</script>
-<?php endif; ?>
 </head>
-<body data-ga4="<?= e($ga4 ?? '') ?>">
+<body>">
 <a class="skip-link" href="#main"><?= e(ui('nav.skip')) ?></a>

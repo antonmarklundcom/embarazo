@@ -31,9 +31,9 @@ LATIN="U+0020-007E,U+00A1,U+00B0,U+00B7,U+00BF,U+00C0-00D6,U+00D8-00F6,U+00F8-00
 # Guaraní sign (₲, every price on the site) and the right-arrow used in "Ver
 # todos →" style links. Everything else in Google's "latin-ext" subset
 # (Vietnamese, IPA, historic Latin) is genuinely unused here.
-LATIN_EXT="U+20B2,U+2192"
+LATIN_EXT="U+0100-02FF,U+0300-036F,U+1E00-1EFF,U+20B2,U+2192"
 
-for family in bricolage-grotesque onest; do
+for family in nunito-sans-400 nunito-sans-500 nunito-sans-700; do
   pyftsubset "$FONTS/${family}-latin.woff2" \
     --output-file="$FONTS/${family}-latin.woff2" \
     --flavor=woff2 --unicodes="$LATIN" \

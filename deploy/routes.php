@@ -22,27 +22,15 @@ $routes = [];
    200 even while their content belongs to a later phase. '/404' is excluded:
    it is rendered by 404.php, not by a route of its own. */
 foreach (content('pages') as $path => $meta) {
-    if (!empty($meta['noindex'])) {
+    if ($path === '/404') {
         continue;
     }
     $routes[$path] = 200;
 }
 
 /* Every collection with a page of its own. */
-foreach (services() as $service) {
-    $routes[$service['path']] = 200;
-}
-foreach (nav('tools') as $tool) {
-    $routes[$tool['path']] = 200;
-}
-foreach (nav('guias') as $guide) {
-    $routes[$guide['path']] = 200;
-}
 foreach (content('blog') as $article) {
     $routes['/blog/' . $article['slug'] . '/'] = 200;
-}
-foreach (content('segmentos') as $segmento) {
-    $routes[$segmento['path']] = 200;
 }
 
 /* Non-page endpoints. */
@@ -65,9 +53,9 @@ foreach ([
     '/lib/market/py.php',
     '/content/site.php',
     '/partials/header.php',
-    '/templates/service.php',
+    '/templates/page.php',
     '/config.example.php',
-    '/logs/leads.log',
+    '/logs/private.log',
 ] as $path) {
     $routes[$path] = 404;
 }

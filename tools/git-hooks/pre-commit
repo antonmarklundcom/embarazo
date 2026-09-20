@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+set -euo pipefail
+while IFS= read -r -d '' path; do
+  case "$path" in .github/workflows/*) echo "Blocked: newly added workflow requires Anton's explicit approval: $path" >&2; exit 1 ;; esac
+done < <(git diff --cached --name-only --diff-filter=A --no-renames -z)

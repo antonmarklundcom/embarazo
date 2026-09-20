@@ -35,7 +35,6 @@ mkdir -p "$STAGE"
 SHIP=(
   index.php
   404.php
-  enviar.php
   sitemap.php
   robots.php
   router.php

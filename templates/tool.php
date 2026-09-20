@@ -38,7 +38,6 @@ $page = [
         ['label' => $tool['title'], 'path' => $tool['path']],
     ],
     'faq'      => $tool['faq'],
-    'leadSlug' => $slug,
 ];
 
 require ROOT_DIR . '/partials/head.php';
@@ -87,17 +86,7 @@ require ROOT_DIR . '/partials/header.php';
     </section>
   <?php endif; ?>
 
-  <?php if ($tool['related'] !== []): ?>
-    <section class="section section--surface">
-      <div class="container">
-        <h2><?= e(ui('service.related')) ?></h2>
-        <div class="mt-4">
-          <?php $gridSlugs = $tool['related']; ?>
-          <?php require ROOT_DIR . '/partials/service-card-grid.php'; ?>
-        </div>
-      </div>
-    </section>
-  <?php endif; ?>
+
 
   <?php require ROOT_DIR . '/partials/cta-band.php'; ?>
 

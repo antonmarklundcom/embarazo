@@ -18,7 +18,7 @@ if ($bcCrumbs === []) {
 $bcTrail = array_merge([['label' => ui('nav.home'), 'path' => '/']], $bcCrumbs);
 $bcLast  = count($bcTrail) - 1;
 ?>
-<nav class="breadcrumbs" aria-label="<?= e(ui('service.breadcrumb')) ?>">
+<nav class="breadcrumbs" aria-label="<?= e(ui('nav.breadcrumb')) ?>">
   <ol>
     <?php foreach ($bcTrail as $bcIndex => $bcCrumb): ?>
       <li>

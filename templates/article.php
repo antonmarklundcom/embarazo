@@ -49,20 +49,6 @@ foreach ($sections as $articleSection) {
 }
 $readingMinutes = max(1, (int) ceil($wordCount / 200));
 
-$relatedSlugs = [];
-if (!empty($article['service'])) {
-    $relatedSlugs[] = $article['service'];
-    $primaryService  = services($article['service']);
-    foreach ($primaryService['related'] ?? [] as $relatedSlug) {
-        if (count($relatedSlugs) >= 3) {
-            break;
-        }
-        if (!in_array($relatedSlug, $relatedSlugs, true)) {
-            $relatedSlugs[] = $relatedSlug;
-        }
-    }
-}
-
 $page = [
     'title'       => $article['seoTitle'] ?? '',
     'description' => $article['description'],
@@ -73,9 +59,6 @@ $page = [
         ['label' => $article['title'], 'path' => '/blog/' . $article['slug'] . '/'],
     ],
     'faq'         => $faq,
-    /* An article has no service of its own, so it borrows the one it is about. Articles with no
-       `service` fall through to the model's neutral default. */
-    'leadSlug'    => $article['service'] ?? null,
     'article'     => [
         'headline'      => $article['title'],
         'datePublished' => $article['date'],
@@ -168,17 +151,7 @@ require ROOT_DIR . '/partials/header.php';
     </section>
   <?php endif; ?>
 
-  <?php if ($relatedSlugs !== []): ?>
-    <section class="section">
-      <div class="container">
-        <h2><?= e(ui('service.related')) ?></h2>
-        <div class="mt-4">
-          <?php $gridSlugs = $relatedSlugs; ?>
-          <?php require ROOT_DIR . '/partials/service-card-grid.php'; ?>
-        </div>
-      </div>
-    </section>
-  <?php endif; ?>
+
 
   <?php require ROOT_DIR . '/partials/cta-band.php'; ?>
 </main>

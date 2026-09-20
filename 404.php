@@ -36,13 +36,7 @@ require ROOT_DIR . '/partials/header.php';
 
   <section class="section">
     <div class="container">
-      <?php
-      /* The first few services, whatever they are on this site. */
-      $gridSlugs    = array_slice(array_keys(services()), 0, 6);
-      $gridNumbered = false;
-      require ROOT_DIR . '/partials/service-card-grid.php';
-      ?>
-      <p class="mt-4"><a href="/servicios/"><?= e(ui('nav.all_services')) ?> →</a></p>
+      <p><a href="/"><?= e(ui('cta.home')) ?></a></p>
     </div>
   </section>
 </main>

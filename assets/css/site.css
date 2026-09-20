@@ -2,89 +2,136 @@
    Design system.
 
    THE TOKENS BLOCK BELOW IS THE THEME. A new site replaces the values between
-   ":root {" and the closing brace of the tokens block — palette, type, scale,
-   radii, spacing — with the ones from its own design canvas, and changes
-   nothing else in this file. Every component below reads tokens only, so a
-   re-skin is that one block plus the two font files in assets/fonts/.
+   ":root {
+  /* ---- Brand ground -------------------------------------------------- */
+  --bg: #FBF7F1;              /* cream — the page */
+  --surface: #FFFFFF;         /* cards, islands, the sheet */
+  --surface-sunken: #F5EFE6;  /* wells inside a card (result rows, code) */
+  --ink: #322E29;             /* body text — 12.6:1 on --bg */
+  --muted: #6E675D;           /* meta, captions — 5.2:1 on --bg (see AA note) */
+  --line: #EDE5DA;            /* hairlines, card borders */
+  --line-strong: #DFD3C3;     /* dividers that must read at 360 px */
 
-   Token names are roles, not colours: --ink is the darkest surface and the
-   heading colour, --accent is the one action colour, --surface is the
-   alternating band. Renaming them means editing every rule below, so don't.
+  /* ---- Structure (petrol) -------------------------------------------- */
+  --petrol: #2F5D50;          /* headings, header bar, footer — 7.0:1 on --bg */
+  --petrol-dark: #24463D;     /* pressed/hover, footer ground */
+  --petrol-tint: #E8EFEC;     /* petrol at ~8 % — quiet section ground */
+  --on-petrol: #FBF7F1;       /* cream on petrol — 6.9:1 */
 
-   Later phases append their own sections BELOW the components, never inline
-   styles.
+  /* ---- Accent (terracotta) — the ONLY CTA colour --------------------- */
+  --accent: #C96342;          /* brand terracotta: rings, icons, underlines,
+                                 tints, the progress arc. Decorative + large
+                                 only — 3.7:1, not a text colour. */
+  --accent-text: #B24A2A;     /* terracotta-700: CTA fill, links, eyebrows.
+                                 5.0:1 on --bg, 5.4:1 on --surface,
+                                 5.4:1 against white text. AA everywhere. */
+  --accent-dark: #93381C;     /* :hover / :active on the CTA fill */
+  --accent-tint: #F7E4DC;     /* CTA halo, selected chip */
+  --on-accent: #FFFFFF;       /* label on --accent-text — 5.4:1 */
+  /* RULE: --accent-text is a text colour on --bg and --surface ONLY. On the
+     pastel tones below it lands at 4.0–4.3:1, under AA, so text on a tint uses
+     --petrol (or --tone-arena-text on arena). It also keeps terracotta
+     meaning exactly one thing: this goes to the app. */
 
-   Order: tokens · fonts · reset · typography · layout · components · utilities
-   ========================================================================= */
+  /* ---- Pastel section tones (app palette) ---------------------------- */
+  --tone-rosa: #F3DAD4;
+  --tone-celeste: #D9E5EC;
+  --tone-salvia: #DFE8D8;
+  --tone-lavanda: #E6E0F0;
+  --tone-arena: #F8E2CB;
+  --tone-arena-text: #8A5A2E; /* 4.7:1 on --tone-arena */
 
-/* == tokens ============================================================== */
+  /* ---- Semantic ------------------------------------------------------ */
+  --sage: #6F8A66;            /* "sí / seguro" marks, decorative */
+  --sage-text: #4C6544;       /* 5.3:1 on --bg */
+  --rose: #E0A4A0;            /* decorative only, never a state */
+  --alert: #A4362A;           /* señales de alarma, "no es normal" — 6.0:1 */
+  --alert-bg: #FBEBE7;
+  --whatsapp: #25D366;        /* brand mark only */
+  --whatsapp-text: #0E7A3C;   /* 4.6:1 — the share button's fill */
 
-:root {
-  /* palette */
-  --ink: #0f1b2d;           /* darkest surface — headings, dark bands, footer */
-  --accent: #f2b62b;        /* the one action colour — buttons and key figures only */
-  --accent-text: #8f6a17;   /* the accent as TEXT on a light background. A separate token
-                               because an accent bright enough for a button is rarely
-                               readable as type: this value is 4.95:1 on --bg and 4.58:1
-                               on --surface, both AA. When you replace --accent, re-check
-                               this one against BOTH light bands rather than darkening it
-                               by eye. */
-  --bg: #ffffff;
-  --surface: #f4f6fa;       /* the alternating section band */
-  --border: #e6eaf0;        /* card and input borders */
-  --outline: #cbd2dd;       /* secondary button border */
-  --muted: #5b6779;         /* secondary text */
-  --whatsapp: #25a35a;      /* WhatsApp / ok */
-  --ok-bg: #e9f7ee;
-  --ok-text: #1e7a45;
+  /* ---- Focus --------------------------------------------------------- */
+  --focus: #1C4C9C;           /* deliberately NOT terracotta: a focus ring the
+                                 same hue as the CTA is invisible on the CTA */
+  --focus-width: 3px;
+  --focus-offset: 2px;
 
-  /* on-ink variants: the design canvas builds these from white at low alpha */
-  --on-ink: #ffffff;
-  --on-ink-muted: rgba(255, 255, 255, 0.72);
-  --on-ink-faint: rgba(255, 255, 255, 0.6);
-  --on-ink-border: rgba(255, 255, 255, 0.14);
-  --on-ink-line: rgba(255, 255, 255, 0.25);
-  --on-ink-panel: rgba(255, 255, 255, 0.06);
+  /* ---- Type ---------------------------------------------------------- */
+  /* Nunito Sans self-hosted (T0 drops woff2 into assets/fonts/ and declares
+     @font-face with font-display:swap). The fallback stack is metric-close
+     enough that swap costs no measurable CLS. Display == body by decision:
+     brand-exact with the app; editorial voice comes from scale, not a
+     second face. */
+  --font-body: "Nunito Sans", "Segoe UI", Roboto, system-ui, -apple-system, sans-serif;
+  --font-display: var(--font-body);
+  --font-mono: ui-monospace, "SF Mono", "Cascadia Mono", Menlo, monospace;
 
-  /* type */
-  --font-display: "Bricolage Grotesque", "Bricolage Grotesque Fallback",
-    ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
-  --font-body: "Onest", "Onest Fallback", ui-sans-serif, system-ui,
-    -apple-system, "Segoe UI", sans-serif;
-  --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-bold: 700;
 
-  /* display scale — desktop 64/48/44/28, mobile 40/34/30/24 (see @media) */
-  --t-d1: 64px;
-  --t-d2: 48px;
-  --t-d3: 44px;
-  --t-d4: 28px;
-  --t-card: 22px;   /* Bricolage 600 card titles */
-  --t-lead: 18px;
-  --t-body: 16px;
-  --t-small: 15px;
-  --t-note: 14px;
-  --t-label: 13px;
+  /* Type scale — major third (1.25), base 16 px. Mobile ceiling is
+     --step-4; --step-5 exists for desktop display only. */
+  --step--2: 0.64rem;    /* 10.24 — overline, legal micro */
+  --step--1: 0.8rem;     /* 12.80 — meta, sources, captions */
+  --step-0:  1rem;       /* 16.00 — UI, labels */
+  --step-1:  1.125rem;   /* 18.00 — body copy (long-form reads at 18) */
+  --step-2:  1.25rem;    /* 20.00 — lead, H4 */
+  --step-3:  1.5625rem;  /* 25.00 — H3 */
+  --step-4:  1.9531rem;  /* 31.25 — H2, mobile H1 */
+  --step-5:  2.4414rem;  /* 39.06 — desktop H1, big-type hub */
+  --step-6:  3.0518rem;  /* 48.83 — desktop hero H1 / the number in a week card */
 
-  /* radii */
-  --r-pill: 999px;
-  --r-card: 16px;
-  --r-input: 12px;
-  --r-tile: 10px;
-  --r-chip: 6px;
+  --leading-tight: 1.15;
+  --leading-heading: 1.22;
+  --leading-body: 1.65;
+  --measure: 34rem;      /* ~68 characters at --step-1 */
+  --measure-narrow: 26rem;
 
-  /* spacing — 4px scale: 8 · 12 · 16 · 28 · 64 */
-  --s-1: 8px;
-  --s-2: 12px;
-  --s-3: 16px;
-  --s-4: 28px;
-  --s-5: 64px;
-  --section-y: 88px;     /* section rhythm, 56px on mobile */
-  --gutter: 64px;        /* page margin, 24px on mobile */
-  --container: 1280px;
+  /* ---- Space — 4 px base --------------------------------------------- */
+  --space-3xs: 0.25rem;  /*  4 */
+  --space-2xs: 0.5rem;   /*  8 */
+  --space-xs:  0.75rem;  /* 12 */
+  --space-s:   1rem;     /* 16 */
+  --space-m:   1.5rem;   /* 24 */
+  --space-l:   2rem;     /* 32 */
+  --space-xl:  3rem;     /* 48 */
+  --space-2xl: 4rem;     /* 64 */
+  --space-3xl: 5rem;     /* 80 — desktop section rhythm */
 
-  --shadow-panel: 0 -20px 60px rgba(0, 0, 0, 0.25);
-  --shadow-fab: 0 8px 24px rgba(15, 27, 45, 0.22);
-  --focus: 0 0 0 3px rgba(242, 182, 43, 0.55);
+  --gutter: var(--space-s);      /* 16 px at 360; page edge padding */
+  --wrap: 72rem;                 /* 1152 — full-width container */
+  --wrap-text: 40rem;            /* 640 — article column */
+
+  /* ---- Radii --------------------------------------------------------- */
+  --radius-xs: 6px;
+  --radius-s: 10px;
+  --radius-tile: 14px;   /* app value */
+  --radius-card: 16px;   /* app value */
+  --radius-l: 22px;      /* phone frame, hero panel */
+  --radius-pill: 999px;
+
+  /* ---- Elevation ----------------------------------------------------- */
+  --shadow-soft:
+    0 1px 3px rgba(42, 39, 36, 0.06),
+    0 1px 2px rgba(42, 39, 36, 0.04);           /* app value */
+  --shadow-lift:
+    0 6px 16px rgba(42, 39, 36, 0.10),
+    0 2px 4px rgba(42, 39, 36, 0.06);
+  --shadow-bar:
+    0 -2px 12px rgba(42, 39, 36, 0.10);          /* sticky CTA bar, upward */
+
+  /* ---- Motion — one per screen, all reduced-motion aware -------------- */
+  --dur-fast: 120ms;
+  --dur: 200ms;
+  --ease: cubic-bezier(0.2, 0, 0.2, 1);
+
+  /* ---- Layout constants ---------------------------------------------- */
+  --tap: 44px;              /* minimum tap target — never smaller */
+  --header-h: 56px;
+  --ctabar-h: 64px;
+
+  color-scheme: light;      /* the brand has no dark mode — see §Decisions */
 }
 
 @media (max-width: 768px) {
@@ -104,68 +151,57 @@
    Onest 400/500/600 for body. */
 
 @font-face {
-  font-family: "Bricolage Grotesque";
+  font-family: "Nunito Sans";
   font-style: normal;
-  font-weight: 400 800;
-  font-stretch: 100%;
+  font-weight: 400;
   font-display: swap;
-  src: url("../fonts/bricolage-grotesque-latin.woff2") format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
-    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193,
-    U+2212, U+2215, U+FEFF, U+FFFD;
+  src: url("../fonts/nunito-sans-400-latin.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+2000-206F;
 }
 
 @font-face {
-  font-family: "Bricolage Grotesque";
+  font-family: "Nunito Sans";
   font-style: normal;
-  font-weight: 400 800;
-  font-stretch: 100%;
+  font-weight: 400;
   font-display: swap;
-  src: url("../fonts/bricolage-grotesque-latin-ext.woff2") format("woff2");
-  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF,
-    U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020,
-    U+20A0-20AB, U+20AD-20C0, U+2113, U+2192, U+2C60-2C7F, U+A720-A7FF;
+  src: url("../fonts/nunito-sans-400-latin-ext.woff2") format("woff2");
+  unicode-range: U+0100-02FF, U+0300-036F, U+1E00-1EFF, U+20B2, U+2192;
 }
 
 @font-face {
-  font-family: "Onest";
+  font-family: "Nunito Sans";
   font-style: normal;
-  font-weight: 400 700;
+  font-weight: 500;
   font-display: swap;
-  src: url("../fonts/onest-latin.woff2") format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
-    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193,
-    U+2212, U+2215, U+FEFF, U+FFFD;
+  src: url("../fonts/nunito-sans-500-latin.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+2000-206F;
 }
 
 @font-face {
-  font-family: "Onest";
+  font-family: "Nunito Sans";
   font-style: normal;
-  font-weight: 400 700;
+  font-weight: 500;
   font-display: swap;
-  src: url("../fonts/onest-latin-ext.woff2") format("woff2");
-  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF,
-    U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020,
-    U+20A0-20AB, U+20AD-20C0, U+2113, U+2192, U+2C60-2C7F, U+A720-A7FF;
-}
-
-/* Metric-matched fallbacks so swapping in the webfont does not shift layout. */
-@font-face {
-  font-family: "Onest Fallback";
-  src: local("Arial");
-  size-adjust: 104%;
-  ascent-override: 95%;
-  descent-override: 24%;
-  line-gap-override: 0%;
+  src: url("../fonts/nunito-sans-500-latin-ext.woff2") format("woff2");
+  unicode-range: U+0100-02FF, U+0300-036F, U+1E00-1EFF, U+20B2, U+2192;
 }
 
 @font-face {
-  font-family: "Bricolage Grotesque Fallback";
-  src: local("Arial");
-  size-adjust: 102%;
-  ascent-override: 96%;
-  descent-override: 24%;
-  line-gap-override: 0%;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/nunito-sans-700-latin.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+2000-206F;
+}
+
+@font-face {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/nunito-sans-700-latin-ext.woff2") format("woff2");
+  unicode-range: U+0100-02FF, U+0300-036F, U+1E00-1EFF, U+20B2, U+2192;
 }
 
 /* == reset =============================================================== */
