@@ -354,7 +354,7 @@ webimg (`--name`, `--alt`), WebP ≤ 60 KB, manifest committed.
 | Phase | PR | Log |
 |---|---|---|
 | plan | this PR | — |
-| D0 | — | `docs/design-decisions.md` |
+| D0 | [#1](https://github.com/antonmarklundcom/embarazo/pull/1) | `docs/design-decisions.md` |
 | T0 | | `docs/log/t0.md` |
 | T1 | | `docs/log/t1.md` |
 | S1–S9 | | `docs/log/s<n>.md` |
