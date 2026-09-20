@@ -15,3 +15,21 @@
 - Procedural hubs: service-specific document lists, fees, offices, competent complaint channels and free legal advice are unverified; generic preparation only.
 - The exact user-required CTA trust strip includes “funciona sin datos”; the scope of offline operation remains unverified (D0 F10). No additional offline guarantees were added.
 - Guaraní: derechos enables the strip, but strings remain absent pending native review; stage B must not invent translations.
+
+## A1 — derechos, 2026-09-20 (redacción sin consulta de red)
+- Todas las páginas nuevas: revalidar las referencias legales heredadas antes de publicación. validAsOf es fecha editorial; fuentes nombradas son referencias para consulta, no prueba de revisión actual; url/accessed y reviewedBy quedan null.
+- /derechos/subsidio-de-maternidad-ips/: verificar régimen, base del 100 %, cómputo de cuatro meses de aportes y aplicación del reposo en semana 38; la referencia local no define excepciones ni calendario de pago.
+- /derechos/subsidio-de-maternidad-ips/: identificación, constancia de reposo, antecedentes de aportes, presentación por terceros y seguimiento son preparación habitual; validar documentos, formatos, canales, costos y plazos con IPS.
+- /derechos/permiso-para-controles/: verificar frecuencia, beneficiarias, traslados, esperas y aplicación de las cuatro horas de Ley 7383/2024; no se afirma frecuencia mensual ni por consulta.
+- /derechos/permiso-para-controles/: validar aviso a personal, constancias de turno/asistencia, información clínica exigible y tratamiento de reprogramaciones o descuentos; no hay procedimiento oficial consultado.
+- /derechos/hora-de-lactancia/: verificar condiciones de 90/60 minutos, vigencia, modalidades, documentación del nacimiento y constancias adicionales; no se afirman edades, acumulación ni salida anticipada como derecho confirmado.
+- /derechos/hora-de-lactancia/: verificar requisitos sobre espacios para extracción y coordinación en turnos variables; el texto propone preguntas, no obligaciones edilicias.
+- /derechos/fuero-maternal-y-despido/: verificar inicio/cómputo de la referencia de un año, regímenes, contratos, efectos del aviso y procedimientos; no se atribuye nulidad, indemnización ni plazo de reclamo.
+- /derechos/fuero-maternal-y-despido/: contratos, recibos, comunicaciones y constancias son antecedentes para consulta; validar requisitos de presentación y alcance de firmas con asesoramiento individual.
+- /derechos/licencia-de-paternidad/: verificar beneficiarios, inicio/cómputo de dos semanas, remuneración, nacimiento fuera de fecha, varios empleos y eventuales extensiones; solo se afirma la duración documentada.
+- /derechos/licencia-de-paternidad/: validar constancia de nacimiento aceptada, aviso, presentación por terceros y registro del regreso; pasos habituales sin asegurar documentos, costos o plazos.
+- /derechos/gratuidad-mspbs-y-tekopora/: revalidar alcance de Ley 5099/2013, prestaciones, insumos, derivaciones y canales para cobros; gratuidad no se extiende a IPS o privados ni garantiza disponibilidad.
+- /derechos/gratuidad-mspbs-y-tekopora/: Tekoporã carece de ficha en app-facts; verificar nombre vigente, entidad responsable, canales, elegibilidad, datos del hogar, documentación, montos y seguimiento. Se omiten importes y criterios de acceso; no se promete ingreso por embarazo.
+- /derechos/derechos-de-la-embarazada-que-trabaja/: verificar alcance según relación laboral, efectos de comunicar embarazo, constancias, reposo y coordinación de retorno; resumen de referencias locales sin ampliar condiciones legales.
+- Los siete artículos nuevos: MTESS se nombra por instrucción del lote como ministerio al que preguntar; falta validar canal competente, documentación, costos/plazos y alcance de orientación. No se prometen asesoría gratuita, inspección, sanciones ni resolución.
+- /derechos/: se conserva guaraniStrip=true y la ausencia de traducciones revisadas; el componente permanece oculto según la barrera de revisión nativa existente.
