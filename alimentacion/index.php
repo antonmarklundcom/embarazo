@@ -1,3 +1,3 @@
-<?php require __DIR__ . '/../lib/bootstrap.php';
-$path = '/alimentacion/';
-require ROOT_DIR . '/templates/page.php';
+<?php
+$cluster = 'alimentacion';
+require __DIR__ . '/../templates/hub.php';
