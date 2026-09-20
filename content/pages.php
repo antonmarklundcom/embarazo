@@ -219,8 +219,8 @@ return [
     'h1' => 'Trámites',
     'lead' => 'Estamos preparando esta sección para vos.',
     'sections' => [],
-    'stub' => true,
-    'noindex' => true
+    'stub' => false,
+    'noindex' => false
 ],
     '/derechos/' => [
     'title' => 'Derechos',

@@ -1307,4 +1307,1316 @@ return [
         'updated' => '2026-09-20',
         'image' => null
     ],
+    'carne-perinatal' => [
+        'cluster' => 'tramites',
+        'path' => '/tramites/carne-perinatal/',
+        'title' => 'Carné perinatal: para qué sirve y cómo organizarlo',
+        'seoTitle' => 'Carné perinatal: uso y documentos',
+        'metaDescription' => 'Conocé para qué sirve el carné perinatal, qué datos suele reunir y cómo llevarlo a tus controles o preparar un cambio de lugar de atención.',
+        'kind' => 'procedural',
+        'lead' => 'El carné perinatal reúne información del embarazo para acompañar tus controles y facilitar que el equipo de salud conozca tus antecedentes. Suele iniciarse en la atención prenatal y actualizarse durante las consultas. Llevá el carné que ya tengas, junto con estudios e informes, cuando cambies de profesional o vayas al lugar del parto. Pedí que te expliquen los datos que no entendés.',
+        'sections' => [
+            [
+                'h2' => 'Qué información reúne y por qué llevarlo',
+                'body' => [
+                    'El carné permite seguir el embarazo a lo largo de distintas consultas. Habitualmente reúne antecedentes de salud, información del embarazo actual y registros de controles. Su utilidad está en poder leer esa historia en conjunto: un resultado aislado dice menos que un resultado acompañado por su fecha y por lo que el equipo observá en la consulta. No necesitás aprender abreviaturas médicas para usarlo bien; sí saber dónde está y llevarlo cuando te atiendas.',
+                    'Puede contener datos como la fecha probable de parto, mediciones realizadas y estudios solicitados. Que una casilla está vacía no permite concluir que falta una atención: preguntá si ese apartado corresponde a tu situación. Tampoco interpretes colores o marcas como un diagnóstico. Si algo te preocupa, señalá el dato concreto para que el profesional lo explique con tu historia clínica a mano.',
+                    'Confirmá con el lugar de atención los requisitos, costos y plazos vigentes para la entrega o reposición del carné.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Cómo pedirlo en el control prenatal',
+                'body' => [
+                    'Cuando consultes por un turno, comentá si es tu primer control de este embarazo o si ya empezaste el seguimiento en otro lugar. Si todavía no tenés carné, podés preguntar cómo se inicia allí el registro. Habitualmente el equipo que hace el control completa la información clínica; vos podés aportar tus antecedentes y los documentos que conservás. Explicá también si recordás un estudio pero no tenés el informe.',
+                    'Prepará preguntas sobre alergias, tratamientos actuales, embarazos anteriores y problemas de salud que te hayan diagnosticado. Llevá anotados los nombres de los medicamentos que usás para poder conversarlos sin depender de la memoria. Esa lista sirve para la consulta, no para cambiar un tratamiento por tu cuenta. Al terminar, ubicá con el equipo las indicaciones y el próximo paso del seguimiento.',
+                    'Si aún estás definiendo dónde atenderte, revisá la [comparación de control prenatal con IPS o privado](/tramites/control-prenatal-ips-vs-privado/). El lugar elegido puede cambiar, pero conservar la información ayuda a darle continuidad al cuidado.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Papeles que suelen acompañar al carné',
+                'body' => [
+                    'Para preparar la carpeta, separá identificación, registro del embarazo y resultados. Habitualmente se solicita algún documento para identificar a la paciente y se revisan antecedentes disponibles. No hace falta producir una historia perfecta antes de pedir atención: indicá qué información tenés y cuál falta. La tabla reúne documentos habituales por confirmar, para que puedas preguntar por cada uno sin asumir que todos son obligatorios.',
+                    'Guardá los informes completos, con el nombre de la paciente y la fecha visibles. Si conservás imágenes de una ecografía, buscá también el informe escrito. Una foto borrosa de una hoja puede dificultar la lectura de un resultado, así que revisá que se vea entero antes de depender de ella. Mantené juntos los estudios relacionados, sin recortar ni separar su identificación.'
+                ],
+                'items' => [],
+                'table' => [
+                    'head' => [
+                        'Documento habitual, a confirmar',
+                        'Para qué sirve',
+                        'Qué revisar'
+                    ],
+                    'rows' => [
+                        [
+                            'Identificación de la paciente',
+                            'Vincular el registro con tus datos',
+                            'Nombre y datos legibles'
+                        ],
+                        [
+                            'Carné anterior, si existe',
+                            'Continuar el seguimiento',
+                            'Anotaciones completas'
+                        ],
+                        [
+                            'Informes de estudios',
+                            'Revisar antecedentes clínicos',
+                            'Fecha e identificación'
+                        ],
+                        [
+                            'Indicaciones previas',
+                            'Reconocer asuntos pendientes',
+                            'Profesional y consulta de origen'
+                        ]
+                    ]
+                ]
+            ],
+            [
+                'h2' => 'Cómo revisar el registro después de cada consulta',
+                'body' => [
+                    'Antes de guardar el carné, verificá tus datos personales y preguntá dónde quedaron anotadas las indicaciones. Si detectás un nombre o una fecha que no coincide con lo que te dijeron, mostralo al equipo para que revise el registro. Evitá corregir resultados o fechas clínicas por tu cuenta: una modificación sin explicación puede confundir a quien te atienda después.',
+                    'Podés llevar una hoja aparte con preguntas que surjan entre controles. Por ejemplo: qué estudio está pendiente, dónde se interpreta el resultado o qué hacer si no conseguís el turno indicado. Esa hoja personal puede acompañar al carné sin mezclarse con las anotaciones profesionales. Al recibir un resultado, no asumas que ya fue revisado solo porque lo agregaste a la carpeta; consultá cómo hacerlo llegar al equipo.',
+                    'Ante [señales de alarma](/salud/senales-de-alarma/), buscá atención sin esperar a completar papeles. El carné ayuda a comunicar información, pero no debe convertirse en una razón para postergar una consulta urgente.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Qué hacer si cambiás de centro o perdés el carné',
+                'body' => [
+                    'Para un cambio de atención, reuní el carné, los informes y las indicaciones que ya recibiste. Contá cuándo fue tu último control y qué quedó pendiente. Habitualmente el nuevo equipo revisa esos antecedentes para organizar la continuidad. Pedí que te expliquen qué información necesitan recuperar del lugar anterior y cómo solicitarla; no des por hecho que los registros se comparten automáticamente entre servicios.',
+                    'Si lo perdiste, anotá dónde hiciste los controles y qué estudios recordás. Contactá al lugar que llevaba el seguimiento para preguntar cómo recuperar antecedentes o iniciar un registro de reemplazo. Distinguí lo que recordás de lo que está documentado: una fecha aproximada puede orientar una búsqueda, pero conviene identificarla como aproximada. Si aparecen luego los papeles originales, llevalos para que el equipo pueda compararlos.',
+                    'Para preparar la llegada del bebé, dejá la carpeta en un lugar fácil de encontrar y avisale a quien te acompaña. En el [hub de trámites](/tramites/) podés revisar las gestiones de cobertura y nacimiento sin mezclarlas con el registro clínico.',
+                    'Para leer una indicación, ubicá primero a qué consulta pertenece y si describe algo ya realizado o algo que falta hacer. Podés pedir al profesional que te muestre esa diferencia en el propio registro. Por ejemplo, una solicitud de análisis y el resultado de ese análisis son momentos distintos. Mantenerlos identificados evita que al cambiar de equipo parezca pendiente un estudio que ya hiciste, o realizado uno que solo fue indicado.'
+                ],
+                'items' => [],
+                'table' => null
+            ]
+        ],
+        'steps' => [
+            [
+                'title' => 'Ubicá el registro',
+                'body' => [
+                    'Buscá el carné o preguntá en tu lugar de control cómo iniciarlo.'
+                ]
+            ],
+            [
+                'title' => 'Reuní antecedentes',
+                'body' => [
+                    'Agrupá informes e indicaciones y señalá qué información falta recuperar.'
+                ]
+            ],
+            [
+                'title' => 'Revisalo con el equipo',
+                'body' => [
+                    'Consultá las anotaciones que no entendés y el siguiente paso del seguimiento.'
+                ]
+            ]
+        ],
+        'appHandoff' => [
+            'text' => 'Mi Bebé incluye herramientas de carné y resumen prenatal. Podés explorar esas opciones para acompañar tu organización y llevar tus preguntas al control.',
+            'medium' => 'article',
+            'extra' => []
+        ],
+        'faq' => [
+            [
+                'q' => '¿El carné reemplaza los informes de estudios?',
+                'a' => 'Conviene llevar también los informes disponibles: pueden contener detalles que no figuran en el resumen del carné.'
+            ],
+            [
+                'q' => '¿Puedo llevarlo si me atiendo en otro lugar?',
+                'a' => 'Sí, llevá tus antecedentes para que el nuevo equipo pueda revisarlos y organizar el seguimiento.'
+            ],
+            [
+                'q' => '¿Qué hago si una anotación está equivocada?',
+                'a' => 'Mostrala al equipo que te atiende para que revise el dato; evitá modificar información clínica por tu cuenta.'
+            ]
+        ],
+        'related' => [
+            'control-prenatal-ips-vs-privado',
+            'inscribirse-en-ips-embarazada'
+        ],
+        'weeks' => [
+            8,
+            20,
+            32
+        ],
+        'appGuideSlug' => null,
+        'guarani' => [],
+        'reviewedBy' => null,
+        'reviewedAt' => null,
+        'validAsOf' => '2026-09-20',
+        'sources' => [
+            [
+                'title' => 'Guía vigente de control prenatal del MSPBS',
+                'publisher' => 'MSPBS',
+                'url' => null,
+                'accessed' => null
+            ],
+            [
+                'title' => 'Recomendaciones de la OMS sobre atención prenatal para una experiencia positiva del embarazo',
+                'publisher' => 'Organización Mundial de la Salud',
+                'url' => null,
+                'accessed' => null
+            ]
+        ],
+        'updated' => '2026-09-20',
+        'image' => null
+    ],
+    'inscribirse-en-ips-embarazada' => [
+        'cluster' => 'tramites',
+        'path' => '/tramites/inscribirse-en-ips-embarazada/',
+        'title' => 'Inscribirse en IPS embarazada: cómo empezar',
+        'seoTitle' => 'Inscribirse en IPS durante el embarazo',
+        'metaDescription' => 'Organizá tu consulta sobre inscripción en IPS durante el embarazo: cobertura, documentos habituales y pasos para revisar tu situación de aportes.',
+        'kind' => 'procedural',
+        'lead' => 'Para consultar una inscripción en IPS durante el embarazo, empezá por identificar tu situación de afiliación y bajo qué régimen podrías tener cobertura. Estar embarazada no permite deducir por sí solo cuál es el trámite que te corresponde. Habitualmente necesitás distinguir una inscripción inicial, una actualización de datos y una consulta de cobertura. Con esa respuesta, podés preparar los documentos y preguntar cómo acceder al control prenatal.',
+        'sections' => [
+            [
+                'h2' => 'Identificá qué gestión necesitás',
+                'body' => [
+                    'La palabra inscripción puede usarse para situaciones distintas. Quizás empezaste un empleo y querés saber si figurás registrada; tal vez ya tenés antecedentes de aportes o estás consultando por una modalidad de cobertura familiar. Describí tu situación con tus propias palabras antes de pedir una lista de papeles. Habitualmente, identificar el régimen y el estado del registro permite orientar la consulta hacia la gestión adecuada.',
+                    'Preguntá qué dato necesitan para localizarte y cómo podés conocer el estado de tu afiliación. Si te responden que ya aparecés en el sistema, averiguá qué significa ese estado para la atención que buscás. Un registro encontrado y una prestación habilitada son preguntas diferentes. Anotá la respuesta con el nombre exacto de la gestión, para que una próxima consulta no vuelva a empezar desde cero.',
+                    'Confirmá con IPS los requisitos, costos y plazos vigentes para tu modalidad de inscripción y atención.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Si trabajás, prepará tu historia de aportes',
+                'body' => [
+                    'Podés reunir los comprobantes laborales que ya tengas y ordenar los cambios de empleo que sean relevantes. Habitualmente, quien lleva personal o liquidación de salarios ayuda a identificar la información comunicada por el empleador. Pedí que distingan lo que ya presentaron de lo que todavía está pendiente. Si hubo un error en tus datos, señalá cuál es y preguntá quién debe gestionar la corrección.',
+                    'Una constancia de descuento puede servirte para formular una consulta, pero no resuelve por sí sola todas las condiciones de cobertura. Si lo que te informa el trabajo no coincide con la respuesta de IPS, conservá ambas referencias y explicá la diferencia concreta. Por ejemplo, si se refieren a períodos distintos o si tu nombre figura de otra manera. Evitá completar formularios con datos supuestos para acelerar una presentación.',
+                    'Si no tenés empleador, explicá esa situación desde el inicio. La experiencia de una amiga con otro tipo de afiliación no determina qué modalidad existe para vos ni qué prestaciones incluye.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Documentación habitual para preparar la consulta',
+                'body' => [
+                    'Suelen revisarse documentos de identidad y antecedentes que permitan ubicar la relación laboral o el vínculo invocado para la cobertura. La documentación concreta depende de la modalidad. Antes de conseguir certificados nuevos, armá una lista de lo que ya tenés y anotá qué papel te pidieron expresamente. La tabla es una preparación de documentos habituales por confirmar, no una orden de reunir todo lo que aparece.',
+                    'Revisá nombres, apellidos y datos de identificación entre los documentos. Si hay una diferencia, llevá la pregunta escrita y conservá las versiones disponibles. Cuando entregues algo, pedí una referencia de la presentación y anotá qué queda pendiente. Guardá los originales de manera que puedas ubicarlos sin mezclar esta gestión con la carpeta médica del embarazo.'
+                ],
+                'items' => [],
+                'table' => [
+                    'head' => [
+                        'Documento habitual, a confirmar',
+                        'Para qué sirve',
+                        'Qué revisar'
+                    ],
+                    'rows' => [
+                        [
+                            'Identificación',
+                            'Localizar tus datos',
+                            'Coincidencia de nombres'
+                        ],
+                        [
+                            'Antecedentes laborales disponibles',
+                            'Consultar registro y aportes',
+                            'Períodos y empleador'
+                        ],
+                        [
+                            'Constancias del vínculo invocado',
+                            'Consultar una modalidad familiar',
+                            'Qué vínculo debe acreditarse'
+                        ],
+                        [
+                            'Referencia de una gestión previa',
+                            'Retomar una consulta',
+                            'Observación pendiente'
+                        ]
+                    ]
+                ]
+            ],
+            [
+                'h2' => 'De la afiliación al primer control',
+                'body' => [
+                    'Una vez que te expliquen tu situación, preguntá cómo se organiza el acceso a la consulta prenatal en tu caso. Habitualmente el trámite administrativo y la asignación de atención tienen pasos propios. Averiguá qué constancia presentar al solicitar el turno y qué hacer si todavía falta resolver un dato. Contá si ya venís haciendo controles para que puedan orientarte sobre la continuidad.',
+                    'Para la consulta clínica, llevá el [carné perinatal](/tramites/carne-perinatal/) y los estudios que tengas. El equipo de salud puede revisar esos antecedentes y explicarte el seguimiento. No suspendas por tu cuenta una atención ya indicada mientras organizás la cobertura. Si aparecen [señales de alarma](/salud/senales-de-alarma/), buscá atención de inmediato; la organización de papeles no debe retrasarla.',
+                    'También podés preparar preguntas sobre cómo recibir resultados y dónde consultar indicaciones. Saber que existe una posibilidad de cobertura no responde todavía cómo vas a trasladarte, qué turno podés usar o quién dará continuidad a los estudios.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Separá atención médica y subsidio de maternidad',
+                'body' => [
+                    'Consultar por inscripción durante el embarazo no equivale a solicitar un pago. La atención prenatal y el [subsidio de maternidad](/derechos/subsidio-de-maternidad-ips/) son asuntos diferentes. Si te interesa conocer ambos, prepará preguntas separadas: una sobre acceso a prestaciones de salud y otra sobre condiciones del beneficio económico. Así evitás interpretar una respuesta sobre aportes como confirmación de cualquier prestación.',
+                    'Para dar seguimiento, anotá el estado que te comunicaron: consulta realizada, documentación presentada, observación pendiente o respuesta recibida. Esas palabras son una forma personal de ordenar el proceso, no estados oficiales que deban aparecer en un sistema. Si falta una corrección, identificá el dato observado, quién puede aportarlo y por qué canal se entrega. No hace falta volver a presentar todo sin saber qué problema intentás resolver.',
+                    'Si una respuesta sigue siendo confusa, resumí tu caso en un párrafo: situación laboral, gestión solicitada, documentos entregados y pregunta pendiente. Esa síntesis permite explicar el problema sin reenviar información sensible innecesaria. El [hub de trámites](/tramites/) reúne las guías para seguir organizando controles y documentos del nacimiento.',
+                    'Si te piden volver con información del empleador, solicitá una descripción concreta del dato faltante. Puede ser más útil preguntar qué período deben revisar que llevar otra vez todos los recibos. Al retomar la consulta, mencioná la referencia anterior y explicá qué información nueva aportás. Guardá también la respuesta sobre el siguiente paso, para distinguir una corrección del registro de la posterior coordinación del turno prenatal que necesitás.'
+                ],
+                'items' => [],
+                'table' => null
+            ]
+        ],
+        'steps' => [
+            [
+                'title' => 'Describí tu situación',
+                'body' => [
+                    'Explicá si consultás por primera inscripción, cambio de datos o cobertura.'
+                ]
+            ],
+            [
+                'title' => 'Separá lo presentado de lo pendiente',
+                'body' => [
+                    'Pedí al trabajo, si corresponde, la referencia de la gestión que ya hizo.'
+                ]
+            ],
+            [
+                'title' => 'Consultá el acceso al control',
+                'body' => [
+                    'Preguntá cómo continuar con la atención prenatal según la respuesta sobre afiliación.'
+                ]
+            ]
+        ],
+        'appHandoff' => [
+            'text' => 'Mi Bebé reúne seguimiento por semanas y una guía de control prenatal con IPS o atención privada. Podés usar esa información para preparar tus preguntas sobre el seguimiento.',
+            'medium' => 'article',
+            'extra' => []
+        ],
+        'faq' => [
+            [
+                'q' => '¿El embarazo confirma que tengo cobertura?',
+                'a' => 'No alcanza para determinar tu modalidad ni las prestaciones. Empezá por consultar tu situación de afiliación.'
+            ],
+            [
+                'q' => '¿La inscripción y el subsidio son el mismo trámite?',
+                'a' => 'Son asuntos distintos: separá tus preguntas sobre atención médica de las relacionadas con una prestación económica.'
+            ],
+            [
+                'q' => '¿Qué pasa si cambié de empleo?',
+                'a' => 'Prepará los antecedentes disponibles y explicá el cambio para consultar qué actualización corresponde.'
+            ]
+        ],
+        'related' => [
+            'carne-perinatal',
+            'control-prenatal-ips-vs-privado'
+        ],
+        'weeks' => [
+            8,
+            12,
+            20
+        ],
+        'appGuideSlug' => null,
+        'guarani' => [],
+        'reviewedBy' => null,
+        'reviewedAt' => null,
+        'validAsOf' => '2026-09-20',
+        'sources' => [
+            [
+                'title' => 'Orientación vigente sobre afiliación y prestaciones',
+                'publisher' => 'Instituto de Previsión Social (IPS)',
+                'url' => null,
+                'accessed' => null
+            ],
+            [
+                'title' => 'Guía vigente de control prenatal del MSPBS',
+                'publisher' => 'MSPBS',
+                'url' => null,
+                'accessed' => null
+            ]
+        ],
+        'updated' => '2026-09-20',
+        'image' => null
+    ],
+    'control-prenatal-ips-vs-privado' => [
+        'cluster' => 'tramites',
+        'path' => '/tramites/control-prenatal-ips-vs-privado/',
+        'title' => 'Control prenatal IPS o privado: cómo comparar',
+        'seoTitle' => 'Control prenatal: IPS o privado',
+        'metaDescription' => 'Compará IPS y atención privada para el control prenatal según cobertura, continuidad, traslados y estudios, con preguntas para decidir informada.',
+        'kind' => 'procedural',
+        'lead' => 'Para elegir entre control prenatal con IPS o atención privada, compará tu cobertura concreta, la continuidad del equipo, los traslados y cómo se coordinan consultas y estudios. Ninguna opción puede evaluarse solo por el precio o por una experiencia ajena. Pedí información sobre lo que incluye cada alternativa y pensá cómo sostener el seguimiento durante el embarazo y al acercarse el parto.',
+        'sections' => [
+            [
+                'h2' => 'Compará el recorrido completo de atención',
+                'body' => [
+                    'Empezá por describir lo que necesitás: iniciar controles, continuar con un embarazo ya seguido o cambiar de lugar de atención. Después mirá el recorrido completo, desde pedir un turno hasta recibir la interpretación de los estudios. Una consulta disponible puede ser útil, pero también necesitás saber cómo continúa el seguimiento. La distancia, los horarios y quién puede acompañarte influyen en una elección que puedas sostener.',
+                    'En IPS, la conversación suele empezar por tu situación de cobertura. En el ámbito privado, suele incluir honorarios o condiciones de un plan, si lo tenés. En ambos casos, preguntá cómo se coordinan las consultas y qué pasa cuando el profesional habitual no está disponible. No deduzcas la calidad del cuidado a partir del nombre del servicio, de la decoración o del precio informado.',
+                    'Confirmá con cada prestador los requisitos, costos y plazos vigentes de las prestaciones que estás comparando.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Qué preguntar sobre cobertura y presupuesto',
+                'body' => [
+                    'Pedí que separen consulta, estudios, revisión de resultados y atención del nacimiento. Habitualmente una respuesta general sobre cobertura necesita aclararse para cada prestación. Si te ofrecen un presupuesto o un plan, revisá qué incluye y qué queda aparte. Guardá la respuesta para comparar conceptos equivalentes; un importe de consulta aislada no puede compararse directamente con una propuesta que reúne varios servicios.',
+                    'Podés hacer una hoja con los gastos que ya conocés y dejar en blanco los que faltan. Sumá traslados, acompañamiento y tiempo fuera del trabajo como aspectos de tu organización, sin convertir estimaciones en cargos del prestador. Si vas a combinar lugares, preguntá cómo reciben órdenes e informes emitidos por otro equipo. No supongas que una indicación será aceptada automáticamente en cualquier servicio.',
+                    'Si todavía necesitás aclarar tu afiliación, empezá por [inscribirse en IPS durante el embarazo](/tramites/inscribirse-en-ips-embarazada/). Resolver esa pregunta te permite comparar una posibilidad concreta de atención, en lugar de una cobertura que todavía no sabés si te corresponde.'
+                ],
+                'items' => [],
+                'table' => [
+                    'head' => [
+                        'Aspecto',
+                        'IPS: pregunta para tu caso',
+                        'Atención privada: pregunta para tu caso'
+                    ],
+                    'rows' => [
+                        [
+                            'Acceso',
+                            '¿Qué cobertura tengo habilitada?',
+                            '¿Cómo se abona o qué plan se acepta?'
+                        ],
+                        [
+                            'Consultas y estudios',
+                            '¿Cómo se coordinan las prestaciones?',
+                            '¿Qué incluye cada presupuesto?'
+                        ],
+                        [
+                            'Resultados',
+                            '¿Quién revisa los informes?',
+                            '¿Cómo se organiza su revisión?'
+                        ],
+                        [
+                            'Continuidad',
+                            '¿Cómo sigue el control si cambia el equipo?',
+                            '¿Quién continúa la atención si falta el profesional?'
+                        ],
+                        [
+                            'Nacimiento',
+                            '¿Cómo se orienta la atención del parto?',
+                            '¿Qué condiciones se informan para el parto?'
+                        ]
+                    ]
+                ]
+            ],
+            [
+                'h2' => 'Documentos para iniciar o trasladar el seguimiento',
+                'body' => [
+                    'Habitualmente se revisan la identificación, los antecedentes del embarazo y, según la modalidad, una constancia de cobertura. La tabla enumera documentos usuales por confirmar. Al pasar de un servicio a otro, llevá el [carné perinatal](/tramites/carne-perinatal/) y los informes completos para que el nuevo equipo conozca lo realizado. Explicá qué estudios están pedidos, cuáles ya hiciste y cuáles esperan interpretación.',
+                    'Ordená la información por consulta o por tipo de estudio, de la forma que te resulte fácil encontrarla. Si tenés solamente una imagen en el teléfono, revisá que se pueda leer el informe y su fecha. Preguntá al nuevo profesional qué antecedentes necesita recuperar antes de repetir una prueba; la necesidad clínica de un estudio debe conversarse con quien te atiende.'
+                ],
+                'items' => [],
+                'table' => [
+                    'head' => [
+                        'Documento habitual, a confirmar',
+                        'Para qué sirve',
+                        'Qué revisar'
+                    ],
+                    'rows' => [
+                        [
+                            'Identificación personal',
+                            'Abrir o localizar el registro',
+                            'Datos coincidentes'
+                        ],
+                        [
+                            'Constancia de cobertura, si corresponde',
+                            'Consultar prestaciones',
+                            'Modalidad informada'
+                        ],
+                        [
+                            'Carné e informes previos',
+                            'Continuar el cuidado',
+                            'Resultados e indicaciones'
+                        ],
+                        [
+                            'órdenes pendientes',
+                            'Revisar próximos estudios',
+                            'Qué falta realizar'
+                        ]
+                    ]
+                ]
+            ],
+            [
+                'h2' => 'Qué tiene que sostener el control prenatal',
+                'body' => [
+                    'El control prenatal permite conversar sobre tu salud, seguir la evolución del embarazo y detectar situaciones que necesitan evaluación. Suele incluir revisión de antecedentes, síntomas, mediciones y estudios según el momento del embarazo y tu situación. También es un espacio para preguntar sobre alimentación, actividad, vacunas y preparación para el nacimiento. El contenido del cuidado importa tanto como la posibilidad de conseguir una consulta.',
+                    'Durante la visita, contá cambios que te preocupan y preguntá qué significa cada indicación. Al salir, debería quedarte claro qué sigue: un estudio, una nueva consulta o una evaluación por otro equipo. Si recibís una orden sin entender su propósito, pedí una explicación. Más pruebas no significan por sí solas mejor seguimiento, y una lista de estudios no reemplaza una conversación clínica.',
+                    'Revisá las [señales de alarma](/salud/senales-de-alarma/) para reconocer cuándo buscar atención urgente. Ante síntomas de alarma, no esperes una comparación de presupuestos ni el próximo turno habitual para consultar.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Cómo decidir sin perder continuidad',
+                'body' => [
+                    'Podés comparar cada opción con las mismas preguntas: dónde serán los controles, cómo se reciben resultados, qué ocurre si necesitás una derivación y cómo se prepara la atención del parto. Habitualmente esos detalles se coordinan con el equipo o el servicio de atención. Anotá lo que te respondieron y lo que sigue sin resolver. Una respuesta pendiente merece una nueva pregunta, no una suposición favorable o desfavorable.',
+                    'Si decidís cambiar, buscá dejar claro quién continuará el seguimiento y qué información necesita. Si usás más de un servicio, contales a los profesionales qué atención recibís en el otro. Eso ayuda a revisar indicaciones en conjunto y a evitar que cada consulta parta de una historia incompleta. Conservá las órdenes y aclaraciones sin modificar tratamientos por tu cuenta.',
+                    'La decisión puede cambiar si se modifica tu cobertura, tu lugar de residencia o una necesidad de salud. Volvé a revisar los mismos criterios cuando eso ocurra. No hace falta defender una elección pasada si dejá de servirte: lo importante es organizar el siguiente control y llevar la información necesaria. En el [hub de trámites](/tramites/) encontrás las guías de documentos para acompañar ese cambio.',
+                    'Para comparar disponibilidad, describí tu necesidad con el mismo detalle en ambos lugares: si es una primera consulta, si llevás estudios o si necesitás continuar una indicación. Preguntá también quién recibe dudas entre visitas y cómo se comunican cambios de turno. Esas respuestas permiten planificar el cuidado cotidiano sin atribuir ventajas generales a un sistema. Una alternativa puede ajustarse a tus horarios y otra requerir apoyo para los traslados.'
+                ],
+                'items' => [],
+                'table' => null
+            ]
+        ],
+        'steps' => [
+            [
+                'title' => 'Definí tus necesidades',
+                'body' => [
+                    'Anotá dónde vivís, qué seguimiento ya tenés y qué cobertura conocés.'
+                ]
+            ],
+            [
+                'title' => 'Pedí información comparable',
+                'body' => [
+                    'Separá consultas, estudios, revisión de resultados y atención del nacimiento.'
+                ]
+            ],
+            [
+                'title' => 'Coordiná la continuidad',
+                'body' => [
+                    'Llevá los antecedentes y preguntá quién revisará las indicaciones pendientes.'
+                ]
+            ]
+        ],
+        'appHandoff' => [
+            'text' => 'Mi Bebé incluye una guía de control prenatal con IPS o atención privada y seguimiento por semanas. Podés volver a esos temas mientras preparás preguntas para tu equipo.',
+            'medium' => 'article',
+            'extra' => []
+        ],
+        'faq' => [
+            [
+                'q' => '¿IPS o privado es siempre mejor?',
+                'a' => 'La comparación depende de tu cobertura, necesidades y acceso concreto. Evaluá continuidad, coordinación y condiciones de cada alternativa.'
+            ],
+            [
+                'q' => '¿Puedo consultar en más de un lugar?',
+                'a' => 'Si recibís atención en distintos servicios, informales a los equipos y llevá tus antecedentes para coordinar indicaciones.'
+            ],
+            [
+                'q' => '¿Una consulta incluye todos los estudios?',
+                'a' => 'No lo deduzcas de un precio o una respuesta general. Pedí el detalle de cada prestación.'
+            ]
+        ],
+        'related' => [
+            'carne-perinatal',
+            'inscribirse-en-ips-embarazada'
+        ],
+        'weeks' => [
+            8,
+            20,
+            32
+        ],
+        'appGuideSlug' => 'control-prenatal-ips-vs-privado',
+        'guarani' => [],
+        'reviewedBy' => null,
+        'reviewedAt' => null,
+        'validAsOf' => '2026-09-20',
+        'sources' => [
+            [
+                'title' => 'Orientación vigente sobre prestaciones de salud',
+                'publisher' => 'Instituto de Previsión Social (IPS)',
+                'url' => null,
+                'accessed' => null
+            ],
+            [
+                'title' => 'Recomendaciones de la OMS sobre atención prenatal para una experiencia positiva del embarazo',
+                'publisher' => 'Organización Mundial de la Salud',
+                'url' => null,
+                'accessed' => null
+            ],
+            [
+                'title' => 'Guía de control prenatal IPS o privado',
+                'publisher' => 'Mi Bebé',
+                'url' => null,
+                'accessed' => null
+            ]
+        ],
+        'updated' => '2026-09-20',
+        'image' => null
+    ],
+    'certificado-de-nacido-vivo' => [
+        'cluster' => 'tramites',
+        'path' => '/tramites/certificado-de-nacido-vivo/',
+        'title' => 'Certificado de nacido vivo: cómo prepararlo',
+        'seoTitle' => 'Certificado de nacido vivo: qué revisar',
+        'metaDescription' => 'Conocé para qué sirve el certificado de nacido vivo, qué datos revisar al recibirlo y cómo preparar los documentos para la inscripción del bebé.',
+        'kind' => 'procedural',
+        'lead' => 'El certificado de nacido vivo documenta el nacimiento y suele servir como antecedente para la inscripción del bebé. Habitualmente la familia consulta por su emisión en el lugar donde ocurrió el parto. Antes de guardarlo, revisá los datos de identificación y del nacimiento con quien lo entrega. Es distinto del documento que recibís al inscribir el nacimiento y de la cédula del bebé.',
+        'sections' => [
+            [
+                'h2' => 'Qué documento estás pidiendo',
+                'body' => [
+                    'Después del parto podés recibir varios papeles con información parecida: indicaciones de alta, resultados, constancias y documentación para trámites. Pedí que te indiquen cuál corresponde al certificado de nacido vivo y cuál es la función de cada hoja. Habitualmente ese certificado permite llevar información del nacimiento a la gestión de inscripción. Identificarlo por su nombre evita presentar un resumen clínico como si fuera el documento solicitado.',
+                    'La persona que acompaña puede ayudarte a ubicar los papeles, pero conviene acordar quién los conservará al volver a casa. Separá la documentación administrativa de las indicaciones de cuidado, manteniendo ambas accesibles. Si un documento todavía no está disponible al momento de salir, anotá exactamente qué falta y a quién se consulta por su entrega.',
+                    'Confirmá con el servicio emisor y la oficina receptora los requisitos, costos y plazos vigentes para tu caso.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Cómo consultar por la emisión',
+                'body' => [
+                    'Habitualmente se empieza preguntando en el establecimiento donde se atendió el nacimiento. Explicá si necesitás la primera entrega, corregir un dato o recuperar un documento que no encontrás. Son situaciones distintas y pueden requerir una orientación diferente. Si alguien más va a retirar documentación, preguntá qué identificación o autorización suele solicitarse para esa persona antes de organizar el viaje.',
+                    'Si el nacimiento ocurrió fuera de un establecimiento, describí esa circunstancia al servicio de salud y a la oficina que recibe la inscripción. Preguntá qué antecedentes necesitan y quién puede emitir la constancia correspondiente. No adaptes por tu cuenta un procedimiento pensado para otra situación ni completes información clínica de memoria. Conservá los papeles disponibles para que te expliquen cuáles sirven como antecedentes.',
+                    'Para ver cómo encaja este documento en el conjunto, leé la guía de [trámites después del nacimiento](/tramites/despues-del-nacimiento/). La idea es saber qué gestión depende de qué papel, sin confundir emisión, inscripción e identificación.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Documentos habituales y datos para localizarlo',
+                'body' => [
+                    'Suelen pedirse datos que permitan identificar a la madre y ubicar la atención del nacimiento. Podés preparar la documentación personal disponible y las referencias de la atención recibida. La tabla reúne antecedentes habituales por confirmar: no significa que todos deban presentarse ni que un papel clínico reemplace el certificado. Si falta un documento de identidad, explicalo para recibir una indicación aplicable a esa situación.',
+                    'Al consultar, usá los datos tal como figuran en los documentos que tenés. Si existen diferencias de apellidos o de identificación entre registros, mostrálas juntas. Eso permite preguntar dónde se originó la diferencia y quién puede revisarla. Evitá entregar el único original de un antecedente sin entender para qué lo necesitan y cómo queda registrada su recepción.'
+                ],
+                'items' => [],
+                'table' => [
+                    'head' => [
+                        'Documento habitual, a confirmar',
+                        'Para qué sirve',
+                        'Qué revisar'
+                    ],
+                    'rows' => [
+                        [
+                            'Identificación de la madre',
+                            'Relacionar la emisión con la atención',
+                            'Datos legibles'
+                        ],
+                        [
+                            'Referencia de la atención del parto',
+                            'Localizar antecedentes',
+                            'Lugar y datos disponibles'
+                        ],
+                        [
+                            'Identificación de quien retira',
+                            'Consultar entrega a otra persona',
+                            'Autorización que soliciten'
+                        ],
+                        [
+                            'Documento con el dato observado',
+                            'Pedir revisión de una diferencia',
+                            'Conservar la versión recibida'
+                        ]
+                    ]
+                ]
+            ],
+            [
+                'h2' => 'Qué revisar cuando te lo entregan',
+                'body' => [
+                    'Leé los datos personales y del nacimiento antes de usar el certificado para otra gestión. Revisá que corresponda a tu familia y que la información se pueda leer completa. Si algo no coincide con lo ocurrido o con la documentación personal, señalalo en el momento y preguntá cómo se revisa. No taches, sobrescribas ni agregues datos por tu cuenta: una corrección informal puede crear nuevas dudas en la inscripción.',
+                    'Si no entendés una casilla, preguntá qué representa antes de asumir que está equivocada. También podés pedir que te indiquen cómo reconocer que el documento está completo para su uso previsto. Las firmas, validaciones o formatos aceptados dependen del procedimiento; llevá esa pregunta al emisor cuando te expliquen la entrega.',
+                    'Guardá una copia legible como referencia personal y conservá el documento recibido protegido de humedad y roturas. Una foto puede ayudarte a encontrar un dato durante una llamada, pero no demuestra que ese formato sea aceptado para hacer el trámite. Preguntá qué debés presentar antes de salir.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Cómo sigue la inscripción y qué hacer ante un problema',
+                'body' => [
+                    'Con el certificado identificado, podés preparar la [inscripción en el Registro Civil](/tramites/inscripcion-en-el-registro-civil/). Habitualmente la oficina receptora orienta sobre la documentación del nacimiento y de las personas que deben intervenir. No des por terminada la inscripción por haber recibido el certificado: pedí que te expliquen qué presentación sigue y qué documento obtendrás al completarla.',
+                    'Si el certificado se perdió, empezá por informar la pérdida al lugar que lo emitió y preguntá cómo se gestiona una nueva constancia o recuperación. Evitá hacer varias solicitudes sin mencionar las anteriores. Si hay un error, guardá una descripción breve del dato observado y de la respuesta recibida. El objetivo es resolver la diferencia antes de trasladarla a otros documentos del bebé.',
+                    'Si todavía no te entregaron nada, separá la pregunta sobre emisión de la pregunta sobre atención médica. Las indicaciones de cuidado de la madre y del bebé deben quedar claras aunque haya un papel administrativo pendiente. Podés pedir ayuda para seguir la gestión mientras vos te concentrás en la recuperación. El [hub de trámites](/tramites/) permite ubicar las siguientes guías sin mezclar sus documentos.',
+                    'Si recibís el certificado dentro de un sobre con otros papeles, identificá su contenido antes de archivarlo. Podés dejar una nota por fuera que diga qué documento contiene y dónde se usará. Si te indican conservar el sobre cerrado para una presentación, seguí esa indicación y preguntá cómo revisar los datos por otra vía. La organización debe facilitar la entrega sin alterar las condiciones en que te pidieron conservar el documento.'
+                ],
+                'items' => [],
+                'table' => null
+            ]
+        ],
+        'steps' => [
+            [
+                'title' => 'Preguntá cuál es el certificado',
+                'body' => [
+                    'Identificá el documento destinado a acreditar el nacimiento entre los papeles de alta.'
+                ]
+            ],
+            [
+                'title' => 'Revisá lo recibido',
+                'body' => [
+                    'Compará los datos con la documentación familiar y señalá diferencias al emisor.'
+                ]
+            ],
+            [
+                'title' => 'Prepará la inscripción',
+                'body' => [
+                    'Consultá qué presentar junto con el certificado para registrar el nacimiento.'
+                ]
+            ]
+        ],
+        'appHandoff' => [
+            'text' => 'Mi Bebé incluye una guía de trámites después del nacimiento. Podés consultarla para ubicar las gestiones que siguen al parto y preparar preguntas sobre tus documentos.',
+            'medium' => 'article',
+            'extra' => []
+        ],
+        'faq' => [
+            [
+                'q' => '¿Es lo mismo que la inscripción del nacimiento?',
+                'a' => 'No. El certificado suele ser un antecedente para gestionar la inscripción; identificá qué documento corresponde a cada etapa.'
+            ],
+            [
+                'q' => '¿Puedo corregir un apellido a mano?',
+                'a' => 'Pedí que el emisor revise el dato y te indique el procedimiento de corrección. No lo modifiques por tu cuenta.'
+            ],
+            [
+                'q' => '¿Qué hago si el parto fue fuera de un establecimiento?',
+                'a' => 'Explicá esa circunstancia al servicio de salud y a la oficina receptora para preguntar qué antecedentes y constancia corresponden.'
+            ]
+        ],
+        'related' => [
+            'inscripcion-en-el-registro-civil',
+            'despues-del-nacimiento'
+        ],
+        'weeks' => [],
+        'appGuideSlug' => null,
+        'guarani' => [],
+        'reviewedBy' => null,
+        'reviewedAt' => null,
+        'validAsOf' => '2026-09-20',
+        'sources' => [
+            [
+                'title' => 'Orientación vigente del MSPBS sobre documentación del nacimiento',
+                'publisher' => 'MSPBS',
+                'url' => null,
+                'accessed' => null
+            ],
+            [
+                'title' => 'Guía de trámites después del nacimiento',
+                'publisher' => 'Mi Bebé',
+                'url' => null,
+                'accessed' => null
+            ]
+        ],
+        'updated' => '2026-09-20',
+        'image' => null
+    ],
+    'inscripcion-en-el-registro-civil' => [
+        'cluster' => 'tramites',
+        'path' => '/tramites/inscripcion-en-el-registro-civil/',
+        'title' => 'Inscripción del nacimiento en el Registro Civil',
+        'seoTitle' => 'Inscripción del nacimiento: Registro Civil',
+        'metaDescription' => 'Prepará la inscripción del nacimiento: documentos habituales, datos del bebé y preguntas sobre quién debe presentarse y cómo revisar la constancia.',
+        'kind' => 'procedural',
+        'lead' => 'La inscripción del nacimiento permite registrar los datos del bebé y obtener la documentación correspondiente a ese registro. Habitualmente se prepara con el certificado de nacido vivo y la identificación de quienes intervienen. Antes de organizar la visita, consultá qué oficina recibe tu caso y quién debe presentarse. Revisá nombres y apellidos con atención: recibir el certificado del parto no equivale a haber inscripto el nacimiento.',
+        'sections' => [
+            [
+                'h2' => 'Qué resuelve la inscripción',
+                'body' => [
+                    'Registrar el nacimiento es una gestión distinta de documentar la atención del parto. El [certificado de nacido vivo](/tramites/certificado-de-nacido-vivo/) suele aportar el antecedente del nacimiento; la inscripción deja asentados los datos en el registro correspondiente. Cuando consultes, usá el nombre de la gestión completa y explicá si se trata de una primera inscripción o de corregir un registro que ya existe.',
+                    'Habitualmente una persona de la familia organiza los documentos y consulta cómo hacer la presentación. Eso no determina quién está habilitado para declarar o firmar en tu situación. Preguntá por la intervención que corresponde a cada persona antes de organizar permisos laborales o traslados. Si alguien no puede asistir, describí el motivo y pedí orientación sobre el procedimiento aplicable.',
+                    'Confirmá con la oficina receptora los requisitos, costos y plazos vigentes para la inscripción de tu bebé.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Prepará los datos antes de la visita',
+                'body' => [
+                    'Revisá cómo están escritos los nombres y apellidos en la documentación disponible. Podés hacer una hoja personal con los datos que querés preguntar, sin convertirla en un formulario oficial. Prestá atención a letras, orden de apellidos y diferencias entre documentos. Si encontrás una discrepancia, señalala con claridad; copiar un error para que todos los papeles coincidan puede dificultar su corrección posterior.',
+                    'La situación familiar también puede modificar qué información necesita revisar la oficina. Si hay documentos emitidos en otro país, falta de identificación o dudas sobre filiación, explicalo desde el primer contacto. Habitualmente esos casos requieren una orientación específica. No uses una experiencia ajena como confirmación de quién puede presentarse, qué apellido corresponde o qué documento reemplaza a otro.',
+                    'Para preparar la conversación, formulá preguntas separadas: qué documentos presentar, quién debe intervenir y qué información necesita aclaración. Así podés reconocer si una respuesta resuelve todo el caso o solo una parte de la consulta.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Documentos que suelen pedirse',
+                'body' => [
+                    'El certificado del nacimiento y los documentos de identidad de quienes intervienen suelen formar parte de la preparación. Según la situación, pueden pedir antecedentes adicionales sobre vínculos o datos registrales. La tabla enumera documentos habituales por confirmar; no presupone una composición familiar ni obliga a conseguir papeles que no corresponden a tu caso. Anotá el nombre exacto de cualquier documento adicional que te indiquen.',
+                    'Mantené los originales separados de las copias para evitar entregas por confusión. Si un documento presenta una diferencia, llevá también el antecedente que permite explicarla. Preguntá si primero debe revisarse en su lugar de emisión. Cuando te indiquen un formato o una validación particular, registrá a qué documento se refiere, porque una instrucción para una hoja puede no aplicarse a todas.'
+                ],
+                'items' => [],
+                'table' => [
+                    'head' => [
+                        'Documento habitual, a confirmar',
+                        'Para qué sirve',
+                        'Qué revisar'
+                    ],
+                    'rows' => [
+                        [
+                            'Certificado de nacido vivo',
+                            'Aportar el antecedente del nacimiento',
+                            'Datos y formato recibido'
+                        ],
+                        [
+                            'Identificación de quienes intervienen',
+                            'Acreditar datos personales',
+                            'Nombre y documento'
+                        ],
+                        [
+                            'Antecedentes familiares, si corresponden',
+                            'Aclarar vínculos o datos registrales',
+                            'Cuáles solicitan para tu caso'
+                        ],
+                        [
+                            'Referencia de una consulta previa',
+                            'Retomar una observación',
+                            'Qué quedó pendiente'
+                        ]
+                    ]
+                ]
+            ],
+            [
+                'h2' => 'Durante la presentación y al recibir la constancia',
+                'body' => [
+                    'Habitualmente la presentación incluye revisar documentación y declarar o confirmar datos del nacimiento. Escuchá qué información te piden y pedí que te expliquen cualquier término que no entendés. Si te muestran un texto para revisar, comparalo con los antecedentes disponibles antes de darlo por correcto. No completes un dato incierto por presión de terminar la visita; explicá qué falta aclarar.',
+                    'Al recibir el documento resultante, verificá que corresponda a tu bebé y revisá sus datos personales. Preguntá qué acredita esa constancia y para qué gestiones suele utilizarse. Guardá una referencia de la inscripción que te permita identificarla después. Si detectás una diferencia, consultá cómo se solicita la revisión y conservá lo recibido sin tachaduras ni enmiendas propias.',
+                    'Puede ser útil que otra persona lea los datos con vos, si participa de la gestión. Esa segunda lectura ayuda a detectar errores de transcripción sencillos. Compartí solo la información necesaria para esa ayuda y mantené los documentos personales fuera de conversaciones o grupos que no intervienen en el trámite.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Si falta un papel o la inscripción tiene una observación',
+                'body' => [
+                    'Una observación suele requerir entender qué dato o antecedente necesita revisión. Pedí una explicación concreta: cuál es el documento observado, qué diferencia encontraron y dónde se puede resolver. Anotá si la indicación se refiere al certificado del nacimiento, a la identidad de una persona o a la declaración que se presenta. Con esa distinción evitás consultar en varios lugares sin saber qué estás buscando.',
+                    'Si pasó tiempo desde el nacimiento y todavía no se hizo la inscripción, explicalo tal como ocurrió. Preguntá qué procedimiento corresponde a esa situación; no supongas que dejá de ser posible ni que basta con seguir una lista pensada para otro momento. Si el caso involucra una controversia sobre filiación o representación, buscá orientación jurídica individual con los antecedentes ordenados.',
+                    'Una vez aclarado el registro, podés preparar la [cédula del bebé](/tramites/cedula-del-bebe/). También te sirve revisar [después del nacimiento](/tramites/despues-del-nacimiento/) para coordinar cobertura y comunicaciones laborales. Conservá el documento de inscripción identificado por su nombre, de modo que puedas ubicarlo cuando otra gestión lo pida y distinguirlo del certificado emitido por el lugar del parto.',
+                    'Antes de retirarte, preguntá cómo se solicita otra constancia de la inscripción si más adelante una gestión la necesita. Anotá la referencia que te indiquen y guardala junto al documento recibido. Eso no implica pedir copias adicionales sin necesidad: te permite saber dónde empezar una consulta futura. También conviene distinguir una solicitud de copia de una corrección del registro, porque obtener otra impresión no resuelve por sí solo un dato equivocado.'
+                ],
+                'items' => [],
+                'table' => null
+            ]
+        ],
+        'steps' => [
+            [
+                'title' => 'Consultá quién interviene',
+                'body' => [
+                    'Describí tu situación familiar y preguntá quién debe presentarse.'
+                ]
+            ],
+            [
+                'title' => 'Compará los datos',
+                'body' => [
+                    'Revisá el certificado y los documentos personales antes de la visita.'
+                ]
+            ],
+            [
+                'title' => 'Revisá el resultado',
+                'body' => [
+                    'Leé la constancia entregada y preguntá cómo resolver cualquier diferencia.'
+                ]
+            ]
+        ],
+        'appHandoff' => [
+            'text' => 'La guía de Mi Bebé sobre trámites después del nacimiento permite repasar las gestiones de esta etapa. Usala para preparar las preguntas que vas a llevar a la oficina.',
+            'medium' => 'article',
+            'extra' => []
+        ],
+        'faq' => [
+            [
+                'q' => '¿El certificado de nacido vivo ya inscribe al bebé?',
+                'a' => 'No equivale a la inscripción. Preguntá qué presentación corresponde para registrar el nacimiento.'
+            ],
+            [
+                'q' => '¿Puede ir cualquier familiar?',
+                'a' => 'La organización familiar no determina quién puede declarar o firmar. Consultá la intervención que corresponde a tu caso.'
+            ],
+            [
+                'q' => '¿Qué hago si un apellido no coincide?',
+                'a' => 'Mostrá ambos documentos y preguntá dónde debe revisarse la diferencia antes de copiarla en otra gestión.'
+            ]
+        ],
+        'related' => [
+            'certificado-de-nacido-vivo',
+            'cedula-del-bebe',
+            'despues-del-nacimiento'
+        ],
+        'weeks' => [],
+        'appGuideSlug' => null,
+        'guarani' => [],
+        'reviewedBy' => null,
+        'reviewedAt' => null,
+        'validAsOf' => '2026-09-20',
+        'sources' => [
+            [
+                'title' => 'Convención sobre los Derechos del Niño',
+                'publisher' => 'Naciones Unidas',
+                'url' => null,
+                'accessed' => null
+            ],
+            [
+                'title' => 'Guía de trámites después del nacimiento',
+                'publisher' => 'Mi Bebé',
+                'url' => null,
+                'accessed' => null
+            ]
+        ],
+        'updated' => '2026-09-20',
+        'image' => null
+    ],
+    'cedula-del-bebe' => [
+        'cluster' => 'tramites',
+        'path' => '/tramites/cedula-del-bebe/',
+        'title' => 'Cédula del bebé: documentos y preparación',
+        'seoTitle' => 'Cédula del bebé: cómo preparar el trámite',
+        'metaDescription' => 'Prepará la primera cédula del bebé con documentos habituales, preguntas sobre su presencia y una revisión de datos para organizar la presentación.',
+        'kind' => 'procedural',
+        'lead' => 'Para preparar la primera cédula del bebé, empezá por tener identificada la documentación de su inscripción de nacimiento y consultá qué requiere la oficina de identificación para tu caso. Habitualmente se revisan datos del bebé y de la persona que interviene en la solicitud. Preguntá por la presencia del bebé, la modalidad de atención y la entrega antes de organizar la salida.',
+        'sections' => [
+            [
+                'h2' => 'Antes de pedir la cédula',
+                'body' => [
+                    'La cédula es un documento de identificación; su solicitud es diferente de la [inscripción del nacimiento](/tramites/inscripcion-en-el-registro-civil/). Si todavía no sabés qué constancia recibiste, buscá su nombre y preguntá qué acredita. Habitualmente la preparación de la primera identificación parte de los antecedentes del nacimiento y de los datos de la persona que realiza la gestión. Separar esas etapas ayuda a pedir orientación con precisión.',
+                    'Revisá si la documentación del bebé tiene alguna diferencia pendiente. Un apellido escrito de otra forma o un dato incompleto merece una consulta antes de trasladarse a otra solicitud. Conservá el antecedente que recibiste y anotá la duda sin modificarlo. La oficina que tramita la identificación puede orientarte sobre qué documento necesita, mientras que una corrección puede corresponder a quien emitió el registro original.',
+                    'Confirmá con la oficina de identificación los requisitos, costos y plazos vigentes de solicitud y entrega.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Organizá la presencia del bebé y de quien lo acompaña',
+                'body' => [
+                    'Antes de salir, preguntá si el bebé debe estar presente, quién puede intervenir por él y cómo se organiza la atención. Habitualmente estas consultas permiten preparar una visita con la documentación adecuada. No des por hecho que puede ir cualquier familiar ni que una autorización informal sirve para todas las actuaciones. Si hay una situación de representación particular, describila y pedí que te indiquen qué antecedente corresponde presentar.',
+                    'Organizá el traslado pensando en las necesidades del bebé y en la recuperación de quien lo cuida. Podés prever alimentación, cambio de pañal y una persona de apoyo, según lo que resulte posible para tu familia. Si la modalidad informada exige volver, diferenciá la visita de solicitud de la de retiro para repartir mejor el acompañamiento. Evitá planificar ambas como si siempre fueran una sola salida.',
+                    'Si recibís consejos sobre llevar una fotografía o preparar algún requisito especial, preguntá si eso corresponde al procedimiento actual antes de pagarlo. La forma de obtener la imagen y los datos de identificación es un punto que conviene aclarar directamente con la oficina.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Documentación habitual para consultar',
+                'body' => [
+                    'Suele revisarse la documentación del nacimiento, la identificación de quien interviene y, cuando corresponde, antecedentes de representación. Prepará lo disponible y señalá lo que todavía no tenés. La tabla recoge documentos habituales por confirmar; no establece que una constancia particular sea suficiente ni que todas las familias necesiten la misma combinación. Pedí que identifiquen el documento por su nombre para no confundirlo con otro papel del bebé.',
+                    'Si un documento está deteriorado o no se puede leer, consultá qué alternativa corresponde. Una copia personal puede servir para encontrar datos, pero no confirma el formato aceptado en la presentación. Guardá en una carpeta los originales que te indiquen y ubicá aparte las copias, así podés reconocer qué entregaste y qué debe volver con vos al terminar.'
+                ],
+                'items' => [],
+                'table' => [
+                    'head' => [
+                        'Documento habitual, a confirmar',
+                        'Para qué sirve',
+                        'Qué revisar'
+                    ],
+                    'rows' => [
+                        [
+                            'Documento de inscripción del nacimiento',
+                            'Revisar identidad del bebé',
+                            'Datos completos'
+                        ],
+                        [
+                            'Identificación de quien solicita',
+                            'Identificar a la persona interviniente',
+                            'Coincidencia con antecedentes'
+                        ],
+                        [
+                            'Antecedentes de representación, si corresponden',
+                            'Consultar quién puede intervenir',
+                            'Documento requerido para el caso'
+                        ],
+                        [
+                            'Constancia de solicitud, al retirarla',
+                            'Seguir la entrega',
+                            'Referencia legible'
+                        ]
+                    ]
+                ]
+            ],
+            [
+                'h2' => 'Cómo revisar la solicitud y seguir la entrega',
+                'body' => [
+                    'Durante la solicitud, prestá atención a los datos que se registran. Habitualmente se revisa la identidad a partir de los antecedentes presentados; si te piden confirmar un dato, comparalo con esos documentos. Preguntá qué hacer si aparece una diferencia antes de dar por terminada esa etapa. No aceptes una transcripción que sabés equivocada solo para evitar una nueva consulta.',
+                    'Cuando te den una referencia de la gestión, guardala en un lugar fácil de encontrar. Anotá qué te dijeron sobre el seguimiento y cómo conocer si el documento está disponible. Una solicitud iniciada no equivale a una entrega lista. Si otra persona va a retirarlo, averiguá qué necesita para hacerlo y compartí con ella solo la información requerida para esa gestión.',
+                    'Al recibir la cédula, revisá que los datos correspondan al bebé. Si observás un error, mostralo y preguntá cuál es el procedimiento de revisión. Conservá también la referencia de la solicitud: puede ayudarte a explicar dónde se produjo la diferencia sin depender únicamente de una descripción de memoria.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Usos, cuidados y situaciones especiales',
+                'body' => [
+                    'Guardá el documento en un lugar protegido y acordá quién lo lleva cuando hace falta. Evitá compartir imágenes completas en grupos familiares amplios o publicaciones: contiene información personal del bebé. Si una institución solicita una copia, identificá para qué gestión la necesita y cuál es el canal de entrega. Tener una foto como respaldo personal no significa que reemplace el documento ante cualquier trámite.',
+                    'Si se pierde después de emitido, consultá por reposición y explicá que ya existía una cédula. Eso distingue la situación de una primera solicitud. Si necesitás el documento para otra gestión próxima, contá cuál es, sin suponer que habrá una entrega especial o inmediata. Tampoco des por hecho que la cédula resuelve por sí sola requisitos de viaje o autorizaciones para salir con el bebé.',
+                    'Para la cobertura de salud y las comunicaciones al trabajo, preguntá qué constancias aceptan mientras organizás los documentos. Podés revisar [asignación familiar](/tramites/asignacion-familiar/) para separar el beneficio laboral de la identificación. La guía de [trámites después del nacimiento](/tramites/despues-del-nacimiento/) te ayuda a ver qué consultas pueden organizarse juntas y cuáles dependen de un documento anterior.',
+                    'Cuando coordinás el retiro con alguien, transmití el nombre de la gestión y la referencia de solicitud tal como te la entregaron. Evitá mandar toda la carpeta de salud para resolver una entrega de identificación. Al regresar, comprobá que el documento recibido y los originales que prestaste vuelvan al lugar acordado.'
+                ],
+                'items' => [],
+                'table' => null
+            ]
+        ],
+        'steps' => [
+            [
+                'title' => 'Consultá la modalidad',
+                'body' => [
+                    'Preguntá por la presencia del bebé, la persona interviniente y la atención.'
+                ]
+            ],
+            [
+                'title' => 'Reuní los antecedentes',
+                'body' => [
+                    'Prepará la documentación indicada y revisá los datos de inscripción.'
+                ]
+            ],
+            [
+                'title' => 'Guardá la referencia',
+                'body' => [
+                    'Conservá la constancia de solicitud para seguir la entrega y revisar el documento recibido.'
+                ]
+            ]
+        ],
+        'appHandoff' => [
+            'text' => 'Mi Bebé ofrece una guía de trámites después del nacimiento. Podés repasar allí los temas que acompañan la llegada del bebé y preparar tu próxima consulta administrativa.',
+            'medium' => 'article',
+            'extra' => []
+        ],
+        'faq' => [
+            [
+                'q' => '¿La cédula reemplaza la inscripción del nacimiento?',
+                'a' => 'Son gestiones distintas. Identificá primero la documentación de inscripción que te pedirán para la solicitud.'
+            ],
+            [
+                'q' => '¿Tengo que llevar una foto?',
+                'a' => 'Preguntá cómo se obtiene la imagen en el procedimiento actual antes de encargar fotografías.'
+            ],
+            [
+                'q' => '¿Puede retirar el documento otra persona?',
+                'a' => 'Consultá quién puede retirarlo y qué identificación o autorización requiere esa entrega.'
+            ]
+        ],
+        'related' => [
+            'inscripcion-en-el-registro-civil',
+            'despues-del-nacimiento',
+            'asignacion-familiar'
+        ],
+        'weeks' => [],
+        'appGuideSlug' => null,
+        'guarani' => [],
+        'reviewedBy' => null,
+        'reviewedAt' => null,
+        'validAsOf' => '2026-09-20',
+        'sources' => [
+            [
+                'title' => 'Convención sobre los Derechos del Niño',
+                'publisher' => 'Naciones Unidas',
+                'url' => null,
+                'accessed' => null
+            ],
+            [
+                'title' => 'Guía de trámites después del nacimiento',
+                'publisher' => 'Mi Bebé',
+                'url' => null,
+                'accessed' => null
+            ]
+        ],
+        'updated' => '2026-09-20',
+        'image' => null
+    ],
+    'asignacion-familiar' => [
+        'cluster' => 'tramites',
+        'path' => '/tramites/asignacion-familiar/',
+        'title' => 'Asignación familiar: cómo consultar la bonificación',
+        'seoTitle' => 'Asignación familiar: requisitos y consulta',
+        'metaDescription' => 'Conocé cómo consultar la bonificación familiar: documentos habituales, base de cálculo y preguntas para revisar la solicitud y el recibo de salario.',
+        'kind' => 'procedural',
+        'lead' => 'Si buscás información sobre asignación familiar en el trabajo, preguntá por la bonificación familiar y por las condiciones aplicables a tu relación laboral. El Código del Trabajo, artículo 261 y siguientes, contempla una referencia del 5 %. Ese porcentaje solo no permite calcular tu importe: necesitás conocer la base y los requisitos de tu caso. Habitualmente la consulta empieza con quien gestiona personal o salarios.',
+        'sections' => [
+            [
+                'h2' => 'Identificá el beneficio que estás consultando',
+                'body' => [
+                    'La expresión asignación familiar puede usarse para hablar de ayudas distintas. Si tu consulta nace de un recibo de salario o de una conversación con el empleador, pedí que identifiquen el concepto exacto. La referencia disponible para la bonificación familiar es el Código del Trabajo, artículo 261 y siguientes. Nombrar el concepto permite separar esa consulta de un subsidio por maternidad o de otra prestación para la familia.',
+                    'Empezá por explicar tu relación laboral y si ya recibís algún concepto con ese nombre. Si tenés más de una actividad o cambiaste de empleo, contalo antes de calcular un monto esperado. Habitualmente quien liquida salarios puede explicar qué información tiene registrada y qué antecedentes necesita para revisar el caso. No supongas que la situación de una compañera se aplica automáticamente a la tuya.',
+                    'Confirmá con quien tramita el beneficio los requisitos, costos y plazos vigentes, y consultá el monto vigente para tu caso.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Qué significa la referencia del porcentaje',
+                'body' => [
+                    'El dato del 5 % necesita una base de cálculo para convertirse en una suma de dinero. Pedí que te expliquen qué base utilizan, qué condiciones revisan y cómo aparece el resultado en la liquidación. No lo multipliques por una cantidad de hijos ni por un salario elegido por intuición. Esas condiciones necesitan una respuesta específica antes de armar una expectativa de cobro.',
+                    'Podés preparar una hoja con el nombre del concepto, la base informada y el importe comunicado. Si todavía falta un dato, dejalo identificado como pendiente. Eso te permite revisar una explicación sin confundir una estimación personal con una liquidación del empleador. Si la respuesta usa términos que no conocés, preguntá qué significa cada uno y qué documento respalda la información aplicada a tu situación.',
+                    'Para el presupuesto familiar, separá los ingresos ya confirmados de los que estás consultando. Un documento entregado no demuestra por sí solo que el beneficio está reconocido ni que vaya a aparecer en el siguiente pago. Preguntá cómo te comunicarán el resultado de la revisión y por qué medio podés seguirla.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Documentos habituales para la solicitud',
+                'body' => [
+                    'Habitualmente la consulta incluye identificación, documentación que permita acreditar el vínculo familiar y antecedentes laborales. La lista depende de las condiciones que deban revisarse. La tabla muestra documentos usuales por confirmar; usala para preguntar qué corresponde presentar, no para reunir certificados sin una indicación concreta. La [inscripción del nacimiento](/tramites/inscripcion-en-el-registro-civil/) puede ayudarte a ubicar la documentación del bebé que te soliciten.',
+                    'Si el documento pedido todavía está en trámite, explicá cuál tenés disponible y preguntá cómo continuar. No afirmes que una foto o el certificado del parto reemplaza cualquier constancia de inscripción. Conservá una referencia de lo que entregaste y de la respuesta sobre documentos pendientes. Si hay datos que no coinciden, describí la diferencia antes de presentar nuevas copias del mismo papel.'
+                ],
+                'items' => [],
+                'table' => [
+                    'head' => [
+                        'Documento habitual, a confirmar',
+                        'Para qué sirve',
+                        'Qué revisar'
+                    ],
+                    'rows' => [
+                        [
+                            'Identificación de quien solicita',
+                            'Relacionar la consulta con el empleo',
+                            'Datos del registro laboral'
+                        ],
+                        [
+                            'Documento del vínculo familiar',
+                            'Revisar la condición invocada',
+                            'Constancia aceptada'
+                        ],
+                        [
+                            'Recibo de salario disponible',
+                            'Identificar concepto y período',
+                            'Base e importe informados'
+                        ],
+                        [
+                            'Referencia de presentación',
+                            'Seguir la revisión',
+                            'Documentos pendientes'
+                        ]
+                    ]
+                ]
+            ],
+            [
+                'h2' => 'Cómo revisar el recibo y una diferencia de importe',
+                'body' => [
+                    'Cuando recibas una explicación o una liquidación, buscá el nombre del concepto y el período al que corresponde. Compará esa información con lo que te comunicaron al iniciar la consulta. Si aparece un importe distinto del esperado, preguntá primero por la base, las condiciones consideradas y el período reconocido. Así podés identificar una diferencia concreta en lugar de reclamar sobre una suma calculada con supuestos.',
+                    'Guardá el recibo y la respuesta que usaste como referencia. Si el beneficio no figura, consultá si falta documentación, si la revisión está pendiente o si te comunicaron que no corresponde. Son explicaciones diferentes y requieren preguntas distintas. Pedí que indiquen el motivo cuando la respuesta sea negativa, para poder entender qué condición están aplicando.',
+                    'Si persiste un desacuerdo, reuní contrato o antecedentes laborales disponibles, recibos, documentos presentados y comunicaciones. Con esa información podés buscar orientación jurídica sobre tu caso. Evitá firmar una explicación que no comprendés sin pedir que te aclaren su alcance; ordenar los hechos ayuda a formular una consulta más precisa.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Cómo se relaciona con los demás trámites del nacimiento',
+                'body' => [
+                    'La bonificación familiar no es lo mismo que la [licencia de maternidad](/derechos/licencia-de-maternidad/) ni que el subsidio durante el reposo. Si gestionás esos temas al mismo tiempo, armá consultas separadas aunque hables con la misma persona del trabajo. Una puede tratar fechas de ausencia, otra condiciones de un pago por maternidad y otra la documentación familiar. Esa separación evita considerar una respuesta general como aprobación de todo.',
+                    'También puede ser útil coordinar con quien te acompaña qué documento está disponible y quién guarda cada constancia. No compartas recibos completos con personas que solo necesitan ayudarte a retirar un papel. Para pedir una copia o consultar una entrega, comunicá únicamente los datos necesarios. Conservá en tu carpeta laboral la referencia del documento familiar presentado, de modo que puedas localizarlo después.',
+                    'Si cambia una circunstancia que declaraste, preguntá cómo se informa y qué revisión corresponde. No deduzcas por tu cuenta que el importe seguirá igual o que un cambio obliga a devolver una suma. En el [hub de trámites](/tramites/) y en la guía [después del nacimiento](/tramites/despues-del-nacimiento/) podés ordenar las otras gestiones sin mezclarlas con esta consulta laboral.'
+                ],
+                'items' => [],
+                'table' => null
+            ]
+        ],
+        'steps' => [
+            [
+                'title' => 'Nombrá el beneficio',
+                'body' => [
+                    'Preguntá por bonificación familiar y explicá tu situación laboral.'
+                ]
+            ],
+            [
+                'title' => 'Pedí la base de cálculo',
+                'body' => [
+                    'Revisá condiciones e importe antes de incorporarlo al presupuesto.'
+                ]
+            ],
+            [
+                'title' => 'Presentá lo solicitado',
+                'body' => [
+                    'Guardá constancia de la entrega y preguntá cómo conocer el resultado.'
+                ]
+            ]
+        ],
+        'appHandoff' => [
+            'text' => 'Mi Bebé incluye un apartado de derechos y una guía para la embarazada que trabaja. Podés revisar esos temas para separar preguntas sobre licencia, subsidio y organización familiar.',
+            'medium' => 'article',
+            'extra' => []
+        ],
+        'faq' => [
+            [
+                'q' => '¿El 5 % me dice cuánto voy a cobrar?',
+                'a' => 'No por sí solo. Necesitás conocer la base y las condiciones aplicables antes de calcular una suma.'
+            ],
+            [
+                'q' => '¿Es el mismo pago que el subsidio por maternidad?',
+                'a' => 'Son conceptos distintos. Consultá por separado el beneficio familiar y el subsidio vinculado al reposo.'
+            ],
+            [
+                'q' => '¿Qué hago si no aparece en el recibo?',
+                'a' => 'Preguntá por el estado de la revisión y por el motivo: documentación pendiente, evaluación sin concluir o una respuesta sobre su aplicación.'
+            ]
+        ],
+        'related' => [
+            'inscripcion-en-el-registro-civil',
+            'despues-del-nacimiento',
+            'cedula-del-bebe'
+        ],
+        'weeks' => [],
+        'appGuideSlug' => null,
+        'guarani' => [],
+        'reviewedBy' => null,
+        'reviewedAt' => null,
+        'validAsOf' => '2026-09-20',
+        'sources' => [
+            [
+                'title' => 'Código del Trabajo ¿? artículo 261 y siguientes, bonificación familiar',
+                'publisher' => 'Congreso de la Nación Paraguaya',
+                'url' => null,
+                'accessed' => null
+            ],
+            [
+                'title' => 'Guía de derechos de la embarazada que trabaja',
+                'publisher' => 'Mi Bebé',
+                'url' => null,
+                'accessed' => null
+            ]
+        ],
+        'updated' => '2026-09-20',
+        'image' => null
+    ],
+    'despues-del-nacimiento' => [
+        'cluster' => 'tramites',
+        'path' => '/tramites/despues-del-nacimiento/',
+        'title' => 'Trámites después del nacimiento: por dónde empezar',
+        'seoTitle' => 'Trámites después del nacimiento del bebé',
+        'metaDescription' => 'Organizá los trámites después del nacimiento: certificado, inscripción, cédula, cobertura y consultas laborales, con documentos y pasos habituales.',
+        'kind' => 'procedural',
+        'lead' => 'Después del nacimiento, empezá por identificar los papeles entregados en el lugar del parto y preparar la inscripción del bebé. Habitualmente el certificado de nacido vivo sirve como antecedente para esa inscripción; luego se organiza la identificación. En paralelo, podés consultar la cobertura de salud y comunicar el nacimiento al trabajo. Repartí las gestiones sin confundir documentos administrativos con indicaciones de cuidado.',
+        'sections' => [
+            [
+                'h2' => 'Antes de salir del lugar del parto',
+                'body' => [
+                    'Pedí que te expliquen cuáles son las indicaciones para la madre y el bebé y cuáles son los documentos destinados a trámites. Habitualmente la familia recibe papeles con funciones diferentes. Separarlos desde el principio ayuda a encontrar una indicación clínica sin revisar toda la carpeta administrativa. Si una persona te acompaña, puede ayudarte a ordenar lo recibido mientras vos repasás las dudas sobre los cuidados y las consultas que siguen.',
+                    'Identificá el [certificado de nacido vivo](/tramites/certificado-de-nacido-vivo/) y revisá si hay algún documento pendiente de entrega. Anotá dónde se consulta por ese pendiente y quién puede retirarlo. No asumas que un resumen de alta cumple la misma función que el certificado del nacimiento. Si te entregan información que no entendés, preguntá por el nombre y el uso de cada documento.',
+                    'Confirmá con cada oficina o servicio los requisitos, costos y plazos vigentes de la gestión que le corresponde.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'El orden habitual y lo que puede avanzar en paralelo',
+                'body' => [
+                    'La [inscripción en el Registro Civil](/tramites/inscripcion-en-el-registro-civil/) suele prepararse con la documentación del nacimiento y de las personas que intervienen. Después podés organizar la [cédula del bebé](/tramites/cedula-del-bebe/) según lo que solicite la oficina de identificación. Ese orden orienta la preparación de papeles, pero no indica que debas esperar a tener todos los documentos para hacer consultas sobre las otras gestiones.',
+                    'La cobertura de salud y las comunicaciones laborales pueden consultarse en paralelo. Preguntá qué constancia aceptan en cada etapa y explicá si otra documentación todavía está en trámite. Si alguien del trabajo solicita un papel, anotá para qué gestión lo necesita: licencia, actualización de datos familiares o revisión de un beneficio. El mismo nacimiento puede motivar consultas diferentes sin que una presentación resuelva todas.',
+                    'Podés dibujar una lista con cada gestión y una flecha hacia el documento que necesita. Si una no avanza, mirá qué antecedente le falta antes de repetir visitas. Esa organización permite pedir ayuda concreta, como consultar una entrega o reunir una copia, en lugar de encargar vagamente todos los trámites.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Armá una carpeta que se pueda usar',
+                'body' => [
+                    'Prepará separadores para documentos del nacimiento, identificación familiar, cobertura y trabajo. Los papeles clínicos pueden quedar en otra carpeta cercana, con las indicaciones de controles y resultados. La tabla reúne documentos habituales por confirmar en cada gestión; no significa que debas entregar la carpeta completa en todas partes. Llevá lo que te pidieron y mantené accesible lo que permite explicar una diferencia de datos.',
+                    'Elegí una forma sencilla de registrar qué salió de la carpeta: documento, destinatario y referencia de entrega. Si hacés copias personales, revisá que están completas y legibles. Guardá los originales protegidos y distinguí una copia para consulta de una constancia aceptada por la oficina. Tener archivos en el teléfono ayuda a ubicar información, pero el formato válido debe quedar claro en cada presentación.'
+                ],
+                'items' => [],
+                'table' => [
+                    'head' => [
+                        'Documento habitual, a confirmar',
+                        'Para qué sirve',
+                        'Qué revisar'
+                    ],
+                    'rows' => [
+                        [
+                            'Certificado de nacido vivo',
+                            'Preparar la inscripción',
+                            'Identificación y datos del nacimiento'
+                        ],
+                        [
+                            'Documentación de inscripción',
+                            'Consultar identificación y otras gestiones',
+                            'Nombre y apellidos del bebé'
+                        ],
+                        [
+                            'Identificación de personas intervinientes',
+                            'Preparar presentaciones',
+                            'Quién debe asistir'
+                        ],
+                        [
+                            'Antecedentes de cobertura',
+                            'Consultar atención del bebé',
+                            'Régimen y titular'
+                        ],
+                        [
+                            'Constancias laborales y de entrega',
+                            'Seguir solicitudes al trabajo',
+                            'Concepto y respuesta pendiente'
+                        ]
+                    ]
+                ]
+            ],
+            [
+                'h2' => 'Cobertura del bebé y comunicación al trabajo',
+                'body' => [
+                    'Consultá con el prestador de salud cómo se organiza la atención del bebé y qué gestión administrativa corresponde. Si tu referencia es IPS, la guía de [inscripción y cobertura](/tramites/inscribirse-en-ips-embarazada/) ayuda a preparar preguntas sobre el régimen y los datos registrados; no resuelve por sí sola la incorporación del bebé. Explicá quién tiene cobertura y qué documentación del nacimiento ya está disponible.',
+                    'En el trabajo, separá el aviso del nacimiento de una consulta por [asignación familiar](/tramites/asignacion-familiar/). Habitualmente quien gestiona personal orienta sobre las constancias que recibe y el seguimiento de cada solicitud. Si ya tenías una licencia organizada, preguntá cómo comunicar el nacimiento y cualquier diferencia respecto de las fechas previstas. Conservá la respuesta junto a tus antecedentes laborales, sin mezclarla con la información clínica del bebé.',
+                    'Para los cuidados y controles, seguí las indicaciones del equipo de salud y preguntá lo que no entendiste antes de irte. Ante [señales de alarma](/salud/senales-de-alarma/), buscá atención urgente. Una inscripción, una constancia o una consulta de cobertura pendiente no debe hacerte postergar esa atención.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Repartí tareas y resolvé pendientes concretos',
+                'body' => [
+                    'Acordá quién hará las consultas, quién conservará los originales y quién puede acompañar una visita. Esa distribución personal no reemplaza los requisitos sobre quién debe presentarse o firmar. Antes de encargar un retiro, preguntá si la persona elegida puede hacerlo y qué documentación necesita. Así evitás que alguien viaje con una carpeta completa y vuelva sin poder realizar la gestión.',
+                    'Usá una lista breve con tres estados personales: por consultar, presentado y respuesta recibida. Anotá también qué falta para el siguiente paso. Una presentación no está necesariamente concluida por haber entregado papeles, y una respuesta puede contener una observación que requiere resolver algo más. Revisá el contenido de la comunicación antes de marcar la gestión como terminada.',
+                    'Si encontrás un error en nombres o datos del nacimiento, identificá en qué documento aparece primero y consultá al emisor correspondiente. No copies el dato dudoso en solicitudes nuevas para que coincidan entre sí. Si una situación familiar requiere orientación particular, explicala desde el inicio. Volvé al [hub de trámites](/tramites/) para consultar cada guía por separado: esta lista sirve para coordinar el conjunto, mientras cada artículo desarrolla las preguntas de una etapa.'
+                ],
+                'items' => [],
+                'table' => null
+            ]
+        ],
+        'steps' => [
+            [
+                'title' => 'Identificá lo recibido',
+                'body' => [
+                    'Separá indicaciones clínicas, certificado del nacimiento y otros documentos.'
+                ]
+            ],
+            [
+                'title' => 'Consultá la inscripción',
+                'body' => [
+                    'Revisá quién debe intervenir y qué antecedentes presentar.'
+                ]
+            ],
+            [
+                'title' => 'Coordiná gestiones paralelas',
+                'body' => [
+                    'Preguntá por cobertura y comunicaciones laborales mientras preparás la identificación.'
+                ]
+            ],
+            [
+                'title' => 'Revisá las respuestas',
+                'body' => [
+                    'Marcá qué quedó concluido y qué observación necesita otra consulta.'
+                ]
+            ]
+        ],
+        'appHandoff' => [
+            'text' => 'Mi Bebé incluye la guía de trámites después del nacimiento. Podés volver a ella para repasar los temas y preparar las preguntas de cada gestión junto con tu familia.',
+            'medium' => 'article',
+            'extra' => []
+        ],
+        'faq' => [
+            [
+                'q' => '¿Tengo que terminar todos los trámites antes de consultar por cobertura?',
+                'a' => 'Podés preguntar por cobertura mientras preparás otros documentos. Explicá qué tenés disponible y qué está en trámite.'
+            ],
+            [
+                'q' => '¿El certificado y la cédula son el mismo documento?',
+                'a' => 'No. El certificado documenta el nacimiento; la inscripción y la identificación son gestiones distintas.'
+            ],
+            [
+                'q' => '¿Puede otra persona encargarse de todo?',
+                'a' => 'Puede ayudarte a organizar, pero cada gestión define quién debe intervenir. Consultá antes de delegar una firma o un retiro.'
+            ],
+            [
+                'q' => '¿Qué hago si hay un error en varios papeles?',
+                'a' => 'Identificá dónde aparece el dato dudoso y pedí orientación al emisor antes de repetirlo en otra solicitud.'
+            ]
+        ],
+        'related' => [
+            'certificado-de-nacido-vivo',
+            'inscripcion-en-el-registro-civil',
+            'cedula-del-bebe',
+            'asignacion-familiar',
+            'inscribirse-en-ips-embarazada'
+        ],
+        'weeks' => [
+            36,
+            38,
+            40
+        ],
+        'appGuideSlug' => 'despues-del-nacimiento-tramites',
+        'guarani' => [],
+        'reviewedBy' => null,
+        'reviewedAt' => null,
+        'validAsOf' => '2026-09-20',
+        'sources' => [
+            [
+                'title' => 'Guía de trámites después del nacimiento',
+                'publisher' => 'Mi Bebé',
+                'url' => null,
+                'accessed' => null
+            ],
+            [
+                'title' => 'Orientación vigente del MSPBS sobre atención y documentación del nacimiento',
+                'publisher' => 'MSPBS',
+                'url' => null,
+                'accessed' => null
+            ],
+            [
+                'title' => 'Convención sobre los Derechos del Niño',
+                'publisher' => 'Naciones Unidas',
+                'url' => null,
+                'accessed' => null
+            ]
+        ],
+        'updated' => '2026-09-20',
+        'image' => null
+    ],
 ];
