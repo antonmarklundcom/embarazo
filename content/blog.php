@@ -51,7 +51,7 @@ return [
             ['q' => '¿Tengo que crear una cuenta para empezar?', 'a' => 'No. Podés seguir sin cuenta y mantener todo en tu teléfono. La cuenta con Google habilita respaldo, sincronización y compartir en familia.'],
             ['q' => '¿Sirve si todavía estoy buscando un embarazo?', 'a' => 'Sí. El modo Estoy planeando / buscando incluye calendario menstrual, estimación de ventana fértil y una lista de preparación.'],
         ],
-        'related' => ['planned:derechos-de-la-embarazada-que-trabaja', 'planned:control-prenatal-ips-vs-privado'],
+        'related' => ['derechos-de-la-embarazada-que-trabaja', 'control-prenatal-ips-vs-privado'],
         'sources' => [
             ['title' => 'Mi Bebé: presentación de la aplicación', 'publisher' => 'Mi Bebé', 'url' => null, 'accessed' => null],
             ['title' => 'Mi Bebé: privacidad', 'publisher' => 'Mi Bebé', 'url' => null, 'accessed' => null],
@@ -88,7 +88,7 @@ return [
             ['q' => '¿Solo necesito protección contra mosquitos a la noche?', 'a' => 'No. La prevención de picaduras también importa durante el día, tanto en casa como en los traslados y el trabajo.'],
             ['q' => '¿Espero a tener manchas para consultar por fiebre?', 'a' => 'No. Si estás embarazada y tenés fiebre, consultá sin demora. Las manchas no son un requisito para necesitar evaluación.'],
         ],
-        'related' => ['planned:dengue-en-el-embarazo', 'planned:senales-de-alarma'],
+        'related' => ['dengue-en-el-embarazo', 'senales-de-alarma'],
         'sources' => [
             ['title' => 'Orientaciones sobre dengue y prevención de criaderos', 'publisher' => 'MSPBS', 'url' => null, 'accessed' => null],
             ['title' => 'Dengue y dengue grave', 'publisher' => 'Organización Mundial de la Salud', 'url' => null, 'accessed' => null],
@@ -125,7 +125,7 @@ return [
             ['q' => '¿El permiso equivale a la licencia de maternidad?', 'a' => 'No. El permiso tratado aquí corresponde a controles prenatales. La licencia de maternidad se organiza por separado.'],
             ['q' => '¿Este mensaje modelo es un formulario obligatorio?', 'a' => 'No. Es una ayuda para explicar el turno y pedir indicaciones sobre el procedimiento que corresponde en tu trabajo.'],
         ],
-        'related' => ['licencia-de-maternidad', 'planned:derechos-de-la-embarazada-que-trabaja'],
+        'related' => ['licencia-de-maternidad', 'derechos-de-la-embarazada-que-trabaja'],
         'sources' => [
             ['title' => 'Ley 7383/2024', 'publisher' => 'Biblioteca y Archivo Central del Congreso Nacional', 'url' => null, 'accessed' => null],
             ['title' => 'Ley 5508/2015', 'publisher' => 'Biblioteca y Archivo Central del Congreso Nacional', 'url' => null, 'accessed' => null],
@@ -162,7 +162,7 @@ return [
             ['q' => '¿La yerba pierde la cafeína porque el agua está fría?', 'a' => 'No. El tereré aporta cafeína aunque se prepare con agua fría. Considerá también el café, el mate y el cocido que tomás.'],
             ['q' => '¿Puedo agregar cualquier yuyo para refrescarme?', 'a' => 'Consultá antes de usar plantas medicinales durante el embarazo. El uso tradicional no alcanza para asegurar que una mezcla sea adecuada.'],
         ],
-        'related' => ['planned:terere-en-el-embarazo', 'planned:senales-de-alarma'],
+        'related' => ['terere-en-el-embarazo', 'senales-de-alarma'],
         'sources' => [
             ['title' => 'Orientaciones para el cuidado de la salud ante altas temperaturas', 'publisher' => 'MSPBS', 'url' => null, 'accessed' => null],
             ['title' => 'Recomendaciones de la OMS sobre atención prenatal para una experiencia positiva del embarazo', 'publisher' => 'Organización Mundial de la Salud', 'url' => null, 'accessed' => null],
@@ -199,7 +199,7 @@ return [
             ['q' => '¿Puedo reenviar la invitación al grupo familiar?', 'a' => 'Pedí autorización antes. La invitación expresa una decisión de compartir con vos; no supone un acuerdo para ampliar quién recibe el enlace.'],
             ['q' => '¿Qué puedo aportar además de mirar la app?', 'a' => 'Acordá una tarea concreta, ayudá a preparar preguntas y escuchá qué apoyo quiere tu pareja. Seguir información no sustituye esa conversación.'],
         ],
-        'related' => ['planned:control-prenatal-ips-vs-privado', 'planned:que-llevar-al-sanatorio'],
+        'related' => ['control-prenatal-ips-vs-privado', 'que-llevar-al-sanatorio'],
         'sources' => [
             ['title' => 'Mi Bebé: familia', 'publisher' => 'Mi Bebé', 'url' => null, 'accessed' => null],
             ['title' => 'Mi Bebé: privacidad', 'publisher' => 'Mi Bebé', 'url' => null, 'accessed' => null],
@@ -236,7 +236,7 @@ return [
             ['q' => '¿La app puede confirmar que mi bebé está creciendo bien?', 'a' => 'No. Las explicaciones semanales son generales. Evaluar el crecimiento de tu bebé requiere el seguimiento clínico que corresponda.'],
             ['q' => '¿Llevo mis anotaciones al control?', 'a' => 'Sí, pueden ayudarte a explicar cambios y dudas. Seleccioná lo relevante y acompañalo con tu carné y los estudios solicitados.'],
         ],
-        'related' => ['planned:senales-de-alarma', 'planned:control-prenatal-ips-vs-privado'],
+        'related' => ['senales-de-alarma', 'control-prenatal-ips-vs-privado'],
         'sources' => [
             ['title' => 'Mi Bebé: presentación de la aplicación', 'publisher' => 'Mi Bebé', 'url' => null, 'accessed' => null],
             ['title' => 'Recomendaciones de la OMS sobre atención prenatal para una experiencia positiva del embarazo', 'publisher' => 'Organización Mundial de la Salud', 'url' => null, 'accessed' => null],

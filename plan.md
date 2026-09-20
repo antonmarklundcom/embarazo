@@ -357,8 +357,13 @@ webimg (`--name`, `--alt`), WebP ≤ 60 KB, manifest committed.
 | D0 | [#1](https://github.com/antonmarklundcom/embarazo/pull/1) | `docs/design-decisions.md` |
 | T0 | | `docs/log/t0.md` |
 | T1 | | `docs/log/t1.md` |
-| S1–S9 | | `docs/log/s<n>.md` |
-| L | | `docs/log/link-pass.md` |
+| S1 / P1 | manager | `docs/log/p1.md` |
+| S2–S3 / W1–W8 | manager | `docs/log/w1.md`, `w2.md`, `w3.md`, `w4.md`, `w5.md`, `w6.md`, `w7.md`, `w8.md` |
+| S4 / P2 | manager | `docs/log/p2.md` |
+| S5–S7 / A1–A6 | manager | `docs/log/a1.md`, `a2.md`, `a3.md`, `a4.md`, `a5.md`, `a6.md` |
+| S8 / P3 | manager | `docs/log/p3.md` |
+| S9 | manual, pending | `docs/human-todo.md` |
+| L | pending manager PR/merge | `docs/log/link-pass.md` |
 
 ---
 

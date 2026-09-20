@@ -232,10 +232,39 @@ fi
 step "foundation sources, links, HTML and JSON-LD"
 AUDIT_DATA=$(mktemp)
 php "$ROOT/deploy/routes.php" "$SITE_ROOT" --audit-data > "$AUDIT_DATA"
+# Product records use paths as well as article slugs. Validate paths here, then
+# leave only slugs for the unchanged foundation slug audit. Never alter records
+# in other collections or the source-record inventory used for source checks.
+if ! php -r '
+$file = $argv[1]; $root = $argv[2];
+$audit = json_decode(file_get_contents($file), true, 512, JSON_THROW_ON_ERROR);
+$paths = array_column($audit["records"], "path"); $failed = false;
+foreach ($audit["collections"]["pages"] as $key => &$record) {
+    $remaining = [];
+    foreach ($record["related"] ?? [] as $target) {
+        if (!preg_match("~^/(?!/)~", $target)) { $remaining[] = $target; continue; }
+        $safe = !preg_match("~[?#\\\\]|(?:^|/)\\.\\.?(?:/|$)~", $target);
+        $exists = $safe && (in_array($target, $paths, true) || is_file($root . rtrim($target, "/") . "/index.php"));
+        if (!$exists) { fwrite(STDERR, "FAIL related path: pages/{$key}: {$target}\n"); $failed = true; }
+    }
+    $record["related"] = $remaining;
+}
+unset($record);
+file_put_contents($file, json_encode($audit, JSON_THROW_ON_ERROR));
+exit($failed ? 1 : 0);
+' "$AUDIT_DATA" "$SITE_ROOT"; then
+  fail "product related paths"
+fi
 if ! node "$ROOT/tests/jsonld.mjs" "$BASE" --audit "$AUDIT_DATA" --root "$SITE_ROOT" $([ "$FINAL" -eq 1 ] && echo --final); then
   fail "foundation audit (details above)"
 fi
 rm -f "$AUDIT_DATA"
+
+# Broken links, sitemap membership and navigation fail in every mode.
+step "internal links, sitemap and reachability"
+if ! node "$ROOT/tests/links.mjs" "$BASE" --root "$SITE_ROOT"; then
+  fail "internal link audit (details above)"
+fi
 
 # ------------------------------------------------------------------ result ----
 echo

@@ -1,4 +1,4 @@
-﻿# Decisions needed
+# Decisions needed
 
 - 2026-09-20 — D0 F2: Supply MTESS complaint/inspection/referral and free legal advice sources (`design/preview/articulo.html:164–169,207,216,265`).
 - 2026-09-20 — D0 F3: Confirm preview reading estimates and eight published rights articles, or derive from actual content (`design/preview/articulo.html:229,236,243,248`; `design/preview/semana-20.html:230,237,244`).
@@ -10,6 +10,3 @@
 - 2026-09-20 — D0 F9: Confirm measured <5 MB, two-tap installation and Android-majority claims (`design/preview/instalar.html:7,55,86,158,228`).
 - 2026-09-20 — D0 F10: Confirm full offline coverage, updates/downloads, permissions, export and uninstall-data behavior (`design/preview/instalar.html:60,69,161–168,208,215–216,231,248`; `design/preview/semana-20.html:96,293`).
 - 2026-09-20 — D0 F11: Supply browser/version evidence for installation instructions, especially Safari-only and automatic Chrome prompts (`design/preview/instalar.html:93–102,112–118,130–133,183–193,199–201`).
-
-## for the link pass
-- P1 (2026-09-20): the JSON-LD audit treats product-page related paths as article slugs and warns despite those routes existing; recognize page paths during the link pass.
