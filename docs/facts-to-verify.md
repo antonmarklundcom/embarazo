@@ -51,3 +51,16 @@
 - All six: preserve seed size and milestone bytes; validate growth references and sensory/milestone timing (especially week 15 light/hearing and week 19 genital wording) against friendly-week counting. Clinical appointment dates use completed weeks and days.
 - All six: revalidate Ley 7383/2024 scope and documentation; only the app-facts-supported maximum of four paid prenatal-control hours is asserted, with no frequency. Service requirements and coverage are referred to the attending provider.
 - Week 20 remains byte-identical to the exemplar, including its existing links and related slugs; its medical/legal review remains recorded under T1.
+
+## W4 — weeks 22–28 — 2026-09-20 (offline editorial review)
+- /semana/22/: pending medical review of facial development, anterior-placenta movement perception, anatomy follow-up, ligament/back discomfort, skin itching and warning signs.
+- /semana/23/: pending medical review of hearing and pulmonary development, leg cramps versus unilateral warning signs, edema, sleep and absent movements at 24 completed weeks.
+- /semana/24/: pending medical review of pulmonary development, glucose screening around 24–28 completed weeks and individualized preparation, blood group/Rh/antibody counseling and fluid-loss warning signs.
+- /semana/25/: pending medical review of fat accumulation, growth references, constipation and supplement tolerance, hemorrhoids/bleeding, pelvic pain and preterm warning signs.
+- /semana/26/: pending medical review of eyelid opening, pulmonary maturation, sleep, hand paresthesia, fatigue/breathlessness and reduced-movement advice.
+- /semana/27/: pending medical review of fetal hiccups, neurologic development, reflux, repeated tightenings before term, colostrum and emotional wellbeing.
+- /semana/28/: pending medical review of trimester wording, cerebral maturation, movement awareness without a universal kick target, side sleeping, glucose follow-up and individualized anti-D prevention around 28 completed weeks; review urgent advice after bleeding/trauma/procedures.
+- All seven: named public references are OMS antenatal-care recommendations, MSPBS prenatal/PAI guidance and ACOG fetal-development education; weeks 24 and 28 also name NICE NG201. No fresh consultation claimed; URLs/access dates and reviewedBy remain null. Review heat, food hygiene, herbs/caffeine and mosquito education.
+- All seven: size objects retained byte-for-byte from the seed; validate measurements and development timing against the friendly-week convention. Week 28 milestone now avoids an unsupported dreaming claim and duplicate trimester announcement. Clinical appointments use completed weeks/days, not the friendly page number.
+- All seven: revalidate Ley 7383/2024 scope and documentation; only the app-facts-supported maximum of four paid prenatal-control hours is stated, without frequency or guaranteed laboratory coverage. Service availability, study preparation and coverage remain questions for the attending service.
+- All seven: PAI fields request individualized record review without asserting a vaccine or schedule. Anti-D is distinguished from vaccination; exact eligibility, local protocol and administration belong to the clinical team.
