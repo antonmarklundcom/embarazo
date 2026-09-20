@@ -8,3 +8,8 @@
 6. T1: replace the homepage stub, complete the foundation and adapt template components to the design tokens. The original CSS component rules were retained; T0 is not the final design implementation.
 
 The 1200×630 `assets/img/og-default.png` and SVG favicon were generated locally in petrol on cream. No replacement PNG is pending.
+
+## P1 — 2026-09-20
+- Confirm and configure a real contact channel in content/site.php. All channels are null; /contacto/ remains a noindex stub, including for editorial corrections.
+- A person with network access must check Flo, Preggers and BabyCenter against current, dated public sources before a named comparison can replace or supplement /app/comparacion/. The current page is a seven-question buying guide and makes no claims about competitors.
+- Validate installation on real Android/iPhone devices and confirm offline scope and family-sharing visibility before adding more precise product claims.

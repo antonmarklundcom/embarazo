@@ -1,3 +1,3 @@
-<?php require __DIR__ . '/../lib/bootstrap.php';
+<?php
 $path = '/blog/';
-require ROOT_DIR . '/templates/page.php';
+require __DIR__ . '/../templates/page.php';
