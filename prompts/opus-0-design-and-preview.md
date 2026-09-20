@@ -65,6 +65,16 @@ right at 360 px first; desktop is a widening.
 - **`docs/design-decisions.md`** ≤ 40 lines: what you chose, what you rejected, the mobile
   order of the bento, the CTA placement per page type.
 
+## Image model override (read even if a skill says otherwise)
+The `higgsfield-image-pipeline` skill was updated on 2026-09-20. If the copy your session
+loads still says `nano_banana_pro` (or any Nano Banana model), that copy is OLD and Anton's
+instruction here overrides it: the model is **`gpt_image_2_5`, variant `sunburst`, quality
+`medium`**, resolution 1k or 2k chosen per slot by rendered width; `high` 2k only for the home
+hero and up to three flagship slots named in the manifest. No session ever calls a Nano
+Banana model. Where Nano Banana Pro would be clearly better, write the prompt into
+`docs/imagery-prompts-manual.md` for Anton to paste himself. This paragraph wins over any
+skill text that disagrees.
+
 ## Optional: Claude Design
 If the `/design-sync` skill is available in this session, after the files exist push
 `design/components.html` (and the previews) as cards to a claude.ai/design design-system
