@@ -40,6 +40,12 @@ return [
     'path' => '/instalar/'
 ]],
     'guides' => [[
+    'label' => 'Semana a semana',
+    'path' => '/semana/'
+], [
+    'label' => 'Calculadora',
+    'path' => '/calculadora/'
+], [
     'label' => 'Salud',
     'path' => '/salud/'
 ], [
@@ -59,6 +65,18 @@ return [
     'path' => '/planear/'
 ]],
     'legal' => [[
+    'label' => 'Blog',
+    'path' => '/blog/'
+], [
+    'label' => 'La app',
+    'path' => '/app/'
+], [
+    'label' => 'Instalar',
+    'path' => '/instalar/'
+], [
+    'label' => 'Cómo elegir una app',
+    'path' => '/app/comparacion/'
+], [
     'label' => 'Privacidad',
     'path' => '/privacidad/'
 ], [

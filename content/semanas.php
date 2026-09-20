@@ -51,7 +51,7 @@ return [
             ['q' => '¿Un test detecta un embarazo de una semana?', 'a' => 'Si hablás de semana 1 desde la FUM, no hay embarazo que detectar todavía. Si querés decir una semana desde una relación, también puede ser temprano: usá la fecha esperada de menstruación y las instrucciones del test.'],
             ['q' => '¿Tengo que tomar ácido fólico antes de quedar embarazada?', 'a' => 'Conviene conversar sobre su inicio antes de concebir, porque el tubo neural se desarrolla temprano. Pedí una indicación según tus antecedentes y revisá los suplementos que ya tomás.'],
         ],
-        'related' => ['planned:checklist-preconcepcion', 'planned:acido-folico', 'planned:dias-fertiles'],
+        'related' => ['checklist-preconcepcion', 'acido-folico', 'dias-fertiles'],
         'image' => null,
         'reviewedBy' => null,
         'sources' => [
@@ -103,7 +103,7 @@ return [
             ['q' => '¿Un test de ovulación positivo es un test de embarazo positivo?', 'a' => 'No son intercambiables: buscan cambios hormonales diferentes. Para saber si hay embarazo, usá un test de embarazo en el momento indicado por sus instrucciones.'],
             ['q' => '¿Qué es la espera de las dos semanas?', 'a' => 'Es el período aproximado entre ovular y la siguiente menstruación esperada. No describe la semana 2 contada desde la FUM; los síntomas de esa espera pueden darse tanto con embarazo como sin él.'],
         ],
-        'related' => ['planned:dias-fertiles', 'planned:test-de-embarazo-cuando', 'planned:checklist-preconcepcion'],
+        'related' => ['dias-fertiles', 'test-de-embarazo-cuando', 'checklist-preconcepcion'],
         'image' => null,
         'reviewedBy' => null,
         'sources' => [
@@ -156,7 +156,7 @@ return [
             ['q' => '¿Tengo que sentir el sangrado de implantación?', 'a' => 'No. Muchas personas no tienen manchado y un sangrado no permite identificar la implantación. Si sangrás, informalo; si es abundante o hay dolor intenso o desmayo, buscá atención inmediata.'],
             ['q' => '¿Hacer fuerza después de tener relaciones impide que se implante?', 'a' => 'Las actividades cotidianas no requieren reposo para asegurar la implantación. Si recibís un tratamiento o tenés una condición que requiere límites, seguí las indicaciones específicas de tu equipo.'],
         ],
-        'related' => ['planned:test-de-embarazo-cuando', 'planned:primeros-sintomas', 'planned:senales-de-alarma'],
+        'related' => ['test-de-embarazo-cuando', 'primeros-sintomas', 'senales-de-alarma'],
         'image' => null,
         'reviewedBy' => null,
         'sources' => [
@@ -209,7 +209,7 @@ return [
             ['q' => '¿El sangrado a las 4 semanas es implantación?', 'a' => 'No se puede identificar la causa solo por la fecha o el color. Avisá si sangrás; buscá atención inmediata si es abundante o se acompaña de dolor fuerte, debilidad o desmayo.'],
             ['q' => '¿Puedo pedir control sin ecografía previa?', 'a' => 'Podés solicitar la atención con el test y las fechas que conocés. En la consulta se decide qué estudios necesitás y cuándo hacerlos según tu situación.'],
         ],
-        'related' => ['planned:test-de-embarazo-cuando', 'planned:carne-perinatal', 'planned:senales-de-alarma'],
+        'related' => ['test-de-embarazo-cuando', 'carne-perinatal', 'senales-de-alarma'],
         'image' => null,
         'reviewedBy' => null,
         'sources' => [
@@ -263,7 +263,7 @@ return [
             ['q' => '¿Es normal vomitar todo en la semana 5?', 'a' => 'Las náuseas son frecuentes, pero no retener comida o líquidos, orinar muy poco o sentir debilidad marcada requiere atención. Pedí ayuda para evaluar hidratación y tratamiento.'],
             ['q' => '¿Para qué me piden orina si no me arde?', 'a' => 'Algunos estudios buscan infección urinaria aun sin síntomas. El equipo te indicará cómo recoger la muestra y explicará si el resultado necesita tratamiento.'],
         ],
-        'related' => ['planned:acido-folico', 'planned:primeros-sintomas', 'planned:control-prenatal-ips-vs-privado'],
+        'related' => ['acido-folico', 'primeros-sintomas', 'control-prenatal-ips-vs-privado'],
         'image' => null,
         'reviewedBy' => null,
         'sources' => [
@@ -317,7 +317,7 @@ return [
             ['q' => '¿Por qué me dan náuseas a la tarde?', 'a' => 'Pueden aparecer a cualquier hora y relacionarse con olores o con pasar tiempo sin comer. Si los vómitos te impiden beber o te dejan muy débil, necesitás atención.'],
             ['q' => '¿Es normal que un día tenga menos síntomas?', 'a' => 'Los síntomas pueden variar entre días. Ese cambio aislado no permite saber cómo evoluciona el embarazo; dolor intenso, desmayo o sangrado abundante sí requieren atención inmediata.'],
         ],
-        'related' => ['planned:primeros-sintomas', 'planned:senales-de-alarma', 'planned:permiso-para-controles'],
+        'related' => ['primeros-sintomas', 'senales-de-alarma', 'permiso-para-controles'],
         'image' => null,
         'reviewedBy' => null,
         'sources' => [
@@ -371,7 +371,7 @@ return [
             ['q' => '¿Puedo ir al dentista embarazada de 7 semanas?', 'a' => 'Sí, informá el embarazo y los medicamentos que usás para planificar la atención. Dolor, hinchazón o signos de infección necesitan evaluación; no conviene postergarlos por tu cuenta.'],
             ['q' => '¿Es normal no tener panza todavía?', 'a' => 'Sí, el embrión sigue siendo pequeño y el aspecto del abdomen varía. La hinchazón digestiva también puede cambiar durante el día; la panza no mide la evolución del embarazo.'],
         ],
-        'related' => ['planned:salud-dental', 'planned:carne-perinatal', 'planned:senales-de-alarma'],
+        'related' => ['salud-dental', 'carne-perinatal', 'senales-de-alarma'],
         'image' => null,
         'reviewedBy' => null,
         'sources' => [
@@ -436,9 +436,9 @@ return [
             ],
         ],
         'related' => [
-            'planned:senales-de-alarma',
-            'planned:terere-en-el-embarazo',
-            'planned:control-prenatal-ips-vs-privado',
+            'senales-de-alarma',
+            'terere-en-el-embarazo',
+            'control-prenatal-ips-vs-privado',
         ],
         'image' => null,
         'reviewedBy' => null,
@@ -529,9 +529,9 @@ return [
             ],
         ],
         'related' => [
-            'planned:senales-de-alarma',
-            'planned:control-prenatal-ips-vs-privado',
-            'planned:vacunas-en-el-embarazo',
+            'senales-de-alarma',
+            'control-prenatal-ips-vs-privado',
+            'vacunas-en-el-embarazo',
         ],
         'image' => null,
         'reviewedBy' => null,
@@ -622,9 +622,9 @@ return [
             ],
         ],
         'related' => [
-            'planned:terere-en-el-embarazo',
-            'planned:senales-de-alarma',
-            'planned:control-prenatal-ips-vs-privado',
+            'terere-en-el-embarazo',
+            'senales-de-alarma',
+            'control-prenatal-ips-vs-privado',
         ],
         'image' => null,
         'reviewedBy' => null,
@@ -715,9 +715,9 @@ return [
             ],
         ],
         'related' => [
-            'planned:senales-de-alarma',
-            'planned:dengue-en-el-embarazo',
-            'planned:vacunas-en-el-embarazo',
+            'senales-de-alarma',
+            'dengue-en-el-embarazo',
+            'vacunas-en-el-embarazo',
         ],
         'image' => null,
         'reviewedBy' => null,
@@ -812,9 +812,9 @@ return [
             ],
         ],
         'related' => [
-            'planned:control-prenatal-ips-vs-privado',
-            'planned:senales-de-alarma',
-            'planned:vacunas-en-el-embarazo',
+            'control-prenatal-ips-vs-privado',
+            'senales-de-alarma',
+            'vacunas-en-el-embarazo',
         ],
         'image' => null,
         'reviewedBy' => null,
@@ -905,9 +905,9 @@ return [
             ],
         ],
         'related' => [
-            'planned:senales-de-alarma',
-            'planned:control-prenatal-ips-vs-privado',
-            'planned:dengue-en-el-embarazo',
+            'senales-de-alarma',
+            'control-prenatal-ips-vs-privado',
+            'dengue-en-el-embarazo',
         ],
         'image' => null,
         'reviewedBy' => null,
@@ -1002,9 +1002,9 @@ return [
             ],
         ],
         'related' => [
-            'planned:senales-de-alarma',
-            'planned:vacunas-en-el-embarazo',
-            'planned:control-prenatal-ips-vs-privado',
+            'senales-de-alarma',
+            'vacunas-en-el-embarazo',
+            'control-prenatal-ips-vs-privado',
         ],
         'image' => null,
         'reviewedBy' => null,
@@ -1082,7 +1082,7 @@ return [
             ['q' => '¿A las 15 semanas ya tengo que sentir al bebé?', 'a' => 'Habitualmente todavía no se reconoce su movimiento. Que se mueva en la ecografía y vos no lo sientas es posible; no necesitás iniciar un conteo de pataditas.'],
             ['q' => '¿Puedo usar gotas para la nariz tapada?', 'a' => 'Consultá antes de usar descongestivos o retomar un producto anterior. Llevá el nombre y la composición para que el equipo revise qué opción corresponde.'],
         ],
-        'related' => ['planned:senales-de-alarma', 'planned:vacunas-en-el-embarazo', 'planned:control-prenatal-ips-vs-privado'],
+        'related' => ['senales-de-alarma', 'vacunas-en-el-embarazo', 'control-prenatal-ips-vs-privado'],
         'image' => null,
         'reviewedBy' => null,
         'sources' => [
@@ -1134,7 +1134,7 @@ return [
             ['q' => '¿Por qué me tira abajo de la panza al levantarme?', 'a' => 'Puede relacionarse con la adaptación de los tejidos si es breve y cede. Dolor intenso o persistente, sangrado o pérdida de líquido necesitan valoración inmediata.'],
             ['q' => '¿Qué hago si el hierro me estriñe?', 'a' => 'Contá cuándo empezó y qué presentación usás. El equipo puede revisar el manejo; no lo suspendas ni cambies la cantidad por tu cuenta.'],
         ],
-        'related' => ['planned:senales-de-alarma', 'planned:vacunas-en-el-embarazo', 'planned:control-prenatal-ips-vs-privado'],
+        'related' => ['senales-de-alarma', 'vacunas-en-el-embarazo', 'control-prenatal-ips-vs-privado'],
         'image' => null,
         'reviewedBy' => null,
         'sources' => [
@@ -1186,7 +1186,7 @@ return [
             ['q' => '¿Mucho flujo a las 17 semanas es normal?', 'a' => 'Puede aumentar si es claro o blanquecino y no produce molestias. Olor fuerte, picazón o ardor requieren revisión; una salida acuosa que moja la ropa necesita atención sin esperar.'],
             ['q' => '¿Tengo que tomar más calcio porque se forman los huesos?', 'a' => 'No aumentes suplementos por tu cuenta. Conversá sobre tu alimentación y las indicaciones que ya tenés; el desarrollo del esqueleto no determina por sí solo una nueva cantidad.'],
         ],
-        'related' => ['planned:senales-de-alarma', 'planned:vacunas-en-el-embarazo', 'planned:control-prenatal-ips-vs-privado'],
+        'related' => ['senales-de-alarma', 'vacunas-en-el-embarazo', 'control-prenatal-ips-vs-privado'],
         'image' => null,
         'reviewedBy' => null,
         'sources' => [
@@ -1238,7 +1238,7 @@ return [
             ['q' => '¿La ecografía de 18 semanas es la morfológica?', 'a' => 'Puede corresponder a la evaluación anatómica si esa fue la indicación. Confirmá el tipo de estudio y la fecha con el equipo; la ventana depende del seguimiento y del servicio.'],
             ['q' => '¿Tengo que ir en ayunas a la ecografía?', 'a' => 'Pedí las instrucciones al lugar donde la vas a hacer. La preparación depende del estudio; no saltees comidas ni tomes agua en exceso por una indicación que recibió otra persona.'],
         ],
-        'related' => ['planned:senales-de-alarma', 'planned:vacunas-en-el-embarazo', 'planned:control-prenatal-ips-vs-privado'],
+        'related' => ['senales-de-alarma', 'vacunas-en-el-embarazo', 'control-prenatal-ips-vs-privado'],
         'image' => null,
         'reviewedBy' => null,
         'sources' => [
@@ -1290,7 +1290,7 @@ return [
             ['q' => '¿Qué es la capa blanca que tiene el bebé?', 'a' => 'Es la vérnix, una sustancia protectora de la piel que se desarrolla durante el embarazo. No depende de una crema que uses en tu abdomen.'],
             ['q' => '¿Es normal que me duela el pubis al caminar?', 'a' => 'Puede haber molestias de la cintura pélvica, pero si limitan caminar conviene evaluarlas. Dolor fuerte o persistente, sangrado o pérdida de líquido requieren atención sin esperar.'],
         ],
-        'related' => ['planned:senales-de-alarma', 'planned:vacunas-en-el-embarazo', 'planned:control-prenatal-ips-vs-privado'],
+        'related' => ['senales-de-alarma', 'vacunas-en-el-embarazo', 'control-prenatal-ips-vs-privado'],
         'image' => null,
         'reviewedBy' => null,
         'sources' => [
@@ -1436,7 +1436,7 @@ return [
             ['q' => '¿Puedo tener presión alta sin dolor de cabeza?', 'a' => 'Sí, puede no dar síntomas. Por eso se mide en los controles. Dolor de cabeza fuerte, visión borrosa o dolor intenso en la parte alta del abdomen requieren atención urgente.'],
             ['q' => '¿La acidez significa que el bebé tiene mucho pelo?', 'a' => 'La acidez se relaciona con cambios digestivos del embarazo y no permite saber cuánto pelo tiene. Comidas pequeñas y evitar acostarte al terminar pueden aliviarla; consultá si persiste.'],
         ],
-        'related' => ['planned:senales-de-alarma', 'planned:vacunas-en-el-embarazo', 'planned:control-prenatal-ips-vs-privado'],
+        'related' => ['senales-de-alarma', 'vacunas-en-el-embarazo', 'control-prenatal-ips-vs-privado'],
         'image' => null,
         'reviewedBy' => null,
         'sources' => [
@@ -1488,7 +1488,7 @@ return [
             ['q' => '¿La placenta anterior hace que sienta menos al bebé?', 'a' => 'Puede amortiguar la percepción de los movimientos. Contá cómo los venís sintiendo; una disminución clara requiere atención inmediata, aunque sepas que tu placenta está adelante.'],
             ['q' => '¿La ecografía de 22 semanas muestra la cara definitiva?', 'a' => 'Permite observar estructuras de la cara, pero el aspecto sigue cambiando. La posición del bebé y la calidad de la imagen también influyen en lo que se distingue.'],
         ],
-        'related' => ['planned:senales-de-alarma', 'planned:control-prenatal-ips-vs-privado', 'planned:permiso-para-controles'],
+        'related' => ['senales-de-alarma', 'control-prenatal-ips-vs-privado', 'permiso-para-controles'],
         'image' => null,
         'reviewedBy' => null,
         'sources' => [
@@ -1540,7 +1540,7 @@ return [
             ['q' => '¿A las 23 semanas ya tiene que estar cabeza abajo?', 'a' => 'Todavía tiene margen para cambiar de posición. La postura de esta semana no determina por sí sola la presentación cerca del parto.'],
             ['q' => '¿Todavía puedo confundir las pataditas con gases?', 'a' => 'Sí, las primeras sensaciones pueden costar reconocer. Si a las 24 semanas completas no sentiste movimientos, avisá al equipo. Si lo que ya sentías disminuye claramente, consultá de inmediato.'],
         ],
-        'related' => ['planned:senales-de-alarma', 'planned:dormir-en-el-embarazo', 'planned:diabetes-gestacional'],
+        'related' => ['senales-de-alarma', 'dormir-en-el-embarazo', 'diabetes-gestacional'],
         'image' => null,
         'reviewedBy' => null,
         'sources' => [
@@ -1592,7 +1592,7 @@ return [
             ['q' => '¿Qué pasa si soy Rh negativa a las 24 semanas?', 'a' => 'El equipo revisa el grupo sanguíneo, la pesquisa de anticuerpos y tus antecedentes para planificar controles y eventual prevención con anti-D. El factor Rh negativo por sí solo no es una enfermedad.'],
             ['q' => '¿Qué hago si todavía no siento al bebé a las 24 semanas?', 'a' => 'Si llegaste a las 24 semanas completas sin sentir movimientos, contactá al equipo para evaluación. Una disminución clara de movimientos que ya reconocías requiere consulta inmediata.'],
         ],
-        'related' => ['planned:diabetes-gestacional', 'planned:senales-de-alarma', 'planned:carne-perinatal'],
+        'related' => ['diabetes-gestacional', 'senales-de-alarma', 'carne-perinatal'],
         'image' => null,
         'reviewedBy' => null,
         'sources' => [
@@ -1645,7 +1645,7 @@ return [
             ['q' => '¿Es normal tener sangre al ir al baño?', 'a' => 'Puede relacionarse con hemorroides o una fisura, pero necesita consulta para identificar la causa. Si podría ser sangrado vaginal o no distinguís de dónde viene, buscá evaluación sin esperar.'],
             ['q' => '¿La presión abajo significa que el bebé va a nacer?', 'a' => 'No permite saberlo por sí sola. Una presión nueva persistente, especialmente con contracciones, dolor lumbar o pérdida de líquido, requiere atención inmediata para evaluar qué está pasando.'],
         ],
-        'related' => ['planned:diabetes-gestacional', 'planned:antojos-y-anemia', 'planned:senales-de-alarma'],
+        'related' => ['diabetes-gestacional', 'antojos-y-anemia', 'senales-de-alarma'],
         'image' => null,
         'reviewedBy' => null,
         'sources' => [
@@ -1697,7 +1697,7 @@ return [
             ['q' => '¿Qué puedo hacer si no duermo bien a las 26 semanas?', 'a' => 'Probá apoyo con almohadas, una postura cómoda de costado y cambios en horarios de comidas si hay acidez. Comentá el problema si afecta tu día; no tomes sedantes o yuyos sin consultar.'],
             ['q' => '¿Puedo usar un aparato para escuchar al bebé si se mueve menos?', 'a' => 'Un dispositivo casero no permite descartar un problema. Si hay una disminución clara o ausencia respecto de sus movimientos habituales, buscá evaluación inmediata.'],
         ],
-        'related' => ['planned:dormir-en-el-embarazo', 'planned:diabetes-gestacional', 'planned:senales-de-alarma'],
+        'related' => ['dormir-en-el-embarazo', 'diabetes-gestacional', 'senales-de-alarma'],
         'image' => null,
         'reviewedBy' => null,
         'sources' => [
@@ -1749,7 +1749,7 @@ return [
             ['q' => '¿Tengo que sacar el calostro que aparece en el embarazo?', 'a' => 'No hace falta extraerlo ni apretar el pecho para comprobarlo. Si mancha la ropa, podés usar protectores limpios. Cualquier extracción antes del nacimiento requiere una conversación individual con tu equipo.'],
             ['q' => '¿Si tengo mucha acidez debo dejar de cenar?', 'a' => 'No hace falta saltarte la comida. Probá porciones más pequeñas y evitá acostarte enseguida. Si no podés alimentarte bien o el dolor persiste, consultá para recibir una indicación adecuada.'],
         ],
-        'related' => ['planned:contracciones-y-cuando-ir', 'planned:senales-de-alarma', 'planned:dormir-en-el-embarazo'],
+        'related' => ['contracciones-y-cuando-ir', 'senales-de-alarma', 'dormir-en-el-embarazo'],
         'image' => null,
         'reviewedBy' => null,
         'sources' => [
@@ -1801,7 +1801,7 @@ return [
             ['q' => '¿Qué inyección se conversa a las 28 semanas si soy Rh negativa?', 'a' => 'Puede corresponder inmunoglobulina anti-D según la pesquisa de anticuerpos, tus antecedentes y el protocolo del equipo. Confirmá la fecha con las semanas completas del carné; no es una vacuna ni una indicación automática para todas.'],
             ['q' => '¿Qué hago si llegué a la semana 28 sin el estudio de glucosa?', 'a' => 'Contactá a tu equipo para coordinar la pesquisa pendiente y su preparación. Sentirte bien no descarta una alteración de glucosa, y no corresponde cambiar la dieta para intentar modificar el resultado.'],
         ],
-        'related' => ['planned:diabetes-gestacional', 'planned:vacunas-en-el-embarazo', 'planned:senales-de-alarma'],
+        'related' => ['diabetes-gestacional', 'vacunas-en-el-embarazo', 'senales-de-alarma'],
         'image' => null,
         'reviewedBy' => null,
         'sources' => [
@@ -1854,7 +1854,7 @@ return [
             ['q' => '¿Es normal tener los tobillos hinchados a las 29 semanas?', 'a' => 'Puede aparecer hinchazón leve en ambos tobillos al final del día. Una pierna dolorosa e hinchada o hinchazón repentina con dolor de cabeza o cambios visuales necesita atención pronta; revisá [las señales de alarma](/salud/senales-de-alarma/).'],
             ['q' => '¿Ya empiezo el bolso a las 29 semanas?', 'a' => 'Podés reunir carné, informes y una lista de lo que pide tu servicio. Organizarlo por partes evita compras apuradas; consultá [qué llevar al sanatorio](/parto/que-llevar-al-sanatorio/) y adaptalo a tus necesidades.'],
         ],
-        'related' => ['planned:senales-de-alarma', 'planned:que-llevar-al-sanatorio', 'licencia-de-maternidad'],
+        'related' => ['senales-de-alarma', 'que-llevar-al-sanatorio', 'licencia-de-maternidad'],
         'image' => null,
         'reviewedBy' => null,
         'sources' => [
@@ -1906,7 +1906,7 @@ return [
             ['q' => '¿Qué hago si el hierro me estriñe?', 'a' => 'Explicá al equipo qué producto usás y qué molestias aparecen para ajustar el plan si hace falta. Agua, fibra gradual y movimiento tolerable pueden ayudar; no cambies la dosis ni lo reemplaces por un preparado casero.'],
             ['q' => '¿Puedo preguntar por anestesia para el parto desde ahora?', 'a' => 'Sí. Preguntá qué opciones ofrece tu servicio, en qué situaciones pueden usarse y cuándo conviene una evaluación. La disponibilidad y la elección dependen del establecimiento y de tu situación clínica.'],
         ],
-        'related' => ['planned:senales-de-alarma', 'planned:que-llevar-al-sanatorio', 'licencia-de-maternidad'],
+        'related' => ['senales-de-alarma', 'que-llevar-al-sanatorio', 'licencia-de-maternidad'],
         'image' => null,
         'reviewedBy' => null,
         'sources' => [
@@ -1958,7 +1958,7 @@ return [
             ['q' => '¿El bebé se mueve menos porque ya no tiene lugar?', 'a' => 'La sensación puede cambiar de golpes a estiramientos, pero una reducción clara no se considera esperable por falta de espacio. Buscá evaluación inmediata si notás menos movimientos o dejan de sentirse.'],
             ['q' => '¿Cómo sí si a las 31 semanas está de cabeza?', 'a' => 'El lugar de las patadas no alcanza para saberlo. El equipo puede valorar la posición mediante el examen y, si corresponde, ecografía; todavía puede cambiar y no define por sí sola la vía del parto.'],
         ],
-        'related' => ['planned:senales-de-alarma', 'planned:que-llevar-al-sanatorio', 'licencia-de-maternidad'],
+        'related' => ['senales-de-alarma', 'que-llevar-al-sanatorio', 'licencia-de-maternidad'],
         'image' => null,
         'reviewedBy' => null,
         'sources' => [
@@ -2010,7 +2010,7 @@ return [
             ['q' => '¿Por qué me duele el pubis al caminar?', 'a' => 'La pelvis puede volverse más sensible a ciertos movimientos. Usá apoyo para vestirte y pedí evaluación si te limita; dolor intenso o persistente, sangrado o contracciones requieren atención inmediata.'],
             ['q' => '¿Qué ropa preparo para el bebé a las 32 semanas?', 'a' => 'Elegí prendas cómodas, fáciles de cambiar y acordes al clima. Confirmá la cantidad con el lugar de atención y organizá [qué llevar al sanatorio](/parto/que-llevar-al-sanatorio/) sin cargar el bolso con cosas innecesarias.'],
         ],
-        'related' => ['planned:senales-de-alarma', 'planned:que-llevar-al-sanatorio', 'licencia-de-maternidad'],
+        'related' => ['senales-de-alarma', 'que-llevar-al-sanatorio', 'licencia-de-maternidad'],
         'image' => null,
         'reviewedBy' => null,
         'sources' => [
@@ -2062,7 +2062,7 @@ return [
             ['q' => '¿Por qué los huesos de la cabeza todavía no están unidos?', 'a' => 'Los espacios y uniones flexibles permiten el crecimiento del cerebro y cierta adaptación durante el parto. Después de nacer, el equipo revisa la cabeza y las fontanelas como parte del examen habitual.'],
             ['q' => '¿Los anticuerpos de la mamá protegen de todo al bebé?', 'a' => 'No. El paso de anticuerpos por la placenta aporta protección inicial, pero el sistema inmunitario sigue madurando y el bebé necesitará cuidados y las vacunas que le indiquen.'],
         ],
-        'related' => ['planned:senales-de-alarma', 'planned:que-llevar-al-sanatorio', 'licencia-de-maternidad'],
+        'related' => ['senales-de-alarma', 'que-llevar-al-sanatorio', 'licencia-de-maternidad'],
         'image' => null,
         'reviewedBy' => null,
         'sources' => [
@@ -2114,7 +2114,7 @@ return [
             ['q' => '¿Si no sale calostro voy a tener poca leche?', 'a' => 'No. No ver secreción durante el embarazo no predice la producción después del parto. No hace falta apretar ni extraer para comprobarlo; podés pedir orientación sobre el inicio de la lactancia.'],
             ['q' => '¿Ya tengo que decidir cesárea o parto normal?', 'a' => 'Podés conversar ahora sobre tus preferencias y antecedentes, y preguntar qué situaciones cambiarían el plan. La vía de nacimiento se valora con el equipo según tu historia y la evolución, sin basarse solo en un peso estimado.'],
         ],
-        'related' => ['planned:senales-de-alarma', 'planned:que-llevar-al-sanatorio', 'licencia-de-maternidad'],
+        'related' => ['senales-de-alarma', 'que-llevar-al-sanatorio', 'licencia-de-maternidad'],
         'image' => null,
         'reviewedBy' => null,
         'sources' => [
@@ -2166,7 +2166,7 @@ return [
             ['q' => '¿Si la panza bajó a las 35 semanas ya voy a parir?', 'a' => 'La forma o altura aparente de la panza no predice cuándo empezará el parto. Si se acompaña de presión nueva, dolor lumbar, contracciones o líquido, necesitás evaluación por esos síntomas.'],
             ['q' => '¿Tengo que hacer ayuno si creo que voy a tener cesárea?', 'a' => 'No inicies ayuno ni suspendas medicamentos por una suposición. Si hay una cirugía programada, seguí las instrucciones individuales del servicio; ante una urgencia, acudí sin retrasarte para cumplir una preparación casera.'],
         ],
-        'related' => ['planned:senales-de-alarma', 'planned:que-llevar-al-sanatorio', 'licencia-de-maternidad'],
+        'related' => ['senales-de-alarma', 'que-llevar-al-sanatorio', 'licencia-de-maternidad'],
         'image' => null,
         'reviewedBy' => null,
         'sources' => [
@@ -2219,7 +2219,7 @@ return [
             ['q' => '¿Un hisopado positivo significa cesárea?', 'a' => 'La pesquisa de estreptococo del grupo B ayuda a planificar medidas durante el parto. Un resultado positivo por sí solo no determina cesárea; llevá el informe y preguntá qué cambia en tu atención.'],
             ['q' => '¿Cómo sé si el bebé está de cabeza en la semana 36?', 'a' => 'La evaluación del abdomen y, si hace falta, una ecografía permiten revisar la presentación. La forma de tu panza o dónde sentís una patada no alcanza para confirmarla.'],
         ],
-        'related' => ['planned:contracciones-y-cuando-ir', 'planned:senales-de-alarma', 'planned:que-llevar-al-sanatorio'],
+        'related' => ['contracciones-y-cuando-ir', 'senales-de-alarma', 'que-llevar-al-sanatorio'],
         'image' => null,
         'reviewedBy' => null,
         'sources' => [
@@ -2271,7 +2271,7 @@ return [
             ['q' => '¿El tacto dice cuántos días faltan para el parto?', 'a' => 'No permite calcular una fecha exacta. Evalúa características del cuello uterino cuando hay una razón clínica; preguntá qué se busca saber y cómo cambiaría el plan.'],
             ['q' => '¿Es normal que se mueva menos porque está por nacer?', 'a' => 'El tipo de movimiento puede cambiar, pero una reducción clara respecto de lo habitual necesita atención inmediata. No la atribuyas al poco espacio ni a que empezó a prepararse para el parto.'],
         ],
-        'related' => ['planned:contracciones-y-cuando-ir', 'planned:senales-de-alarma', 'planned:que-llevar-al-sanatorio'],
+        'related' => ['contracciones-y-cuando-ir', 'senales-de-alarma', 'que-llevar-al-sanatorio'],
         'image' => null,
         'reviewedBy' => null,
         'sources' => [
@@ -2322,7 +2322,7 @@ return [
             ['q' => '¿Cuándo voy al sanatorio si estoy de 38 semanas?', 'a' => 'Seguí el plan individual para contracciones y acudí ante pérdida de líquido, sangrado o disminución de movimientos. No esperes un intervalo fijo con alarmas. Leé [contracciones y cuándo ir](/parto/contracciones-y-cuando-ir/) y [las señales de alarma](/salud/senales-de-alarma/).'],
             ['q' => '¿Que baje la panza significa que nazca hoy?', 'a' => 'Puede reflejar un cambio de posición o descenso, pero no predice el día del nacimiento. La evaluación y la evolución de las contracciones orientan mejor que la forma del abdomen.'],
         ],
-        'related' => ['planned:contracciones-y-cuando-ir', 'planned:senales-de-alarma', 'licencia-de-maternidad'],
+        'related' => ['contracciones-y-cuando-ir', 'senales-de-alarma', 'licencia-de-maternidad'],
         'image' => null,
         'reviewedBy' => null,
         'sources' => [
@@ -2375,7 +2375,7 @@ return [
             ['q' => '¿Cada cuánto deben venir las contracciones para ir al sanatorio?', 'a' => 'El momento depende de tu situación y del traslado, no de una frecuencia universal. Ante líquido, sangrado o menos movimientos, acudí sin esperar. Revisá [contracciones y cuándo ir](/parto/contracciones-y-cuando-ir/) y [las señales de alarma](/salud/senales-de-alarma/).'],
             ['q' => '¿Caminar mucho ayuda a que nazca a las 39 semanas?', 'a' => 'Caminar de manera cómoda puede darte bienestar si no tenés restricciones, pero agotarte no garantiza iniciar el parto. Evitá exigirte o probar preparados caseros para provocarlo.'],
         ],
-        'related' => ['planned:contracciones-y-cuando-ir', 'planned:senales-de-alarma', 'planned:que-llevar-al-sanatorio'],
+        'related' => ['contracciones-y-cuando-ir', 'senales-de-alarma', 'que-llevar-al-sanatorio'],
         'image' => null,
         'reviewedBy' => null,
         'sources' => [
@@ -2427,7 +2427,7 @@ return [
             ['q' => '¿A las 40 semanas cuándo tengo que ir al sanatorio?', 'a' => 'Seguí la indicación personal para contracciones y acudí de inmediato por pérdida de líquido, sangrado, menos movimientos o ganas intensas de pujar. Leé [contracciones y cuándo ir](/parto/contracciones-y-cuando-ir/) y [las señales de alarma](/salud/senales-de-alarma/).'],
             ['q' => '¿Una ecografía normal permite esperar sin más controles?', 'a' => 'No. Informa sobre aspectos del momento evaluado. Cumplí el plan de seguimiento y consultá enseguida si aparecen síntomas o disminuyen los movimientos, aunque el estudio haya sido tranquilizador.'],
         ],
-        'related' => ['planned:contracciones-y-cuando-ir', 'planned:senales-de-alarma', 'planned:que-llevar-al-sanatorio'],
+        'related' => ['contracciones-y-cuando-ir', 'senales-de-alarma', 'que-llevar-al-sanatorio'],
         'image' => null,
         'reviewedBy' => null,
         'sources' => [
@@ -2479,7 +2479,7 @@ return [
             ['q' => '¿Si tengo inducción mañana espero aunque empiecen contracciones?', 'a' => 'Consultá según el plan para el inicio del parto; no esperes la cita ante líquido, sangrado o menos movimientos. Repasá [contracciones y cuándo ir](/parto/contracciones-y-cuando-ir/) y [las señales de alarma](/salud/senales-de-alarma/).'],
             ['q' => '¿Un monitoreo normal asegura que puedo seguir esperando?', 'a' => 'Muestra información del momento y no garantiza los días siguientes. Cumplí la próxima evaluación y el plan de nacimiento, y acudí ante cambios aunque el resultado anterior haya sido normal.'],
         ],
-        'related' => ['planned:contracciones-y-cuando-ir', 'planned:senales-de-alarma', 'planned:que-llevar-al-sanatorio'],
+        'related' => ['contracciones-y-cuando-ir', 'senales-de-alarma', 'que-llevar-al-sanatorio'],
         'image' => null,
         'reviewedBy' => null,
         'sources' => [
@@ -2531,7 +2531,7 @@ return [
             ['q' => '¿Cuándo ir al sanatorio si todavía no tengo contracciones?', 'a' => 'Cumplí el ingreso indicado aunque no duela; si no hay plan, pedí evaluación hoy. Ante líquido, sangrado o menos movimientos, acudí inmediatamente. Leé [contracciones y cuándo ir](/parto/contracciones-y-cuando-ir/) y [las señales de alarma](/salud/senales-de-alarma/).'],
             ['q' => '¿Un bebé más grande significa que la placenta sigue bien?', 'a' => 'No. El peso estimado no demuestra por sí solo el bienestar ni el funcionamiento placentario. Se consideran movimientos, evaluaciones y edad gestacional para decidir la atención y el nacimiento.'],
         ],
-        'related' => ['planned:contracciones-y-cuando-ir', 'planned:senales-de-alarma', 'planned:que-llevar-al-sanatorio'],
+        'related' => ['contracciones-y-cuando-ir', 'senales-de-alarma', 'que-llevar-al-sanatorio'],
         'image' => null,
         'reviewedBy' => null,
         'sources' => [

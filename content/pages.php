@@ -179,7 +179,8 @@ return [
         'related' => [
             '/instalar/',
             '/familia/',
-            '/privacidad/'
+            '/privacidad/',
+            '/app/comparacion/'
         ],
         'phoneWeek' => 20,
         'features' => [
@@ -853,8 +854,8 @@ return [
 'accessed' => null]],
 'reviewedBy' => null,
 'updated' => '2026-09-20',
-'related' => ['planned:senales-de-alarma',
-'planned:vacunas-en-el-embarazo']],
+'related' => ['senales-de-alarma',
+'vacunas-en-el-embarazo']],
     '/trimestre/1/' => ['title' => 'Primer trimestre de embarazo',
 'description' => 'Conocé qué pasa en el primer trimestre de embarazo: desarrollo inicial, náuseas, primera consulta y estudios para conversar con tu equipo en Paraguay.',
 'h1' => 'Primer trimestre de embarazo',
