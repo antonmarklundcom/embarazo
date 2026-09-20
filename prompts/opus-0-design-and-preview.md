@@ -80,5 +80,5 @@ project named "Mi Bebé — embarazo.com.py". If it is not available, skip it an
 
 Exit: 9 files exist; each preview validates as HTML, passes an axe-core-style manual
 check (headings in order, contrast, focus visible, tap targets ≥ 44 px), and the
-calculator produces the app's numbers for FUM 2026-03-01 on 2026-09-20 (semana 29 ·
-28 semanas y 6 días · FPP 2026-12-06). PR open.
+calculator produces the app's numbers for FUM 2026-03-02 on 2026-09-20 (semana 29 ·
+28 semanas y 6 días · FPP 2026-12-07). PR open.
