@@ -174,7 +174,7 @@ while IFS=$'\t' read -r path expected flag; do
     fail "$path - stub is not noindex"
   fi
 
-  len=${#title}
+  len=$(printf '%s' "$title" | { LC_ALL=C.UTF-8 wc -m 2>/dev/null || wc -m; } | tr -d ' ')  # characters, not bytes (Git Bash counts bytes in the C locale)
   if [ "$len" -gt 60 ]; then
     fail "$path — <title> is $len chars, over the 60-char budget: $title"
   fi
