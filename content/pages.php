@@ -879,13 +879,20 @@ return [
     'noindex' => false
 ],
     '/blog/' => [
-    'title' => 'Blog',
-    'description' => 'Blog: estamos preparando esta sección de Mi Bebé para Paraguay. Mientras tanto, podés abrir la app y conocer sus opciones desde tu teléfono.',
-    'h1' => 'Blog',
-    'lead' => 'Estamos preparando esta sección para vos.',
-    'sections' => [],
-    'stub' => true,
-    'noindex' => true
+    'title' => 'Blog: embarazo y novedades de Mi Bebé',
+    'description' => 'Leé las novedades de Mi Bebé y notas para vivir el embarazo en Paraguay: dengue, calor, permisos laborales y formas de acompañar en familia.',
+    'h1' => 'Novedades para acompañar tu embarazo',
+    'lead' => 'Noticias de Mi Bebé y temas de la vida cotidiana en Paraguay, con acciones para llevar a tu próxima consulta, conversar en el trabajo o compartir en familia. Las publicaciones más recientes aparecen primero.',
+    'sections' => (static function (): array {
+        $posts = require __DIR__ . '/blog.php';
+        usort($posts, static fn(array $a, array $b): int => strcmp($b['date'], $a['date']));
+        return array_map(static fn(array $post): array => [
+            'h2' => $post['title'],
+            'body' => [$post['date'] . ' · ' . implode(' · ', $post['tags']), $post['description'], '[Leer la nota](/blog/' . $post['slug'] . '/)'],
+        ], $posts);
+    })(),
+    'stub' => false,
+    'noindex' => false
 ],
     '/404' => [
     'title' => 'Página no encontrada',
