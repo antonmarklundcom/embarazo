@@ -1,3 +1,3 @@
-<?php require __DIR__ . '/../lib/bootstrap.php';
-$path = '/calendario-de-ovulacion/';
-require ROOT_DIR . '/templates/page.php';
+<?php
+$slug = 'calendario-de-ovulacion';
+require __DIR__ . '/../templates/tool.php';

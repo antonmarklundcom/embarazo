@@ -1,15 +1,10 @@
 <?php
 /**
- * Renders one tool from content/tools.php. Every /herramientas/<slug>/index.php
- * builds its own calculator markup into $toolCalcHtml (via output buffering,
- * the same pattern templates/article.php uses for $sections) and then requires
- * this file — the shared chrome (breadcrumbs, hero, SEO copy, FAQ, related
- * services, CTA) is common to all six tools; the calculator itself is not,
- * because the six field sets have nothing in common.
+ * Renders one tool from content/tools.php. Three-line routes set $slug.
+ * The island adapter builds escaped markup; this template supplies content chrome.
  *
  *   $slug         string  required — looked up in content('tools')
- *   $toolCalcHtml string  required — pre-rendered calculator/quiz markup,
- *                         already escaped by the page that built it
+ *   $toolCalcHtml string  optional — pre-rendered, already escaped island markup
  */
 
 declare(strict_types=1);
@@ -25,11 +20,10 @@ if ($tool === null) {
     return;
 }
 
-/* The reference tables and their review date come from the market module
-   (lib/market/<market>.php), so a calculator page reads the same numbers the
-   JS calculator does and neither hardcodes a country's rules. */
-$lastReviewed = market_last_reviewed();
 $tool += page_meta($tool['path']);
+if (!isset($toolCalcHtml)) {
+    require ROOT_DIR . '/assets/js/tools/island.php';
+}
 
 $page = [
     'title'       => $tool['seoTitle'] !== '' ? $tool['seoTitle'] : $tool['title'],
@@ -37,17 +31,17 @@ $page = [
     'path'        => $tool['path'],
     'noindex'     => !empty($tool['stub']) || !empty($tool['noindex']),
     'breadcrumbs' => [
-        ['label' => ui('nav.tools'), 'path' => '/herramientas/'],
         ['label' => $tool['title'], 'path' => $tool['path']],
     ],
     'faq' => $tool['faq'],
     'tool' => $tool,
+    'sticky' => true,
 ];
 
 require ROOT_DIR . '/partials/head.php';
 require ROOT_DIR . '/partials/header.php';
 ?>
-<main id="main">
+<main id="main" class="tool-page">
 
   <section class="hero">
     <div class="wrap">
@@ -62,11 +56,6 @@ require ROOT_DIR . '/partials/header.php';
 
   <section class="section">
     <div class="wrap stack">
-      <p class="note tool-reviewed">
-        <?= e(ui('tools.reviewed_prefix')) ?>
-        <?= e($lastReviewed) ?>. <?= e(ui('tools.orientativo')) ?>
-      </p>
-
       <?= $toolCalcHtml ?>
     </div>
   </section>
@@ -74,13 +63,13 @@ require ROOT_DIR . '/partials/header.php';
   <?php if ($tool['intro'] !== []): ?>
     <section class="section section--surface">
       <div class="wrap prose">
-        <?php foreach ($tool['intro'] as $paragraph): ?>
+        <?php foreach ($tool['intro'] as $index => $paragraph): ?>
+          <?php if (isset($tool['ui']['introHeadings'][$index])): ?><h2><?= e($tool['ui']['introHeadings'][$index]) ?></h2><?php endif; ?>
           <p><?= rich($paragraph) ?></p>
         <?php endforeach; ?>
       </div>
     </section>
   <?php endif; ?>
-
   <?php if ($tool['faq'] !== []): ?>
     <section class="section">
       <div class="wrap">
@@ -89,10 +78,11 @@ require ROOT_DIR . '/partials/header.php';
       </div>
     </section>
   <?php endif; ?>
-
-
-
-  
+  <section class="section"><div class="wrap">
+    <p><a class="link-arrow" href="/semana/"><?= e($tool['ui']['weeksLink']) ?></a></p>
+    <?php $disclaimerRecord = $tool; require ROOT_DIR . '/partials/disclaimer.php'; ?>
+    <?php $sourcesRecord = $tool; require ROOT_DIR . '/partials/sources.php'; ?>
+  </div></section>
 
   <script src="<?= e(asset('/assets/js/market/' . market_id() . '.js')) ?>" defer></script>
   <script src="<?= e(asset('/assets/js/tools/tools-shared.js')) ?>" defer></script>

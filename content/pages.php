@@ -862,21 +862,21 @@ return [
 ],
     '/calculadora/' => [
     'title' => 'Calculadora de embarazo',
-    'description' => 'Calculadora de embarazo: estamos preparando esta sección de Mi Bebé para Paraguay. Mientras tanto, podés abrir la app y conocer sus opciones desde tu teléfono.',
+    'description' => 'Calculá tus semanas de embarazo y la fecha probable de parto con tu FUM o FPP. Entendé las semanas completas sin enviar tus fechas a este sitio.',
     'h1' => 'Calculadora de embarazo',
-    'lead' => 'Estamos preparando esta sección para vos.',
+    'lead' => 'Ingresá tu FUM o FPP para estimar tus semanas de embarazo.',
     'sections' => [],
-    'stub' => true,
-    'noindex' => true
+    'stub' => false,
+    'noindex' => false
 ],
     '/calendario-de-ovulacion/' => [
     'title' => 'Calendario de ovulación',
-    'description' => 'Calendario de ovulación: estamos preparando esta sección de Mi Bebé para Paraguay. Mientras tanto, podés abrir la app y conocer sus opciones desde tu teléfono.',
+    'description' => 'Estimá tu ventana fértil con la última menstruación y la duración del ciclo. Conocé cómo se hace la cuenta y sus límites: no es un anticonceptivo.',
     'h1' => 'Calendario de ovulación',
-    'lead' => 'Estamos preparando esta sección para vos.',
+    'lead' => 'Estimá las fechas de tu ciclo. No es un método anticonceptivo.',
     'sections' => [],
-    'stub' => true,
-    'noindex' => true
+    'stub' => false,
+    'noindex' => false
 ],
     '/blog/' => [
     'title' => 'Blog',
