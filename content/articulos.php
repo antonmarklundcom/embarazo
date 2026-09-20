@@ -5097,4 +5097,978 @@ return [
             ['title' => 'Fertility evaluation of infertile women: a committee opinion', 'publisher' => 'American Society for Reproductive Medicine (ASRM)', 'url' => null, 'accessed' => null]
         ], 'updated' => '2026-09-20', 'image' => null
     ],
+    'que-llevar-al-sanatorio' => [
+        'cluster' => 'parto',
+        'path' => '/parto/que-llevar-al-sanatorio/',
+        'title' => 'Qué llevar al sanatorio para el parto',
+        'seoTitle' => 'Qué llevar al sanatorio para el parto',
+        'metaDescription' => 'Prepará el bolso para el parto con una lista de ropa, higiene y documentos habituales. Organizá lo tuyo y lo del bebé sin compras innecesarias.',
+        'kind' => 'medical',
+        'lead' => 'Llevá ropa cómoda, artículos de higiene, toallas higiénicas para el posparto y una carpeta con tu cédula, carné perinatal y estudios disponibles. Separá las cosas del bebé para encontrarlas rápido. La lista del sanatorio puede variar; armá un bolso liviano y accesible. Si aparecen señales de alarma, salí a buscar atención aunque falte terminarlo.',
+        'sections' => [
+            [
+                'h2' => 'Un bolso que puedas usar sin desarmarlo',
+                'body' => [
+                    'Empezá por lo que ya tenés en casa. Una prenda amplia que abre adelante puede servir tanto para descansar como para facilitar el contacto con el bebé. Probá sentarte, levantarte y caminar con ella: una costura que aprieta o un cierre difícil se vuelven más incómodos cuando estás cansada. Elegí ropa que se lave fácilmente y que no te preocupe manchar.',
+                    'Dividí el equipaje en ropa, higiene, documentos y cosas del bebé. Usá bolsas limpias o separadores que permitan reconocer cada grupo sin volcar todo sobre la cama. Si alguien te acompaña, mostrale dónde está cada cosa antes de salir. Dejá el carné y la identificación en un bolsillo accesible, no debajo de las mudas.',
+                    'Podés imprimir esta página y marcar lo que ya guardaste. Al lado de cada pendiente, anotá si falta lavarlo, conseguirlo o simplemente ponerlo a último momento. No hace falta comprar un bolso especial ni duplicar productos que usás habitualmente. El objetivo es poder alcanzar lo necesario con poca ayuda.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Checklist de ropa y cuidado personal',
+                'body' => [
+                    'Prepará una muda para la llegada y otras de recambio según lo que hayan conversado para tu internación. El sangrado posparto puede manchar la ropa interior; buscá prendas cómodas que sostengan la toalla sin comprimir la panza. Si el nacimiento es por cesárea, una cintura que roce la herida puede molestar: elegí una alternativa holgada.',
+                    'Los artículos de higiene de uso personal van juntos y cerrados para evitar derrames. Para la zona genital, evitá perfumes, duchas vaginales y productos que puedan irritar. Llevá tus elementos habituales, sin sumar desinfectantes ni preparados para aplicar sobre heridas por tu cuenta.'
+                ],
+                'items' => [
+                    [
+                        'title' => 'Ropa cómoda',
+                        'text' => 'Camisón o pijama amplio, ropa interior de recambio y una muda para volver a casa. Elegí aberturas sencillas si querés amamantar; no necesitás comprar prendas especiales.'
+                    ],
+                    [
+                        'title' => 'Calzado estable',
+                        'text' => 'Un par fácil de poner, con suela que no resbale y buen apoyo. Probalo antes; caminar con calzado flojo puede resultar difícil si estás dolorida o mareada.'
+                    ],
+                    [
+                        'title' => 'Higiene personal',
+                        'text' => 'Cepillo y pasta dental, jabón suave, peine, toalla y otros artículos personales. Guardá cada envase cerrado y separado de los documentos.'
+                    ],
+                    [
+                        'title' => 'Toallas higiénicas',
+                        'text' => 'Prepará protección externa para el sangrado posparto y ropa interior que la sostenga. No uses tampones ni copa en esta etapa sin orientación de tu equipo.'
+                    ],
+                    [
+                        'title' => 'Anteojos y objetos cotidianos',
+                        'text' => 'Si usás anteojos, llevá su estuche. Sumá cargador y una bolsa para ropa usada; dejá joyas y objetos valiosos en casa para reducir pendientes.'
+                    ]
+                ],
+                'table' => null
+            ],
+            [
+                'h2' => 'Documentos a mano: qué suele servir',
+                'body' => [
+                    'El personal de admisión suele solicitar identificación y antecedentes de la atención. El equipo de salud habitualmente revisa el carné perinatal y los informes disponibles para conocer cómo fue el embarazo. Guardalos en una carpeta que proteja del agua y permita retirar cada hoja sin romperla. Si tenés varios estudios, ordenalos por fecha.',
+                    'Confirmá con el establecimiento los requisitos, costos y plazos vigentes.',
+                    'Una foto puede servir para ubicar información si se pierde un papel, pero no presupongas que reemplaza el formato solicitado. Si te falta un documento, explicalo al llegar; no demores una consulta urgente para buscarlo. Podés ampliar la organización de tus antecedentes en la guía de [carné perinatal](/tramites/carne-perinatal/).'
+                ],
+                'items' => [],
+                'table' => [
+                    'head' => [
+                        'Documento habitual',
+                        'Para qué ayuda',
+                        'Cómo prepararlo'
+                    ],
+                    'rows' => [
+                        [
+                            'Cédula',
+                            'Identificación al consultar',
+                            'Dejala accesible con los datos legibles'
+                        ],
+                        [
+                            'Carné perinatal',
+                            'Resumen del seguimiento',
+                            'Guardá el que usaste en tus controles'
+                        ],
+                        [
+                            'Estudios e informes',
+                            'Antecedentes para el equipo',
+                            'Agrupalos por fecha, sin descartar resultados'
+                        ],
+                        [
+                            'Órdenes o referencias disponibles',
+                            'Información del ingreso previsto',
+                            'Llevá lo que te haya entregado tu equipo'
+                        ]
+                    ]
+                ]
+            ],
+            [
+                'h2' => 'Lo del bebé y lo de tu acompañante',
+                'body' => [
+                    'Armá un paquete separado con las prendas del bebé, pañales y elementos de cambio. La guía de [bolso del bebé](/parto/bolso-del-bebe/) explica cómo elegir ropa fácil de poner y organizar recambios sin llenar la valija. No hace falta llevar juguetes, almohadas ni accesorios decorativos para que el bebé esté cuidado.',
+                    'Quien te acompañe puede hacerse cargo del teléfono, del traslado y de ubicar tus pertenencias. Conversá de antemano qué ayuda querés durante la atención y qué información puede compartir con familiares. Si preferís pocas llamadas, dejalo dicho: no tendrías que responder mensajes mientras tratás de descansar o entender una indicación.',
+                    'Preguntá qué elementos aporta el lugar y qué objetos permite ingresar. Esa respuesta te ayuda a ajustar el equipaje sin asumir que una lista de otra familia sigue vigente. Para alimentos y bebidas durante el trabajo de parto o una cirugía prevista, seguí la indicación de tu equipo; no deduzcas un ayuno por lo que te contó otra persona.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Medicamentos, salida y prioridades',
+                'body' => [
+                    'Anotá los medicamentos que usás, tus alergias y cualquier reacción que hayas tenido a anestesia o tratamientos. Si llevás envases, mantenelos identificados y mostráselos al personal antes de tomar algo durante la internación. No agregues analgésicos, yuyos o suplementos para usarlos por tu cuenta. Una lista clara ayuda incluso si no recordás todos los nombres en ese momento.',
+                    'Dejá previsto quién puede llevarte y una alternativa si esa persona no está disponible. La salida no depende de tener una valija perfecta. Sangrado, pérdida de líquido, menos movimientos del bebé o dolor intenso requieren atención sin esperar a terminar compras o lavar ropa. Revisá [las señales de alarma](/salud/senales-de-alarma/) y compartilas con quien vaya a acompañarte.',
+                    'Antes de volver a casa, reuní las indicaciones que te entreguen y separalas de los papeles de ingreso. Pedí que te expliquen los cuidados, los controles y dónde consultar por un problema. Esa carpeta va a seguir siendo útil después del nacimiento, cuando el bolso ya esté desarmado.'
+                ],
+                'items' => [],
+                'table' => null
+            ]
+        ],
+        'steps' => [
+            [
+                'title' => 'Separá por uso',
+                'body' => [
+                    'Agrupá documentos, ropa, higiene y pertenencias del bebé en compartimentos reconocibles.'
+                ]
+            ],
+            [
+                'title' => 'Revisá con tu acompañante',
+                'body' => [
+                    'Mostrale dónde está lo esencial y dejá una nota con lo que usás hasta el último momento.'
+                ]
+            ],
+            [
+                'title' => 'Priorizá la atención',
+                'body' => [
+                    'Ante un síntoma de alarma, pedí ayuda y salí; otra persona puede acercar lo que falte.'
+                ]
+            ]
+        ],
+        'appHandoff' => [
+            'text' => 'Mi Bebé incluye la guía Qué llevar al sanatorio. Podés abrirla como apoyo para preparar el bolso y conversar los pendientes con quien te acompañe.',
+            'medium' => 'article',
+            'extra' => []
+        ],
+        'faq' => [
+            [
+                'q' => '¿Tengo que comprar un bolso maternal?',
+                'a' => 'No. Podés usar un bolso que ya tengas, limpio y fácil de abrir. Separar los elementos por uso suele resultar más práctico que llevar muchos compartimentos vacíos.'
+            ],
+            [
+                'q' => '¿Qué pasa si no encuentro el carné?',
+                'a' => 'Llevá los antecedentes que tengas y explicá que falta el carné. Ante síntomas urgentes, buscá atención sin demorar la salida para encontrarlo.'
+            ],
+            [
+                'q' => '¿La ropa para volver debe ser de antes del embarazo?',
+                'a' => 'Elegí ropa amplia que te resulte cómoda ahora. La panza y la sensibilidad abdominal cambian gradualmente después del nacimiento.'
+            ]
+        ],
+        'related' => [
+            'bolso-del-bebe',
+            'contracciones-y-cuando-ir',
+            'cesarea-que-esperar'
+        ],
+        'weeks' => [
+            32,
+            35,
+            36,
+            37
+        ],
+        'appGuideSlug' => 'que-llevar-al-sanatorio',
+        'guarani' => [],
+        'reviewedBy' => null,
+        'reviewedAt' => null,
+        'validAsOf' => null,
+        'sources' => [
+            [
+                'title' => 'Recomendaciones de la OMS para los cuidados durante el parto, para una experiencia de parto positiva',
+                'publisher' => 'Organización Mundial de la Salud (OMS)',
+                'url' => null,
+                'accessed' => null
+            ],
+            [
+                'title' => 'Orientaciones sobre atención materna y del recién nacido',
+                'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)',
+                'url' => null,
+                'accessed' => null
+            ],
+            [
+                'title' => 'Qué llevar al sanatorio',
+                'publisher' => 'Mi Bebé',
+                'url' => null,
+                'accessed' => null
+            ]
+        ],
+        'updated' => '2026-09-20',
+        'image' => null
+    ],
+    'bolso-del-bebe' => [
+        'cluster' => 'parto',
+        'path' => '/parto/bolso-del-bebe/',
+        'title' => 'Bolso del bebé: qué llevar para el nacimiento',
+        'seoTitle' => 'Bolso del bebé: ropa, pañales y cambios',
+        'metaDescription' => 'Armá el bolso del bebé con ropa fácil de poner, pañales y elementos de higiene. Una checklist para ordenar los cambios y preparar la vuelta a casa.',
+        'kind' => 'medical',
+        'lead' => 'Para el bolso del bebé, prepará ropa limpia y cómoda, pañales, elementos suaves para la higiene y una muda accesible para la salida. Organizá los conjuntos por cambio y adaptá el abrigo al ambiente. No necesitás perfumes, talco, almohadas ni juguetes para la internación. Separá estas cosas de tus documentos y de tu ropa para encontrarlas con facilidad.',
+        'sections' => [
+            [
+                'h2' => 'Elegí prendas que faciliten el cambio',
+                'body' => [
+                    'Buscá ropa suave, con costuras cómodas y aberturas amplias. Al cambiar a un recién nacido, es más sencillo abrir una prenda por delante o por debajo que pasar algo ajustado por la cabeza. Revisá broches, elásticos e hilos sueltos antes de guardarla. La ropa prestada puede servir si está limpia, entera y en buenas condiciones.',
+                    'Los talles varían entre marcas y no predicen exactamente cómo le va a quedar una prenda a tu bebé. En lugar de comprar muchos conjuntos iguales, dejá opciones con distinto espacio para el cuerpo y el pañal. Las mangas muy largas o los puños apretados dificultan ver las manos y comprobar que nada esté comprimiendo.',
+                    'Lavá la ropa antes de usarla con un producto suave y enjuagala bien. Dejala secar por completo antes de embolsarla: guardar telas húmedas favorece malos olores y obliga a rehacer el bolso. No hace falta perfumar las prendas ni plancharlas como condición para poder usarlas. Priorizá limpieza, secado y comodidad.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Checklist para cada cambio',
+                'body' => [
+                    'Agrupá las prendas que se usan juntas. Podés poner una etiqueta sencilla, como ropa de recambio o salida, sin depender del color de la bolsa. Dejá los pañales aparte para poder alcanzarlos sin abrir un conjunto limpio. Si otra persona va a buscar algo, podrá reconocer el paquete sin preguntarte cada detalle.',
+                    'La cantidad depende de la duración de la internación y de la posibilidad de reponer lo que se ensucie. Prepará recambios y acordá quién puede acercar más si hacen falta. Tener un plan de reposición evita cargar toda la ropa disponible desde el primer día.'
+                ],
+                'items' => [
+                    [
+                        'title' => 'Prendas de base',
+                        'text' => 'Body o camiseta suave y un enterito o pantalón cómodo. Probá los broches antes de guardarlos y evitá cordones cerca del cuello.'
+                    ],
+                    [
+                        'title' => 'Abrigo liviano',
+                        'text' => 'Una prenda adicional que puedas quitar si el ambiente está caluroso. Una manta puede servir mientras un adulto sostiene al bebé despierto y supervisado, con la cara despejada.'
+                    ],
+                    [
+                        'title' => 'Pañales',
+                        'text' => 'Elegí un tamaño adecuado para recién nacido y dejá margen para ajustar según su cuerpo. Un pañal demasiado apretado puede rozar la piel; uno flojo puede perder.'
+                    ],
+                    [
+                        'title' => 'Elementos de limpieza',
+                        'text' => 'Prepará material suave para limpiar y secar sin frotar. Si usás toallitas, elegí una opción sin perfume y suspendela si irrita.'
+                    ],
+                    [
+                        'title' => 'Bolsa para ropa usada',
+                        'text' => 'Separá lo húmedo o manchado de las prendas limpias. Cerrá y guardá la bolsa lejos del alcance del bebé, sin apoyarla en su lugar de descanso.'
+                    ]
+                ],
+                'table' => null
+            ],
+            [
+                'h2' => 'Higiene y piel: menos productos, más cuidado',
+                'body' => [
+                    'La piel del recién nacido puede irritarse con perfumes y fricción. Para el cambio de pañal, limpiá suavemente los pliegues y secá sin raspar. En niñas, limpiá de adelante hacia atrás. No hace falta llevar una colección de cremas: si aparece una lesión o un enrojecimiento que preocupa, pedí que lo evalúen antes de probar varios productos.',
+                    'Dejá fuera del bolso talcos y aerosoles. Las partículas o el producto pulverizado pueden inhalarse, y no son necesarios para que el bebé huela limpio. Tampoco pongas aceites esenciales ni remedios caseros sobre su piel. Si el equipo indica un producto específico, pedí que te muestren dónde y cómo usarlo.',
+                    'El cordón necesita cuidados sencillos, con manos limpias y la zona limpia y seca. No lleves fajas, monedas ni sustancias caseras para cubrirlo. Preguntá por la indicación para tu bebé y avisá si aparece enrojecimiento que se extiende, pus, mal olor acompañado de cambios locales o mal estado general. La higiene del ombligo no se resuelve apretándolo.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Cómo adaptar el abrigo al calor',
+                'body' => [
+                    'El clima de afuera y la temperatura de la habitación pueden ser distintos. Es más fácil ajustar varias prendas livianas que una muy gruesa. Tocá el pecho o la espalda para orientarte sobre el calor corporal; las manos o los pies frescos, por sí solos, no significan que necesite muchas capas. Si está sudado o muy caliente, revisá el abrigo y el ambiente.',
+                    'No cubras la cara para protegerlo del aire ni tapes por completo el cochecito con una manta. Eso puede dificultar la ventilación y aumentar el calor. Mantené visibles nariz y boca cuando lo sostengas o lo traslades. Si respira con dificultad, cambia de color o cuesta despertarlo, buscá atención urgente; no lo atribuyas solamente al clima.',
+                    'Para dormir, prepará una superficie firme, plana y despejada, con el bebé boca arriba. Almohadas, nidos acolchados, peluches y mantas sueltas no van dentro del espacio de sueño. Por eso no forman parte de esta lista. La guía de [primeros días en casa](/parto/primeros-dias-en-casa/) amplía el descanso seguro y las señales que requieren consulta.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Alimentación y regreso: prepará ayuda, no accesorios de más',
+                'body' => [
+                    'Si querés amamantar, el apoyo para encontrar una posición cómoda y observar el agarre suele ser más útil que comprar muchos accesorios antes del nacimiento. Podés pedir ayuda desde las primeras tomas. Dolor persistente, dificultad para prenderse o un bebé que no logra alimentarse merecen valoración; no hace falta aguantar para demostrar que podés hacerlo sola.',
+                    'Si la alimentación requiere leche de fórmula, conversá la preparación y la higiene con el equipo que atiende al bebé. No guardes mezclas caseras ni asumas que cualquier envase o proporción sirve. Los utensilios y el modo de alimentación deben responder a una necesidad concreta, no a la presión de completar una lista comercial.',
+                    'Para volver en auto, prepará un sistema de retención adecuado para recién nacido, orientado hacia atrás e instalado según sus instrucciones. Llevarlo en brazos no reemplaza esa protección. Practicá el ajuste antes del nacimiento, sin abrigos voluminosos bajo el arnés. Conservá las indicaciones de alta en una carpeta distinta de la ropa usada.',
+                    'Podés coordinar ambos bolsos con la lista de [qué llevar al sanatorio](/parto/que-llevar-al-sanatorio/). Si antes de salir aparecen [señales de alarma](/salud/senales-de-alarma/), la prioridad es recibir atención: las compras y los paquetes pueden quedar a cargo de otra persona.'
+                ],
+                'items' => [],
+                'table' => null
+            ]
+        ],
+        'steps' => [
+            [
+                'title' => 'Revisá y lavá',
+                'body' => [
+                    'Separá prendas sanas, lavalas y dejalas secar completamente antes de guardarlas.'
+                ]
+            ],
+            [
+                'title' => 'Armá paquetes de cambio',
+                'body' => [
+                    'Juntá prendas compatibles y dejá pañales e higiene en un compartimento accesible.'
+                ]
+            ],
+            [
+                'title' => 'Organizá reposición y traslado',
+                'body' => [
+                    'Definí quién puede acercar ropa limpia y prepará el modo seguro de volver a casa.'
+                ]
+            ]
+        ],
+        'appHandoff' => [
+            'text' => 'Mi Bebé incluye una guía sobre qué llevar al sanatorio. Podés consultarla para reunir tus pertenencias y las del bebé sin mezclar los pendientes de cada bolso.',
+            'medium' => 'article',
+            'extra' => []
+        ],
+        'faq' => [
+            [
+                'q' => '¿Necesito llevar zapatos?',
+                'a' => 'Para un recién nacido, priorizá prendas cómodas y abrigo según el ambiente. Los zapatos no son necesarios para caminar en esta etapa.'
+            ],
+            [
+                'q' => '¿Conviene perfumar la ropa?',
+                'a' => 'No hace falta. Lavala, enjuagala bien y guardala seca; evitá perfumes que puedan irritar la piel.'
+            ],
+            [
+                'q' => '¿Una manta reemplaza la ropa de abrigo para dormir?',
+                'a' => 'Evitá mantas sueltas en el espacio de sueño. Elegí ropa adecuada al ambiente y mantené la superficie firme, plana y despejada.'
+            ]
+        ],
+        'related' => [
+            'que-llevar-al-sanatorio',
+            'primeros-dias-en-casa'
+        ],
+        'weeks' => [
+            32,
+            35,
+            36
+        ],
+        'appGuideSlug' => null,
+        'guarani' => [],
+        'reviewedBy' => null,
+        'reviewedAt' => null,
+        'validAsOf' => null,
+        'sources' => [
+            [
+                'title' => 'Recomendaciones de la OMS para los cuidados durante el parto, para una experiencia de parto positiva',
+                'publisher' => 'Organización Mundial de la Salud (OMS)',
+                'url' => null,
+                'accessed' => null
+            ],
+            [
+                'title' => 'Orientaciones sobre atención materna y del recién nacido',
+                'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)',
+                'url' => null,
+                'accessed' => null
+            ]
+        ],
+        'updated' => '2026-09-20',
+        'image' => null
+    ],
+    'contracciones-y-cuando-ir' => [
+        'cluster' => 'parto',
+        'path' => '/parto/contracciones-y-cuando-ir/',
+        'title' => 'Contracciones: cuándo ir al hospital sin esperar',
+        'seoTitle' => 'Contracciones: cuándo ir al hospital',
+        'metaDescription' => 'Conocé cómo observar las contracciones y cuándo buscar atención sin esperar. Pérdida de líquido, sangrado y menos movimientos requieren consulta.',
+        'kind' => 'medical',
+        'lead' => 'Consultá cuando las contracciones se vuelvan regulares, más intensas o difíciles de sobrellevar, siguiendo el plan de tu equipo. Buscá atención sin esperar un patrón si perdés líquido, sangrás, sentís menos movimientos del bebé o tenés dolor intenso continuo. Antes de las 37 semanas, las contracciones repetidas también requieren valoración inmediata. No necesitás completar un cronómetro para pedir ayuda.',
+        'sections' => [
+            [
+                'h2' => 'Qué podés sentir durante una contracción',
+                'body' => [
+                    'Durante una contracción, el útero se endurece y luego se relaja. Podés sentir que la panza se pone firme, presión en la pelvis o dolor que llega a la espalda. Algunas se perciben como molestias parecidas a las menstruales; otras interrumpen lo que estabas haciendo. La intensidad que sentís importa, aunque otra persona haya descrito su parto de una manera diferente.',
+                    'Las contracciones de preparación suelen ser irregulares y no aumentar de forma sostenida. En el trabajo de parto pueden volverse más largas, intensas y cercanas entre sí. Esa descripción orienta, pero no permite confirmar en casa qué está pasando con el cuello del útero. Tampoco una contracción poco dolorosa descarta un problema si aparece junto con otros síntomas.',
+                    'Prestá atención a lo que cambia respecto de cómo venías sintiéndote. Podés explicar desde cuándo ocurre, si la panza afloja entre episodios y si hay dolor constante. Si algo te preocupa, llamá a tu equipo o acudí a valoración. No necesitás distinguir por tu cuenta una contracción de preparación de una de parto antes de consultar.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Cuándo buscar atención sin medir intervalos',
+                'body' => [
+                    'Si sentís menos movimientos del bebé que de costumbre o un cambio claro en su patrón, buscá valoración de inmediato. No esperes a terminar un conteo, tomar algo frío o lograr que se mueva para decidir. El bebé debe seguir moviéndose al final del embarazo; tener menos espacio no justifica ignorar una disminución.',
+                    'El sangrado vaginal, un dolor abdominal intenso que no cede entre episodios, la dificultad para respirar, una convulsión o un desmayo requieren atención urgente. También importan dolor de cabeza fuerte con visión alterada, fiebre o un malestar marcado. Si estás muy dolorida, mareada o débil, pedí ayuda para trasladarte y no conduzcas.',
+                    'Antes de las 37 semanas, contracciones repetidas, presión pélvica nueva, dolor lumbar persistente o pérdida de líquido pueden ser señales de un parto que se adelanta. Consultá de inmediato aunque las molestias sean tolerables. Encontrás una guía más amplia en [las señales de alarma](/salud/senales-de-alarma/). No esperes a que todos los síntomas aparezcan juntos.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Si pensás que rompiste bolsa',
+                'body' => [
+                    'La pérdida de líquido puede ser un chorro o un goteo que sigue mojando la ropa. A veces cuesta distinguirla de orina o flujo. Si sospechás que es líquido de la bolsa, buscá valoración sin esperar a que comiencen contracciones. No hace falta estar segura de su origen para consultar y no podés descartarlo solo por el olor.',
+                    'Si podés hacerlo sin demorar la salida, anotá cuándo empezó y observá el color. Podés usar una toalla higiénica externa limpia para mostrar cómo es la pérdida; no introduzcas tampones ni hagas un tacto por tu cuenta. Evitá relaciones sexuales hasta recibir orientación. Informá si además hay fiebre, sangrado, dolor o menos movimientos.',
+                    'Un líquido verdoso, amarronado o con mal olor merece comunicación inmediata al personal, pero que sea claro no significa que puedas postergar la consulta. Mientras organizás el traslado, dejá el teléfono disponible para recibir indicaciones. No te quedes en casa para comprobar si se moja una cantidad determinada de ropa.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Cómo registrar lo que pasa sin convertirlo en una regla',
+                'body' => [
+                    'Si no hay señales de alarma y estás registrando mientras contactás al equipo, marcá el comienzo y el final de cada contracción. La duración va desde que empieza hasta que termina; el intervalo se cuenta desde el comienzo de una hasta el comienzo de la siguiente. Son medidas distintas, y confundirlas dificulta explicar el patrón.',
+                    'Además de los tiempos, contá cómo te encontrás: si podés hablar, caminar o descansar entre episodios, si el dolor aumenta y si sentís presión hacia abajo. Una anotación incompleta sigue siendo útil. No te obligues a mirar una pantalla durante cada contracción ni pidas que alguien te haga esperar para completar una serie.',
+                    'No hay una frecuencia universal que sirva para todas. Influyen los antecedentes, la distancia hasta el lugar de atención, las indicaciones del embarazo y si ya tuviste un parto rápido. Si te dieron un plan individual, tenelo accesible. Si no lo tenés o no entendés cuándo salir, pedí orientación ahora, antes de depender de una cifra compartida por otra familia.'
+                ],
+                'items' => [],
+                'table' => [
+                    'head' => [
+                        'Dato',
+                        'Cómo describirlo'
+                    ],
+                    'rows' => [
+                        [
+                            'Inicio',
+                            'Desde cuándo notás las contracciones'
+                        ],
+                        [
+                            'Duración',
+                            'Cuánto dura cada episodio, si pudiste observarlo'
+                        ],
+                        [
+                            'Intervalo',
+                            'Tiempo entre el inicio de una y la siguiente'
+                        ],
+                        [
+                            'Otros cambios',
+                            'Líquido, sangrado, movimientos, presión y dolor continuo'
+                        ]
+                    ]
+                ]
+            ],
+            [
+                'h2' => 'Mientras pedís ayuda y organizás la salida',
+                'body' => [
+                    'Buscá una posición que te resulte cómoda y soltá el aire sin forzar la respiración. Podés apoyarte en alguien o cambiar de postura si eso te alivia. Estas medidas acompañan el momento; no sirven para comprobar que sea seguro quedarse en casa. No tomes medicamentos ni preparados para frenar o acelerar las contracciones por tu cuenta.',
+                    'Dejá que otra persona reúna los documentos y lo básico del bolso. Si estás sola, avisá a alguien de confianza y explicá dónde estás y qué necesitás. Si aparece una sensación fuerte de pujo o parece que el nacimiento es inminente, pedí asistencia urgente y seguí las indicaciones del servicio de emergencia. No intentes conducir hasta el hospital.',
+                    'Al llegar, describí primero el síntoma que motivó la consulta y tu tiempo de embarazo. Después podés mostrar tus anotaciones y antecedentes. Para preparar lo práctico con anticipación, usá [qué llevar al sanatorio](/parto/que-llevar-al-sanatorio/); el [hub de parto](/parto/) reúne las otras lecturas para organizar el nacimiento sin convertir la preparación en una demora.'
+                ],
+                'items' => [],
+                'table' => null
+            ]
+        ],
+        'steps' => [
+            [
+                'title' => 'Reconocé la prioridad',
+                'body' => [
+                    'Ante sangrado, líquido, menos movimientos o dolor intenso continuo, buscá atención inmediata sin esperar un patrón.'
+                ]
+            ],
+            [
+                'title' => 'Comunicá síntomas y antecedentes',
+                'body' => [
+                    'Decí tu tiempo de embarazo, desde cuándo ocurre y qué cambios acompañan las contracciones.'
+                ]
+            ],
+            [
+                'title' => 'Trasladate con ayuda',
+                'body' => [
+                    'Llevá lo que esté a mano y pedí acompañamiento; el bolso completo y el cronómetro pueden esperar.'
+                ]
+            ]
+        ],
+        'appHandoff' => [
+            'text' => 'Mi Bebé tiene una herramienta de contracciones. Podés usarla como apoyo para registrar lo que observás y comunicarlo al equipo; no confirma el trabajo de parto ni decide cuándo es seguro esperar. Ante alarmas, buscá atención sin abrir la herramienta.',
+            'medium' => 'article',
+            'extra' => []
+        ],
+        'faq' => [
+            [
+                'q' => '¿Tengo que esperar una frecuencia exacta para ir?',
+                'a' => 'No. Las señales de alarma requieren atención sin esperar intervalos. Para contracciones sin alarmas, seguí tu plan individual y consultá si aumentan, se regularizan o te preocupan.'
+            ],
+            [
+                'q' => '¿Si se me pasa el dolor ya no necesito consultar?',
+                'a' => 'Que disminuya el dolor no descarta un problema si hubo pérdida de líquido, sangrado o menos movimientos. Esos cambios requieren valoración.'
+            ],
+            [
+                'q' => '¿Puedo estar de parto sin romper bolsa?',
+                'a' => 'Sí. La bolsa puede permanecer íntegra durante parte del trabajo de parto. No esperes a perder líquido para pedir orientación por contracciones que progresan.'
+            ],
+            [
+                'q' => '¿La app puede decirme si estoy dilatando?',
+                'a' => 'No. Un registro de contracciones no mide la dilatación ni reemplaza una valoración presencial.'
+            ]
+        ],
+        'related' => [
+            'que-llevar-al-sanatorio',
+            'parto-en-ips-paso-a-paso',
+            'cesarea-que-esperar'
+        ],
+        'weeks' => [
+            28,
+            34,
+            36,
+            37,
+            38,
+            39,
+            40
+        ],
+        'appGuideSlug' => null,
+        'guarani' => [],
+        'reviewedBy' => null,
+        'reviewedAt' => null,
+        'validAsOf' => null,
+        'sources' => [
+            [
+                'title' => 'Recomendaciones de la OMS para los cuidados durante el parto, para una experiencia de parto positiva',
+                'publisher' => 'Organización Mundial de la Salud (OMS)',
+                'url' => null,
+                'accessed' => null
+            ],
+            [
+                'title' => 'Orientaciones sobre atención materna y del recién nacido',
+                'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)',
+                'url' => null,
+                'accessed' => null
+            ]
+        ],
+        'updated' => '2026-09-20',
+        'image' => null
+    ],
+    'parto-en-ips-paso-a-paso' => [
+        'cluster' => 'parto',
+        'path' => '/parto/parto-en-ips-paso-a-paso/',
+        'title' => 'Parto en IPS: cómo preparar la llegada y la atención',
+        'seoTitle' => 'Parto en IPS: preparación paso a paso',
+        'metaDescription' => 'Prepará tu llegada para el parto en IPS: documentos habituales, valoración, acompañamiento y alta. Confirmá la admisión exacta con el establecimiento.',
+        'kind' => 'medical',
+        'lead' => 'Para preparar un parto en IPS, reuní tus antecedentes prenatales y consultá dónde acudir cuando empiecen los síntomas. La llegada suele incluir recepción, valoración del equipo y definición de los cuidados necesarios. El recorrido general se parece al de una maternidad de hospital público, pero la admisión exacta se confirma con el establecimiento. Ante una alarma, buscá atención sin esperar a completar papeles.',
+        'sections' => [
+            [
+                'h2' => 'Antes del nacimiento: ubicá el lugar de atención',
+                'body' => [
+                    'En un control prenatal, preguntá dónde acudir por contracciones, pérdida de líquido o un problema urgente. Tener esa indicación por escrito puede facilitar la salida si el profesional que te sigue no está disponible. Explicá desde dónde te trasladás y si dependés de otra persona para llegar, para que el plan considere tu situación real.',
+                    'Habitualmente, el equipo que lleva el embarazo orienta sobre la atención prevista y los antecedentes que conviene acercar. La recepción o admisión suele informar sobre documentación y circulación dentro del establecimiento. Son consultas distintas: una respuesta sobre papeles no reemplaza una indicación clínica sobre síntomas o traslado.',
+                    'Confirmá con el establecimiento los requisitos, costos y plazos vigentes.',
+                    'Si vas a cambiar de lugar de atención, llevá los informes disponibles para que el nuevo equipo conozca tu historia. No des por hecho que puede consultar automáticamente todos los registros de otro servicio. La guía de [control prenatal en IPS y privado](/tramites/control-prenatal-ips-vs-privado/) ayuda a organizar esa continuidad.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Qué documentos suelen pedir y por qué',
+                'body' => [
+                    'La identificación y el carné perinatal suelen formar parte de la documentación que se revisa al llegar. También pueden resultar útiles los estudios, indicaciones y referencias que recibiste durante el embarazo. Prepará una carpeta legible, ordenada por fecha y fácil de abrir. Si un resultado está en el teléfono, tenelo localizable sin tener que buscarlo entre muchas conversaciones.',
+                    'Habitualmente se consulta además por los antecedentes de cobertura cuando corresponde. Si tenés una duda sobre tu situación en IPS, planteala durante la preparación y separala de la evaluación del parto. No supongas que un trámite de subsidio confirma por sí solo todas las condiciones de atención. Ante urgencia, explicá el síntoma y cualquier documento faltante sin demorar la búsqueda de ayuda.',
+                    'Una persona de confianza puede ayudarte a ubicar papeles mientras vos hablás con el equipo. Evitá entregar originales sin saber para qué los necesitan y preguntá cómo recuperarlos si quedan temporalmente en el servicio. Guardá aparte las indicaciones nuevas para no confundirlas con órdenes anteriores.'
+                ],
+                'items' => [],
+                'table' => [
+                    'head' => [
+                        'Antecedente habitual',
+                        'Utilidad al llegar',
+                        'Preparación práctica'
+                    ],
+                    'rows' => [
+                        [
+                            'Cédula',
+                            'Relacionar la atención con tu identidad',
+                            'Dejala accesible'
+                        ],
+                        [
+                            'Carné perinatal',
+                            'Conocer el seguimiento del embarazo',
+                            'Llevá las anotaciones disponibles'
+                        ],
+                        [
+                            'Estudios y referencias',
+                            'Completar antecedentes clínicos',
+                            'Ordenalos por fecha'
+                        ],
+                        [
+                            'Información de cobertura disponible',
+                            'Aclarar consultas de admisión',
+                            'Identificá qué dato falta confirmar'
+                        ]
+                    ]
+                ]
+            ],
+            [
+                'h2' => 'Llegada y valoración: contá primero lo que te pasa',
+                'body' => [
+                    'Al llegar a una maternidad, habitualmente te preguntan el motivo de consulta y el tiempo de embarazo. Decí de entrada si sangrás, perdés líquido, sentís menos movimientos o tenés un dolor intenso. No esperes a terminar una explicación administrativa para mencionar algo urgente. Si los síntomas cambian mientras estás esperando, avisá de nuevo al personal.',
+                    'El equipo suele valorar cómo estás vos y cómo está el bebé. Según la situación, puede revisar signos vitales, escuchar los latidos del bebé y conversar sobre las contracciones y otros síntomas. Un examen vaginal puede aportar información cuando está indicado; pedí que te expliquen su finalidad, cómo se realizará y cualquier duda antes del procedimiento.',
+                    'La evaluación orienta si necesitás ingreso, observación, otra intervención o un plan de seguimiento. No se puede anticipar esa decisión por el solo hecho de tener contracciones. Si te indican volver a casa después de valorarte, pedí instrucciones claras de retorno y consultá nuevamente ante cambios o alarmas, aunque la revisión anterior haya sido tranquilizadora.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Durante la atención: acompañamiento y decisiones',
+                'body' => [
+                    'Una vez definido el ingreso, habitualmente se organiza el espacio de atención y se revisan tus antecedentes con el equipo que continúa los cuidados. Contá alergias, medicamentos y experiencias previas que puedan ser relevantes. Si te preocupa un examen, el dolor o una situación que viviste antes, decirlo puede ayudar a adaptar la comunicación y el apoyo.',
+                    'Preguntá cómo se organiza el acompañamiento y quién puede orientarte si la persona que vino con vos debe esperar en otro lugar. No presupongas que las condiciones son iguales en todas las salas. Elegí qué información querés compartir con familiares y quién puede transmitirla; eso reduce interrupciones mientras estás concentrada en el trabajo de parto.',
+                    'Podés pedir que te expliquen los motivos de una propuesta, sus alternativas y qué podría pasar si la situación cambia. Si se plantea una cesárea, la guía de [qué esperar de una cesárea](/parto/cesarea-que-esperar/) te ayuda a reconocer las etapas generales. Las decisiones se adaptan a la evaluación, no a un recorrido obligatorio igual para todas.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Después del nacimiento y antes del alta',
+                'body' => [
+                    'Tras el nacimiento, el equipo observa la recuperación de la madre y la adaptación del bebé. Podés pedir ayuda para sostenerlo, alimentarlo y reconocer cuándo necesita valoración. Si estás dolorida, mareada o muy cansada, avisá antes de levantarte o caminar con él en brazos. Tener un acompañante no reemplaza la ayuda clínica cuando algo te preocupa.',
+                    'Habitualmente el alta incluye indicaciones de cuidado y seguimiento para ambos. Pedí que distingan qué recomendación corresponde a vos y cuál al bebé, y dónde consultar si aparece un problema. Revisá que entendiste el uso de cualquier medicamento indicado sin modificarlo por tu cuenta. El alta de uno no significa automáticamente que el otro esté listo para salir.',
+                    'Los papeles sobre el nacimiento y las gestiones posteriores suelen orientarse con el personal del establecimiento. Identificá qué documento te entregan y qué queda pendiente, sin confundirlo con una inscripción ya completada. Para organizar esas consultas podés leer [después del nacimiento](/tramites/despues-del-nacimiento/). Si aparecen [señales de alarma](/salud/senales-de-alarma/), priorizá la atención sobre cualquier trámite o retiro de documentos.'
+                ],
+                'items' => [],
+                'table' => null
+            ]
+        ],
+        'steps' => [
+            [
+                'title' => 'Prepará antecedentes y destino',
+                'body' => [
+                    'Consultá dónde acudir y reuní los documentos que ya tenés, sin asumir una lista única para todos los establecimientos.'
+                ]
+            ],
+            [
+                'title' => 'Explicá el motivo de llegada',
+                'body' => [
+                    'Habitualmente la recepción orienta el ingreso; comunicá de inmediato cualquier síntoma urgente al personal.'
+                ]
+            ],
+            [
+                'title' => 'Conversá el plan de cuidados',
+                'body' => [
+                    'Después de la valoración, pedí que te expliquen la decisión y las indicaciones que siguen.'
+                ]
+            ],
+            [
+                'title' => 'Revisá el alta de ambos',
+                'body' => [
+                    'Antes de salir, identificá cuidados, controles, señales de consulta y documentación pendiente de la madre y del bebé.'
+                ]
+            ]
+        ],
+        'appHandoff' => [
+            'text' => 'Mi Bebé reúne la guía Qué llevar al sanatorio y el resumen prenatal. Podés usarlos para preparar tus preguntas; la admisión y el plan de atención se coordinan con el establecimiento.',
+            'medium' => 'article',
+            'extra' => []
+        ],
+        'faq' => [
+            [
+                'q' => '¿Es el mismo proceso en IPS y en cualquier hospital público?',
+                'a' => 'La secuencia general de llegada, valoración y cuidados puede ser similar. Los circuitos de admisión y las condiciones de cada servicio se consultan con el establecimiento.'
+            ],
+            [
+                'q' => '¿Tengo que terminar un trámite si estoy sangrando?',
+                'a' => 'Buscá atención inmediata y explicá el sangrado al llegar. Los papeles pendientes no deben retrasar tu decisión de pedir ayuda.'
+            ],
+            [
+                'q' => '¿Pueden indicarme volver a casa?',
+                'a' => 'La decisión depende de la evaluación. Si te dan esa indicación, pedí un plan claro de retorno y volvé a consultar ante síntomas nuevos o señales de alarma.'
+            ],
+            [
+                'q' => '¿El alta incluye todos los trámites del bebé?',
+                'a' => 'Pedí que identifiquen cada documento entregado y cada gestión pendiente. Una indicación de alta médica no equivale a completar la inscripción del nacimiento.'
+            ]
+        ],
+        'related' => [
+            'que-llevar-al-sanatorio',
+            'contracciones-y-cuando-ir',
+            'cesarea-que-esperar'
+        ],
+        'weeks' => [
+            32,
+            36,
+            38,
+            39
+        ],
+        'appGuideSlug' => null,
+        'guarani' => [],
+        'reviewedBy' => null,
+        'reviewedAt' => null,
+        'validAsOf' => null,
+        'sources' => [
+            [
+                'title' => 'Recomendaciones de la OMS para los cuidados durante el parto, para una experiencia de parto positiva',
+                'publisher' => 'Organización Mundial de la Salud (OMS)',
+                'url' => null,
+                'accessed' => null
+            ],
+            [
+                'title' => 'Orientaciones sobre atención materna y del recién nacido',
+                'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)',
+                'url' => null,
+                'accessed' => null
+            ],
+            [
+                'title' => 'Orientación sobre atención de maternidad y admisión',
+                'publisher' => 'Instituto de Previsión Social (IPS)',
+                'url' => null,
+                'accessed' => null
+            ]
+        ],
+        'updated' => '2026-09-20',
+        'image' => null
+    ],
+    'cesarea-que-esperar' => [
+        'cluster' => 'parto',
+        'path' => '/parto/cesarea-que-esperar/',
+        'title' => 'Cesárea: qué esperar antes, durante y después',
+        'seoTitle' => 'Cesárea: qué esperar y cómo recuperarte',
+        'metaDescription' => 'Conocé las etapas de una cesárea, las preguntas sobre anestesia y los cuidados al volver a casa. Señales para consultar y apoyo durante la recuperación.',
+        'kind' => 'medical',
+        'lead' => 'Una cesárea es una cirugía para que el bebé nazca a través de incisiones en el abdomen y el útero. Puede estar planificada o decidirse durante la atención. Incluye preparación, anestesia, nacimiento y vigilancia de la recuperación. Después vas a necesitar ayuda para moverte y cuidar al bebé; el dolor que aumenta, el sangrado abundante o la dificultad para respirar requieren atención.',
+        'sections' => [
+            [
+                'h2' => 'Por qué se propone una cesárea',
+                'body' => [
+                    'El equipo puede recomendar una cesárea cuando considera que es la vía de nacimiento más adecuada para la situación de la madre o del bebé. Entre los motivos posibles están ciertos problemas de la placenta, algunas posiciones del bebé o cambios durante el trabajo de parto. El nombre de un antecedente por sí solo no permite decidir la vía: importa cómo se presenta en tu embarazo.',
+                    'Si está planificada, aprovechá la consulta para preguntar qué motivo la indica y cómo se evaluaron las alternativas. Si se decide durante el parto, pedí una explicación breve de lo que cambió y de los pasos inmediatos. La urgencia puede reducir el tiempo para conversar, pero después también podés solicitar que te ayuden a entender lo ocurrido.',
+                    'Haber tenido una cesárea antes no responde automáticamente todas las preguntas sobre un próximo nacimiento. El tipo de cirugía previa, tus antecedentes y las condiciones de atención forman parte de una evaluación individual. Llevá los informes que conserves y evitá sacar conclusiones solamente por la apariencia de la cicatriz de la piel.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'La preparación antes de entrar',
+                'body' => [
+                    'Contá qué medicamentos tomás, si tenés alergias y si alguna vez hubo dificultades con una anestesia. Incluí suplementos y preparados de yuyos en esa conversación. No suspendas ni agregues tratamientos por tu cuenta. El equipo necesita saber también si comiste o bebiste recientemente para adaptar el cuidado; informarlo no es motivo para ocultar síntomas o demorar una consulta urgente.',
+                    'Para una cirugía programada, pedí instrucciones individuales sobre comida, bebida y medicación. No copies un tiempo de ayuno de otra persona ni prolongues restricciones sin indicación. La preparación puede incluir una vía venosa, controles y otras medidas que el personal te explicará. Si hay algo que no entendés, preguntá para qué sirve antes de hacerlo.',
+                    'Organizá una muda amplia y ayuda para el regreso. No hace falta depilarte o rasurarte la zona por iniciativa propia: podés lastimar la piel. Si se necesita alguna preparación local, seguí lo que indique el servicio. En [qué llevar al sanatorio](/parto/que-llevar-al-sanatorio/) tenés una lista de pertenencias y documentos para resolver esa parte con anticipación.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Anestesia y sensaciones durante el nacimiento',
+                'body' => [
+                    'Con frecuencia se utiliza anestesia regional, que adormece la parte inferior del cuerpo y permite permanecer despierta. En algunas situaciones se necesita anestesia general. La elección depende de la evaluación y del contexto. Conversá tus experiencias previas, temores y cualquier problema de espalda o salud que te hayan diagnosticado, sin suponer que necesariamente impide una opción.',
+                    'Con anestesia regional podés notar presión, movimiento o tironeo, pero no deberías tener que soportar dolor cortante. Si sentís dolor, náuseas, falta de aire o mucho malestar, avisá inmediatamente al personal de anestesia. No te quedes callada por miedo a interrumpir. Tu descripción de lo que sentís es parte de la información que necesitan para cuidarte.',
+                    'El bebé recibe una valoración al nacer. El contacto piel con piel y el inicio de la alimentación se organizan según cómo estén ambos y las condiciones de atención. Podés expresar que querés ese contacto y preguntar cómo facilitarlo con apoyo. Si deben separarse por cuidados, pedí que te expliquen el motivo y cómo vas a recibir información.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Primeras horas: pedir ayuda para moverte',
+                'body' => [
+                    'Después de la cirugía se vigilan, entre otras cosas, tu estado general, el sangrado y la recuperación de la anestesia. Avisá si el dolor no está controlado, si te mareás o si sentís escalofríos intensos o dificultad para respirar. El objetivo de aliviar el dolor es que puedas descansar, respirar y moverte con mayor comodidad; no tenés que aguantar en silencio.',
+                    'Cuando te indiquen levantarte, hacelo con ayuda al principio. Podés girar de costado, apoyar los brazos y sentarte de manera gradual, siguiendo la orientación del personal. No camines sola si todavía tenés las piernas adormecidas o te sentís inestable. El movimiento suave, cuando está autorizado, forma parte de la recuperación y se adapta a cómo estás.',
+                    'Para sostener al bebé o amamantar, buscá una posición que evite presión directa sobre la herida. Un apoyo para tus brazos puede aliviar esfuerzo, siempre manteniendo libre la cara del bebé y supervisándolo. Pedí que alguien te lo acerque y lo retire si levantarte o girar te duele. Antes de dormir, pasalo a su espacio seguro de descanso.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'La herida y las actividades en casa',
+                'body' => [
+                    'Antes del alta, pedí que te muestren cómo cuidar la herida y qué hacer con el apósito, si lo tenés. Lavate las manos antes de tocar la zona y mantenela limpia y seca según las indicaciones recibidas. No apliques alcohol, hierbas, polvos ni cremas para acelerar el cierre por tu cuenta. Si hay puntos o grapas que requieren una revisión, dejá identificado el plan.',
+                    'La recuperación suele extenderse durante varias semanas y no avanza igual cada día. Organizá ayuda para cargar compras, limpiar y otras tareas que demandan esfuerzo abdominal. Alterná descanso con movimiento suave autorizado y aumentá la actividad gradualmente. Para conducir, hacer ejercicio intenso o retomar relaciones sexuales, conversá tu evolución y las restricciones específicas con el equipo.',
+                    'Puede haber sensibilidad o sensación extraña cerca de la cicatriz, pero dolor que aumenta, enrojecimiento que se extiende, secreción o apertura de la herida requieren valoración. La fiebre o el mal estado general también son motivos para consultar. No uses una faja para tapar una molestia creciente ni consideres que una cicatriz pequeña significa una recuperación interna completa.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Alarmas y emociones después de una cirugía',
+                'body' => [
+                    'Buscá atención urgente por sangrado abundante, desmayo, dolor en el pecho, dificultad para respirar o dolor e hinchazón de una sola pierna. Dolor de cabeza intenso con cambios en la visión también necesita valoración después del nacimiento. Las [señales de alarma](/salud/senales-de-alarma/) siguen siendo importantes en el posparto, aunque ya estés en casa y el bebé esté bien.',
+                    'Podés sentir alivio, tristeza, enojo o una mezcla de emociones por cómo fue el nacimiento. Si querés reconstruir lo sucedido, pedí una conversación con el equipo cuando te sientas preparada. No hay una forma obligatoria de vivir una cesárea. Si la angustia te impide descansar o cuidarte, buscá apoyo profesional; ante ideas de hacerte daño o dañar al bebé, pedí ayuda urgente y quedate acompañada.',
+                    'La guía de [primeros días en casa](/parto/primeros-dias-en-casa/) completa los cuidados de alimentación, descanso y apoyo cotidiano. Repartir tareas concretas permite que tu recuperación también tenga lugar, en vez de quedar al final de todas las necesidades del hogar.'
+                ],
+                'items' => [],
+                'table' => null
+            ]
+        ],
+        'steps' => [
+            [
+                'title' => 'Conversá la indicación',
+                'body' => [
+                    'Preguntá por el motivo de la cirugía, las alternativas y las instrucciones personales de preparación.'
+                ]
+            ],
+            [
+                'title' => 'Comunicá lo que sentís',
+                'body' => [
+                    'Durante y después del procedimiento, avisá sobre dolor o malestar para que puedan evaluarte.'
+                ]
+            ],
+            [
+                'title' => 'Prepará el cuidado en casa',
+                'body' => [
+                    'Acordá ayuda para tareas físicas y revisá indicaciones de herida, actividad, controles y alarmas antes del alta.'
+                ]
+            ]
+        ],
+        'appHandoff' => [
+            'text' => 'Mi Bebé incluye herramientas de diario y resumen prenatal. Podés usarlas como apoyo para ordenar preguntas y antecedentes que quieras conversar con el equipo; las indicaciones de recuperación las recibís de quienes te atienden.',
+            'medium' => 'article',
+            'extra' => []
+        ],
+        'faq' => [
+            [
+                'q' => '¿Voy a estar despierta durante la cesárea?',
+                'a' => 'Con anestesia regional habitualmente permanecés despierta. En algunas situaciones se usa anestesia general; conversá qué está previsto para tu caso.'
+            ],
+            [
+                'q' => '¿Es normal sentir dolor durante la cirugía?',
+                'a' => 'Podés notar presión o tironeo, pero avisá inmediatamente si sentís dolor. No tenés que soportarlo sin decirlo.'
+            ],
+            [
+                'q' => '¿Puedo amamantar después de una cesárea?',
+                'a' => 'Sí, puede ser posible. Pedí ayuda con la posición y el agarre según cómo estén vos y el bebé; la cirugía no obliga por sí sola a renunciar a la lactancia.'
+            ],
+            [
+                'q' => '¿Cuándo vuelvo a hacer todas mis actividades?',
+                'a' => 'La recuperación lleva varias semanas y varía. Revisá con tu equipo cómo retomar esfuerzos, ejercicio, conducción y relaciones según tu evolución.'
+            ]
+        ],
+        'related' => [
+            'que-llevar-al-sanatorio',
+            'parto-en-ips-paso-a-paso',
+            'primeros-dias-en-casa'
+        ],
+        'weeks' => [
+            32,
+            36,
+            38,
+            39
+        ],
+        'appGuideSlug' => null,
+        'guarani' => [],
+        'reviewedBy' => null,
+        'reviewedAt' => null,
+        'validAsOf' => null,
+        'sources' => [
+            [
+                'title' => 'Recomendaciones de la OMS para los cuidados durante el parto, para una experiencia de parto positiva',
+                'publisher' => 'Organización Mundial de la Salud (OMS)',
+                'url' => null,
+                'accessed' => null
+            ],
+            [
+                'title' => 'Orientaciones sobre atención materna y del recién nacido',
+                'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)',
+                'url' => null,
+                'accessed' => null
+            ]
+        ],
+        'updated' => '2026-09-20',
+        'image' => null
+    ],
+    'primeros-dias-en-casa' => [
+        'cluster' => 'parto',
+        'path' => '/parto/primeros-dias-en-casa/',
+        'title' => 'Primeros días en casa con el bebé: cuidados y apoyo',
+        'seoTitle' => 'Primeros días en casa con el bebé',
+        'metaDescription' => 'Organizá los primeros días con tu bebé: alimentación, sueño seguro, higiene y recuperación posparto. Cuándo consultar y cómo repartir la ayuda en casa.',
+        'kind' => 'medical',
+        'lead' => 'Los primeros días en casa se organizan alrededor de alimentar al bebé, ofrecerle un lugar seguro para dormir y cuidar tu recuperación. Repartí las tareas domésticas y seguí los controles indicados para ambos. Buscá atención inmediata si el bebé respira con dificultad, está muy decaído o no logra alimentarse, o si vos tenés sangrado abundante, dolor intenso o falta de aire.',
+        'sections' => [
+            [
+                'h2' => 'Prepará una rutina pequeña y posible',
+                'body' => [
+                    'Dejá a mano agua, comida sencilla, ropa de recambio y los elementos para cambiar al bebé. Un lugar cómodo para sentarte y una superficie segura para acostarlo valen más que tener toda la casa ordenada. Podés agrupar lo necesario cerca de donde pasás más tiempo, sin dejar bolsas, cables o recipientes al alcance del bebé.',
+                    'Pedí ayuda con tareas concretas: cocinar, lavar ropa, hacer una compra o acompañarte a un control. Una visita puede colaborar sin cargar al bebé todo el tiempo ni darte nuevas obligaciones de anfitriona. Si preferís recibir pocas personas, comunicalo. El descanso se protege también reduciendo mensajes, ruido y decisiones que otra persona puede resolver.',
+                    'Conservá juntas las indicaciones de alta de ambos y anotá las consultas pendientes. Si una instrucción no quedó clara, pedí que la expliquen antes de improvisar. Los controles siguen siendo necesarios aunque parezca que todo va bien: permiten revisar la recuperación, la alimentación y el crecimiento, además de resolver dudas que aparecen al estar en casa.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Alimentación: observá al bebé y pedí apoyo',
+                'body' => [
+                    'El recién nacido suele necesitar alimentarse con frecuencia, también durante la noche. Buscá señales tempranas como mover la boca, llevar las manos hacia ella o buscar el pecho; el llanto puede ser una señal tardía de hambre. Si amamantás, acercalo con el cuerpo alineado y pedí ayuda si el agarre duele de manera persistente o la toma resulta difícil.',
+                    'Observá si se prende, succiona y traga, y cómo queda después. La cantidad de orina y deposiciones, junto con la evolución del peso y la valoración clínica, ayuda a saber si recibe suficiente alimento. Pedí en el control una orientación para su edad y situación, especialmente si nació antes de término, tuvo bajo peso o necesita ser despertado para comer.',
+                    'Si usás fórmula, seguí la preparación indicada y las instrucciones del producto, con higiene de manos y utensilios. No cambies la proporción de agua y polvo ni agregues cereales o preparados caseros. Un bebé que no consigue alimentarse, está demasiado dormido para hacerlo o moja claramente menos pañales necesita valoración pronta; si está muy decaído, buscá atención inmediata.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Sueño seguro, incluso cuando todos están cansados',
+                'body' => [
+                    'Acostá al bebé boca arriba para cada sueño, en una superficie firme, plana y despejada. Dejá fuera almohadas, peluches, protectores acolchados y mantas sueltas. Compartir la habitación permite tenerlo cerca sin compartir la superficie de sueño. No uses una posición de costado como sustituto habitual de acostarlo boca arriba.',
+                    'El cansancio aumenta el riesgo de quedarse dormida mientras lo sostenés. Si sentís que te vencés, pasalo a su espacio seguro o pedí que otra persona despierta te ayude. Evitá dormir con él en un sillón o sofá. Cuando lo alimentes de noche, pensá antes dónde lo vas a acostar al terminar para no improvisar agotada.',
+                    'Un bebé puede despertarse muchas veces y todavía no distinguir el día de la noche. La rutina al comienzo es flexible: luz y actividad tranquila de día, ambiente más calmo de noche y respuesta a sus necesidades. No uses medicamentos, infusiones ni productos para hacerlo dormir. Para el abrigo, elegí ropa adecuada al ambiente y evitá sobrecalentarlo.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Pañal, cordón y cuidado cotidiano',
+                'body' => [
+                    'Lavate las manos antes de atender el cordón y después de cambiar pañales. Limpiá la zona del pañal con suavidad y secá los pliegues sin frotar. Cambiá lo mojado o sucio para reducir el contacto prolongado con la piel. Si una irritación empeora, tiene heridas o se acompaña de fiebre o mal estado, pedí valoración.',
+                    'Mantené el cordón limpio y seco según la orientación recibida. No tires de él ni lo cubras con monedas, vendas ajustadas o preparados caseros. Si se ensucia, consultá la forma de limpiarlo que te indicaron al alta. Enrojecimiento que se extiende, pus, mal olor con cambios en la piel o decaimiento requieren consulta.',
+                    'Al bañarlo o cambiarlo, prepará todo antes y mantené una mano sobre él si está en una superficie elevada. Nunca lo dejes solo en el agua, ni un momento. Pedí a las visitas que se laven las manos y que posterguen el contacto si están enfermas. Evitá humo de tabaco y aerosoles cerca del bebé.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Tu recuperación también necesita cuidados',
+                'body' => [
+                    'El sangrado posparto suele cambiar gradualmente, pero un aumento importante, sangre que empapa rápidamente la protección, mareo o desmayo requieren atención urgente. No atribuyas todo malestar a dormir poco. Fiebre, dolor que empeora, secreción de una herida, dolor al orinar o una mama roja y dolorosa con mal estado también necesitan evaluación.',
+                    'Usá los medicamentos tal como fueron indicados y consultá antes de agregar otros, incluidos yuyos y suplementos. Si tenés puntos o una herida, seguí el cuidado explicado por tu equipo. Después de una [cesárea](/parto/cesarea-que-esperar/), organizá ayuda para esfuerzos y movimientos que todavía duelen. Después de un parto vaginal también puede hacer falta apoyo para sentarte, caminar o cuidar una lesión.',
+                    'La tristeza, la sensibilidad y la ansiedad pueden aparecer, pero no tenés que sostenerlas sola. Si persisten, aumentan o interfieren con comer, descansar o cuidar de vos y del bebé, pedí ayuda profesional. Ideas de hacerte daño o dañar al bebé, confusión marcada o escuchar o ver cosas que otros no perciben requieren atención urgente y acompañamiento continuo.'
+                ],
+                'items' => [],
+                'table' => null
+            ],
+            [
+                'h2' => 'Señales por las que no conviene esperar al control',
+                'body' => [
+                    'En un recién nacido, la fiebre o una temperatura anormalmente baja requieren valoración urgente. También la respiración trabajosa, color azulado, convulsiones, dificultad para despertarlo o rechazo del alimento. Si vomita verde o tiene un deterioro claro, buscá atención inmediata. No esperes a juntar varios síntomas ni a que llegue la fecha del control programado.',
+                    'Si la piel o los ojos se ponen amarillos, consultá para valorar la ictericia, especialmente si aumenta, aparece muy temprano o el bebé come mal o está somnoliento. Ponerlo al sol no reemplaza la evaluación ni un tratamiento indicado. Explicá cuándo empezó, cómo se alimenta y qué cambios notaste en pañales o comportamiento.',
+                    'Para vos, dolor en el pecho, falta de aire, dolor e hinchazón de una pierna o dolor de cabeza intenso con visión alterada son urgencias. La guía de [señales de alarma](/salud/senales-de-alarma/) reúne motivos de consulta. Los [trámites después del nacimiento](/tramites/despues-del-nacimiento/) se pueden organizar con ayuda; nunca deberían ocupar el lugar de una atención necesaria.'
+                ],
+                'items' => [],
+                'table' => null
+            ]
+        ],
+        'steps' => [
+            [
+                'title' => 'Ubicá cuidados y contactos',
+                'body' => [
+                    'Dejá accesibles las indicaciones y el destino de consulta que te informó el equipo.'
+                ]
+            ],
+            [
+                'title' => 'Repartí tareas concretas',
+                'body' => [
+                    'Asigná comida, lavado, compras y acompañamiento para que también puedas descansar y recuperarte.'
+                ]
+            ],
+            [
+                'title' => 'Revisá cómo están ambos',
+                'body' => [
+                    'Observá alimentación y estado del bebé, tu recuperación y cualquier cambio preocupante; ante alarmas, buscá atención sin esperar al control.'
+                ]
+            ]
+        ],
+        'appHandoff' => [
+            'text' => 'Mi Bebé incluye la guía de trámites después del nacimiento y herramientas de diario. Podés apoyarte en ellas para ordenar preguntas y pendientes, manteniendo a mano las indicaciones de alta de vos y del bebé.',
+            'medium' => 'article',
+            'extra' => []
+        ],
+        'faq' => [
+            [
+                'q' => '¿Tengo que imponer horarios de sueño desde el primer día?',
+                'a' => 'Al comienzo los despertares son frecuentes y la organización es flexible. Priorizá alimentación, respuesta a sus necesidades y un espacio de sueño seguro.'
+            ],
+            [
+                'q' => '¿Qué ayuda puedo pedir a las visitas?',
+                'a' => 'Comida lista, lavado de ropa, compras o acompañamiento a un control son ayudas concretas. También podés pedir menos visitas para descansar.'
+            ],
+            [
+                'q' => '¿Puedo tratar la piel amarilla con sol?',
+                'a' => 'No reemplaces la consulta por exposición al sol. La ictericia necesita valoración según la edad, la alimentación y el estado del bebé.'
+            ],
+            [
+                'q' => '¿Las señales de alarma terminan con el parto?',
+                'a' => 'No. Algunas complicaciones aparecen después del nacimiento. Sangrado abundante, falta de aire, dolor intenso o cambios neurológicos requieren atención urgente.'
+            ]
+        ],
+        'related' => [
+            'cesarea-que-esperar',
+            'bolso-del-bebe',
+            'que-llevar-al-sanatorio'
+        ],
+        'weeks' => [
+            37,
+            38,
+            39,
+            40
+        ],
+        'appGuideSlug' => null,
+        'guarani' => [],
+        'reviewedBy' => null,
+        'reviewedAt' => null,
+        'validAsOf' => null,
+        'sources' => [
+            [
+                'title' => 'Recomendaciones de la OMS para los cuidados durante el parto, para una experiencia de parto positiva',
+                'publisher' => 'Organización Mundial de la Salud (OMS)',
+                'url' => null,
+                'accessed' => null
+            ],
+            [
+                'title' => 'Orientaciones sobre atención materna y del recién nacido',
+                'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)',
+                'url' => null,
+                'accessed' => null
+            ],
+            [
+                'title' => 'Recomendaciones de la OMS sobre cuidados maternos y neonatales para una experiencia posnatal positiva',
+                'publisher' => 'Organización Mundial de la Salud (OMS)',
+                'url' => null,
+                'accessed' => null
+            ]
+        ],
+        'updated' => '2026-09-20',
+        'image' => null
+    ],
 ];

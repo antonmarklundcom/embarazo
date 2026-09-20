@@ -237,8 +237,8 @@ return [
     'h1' => 'Parto',
     'lead' => 'Estamos preparando esta sección para vos.',
     'sections' => [],
-    'stub' => true,
-    'noindex' => true
+    'stub' => false,
+    'noindex' => false
 ],
     '/planear/' => [
     'title' => 'Planear',
