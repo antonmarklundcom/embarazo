@@ -18,8 +18,8 @@ declare(strict_types=1);
 return [
     1 => [
         'title' => 'Semana 1 de embarazo',
-        'seoTitle' => 'Semana 1 de embarazo: tu bebé y vos',
-        'metaDescription' => 'Semana 1 de embarazo en Paraguay: conocé el desarrollo de tu bebé, prepará tus preguntas para el control y seguí esta etapa con Mi Bebé.',
+        'seoTitle' => 'Semana 1 de embarazo: conteo desde la FUM',
+        'metaDescription' => 'Todavía no hay embrión: el conteo empieza con tu última menstruación. Revisá cómo anotar la FUM y qué consultar antes de buscar un embarazo.',
         'sections' => [
             'bebe' => [
                 'En la semana 1 de embarazo todavía no hay embrión: el conteo empieza el primer día de tu última menstruación, antes de la fecundación. Si después quedás embarazada, esos días se incluyen al calcular la edad gestacional. Por eso, la referencia de tamaño dice “todavía no hay embrión”. Esta semana sirve para entender tus fechas y preparar tu salud si estás buscando un embarazo.',
@@ -69,8 +69,8 @@ return [
     ],
     2 => [
         'title' => 'Semana 2 de embarazo',
-        'seoTitle' => 'Semana 2 de embarazo: tu bebé y vos',
-        'metaDescription' => 'Semana 2 de embarazo en Paraguay: conocé el desarrollo de tu bebé, prepará tus preguntas para el control y seguí esta etapa con Mi Bebé.',
+        'seoTitle' => 'Semana 2 de embarazo: ovulación y ventana fértil',
+        'metaDescription' => 'Todavía no hay embrión y la ovulación varía según tu ciclo. Entendé la ventana fértil y qué diferencia un test de ovulación de uno de embarazo.',
         'sections' => [
             'bebe' => [
                 'En la semana 2 de embarazo todavía no hay embrión en este conteo desde la última menstruación. Tu cuerpo se acerca a la ovulación, aunque el día varía según el ciclo. La referencia de tamaño sigue siendo “todavía no hay embrión”: no hay longitud ni peso para medir. Si estás buscando, lo útil ahora es entender la ventana fértil sin exigirle una fecha exacta a tu cuerpo.',
@@ -122,8 +122,8 @@ return [
     ],
     3 => [
         'title' => 'Semana 3 de embarazo',
-        'seoTitle' => 'Semana 3 de embarazo: tu bebé y vos',
-        'metaDescription' => 'Semana 3 de embarazo en Paraguay: conocé el desarrollo de tu bebé, prepará tus preguntas para el control y seguí esta etapa con Mi Bebé.',
+        'seoTitle' => 'Semana 3 de embarazo: fecundación y primer test',
+        'metaDescription' => 'Si hubo fecundación, las células se dividen camino al útero. Leé por qué un test puede dar negativo y qué esperar de una ecografía tan temprana.',
         'sections' => [
             'bebe' => [
                 'En la semana 3 de embarazo, si hubo fecundación, comienza el desarrollo del embrión: un conjunto microscópico de células se divide mientras avanza hacia el útero. La comparación de esta semana es una semilla de chía, como imagen orientativa, no como una medida que ya pueda verse en una ecografía. Todavía puede faltar para el atraso menstrual y para que un test detecte el embarazo.',
@@ -175,8 +175,8 @@ return [
     ],
     4 => [
         'title' => 'Semana 4 de embarazo',
-        'seoTitle' => 'Semana 4 de embarazo: tu bebé y vos',
-        'metaDescription' => 'Semana 4 de embarazo en Paraguay: conocé el desarrollo de tu bebé, prepará tus preguntas para el control y seguí esta etapa con Mi Bebé.',
+        'seoTitle' => 'Semana 4 de embarazo: atraso y test positivo',
+        'metaDescription' => 'La referencia es una semilla de amapola y el test puede empezar a dar positivo. Aclará qué significa una línea tenue y cuándo pedir el control.',
         'sections' => [
             'bebe' => [
                 'En la semana 4 de embarazo, el embrión se está estableciendo en el revestimiento del útero y comienza una relación de intercambio que permitirá su desarrollo. Su comparación orientativa es una semilla de amapola. Según cuándo ovulaste, podés estar cerca de la fecha esperada de menstruación y un test puede empezar a dar positivo. Un negativo temprano todavía puede dejar dudas, especialmente si tus ciclos varían.',
@@ -229,8 +229,8 @@ return [
     ],
     5 => [
         'title' => 'Semana 5 de embarazo',
-        'seoTitle' => 'Semana 5 de embarazo: tu bebé y vos',
-        'metaDescription' => 'Semana 5 de embarazo en Paraguay: conocé el desarrollo de tu bebé, prepará tus preguntas para el control y seguí esta etapa con Mi Bebé.',
+        'seoTitle' => 'Semana 5 de embarazo: sésamo y primer control',
+        'metaDescription' => 'El embrión se compara con un grano de sésamo. Prepará el primer control y revisá las dudas sobre ácido fólico, náuseas y análisis de orina.',
         'sections' => [
             'bebe' => [
                 'En la semana 5 de embarazo, el embrión es diminuto, con la comparación orientativa de un grano de sésamo. Empiezan a organizarse estructuras que darán lugar al sistema nervioso y al corazón. Podés tener atraso, un test positivo o apenas algunas sensaciones nuevas. Si todavía no iniciaste el control prenatal, es momento de solicitarlo y revisar tus fechas, antecedentes y medicamentos con el equipo de salud.',
@@ -283,8 +283,8 @@ return [
     ],
     6 => [
         'title' => 'Semana 6 de embarazo',
-        'seoTitle' => 'Semana 6 de embarazo: tu bebé y vos',
-        'metaDescription' => 'Semana 6 de embarazo en Paraguay: conocé el desarrollo de tu bebé, prepará tus preguntas para el control y seguí esta etapa con Mi Bebé.',
+        'seoTitle' => 'Semana 6 de embarazo: ecografía y latido',
+        'metaDescription' => 'Con una lenteja como referencia, se forman los brotes de las extremidades. Entendé qué busca la ecografía y qué pasa si aún no se ve latido.',
         'sections' => [
             'bebe' => [
                 'En la semana 6 de embarazo, tu embrión se compara con una lenteja: sigue siendo pequeño, pero su forma empieza a cambiar. Se desarrollan los primeros brotes de las extremidades y continúan organizándose el cerebro y el corazón. Para vos, los olores y las náuseas pueden volverse más notorios. Una ecografía indicada en esta etapa busca ubicar el embarazo y valorar lo que corresponde a su edad real.',
@@ -337,8 +337,8 @@ return [
     ],
     7 => [
         'title' => 'Semana 7 de embarazo',
-        'seoTitle' => 'Semana 7 de embarazo: tu bebé y vos',
-        'metaDescription' => 'Semana 7 de embarazo en Paraguay: conocé el desarrollo de tu bebé, prepará tus preguntas para el control y seguí esta etapa con Mi Bebé.',
+        'seoTitle' => 'Semana 7 de embarazo: tamaño de un grano de maíz',
+        'metaDescription' => 'La comparación es un grano de maíz y el cerebro crece con rapidez. Aclará por qué aún no sentís movimientos y cómo se ajustan las fechas.',
         'sections' => [
             'bebe' => [
                 'En la semana 7 de embarazo, el embrión se compara de manera orientativa con un grano de maíz. La cabeza y el cerebro crecen con rapidez, y los brotes de brazos y piernas se van alargando. Vos todavía no podés sentir sus movimientos. Esta etapa suele combinar cambios intensos por dentro con una panza que apenas cambia por fuera, mientras organizás los primeros controles y resultados.',
@@ -391,8 +391,8 @@ return [
     ],
     8 => [
         'title' => 'Semana 8 de embarazo',
-        'seoTitle' => 'Semana 8 de embarazo: tu bebé y vos',
-        'metaDescription' => 'Semana 8 de embarazo en Paraguay: conocé el desarrollo de tu bebé, prepará tus preguntas para el control y seguí esta etapa con Mi Bebé.',
+        'seoTitle' => 'Semana 8 de embarazo: un poroto y las náuseas',
+        'metaDescription' => 'El embrión se compara con un poroto y sus manos empiezan a definirse. Revisá qué hacer ante los vómitos y qué ordenar en el control inicial.',
         'sections' => [
             'bebe' => [
                 'En la semana 8 de embarazo, el embrión tiene como comparación un poroto. Se alargan brazos y piernas, empiezan a definirse las manos y la cara sigue cambiando. Vos podés notar náuseas, sueño o sensibilidad en los pechos, aunque la panza todavía no muestre el embarazo. El control de este momento sirve para ordenar antecedentes, revisar estudios iniciales y aclarar la edad gestacional que va a guiar el seguimiento.',
@@ -484,8 +484,8 @@ return [
     ],
     9 => [
         'title' => 'Semana 9 de embarazo',
-        'seoTitle' => 'Semana 9 de embarazo: tu bebé y vos',
-        'metaDescription' => 'Semana 9 de embarazo en Paraguay: conocé el desarrollo de tu bebé, prepará tus preguntas para el control y seguí esta etapa con Mi Bebé.',
+        'seoTitle' => 'Semana 9 de embarazo: una aceituna y más saliva',
+        'metaDescription' => 'La referencia es una aceituna y sus articulaciones van tomando forma. Encontrá respuestas sobre exceso de saliva, náuseas y análisis de orina.',
         'sections' => [
             'bebe' => [
                 'En la semana 9 de embarazo, el embrión se compara con una aceituna. Los brazos se alargan, las articulaciones se van delineando y las manos continúan tomando forma. La cabeza sigue siendo grande en proporción al cuerpo. Para vos, las náuseas y el cansancio pueden ocupar buena parte del día; el control ayuda a valorar cómo estás comiendo y tomando líquidos, además de revisar los primeros resultados.',
@@ -577,8 +577,8 @@ return [
     ],
     10 => [
         'title' => 'Semana 10 de embarazo',
-        'seoTitle' => 'Semana 10 de embarazo: tu bebé y vos',
-        'metaDescription' => 'Semana 10 de embarazo en Paraguay: conocé el desarrollo de tu bebé, prepará tus preguntas para el control y seguí esta etapa con Mi Bebé.',
+        'seoTitle' => 'Semana 10 de embarazo: dedos y panza',
+        'metaDescription' => 'Tu bebé se compara con una guinda y sus dedos van diferenciándose. Leé por qué podés notar panza y cómo conversar sobre tus medicamentos.',
         'sections' => [
             'bebe' => [
                 'En la semana 10 de embarazo, tu bebé se compara con una guinda. Los dedos van diferenciándose y los brazos pueden flexionarse; la cabeza sigue destacándose sobre el cuerpo. Se acerca el final del período embrionario y los órganos van a continuar creciendo y madurando. Vos podés seguir con náuseas, gases y sueño. La consulta permite revisar medicación, suplementos y resultados, y preparar los estudios que se ofrecen al final del primer trimestre.',
@@ -670,8 +670,8 @@ return [
     ],
     11 => [
         'title' => 'Semana 11 de embarazo',
-        'seoTitle' => 'Semana 11 de embarazo: tu bebé y vos',
-        'metaDescription' => 'Semana 11 de embarazo en Paraguay: conocé el desarrollo de tu bebé, prepará tus preguntas para el control y seguí esta etapa con Mi Bebé.',
+        'seoTitle' => 'Semana 11 de embarazo: frutilla y flujo',
+        'metaDescription' => 'El tamaño orientativo es una frutilla y las extremidades se mueven sin que las sientas. Revisá el flujo blanco y cómo pedir la próxima ecografía.',
         'sections' => [
             'bebe' => [
                 'En la semana 11 de embarazo, el tamaño orientativo de tu bebé es una frutilla. En esta etapa se habla de feto: las estructuras principales ya tienen un esquema inicial y ahora continúan su crecimiento y maduración. La cabeza todavía es proporcionalmente grande y las extremidades se mueven sin que vos las sientas. Puede empezar a cambiar tu energía, mientras organizás la ecografía que se ofrece hacia el cierre del primer trimestre.',
@@ -763,8 +763,8 @@ return [
     ],
     12 => [
         'title' => 'Semana 12 de embarazo',
-        'seoTitle' => 'Semana 12 de embarazo: tu bebé y vos',
-        'metaDescription' => 'Semana 12 de embarazo en Paraguay: conocé el desarrollo de tu bebé, prepará tus preguntas para el control y seguí esta etapa con Mi Bebé.',
+        'seoTitle' => 'Semana 12 de embarazo: ecografía del trimestre',
+        'metaDescription' => 'Tu bebé se compara con una lima. Entendé qué revisa la ecografía del primer trimestre, para qué sirve la translucencia nucal y cómo prepararte.',
         'sections' => [
             'bebe' => [
                 'En la semana 12 de embarazo, tu bebé tiene como comparación una lima. El cuerpo se alarga, los dedos están más definidos y puede hacer movimientos que todavía no sentís. Esta semana suele coincidir con la ecografía del primer trimestre, que revisa la edad gestacional, el número de bebés y aspectos de su anatomía temprana. Para vos, las náuseas pueden empezar a disminuir, aunque no hay un día exacto para ese cambio.',
@@ -860,8 +860,8 @@ return [
     ],
     13 => [
         'title' => 'Semana 13 de embarazo',
-        'seoTitle' => 'Semana 13 de embarazo: tu bebé y vos',
-        'metaDescription' => 'Semana 13 de embarazo en Paraguay: conocé el desarrollo de tu bebé, prepará tus preguntas para el control y seguí esta etapa con Mi Bebé.',
+        'seoTitle' => 'Semana 13 de embarazo: fin del primer trimestre',
+        'metaDescription' => 'Con un durazno como referencia, el cuerpo sigue alargándose. Ubicá el cambio de trimestre y revisá qué hacer si todavía tenés náuseas.',
         'sections' => [
             'bebe' => [
                 'En la semana 13 de embarazo, tu bebé se compara con un durazno. El cuerpo sigue alargándose, los brazos y las piernas se mueven y la cabeza va ocupando una proporción menor del conjunto. Estás en el cierre del primer trimestre, camino al segundo. Vos podés recuperar algo de apetito o continuar con cansancio; el control de esta ventana permite conversar sobre el informe ecográfico y dejar claro qué seguimiento viene después.',
@@ -953,8 +953,8 @@ return [
     ],
     14 => [
         'title' => 'Semana 14 de embarazo',
-        'seoTitle' => 'Semana 14 de embarazo: tu bebé y vos',
-        'metaDescription' => 'Semana 14 de embarazo en Paraguay: conocé el desarrollo de tu bebé, prepará tus preguntas para el control y seguí esta etapa con Mi Bebé.',
+        'seoTitle' => 'Semana 14 de embarazo: segundo trimestre',
+        'metaDescription' => 'Tu bebé se compara con un limón y entrás al segundo trimestre. Aclará dudas sobre la panza, el apetito y por qué aún podés no sentir movimientos.',
         'sections' => [
             'bebe' => [
                 'En la semana 14 de embarazo, tu bebé tiene como comparación un limón. El cuello se distingue mejor, el cuerpo crece y los movimientos de brazos y piernas se vuelven más variados. Entrás al segundo trimestre. Vos podés sentir menos náuseas y una cintura distinta, aunque cada embarazo tiene su ritmo. El control ayuda a revisar resultados, tu alimentación y actividad, y a preparar el seguimiento que continúa durante los próximos meses.',
@@ -1050,8 +1050,8 @@ return [
     ],
     15 => [
         'title' => 'Semana 15 de embarazo',
-        'seoTitle' => 'Semana 15 de embarazo: tu bebé y vos',
-        'metaDescription' => 'Semana 15 de embarazo en Paraguay: conocé el desarrollo de tu bebé, prepará tus preguntas para el control y seguí esta etapa con Mi Bebé.',
+        'seoTitle' => 'Semana 15 de embarazo: mandarina y encías',
+        'metaDescription' => 'La comparación es una mandarina y los huesos se van endureciendo. Leé sobre encías que sangran, nariz tapada y cuidados para conversar en consulta.',
         'sections' => [
             'bebe' => [
                 'En la semana 15 de embarazo, tu bebé sigue creciendo y moviendo brazos y piernas; la comparación de esta semana es una mandarina. Sus huesos se van endureciendo y las articulaciones permiten movimientos cada vez más variados. Vos podés notar congestión nasal, encías sensibles o más apetito. Aunque todavía no sientas al bebé, se mueve dentro del útero. El control de esta etapa sirve para revisar tu salud, recuperar resultados pendientes y organizar los estudios que vienen.',
@@ -1102,8 +1102,8 @@ return [
     ],
     16 => [
         'title' => 'Semana 16 de embarazo',
-        'seoTitle' => 'Semana 16 de embarazo: tu bebé y vos',
-        'metaDescription' => 'Semana 16 de embarazo en Paraguay: conocé el desarrollo de tu bebé, prepará tus preguntas para el control y seguí esta etapa con Mi Bebé.',
+        'seoTitle' => 'Semana 16 de embarazo: primeros aleteos',
+        'metaDescription' => 'Tu bebé se compara con una palta pequeña y algunas mamás reconocen aleteos. Aclará si son gases o movimientos y qué hacer con el estreñimiento.',
         'sections' => [
             'bebe' => [
                 'En la semana 16 de embarazo, tu bebé tiene como referencia una palta pequeña. El cuello y los músculos continúan desarrollándose, mueve las extremidades y puede hacer gestos con la cara. Algunas embarazadas empiezan a reconocer un aleteo, aunque muchas todavía no sienten movimientos. Vos podés notar estreñimiento o tirones breves al cambiar de posición. La consulta en esta ventana permite revisar cómo venís, interpretar tus análisis y preparar la evaluación anatómica de más adelante.',
@@ -1154,8 +1154,8 @@ return [
     ],
     17 => [
         'title' => 'Semana 17 de embarazo',
-        'seoTitle' => 'Semana 17 de embarazo: tu bebé y vos',
-        'metaDescription' => 'Semana 17 de embarazo en Paraguay: conocé el desarrollo de tu bebé, prepará tus preguntas para el control y seguí esta etapa con Mi Bebé.',
+        'seoTitle' => 'Semana 17 de embarazo: huesos y dolor de espalda',
+        'metaDescription' => 'Con una granada como referencia, tu bebé forma hueso y tejido graso. Revisá las molestias de espalda y qué cambios del flujo necesitan consulta.',
         'sections' => [
             'bebe' => [
                 'En la semana 17 de embarazo, tu bebé sigue formando hueso y empieza a acumular tejido graso; su comparación es una granada. Los músculos permiten movimientos más coordinados, aunque todavía podés no reconocerlos. Vos quizá notes que cambió tu postura, que la espalda se carga al final del día o que aparecen más secreciones vaginales. El control ayuda a revisar esas molestias, tu presión y los resultados previos, además de dejar organizada la ecografía de anatomía.',
@@ -1206,8 +1206,8 @@ return [
     ],
     18 => [
         'title' => 'Semana 18 de embarazo',
-        'seoTitle' => 'Semana 18 de embarazo: tu bebé y vos',
-        'metaDescription' => 'Semana 18 de embarazo en Paraguay: conocé el desarrollo de tu bebé, prepará tus preguntas para el control y seguí esta etapa con Mi Bebé.',
+        'seoTitle' => 'Semana 18 de embarazo: panza y ecografía',
+        'metaDescription' => 'La referencia es un mamón pequeño y podés empezar a sentir movimientos. Entendé por qué varía la panza y qué revisa la ecografía anatómica.',
         'sections' => [
             'bebe' => [
                 'En la semana 18 de embarazo, tu bebé estira brazos y piernas, cambia de posición y continúa desarrollando los sentidos. La comparación de esta semana es un mamón pequeño. Podés empezar a reconocer movimientos suaves, aunque en el primer embarazo a veces llegan más adelante. La panza puede hacerse visible de maneras muy distintas. En esta ventana conviene tener coordinada la ecografía anatómica, que revisa estructuras del bebé y otros aspectos del embarazo según la indicación del equipo.',
@@ -1258,8 +1258,8 @@ return [
     ],
     19 => [
         'title' => 'Semana 19 de embarazo',
-        'seoTitle' => 'Semana 19 de embarazo: tu bebé y vos',
-        'metaDescription' => 'Semana 19 de embarazo en Paraguay: conocé el desarrollo de tu bebé, prepará tus preguntas para el control y seguí esta etapa con Mi Bebé.',
+        'seoTitle' => 'Semana 19 de embarazo: piel y golpecitos',
+        'metaDescription' => 'Tu bebé se compara con un mango y desarrolla una cobertura protectora en la piel. Leé sobre los primeros golpecitos y el dolor de pubis al caminar.',
         'sections' => [
             'bebe' => [
                 'En la semana 19 de embarazo, tu bebé va desarrollando una cobertura protectora sobre la piel y se mueve dentro del líquido amniótico. Su comparación es un mango. Podés notar los primeros golpecitos, cambios en la panza o molestias al girar y caminar. La ecografía anatómica y el control de esta etapa permiten revisar crecimiento, estructuras del bebé y tu salud. Si todavía no reconocés pataditas, eso puede estar dentro de la variación habitual de este momento.',
@@ -1310,8 +1310,8 @@ return [
     ],
     20 => [
         'title' => 'Semana 20 de embarazo',
-        'seoTitle' => 'Semana 20 de embarazo: tu bebé y vos',
-        'metaDescription' => 'Semana 20 de embarazo en Paraguay: conocé el desarrollo de tu bebé, prepará tus preguntas para el control y seguí esta etapa con Mi Bebé.',
+        'seoTitle' => 'Semana 20 de embarazo: ecografía morfológica',
+        'metaDescription' => 'El tamaño orientativo es una banana, cerca de la mitad del embarazo. Revisá qué evalúa la ecografía morfológica y cuándo se sienten las pataditas.',
         'sections' => [
             'bebe' => [
                 'En la semana 20 de embarazo, tu bebé tiene aproximadamente el tamaño de una banana: unos 25,6 cm y 300 g como referencia. Traga líquido amniótico y sus riñones ya producen pis. Se mueve, estira los brazos y las piernas, y quizá empieces a reconocer esas primeras pataditas. Estás en el segundo trimestre, cerca de la mitad del embarazo, y es una etapa habitual para la ecografía que revisa su anatomía.',
@@ -1403,8 +1403,8 @@ return [
     ],
     21 => [
         'title' => 'Semana 21 de embarazo',
-        'seoTitle' => 'Semana 21 de embarazo: tu bebé y vos',
-        'metaDescription' => 'Semana 21 de embarazo en Paraguay: conocé el desarrollo de tu bebé, prepará tus preguntas para el control y seguí esta etapa con Mi Bebé.',
+        'seoTitle' => 'Semana 21 de embarazo: pataditas y acidez',
+        'metaDescription' => 'La comparación es una mazorca de choclo y las pataditas pueden ser más claras. Aclará por qué se repite una morfológica y qué relación tiene la acidez.',
         'sections' => [
             'bebe' => [
                 'En la semana 21 de embarazo, tu bebé continúa creciendo, tragando líquido amniótico y moviendo brazos y piernas; la referencia es una mazorca de choclo. Las pataditas pueden hacerse más reconocibles, aunque todavía varían entre embarazos. Vos podés notar más acidez, cambios en la panza o molestias al pasar mucho tiempo de pie. Esta etapa sirve para conversar los resultados de la ecografía anatómica, completar lo que haya quedado pendiente y seguir controlando tu presión y bienestar.',
@@ -1456,8 +1456,8 @@ return [
     ],
     22 => [
         'title' => 'Semana 22 de embarazo',
-        'seoTitle' => 'Semana 22 de embarazo: tu bebé y vos',
-        'metaDescription' => 'Semana 22 de embarazo en Paraguay: conocé el desarrollo de tu bebé, prepará tus preguntas para el control y seguí esta etapa con Mi Bebé.',
+        'seoTitle' => 'Semana 22 de embarazo: cara y placenta anterior',
+        'metaDescription' => 'Tu bebé se compara con un mamón mediano y sus cejas y labios se distinguen mejor. Leé cómo influye la placenta anterior al sentir movimientos.',
         'sections' => [
             'bebe' => [
                 'En la semana 22 de embarazo, tu bebé sigue formando sus rasgos y coordinando movimientos; la comparación de tamaño es un mamón mediano. Las cejas y los labios se distinguen mejor, mientras la piel todavía es fina. Vos podés notar tirones al cambiar de postura y más peso en la espalda. Si la ecografía anatómica está pendiente o quedó incompleta, esta es una ocasión para revisar con el equipo cómo completarla y qué muestran sus resultados.',
@@ -1508,8 +1508,8 @@ return [
     ],
     23 => [
         'title' => 'Semana 23 de embarazo',
-        'seoTitle' => 'Semana 23 de embarazo: tu bebé y vos',
-        'metaDescription' => 'Semana 23 de embarazo en Paraguay: conocé el desarrollo de tu bebé, prepará tus preguntas para el control y seguí esta etapa con Mi Bebé.',
+        'seoTitle' => 'Semana 23 de embarazo: audición y calambres',
+        'metaDescription' => 'Con un pomelo como referencia, la audición sigue madurando. Encontrá respuestas sobre tu voz, los calambres nocturnos y la posición del bebé.',
         'sections' => [
             'bebe' => [
                 'En la semana 23 de embarazo, la audición de tu bebé continúa madurando y sus movimientos pueden sentirse más claros; su tamaño se compara con un pomelo. El cuerpo sigue creciendo y la piel conserva un aspecto fino y arrugado. Vos podés notar calambres nocturnos o piernas cansadas. En el control conviene conversar esas molestias, repasar los movimientos que empezaste a reconocer y organizar los análisis que se acercan, sin esperar a tener síntomas para consultar.',
@@ -1560,8 +1560,8 @@ return [
     ],
     24 => [
         'title' => 'Semana 24 de embarazo',
-        'seoTitle' => 'Semana 24 de embarazo: tu bebé y vos',
-        'metaDescription' => 'Semana 24 de embarazo en Paraguay: conocé el desarrollo de tu bebé, prepará tus preguntas para el control y seguí esta etapa con Mi Bebé.',
+        'seoTitle' => 'Semana 24 de embarazo: análisis de glucosa',
+        'metaDescription' => 'Tu bebé se compara con una mandioca y sus pulmones siguen desarrollándose. Revisá cuándo se estudia la glucosa y qué preguntar si sos Rh negativa.',
         'sections' => [
             'bebe' => [
                 'En la semana 24 de embarazo, tu bebé continúa desarrollando los pulmones y ganando tamaño; la comparación es una mandioca. Sus movimientos pueden resultar más reconocibles, aunque la forma de sentirlos varía. Para vos, esta etapa trae una conversación importante sobre los análisis de glucosa y el grupo sanguíneo. El control sirve para programar la pesquisa de diabetes gestacional, revisar resultados anteriores y aclarar qué seguimiento corresponde si tu factor Rh es negativo.',
@@ -1613,8 +1613,8 @@ return [
     ],
     25 => [
         'title' => 'Semana 25 de embarazo',
-        'seoTitle' => 'Semana 25 de embarazo: tu bebé y vos',
-        'metaDescription' => 'Semana 25 de embarazo en Paraguay: conocé el desarrollo de tu bebé, prepará tus preguntas para el control y seguí esta etapa con Mi Bebé.',
+        'seoTitle' => 'Semana 25 de embarazo: un coco y estreñimiento',
+        'metaDescription' => 'La referencia es un coco y tu bebé va acumulando grasa. Aclará dudas sobre estreñimiento por hierro, molestias al evacuar y presión en la pelvis.',
         'sections' => [
             'bebe' => [
                 'En la semana 25 de embarazo, tu bebé va acumulando grasa y continúa madurando sus movimientos; la referencia de tamaño es un coco. La piel todavía es delicada, pero el cuerpo empieza a verse más lleno. Vos podés notar estreñimiento, molestias al evacuar o presión en la pelvis. Esta semana sirve para revisar cómo tolerás la alimentación y los suplementos, y para confirmar que los análisis previstos en esta ventana están organizados.',
@@ -1665,8 +1665,8 @@ return [
     ],
     26 => [
         'title' => 'Semana 26 de embarazo',
-        'seoTitle' => 'Semana 26 de embarazo: tu bebé y vos',
-        'metaDescription' => 'Semana 26 de embarazo en Paraguay: conocé el desarrollo de tu bebé, prepará tus preguntas para el control y seguí esta etapa con Mi Bebé.',
+        'seoTitle' => 'Semana 26 de embarazo: párpados y descanso',
+        'metaDescription' => 'Tu bebé se compara con un repollo pequeño y sus párpados se acercan a la apertura. Revisá el sueño entrecortado y el hormigueo en las manos.',
         'sections' => [
             'bebe' => [
                 'En la semana 26 de embarazo, los ojos de tu bebé van acercándose a la apertura de los párpados y sus pulmones siguen madurando; el tamaño se compara con un repollo pequeño. Los movimientos pueden hacerse más notorios desde afuera. Vos quizá duermas de manera entrecortada o sientas hormigueo en las manos. En esta etapa conviene conversar el descanso y comprobar que los análisis de la ventana de 24 a 28 semanas están encaminados.',
@@ -1717,8 +1717,8 @@ return [
     ],
     27 => [
         'title' => 'Semana 27 de embarazo',
-        'seoTitle' => 'Semana 27 de embarazo: tu bebé y vos',
-        'metaDescription' => 'Semana 27 de embarazo en Paraguay: conocé el desarrollo de tu bebé, prepará tus preguntas para el control y seguí esta etapa con Mi Bebé.',
+        'seoTitle' => 'Semana 27 de embarazo: hipo del bebé',
+        'metaDescription' => 'Con una coliflor como referencia, quizá sientas saltitos rítmicos por el hipo. Leé sobre acidez, panza dura y el cierre del segundo trimestre.',
         'sections' => [
             'bebe' => [
                 'En la semana 27 de embarazo, tu bebé sigue madurando el cerebro y los pulmones, y quizá sientas pequeños saltitos rítmicos por el hipo; su tamaño se compara con una coliflor. Estás cerrando el segundo trimestre. Vos podés notar acidez más molesta al acostarte o dificultades para encontrar una postura cómoda. El control permite revisar los estudios pendientes y conversar cómo reconocer cambios importantes en los movimientos y en las molestias de la panza.',
@@ -1769,8 +1769,8 @@ return [
     ],
     28 => [
         'title' => 'Semana 28 de embarazo',
-        'seoTitle' => 'Semana 28 de embarazo: tu bebé y vos',
-        'metaDescription' => 'Semana 28 de embarazo en Paraguay: conocé el desarrollo de tu bebé, prepará tus preguntas para el control y seguí esta etapa con Mi Bebé.',
+        'seoTitle' => 'Semana 28 de embarazo: tercer trimestre y Rh',
+        'metaDescription' => 'Empieza el tercer trimestre y la referencia es una berenjena grande. Revisá movimientos, resultados de glucosa y qué consultar si sos Rh negativa.',
         'sections' => [
             'bebe' => [
                 'En la semana 28 de embarazo empieza el tercer trimestre. Tu bebé sigue desarrollando el cerebro, puede abrir y cerrar los ojos y gana peso; su tamaño se compara con una berenjena grande. Vos podés sentir más carga en la espalda y movimientos más familiares. En el control conviene revisar la pesquisa de glucosa y los resultados de grupo sanguíneo y Rh, además de conversar cómo seguir los movimientos y organizar las próximas visitas.',
@@ -1822,8 +1822,8 @@ return [
     ],
     29 => [
         'title' => 'Semana 29 de embarazo',
-        'seoTitle' => 'Semana 29 de embarazo: tu bebé y vos',
-        'metaDescription' => 'Semana 29 de embarazo en Paraguay: conocé el desarrollo de tu bebé, prepará tus preguntas para el control y seguí esta etapa con Mi Bebé.',
+        'seoTitle' => 'Semana 29 de embarazo: patadas y tobillos',
+        'metaDescription' => 'Tu bebé se compara con un coco grande y fortalece los músculos. Reconocé su patrón de movimientos y revisá cuándo consultar por tobillos hinchados.',
         'sections' => [
             'bebe' => [
                 'En la semana 29 de embarazo, tu bebé sigue madurando los pulmones y fortaleciendo los músculos. Su tamaño se compara con un coco grande, y podés notar empujones más definidos al estirarse. Para vos, esta etapa combina una panza más pesada con la necesidad de conocer su patrón habitual de movimientos. En el control conviene revisar cómo viene creciendo y resolver los resultados que hayan quedado pendientes de la semana anterior.',
@@ -1874,8 +1874,8 @@ return [
     ],
     30 => [
         'title' => 'Semana 30 de embarazo',
-        'seoTitle' => 'Semana 30 de embarazo: tu bebé y vos',
-        'metaDescription' => 'Semana 30 de embarazo en Paraguay: conocé el desarrollo de tu bebé, prepará tus preguntas para el control y seguí esta etapa con Mi Bebé.',
+        'seoTitle' => 'Semana 30 de embarazo: cansancio y anemia',
+        'metaDescription' => 'La referencia es un repollo y la médula ósea produce glóbulos rojos. Revisá el cansancio, las dudas sobre anemia y cómo tolerar los suplementos.',
         'sections' => [
             'bebe' => [
                 'En la semana 30 de embarazo, tu bebé gana grasa bajo la piel y su médula ósea participa en la producción de glóbulos rojos. El tamaño se compara con un repollo. Los movimientos siguen siendo una referencia importante para vos, mientras el cansancio puede hacerse más visible. Esta semana es útil para conversar sobre descanso, revisar si hay anemia u otros resultados pendientes y empezar a poner por escrito tus preguntas sobre el nacimiento.',
@@ -1926,8 +1926,8 @@ return [
     ],
     31 => [
         'title' => 'Semana 31 de embarazo',
-        'seoTitle' => 'Semana 31 de embarazo: tu bebé y vos',
-        'metaDescription' => 'Semana 31 de embarazo en Paraguay: conocé el desarrollo de tu bebé, prepará tus preguntas para el control y seguí esta etapa con Mi Bebé.',
+        'seoTitle' => 'Semana 31 de embarazo: estiramientos y costillas',
+        'metaDescription' => 'Tu bebé se compara con un coco con su cáscara y ocupa más espacio. Leé sobre presión bajo las costillas y por qué no debe disminuir su actividad.',
         'sections' => [
             'bebe' => [
                 'En la semana 31 de embarazo, tu bebé mueve la cabeza, flexiona las piernas y ocupa más espacio dentro del útero. Su tamaño se compara con un coco con su cáscara. Los estiramientos pueden sentirse distintos de las patadas cortas de antes, pero una disminución de actividad no se explica simplemente por la falta de lugar. Para vos, la presión bajo las costillas y las molestias de espalda pueden motivar ajustes en el descanso.',
@@ -1978,8 +1978,8 @@ return [
     ],
     32 => [
         'title' => 'Semana 32 de embarazo',
-        'seoTitle' => 'Semana 32 de embarazo: tu bebé y vos',
-        'metaDescription' => 'Semana 32 de embarazo en Paraguay: conocé el desarrollo de tu bebé, prepará tus preguntas para el control y seguí esta etapa con Mi Bebé.',
+        'seoTitle' => 'Semana 32 de embarazo: posición de nalgas',
+        'metaDescription' => 'Con una lechuga como referencia, practica movimientos respiratorios. Aclará qué significa estar de nalgas y cuándo consultar por la panza dura.',
         'sections' => [
             'bebe' => [
                 'En la semana 32 de embarazo, tu bebé practica movimientos respiratorios y sigue acumulando grasa; su tamaño se compara con una lechuga. Algunos bebés ya están de cabeza y otros todavía cambian de posición. Vos podés sentir más peso en la pelvis y necesitar pausas al caminar. En el control, el crecimiento y la presión siguen siendo importantes, junto con una conversación sobre la posición fetal y lo que significa para las próximas semanas.',
@@ -2030,8 +2030,8 @@ return [
     ],
     33 => [
         'title' => 'Semana 33 de embarazo',
-        'seoTitle' => 'Semana 33 de embarazo: tu bebé y vos',
-        'metaDescription' => 'Semana 33 de embarazo en Paraguay: conocé el desarrollo de tu bebé, prepará tus preguntas para el control y seguí esta etapa con Mi Bebé.',
+        'seoTitle' => 'Semana 33 de embarazo: pérdidas de líquido',
+        'metaDescription' => 'Tu bebé se compara con un ananá y los huesos del cráneo mantienen espacios. Revisá las ganas de hacer pis y qué hacer ante una posible pérdida de líquido.',
         'sections' => [
             'bebe' => [
                 'En la semana 33 de embarazo, tu bebé sigue ganando peso y recibiendo anticuerpos a través de la placenta. Su tamaño se compara con un ananá. Los huesos del cráneo mantienen espacios entre ellos, necesarios para el crecimiento del cerebro. Para vos, dormir entre idas al baño y buscar una postura cómoda puede llevar más esfuerzo. El control permite revisar síntomas urinarios, crecimiento y los pasos de preparación para el nacimiento.',
@@ -2082,8 +2082,8 @@ return [
     ],
     34 => [
         'title' => 'Semana 34 de embarazo',
-        'seoTitle' => 'Semana 34 de embarazo: tu bebé y vos',
-        'metaDescription' => 'Semana 34 de embarazo en Paraguay: conocé el desarrollo de tu bebé, prepará tus preguntas para el control y seguí esta etapa con Mi Bebé.',
+        'seoTitle' => 'Semana 34 de embarazo: pulmones y prematuridad',
+        'metaDescription' => 'La referencia es un melón pequeño y los pulmones siguen madurando. Entendé qué implica nacer antes de término y revisá las dudas sobre hinchazón.',
         'sections' => [
             'bebe' => [
                 'En la semana 34 de embarazo, tu bebé sigue madurando los pulmones y el sistema nervioso, con un tamaño comparable al de un melón pequeño. Aunque se vea más formado, un nacimiento en esta etapa todavía es prematuro y puede requerir cuidados especiales. Para vos, el peso de la panza y la hinchazón pueden hacer más lentas las tareas. Es buen momento para revisar el bolso y conversar sobre cómo se deciden las opciones de parto.',
@@ -2134,8 +2134,8 @@ return [
     ],
     35 => [
         'title' => 'Semana 35 de embarazo',
-        'seoTitle' => 'Semana 35 de embarazo: tu bebé y vos',
-        'metaDescription' => 'Semana 35 de embarazo en Paraguay: conocé el desarrollo de tu bebé, prepará tus preguntas para el control y seguí esta etapa con Mi Bebé.',
+        'seoTitle' => 'Semana 35 de embarazo: hisopado de estreptococo',
+        'metaDescription' => 'Tu bebé se compara con un melón y sigue acumulando grasa. Leé para qué sirve el hisopado de estreptococo y qué significa que la panza haya bajado.',
         'sections' => [
             'bebe' => [
                 'En la semana 35 de embarazo, tu bebé sigue acumulando grasa y sus riñones producen orina, que forma parte del líquido amniótico. Su tamaño se compara con un melón. La maduración de los pulmones y del cerebro continúa, así que todavía no está a término. Vos podés notar más presión sobre la vejiga y estiramientos amplios. En el control conviene ordenar los próximos estudios, la presentación fetal y el plan para llegar al lugar de atención.',
@@ -2187,8 +2187,8 @@ return [
     ],
     36 => [
         'title' => 'Semana 36 de embarazo',
-        'seoTitle' => 'Semana 36 de embarazo: tu bebé y vos',
-        'metaDescription' => 'Semana 36 de embarazo en Paraguay: conocé el desarrollo de tu bebé, prepará tus preguntas para el control y seguí esta etapa con Mi Bebé.',
+        'seoTitle' => 'Semana 36 de embarazo: contracciones y consulta',
+        'metaDescription' => 'La referencia es una lechuga grande y tu bebé aún sigue madurando. Revisá cuándo acudir por contracciones y qué significa un hisopado positivo.',
         'sections' => [
             'bebe' => [
                 'En la semana 36 de embarazo, tu bebé sigue ganando reservas de grasa y madurando sus pulmones. El tamaño se compara con una lechuga grande. Todavía es una etapa anterior al término: las contracciones repetidas o la pérdida de líquido necesitan evaluación inmediata. Vos podés sentir peso en la pelvis y dormir entrecortado. El control ayuda a revisar su posición, los resultados pendientes y cómo llegar a la maternidad si empieza el parto.',
@@ -2239,8 +2239,8 @@ return [
     ],
     37 => [
         'title' => 'Semana 37 de embarazo',
-        'seoTitle' => 'Semana 37 de embarazo: tu bebé y vos',
-        'metaDescription' => 'Semana 37 de embarazo en Paraguay: conocé el desarrollo de tu bebé, prepará tus preguntas para el control y seguí esta etapa con Mi Bebé.',
+        'seoTitle' => 'Semana 37 de embarazo: tapón mucoso y término',
+        'metaDescription' => 'Tu bebé se compara con una sandía pequeña y se acerca al término. Aclará el conteo de semanas y qué hacer si notás la salida del tapón mucoso.',
         'sections' => [
             'bebe' => [
                 'En la semana 37 de embarazo, tu bebé practica la succión, traga líquido y sigue acumulando grasa; su tamaño se compara con una sandía pequeña. Estás cerca del término, pero importa cómo se cuentan las semanas: en la app, esta página corresponde a 36 semanas completas más los días. Todavía necesitás evaluación inmediata si aparecen signos de parto. En el control, conviene dejar claro cuándo acudir y qué resultados llevar al nacimiento.',
@@ -2290,8 +2290,8 @@ return [
     ],
     38 => [
         'title' => 'Semana 38 de embarazo',
-        'seoTitle' => 'Semana 38 de embarazo: tu bebé y vos',
-        'metaDescription' => 'Semana 38 de embarazo en Paraguay: conocé el desarrollo de tu bebé, prepará tus preguntas para el control y seguí esta etapa con Mi Bebé.',
+        'seoTitle' => 'Semana 38 de embarazo: plan de parto y reposo',
+        'metaDescription' => 'Con un zapallo pequeño como referencia, tu bebé sigue acumulando grasa. Revisá el plan de parto y la diferencia entre licencia y reposo en cama.',
         'sections' => [
             'bebe' => [
                 'En la semana 38 de embarazo, tu bebé tiene como comparación un zapallo pequeño y continúa acumulando grasa que ayudará a conservar calor después del nacimiento. Según el conteo de la app, transcurren 37 semanas completas: estás en término temprano. Podés sentir más presión baja, sin que eso anuncie una fecha exacta. Esta semana conviene revisar el plan de parto y confirmar las fechas del reposo de maternidad si tu trámite corresponde a IPS.',
@@ -2343,8 +2343,8 @@ return [
     ],
     39 => [
         'title' => 'Semana 39 de embarazo',
-        'seoTitle' => 'Semana 39 de embarazo: tu bebé y vos',
-        'metaDescription' => 'Semana 39 de embarazo en Paraguay: conocé el desarrollo de tu bebé, prepará tus preguntas para el control y seguí esta etapa con Mi Bebé.',
+        'seoTitle' => 'Semana 39 de embarazo: inducción y parto',
+        'metaDescription' => 'La referencia es una sandía mediana y la maduración continúa. Aclará si inducción significa cesárea y qué conversar sobre las contracciones.',
         'sections' => [
             'bebe' => [
                 'En la semana 39 de embarazo, tu bebé sigue madurando mientras se acerca el nacimiento; su tamaño se compara con una sandía mediana. Podés sentir contracciones irregulares, presión pélvica y cansancio. Si aparecen pérdida de líquido, sangrado o menos movimientos, necesitás atención inmediata. En el control conviene conversar sobre tus opciones para el parto y cualquier propuesta de inducción, usando las semanas completas del carné para decidir el momento adecuado.',
@@ -2395,8 +2395,8 @@ return [
     ],
     40 => [
         'title' => 'Semana 40 de embarazo',
-        'seoTitle' => 'Semana 40 de embarazo: tu bebé y vos',
-        'metaDescription' => 'Semana 40 de embarazo en Paraguay: conocé el desarrollo de tu bebé, prepará tus preguntas para el control y seguí esta etapa con Mi Bebé.',
+        'seoTitle' => 'Semana 40 de embarazo: fecha probable de parto',
+        'metaDescription' => 'Tu bebé se compara con una sandía y se acerca la fecha probable de parto. Leé qué pasa si no nace ese día y cómo acordar el seguimiento con tu equipo.',
         'sections' => [
             'bebe' => [
                 'En la semana 40 de embarazo, tu bebé está cerca de la fecha probable de parto y su tamaño se compara con una sandía. Sigue moviéndose y acumulando reservas mientras vos podés sentir más presión, contracciones y ganas de que llegue el nacimiento. La fecha probable es una estimación, no un vencimiento automático. Si pasa y todavía no nació, necesitás un plan de seguimiento acordado con el equipo, con próxima evaluación y pasos definidos.',
@@ -2447,8 +2447,8 @@ return [
     ],
     41 => [
         'title' => 'Semana 41 de embarazo',
-        'seoTitle' => 'Semana 41 de embarazo: tu bebé y vos',
-        'metaDescription' => 'Semana 41 de embarazo en Paraguay: conocé el desarrollo de tu bebé, prepará tus preguntas para el control y seguí esta etapa con Mi Bebé.',
+        'seoTitle' => 'Semana 41 de embarazo: seguimiento tras la fecha',
+        'metaDescription' => 'La referencia es una sandía grande: después de la fecha probable, necesitás un plan. Revisá cuándo se conversa la inducción y qué aporta el monitoreo.',
         'sections' => [
             'bebe' => [
                 'En la semana 41 de embarazo, el tamaño de referencia de tu bebé es una sandía grande. Si ya pasó la fecha probable, lo importante es tener un plan concreto de seguimiento y nacimiento con tu equipo. El bebé debe seguir moviéndose; notar menos actividad requiere atención inmediata. Las páginas 41 y 42 de la app acompañan el tramo alrededor y después de la fecha probable, pero no autorizan a prolongar la espera por tu cuenta.',
@@ -2499,8 +2499,8 @@ return [
     ],
     42 => [
         'title' => 'Semana 42 de embarazo',
-        'seoTitle' => 'Semana 42 de embarazo: tu bebé y vos',
-        'metaDescription' => 'Semana 42 de embarazo en Paraguay: conocé el desarrollo de tu bebé, prepará tus preguntas para el control y seguí esta etapa con Mi Bebé.',
+        'seoTitle' => 'Semana 42 de embarazo: plan de nacimiento hoy',
+        'metaDescription' => 'La referencia es una sandía grande y madura. Si no tenés un plan de nacimiento, contactá hoy a tu maternidad; leé por qué el tamaño no decide la espera.',
         'sections' => [
             'bebe' => [
                 'En la semana 42 de embarazo, tu bebé se compara con una sandía grande y madura, pero el tamaño no decide si conviene seguir esperando. Necesitás un plan de nacimiento y seguimiento cercano del equipo. Si no está definido, contactá hoy a tu servicio de maternidad. La última página de la app no extiende un plazo seguro: la etapa después de la fecha probable, incluido el postérmino, se maneja con evaluación clínica.',
