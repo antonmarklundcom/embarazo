@@ -1,3 +1,3 @@
-<?php require __DIR__ . '/../../lib/bootstrap.php';
-$path = '/trimestre/1/';
-require ROOT_DIR . '/templates/page.php';
+<?php
+$n = 1;
+require __DIR__ . '/../../templates/trimester.php';
