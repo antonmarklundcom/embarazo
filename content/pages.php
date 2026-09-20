@@ -246,8 +246,8 @@ return [
     'h1' => 'Planear',
     'lead' => 'Estamos preparando esta sección para vos.',
     'sections' => [],
-    'stub' => true,
-    'noindex' => true
+    'stub' => false,
+    'noindex' => false
 ],
     '/semana/' => [
     'title' => 'Semana a semana',

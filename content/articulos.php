@@ -4774,4 +4774,327 @@ return [
         'updated' => '2026-09-20',
         'image' => null,
     ],
+    'dias-fertiles' => [
+        'cluster' => 'planear', 'path' => '/planear/dias-fertiles/',
+        'title' => 'Días fértiles: cómo estimar la ventana fértil',
+        'seoTitle' => 'Días fértiles: cómo estimarlos',
+        'metaDescription' => 'Entendé cómo estimar tus días fértiles, qué cambia con ciclos irregulares y por qué el calendario orienta la búsqueda pero no sirve como anticonceptivo.',
+        'kind' => 'medical',
+        'lead' => 'Los días fértiles abarcan aproximadamente los cinco días anteriores a la ovulación y el día en que ocurre. La fecha cambia entre personas y entre ciclos: no siempre es el día 14. Un calendario ayuda a estimar esa ventana, pero no confirma la ovulación. Las estimaciones de ventana fértil no son un método anticonceptivo. Si buscás un embarazo, conocer el ciclo puede orientar las relaciones sin convertirlas en una obligación.',
+        'sections' => [
+            ['h2' => 'Por qué hay varios días fértiles', 'body' => [
+                'La ovulación es la liberación de un óvulo desde el ovario. Después de salir, el óvulo suele poder fecundarse durante unas 12 a 24 horas. Los espermatozoides pueden sobrevivir varios días dentro del aparato reproductor cuando las condiciones son favorables. Por eso una relación anterior a la ovulación puede dar lugar a un embarazo: ambos no necesitan llegar al mismo tiempo. Esa diferencia explica por qué hablamos de una ventana y no de una única fecha.',
+                'Los días cercanos y anteriores a la ovulación suelen concentrar las mayores posibilidades, pero ningún día marcado garantiza un embarazo. Tampoco un día que aparece fuera de la ventana permite descartar esa posibilidad. El calendario trabaja con fechas pasadas y una predicción del ciclo actual; una ovulación que se adelanta o se atrasa cambia el cálculo. Si querés evitar un embarazo, conversá sobre anticoncepción y no uses estas estimaciones para decidir cuándo prescindir de protección.'
+            ], 'items' => [], 'table' => null],
+            ['h2' => 'Cómo contar tu ciclo sin confundir las fechas', 'body' => [
+                'El día uno es el primer día de la menstruación. La duración del ciclo se cuenta desde ese inicio hasta el día anterior a la siguiente menstruación. No es la cantidad de días que sangrás. Por ejemplo, si una regla empieza el 1 y la siguiente el 29 del mismo mes, el ciclo anterior duró 28 días. Anotar ambos inicios resulta más útil que recordar solamente cuándo terminó el sangrado.',
+                'Registrá varios ciclos si tenés esos datos y mirá cuánto varían, además del promedio. Un promedio de 28 días puede esconder ciclos bastante distintos. Si no recordás una fecha, dejala como desconocida en vez de completarla de memoria. Podés conocer el [calendario de ovulación](/calendario-de-ovulacion/) para orientar el cálculo, manteniendo presente que el resultado expresa una estimación. La regularidad ayuda a predecir, pero no demuestra que todos los meses haya ocurrido ovulación.'
+            ], 'items' => [], 'table' => null],
+            ['h2' => 'Qué significa restar días a la próxima regla', 'body' => [
+                'Muchos cálculos ubican la ovulación aproximadamente dos semanas antes de la siguiente menstruación. Es una referencia: el intervalo también varía. Además, cuando todavía no llegó la próxima regla, su fecha es una predicción. Restar catorce días a una fecha incierta no transforma el resultado en un dato confirmado. Un ciclo más largo suele desplazar la estimación hacia adelante; uno más corto, hacia atrás.',
+                'Esta tabla muestra ejemplos didácticos contando desde el primer día de sangrado. No es una indicación de relaciones ni una clasificación de días seguros. La ventana real puede quedar fuera de los días mostrados, incluso si los meses anteriores fueron parecidos. Si tu ciclo cambia mucho, es preferible llevar el registro a una consulta que seguir ajustando una fórmula hasta obtener una fecha que parezca exacta.'
+            ], 'items' => [], 'table' => ['head' => ['Duración supuesta', 'Ovulación estimada', 'Ventana aproximada'], 'rows' => [
+                ['26 días', 'Día 12', 'Días 7 a 12'], ['28 días', 'Día 14', 'Días 9 a 14'], ['32 días', 'Día 18', 'Días 13 a 18']
+            ]]],
+            ['h2' => 'Moco cervical, temperatura y tests de ovulación', 'body' => [
+                'Cerca de la ovulación, algunas personas notan secreción más transparente, elástica y resbaladiza. Es una observación posible, no una prueba por sí sola. El semen, algunos productos vaginales y las infecciones pueden cambiar el aspecto de la secreción. Si aparece picazón, olor fuerte o dolor, explicalo al equipo de salud; no lo interpretes como una señal de fertilidad. No necesitás hacer exploraciones internas para usar un calendario.',
+                'La temperatura basal puede subir ligeramente después de la ovulación, pero el sueño interrumpido, una enfermedad y distintos horarios dificultan interpretarla. Los tests de ovulación detectan cambios hormonales que pueden precederla; no son tests de embarazo ni certifican que el óvulo haya sido liberado. Si usás uno, seguí las instrucciones del producto y consultá resultados difíciles de interpretar. Combinar registros puede aportar contexto, aunque también aumentar la carga si terminás vigilando el cuerpo todo el día.'
+            ], 'items' => [], 'table' => null],
+            ['h2' => 'Buscar sin depender de un único día', 'body' => [
+                'Si llevás tus registros a una consulta, señalá qué fechas corresponden a menstruaciones observadas y cuáles eran predicciones. Podés agregar si ese mes estuviste enferma, viajaste o cambiaste horarios, sin asumir que eso explica cualquier variación. Mostrá también el rango de duraciones, no solo el promedio. Así el equipo puede interpretar la incertidumbre del calendario y decidir si necesita más información. Una captura con un día coloreado, por sí sola, no cuenta toda la historia del ciclo.',
+                'Si tienen relaciones vaginales para buscar un embarazo, una frecuencia regular a lo largo del ciclo puede evitar depender de acertar una fecha. Algunas parejas eligen relaciones cada dos o tres días; otras prefieren orientarse por la ventana estimada. Busquen una frecuencia que ambos quieran y puedan sostener. No hace falta cumplir horarios ni continuar si hay dolor, cansancio o falta de deseo. El consentimiento y el bienestar siguen siendo parte de la búsqueda.',
+                'Después de suspender anticonceptivos, durante la lactancia o con ciclos muy variables, las predicciones pueden ser menos útiles. La ausencia de menstruación tampoco asegura ausencia de ovulación. Consultá si las reglas desaparecen, el dolor interfiere con tu vida o la irregularidad te preocupa. En [cuándo consultar si no llega el embarazo](/planear/si-no-llega-el-embarazo/) encontrás cómo influyen el tiempo de búsqueda y los antecedentes. La consulta puede hacerse antes de cumplir un plazo si necesitás orientación.',
+                'Un atraso se evalúa con una prueba, no repasando el calendario para decidir si era posible concebir. Leé [cuándo hacer un test de embarazo](/planear/test-de-embarazo-cuando/). Si hay dolor abdominal intenso, desmayo o sangrado abundante, buscá atención urgente aunque una prueba haya salido negativa; revisá [las señales de alarma](/salud/senales-de-alarma/). Llevar las fechas ayuda a explicar lo ocurrido, pero no debe demorar la atención.'
+            ], 'items' => [], 'table' => null]
+        ],
+        'steps' => [
+            ['title' => 'Anotá el inicio de cada menstruación', 'body' => ['Diferenciá el primer día de regla de un manchado aislado y marcá cualquier fecha dudosa.']],
+            ['title' => 'Observá la variación entre ciclos', 'body' => ['Compará las duraciones sin asumir que el promedio será idéntico al próximo ciclo.']],
+            ['title' => 'Usá la estimación como orientación', 'body' => ['Elegí cómo organizar la búsqueda y llevá tus dudas sobre irregularidad o dolor a la consulta.']]
+        ],
+        'appHandoff' => ['text' => 'El modo de planificación de Mi Bebé incluye calendario menstrual y estimación de la ventana fértil. Podés reunir tus fechas para conversar sobre el ciclo; la estimación no confirma ovulación ni sirve como anticoncepción.', 'medium' => 'article', 'extra' => ['modo' => 'planeando']],
+        'faq' => [
+            ['q' => '¿Siempre se ovula el día 14?', 'a' => 'No. Es un ejemplo frecuente para un ciclo supuesto de 28 días. La ovulación puede cambiar incluso con menstruaciones regulares.'],
+            ['q' => '¿Puedo quedar embarazada fuera de lo que marca el calendario?', 'a' => 'Sí. La fecha estimada puede no coincidir con la real. No uses el calendario como anticonceptivo.'],
+            ['q' => '¿El test de ovulación confirma un embarazo?', 'a' => 'No. Detecta un cambio hormonal distinto. Para evaluar un posible embarazo necesitás una prueba de embarazo.'],
+            ['q' => '¿Necesito registrar todos los signos?', 'a' => 'No. Un registro simple puede alcanzar para preparar la consulta. Si observar cada señal te genera angustia, podés simplificarlo.']
+        ],
+        'related' => ['test-de-embarazo-cuando', 'checklist-preconcepcion', 'si-no-llega-el-embarazo'],
+        'weeks' => [1, 2, 3], 'appGuideSlug' => null, 'guarani' => [], 'reviewedBy' => null, 'reviewedAt' => null, 'validAsOf' => null,
+        'sources' => [
+            ['title' => 'Orientaciones sobre salud sexual y reproductiva y fertilidad', 'publisher' => 'Organización Mundial de la Salud (OMS)', 'url' => null, 'accessed' => null],
+            ['title' => 'Orientaciones sobre planificación familiar y atención preconcepcional', 'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)', 'url' => null, 'accessed' => null]
+        ], 'updated' => '2026-09-20', 'image' => null
+    ],
+    'test-de-embarazo-cuando' => [
+        'cluster' => 'planear', 'path' => '/planear/test-de-embarazo-cuando/',
+        'title' => 'Test de embarazo: cuándo hacerlo y cómo leerlo', 'seoTitle' => 'Test de embarazo: cuándo hacerlo',
+        'metaDescription' => 'Conocé cuándo hacer un test de embarazo, cómo leer un resultado negativo o dudoso y qué pasos seguir si hay atraso, síntomas o una prueba positiva.',
+        'kind' => 'medical',
+        'lead' => 'Podés hacer un test de embarazo en orina desde el primer día de atraso menstrual. Si no sabés cuándo tendría que venirte, una referencia útil es hacerlo al menos tres semanas después de la relación sin protección que querés evaluar. Una prueba demasiado temprana puede dar negativa aunque exista embarazo. Seguí las instrucciones del envase: el tiempo de lectura y la forma de usarlo cambian entre productos.',
+        'sections' => [
+            ['h2' => 'Qué detecta la prueba y por qué importa el momento', 'body' => [
+                'Los tests buscan una hormona llamada gonadotropina coriónica humana, o hCG, que empieza a aumentar después de la implantación. No detectan la relación sexual, la fecundación en ese mismo momento ni los síntomas que sentís. Hace falta que la cantidad de hormona alcance lo que la prueba puede reconocer. Por eso hacerla al día siguiente de una relación no permite saber si de esa relación resultó un embarazo.',
+                'La fecha de ovulación puede moverse y hacer que un atraso calculado con el calendario sea menos claro. Aunque un envase anuncie detección temprana, un resultado negativo antes de la fecha esperada de menstruación es menos concluyente. Si no tenés una fecha confiable, la referencia de tres semanas desde la relación ayuda a ordenar la decisión. Si hubo otras relaciones posteriores, el resultado no descarta un embarazo originado en esas fechas más recientes.'
+            ], 'items' => [], 'table' => null],
+            ['h2' => 'Cuándo hacerlo según tu situación', 'body' => [
+                'Elegí la fila que más se parece a tu situación y revisá también las instrucciones del producto. Tener náuseas o sensibilidad en los pechos no obliga a adelantar la prueba: esos cambios tienen otras causas. Si hay molestias importantes, la consulta puede ser necesaria independientemente del calendario. El test responde una pregunta concreta sobre la detección de hormona; no evalúa por sí solo tu estado de salud.',
+                'Con un resultado negativo y sin menstruación, puede ser razonable repetir la prueba unos días después, de acuerdo con sus instrucciones, o consultar para definir el siguiente paso. No conviertas esa repetición en una condición para pedir ayuda. Si el atraso persiste o los ciclos suelen ser difíciles de interpretar, el equipo puede evaluar otras causas y decidir si corresponde una prueba en sangre u otro estudio.'
+            ], 'items' => [], 'table' => ['head' => ['Situación', 'Referencia práctica'], 'rows' => [
+                ['Ciclo habitual y menstruación atrasada', 'Desde el primer día de atraso.'],
+                ['No conocés la fecha esperada', 'Al menos tres semanas desde la relación a evaluar.'],
+                ['Negativo antes del atraso', 'Puede ser temprano; repetí según las instrucciones.'],
+                ['Negativo y atraso persistente', 'Consultá para revisar fechas y próximos pasos.'],
+                ['Dolor intenso, desmayo o sangrado abundante', 'Atención urgente, sin esperar otra prueba.']
+            ]]],
+            ['h2' => 'Prepará la prueba para evitar errores de uso', 'body' => [
+                'Antes de abrirla, mirá el vencimiento, el estado del envoltorio y cómo se conservó. Leé si se usa directamente con el chorro de orina o con una muestra en un recipiente. Usá un recipiente limpio si el producto lo pide. No improvises una cantidad de gotas o un tiempo de inmersión: son detalles que dependen del diseño. Tené a mano un reloj para respetar la ventana de lectura.',
+                'La primera orina de la mañana puede ayudar cuando estás cerca del momento mínimo de detección, porque suele estar más concentrada. Evitá tomar mucha agua solamente para conseguir orinar antes del test; puede diluir la muestra. Esto no significa que debas pasar sed. Una vez hecho, dejalo como indica el envase y leelo en el intervalo indicado. Guardar una foto puede servir para comentar una duda, pero no reemplaza la lectura a tiempo.'
+            ], 'items' => [], 'table' => null],
+            ['h2' => 'Positivo, negativo o inválido no significan lo mismo', 'body' => [
+                'El indicador de control muestra si la prueba funcionó. Si no aparece como corresponde, el resultado es inválido aunque veas otra marca. Necesitás una prueba nueva o una evaluación en el servicio de salud. En los tests de líneas, una segunda línea tenue dentro del tiempo indicado suele interpretarse según el esquema de positivo del fabricante. Una marca que aparece mucho después no se debe reinterpretar como un resultado válido.',
+                'Un positivo suele indicar embarazo y es motivo para organizar la atención prenatal. No permite establecer cuántas semanas tenés, dónde está ubicado el embarazo ni cómo evoluciona. La intensidad de la línea no es una herramienta para seguir el crecimiento. Si recibís tratamiento de fertilidad, hubo un embarazo reciente o tomás medicación que podría afectar el resultado, comentá esos antecedentes. El equipo puede ayudarte a interpretar el test sin sacar conclusiones de una fotografía aislada.'
+            ], 'items' => [], 'table' => null],
+            ['h2' => 'Qué hacer después del resultado', 'body' => [
+                'Para explicar una prueba dudosa, anotá la fecha y la hora en que la hiciste, si apareció el indicador de control y dentro de cuánto tiempo viste el resultado. Conservá las instrucciones para saber qué significaba cada símbolo. Si consultás por teléfono, describí esos datos en vez de decir solamente que salió raro. Una prueba vencida o leída fuera del intervalo necesita resolverse con una nueva evaluación, no comparando su aspecto con imágenes de otros tests en internet.',
+                'Con una prueba positiva, anotá el inicio de tu última menstruación si lo sabés y solicitá una consulta. Llevá la lista de medicamentos y suplementos que usás; no suspendas tratamientos por tu cuenta. Podés leer sobre [ácido fólico y planificación](/planear/acido-folico/) para preparar esa conversación. Si las fechas son inciertas, decilo: no hace falta inventar una última regla para que el equipo empiece a orientarte.',
+                'Con una prueba negativa, separá la decepción de lo que ese resultado puede decir. Quizás no haya embarazo o quizás todavía sea temprano. Hacer varias pruebas el mismo día suele agregar gasto y ansiedad sin aclarar esa diferencia. Anotá cuándo la hiciste y qué relación o atraso estabas evaluando. La guía de [primeros síntomas](/planear/primeros-sintomas/) explica por qué las sensaciones del cuerpo no resuelven por sí solas la duda.',
+                'Si aparece dolor abdominal fuerte, especialmente de un lado, desmayo, dolor en el hombro asociado a malestar o sangrado abundante, buscá atención urgente aunque el resultado sea negativo. Un test casero no descarta todas las causas de esos síntomas. Tené presentes [las señales de alarma](/salud/senales-de-alarma/). Si estás sola y te sentís débil, pedí acompañamiento; no esperes a que otra prueba te dé permiso para consultar.'
+            ], 'items' => [], 'table' => null]
+        ],
+        'steps' => [
+            ['title' => 'Ubicá la fecha', 'body' => ['Anotá el atraso o la fecha de la relación que querés evaluar.']],
+            ['title' => 'Seguí el envase', 'body' => ['Revisá vencimiento, forma de aplicación, indicador de control y tiempo de lectura.']],
+            ['title' => 'Decidí el próximo paso', 'body' => ['Organizá consulta ante un positivo o dudas persistentes; ante alarmas, buscá atención urgente.']]
+        ],
+        'appHandoff' => ['text' => 'El calendario menstrual del modo planeando de Mi Bebé puede ayudarte a ordenar las fechas que vas a llevar a la consulta. Para interpretar una prueba necesitás sus instrucciones y, si quedan dudas, orientación del equipo de salud.', 'medium' => 'article', 'extra' => ['modo' => 'planeando']],
+        'faq' => [
+            ['q' => '¿Un negativo antes del atraso descarta embarazo?', 'a' => 'No. Puede faltar hormona detectable. Repetí según el momento del ciclo y las instrucciones, o consultá si tenés dudas.'],
+            ['q' => '¿Una línea muy clarita cuenta?', 'a' => 'Si aparece dentro del tiempo de lectura y el control es válido, interpretala con el esquema del fabricante. Una marca tardía no sirve para confirmar.'],
+            ['q' => '¿Siempre necesito un análisis de sangre?', 'a' => 'No siempre. Su necesidad depende del resultado, las fechas y los síntomas; lo decide el equipo que te atiende.'],
+            ['q' => '¿Puedo saber las semanas por la intensidad de la línea?', 'a' => 'No. La intensidad no permite fechar ni evaluar la evolución del embarazo.']
+        ],
+        'related' => ['primeros-sintomas', 'acido-folico', 'dias-fertiles'], 'weeks' => [4, 5, 6],
+        'appGuideSlug' => null, 'guarani' => [], 'reviewedBy' => null, 'reviewedAt' => null, 'validAsOf' => null,
+        'sources' => [
+            ['title' => 'Recomendaciones de la OMS sobre atención prenatal para una experiencia positiva del embarazo', 'publisher' => 'Organización Mundial de la Salud (OMS)', 'url' => null, 'accessed' => null],
+            ['title' => 'Orientaciones sobre atención preconcepcional y control prenatal', 'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)', 'url' => null, 'accessed' => null],
+            ['title' => 'Doing a pregnancy test', 'publisher' => 'National Health Service (NHS)', 'url' => null, 'accessed' => null]
+        ], 'updated' => '2026-09-20', 'image' => null
+    ],
+    'primeros-sintomas' => [
+        'cluster' => 'planear', 'path' => '/planear/primeros-sintomas/',
+        'title' => 'Primeros síntomas de embarazo: qué podés notar', 'seoTitle' => 'Primeros síntomas de embarazo',
+        'metaDescription' => 'Atraso, cansancio, náuseas o pechos sensibles: conocé qué pueden significar los primeros síntomas de embarazo y cuándo hacer un test o consultar.',
+        'kind' => 'medical',
+        'lead' => 'El atraso menstrual, el cansancio, las náuseas y la sensibilidad en los pechos pueden aparecer al inicio del embarazo, pero también tienen otras causas. Algunas personas no notan cambios. Los síntomas no confirman ni descartan un embarazo: para salir de la duda, hacé un test en el momento adecuado. Si hay dolor intenso, desmayo o sangrado abundante, buscá atención urgente sin esperar un resultado.',
+        'sections' => [
+            ['h2' => 'El atraso es una pista, no una confirmación', 'body' => [
+                'Si tus ciclos suelen ser regulares, que no llegue la menstruación en la fecha habitual puede ser el primer cambio que te llame la atención. Aun así, el estrés, una enfermedad, cambios de rutina y variaciones de la ovulación pueden modificar esa fecha. Con ciclos irregulares, la comparación es más difícil. Lo útil es anotar el inicio de la última regla y distinguir una fecha recordada de una fecha calculada por una aplicación.',
+                'Un sangrado más corto o leve de lo habitual tampoco confirma qué pasó. A veces se llama sangrado de implantación a cualquier manchado durante la búsqueda, pero el color, la cantidad o el día no permiten atribuirle esa causa. Si existe posibilidad de embarazo, considerá una prueba según las fechas. Si el sangrado se acompaña de dolor o te preocupa, consultá; no lo des por esperado solamente porque leíste una descripción parecida.'
+            ], 'items' => [], 'table' => null],
+            ['h2' => 'Cansancio y cambios en los pechos', 'body' => [
+                'Podés sentir más sueño, menos energía o necesidad de hacer pausas en actividades que antes resultaban fáciles. Los cambios hormonales del embarazo pueden contribuir, pero dormir poco, una infección y otros problemas también causan cansancio. Observá cuánto afecta tu día: no es lo mismo querer acostarte antes que no poder realizar tareas habituales por falta de aire o debilidad. Explicar esa diferencia ayuda más en la consulta que decir solamente que estás cansada.',
+                'Los pechos pueden sentirse sensibles, más llenos o incómodos con el roce. Es una sensación que también aparece antes de la menstruación, así que no sirve para diferenciar ambas situaciones. Un sostén cómodo y evitar presión pueden aliviar la molestia. Un bulto nuevo, una zona roja y caliente o dolor localizado persistente merecen evaluación. No necesitás apretar los pechos ni revisar el tamaño varias veces al día para comprobar si hay embarazo.'
+            ], 'items' => [], 'table' => null],
+            ['h2' => 'Náuseas, olores y cambios digestivos', 'body' => [
+                'Las náuseas pueden empezar en las primeras semanas después del atraso, aunque el momento varía bastante. Pueden ocurrir a cualquier hora y no todas las personas las tienen. Olores que antes tolerabas pueden resultar desagradables, y algunas comidas pueden dejar de apetecerte. Esto no permite saber el sexo del bebé ni medir cómo evoluciona un embarazo. Tampoco la ausencia de náuseas significa que algo esté mal.',
+                'Si las molestias son leves, puede ayudarte comer porciones pequeñas, elegir preparaciones que toleres y tomar líquidos en sorbos. No te fuerces a comer un alimento porque alguien dice que evita las náuseas. Si vomitás repetidamente, no conseguís retener líquidos, orinás muy poco o sentís mareos importantes, necesitás atención. Evitá automedicarte o probar yuyos para cortar el vómito; comentá qué tomaste si ya usaste algún producto.'
+            ], 'items' => [], 'table' => null],
+            ['h2' => 'Síntomas parecidos pueden tener explicaciones distintas', 'body' => [
+                'La hinchazón abdominal, los cambios de apetito y las variaciones de ánimo pueden aparecer tanto antes de la regla como durante un embarazo temprano. Buscar diferencias muy pequeñas entre este mes y el anterior suele dejar más dudas. La tabla ayuda a separar una observación de una conclusión: sentir algo es real, pero no demuestra una causa. La pregunta siguiente es qué fecha tenés y si hay una molestia que necesita evaluación.',
+                'Orinar más seguido puede ocurrir durante el embarazo. Si además hay ardor, dolor, fiebre o malestar, no lo atribuyas al embarazo: puede requerir evaluación por una infección urinaria u otra causa. Del mismo modo, una molestia abdominal leve no explica un dolor que aumenta o se concentra en un lado. Describí dónde duele, cuándo empezó y si te impide moverte o descansar.'
+            ], 'items' => [], 'table' => ['head' => ['Cambio que notás', 'Qué conviene recordar'], 'rows' => [
+                ['Pechos sensibles', 'También ocurre antes de la menstruación.'],
+                ['Náuseas', 'Pueden faltar; no confirman embarazo.'],
+                ['Hinchazón o apetito distinto', 'Se superpone con cambios del ciclo y digestivos.'],
+                ['Más ganas de orinar', 'Ardor o fiebre requieren consulta.'],
+                ['Ningún síntoma', 'No descarta embarazo; importan las fechas y el test.']
+            ]]],
+            ['h2' => 'Cómo salir de la duda sin vigilarte todo el día', 'body' => [
+                'Si vas a consultar por una molestia, registrá cuándo empezó, si es continua o aparece por momentos y qué actividades te impide hacer. Para los vómitos, puede ser útil contar si conseguís beber y orinar; para el dolor, señalar la zona y si aumenta. Esa descripción orienta mejor que una lista de supuestos síntomas de embarazo. Incluí también fiebre, medicamentos recientes y enfermedades de estos días, porque el equipo necesita considerar otras explicaciones además de un posible embarazo.',
+                'Si ya hay atraso, revisá [cuándo hacer un test de embarazo](/planear/test-de-embarazo-cuando/). Si no conocés la fecha esperada de la regla, esa guía también explica cómo orientarte desde la relación sin protección. La prueba aporta información que una lista de síntomas no puede dar. Podés elegir un momento tranquilo y decidir antes con quién querés hablar del resultado, sin obligación de compartirlo con otras personas.',
+                'Si todavía no es momento de hacer la prueba, seguí con cuidados de preconcepción y consultá sobre medicamentos que uses. La [lista para preparar un embarazo](/planear/checklist-preconcepcion/) ayuda a priorizar temas concretos. Un registro breve de síntomas puede servir si necesitás consulta; no hace falta puntuar cada sensación. Si la búsqueda ocupa todo tu día o altera el sueño, pedir apoyo emocional también es una forma de cuidarte.',
+                'Una prueba positiva sin síntomas puede corresponder a un embarazo temprano, y una prueba negativa con muchas molestias necesita interpretarse según su fecha y tu situación. Ninguna de esas combinaciones permite hacer un diagnóstico por internet. Ante dolor fuerte, desmayo, dificultad para respirar o sangrado abundante, buscá atención inmediata. Leé [las señales de alarma](/salud/senales-de-alarma/) para reconocer cuándo la prioridad es que te evalúen, no reunir más señales.'
+            ], 'items' => [], 'table' => null]
+        ],
+        'steps' => [],
+        'appHandoff' => ['text' => 'En el modo planeando de Mi Bebé tenés un calendario menstrual y una lista de preconcepción. Usalos para ordenar fechas y preguntas mientras buscás; las sensaciones del cuerpo necesitan contexto y una prueba cuando corresponde.', 'medium' => 'article', 'extra' => ['modo' => 'planeando']],
+        'faq' => [
+            ['q' => '¿Puedo estar embarazada sin síntomas?', 'a' => 'Sí. Algunas personas notan pocos cambios al principio. La ausencia de síntomas no reemplaza un test.'],
+            ['q' => '¿Se sienten síntomas al día siguiente de una relación?', 'a' => 'Las sensaciones de ese momento no permiten reconocer un embarazo originado en esa relación. La detección requiere tiempo.'],
+            ['q' => '¿Las náuseas solo aparecen de mañana?', 'a' => 'No. Pueden aparecer en distintos momentos del día, y también pueden faltar.'],
+            ['q' => '¿Un manchado rosado confirma implantación?', 'a' => 'No. Su aspecto no identifica la causa. Considerá las fechas para el test y consultá si hay dolor, sangrado que aumenta o preocupación.']
+        ],
+        'related' => ['test-de-embarazo-cuando', 'checklist-preconcepcion', 'acido-folico'], 'weeks' => [4, 5, 6, 7, 8],
+        'appGuideSlug' => null, 'guarani' => [], 'reviewedBy' => null, 'reviewedAt' => null, 'validAsOf' => null,
+        'sources' => [
+            ['title' => 'Recomendaciones de la OMS sobre atención prenatal para una experiencia positiva del embarazo', 'publisher' => 'Organización Mundial de la Salud (OMS)', 'url' => null, 'accessed' => null],
+            ['title' => 'Orientaciones sobre síntomas y cuidados en el control prenatal', 'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)', 'url' => null, 'accessed' => null]
+        ], 'updated' => '2026-09-20', 'image' => null
+    ],
+    'acido-folico' => [
+        'cluster' => 'planear', 'path' => '/planear/acido-folico/',
+        'title' => 'Ácido fólico antes del embarazo: qué consultar', 'seoTitle' => 'Ácido fólico antes del embarazo',
+        'metaDescription' => 'Entendé para qué sirve el ácido fólico antes del embarazo y qué conversar con tu equipo sobre suplementos, alimentación, antecedentes y continuidad.',
+        'kind' => 'medical',
+        'lead' => 'El ácido fólico se recomienda al planear un embarazo porque ayuda a reducir el riesgo de defectos del tubo neural, que se forma muy temprano. Conviene conversar sobre la suplementación antes de empezar la búsqueda, sin esperar un test positivo. El equipo de salud define la indicación según tus antecedentes y lo que ya tomás. Comer variado aporta folatos, pero no sustituye esa conversación sobre el suplemento.',
+        'sections' => [
+            ['h2' => 'Para qué sirve y por qué se habla de empezar antes', 'body' => [
+                'El folato es una vitamina del grupo B que participa en la formación de células y material genético. El ácido fólico es una forma utilizada en suplementos y alimentos fortificados. Durante el desarrollo inicial, el tubo neural dará origen al cerebro y la médula espinal. Su formación ocurre tan temprano que puede coincidir con un momento en que todavía no sabés que estás embarazada. Por eso la preparación empieza antes del atraso.',
+                'La suplementación recomendada busca reducir un riesgo; no puede asegurar por sí sola que no haya ningún problema del desarrollo. Tampoco es un tratamiento para lograr ovular o conseguir embarazo más rápido. Separar esos objetivos evita cargar al suplemento con promesas que no tiene. Si estás organizando la búsqueda, sumá este tema a la [consulta de preconcepción](/planear/checklist-preconcepcion/) junto con medicamentos, vacunas y antecedentes.'
+            ], 'items' => [], 'table' => null],
+            ['h2' => 'Qué necesita saber el equipo para orientarte', 'body' => [
+                'Contá si hubo un embarazo previo con un defecto del tubo neural, si tenés enfermedades crónicas, una cirugía digestiva o dificultades de absorción. Mencioná también tratamientos para epilepsia u otras condiciones, aunque lleves años usándolos sin cambios. Esos antecedentes pueden modificar la indicación y el seguimiento. No suspendas una medicación para reemplazarla por ácido fólico: el control de tu enfermedad también forma parte de preparar un embarazo.',
+                'Llevá los envases o fotos legibles de todos los suplementos que tomás. Un producto para el pelo, un multivitamínico y uno prenatal pueden compartir ingredientes aunque tengan nombres distintos. La información útil es la etiqueta completa, no solamente la marca. Si no conocés un producto, anotá dónde lo obtuviste y cómo lo venís usando. Eso permite revisar duplicaciones e interacciones sin suponer que todo lo vendido como natural es apropiado.'
+            ], 'items' => [], 'table' => null],
+            ['h2' => 'Cómo conversar sobre el producto y la continuidad', 'body' => [
+                'Al revisar una etiqueta, distinguí el nombre comercial de la lista de ingredientes. Dos cajas que dicen prenatal no necesariamente contienen lo mismo, y una presentación nueva puede diferir de la que ya conocías. Si te ofrecen una sustitución, preguntá si coincide con lo indicado antes de comprarla. Podés llevar una foto a la consulta o a la farmacia para aclararlo. El precio, el tamaño del envase o una publicidad de fertilidad no permiten decidir cuál corresponde a tu situación.',
+                'Preguntá qué suplemento corresponde, cuándo empezarlo, durante cuánto tiempo mantenerlo y cómo combinarlo con otros tratamientos. La recomendación individual puede cambiar según el riesgo y el momento del embarazo. Si recibís indicaciones de dos profesionales, llevá ambas para que se coordinen. No sumes productos por tu cuenta pensando que una cantidad mayor necesariamente protege más. El objetivo es tener una pauta entendida y posible de sostener.',
+                'Si el producto indicado te produce molestias, tenés dificultad para tragarlo o no podés conseguirlo, explicalo. El equipo o el profesional farmacéutico puede ayudarte a revisar opciones dentro de la indicación. No hace falta ocultar que una pauta no se está pudiendo cumplir. Preguntá también qué hacer ante un olvido y dónde consultar dudas. Evitá compensarlo duplicando la toma por tu cuenta o copiando las instrucciones de otra persona.'
+            ], 'items' => [
+                ['title' => 'Indicación clara', 'text' => 'Anotá el nombre del producto que te indiquen y verificá que entendiste cómo usarlo.'],
+                ['title' => 'Revisión de lo que ya tomás', 'text' => 'Mostrá multivitamínicos, suplementos, medicamentos y preparados herbales.'],
+                ['title' => 'Próxima revisión', 'text' => 'Preguntá cuándo volver a conversar la continuidad si hay embarazo o cambia tu tratamiento.']
+            ], 'table' => null],
+            ['h2' => 'Los folatos en la alimentación cotidiana', 'body' => [
+                'Las verduras de hoja, las legumbres y algunas frutas aportan folatos. Podés incorporarlos en comidas habituales: porotos con verduras, lentejas, ensaladas bien lavadas y frutas disponibles según la estación. Variar ayuda a sumar otros nutrientes importantes. Si un alimento te cae mal o no es accesible, no necesitás forzarlo como si fuera la única fuente. La alimentación se organiza con alternativas, preferencias y posibilidades reales.',
+                'Lavá los vegetales con agua segura, separá alimentos crudos de los listos para comer y conservá las preparaciones de manera adecuada. Estas medidas importan tanto durante la búsqueda como después de un positivo. No necesitás jugos especiales, limpiezas ni combinaciones costosas para preparar el cuerpo. La [guía de alimentación](/alimentacion/) reúne temas cotidianos. El aporte de la comida acompaña la suplementación indicada; no permite calcular por tu cuenta que ya está cubierta una necesidad individual.'
+            ], 'items' => [], 'table' => null],
+            ['h2' => 'Si el embarazo llegó antes de esta conversación', 'body' => [
+                'Si recién supiste que estás embarazada y no habías tomado ácido fólico, pedí orientación para empezar el cuidado prenatal. Esa situación es frecuente y no permite concluir que haya ocurrido un problema. Contá cuándo fue tu última menstruación y qué suplementos o medicamentos usaste. El equipo podrá indicar qué corresponde ahora y organizar los controles. La consulta sirve para actuar desde el presente, no para reconstruir cada comida con culpa.',
+                'Si el test todavía no es claro, revisá [cuándo hacer la prueba de embarazo](/planear/test-de-embarazo-cuando/) y mantené la conversación de preconcepción. No necesitás una confirmación para preguntar por suplementación. También podés consultar si la búsqueda se prolonga: el seguimiento permite revisar que el producto siga siendo adecuado y que no se hayan agregado otros ingredientes por recomendaciones informales. Una pauta antigua merece revisión cuando cambia tu salud.',
+                'El ácido fólico no trata un dolor abdominal, una hemorragia ni vómitos persistentes. Si aparece una molestia nueva, explicá cuándo empezó y qué productos tomaste, sin atribuirla automáticamente al suplemento. Ante desmayo, sangrado abundante o dolor intenso, buscá atención urgente y consultá [las señales de alarma](/salud/senales-de-alarma/). Llevar el envase puede ayudar al equipo; no retrases la salida para encontrarlo si necesitás atención.'
+            ], 'items' => [], 'table' => null]
+        ],
+        'steps' => [
+            ['title' => 'Reuní tus antecedentes y envases', 'body' => ['Incluí suplementos que no considerabas medicamentos y tratamientos de uso ocasional.']],
+            ['title' => 'Pedí una indicación individual', 'body' => ['Conversá sobre inicio, producto, continuidad y qué hacer si no lo tolerás.']],
+            ['title' => 'Revisá la pauta cuando cambie tu situación', 'body' => ['Avisá si confirmás embarazo, empezás otra medicación o aparecen dificultades para seguir la indicación.']]
+        ],
+        'appHandoff' => ['text' => 'La lista de preconcepción de Mi Bebé te ayuda a tener presente la conversación sobre ácido fólico. Abrí el modo planeando para organizar la preparación; la indicación del suplemento la define tu equipo.', 'medium' => 'article', 'extra' => ['modo' => 'planeando']],
+        'faq' => [
+            ['q' => '¿Tengo que esperar un positivo para preguntar?', 'a' => 'No. Conviene conversar antes de buscar, porque el desarrollo del tubo neural ocurre muy temprano.'],
+            ['q' => '¿Sirve para quedar embarazada más rápido?', 'a' => 'No es un tratamiento de fertilidad. Su recomendación se relaciona con reducir el riesgo de defectos del tubo neural.'],
+            ['q' => '¿Comer verduras reemplaza el suplemento?', 'a' => 'La alimentación aporta folatos, pero no reemplaza la recomendación de suplementación que corresponde conversar con el equipo.'],
+            ['q' => '¿Puedo combinar dos vitaminas prenatales?', 'a' => 'No las combines por tu cuenta. Pueden repetir ingredientes; llevá las etiquetas para revisar qué necesitás.']
+        ],
+        'related' => ['checklist-preconcepcion', 'test-de-embarazo-cuando', 'si-no-llega-el-embarazo'], 'weeks' => [1, 2, 3, 4, 5, 6],
+        'appGuideSlug' => null, 'guarani' => [], 'reviewedBy' => null, 'reviewedAt' => null, 'validAsOf' => null,
+        'sources' => [
+            ['title' => 'Orientaciones sobre suplementación con ácido fólico antes y durante el embarazo', 'publisher' => 'Organización Mundial de la Salud (OMS)', 'url' => null, 'accessed' => null],
+            ['title' => 'Orientaciones sobre atención preconcepcional, nutrición y control prenatal', 'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)', 'url' => null, 'accessed' => null]
+        ], 'updated' => '2026-09-20', 'image' => null
+    ],
+    'checklist-preconcepcion' => [
+        'cluster' => 'planear', 'path' => '/planear/checklist-preconcepcion/',
+        'title' => 'Checklist de preconcepción: cómo preparar la consulta', 'seoTitle' => 'Checklist para preparar un embarazo',
+        'metaDescription' => 'Prepará tu consulta antes del embarazo: antecedentes, medicamentos, vacunas, ácido fólico y hábitos, con una lista práctica para ordenar tus preguntas.',
+        'kind' => 'medical',
+        'lead' => 'Para preparar un embarazo, empezá por una consulta de preconcepción: revisá antecedentes, medicamentos, vacunas, ácido fólico y hábitos con tu equipo de salud. Llevá lo que ya tengas, sin esperar a completar una carpeta perfecta. Una lista ayuda a priorizar cambios y preguntas; no es un examen que debas aprobar antes de buscar. Si ya hay posibilidad de embarazo, avisalo desde el comienzo.',
+        'sections' => [
+            ['h2' => 'Primero, contá tu historia de salud', 'body' => [
+                'La consulta puede empezar con una pregunta sencilla: qué necesitás revisar antes de buscar un embarazo. Comentá enfermedades crónicas, cirugías, alergias, internaciones y problemas de salud mental, aunque ahora estén controlados. Si tuviste embarazos previos, explicá cómo transcurrieron y si hubo pérdidas, parto antes de término o complicaciones. No necesitás recordar cada nombre técnico: llevá informes disponibles o describí lo que pasó con tus palabras.',
+                'También importan los antecedentes familiares que conozcas y las preocupaciones de tu pareja, si la hay. Algunas situaciones pueden justificar orientación genética o evaluaciones específicas; no todas las personas necesitan los mismos estudios. Pedí que te expliquen qué pregunta respondería cada análisis y cómo cambiaría la atención. Comprar un paquete de estudios sin consulta puede producir resultados difíciles de interpretar y dejar afuera asuntos importantes de tu historia.'
+            ], 'items' => [], 'table' => null],
+            ['h2' => 'Qué llevar o tener anotado', 'body' => [
+                'Esta lista es una ayuda para conversar, no un conjunto de requisitos de un servicio. Si te falta el carné de vacunas o un informe viejo, igual podés consultar. Señalá qué información no tenés y preguntá cómo reconstruirla. Un resumen de una página suele ser más fácil de revisar que muchas capturas mezcladas. Separá los resultados propios de los de otra persona y dejá visibles las fechas.',
+                'Elegí tus dos o tres preguntas más importantes para el comienzo de la consulta. Puede ser cómo seguir un tratamiento, cuándo retirar un anticonceptivo o qué hacer si los ciclos son irregulares. Anotá las respuestas con palabras que entiendas y pedí aclaración cuando aparezca un término nuevo. Si querés ir acompañada, acordá qué información deseás compartir y reservá un momento a solas si lo necesitás.'
+            ], 'items' => [
+                ['title' => 'Antecedentes', 'text' => 'Enfermedades, cirugías, embarazos anteriores y datos familiares que conozcas.'],
+                ['title' => 'Productos que usás', 'text' => 'Medicamentos habituales u ocasionales, vitaminas, suplementos y yuyos, con sus envases o etiquetas.'],
+                ['title' => 'Vacunas y estudios disponibles', 'text' => 'Carné, informes relevantes y fechas, sin pedir nuevos análisis por tu cuenta.'],
+                ['title' => 'Ciclo y anticoncepción', 'text' => 'Inicio de reglas recientes, variaciones, método actual y dudas sobre dejarlo.'],
+                ['title' => 'Preguntas personales', 'text' => 'Dolor, sexualidad, trabajo, apoyo en casa y cualquier preocupación sobre la búsqueda.']
+            ], 'table' => null],
+            ['h2' => 'Medicamentos, suplementos y vacunas', 'body' => [
+                'No suspendas tratamientos por miedo a un futuro embarazo. Algunas enfermedades necesitan un buen control previo y ciertos medicamentos requieren ajustes planificados. Avisá a los profesionales que te atienden que querés concebir para coordinar decisiones. Incluí cremas medicinales, productos para adelgazar y preparados herbales: que se compren sin receta no significa que sean adecuados para esta etapa. Consultá antes de empezar algo recomendado por redes sociales.',
+                'Preguntá por [ácido fólico antes del embarazo](/planear/acido-folico/) y por la revisión de tu esquema de vacunas. Algunas vacunas pueden requerir planificación antes de la búsqueda; el equipo indica cuáles corresponden y si existe un intervalo que respetar. No copies un calendario ajeno ni supongas que todas se aplican durante el embarazo. Llevá el registro que tengas para decidir sobre información concreta, sin repetir dosis por falta de memoria.'
+            ], 'items' => [], 'table' => null],
+            ['h2' => 'Hábitos que podés revisar sin cambiar todo de golpe', 'body' => [
+                'Armá comidas variadas con alimentos disponibles, agua segura y una rutina que puedas sostener. Prepararte no requiere una dieta de fertilidad ni bajar de peso a toda velocidad. Si hay dificultades con la alimentación, cambios importantes de peso o una enfermedad que condiciona lo que comés, pedí orientación individual. El movimiento habitual y el descanso también cuentan; empezá con cambios posibles y adaptados a tu estado de salud.',
+                'Si buscás embarazo, evitá el alcohol y pedí ayuda para dejar tabaco u otras sustancias si lo necesitás. La exposición al humo de otras personas también merece una conversación en casa. Contá cuánto y qué consumís sin minimizarlo por vergüenza: esa información permite ofrecer apoyo. Revisá la cafeína de distintas bebidas y los yuyos del tereré con el equipo, en vez de considerar inocuo cualquier preparado porque sea habitual.',
+                'La salud bucal, la prevención de infecciones de transmisión sexual y las condiciones del trabajo forman parte de la preparación. Comentá exposición a sustancias químicas, esfuerzo físico difícil de tolerar o falta de protección en tareas concretas. Si hay riesgo de infección, consultá sobre pruebas y protección para ambos. Buscar un embarazo no elimina la necesidad de cuidar la salud sexual ni obliga a aceptar relaciones que no querés.'
+            ], 'items' => [], 'table' => null],
+            ['h2' => 'Salí con prioridades y un próximo paso claro', 'body' => [
+                'Si todavía usás anticoncepción, preguntá cómo coordinar su suspensión o retiro con el resto del plan. No todos los métodos se manejan igual y no corresponde intentar retirar un dispositivo por tu cuenta. Si el equipo recomienda resolver primero un asunto de salud, pedí que aclare el motivo, el próximo control y cómo cuidarte mientras tanto. También podés decir que todavía estás decidiendo si querés un embarazo: la consulta sirve para informarte, sin comprometerte a empezar la búsqueda ese mes.',
+                'Al terminar, separá lo que podés iniciar ahora de lo que necesita una indicación o resultado. Por ejemplo: conseguir un informe anterior, conversar una medicación con quien la prescribe y revisar una vacuna son acciones distintas. Preguntá cuándo volver y qué cambios requieren avisar antes. Si el plan resulta difícil por horarios, dinero o traslados, decilo para buscar una alternativa realista; una indicación imposible de cumplir necesita adaptación.',
+                'La búsqueda también tiene una parte emocional y de organización compartida. Conversen sobre tareas, límites con preguntas familiares y acompañamiento a consultas. Si los meses pasan, [cuándo consultar por fertilidad](/planear/si-no-llega-el-embarazo/) orienta cómo influyen edad y antecedentes. No necesitás terminar esta lista para pedir ayuda. Si aparece dolor intenso, sangrado abundante o desmayo ante un posible embarazo, buscá atención urgente y revisá [las señales de alarma](/salud/senales-de-alarma/).'
+            ], 'items' => [], 'table' => null]
+        ],
+        'steps' => [
+            ['title' => 'Elegí tus prioridades', 'body' => ['Anotá las dudas que más afectan la decisión de buscar embarazo.']],
+            ['title' => 'Reuní lo que ya tenés', 'body' => ['Prepará antecedentes, envases y registros disponibles; marcá lo que falta.']],
+            ['title' => 'Conversá y acordá un plan', 'body' => ['Revisá cada indicación y preguntá cómo se coordina con tus tratamientos actuales.']],
+            ['title' => 'Dejá definido el seguimiento', 'body' => ['Anotá el próximo paso y cuándo comunicar cambios o pedir otra consulta.']]
+        ],
+        'appHandoff' => ['text' => 'Mi Bebé incluye un checklist de preconcepción en el modo planeando. Podés usarlo como apoyo para preparar los temas de consulta y ordenar la búsqueda junto con el calendario menstrual.', 'medium' => 'article', 'extra' => ['modo' => 'planeando']],
+        'faq' => [
+            ['q' => '¿Puedo consultar aunque todavía no empecé a buscar?', 'a' => 'Sí. Ese es un buen momento para revisar tratamientos, vacunas y suplementación con tiempo.'],
+            ['q' => '¿Necesito todos mis informes para ir?', 'a' => 'No. Llevá lo disponible y explicá lo que falta. La consulta puede comenzar con tu historia.'],
+            ['q' => '¿Hay un análisis obligatorio para todas?', 'a' => 'Los estudios dependen de antecedentes, síntomas y evaluación. Pedí que te expliquen para qué sirve cada uno.'],
+            ['q' => '¿Tengo que suspender mis medicamentos?', 'a' => 'No por tu cuenta. Avisá que planeás un embarazo para acordar cómo continuar o ajustar el tratamiento.']
+        ],
+        'related' => ['acido-folico', 'dias-fertiles', 'si-no-llega-el-embarazo'], 'weeks' => [1, 2],
+        'appGuideSlug' => null, 'guarani' => [], 'reviewedBy' => null, 'reviewedAt' => null, 'validAsOf' => null,
+        'sources' => [
+            ['title' => 'Orientaciones sobre atención preconcepcional y salud reproductiva', 'publisher' => 'Organización Mundial de la Salud (OMS)', 'url' => null, 'accessed' => null],
+            ['title' => 'Orientaciones sobre atención preconcepcional y vacunación', 'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)', 'url' => null, 'accessed' => null]
+        ], 'updated' => '2026-09-20', 'image' => null
+    ],
+    'si-no-llega-el-embarazo' => [
+        'cluster' => 'planear', 'path' => '/planear/si-no-llega-el-embarazo/',
+        'title' => 'Si no llega el embarazo: cuándo consultar', 'seoTitle' => 'Si no llega el embarazo: cuándo consultar',
+        'metaDescription' => 'Si el embarazo no llega, conocé cuándo suele iniciarse una evaluación, qué antecedentes adelantan la consulta y cómo prepararla sin culpas ni presiones.',
+        'kind' => 'medical',
+        'lead' => 'La evaluación por una búsqueda sin embarazo suele plantearse entre los 6 y 12 meses de relaciones regulares sin anticoncepción: alrededor de 12 meses si tenés menos de 35 años y de 6 meses desde los 35. Con más de 40 años, antecedentes relevantes o ciclos ausentes o muy irregulares, conviene consultar desde el inicio. Son referencias para orientar la evaluación, no plazos que debas cumplir para pedir ayuda.',
+        'sections' => [
+            ['h2' => 'Por qué no todas las búsquedas tienen el mismo plazo', 'body' => [
+                'Conseguir un embarazo puede llevar varios ciclos incluso cuando no hay un problema identificado. Un mes sin positivo no permite concluir que alguna persona sea infértil. La edad, la regularidad de las relaciones, los antecedentes y el funcionamiento reproductivo de ambos influyen en cuándo conviene evaluar. La consulta busca entender esa historia y proponer pasos útiles, sin atribuir la responsabilidad automáticamente a quien tiene el ciclo menstrual.',
+                'Las referencias de seis a doce meses se usan para búsquedas con relaciones vaginales regulares sin anticoncepción. Si hubo meses de separación, uso intermitente de protección o dificultades para tener relaciones, contalo: cambia cómo se interpreta el tiempo. Si necesitás donación de gametos o ayuda reproductiva por tu situación personal o de pareja, podés consultar desde el comienzo. No tenés que intentar un tipo de relación que no corresponde a tu proyecto para acceder a orientación.'
+            ], 'items' => [], 'table' => null],
+            ['h2' => 'Cuándo pedir una evaluación', 'body' => [
+                'Esta tabla organiza referencias habituales según la edad de la persona que busca gestar con sus óvulos. La evaluación individual puede empezar antes. Cumplir un plazo tampoco significa que necesariamente vayas a necesitar un tratamiento complejo: primero se revisa qué está pasando. Si tenés una inquietud concreta, una consulta inicial puede ayudarte a decidir cómo seguir aun antes de llegar a esos tiempos.',
+                'La edad no produce un cambio brusco el día de un cumpleaños, pero importa al decidir cuánto tiempo dedicar a cada paso. Desde los 35 suele abreviarse la búsqueda previa a la evaluación; por encima de los 40 conviene conversar sin postergarla. Si recibiste una indicación diferente por tus antecedentes, llevá esa información. El objetivo es coordinar un plan que tenga sentido para vos, sin comparar tu calendario con el de otra pareja.'
+            ], 'items' => [], 'table' => ['head' => ['Situación general', 'Momento orientativo para evaluar'], 'rows' => [
+                ['Menos de 35 años, sin antecedentes relevantes', 'Alrededor de 12 meses de búsqueda regular.'],
+                ['Entre 35 y 40 años', 'Alrededor de 6 meses.'],
+                ['Más de 40 años', 'Consulta desde el inicio de la búsqueda.'],
+                ['Ciclos ausentes o muy irregulares, antecedentes conocidos', 'Consulta temprana, sin esperar esos plazos.']
+            ]]],
+            ['h2' => 'Antecedentes que conviene conversar antes', 'body' => [
+                'La ausencia de menstruación, los ciclos muy variables o el dolor menstrual que limita tu vida merecen una consulta. También importan antecedentes de endometriosis, infecciones pélvicas, cirugía en el aparato reproductor o un embarazo fuera del útero. Contá si hubo pérdidas repetidas: necesitan una evaluación propia y no se resuelven contando de nuevo meses de búsqueda. No hace falta que tengas un diagnóstico confirmado para explicar una molestia que se repite.',
+                'Si alguno recibió quimioterapia u otro tratamiento que puede afectar la fertilidad, conviene hablar pronto con su equipo. Del lado de quien aporta espermatozoides, importan cirugías, lesiones o enfermedades testiculares y problemas de erección o eyaculación. Mencioná uso de testosterona, anabólicos y otros medicamentos. Son datos de salud, no motivos de vergüenza. No suspendan tratamientos ni empiecen suplementos para fertilidad sin revisar su situación con un profesional.'
+            ], 'items' => [], 'table' => null],
+            ['h2' => 'Qué suele pasar en una primera consulta', 'body' => [
+                'El equipo pregunta por el tiempo de búsqueda, el ciclo, las relaciones, los embarazos anteriores y la salud de ambos. Según la historia puede proponer estudios de ovulación, del útero y las trompas o del semen. No todas las evaluaciones empiezan igual ni requieren hacer todo a la vez. Pedí una explicación de qué busca cada estudio, cómo prepararte y qué decisiones podrían cambiar con su resultado.',
+                'Un resultado aislado no resume toda la fertilidad ni permite prometer cuánto vas a tardar. Algunos estudios dependen del momento del ciclo o necesitan repetirse en determinadas condiciones. Guardá el informe completo con su fecha y llevá la indicación que recibiste. Si ya tenés estudios de otro servicio, mostrarlos puede evitar repeticiones innecesarias. No compres una interpretación por redes basada únicamente en un número fuera de contexto.'
+            ], 'items' => [], 'table' => null],
+            ['h2' => 'Cómo prepararse en pareja y cuidar el proceso', 'body' => [
+                'Antes de aceptar un estudio, preguntá si requiere un día concreto del ciclo, alguna preparación o la participación de tu pareja. Pedí que te indiquen dónde consultar si no podés cumplir esa preparación, en lugar de improvisar. Si el resultado llega sin explicación, acordá quién va a interpretarlo junto con los demás antecedentes. Tener un informe en la mano no equivale a tener una conclusión; conocer el próximo contacto evita quedar sola frente a términos o valores que asustan.',
+                'Armen una cronología simple: cuándo dejaron la anticoncepción, si hubo pausas, fechas aproximadas de reglas y consultas previas. No necesitan reconstruir cada relación sexual. La guía de [días fértiles](/planear/dias-fertiles/) puede aclarar cómo se calcula una ventana, pero no hace falta demostrar que acertaron un día exacto para pedir evaluación. Si registrar todo genera discusiones, reduzcan el registro a lo que les pidan para la consulta.',
+                'Repartir tareas ayuda a que la búsqueda no recaiga en una sola persona. Uno puede reunir informes y otro anotar preguntas, si ambos están de acuerdo. Conversen sobre cuánto quieren compartir con familiares y qué respuestas dar a preguntas insistentes. Frases como “estamos ocupándonos y preferimos no hablar del tema hoy” pueden marcar un límite. Decirle a alguien que se relaje no explica una dificultad reproductiva y puede aumentar la culpa.',
+                'Si la tristeza, la ansiedad o los conflictos afectan la vida cotidiana, podés pedir apoyo psicológico durante la evaluación. También podés revisar los cuidados de la [lista de preconcepción](/planear/checklist-preconcepcion/) sin transformarlos en obligaciones perfectas. Si aparece un atraso, orientate con [cuándo hacer un test](/planear/test-de-embarazo-cuando/). Ante dolor intenso, desmayo o sangrado abundante, buscá atención urgente: [las señales de alarma](/salud/senales-de-alarma/) tienen prioridad sobre cualquier turno de fertilidad.'
+            ], 'items' => [], 'table' => null]
+        ],
+        'steps' => [
+            ['title' => 'Identificá tus motivos de consulta', 'body' => ['Considerá el tiempo de búsqueda junto con edad, ciclos, síntomas y antecedentes de ambos.']],
+            ['title' => 'Reuní información disponible', 'body' => ['Llevá una cronología sencilla, medicación y estudios previos, sin retrasar la consulta para completar datos.']],
+            ['title' => 'Acordá cómo sigue la evaluación', 'body' => ['Preguntá qué estudio responde cada duda, quién revisará el resultado y cuándo volver.']]
+        ],
+        'appHandoff' => ['text' => 'El modo planeando de Mi Bebé ofrece calendario menstrual y checklist de preconcepción. Podés usarlos para organizar fechas y temas que quieras conversar durante la evaluación de la búsqueda.', 'medium' => 'article', 'extra' => ['modo' => 'planeando']],
+        'faq' => [
+            ['q' => '¿Tengo que esperar un año aunque mi regla no venga?', 'a' => 'No. La ausencia de menstruación o una irregularidad marcada justifican consultar antes. Los plazos generales no son una barrera para pedir ayuda.'],
+            ['q' => '¿La evaluación es solo para la mujer?', 'a' => 'No. Cuando la búsqueda es en pareja, la historia y la salud reproductiva de ambos importan.'],
+            ['q' => '¿Haber tenido un hijo descarta dificultades actuales?', 'a' => 'No. Puede haber dificultades después de un embarazo previo. Contá esa historia y cuánto tiempo llevan buscando ahora.'],
+            ['q' => '¿Consultar significa empezar un tratamiento de inmediato?', 'a' => 'No. Primero se revisa la situación y se acuerdan los pasos. Podés preguntar por opciones y tiempos antes de decidir.']
+        ],
+        'related' => ['dias-fertiles', 'checklist-preconcepcion', 'test-de-embarazo-cuando'], 'weeks' => [],
+        'appGuideSlug' => null, 'guarani' => [], 'reviewedBy' => null, 'reviewedAt' => null, 'validAsOf' => null,
+        'sources' => [
+            ['title' => 'Orientaciones sobre infertilidad y salud reproductiva', 'publisher' => 'Organización Mundial de la Salud (OMS)', 'url' => null, 'accessed' => null],
+            ['title' => 'Orientaciones sobre atención preconcepcional y salud sexual y reproductiva', 'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)', 'url' => null, 'accessed' => null],
+            ['title' => 'Fertility evaluation of infertile women: a committee opinion', 'publisher' => 'American Society for Reproductive Medicine (ASRM)', 'url' => null, 'accessed' => null]
+        ], 'updated' => '2026-09-20', 'image' => null
+    ],
 ];
