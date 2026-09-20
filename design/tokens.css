@@ -39,6 +39,10 @@
   --accent-dark: #93381C;     /* :hover / :active on the CTA fill */
   --accent-tint: #F7E4DC;     /* CTA halo, selected chip */
   --on-accent: #FFFFFF;       /* label on --accent-text — 5.4:1 */
+  /* RULE: --accent-text is a text colour on --bg and --surface ONLY. On the
+     pastel tones below it lands at 4.0–4.3:1, under AA, so text on a tint uses
+     --petrol (or --tone-arena-text on arena). It also keeps terracotta
+     meaning exactly one thing: this goes to the app. */
 
   /* ---- Pastel section tones (app palette) ---------------------------- */
   --tone-rosa: #F3DAD4;

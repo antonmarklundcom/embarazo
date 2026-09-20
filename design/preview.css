@@ -274,6 +274,7 @@ hr {
 .brand {
   display: inline-flex;
   align-items: center;
+  min-height: var(--tap);
   gap: var(--space-2xs);
   font-weight: var(--weight-bold);
   font-size: var(--step-2);
@@ -284,7 +285,7 @@ hr {
 .brand__mark {
   width: 30px; height: 30px;
   border-radius: var(--radius-pill);
-  background: var(--accent);
+  background: var(--accent-text);
   display: grid; place-items: center;
   color: #fff; font-size: var(--step--1); font-weight: var(--weight-bold);
   flex: none;
@@ -485,7 +486,8 @@ hr {
   border-radius: var(--radius-card);
   padding: var(--space-m);
 }
-.cta-tool h3 { margin-top: 0; font-size: var(--step-2); }
+.cta-tool h2,
+.cta-tool h3 { margin-top: 0; font-size: var(--step-2); color: var(--ink); }
 .cta-tool p { color: var(--muted); font-size: var(--step-0); }
 .cta-tool .btn { margin-top: var(--space-s); }
 
@@ -587,7 +589,7 @@ hr {
 .hub-card:hover { color: var(--ink); border-color: rgba(50, 46, 41, 0.14); }
 .hub-card h3 { margin: 0; font-size: var(--step-2); color: var(--petrol); }
 .hub-card p { font-size: var(--step-0); color: var(--ink); margin: 0; opacity: 0.85; }
-.hub-card__count { font-size: var(--step--1); font-weight: var(--weight-bold); color: var(--accent-text); margin-top: auto; padding-top: var(--space-2xs); }
+.hub-card__count { font-size: var(--step--1); font-weight: var(--weight-bold); color: var(--petrol); margin-top: auto; padding-top: var(--space-2xs); }
 .hub-card--rosa { background: var(--tone-rosa); }
 .hub-card--celeste { background: var(--tone-celeste); }
 .hub-card--salvia { background: var(--tone-salvia); }
@@ -807,7 +809,7 @@ hr {
 .bento__tile:hover { color: var(--ink); box-shadow: var(--shadow-lift); }
 .bento__tile h3 { margin: 0; font-size: var(--step-2); color: var(--petrol); }
 .bento__tile p { margin: 0; font-size: var(--step-0); opacity: 0.88; }
-.bento__tile .link-arrow { margin-top: auto; padding-top: var(--space-2xs); color: var(--accent-text); }
+.bento__tile .link-arrow { margin-top: auto; padding-top: var(--space-2xs); color: var(--petrol); }
 .bento__icon { font-size: var(--step-3); line-height: 1; }
 
 .bento__tile--rosa    { background: var(--tone-rosa); }
@@ -895,7 +897,14 @@ hr {
   color: var(--alert);
 }
 .alarm h3 { color: var(--alert); margin-top: 0; }
-.alarm a { color: var(--alert); font-weight: var(--weight-bold); }
+.alarm a {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--tap);
+  padding-inline: var(--space-3xs);
+  color: var(--alert);
+  font-weight: var(--weight-bold);
+}
 
 /* --------------------------------------------------------------------------
    13. Sources + updated line
@@ -993,7 +1002,7 @@ hr {
 .calc__modes { display: flex; gap: 0; background: var(--surface-sunken); border-radius: var(--radius-pill); padding: 4px; margin-bottom: var(--space-m); }
 .calc__mode {
   flex: 1;
-  min-height: 40px;
+  min-height: var(--tap);
   border: 0; background: none;
   border-radius: var(--radius-pill);
   font-family: inherit; font-size: var(--step-0); font-weight: var(--weight-bold);
@@ -1076,7 +1085,9 @@ hr {
 .gn dt { font-weight: var(--weight-bold); color: var(--petrol-dark); }
 .gn dd { margin: 0 0 var(--space-2xs); color: var(--ink); }
 .gn dd:last-child { margin-bottom: 0; }
-.gn__note { font-size: var(--step--1); color: var(--muted); margin-top: var(--space-2xs); }
+.gn__note { font-size: var(--step--1); color: var(--sage-text); margin-top: var(--space-2xs); }
+/* --muted on salvia is 4.43:1 — just under AA — so the strip's footnote uses
+   --sage-text (5.1:1) instead. Same rule as above: no --muted on a tint. */
 
 /* --------------------------------------------------------------------------
    18. Breadcrumbs
@@ -1189,7 +1200,7 @@ hr {
 .footer__cols { display: grid; gap: var(--space-l); grid-template-columns: 1fr; }
 .footer ul { list-style: none; margin: 0; padding: 0; }
 .footer li { margin-bottom: var(--space-3xs); }
-.footer li a { display: inline-flex; align-items: center; min-height: 32px; }
+.footer li a { display: inline-flex; align-items: center; min-height: var(--tap); }
 .footer__brand .brand { color: #FBF7F1; }
 .footer__legal {
   margin-top: var(--space-l);
@@ -1203,6 +1214,21 @@ hr {
 .e404 { text-align: center; padding-block: var(--space-2xl); }
 .e404__code { font-size: var(--step-6); font-weight: var(--weight-bold); color: var(--accent); line-height: 1; }
 .e404 .btn { margin-top: var(--space-s); }
+
+/* Type specimens: the exact heading styles applied to non-heading elements,
+   so design/components.html can show them without inventing extra <h1>s. */
+.t-h1, .t-h2, .t-h3 {
+  font-family: var(--font-display);
+  font-weight: var(--weight-bold);
+  line-height: var(--leading-heading);
+  color: var(--petrol);
+  margin: 0 0 var(--space-s);
+  text-wrap: balance;
+}
+.t-h1 { font-size: var(--step-4); line-height: var(--leading-tight); letter-spacing: -0.015em; }
+.t-h2 { font-size: var(--step-3); margin-top: var(--space-l); }
+.t-h3 { font-size: var(--step-2); margin-top: var(--space-m); color: var(--ink); }
+@media (min-width: 64rem) { .t-h1 { font-size: var(--step-5); } }
 
 /* --------------------------------------------------------------------------
    22. components.html gallery chrome (D0 only — never ships)

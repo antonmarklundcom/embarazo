@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="es-PY">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Calculadora de embarazo: semanas y fecha probable de parto</title>
+<meta name="description" content="Ingresá la fecha de tu última menstruación o tu FPP y sabé al instante en qué semana estás y cuándo nace tu bebé. Gratis, sin registro, nada sale de tu teléfono.">
+<meta name="robots" content="noindex, nofollow"><!-- D0 preview only -->
+<link rel="stylesheet" href="../preview.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Saltar al contenido</a>
+
+<header class="header">
+  <div class="wrap header__bar">
+    <a class="brand" href="home.html"><span class="brand__mark" aria-hidden="true">MB</span> Mi&nbsp;Bebé</a>
+    <details class="nav">
+      <summary aria-label="Abrir el menú"><span class="nav__burger" aria-hidden="true"></span></summary>
+      <div class="nav__sheet">
+        <ul class="nav__list">
+          <li><a href="semana-20.html">Semana a semana</a></li>
+          <li><a href="calculadora.html" aria-current="page">Calculadora</a></li>
+          <li><a href="articulo.html">Guías</a></li>
+          <li><a href="home.html">Blog</a></li>
+          <li><a href="home.html">La app</a></li>
+          <li><a href="instalar.html">Instalar</a></li>
+        </ul>
+        <div class="nav__cta">
+          <a class="btn btn--primary btn--block" href="https://app.embarazo.com.py/?utm_source=site&amp;utm_medium=nav&amp;utm_campaign=calculadora">Abrir Mi Bebé</a>
+        </div>
+      </div>
+    </details>
+  </div>
+</header>
+
+<div class="wrap wrap--text">
+  <nav class="crumbs" aria-label="Migas de pan">
+    <ol>
+      <li><a href="home.html">Inicio</a></li>
+      <li><span aria-current="page">Calculadora de embarazo</span></li>
+    </ol>
+  </nav>
+</div>
+
+<main id="main">
+  <article class="wrap wrap--text section section--tight">
+
+    <h1>Calculadora de embarazo</h1>
+    <p class="lead">Poné tu FUM o tu FPP y te decimos en qué semana estás. Se calcula en tu
+      teléfono: no se guarda ni se manda nada.</p>
+
+    <!-- ===== LA ISLA ================================================== -->
+    <div class="calc" id="calc" style="margin-block:var(--space-l)">
+      <div class="calc__modes" role="tablist" aria-label="Con qué dato querés calcular">
+        <button class="calc__mode" type="button" role="tab" id="tab-fum"
+                aria-selected="true" aria-controls="panel-fecha" data-mode="fum">Mi FUM</button>
+        <button class="calc__mode" type="button" role="tab" id="tab-fpp"
+                aria-selected="false" aria-controls="panel-fecha" data-mode="fpp">Mi FPP</button>
+      </div>
+
+      <p class="calc__error" id="calc-error" role="alert" hidden>
+        <span aria-hidden="true">⚠</span><span id="calc-error-text"></span>
+      </p>
+
+      <div id="panel-fecha" role="tabpanel" aria-labelledby="tab-fum">
+        <label class="field" id="field-fecha" for="calc-fecha">
+          <span class="field__label" id="calc-label">¿Cuándo empezó tu última menstruación?</span>
+          <span class="field__hint" id="calc-hint">El primer día del sangrado, no el último. Si no te
+            acordás con exactitud, poné el día más probable: después lo vas a poder ajustar con la
+            ecografía.</span>
+          <input type="date" id="calc-fecha" name="fecha" autocomplete="off">
+        </label>
+      </div>
+
+      <button class="btn btn--primary btn--lg btn--block" type="button" id="calc-go">Calcular</button>
+
+      <div class="calc__result" id="calc-result" hidden aria-live="polite">
+        <div class="result-card">
+          <strong class="result-card__wk"><span id="r-week">—</span><small>estás en la semana</small></strong>
+          <ul class="result-card__rows">
+            <li><span>Gestación</span><b id="r-completed">—</b></li>
+            <li><span>Fecha probable de parto</span><b id="r-fpp">—</b></li>
+            <li><span>Trimestre</span><b id="r-tri">—</b></li>
+            <li><span>Tamaño del bebé</span><b id="r-size">—</b></li>
+            <li><span>Faltan</span><b id="r-left">—</b></li>
+          </ul>
+        </div>
+
+        <aside class="cta-tool" style="margin-top:var(--space-s)">
+          <h2>Guardá tu fecha en Mi Bebé</h2>
+          <p>La app se abre con tu FPP ya cargada y te lleva directo a tu semana. No hace falta
+            crear cuenta.</p>
+          <a class="btn btn--primary btn--block" id="r-cta"
+             href="https://app.embarazo.com.py/?utm_source=site&amp;utm_medium=tool&amp;utm_campaign=calculadora">Guardar mi fecha</a>
+        </aside>
+
+        <p style="margin-top:var(--space-s)">
+          <a class="link-arrow" id="r-weeklink" href="semana-20.html">Leer la página de mi semana</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="prose">
+      <h2>Cómo se calcula</h2>
+      <p>Usamos la regla de Naegele, que es la misma que usan tu obstetra y el carné perinatal: el
+        embarazo dura 280 días —40 semanas— contados desde el primer día de tu última menstruación.
+        La fecha probable de parto es esa fecha más 280 días, y la semana en la que estás sale de
+        los días que pasaron desde entonces.</p>
+      <p>Si nos das la FPP en vez de la FUM, hacemos el camino inverso: le restamos 280 días para
+        obtener la FUM equivalente y a partir de ahí todo se calcula igual.</p>
+      <p>Dos advertencias honestas. La primera: esto asume ciclos de 28 días con ovulación en el día
+        14. Si tus ciclos son más largos o más cortos, la cuenta se corre unos días. La segunda: la
+        ecografía del primer trimestre mide directamente al embrión y es más precisa que cualquier
+        cálculo; si tu médico te dio una fecha distinta a la que sale acá, la que vale es la de él.</p>
+
+      <h2>Qué significa "semanas completas"</h2>
+      <p>Son dos formas de decir lo mismo y confunden a todo el mundo. En el carné perinatal y en los
+        informes de ecografía la edad gestacional se escribe en <strong>semanas cumplidas más
+        días</strong>: "28 semanas y 6 días", o abreviado "28+6". En cambio, cuando alguien dice "estoy
+        de 29 semanas" se refiere a la semana que está transcurriendo.</p>
+      <p>Por eso la calculadora te muestra las dos: el número grande es la semana en curso —la que
+        usás para buscar información y la que abre Mi Bebé— y abajo aparece la gestación cumplida,
+        que es la que vas a ver escrita en tus estudios. La semana en curso es siempre las semanas
+        cumplidas más una.</p>
+
+      <h2>Lo que hacemos con tu fecha</h2>
+      <p>Nada. El cálculo corre entero en tu navegador: la fecha que escribís no se envía a ningún
+        servidor, no queda guardada en este sitio y no hay cuenta que crear. Si después querés que
+        la fecha te quede guardada, ahí sí entra Mi Bebé — y también ahí, sin cuenta, todo queda en
+        tu teléfono.</p>
+
+      <h2>Preguntas frecuentes</h2>
+      <div class="faq">
+        <details class="faq__item" open>
+          <summary>No me acuerdo de mi última menstruación. ¿Qué hago?</summary>
+          <div class="faq__answer">
+            <p>Poné la fecha más aproximada que recuerdes y tomá el resultado como una referencia,
+              no como un dato firme. La ecografía del primer trimestre es la que va a fijar tu fecha
+              de verdad. Si ya tenés una FPP dada por tu médico, usá la pestaña "Mi FPP": ese camino
+              es más exacto.</p>
+          </div>
+        </details>
+        <details class="faq__item">
+          <summary>¿Por qué me dan 2 semanas de embarazo si recién concebí?</summary>
+          <div class="faq__answer">
+            <p>Porque la cuenta arranca en la última menstruación, no en la concepción. Es una
+              convención: la fecha de la menstruación se sabe, la de la concepción casi nunca. En la
+              práctica, en las primeras dos semanas todavía no hay embrión.</p>
+          </div>
+        </details>
+        <details class="faq__item">
+          <summary>¿La fecha probable de parto es la fecha en que voy a dar a luz?</summary>
+          <div class="faq__answer">
+            <p>Es un punto de referencia, no una cita. Un parto entre la semana 37 y la 42 entra
+              dentro de lo esperado, y muy pocos bebés nacen justo el día calculado. Sirve, eso sí,
+              para agendar controles, estudios y —si trabajás— la licencia de maternidad.</p>
+          </div>
+        </details>
+        <details class="faq__item">
+          <summary>¿Sirve si tengo ciclos irregulares o si fue por tratamiento?</summary>
+          <div class="faq__answer">
+            <p>Con ciclos irregulares el resultado es aproximado y conviene confirmarlo con
+              ecografía. Si fue por fertilización in vitro, la fecha de la transferencia da un
+              cálculo mucho más exacto que la FUM: eso lo hace Mi Bebé, que tiene el método FIV y el
+              de fecha de concepción además de estos dos.</p>
+          </div>
+        </details>
+      </div>
+    </div>
+
+    <p style="margin-top:var(--space-l)">
+      <a class="link-arrow" href="semana-20.html">Ver las 42 semanas, una por una</a>
+    </p>
+
+    <aside class="disclaimer disclaimer--medical" style="margin-top:var(--space-l)">
+      <span class="disclaimer__icon" aria-hidden="true">ⓘ</span>
+      <div>
+        <p><b>Esto es una estimación, no un diagnóstico.</b></p>
+        <p>La fecha que te dé tu obstetra a partir de la ecografía tiene prioridad sobre este
+          cálculo.</p>
+        <p class="disclaimer__pending">Todavía no tenemos revisor médico. Cuando lo tengamos, su
+          nombre y su registro profesional van a aparecer acá.</p>
+      </div>
+    </aside>
+
+    <section class="sources" style="margin-top:var(--space-l)">
+      <h2>Fuentes</h2>
+      <ol>
+        <li><cite>Regla de Naegele y estimación de la edad gestacional</cite> — Centro
+          Latinoamericano de Perinatología (CLAP/OPS), Historia Clínica Perinatal. Consultado el 20
+          de septiembre de 2026.</li>
+        <li><cite>Norma nacional de atención prenatal</cite> — Ministerio de Salud Pública y
+          Bienestar Social (MSPBS). Consultado el 20 de septiembre de 2026.</li>
+      </ol>
+      <p class="updated">Actualizado el 20 de septiembre de 2026.</p>
+    </section>
+
+  </article>
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__cols">
+      <div class="footer__brand">
+        <a class="brand" href="home.html"><span class="brand__mark" aria-hidden="true">MB</span> Mi&nbsp;Bebé</a>
+        <p style="margin-top:var(--space-2xs)">La app de embarazo hecha en Paraguay. Gratis, se
+          instala desde un link y funciona sin datos.</p>
+      </div>
+      <div>
+        <h2>El embarazo</h2>
+        <ul>
+          <li><a href="semana-20.html">Semana a semana</a></li>
+          <li><a href="calculadora.html">Calculadora de embarazo</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Guías</h2>
+        <ul>
+          <li><a href="articulo.html">Derechos</a></li>
+          <li><a href="articulo.html">Salud</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="footer__legal">© 2026 Mi Bebé · embarazo.com.py · Asunción, Paraguay.
+      Información general, no reemplaza la consulta con tu obstetra o partera.</p>
+  </div>
+</footer>
+
+<!-- ==========================================================================
+     assets/js/tools/pregnancy.js (S4 lifts this block out verbatim)
+     Port of the app's lib/pregnancy.ts. Same constants, same rounding, same
+     "semanas completas" convention, so the site and the app can never disagree.
+     All dates are handled at UTC midnight: a local-midnight Date in UTC-03:00
+     is the previous day in UTC and silently shifts every result by one day.
+     Test vector (the app's): FUM 2026-03-02 seen on 2026-09-20 →
+     semana 29 · 28 semanas y 6 días · FPP 2026-12-07.
+     Verify in this preview with ?hoy=2026-09-20&fum=2026-03-02
+     ========================================================================== -->
+<script>
+(function () {
+  "use strict";
+
+  var GESTATION_DAYS = 280;
+  var MIN_WEEK = 1, MAX_WEEK = 42;
+  var MS_PER_DAY = 86400000;
+
+  /* ---- pure math (port of lib/pregnancy.ts) ---------------------------- */
+
+  function clampWeek(w) {
+    if (isNaN(w)) return MIN_WEEK;
+    if (w < MIN_WEEK) return MIN_WEEK;
+    if (w > MAX_WEEK) return MAX_WEEK;
+    return Math.floor(w);
+  }
+  function getCurrentWeek(lmp, now) {
+    var days = Math.floor((now - lmp) / MS_PER_DAY);
+    return clampWeek(Math.floor(days / 7) + 1);
+  }
+  function getRawWeek(lmp, now) {
+    return Math.floor(Math.floor((now - lmp) / MS_PER_DAY) / 7) + 1;
+  }
+  function getTrimester(week) {
+    var w = clampWeek(week);
+    return w <= 13 ? 1 : (w <= 27 ? 2 : 3);
+  }
+  function getDueDate(lmp) { return lmp + GESTATION_DAYS * MS_PER_DAY; }
+  function lmpFromDueDate(fpp) { return fpp - GESTATION_DAYS * MS_PER_DAY; }
+  function getDaysSinceLMP(lmp, now) {
+    var d = Math.floor((now - lmp) / MS_PER_DAY);
+    return d < 0 ? 0 : d;
+  }
+  function getDaysRemaining(lmp, now) {
+    var r = Math.ceil((getDueDate(lmp) - now) / MS_PER_DAY);
+    return r < 0 ? 0 : r;
+  }
+  function getCompletedGestation(lmp, now) {
+    var total = getDaysSinceLMP(lmp, now);
+    return { weeks: Math.floor(total / 7), days: total % 7 };
+  }
+  function formatCompletedGestation(g) {
+    return g.weeks + (g.weeks === 1 ? " semana" : " semanas") + " y " +
+           g.days + (g.days === 1 ? " día" : " días");
+  }
+
+  /* ---- dates, always at UTC midnight ---------------------------------- */
+
+  function parseISO(s) {
+    var m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(s || "");
+    if (!m) return NaN;
+    var t = Date.UTC(+m[1], +m[2] - 1, +m[3]);
+    var d = new Date(t);
+    // reject 2026-02-31 and friends
+    if (d.getUTCMonth() !== +m[2] - 1 || d.getUTCDate() !== +m[3]) return NaN;
+    return t;
+  }
+  function toISO(t) { return new Date(t).toISOString().slice(0, 10); }
+
+  var MONTHS = ["enero","febrero","marzo","abril","mayo","junio","julio",
+                "agosto","septiembre","octubre","noviembre","diciembre"];
+  function formatLong(t) {
+    var d = new Date(t);
+    return d.getUTCDate() + " de " + MONTHS[d.getUTCMonth()] + " de " + d.getUTCFullYear();
+  }
+
+  /* ---- week sizes, seeded from the app's lib/weeks.ts ------------------ */
+
+  var SIZES = {
+    1:"todavía no hay embrión", 2:"todavía no hay embrión", 3:"una semilla de chía",
+    4:"una semilla de amapola", 5:"un grano de sésamo", 6:"una lenteja",
+    7:"un grano de maíz", 8:"un poroto", 9:"una aceituna", 10:"una guinda",
+    11:"una frutilla", 12:"una lima", 13:"un durazno", 14:"un limón",
+    15:"una mandarina", 16:"una palta pequeña", 17:"una granada",
+    18:"un mamón pequeño", 19:"un mango", 20:"una banana",
+    21:"una mazorca de choclo", 22:"un mamón mediano", 23:"un pomelo",
+    24:"una mandioca", 25:"un coco", 26:"un repollo pequeño", 27:"una coliflor",
+    28:"una berenjena grande", 29:"un coco grande", 30:"un repollo",
+    31:"un coco con su cáscara", 32:"una lechuga", 33:"un ananá",
+    34:"un melón pequeño", 35:"un melón", 36:"una lechuga grande",
+    37:"una sandía pequeña", 38:"un zapallo pequeño", 39:"una sandía mediana",
+    40:"una sandía", 41:"una sandía grande", 42:"una sandía grande y madura"
+  };
+  var TRI = { 1: "Primer", 2: "Segundo", 3: "Tercer" };
+
+  /* ---- "hoy", overridable for testing --------------------------------- */
+
+  var params = new URLSearchParams(location.search);
+  var TODAY = parseISO(params.get("hoy"));
+  if (isNaN(TODAY)) {
+    var n = new Date();
+    TODAY = Date.UTC(n.getFullYear(), n.getMonth(), n.getDate());
+  }
+
+  /* ---- DOM ------------------------------------------------------------ */
+
+  var mode = "fum";
+  var input = document.getElementById("calc-fecha");
+  var field = document.getElementById("field-fecha");
+  var label = document.getElementById("calc-label");
+  var hint = document.getElementById("calc-hint");
+  var panel = document.getElementById("panel-fecha");
+  var errBox = document.getElementById("calc-error");
+  var errText = document.getElementById("calc-error-text");
+  var result = document.getElementById("calc-result");
+  var go = document.getElementById("calc-go");
+  var tabs = Array.prototype.slice.call(document.querySelectorAll(".calc__mode"));
+
+  var COPY = {
+    fum: {
+      label: "¿Cuándo empezó tu última menstruación?",
+      hint: "El primer día del sangrado, no el último. Si no te acordás con exactitud, poné el día más probable: después lo vas a poder ajustar con la ecografía."
+    },
+    fpp: {
+      label: "¿Qué fecha probable de parto te dieron?",
+      hint: "La que figura en tu carné perinatal o en el informe de la ecografía. Con ese dato calculamos hacia atrás."
+    }
+  };
+
+  function setMode(next) {
+    mode = next;
+    tabs.forEach(function (t) {
+      t.setAttribute("aria-selected", String(t.dataset.mode === next));
+    });
+    panel.setAttribute("aria-labelledby", next === "fum" ? "tab-fum" : "tab-fpp");
+    label.textContent = COPY[next].label;
+    hint.textContent = COPY[next].hint;
+    clearError();
+    result.hidden = true;
+  }
+
+  function showError(msg) {
+    errText.textContent = " " + msg;
+    errBox.hidden = false;
+    field.setAttribute("data-invalid", "true");
+    input.setAttribute("aria-invalid", "true");
+    result.hidden = true;
+  }
+  function clearError() {
+    errBox.hidden = true;
+    field.removeAttribute("data-invalid");
+    input.removeAttribute("aria-invalid");
+  }
+
+  function calculate() {
+    var entered = parseISO(input.value);
+    if (isNaN(entered)) {
+      showError("Elegí una fecha para poder calcular.");
+      return;
+    }
+
+    var lmp = mode === "fum" ? entered : lmpFromDueDate(entered);
+
+    if (mode === "fum") {
+      if (entered > TODAY) {
+        showError("Esa fecha es futura. La FUM tiene que ser anterior a hoy.");
+        return;
+      }
+      if (getRawWeek(lmp, TODAY) > MAX_WEEK) {
+        showError("Esa fecha da más de 42 semanas. Revisá el año, o usá la pestaña “Mi FPP”.");
+        return;
+      }
+    } else {
+      var raw = getRawWeek(lmp, TODAY);
+      if (raw < MIN_WEEK) {
+        showError("Esa FPP está demasiado lejos: daría un embarazo que todavía no empezó.");
+        return;
+      }
+      if (raw > MAX_WEEK) {
+        showError("Esa FPP ya pasó hace más de dos semanas. Revisá la fecha.");
+        return;
+      }
+    }
+
+    clearError();
+
+    var week = getCurrentWeek(lmp, TODAY);
+    var completed = getCompletedGestation(lmp, TODAY);
+    var fpp = getDueDate(lmp);
+    var left = getDaysRemaining(lmp, TODAY);
+
+    document.getElementById("r-week").textContent = String(week);
+    document.getElementById("r-completed").textContent = formatCompletedGestation(completed);
+    document.getElementById("r-fpp").textContent = formatLong(fpp);
+    document.getElementById("r-tri").textContent = TRI[getTrimester(week)] + " trimestre";
+    document.getElementById("r-size").textContent = SIZES[week];
+    document.getElementById("r-left").textContent =
+      left === 0 ? "ya llegaste a la FPP" : (left + (left === 1 ? " día" : " días"));
+
+    document.getElementById("r-cta").href =
+      "https://app.embarazo.com.py/?utm_source=site&utm_medium=tool" +
+      "&utm_campaign=calculadora&fpp=" + toISO(fpp) + "&w=" + week;
+
+    var link = document.getElementById("r-weeklink");
+    link.textContent = "Leer la página de la semana " + week;
+    link.href = "semana-20.html"; /* en producción: /semana/<week>/ */
+
+    result.hidden = false;
+  }
+
+  tabs.forEach(function (t) {
+    t.addEventListener("click", function () { setMode(t.dataset.mode); });
+  });
+  go.addEventListener("click", calculate);
+  input.addEventListener("change", function () { clearError(); });
+  input.addEventListener("keydown", function (e) {
+    if (e.key === "Enter") { e.preventDefault(); calculate(); }
+  });
+
+  /* Prefill + auto-run from the query string, so the exit-criteria vector is
+     one URL away and so /semana/<n> can link here with a date already set. */
+  var preFum = params.get("fum"), preFpp = params.get("fpp");
+  if (preFpp) { setMode("fpp"); input.value = preFpp; calculate(); }
+  else if (preFum) { setMode("fum"); input.value = preFum; calculate(); }
+})();
+</script>
+
+</body>
+</html>
