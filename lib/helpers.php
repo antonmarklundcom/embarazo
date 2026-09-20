@@ -196,6 +196,18 @@ function app_link(string $medium = 'product', string $campaign = 't0', array $ex
     return 'https://app.embarazo.com.py/?' . http_build_query($params, '', '&', PHP_QUERY_RFC3986);
 }
 
+/** Allow-listed app legal pages; URI-encode query values, then use e() at the HTML boundary. */
+function app_page_link(string $path, string $medium, string $campaign): string
+{
+    if (!preg_match('~\A/?(privacidad|terminos|borrar-cuenta)/?\z~', $path, $match)) {
+        throw new InvalidArgumentException('Unsupported app legal page.');
+    }
+    return 'https://app.embarazo.com.py/' . $match[1] . '/?' . http_build_query(
+        ['utm_source' => 'site', 'utm_medium' => $medium, 'utm_campaign' => $campaign],
+        '', '&', PHP_QUERY_RFC3986
+    );
+}
+
 /** WhatsApp share URL. URI-encoded text; render the returned URL with e(). */
 function wa_share(string $text, string $url): string
 {
