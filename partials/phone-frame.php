@@ -7,7 +7,7 @@ declare(strict_types=1);
 <?php else: ?><div class="phone__mock">
 <div class="phone__status"><span><?= e(site('name')) ?></span><span aria-hidden="true">◍ ◍ ▮</span></div>
 <div class="phone__ring" style="<?= e('--progress:' . min(100, $phoneNumber / 40 * 100) . '%') ?>"><span><span class="phone__wk"><?= e(ui('foundation.week')) ?></span><span class="phone__wkn"><?= e((string) $phoneNumber) ?></span></span></div>
-<div class="phone__card"><b><?= e(str_replace('{size}', $phoneWeek['size']['name'], ui('foundation.size'))) ?></b><?= e(strtr(ui('foundation.measure'), ['{length}' => (string) $phoneWeek['size']['lengthCm'], '{weight}' => (string) $phoneWeek['size']['weightG']])) ?></div>
+<div class="phone__card"><b><?= e(str_replace('{size}', $phoneWeek['size']['name'], ui('foundation.size'))) ?></b><?= e(strtr(ui('foundation.measure'), ['{length}' => fmt_measure($phoneWeek['size']['lengthCm']), '{weight}' => fmt_measure($phoneWeek['size']['weightG'])])) ?></div>
 <div class="phone__card"><?= e($phoneWeek['milestone']) ?></div>
 <div class="phone__chips"><?php foreach (content('ui')['foundation']['phoneChips'] as $phLabel): ?><span class="phone__chip"><?= e($phLabel) ?></span><?php endforeach; ?></div>
 <div class="phone__tabs"><?php foreach (content('ui')['foundation']['phoneTabs'] as $phLabel): ?><span><?= e($phLabel) ?></span><?php endforeach; ?></div>

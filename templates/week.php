@@ -4,10 +4,11 @@ declare(strict_types=1);
 require_once __DIR__ . '/../lib/bootstrap.php';
 $wkRecord = content('semanas')[$n ?? 0] ?? null;
 if ($wkRecord === null) { require ROOT_DIR . '/404.php'; return; }
+$wkRecord += page_meta('/semana/' . $n . '/');
 $wkTrimester = week_trimester($n);
 $page = ['title' => $wkRecord['seoTitle'], 'description' => $wkRecord['metaDescription'], 'path' => '/semana/' . $n . '/',
     'kind' => 'medical', 'record' => $wkRecord, 'weekNumber' => $n, 'sticky' => true,
-    'noindex' => empty($wkRecord['sections']['bebe']), 'ogType' => 'article',
+    'noindex' => !array_filter($wkRecord['sections'] ?? []) || !empty($wkRecord['stub']) || !empty($wkRecord['noindex']), 'ogType' => 'article',
     'breadcrumbs' => [['label' => ui('foundation.weeks'), 'path' => '/semana/'], ['label' => content('trimestres')[$wkTrimester]['title'], 'path' => '/trimestre/' . $wkTrimester . '/'], ['label' => $wkRecord['title'], 'path' => '/semana/' . $n . '/']]];
 if (!empty($wkRecord['image'])) { $page['ogImage'] = $wkRecord['image']; }
 require ROOT_DIR . '/partials/head.php'; require ROOT_DIR . '/partials/header.php';
@@ -15,16 +16,16 @@ require ROOT_DIR . '/partials/head.php'; require ROOT_DIR . '/partials/header.ph
 <main id="main"><article class="wrap wrap--text section section--tight">
 <?php require ROOT_DIR . '/partials/breadcrumbs.php'; ?>
 <h1><?= e($wkRecord['title']) ?></h1><p class="lead"><?= e(content('trimestres')[$wkTrimester]['title']) ?> · <?= e(strtr(ui('foundation.completed'), ['{n}' => (string) $n, '{completed}' => (string) ($n - 1)])) ?></p>
-<div class="size-panel"><span class="size-panel__n"><?= e((string) $n) ?></span><span class="size-panel__what"><?= e(str_replace('{size}', $wkRecord['size']['name'], ui('foundation.size'))) ?></span><span class="size-panel__sub"><?= e(strtr(ui('foundation.measure'), ['{length}' => (string) $wkRecord['size']['lengthCm'], '{weight}' => (string) $wkRecord['size']['weightG']])) ?></span></div>
+<div class="size-panel"><span class="size-panel__n"><?= e((string) $n) ?></span><span class="size-panel__what"><?= e(str_replace('{size}', $wkRecord['size']['name'], ui('foundation.size'))) ?></span><span class="size-panel__sub"><?= e(strtr(ui('foundation.measure'), ['{length}' => fmt_measure($wkRecord['size']['lengthCm']), '{weight}' => fmt_measure($wkRecord['size']['weightG'])])) ?></span></div>
 <?php if (!empty($wkRecord['image'])): ?><img src="<?= e($wkRecord['image']) ?>" alt="<?= e($wkRecord['title']) ?>" width="640" height="640"><?php endif; ?>
 <?php foreach (['bebe', 'vos'] as $wkKey): ?><section class="prose section--tight"><h2><?= e(ui('foundation.' . $wkKey)) ?></h2>
-<?php if ($wkKey === 'bebe'): ?><p><?= e($wkRecord['milestone']) ?></p><?php endif; ?>
-<?php foreach ($wkRecord['sections'][$wkKey] as $wkParagraph): ?><p><?= e($wkParagraph) ?></p><?php endforeach; ?>
+<?php if ($wkKey === 'bebe'): ?><p><?= rich($wkRecord['milestone']) ?></p><?php endif; ?>
+<?php foreach ($wkRecord['sections'][$wkKey] as $wkParagraph): ?><p><?= rich($wkParagraph) ?></p><?php endforeach; ?>
 <?php if ($wkKey === 'vos'): ?><a class="link-arrow" href="/salud/senales-de-alarma/"><?= e(ui('foundation.alarm')) ?></a><?php endif; ?></section><?php endforeach; ?>
 <?php require ROOT_DIR . '/partials/cta-week.php'; ?>
 <section class="prose section--tight"><h2><?= e(ui('foundation.paraguay')) ?></h2>
-<?php foreach ($wkRecord['sections']['paraguay'] as $wkParagraph): ?><p><?= e($wkParagraph) ?></p><?php endforeach; ?>
-<?php foreach (['control', 'vaccine', 'rightsMilestone', 'season'] as $wkKey): if (!empty($wkRecord[$wkKey])): ?><h3><?= e(ui('foundation.' . $wkKey)) ?></h3><p><?= e($wkRecord[$wkKey]) ?></p><?php endif; endforeach; ?></section>
+<?php foreach ($wkRecord['sections']['paraguay'] as $wkParagraph): ?><p><?= rich($wkParagraph) ?></p><?php endforeach; ?>
+<?php foreach (['control', 'vaccine', 'rightsMilestone', 'season'] as $wkKey): if (!empty($wkRecord[$wkKey])): ?><h3><?= e(ui('foundation.' . $wkKey)) ?></h3><p><?= rich($wkRecord[$wkKey]) ?></p><?php endif; endforeach; ?></section>
 <?php $faqItems = $wkRecord['faq']; require ROOT_DIR . '/partials/faq.php'; ?>
 <div class="section--tight"><?php $ctaOptions = ['campaign' => 'semana-' . $n . '-cierre']; require ROOT_DIR . '/partials/cta-week.php'; require ROOT_DIR . '/partials/trust-strip.php'; ?></div>
 <?php require ROOT_DIR . '/partials/week-nav.php'; $relatedSlugs = $wkRecord['related']; require ROOT_DIR . '/partials/related.php'; require ROOT_DIR . '/partials/wa-share.php'; ?>

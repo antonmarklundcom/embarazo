@@ -5,9 +5,10 @@ require_once __DIR__ . '/../lib/bootstrap.php';
 $hbWeeks = ($cluster ?? '') === 'semana';
 $hbRecord = $hbWeeks ? page_meta('/semana/') : (content('clusters')[$cluster ?? ''] ?? []);
 if ($hbRecord === []) { require ROOT_DIR . '/404.php'; return; }
+$hbRecord += page_meta('/' . $cluster . '/');
 $hbRecord += ['metaDescription' => $hbRecord['description'] ?? '', 'kind' => 'medical'];
 $page = ['title' => $hbRecord['seoTitle'] ?? $hbRecord['title'], 'description' => $hbRecord['metaDescription'], 'path' => '/' . $cluster . '/', 'sticky' => true,
-    'noindex' => $hbWeeks && !empty($hbRecord['stub']), 'faq' => $hbRecord['faq'] ?? [],
+    'noindex' => !empty($hbRecord['stub']) || !empty($hbRecord['noindex']), 'faq' => $hbRecord['faq'] ?? [],
     'breadcrumbs' => [['label' => $hbRecord['title'], 'path' => '/' . $cluster . '/']]];
 if (!empty($hbRecord['updated'])) { $page['record'] = $hbRecord; $page['kind'] = $hbRecord['kind']; }
 require ROOT_DIR . '/partials/head.php'; require ROOT_DIR . '/partials/header.php';
@@ -15,7 +16,7 @@ require ROOT_DIR . '/partials/head.php'; require ROOT_DIR . '/partials/header.ph
 <main id="main"><div class="wrap section section--tight">
 <?php require ROOT_DIR . '/partials/breadcrumbs.php'; ?>
 <header class="hub-hero"><h1><?= e($hbRecord['h1'] ?? $hbRecord['title']) ?></h1><div class="prose">
-<?php foreach ($hbRecord['intro'] ?? [$hbRecord['lead'] ?? ''] as $hbParagraph): ?><p class="lead"><?= e($hbParagraph) ?></p><?php endforeach; ?></div></header>
+<?php foreach ($hbRecord['intro'] ?? [$hbRecord['lead'] ?? ''] as $hbParagraph): ?><p class="lead"><?= rich($hbParagraph) ?></p><?php endforeach; ?></div></header>
 <?php if ($hbWeeks): ?>
 <?php foreach (content('trimestres') as $hbNumber => $hbTrimester): ?><section class="section--tight"><h2><a class="link-arrow" href="<?= e('/trimestre/' . $hbNumber . '/') ?>"><?= e($hbTrimester['title']) ?></a></h2><?php $gridWeeks = $hbTrimester['weeks']; require ROOT_DIR . '/partials/week-grid.php'; ?></section><?php endforeach; ?>
 <?php else: ?><section class="section--tight"><h2><?= e(ui('foundation.related')) ?></h2><div class="grid grid--2">

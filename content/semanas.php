@@ -527,7 +527,7 @@ return [
                 'También podés notar una línea más oscura en el abdomen o cambios de color alrededor de los pezones. Es común tener más flujo vaginal claro o blanquecino, sin olor fuerte ni picazón. Si aparece mal olor, picazón o ardor al orinar, consultá para que te evalúen. Una salida de líquido acuoso que moja la ropa requiere atención pronta, aunque no duela. Contar cómo empezó y qué notaste ayuda al equipo a distinguir lo que está pasando.',
                 'Para estar más cómoda, probá comer porciones pequeñas y evitar acostarte justo después de comer si tenés acidez. El agua, los alimentos con fibra y el movimiento suave suelen ayudar con el estreñimiento. Cambiar de postura con calma, hacer pausas y usar una almohada de apoyo al descansar puede aliviar la espalda. Si una molestia persiste o empeora, comentala en tu atención prenatal.',
                 'Los primeros movimientos suelen sentirse entre las semanas 16 y 24. En el primer embarazo puede llevar más tiempo reconocerlos: a veces parecen burbujas, un aleteo o pequeños golpecitos. La posición de la placenta también influye en cuánto percibís. Al principio pueden ser irregulares. Si a las 24 semanas todavía no sentiste movimientos, avisá a tu equipo; si notás una disminución clara respecto de lo habitual, consultá enseguida.',
-                'El sangrado vaginal, la pérdida de líquido, el dolor abdominal intenso o persistente, la fiebre o un dolor de cabeza fuerte con visión borrosa necesitan atención sin esperar al próximo control. Tampoco atribuyas al embarazo una falta de aire intensa o un dolor en el pecho. Buscá atención inmediata y revisá las señales de alarma en /salud/senales-de-alarma/, también entre las lecturas relacionadas.',
+                'El sangrado vaginal, la pérdida de líquido, el dolor abdominal intenso o persistente, la fiebre o un dolor de cabeza fuerte con visión borrosa necesitan atención sin esperar al próximo control. Tampoco atribuyas al embarazo una falta de aire intensa o un dolor en el pecho. Buscá atención inmediata y revisá [las señales de alarma](/salud/senales-de-alarma/), también entre las lecturas relacionadas.',
             ],
             'paraguay' => [
                 'En un control de esta etapa suelen revisar cómo te sentís, tu presión arterial, el peso, el crecimiento del útero y los latidos del bebé. También repasan los análisis y los estudios pendientes. Llevá tu carné perinatal y los informes que ya tengas, para que las indicaciones queden reunidas y puedas ver qué sigue después de la consulta.',
@@ -547,7 +547,7 @@ return [
             ],
             [
                 'q' => '¿Qué síntomas son normales en la semana 20?',
-                'a' => 'Son comunes la acidez, el estreñimiento, el cansancio y las molestias leves de espalda. Sangrado, pérdida de líquido, dolor fuerte o dolor de cabeza intenso con visión borrosa necesitan atención inmediata; revisá /salud/senales-de-alarma/.',
+                'a' => 'Son comunes la acidez, el estreñimiento, el cansancio y las molestias leves de espalda. Sangrado, pérdida de líquido, dolor fuerte o dolor de cabeza intenso con visión borrosa necesitan atención inmediata; revisá [las señales de alarma](/salud/senales-de-alarma/).',
             ],
             [
                 'q' => '¿Cuándo se hace la ecografía morfológica?',

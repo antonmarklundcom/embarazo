@@ -44,7 +44,9 @@ function seo_title(array $page): string
         return $name;
     }
 
-    return ($name !== '' && str_contains($title, $name)) ? $title : $title . $suffix;
+    // Keep an authored title intact when branding would exceed its SEO budget.
+    $withSuffix = $title . $suffix;
+    return ($name !== '' && str_contains($title, $name)) || preg_match_all('/./us', $withSuffix) > 60 ? $title : $withSuffix;
 }
 
 /**
@@ -287,7 +289,7 @@ function jsonld_software_application(array $app): array
     $data = ['@context' => 'https://schema.org', '@type' => 'SoftwareApplication',
         '@id' => rtrim($app['url'], '/') . '/#application',
         'name' => $app['name'], 'url' => $app['url'], 'description' => $app['description'],
-        'inLanguage' => 'es-PY',
+        'inLanguage' => 'es-PY', 'applicationCategory' => 'HealthApplication', 'operatingSystem' => 'Web',
         'offers' => ['@type' => 'Offer', 'price' => '0', 'priceCurrency' => 'PYG']];
     foreach (['applicationCategory', 'operatingSystem'] as $key) {
         if (!empty($app[$key])) {
@@ -356,7 +358,7 @@ function jsonld_medical_webpage(array $record, string $canonical, string $organi
 {
     $data = ['@context' => 'https://schema.org', '@type' => 'MedicalWebPage',
         '@id' => $canonical . '#webpage', 'url' => $canonical,
-        'name' => $record['title'], 'description' => $record['metaDescription'],
+        'name' => $record['title'], 'headline' => $record['title'], 'description' => $record['metaDescription'],
         'inLanguage' => 'es-PY', 'dateModified' => $record['updated'],
         'publisher' => ['@id' => $organizationId], 'mainEntity' => ['@id' => $canonical . '#article']];
     if (!empty($record['reviewedBy']['name'])) {

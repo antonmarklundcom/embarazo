@@ -14,6 +14,18 @@ function e(?string $value): string
     return htmlspecialchars((string) $value, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8');
 }
 
+/** Escape first; only local Markdown links with a restricted path become HTML. */
+function rich(string $text): string
+{
+    return preg_replace('~\[([^\[\]\r\n]+)\]\((/(?!/)[A-Za-z0-9/-]*(?:#[A-Za-z0-9-]+)?)\)~', '<a href="$2">$1</a>', e($text)) ?? e($text);
+}
+
+/** es-PY measurements, preserving missing values and trimming decimal zeroes. */
+function fmt_measure(?float $value): string
+{
+    return $value === null ? '—' : rtrim(rtrim(number_format($value, 6, ',', ''), '0'), ',');
+}
+
 /**
  * The site origin without a trailing slash. Falls back to the current request
  * host so local preview and the staging subdomain work with no config.php.

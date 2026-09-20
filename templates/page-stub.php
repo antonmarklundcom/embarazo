@@ -26,7 +26,7 @@ require ROOT_DIR . '/partials/header.php';
       <div class="hero__copy">
         <h1><?= e($meta['h1'] ?? '') ?></h1>
         <?php if (!empty($meta['lead'])): ?>
-          <p class="lead"><?= e($meta['lead']) ?></p>
+          <p class="lead"><?= rich($meta['lead']) ?></p>
         <?php endif; ?>
       </div>
     </div>

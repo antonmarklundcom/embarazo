@@ -10,17 +10,17 @@ $page = ['title' => $pgRecord['seoTitle'] ?? $pgRecord['title'], 'description' =
 if (!empty($pgRecord['stub'])) { $page['noindex'] = true; require ROOT_DIR . '/templates/page-stub.php'; unset($pgRecord); return; }
 require ROOT_DIR . '/partials/head.php'; require ROOT_DIR . '/partials/header.php'; ?>
 <main id="main"><section class="hero wrap"><?php require ROOT_DIR . '/partials/breadcrumbs.php'; ?><div class="hero__inner"><div class="hero__copy">
-<h1><?= e($pgRecord['h1'] ?: $pgRecord['title']) ?></h1><p class="lead"><?= e($pgRecord['lead'] ?? '') ?></p>
+<h1><?= e($pgRecord['h1'] ?: $pgRecord['title']) ?></h1><p class="lead"><?= rich($pgRecord['lead'] ?? '') ?></p>
 <?php if (empty($page['sticky'])): ?><div class="hero__actions"><a class="btn btn--primary btn--lg" href="<?= e(app_link('product', trim($path, '/') . '-hero')) ?>"><?= e(content('cta')['primary']) ?></a></div><?php require ROOT_DIR . '/partials/trust-strip.php'; endif; ?>
 </div><?php if (!empty($pgRecord['phoneWeek'])): ?><div class="hero__art"><?php $phoneNumber = (int) $pgRecord['phoneWeek']; $phoneWeek = content('semanas')[$phoneNumber]; $phoneImage = $pgRecord['phoneImage'] ?? null; require ROOT_DIR . '/partials/phone-frame.php'; ?></div><?php endif; ?></div></section>
 <div class="wrap wrap--text"><?php $bodySections = $pgRecord['sections'] ?? []; require ROOT_DIR . '/partials/sections.php'; ?></div>
 <?php if (!empty($pgRecord['features'])): ?><section class="section wrap"><h2><?= e(ui('foundation.features')) ?></h2><div class="bento">
 <?php foreach ($pgRecord['features'] as $pgIndex => $pgFeature): $pgTone = in_array($pgFeature['tone'], ['rosa','celeste','salvia','lavanda','arena'], true) ? $pgFeature['tone'] : 'celeste'; ?>
-<a class="bento__tile <?= e('bento__tile--' . $pgTone . ($pgIndex === 0 ? ' bento__tile--wide' : '')) ?>" href="<?= e(app_link('product', trim($path, '/') . '-bento-' . $pgFeature['key'], $pgFeature['extra'] ?? [])) ?>"><span class="bento__icon" aria-hidden="true">↗</span><h3><?= e($pgFeature['title']) ?></h3><p><?= e($pgFeature['text']) ?></p><span class="link-arrow"><?= e(content('cta')['tool']) ?></span></a>
+<div class="bento__tile <?= e('bento__tile--' . $pgTone . ($pgIndex === 0 ? ' bento__tile--wide' : '')) ?>"><span class="bento__icon" aria-hidden="true">↗</span><h3><?= e($pgFeature['title']) ?></h3><p><?= rich($pgFeature['text']) ?></p><a class="link-arrow" href="<?= e(app_link('product', trim($path, '/') . '-bento-' . $pgFeature['key'], $pgFeature['extra'] ?? [])) ?>"><?= e(content('cta')['tool']) ?></a></div>
 <?php endforeach; ?></div></section><?php endif; ?>
 <?php if (!empty($pgRecord['howto'])): ?><section class="section wrap wrap--text"><h2><?= e(ui('foundation.steps')) ?></h2>
 <?php foreach ($pgRecord['howto'] as $pgOs): ?><details class="os"<?= stripos($pgOs['os'], 'android') !== false ? ' open' : '' ?>><summary><?= e($pgOs['os']) ?></summary><div class="os__body"><ol class="steps">
-<?php foreach ($pgOs['steps'] as $pgStep): ?><li><?php if (is_string($pgStep)): ?><?= e($pgStep) ?><?php else: ?><h3><?= e($pgStep['title']) ?></h3><?php foreach ($pgStep['body'] as $pgParagraph): ?><p><?= e($pgParagraph) ?></p><?php endforeach; endif; ?></li><?php endforeach; ?></ol></div></details><?php endforeach; ?></section><?php endif; ?>
+<?php foreach ($pgOs['steps'] as $pgStep): ?><li><?php if (is_string($pgStep)): ?><?= rich($pgStep) ?><?php else: ?><h3><?= e($pgStep['title']) ?></h3><?php foreach ($pgStep['body'] as $pgParagraph): ?><p><?= rich($pgParagraph) ?></p><?php endforeach; endif; ?></li><?php endforeach; ?></ol></div></details><?php endforeach; ?></section><?php endif; ?>
 <div class="wrap wrap--text section--tight"><?php $faqItems = $pgRecord['faq'] ?? []; require ROOT_DIR . '/partials/faq.php'; ?></div>
 <?php require ROOT_DIR . '/partials/cta-band.php'; ?>
 </main><?php require ROOT_DIR . '/partials/footer.php'; unset($pgRecord, $pgIndex, $pgFeature, $pgTone, $pgOs, $pgStep, $pgParagraph); ?>

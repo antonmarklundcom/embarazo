@@ -58,7 +58,8 @@ done
 # head.php needs no change. Regenerate first if Node is on this machine, so a
 # forgotten re-run after editing site.css never ships stale CSS; otherwise
 # fall back to whatever assets/css/site.min.css is already committed.
-if command -v node >/dev/null; then
+# Set SKIP_CSS_MINIFY=1 when packaging a manager-approved stylesheet unchanged.
+if [ "${SKIP_CSS_MINIFY:-0}" != 1 ] && command -v node >/dev/null; then
   node "$ROOT/deploy/minify-css.mjs"
 fi
 if [ -f "$ROOT/assets/css/site.min.css" ]; then

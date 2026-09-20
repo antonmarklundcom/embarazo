@@ -137,98 +137,10 @@
   color-scheme: light;      /* the brand has no dark mode — see §Decisions */
 }
 
-
-@font-face with font-display:swap). The fallback stack is metric-close
-     enough that swap costs no measurable CLS. Display == body by decision:
-     brand-exact with the app; editorial voice comes from scale, not a
-     second face. */
-  --font-body: "Nunito Sans", "Segoe UI", Roboto, system-ui, -apple-system, sans-serif;
-  --font-display: var(--font-body);
-  --font-mono: ui-monospace, "SF Mono", "Cascadia Mono", Menlo, monospace;
-
-  --weight-regular: 400;
-  --weight-medium: 500;
-  --weight-bold: 700;
-
-  /* Type scale — major third (1.25), base 16 px. Mobile ceiling is
-     --step-4; --step-5 exists for desktop display only. */
-  --step--2: 0.64rem;    /* 10.24 — overline, legal micro */
-  --step--1: 0.8rem;     /* 12.80 — meta, sources, captions */
-  --step-0:  1rem;       /* 16.00 — UI, labels */
-  --step-1:  1.125rem;   /* 18.00 — body copy (long-form reads at 18) */
-  --step-2:  1.25rem;    /* 20.00 — lead, H4 */
-  --step-3:  1.5625rem;  /* 25.00 — H3 */
-  --step-4:  1.9531rem;  /* 31.25 — H2, mobile H1 */
-  --step-5:  2.4414rem;  /* 39.06 — desktop H1, big-type hub */
-  --step-6:  3.0518rem;  /* 48.83 — desktop hero H1 / the number in a week card */
-
-  --leading-tight: 1.15;
-  --leading-heading: 1.22;
-  --leading-body: 1.65;
-  --measure: 34rem;      /* ~68 characters at --step-1 */
-  --measure-narrow: 26rem;
-
-  /* ---- Space — 4 px base --------------------------------------------- */
-  --space-3xs: 0.25rem;  /*  4 */
-  --space-2xs: 0.5rem;   /*  8 */
-  --space-xs:  0.75rem;  /* 12 */
-  --space-s:   1rem;     /* 16 */
-  --space-m:   1.5rem;   /* 24 */
-  --space-l:   2rem;     /* 32 */
-  --space-xl:  3rem;     /* 48 */
-  --space-2xl: 4rem;     /* 64 */
-  --space-3xl: 5rem;     /* 80 — desktop section rhythm */
-
-  --gutter: var(--space-s);      /* 16 px at 360; page edge padding */
-  --wrap: 72rem;                 /* 1152 — full-width container */
-  --wrap-text: 40rem;            /* 640 — article column */
-
-  /* ---- Radii --------------------------------------------------------- */
-  --radius-xs: 6px;
-  --radius-s: 10px;
-  --radius-tile: 14px;   /* app value */
-  --radius-card: 16px;   /* app value */
-  --radius-l: 22px;      /* phone frame, hero panel */
-  --radius-pill: 999px;
-
-  /* ---- Elevation ----------------------------------------------------- */
-  --shadow-soft:
-    0 1px 3px rgba(42, 39, 36, 0.06),
-    0 1px 2px rgba(42, 39, 36, 0.04);           /* app value */
-  --shadow-lift:
-    0 6px 16px rgba(42, 39, 36, 0.10),
-    0 2px 4px rgba(42, 39, 36, 0.06);
-  --shadow-bar:
-    0 -2px 12px rgba(42, 39, 36, 0.10);          /* sticky CTA bar, upward */
-
-  /* ---- Motion — one per screen, all reduced-motion aware -------------- */
-  --dur-fast: 120ms;
-  --dur: 200ms;
-  --ease: cubic-bezier(0.2, 0, 0.2, 1);
-
-  /* ---- Layout constants ---------------------------------------------- */
-  --tap: 44px;              /* minimum tap target — never smaller */
-  --header-h: 56px;
-  --ctabar-h: 64px;
-
-  color-scheme: light;      /* the brand has no dark mode — see §Decisions */
-}
-
-@media (max-width: 768px) {
-  :root {
-    --t-d1: 40px;
-    --t-d2: 34px;
-    --t-d3: 30px;
-    --t-d4: 24px;
-    --section-y: 56px;
-    --gutter: 24px;
-  }
-}
-
 /* == fonts =============================================================== */
-/* Self-hosted woff2. Both families ship as variable fonts, so one
-   file per subset covers every weight we use: Bricolage 600/800 for display,
-   Onest 400/500/600 for body. */
+/* Self-hosted Nunito Sans woff2 (400, 500, 700; latin and latin-ext). The files are
+   listed in assets/fonts/README.md; until they are dropped in, the system-ui
+   fallback in --font-body renders. No preload lines while the files are missing. */
 
 @font-face {
   font-family: "Nunito Sans";
@@ -989,3 +901,8 @@ a:hover { color: var(--petrol-dark); }
 .gn__label { font-size: var(--step--1); color: var(--sage-text); }
 
 @media (min-width: 45rem) { .ctabar-switch { display: none; } }
+
+/* == t1 layout fix == grid items must be allowed to shrink below their min-content,
+   otherwise the week teaser stretches its section past the viewport at 375 px. */
+.grid > *, .week-grid > li { min-width: 0; }
+.week-card__size { overflow-wrap: anywhere; }

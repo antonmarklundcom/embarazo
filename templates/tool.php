@@ -29,11 +29,13 @@ if ($tool === null) {
    (lib/market/<market>.php), so a calculator page reads the same numbers the
    JS calculator does and neither hardcodes a country's rules. */
 $lastReviewed = market_last_reviewed();
+$tool += page_meta($tool['path']);
 
 $page = [
     'title'       => $tool['seoTitle'] !== '' ? $tool['seoTitle'] : $tool['title'],
     'description' => $tool['metaDescription'],
     'path'        => $tool['path'],
+    'noindex'     => !empty($tool['stub']) || !empty($tool['noindex']),
     'breadcrumbs' => [
         ['label' => ui('nav.tools'), 'path' => '/herramientas/'],
         ['label' => $tool['title'], 'path' => $tool['path']],
@@ -53,7 +55,7 @@ require ROOT_DIR . '/partials/header.php';
       <div class="hero__copy">
         <p class="eyebrow"><?= e($tool['hero']['eyebrow']) ?></p>
         <h1><?= e($tool['hero']['h1']) ?></h1>
-        <p class="lead"><?= e($tool['hero']['lead']) ?></p>
+        <p class="lead"><?= rich($tool['hero']['lead']) ?></p>
       </div>
     </div>
   </section>
@@ -73,7 +75,7 @@ require ROOT_DIR . '/partials/header.php';
     <section class="section section--surface">
       <div class="wrap prose">
         <?php foreach ($tool['intro'] as $paragraph): ?>
-          <p><?= e($paragraph) ?></p>
+          <p><?= rich($paragraph) ?></p>
         <?php endforeach; ?>
       </div>
     </section>
@@ -97,4 +99,3 @@ require ROOT_DIR . '/partials/header.php';
   <script src="<?= e(asset('/assets/js/tools/' . $slug . '.js')) ?>" defer></script>
 </main>
 <?php require ROOT_DIR . '/partials/footer.php'; ?>
-
