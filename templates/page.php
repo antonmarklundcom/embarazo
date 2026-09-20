@@ -1,75 +1,26 @@
 <?php
-/**
- * A plain content page from content/pages.php: the H1 and lead from the page
- * record, then its optional 'sections' as prose, then the CTA band. Used by the
- * legal pages and by any page whose whole content is text.
- *
- * Every route file that uses it is three lines: require bootstrap, set $path,
- * require this file.
- *
- *   $path  string  required — the key in content/pages.php
- *
- * A page whose record has 'stub' => true renders through
- * templates/page-stub.php instead; the route file decides which.
- */
-
+/** $path selects pages. Optional features[{key,title,text,appPath,tone,extra?}], howto[{os,steps[]}], faq. */
 declare(strict_types=1);
-
-/** @var string $path */
-$meta = page_meta($path ?? '/');
-
-if ($meta === []) {
-    http_response_code(404);
-    require ROOT_DIR . '/404.php';
-    return;
-}
-
-$page = [
-    'title'       => $meta['title'],
-    'description' => $meta['description'],
-    'path'        => $path,
-    'breadcrumbs' => [['label' => $meta['title'], 'path' => $path]],
-];
-
-if (!empty($meta['stub'])) {
-    $page['noindex'] = true;
-    require ROOT_DIR . '/templates/page-stub.php';
-    return;
-}
-
-require ROOT_DIR . '/partials/head.php';
-require ROOT_DIR . '/partials/header.php';
-?>
-<main id="main">
-  <section class="page-hero">
-    <div class="container">
-      <?php require ROOT_DIR . '/partials/breadcrumbs.php'; ?>
-      <div class="page-hero__inner">
-        <h1><?= e($meta['h1'] !== '' ? $meta['h1'] : $meta['title']) ?></h1>
-        <?php if (!empty($meta['lead'])): ?>
-          <p class="lead"><?= e($meta['lead']) ?></p>
-        <?php endif; ?>
-      </div>
-    </div>
-  </section>
-
-  <?php if (!empty($meta['sections'])): ?>
-    <section class="section">
-      <div class="container stack">
-        <?php foreach ($meta['sections'] as $pageBlock): ?>
-          <div class="prose">
-            <?php if (!empty($pageBlock['h2'])): ?>
-              <h2><?= e($pageBlock['h2']) ?></h2>
-            <?php endif; ?>
-            <?php foreach ($pageBlock['body'] ?? [] as $pageParagraph): ?>
-              <p><?= e($pageParagraph) ?></p>
-            <?php endforeach; ?>
-          </div>
-        <?php endforeach; ?>
-      </div>
-    </section>
-  <?php endif; ?>
-
-  <?php require ROOT_DIR . '/partials/cta-band.php'; ?>
-</main>
-<?php require ROOT_DIR . '/partials/footer.php'; ?>
+require_once __DIR__ . '/../lib/bootstrap.php';
+$pgRecord = page_meta($path ?? '/');
+if ($pgRecord === []) { require ROOT_DIR . '/404.php'; return; }
+$page = ['title' => $pgRecord['seoTitle'] ?? $pgRecord['title'], 'description' => $pgRecord['metaDescription'] ?? $pgRecord['description'], 'path' => $path,
+    'faq' => $pgRecord['faq'] ?? [], 'howto' => $pgRecord['howto'] ?? [], 'noindex' => $pgRecord['noindex'] ?? false,
+    'breadcrumbs' => $path === '/' ? [] : [['label' => $pgRecord['title'], 'path' => $path]], 'sticky' => $path === '/blog/'];
+if (!empty($pgRecord['stub'])) { $page['noindex'] = true; require ROOT_DIR . '/templates/page-stub.php'; unset($pgRecord); return; }
+require ROOT_DIR . '/partials/head.php'; require ROOT_DIR . '/partials/header.php'; ?>
+<main id="main"><section class="hero wrap"><?php require ROOT_DIR . '/partials/breadcrumbs.php'; ?><div class="hero__inner"><div class="hero__copy">
+<h1><?= e($pgRecord['h1'] ?: $pgRecord['title']) ?></h1><p class="lead"><?= e($pgRecord['lead'] ?? '') ?></p>
+<?php if (empty($page['sticky'])): ?><div class="hero__actions"><a class="btn btn--primary btn--lg" href="<?= e(app_link('product', trim($path, '/') . '-hero')) ?>"><?= e(content('cta')['primary']) ?></a></div><?php require ROOT_DIR . '/partials/trust-strip.php'; endif; ?>
+</div><?php if (!empty($pgRecord['phoneWeek'])): ?><div class="hero__art"><?php $phoneNumber = (int) $pgRecord['phoneWeek']; $phoneWeek = content('semanas')[$phoneNumber]; $phoneImage = $pgRecord['phoneImage'] ?? null; require ROOT_DIR . '/partials/phone-frame.php'; ?></div><?php endif; ?></div></section>
+<div class="wrap wrap--text"><?php $bodySections = $pgRecord['sections'] ?? []; require ROOT_DIR . '/partials/sections.php'; ?></div>
+<?php if (!empty($pgRecord['features'])): ?><section class="section wrap"><h2><?= e(ui('foundation.features')) ?></h2><div class="bento">
+<?php foreach ($pgRecord['features'] as $pgIndex => $pgFeature): $pgTone = in_array($pgFeature['tone'], ['rosa','celeste','salvia','lavanda','arena'], true) ? $pgFeature['tone'] : 'celeste'; ?>
+<a class="bento__tile <?= e('bento__tile--' . $pgTone . ($pgIndex === 0 ? ' bento__tile--wide' : '')) ?>" href="<?= e(app_link('product', trim($path, '/') . '-bento-' . $pgFeature['key'], $pgFeature['extra'] ?? [])) ?>"><span class="bento__icon" aria-hidden="true">↗</span><h3><?= e($pgFeature['title']) ?></h3><p><?= e($pgFeature['text']) ?></p><span class="link-arrow"><?= e(content('cta')['tool']) ?></span></a>
+<?php endforeach; ?></div></section><?php endif; ?>
+<?php if (!empty($pgRecord['howto'])): ?><section class="section wrap wrap--text"><h2><?= e(ui('foundation.steps')) ?></h2>
+<?php foreach ($pgRecord['howto'] as $pgOs): ?><details class="os"<?= stripos($pgOs['os'], 'android') !== false ? ' open' : '' ?>><summary><?= e($pgOs['os']) ?></summary><div class="os__body"><ol class="steps">
+<?php foreach ($pgOs['steps'] as $pgStep): ?><li><?php if (is_string($pgStep)): ?><?= e($pgStep) ?><?php else: ?><h3><?= e($pgStep['title']) ?></h3><?php foreach ($pgStep['body'] as $pgParagraph): ?><p><?= e($pgParagraph) ?></p><?php endforeach; endif; ?></li><?php endforeach; ?></ol></div></details><?php endforeach; ?></section><?php endif; ?>
+<div class="wrap wrap--text section--tight"><?php $faqItems = $pgRecord['faq'] ?? []; require ROOT_DIR . '/partials/faq.php'; ?></div>
+<?php require ROOT_DIR . '/partials/cta-band.php'; ?>
+</main><?php require ROOT_DIR . '/partials/footer.php'; unset($pgRecord, $pgIndex, $pgFeature, $pgTone, $pgOs, $pgStep, $pgParagraph); ?>

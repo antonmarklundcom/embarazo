@@ -2,6 +2,28 @@
 /** Visible UI copy in es-PY voseo, grouped by component; clusters maps ids to labels. */
 declare(strict_types=1);
 return [
+    'foundation' => [
+        'faq' => 'Preguntas frecuentes', 'sources' => 'Fuentes', 'updated' => 'Actualizado el',
+        'valid' => 'Vigente a', 'reviewer' => 'Revisado por',
+        'pending' => 'Pendiente de revisión profesional.',
+        'medicalReviewed' => 'Información general, no es un diagnóstico ni reemplaza tu consulta.',
+        'share' => 'Compartí por WhatsApp', 'shareHint' => 'Para conversar en familia',
+        'dismiss' => 'Ocultá la barra de la app', 'week' => 'Semana', 'weeks' => 'Semana a semana',
+        'previous' => '← Anterior', 'next' => 'Siguiente →', 'weekNav' => 'Navegación entre semanas',
+        'bebe' => 'Tu bebé esta semana', 'vos' => 'Vos esta semana', 'paraguay' => 'En Paraguay esta semana',
+        'control' => 'Control y estudios', 'vaccine' => 'Vacunas', 'rightsMilestone' => 'Tus derechos', 'season' => 'Esta temporada',
+        'completed' => 'La semana {n} es la que transcurre: {completed} semanas completas más 0 a 6 días.',
+        'size' => 'Del tamaño de {size}', 'measure' => '{length} cm · {weight} g, aproximadamente',
+        'alarm' => 'Consultá las señales de alarma', 'related' => 'Seguí leyendo', 'steps' => 'Paso a paso',
+        'handoff' => 'Qué hace la app con esto', 'primaryTitle' => 'Llevá Mi Bebé con vos',
+        'weekTitle' => 'Seguí tu semana', 'weekText' => 'Abrí el seguimiento semanal de Mi Bebé.',
+        'toolTitle' => 'Continuá en la app', 'stickyText' => 'Hecha para Paraguay',
+        'features' => 'Conocé la app', 'phone' => 'Vista ilustrativa del seguimiento semanal de Mi Bebé',
+        'phoneChips' => ['Pataditas', 'Síntomas', 'Carné', 'Comer'],
+        'phoneTabs' => ['Semana', 'Herramientas', 'Familia'],
+        'brandMark' => 'MB', 'blog' => 'Blog', 'timeline' => 'Tu recorrido',
+        'guarani' => 'También en guaraní', 'legalLinks' => 'Mi Bebé',
+    ],
     'nav' => [
     'home' => 'Inicio',
     'skip' => 'Saltá al contenido',
@@ -38,3 +60,4 @@ return [
     'rights' => 'Todos los derechos reservados.'
 ]
 ];
+

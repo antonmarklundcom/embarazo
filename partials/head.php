@@ -16,10 +16,34 @@ declare(strict_types=1);
 /** @var array $page */
 $page        = $page ?? [];
 $currentPath = $page['path'] ?? '/';
-$htmlLang    = $page['lang'] ?? market_locale();
+$headLang = $page['lang'] ?? 'es-PY';
+$headBlocks = jsonld_sitewide(content('site'), site_origin());
+$headTrail = [['label' => ui('nav.home'), 'url' => url('/')]];
+foreach ($page['breadcrumbs'] ?? [] as $headCrumb) {
+    $headTrail[] = ['label' => $headCrumb['label'], 'url' => url($headCrumb['path'])];
+}
+$headBlocks[] = jsonld_breadcrumb_list($headTrail);
+if (!empty($page['record'])) {
+    $headBlocks = array_merge($headBlocks, jsonld_editorial($page['record'], $page['kind'] ?? 'product', seo_canonical($page), url('/') . '#organization', seo_og_image($page)));
+} else {
+    $headFaq = jsonld_faq($page['faq'] ?? []);
+    if ($headFaq !== null) { $headBlocks[] = $headFaq; }
+    $headArticle = jsonld_article($page['article'] ?? [], $page);
+    if ($headArticle !== null) { $headBlocks[] = $headArticle; }
+}
+if (in_array($page['path'] ?? '/', ['/', '/app/'], true)) {
+    $headBlocks[] = jsonld_software_application(['name' => site('name'), 'url' => app_link('product', 'schema'), 'description' => site('description')]);
+}
+if (($page['path'] ?? '') === '/instalar/') {
+    foreach ($page['howto'] ?? [] as $headOs) {
+        $headBlocks[] = jsonld_howto($headOs['os'], seo_canonical($page), $headOs['steps']);
+    }
+}
+if (!empty($page['tool'])) { $headBlocks[] = jsonld_web_application($page['tool'], seo_canonical($page)); }
+$headBlocks = array_merge($headBlocks, $page['jsonld'] ?? []);
 ?>
 <!doctype html>
-<html lang="<?= e($htmlLang) ?>">
+<html lang="<?= e($headLang) ?>">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -28,8 +52,8 @@ $htmlLang    = $page['lang'] ?? market_locale();
 <meta name="description" content="<?= e($page['description']) ?>">
 <?php endif; ?>
 <link rel="canonical" href="<?= e(seo_canonical($page)) ?>">
-<?php foreach ($page['hreflang'] ?? [] as $hrefLocale => $hrefPath): ?>
-<link rel="alternate" hreflang="<?= e($hrefLocale) ?>" href="<?= e(url($hrefPath)) ?>">
+<?php foreach ($page['hreflang'] ?? [] as $headLocale => $headPath): ?>
+<link rel="alternate" hreflang="<?= e($headLocale) ?>" href="<?= e(url($headPath)) ?>">
 <?php endforeach; ?>
 <?php if (!empty($page['noindex'])): ?>
 <meta name="robots" content="noindex, follow">
@@ -37,7 +61,7 @@ $htmlLang    = $page['lang'] ?? market_locale();
 
 <meta property="og:type" content="<?= e($page['ogType'] ?? 'website') ?>">
 <meta property="og:site_name" content="<?= e(site('name')) ?>">
-<meta property="og:locale" content="<?= e(str_replace('-', '_', $htmlLang)) ?>">
+<meta property="og:locale" content="<?= e(str_replace('-', '_', $headLang)) ?>">
 <meta property="og:title" content="<?= e(seo_title($page)) ?>">
 <?php if (!empty($page['description'])): ?>
 <meta property="og:description" content="<?= e($page['description']) ?>">
@@ -52,10 +76,12 @@ $htmlLang    = $page['lang'] ?? market_locale();
 
 <link rel="stylesheet" href="<?= e(asset('/assets/css/site.css')) ?>">
 
-<?php foreach (seo_jsonld($page) as $block): ?>
-<script type="application/ld+json"><?= json_ld($block) ?></script>
+<?php foreach ($headBlocks as $headBlock): ?>
+<script type="application/ld+json"><?= json_ld($headBlock) ?></script>
 <?php endforeach; ?>
 
 </head>
-<body>">
+<body>
 <a class="skip-link" href="#main"><?= e(ui('nav.skip')) ?></a>
+
+<?php unset($headLang, $headBlocks, $headTrail, $headCrumb, $headFaq, $headArticle, $headOs, $headBlock, $headLocale, $headPath); ?>

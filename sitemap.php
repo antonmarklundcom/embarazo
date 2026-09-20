@@ -39,6 +39,19 @@ foreach (content('blog') as $article) {
 }
 
 
+// Foundation exemplars and later authored routes; seed-only weeks stay excluded.
+foreach (content('semanas') as $weekNumber => $weekRecord) {
+    $weekPath = '/semana/' . $weekNumber . '/';
+    if (!empty($weekRecord['sections']['bebe']) && is_file(ROOT_DIR . $weekPath . 'index.php')) {
+        $urls[] = ['loc' => url($weekPath), 'lastmod' => $weekRecord['updated'], 'changefreq' => 'monthly', 'priority' => '0.7'];
+    }
+}
+foreach (content('articulos') as $articleRecord) {
+    if (is_file(ROOT_DIR . $articleRecord['path'] . 'index.php')) {
+        $urls[] = ['loc' => url($articleRecord['path']), 'lastmod' => $articleRecord['updated'], 'changefreq' => 'monthly', 'priority' => '0.6'];
+    }
+}
+
 header('Content-Type: application/xml; charset=utf-8');
 echo '<?xml version="1.0" encoding="UTF-8"?>', "\n";
 ?>

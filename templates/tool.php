@@ -16,6 +16,7 @@ declare(strict_types=1);
 
 /** @var string $slug */
 /** @var string $toolCalcHtml */
+require_once __DIR__ . '/../lib/bootstrap.php';
 $tool = content('tools')[$slug ?? ''] ?? null;
 
 if ($tool === null) {
@@ -37,7 +38,8 @@ $page = [
         ['label' => ui('nav.tools'), 'path' => '/herramientas/'],
         ['label' => $tool['title'], 'path' => $tool['path']],
     ],
-    'faq'      => $tool['faq'],
+    'faq' => $tool['faq'],
+    'tool' => $tool,
 ];
 
 require ROOT_DIR . '/partials/head.php';
@@ -45,10 +47,10 @@ require ROOT_DIR . '/partials/header.php';
 ?>
 <main id="main">
 
-  <section class="page-hero">
-    <div class="container">
+  <section class="hero">
+    <div class="wrap">
       <?php require ROOT_DIR . '/partials/breadcrumbs.php'; ?>
-      <div class="page-hero__inner">
+      <div class="hero__copy">
         <p class="eyebrow"><?= e($tool['hero']['eyebrow']) ?></p>
         <h1><?= e($tool['hero']['h1']) ?></h1>
         <p class="lead"><?= e($tool['hero']['lead']) ?></p>
@@ -57,7 +59,7 @@ require ROOT_DIR . '/partials/header.php';
   </section>
 
   <section class="section">
-    <div class="container stack">
+    <div class="wrap stack">
       <p class="note tool-reviewed">
         <?= e(ui('tools.reviewed_prefix')) ?>
         <?= e($lastReviewed) ?>. <?= e(ui('tools.orientativo')) ?>
@@ -69,7 +71,7 @@ require ROOT_DIR . '/partials/header.php';
 
   <?php if ($tool['intro'] !== []): ?>
     <section class="section section--surface">
-      <div class="container prose">
+      <div class="wrap prose">
         <?php foreach ($tool['intro'] as $paragraph): ?>
           <p><?= e($paragraph) ?></p>
         <?php endforeach; ?>
@@ -79,7 +81,7 @@ require ROOT_DIR . '/partials/header.php';
 
   <?php if ($tool['faq'] !== []): ?>
     <section class="section">
-      <div class="container">
+      <div class="wrap">
         <?php $faqItems = $tool['faq']; ?>
         <?php require ROOT_DIR . '/partials/faq.php'; ?>
       </div>
@@ -88,10 +90,11 @@ require ROOT_DIR . '/partials/header.php';
 
 
 
-  <?php require ROOT_DIR . '/partials/cta-band.php'; ?>
+  
 
   <script src="<?= e(asset('/assets/js/market/' . market_id() . '.js')) ?>" defer></script>
   <script src="<?= e(asset('/assets/js/tools/tools-shared.js')) ?>" defer></script>
   <script src="<?= e(asset('/assets/js/tools/' . $slug . '.js')) ?>" defer></script>
 </main>
 <?php require ROOT_DIR . '/partials/footer.php'; ?>
+

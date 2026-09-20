@@ -116,8 +116,8 @@ return [
     'h1' => 'Derechos',
     'lead' => 'Estamos preparando esta sección para vos.',
     'sections' => [],
-    'stub' => true,
-    'noindex' => true
+    'stub' => false,
+    'noindex' => false
 ],
     '/parto/' => [
     'title' => 'Parto',
