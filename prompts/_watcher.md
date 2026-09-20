@@ -18,6 +18,9 @@ Routine. You supervise a running build; you never take part in it.
 - `docs/decisions-needed.md`, if it exists.
 
 ## 2. Classify every lane 2 phase
+
+Phase list: S1–S8 (Sonnet, at most 4 concurrent); then L, the link pass (Sonnet).
+S9 imagery is manual; do not spawn it automatically.
 - **merged** — its PR is merged.
 - **running** — its branch has a commit less than 90 minutes old.
 - **stalled** — its branch exists, the PR is not merged, and the last commit is older than that.

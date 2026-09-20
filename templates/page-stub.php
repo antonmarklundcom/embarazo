@@ -20,22 +20,22 @@ require ROOT_DIR . '/partials/head.php';
 require ROOT_DIR . '/partials/header.php';
 ?>
 <main id="main">
-  <section class="page-hero">
-    <div class="container">
+  <section class="hero">
+    <div class="wrap">
       <?php require ROOT_DIR . '/partials/breadcrumbs.php'; ?>
-      <div class="page-hero__inner">
+      <div class="hero__copy">
         <h1><?= e($meta['h1'] ?? '') ?></h1>
         <?php if (!empty($meta['lead'])): ?>
-          <p class="lead"><?= e($meta['lead']) ?></p>
+          <p class="lead"><?= rich($meta['lead']) ?></p>
         <?php endif; ?>
       </div>
     </div>
   </section>
 
   <section class="section">
-    <div class="container stack">
+    <div class="wrap stack">
       <p class="lead"><?= e(ui('placeholder.notice')) ?> <?= e(ui('placeholder.action')) ?></p>
-      <div class="btn-row">
+      <div class="hero__actions">
         <a class="btn btn--primary" href="<?= e(app_link()) ?>"><?= e(ui('cta.open')) ?></a>
         <a class="btn btn--secondary" href="/"><?= e(ui('cta.home')) ?></a>
       </div>
@@ -45,3 +45,4 @@ require ROOT_DIR . '/partials/header.php';
 
 </main>
 <?php require ROOT_DIR . '/partials/footer.php'; ?>
+

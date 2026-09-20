@@ -1,2 +1,2 @@
 <?php declare(strict_types=1); ?>
-<section class="section"><div class="container"><a class="btn btn--primary" href="<?= e(app_link()) ?>"><?= e(ui('cta.open')) ?></a></div></section>
+<section class="section"><div class="wrap wrap--text"><?php require ROOT_DIR . '/partials/cta-primary.php'; ?></div></section>

@@ -1,0 +1,3 @@
+<?php
+$n = 38;
+require __DIR__ . '/../../templates/week.php';

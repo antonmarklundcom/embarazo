@@ -23,10 +23,12 @@ set -uo pipefail
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 SITE_ROOT="$ROOT"
+FINAL=0
 PORT="${VERIFY_PORT:-8730}"
 
 while [ $# -gt 0 ]; do
   case "$1" in
+    --final) FINAL=1; shift ;;
     --root) SITE_ROOT="$(cd "$2" && pwd)"; shift 2 ;;
     --port) PORT="$2"; shift 2 ;;
     *) echo "unknown argument: $1" >&2; exit 2 ;;
@@ -59,6 +61,12 @@ while IFS= read -r file; do
   fi
 done < <(find "$SITE_ROOT" -name '*.php' -not -path '*/tests/node_modules/*' -not -path '*/dist/*' | sort)
 [ "$LINT_FAILED" -eq 0 ] && ok "all PHP files parse"
+
+# -------------------------------------------------------------- CSS sanity --
+step "CSS sanity"
+if ! node "$ROOT/tests/css-sanity.mjs" "$SITE_ROOT/assets/css/site.css"; then
+  fail "CSS sanity"
+fi
 
 # ---------------------------------------------------------- 2. market module --
 step "market module"
@@ -129,7 +137,7 @@ step "routes"
 ROUTE_LIST=$(php "$ROOT/deploy/routes.php" "$SITE_ROOT")
 ROUTE_COUNT=0
 
-while IFS=$'\t' read -r path expected; do
+while IFS=$'\t' read -r path expected flag; do
   [ -z "$path" ] && continue
   actual=$(curl -s -o /dev/null -w '%{http_code}' "${BASE}${path}")
   ROUTE_COUNT=$((ROUTE_COUNT + 1))
@@ -151,7 +159,7 @@ fi
 # --------------------------------------------- 6. unique title + description --
 step "metadata"
 META=$(mktemp)
-while IFS=$'\t' read -r path expected; do
+while IFS=$'\t' read -r path expected flag; do
   [ "$expected" = "200" ] || continue
   case "$path" in /robots.txt|/sitemap.xml) continue ;; esac
 
@@ -162,8 +170,7 @@ while IFS=$'\t' read -r path expected; do
   [ -z "$title" ] && fail "$path — empty <title>"
   [ -z "$desc" ]  && fail "$path — empty meta description"
 
-  stub=$(php -r 'require $argv[1] . "/lib/bootstrap.php"; echo !empty(page_meta($argv[2])["stub"]) ? "yes" : "no";' "$SITE_ROOT" "$path")
-  if [ "$stub" = yes ] && ! printf '%s' "$html" | grep -q '<meta name="robots" content="noindex, follow">'; then
+  if [ "$flag" = stub ] && ! printf '%s' "$html" | grep -q '<meta name="robots" content="noindex, follow">'; then
     fail "$path - stub is not noindex"
   fi
 
@@ -197,27 +204,38 @@ rm -f "$META"
 # least one article and one guide") adds the two count() assertions below; the
 # template ships without them so an early phase with no blog yet still passes.
 step "content integrity"
-links_out=$(php -r '
-require "'"$SITE_ROOT"'/lib/bootstrap.php";
-$fail = 0;
-$say  = function (string $m) use (&$fail) { echo $m, "\n"; $fail = 1; };
-
-$articleSlugs = array_column(content("blog"), "slug");
-
-/* Every route the content arrays declare has a file behind it. */
-foreach (array_keys(content("pages")) as $path) {
-    if ($path === "/404") { continue; }
-    is_file(ROOT_DIR . rtrim($path, "/") . "/index.php")
-        || $say("page {$path}: no route file at " . rtrim($path, "/") . "/index.php");
-}
-exit($fail);
-' 2>&1)
-if [ -z "$links_out" ]; then
-  ok "every slug the content arrays point at exists, and every page has a route file"
+links_out=$(php "$ROOT/deploy/routes.php" "$SITE_ROOT" --check-files 2>&1)
+links_status=$?
+if [ "$links_status" -eq 0 ]; then
+  ok "every content record has its route file"
 else
   fail "content integrity"
   echo "$links_out" | sed 's/^/        /'
 fi
+
+# ------------------------------------------------------ home trust strips ----
+step "home trust strips"
+home_strip_count=$(curl -fsS "$BASE/" | php -r '
+$document = new DOMDocument();
+libxml_use_internal_errors(true);
+if (!$document->loadHTML(stream_get_contents(STDIN))) { exit(1); }
+$xpath = new DOMXPath($document);
+echo $xpath->query("//*[contains(concat(\" \", normalize-space(@class), \" \"), \" trust-strip \")]")->length;
+' 2>&1)
+if [ "$?" -ne 0 ] || [ "$home_strip_count" != 2 ]; then
+  fail "home must have exactly 2 trust-strip elements; got: $home_strip_count"
+else
+  ok "home has exactly 2 trust-strip elements"
+fi
+
+# ---------------------------------------------------------- T1 foundation ----
+step "foundation sources, links, HTML and JSON-LD"
+AUDIT_DATA=$(mktemp)
+php "$ROOT/deploy/routes.php" "$SITE_ROOT" --audit-data > "$AUDIT_DATA"
+if ! node "$ROOT/tests/jsonld.mjs" "$BASE" --audit "$AUDIT_DATA" --root "$SITE_ROOT" $([ "$FINAL" -eq 1 ] && echo --final); then
+  fail "foundation audit (details above)"
+fi
+rm -f "$AUDIT_DATA"
 
 # ------------------------------------------------------------------ result ----
 echo

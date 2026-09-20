@@ -11,20 +11,22 @@
  *   hero             array    eyebrow, h1, lead
  *   intro            string[] 200–300 words of copy, readable without JS
  *   faq              array    [['q' => ..., 'a' => ...], ...] → FAQPage JSON-LD
- *   related          string[] related service slugs (content/pages.php)
- *   ctaWhatsapp      string   kept EMPTY: every wa.me prefill comes from
- *                             content/lead-values.php through
- *                             whatsapp_text_for_page(). The key exists so the
- *                             record shape is stable.
- *   formNeed         string   pre-selected chip key in content/ui.php 'needs'
- *   analyticsTool    string   tool_used event name (assets/js/analytics.js)
+ *   related          string[] related site paths
+ *   ctaWhatsapp      string   legacy key, kept empty (no lead capture)
+ *   formNeed         string   legacy key, kept empty (no forms)
+ *   analyticsTool    string   legacy key, kept empty (no event tracking)
  *   example          bool     seed record only — see content/pages.php
+ *   handoff          array    ['medium' => 'tool']; app_link() uses record slug
+ *   math             string   'pregnancy'; arithmetic shared by both tools
  *
  * The calculator markup itself lives in each tool's own route file, which builds
  * it into $toolCalcHtml and requires templates/tool.php; the arithmetic lives in
  * assets/js/tools/<slug>.js and reads its rules from window.Market.
  *
- * Every tool slug also needs a record in content/lead-values.php.
+ * Mi Bebé routes are /calculadora/ and /calendario-de-ovulacion/.
+ * Legacy ctaWhatsapp/formNeed/analyticsTool keys stay empty strings; no leads,
+ * forms or analytics events are used. related holds site paths. No lead-values
+ * record is required. Records intentionally stay empty until S4.
  */
 
 declare(strict_types=1);
