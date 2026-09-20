@@ -58,8 +58,10 @@ right at 360 px first; desktop is a widening.
   `--accent-text`, `--font-display`, `--font-body`, `--radius-*`, `--space-*`, type scale
   1.25) plus the pastel tones. Keep `--accent-text` AA (4.5:1) on `--bg` and `--surface`.
 - **`docs/imagery-brief.md`**: every image slot from `plan.md` §8 with ratio, px, art
-  direction, the alt-text pattern and the planned file name. Model: whatever the
-  `higgsfield-image-pipeline` skill names (today `nano_banana_pro`). Do not generate anything.
+  direction, the alt-text pattern and the planned file name. Model: `gpt_image_2_5` Sunburst per the
+  `higgsfield-image-pipeline` skill; mark per slot `medium 1k`, `medium 2k` or `high 2k`
+  (hero only) and flag slots you would rather hand to Anton's manual Nano Banana route.
+  Do not generate anything.
 - **`docs/design-decisions.md`** ≤ 40 lines: what you chose, what you rejected, the mobile
   order of the bento, the CTA placement per page type.
 

@@ -72,9 +72,12 @@ one phase Anton sits in: it is a design conversation, not a build.
     petrol / terracotta / pastels, Nunito Sans). Patterns allowed: split hero with a phone frame,
     bento feature grid on `/app`, editorial big-type hubs, timeline for trimesters. No glass, no
     marquee, no count-ups, one motion per screen, `prefers-reduced-motion` honoured.
-11. **Images: model per `higgsfield-image-pipeline` Rule 1 (`nano_banana_pro`, 2K, 2 credits).**
-    If Anton updates that skill to `gpt_image_2_5` before S9 runs, S9 follows the skill; the
-    plan never names a model the skill does not. Real app screenshots come from the app repo's
+11. **Images: `gpt_image_2_5` variant `sunburst`, quality `medium`, per `higgsfield-image-pipeline`
+    Rule 1 (2026-09-20).** 1k (1 credit) for slots shown ≤ 800 px, 2k (1.5) for hero/hub/OG
+    widths; `high` 2k (3 credits) only for the home hero and up to 3 flagship slots the session
+    names in the manifest. No Nano Banana from a session: where it would clearly be better, the
+    session writes the prompt to `docs/imagery-prompts-manual.md` and Anton generates it himself
+    (free for him in the UI). Real app screenshots come from the app repo's
     `npm run gen:screenshots` output, not from AI.
 12. **CI.** The template ships `.github/workflows/verify.yml` (PR-only, one job). Under
     `budgeted-runner-deploy` this stays only with Anton's explicit yes (§7 item 5); otherwise
@@ -320,7 +323,7 @@ News lead (what changed, when, for whom) → body → what to do → related eve
 | 1 | Approve this plan (merge the plan PR) and run D0 with Opus | T0 |
 | 2 | Hostinger: the root domain's hosting slot (where WordPress runs today) → hPanel → Git → connect this repo, branch `main`, deploy path = docroot. **Back up / export the WordPress site first**; the swap deletes it. `app.` stays untouched. | first deploy after L |
 | 3 | Confirm the environment allowlist has `*.cloudfront.net` (higgsfield-image-pipeline Rule 2) | S9 |
-| 4 | Decide the image model in the skill: keep `nano_banana_pro` or update the skill to `gpt_image_2_5` | S9 |
+| 4 | Upload the updated `higgsfield-image-pipeline` skill (Sunburst rule) to claude.ai so S9 reads it | S9 |
 | 5 | CI yes/no (`budgeted-runner-deploy`): keep the template's PR-only workflow, or delete it | T0 |
 | 6 | Cloudflare Web Analytics token (or "none for launch") | T0 (`content/site.php` `analytics`) |
 | 7 | WhatsApp number and contact email for `/contacto` (else the page shows email only / hides) | S1 |
@@ -338,8 +341,11 @@ home hero (21:9, warm illustrated, mother on a phone in a Paraguayan setting, no
 stock), 6 cluster hub headers (16:9), 42 week renders `bebe-<n>.webp` (1:1, consistent
 illustrated style, the same style the app's `public/assets/semanas/` wants — generate once,
 share both ways), 9 article card images for the pilot/guide articles, OG default 1200×630.
-Budget maths: 2 credits × ~60 images ≈ 120 credits at Pro. Real app screenshots are never
-generated. All files through webimg (`--name`, `--alt`), WebP ≤ 60 KB, manifest committed.
+Budget maths (Sunburst): home hero high 2k = 3; 6 hub headers + OG at medium 2k = 10.5;
+42 week renders + 9 article cards at medium 1k = 51 → **≈ 65 credits**. Week renders may go
+to the manual Nano Banana route if S9 judges the illustrated series more consistent there
+(prompts file, Anton pastes). Real app screenshots are never generated. All files through
+webimg (`--name`, `--alt`), WebP ≤ 60 KB, manifest committed.
 
 ---
 
