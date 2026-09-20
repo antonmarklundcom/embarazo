@@ -15,3 +15,9 @@
 - Procedural hubs: service-specific document lists, fees, offices, competent complaint channels and free legal advice are unverified; generic preparation only.
 - The exact user-required CTA trust strip includes “funciona sin datos”; the scope of offline operation remains unverified (D0 F10). No additional offline guarantees were added.
 - Guaraní: derechos enables the strip, but strings remain absent pending native review; stage B must not invent translations.
+
+## P1 — 2026-09-20
+- Product records /app/, /instalar/, /privacidad/, /preguntas-frecuentes/, /familia/, /sobre/ and /app/comparacion/: product claims trace to the app-facts snapshot; no fresh source consultation is claimed. Public source entries name Mi Bebé and keep URLs/access dates null.
+- /instalar/: confirm current Android/iPhone installation UI on real devices. Copy uses only the general Instalar app / Agregar a la pantalla de inicio options, with one qualification about device/browser differences; no size, tap count, update or offline-completeness claims.
+- /app/comparacion/: offline scope remains unconfirmed; the buying guide says so once. /familia/: recipient-visible fields, recipient account requirements and link revocation are not established; copy asks users to review the app before sharing, without promising permissions or exclusions.
+- P1 removes the unverified offline claim from the shared trust copy in content/cta.php. The week-20 phone fallback uses the existing seed record, whose clinical review remains pending under T1.
