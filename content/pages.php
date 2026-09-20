@@ -210,8 +210,8 @@ return [
     'h1' => 'Alimentación',
     'lead' => 'Estamos preparando esta sección para vos.',
     'sections' => [],
-    'stub' => true,
-    'noindex' => true
+    'stub' => false,
+    'noindex' => false
 ],
     '/tramites/' => [
     'title' => 'Trámites',

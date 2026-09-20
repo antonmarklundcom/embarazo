@@ -3896,4 +3896,882 @@ return [
         'updated' => '2026-09-20',
         'image' => null
     ],
+    'terere-en-el-embarazo' => [
+        'cluster' => 'alimentacion',
+        'path' => '/alimentacion/terere-en-el-embarazo/',
+        'title' => 'Tereré en el embarazo: cafeína, agua y cuidados',
+        'seoTitle' => 'Tereré en el embarazo: cuidados y cafeína',
+        'metaDescription' => 'Tereré en el embarazo: cómo moderar la cafeína, cuidar el agua y el hielo, limpiar la bombilla y consultar por los yuyos que usás.',
+        'kind' => 'medical',
+        'lead' => 'El tereré aporta cafeína y puede formar parte de tus costumbres con moderación, según tus indicaciones prenatales. Tomalo con agua e hielo seguros, mantené limpios el termo y la bombilla y evitá agregar yuyos sin consultar por la planta concreta. Para el calor, alterná con agua sola: una ronda larga no permite saber cuánta cafeína tomaste.',
+        'sections' => [
+            [
+                'h2' => '¿El agua fría cambia la cafeína?',
+                'body' => [
+                    'La cafeína está en la yerba. Prepararla con agua fría no la elimina ni convierte al tereré en una bebida libre de estimulantes. La cantidad que llega a tu guampa depende de la yerba, cuánto usás, cómo cebás y cuánto dura la ronda. Por eso, contar solamente termos o comparar con una taza de café puede dar una impresión equivocada de lo que consumiste.',
+                    'La palabra mateína suele usarse para hablar de la cafeína de la yerba mate; no significa que sea una sustancia distinta o que deje de contar durante el embarazo. Si además tomás café, té, cocido o gaseosas con cafeína, todos esos aportes se suman. El agua que agregás después cambia la preparación, pero no borra lo que ya tomaste al principio de la ronda.',
+                ],
+                'items' => [],
+                'table' => null,
+            ],
+            [
+                'h2' => 'Cómo moderar una costumbre que acompaña toda la tarde',
+                'body' => [
+                    'Un cambio práctico es separar el momento del tereré del hábito de tener siempre la bombilla a mano. Prepará una ronda más breve y dejá cerca una botella de agua. Si en tu trabajo el termo se rellena muchas veces, prestá atención a cuánto participás vos, no solamente a cuánta agua pasa por el grupo. La frecuencia también importa aunque cada cebada parezca pequeña.',
+                    'Para conversar en el control, describí un día habitual: si tomás mate al levantarte, cocido en el desayuno y tereré después del almuerzo. Contá también las bebidas que usás cuando dormís poco. Esa descripción ayuda más que decir “tomo poco”. Podés revisar las diferencias entre [mate y cocido](/alimentacion/mate-y-cocido/) y elegir qué momento querés conservar, evitando acumular varias bebidas con cafeína en el mismo día.',
+                    'Si notás que el tereré te produce palpitaciones, acidez o dificultad para dormir, reducí el consumo y conversalo con tu equipo. Esos síntomas merecen atención aunque otra persona tome lo mismo sin molestias. No uses tu tolerancia al sabor o al estímulo para estimar seguridad: una bebida puede no sentirse fuerte y aun así aportar cafeína.',
+                ],
+                'items' => [],
+                'table' => null,
+            ],
+            [
+                'h2' => 'Agua, hielo y jugo: qué entra en el termo',
+                'body' => [
+                    'Usá agua apta para beber y hielo elaborado con esa misma calidad de agua. El frío no desinfecta. Cuando comprás hielo o preparás el termo fuera de casa, importa conocer su procedencia y cómo se manipulá. Si no tenés seguridad sobre el agua disponible, elegí una alternativa segura para beber en vez de confiar en que la yerba o el limón la van a limpiar.',
+                    'Un jugo agregado al agua puede sumar azúcar y necesita cuidados de conservación. Lavá la fruta antes de cortarla, usá utensilios limpios y prepará una cantidad que puedas mantener fría y consumir sin dejarla durante horas al calor. No mezcles una preparación vieja con agua nueva para prolongarla. La base más sencilla para la hidratación cotidiana sigue siendo el agua segura, sin necesidad de saborizantes.',
+                    'El tereré aporta líquido, pero no conviene que sea tu única bebida. En días calurosos, tomá agua regularmente y buscá sombra y pausas. El cansancio de una tarde húmeda no se resuelve aumentando la cafeína. En [hidratación con el calor](/alimentacion/hidratacion-con-el-calor/) tenés ideas para organizar salidas, viajes y momentos de descanso sin depender de una ronda.',
+                ],
+                'items' => [],
+                'table' => null,
+            ],
+            [
+                'h2' => 'Bombilla, guampa y manos limpias',
+                'body' => [
+                    'La bombilla pasa saliva de una persona a otra. Usar tu propio equipo evita ese intercambio, especialmente si alguien tiene tos, dolor de garganta, lesiones en la boca o se siente enfermo. Compartir el mismo termo para servir en recipientes individuales requiere igualmente manos limpias y cuidado de no tocar las bocas de los recipientes. El embarazo no cambia esas reglas básicas de higiene.',
+                    'Al terminar, descartá la yerba húmeda y lavá guampa, bombilla y termo según el material y las instrucciones del fabricante. Las partes estrechas necesitan limpieza: enjuagar por fuera no retira necesariamente los restos que quedan adentro. Dejá secar las piezas antes de guardarlas. Si llevás el equipo en una bolsa, evitá encerrar todo mojado junto con alimentos u objetos sucios.',
+                ],
+                'items' => [],
+                'table' => null,
+            ],
+            [
+                'h2' => 'Yuyos: el nombre y la preparación importan',
+                'body' => [
+                    'Agregar una planta fresca no vuelve al tereré más seguro ni más hidratante. Un nombre popular puede identificar plantas diferentes, y un manojo puede mezclar varias especies. Si querés consultar por menta, cedrón u otro yuyo, llevá el envase o una descripción de dónde lo compraste y cómo lo preparás. La foto ayuda a iniciar la conversación, pero no garantiza identificarlo correctamente.',
+                    'Hasta aclarar si corresponde para vos, prepará el tereré sin ese agregado. Los extractos, aceites esenciales y preparados concentrados no equivalen a unas hojas usadas por su sabor. Tampoco uses mezclas para “limpiar”, bajar la presión o tratar una infección. La guía de [yuyos en el embarazo](/alimentacion/yuyos/) organiza las preguntas por tipo de producto y explica por qué lavar una planta no resuelve la duda sobre sus efectos.',
+                ],
+                'items' => [],
+                'table' => null,
+            ],
+            [
+                'h2' => 'Si te sentís mal durante una ronda',
+                'body' => [
+                    'Dejá de tomar la preparación que te causa molestias y explicá qué contenía cuando consultes. Si aparece dolor de pecho, falta de aire, desmayo o palpitaciones intensas con malestar, buscá atención urgente; no atribuyas todo a la yerba o al calor. También requieren atención los vómitos que no te permiten retener líquidos. Revisá [las señales de alarma](/salud/senales-de-alarma/) para reconocer otras situaciones que necesitan ayuda.',
+                    'Si ya tomaste un tereré con una mezcla desconocida, no intentes compensarlo con otra infusión ni provocar el vómito. Conservá la información del producto y consultá por esa exposición. Una conversación concreta sobre ingredientes y síntomas permite orientar la atención sin convertir una costumbre familiar en motivo de culpa.',
+                ],
+                'items' => [],
+                'table' => null,
+            ],
+        ],
+        'steps' => [],
+        'appHandoff' => [
+            'text' => 'Mi Bebé incluye una guía de tereré, mate, cocido y cafeína, además del seguimiento por semanas. Podés usarla como punto de partida para conversar sobre tus bebidas habituales en el control.',
+            'medium' => 'article',
+            'extra' => [],
+        ],
+        'faq' => [
+            [
+                'q' => '¿El tereré sin azúcar no tiene cafeína?',
+                'a' => 'La cafeína viene de la yerba, no del azúcar. Prepararlo sin azúcar evita ese agregado, pero el aporte de cafeína sigue existiendo.',
+            ],
+            [
+                'q' => '¿Puedo contar un termo como una taza de café?',
+                'a' => 'No hay una equivalencia fija útil para todas las preparaciones. Cambian la yerba, las cebadas y cuánto toma cada persona.',
+            ],
+            [
+                'q' => '¿El hielo mata los microbios del agua?',
+                'a' => 'No. Prepará el hielo con agua segura y manipulalo con utensilios limpios.',
+            ],
+            [
+                'q' => '¿Puedo tomar tereré sin yuyos?',
+                'a' => 'Sí, no necesitás agregar plantas para prepararlo. Igual conviene moderar la yerba y alternar con agua sola.',
+            ],
+        ],
+        'related' => [
+            'mate-y-cocido',
+            'yuyos',
+            'hidratacion-con-el-calor',
+        ],
+        'weeks' => [
+            8,
+            20,
+            28,
+        ],
+        'appGuideSlug' => 'terere-mate-cocido-cafeina-embarazo',
+        'guarani' => [],
+        'reviewedBy' => null,
+        'reviewedAt' => null,
+        'validAsOf' => null,
+        'sources' => [
+            ['title' => 'Recomendaciones de la OMS sobre atención prenatal para una experiencia positiva del embarazo', 'publisher' => 'Organización Mundial de la Salud (OMS)', 'url' => null, 'accessed' => null],
+            ['title' => 'Orientaciones sobre alimentación saludable y control prenatal', 'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)', 'url' => null, 'accessed' => null],
+            ['title' => 'Manual sobre las cinco claves para la inocuidad de los alimentos', 'publisher' => 'Organización Mundial de la Salud (OMS)', 'url' => null, 'accessed' => null],
+        ],
+        'updated' => '2026-09-20',
+        'image' => null,
+    ],
+    'mate-y-cocido' => [
+        'cluster' => 'alimentacion',
+        'path' => '/alimentacion/mate-y-cocido/',
+        'title' => 'Mate y cocido en el embarazo: qué conviene limitar',
+        'seoTitle' => 'Mate y cocido en el embarazo',
+        'metaDescription' => 'Mate y cocido en el embarazo: revisá la cafeína del día, el azúcar del cocido quemado y la temperatura para adaptar el desayuno y la merienda.',
+        'kind' => 'medical',
+        'lead' => 'El mate y el cocido de yerba aportan cafeína. Durante el embarazo conviene moderarlos y sumar lo que tomás de café, té y otras bebidas con cafeína. El cocido quemado también puede llevar bastante azúcar. Elegí porciones moderadas, evitá beberlos muy calientes y usá leche pasteurizada si la agregás; la leche no elimina la cafeína.',
+        'sections' => [
+            [
+                'h2' => 'Mate cebado y cocido no son preparaciones idénticas',
+                'body' => [
+                    'En el mate cebado, la misma yerba recibe agua varias veces y la ronda puede extenderse mientras trabajás o conversás. En el cocido, suele prepararse una infusión que se sirve en una taza. Ninguna de esas formas permite afirmar que siempre tendrá poca cafeína. La cantidad de yerba, el tiempo de contacto con el agua y el volumen que tomás cambian de una casa a otra.',
+                    'Un cocido de saquito tampoco es automáticamente libre de cafeína. Leé qué contiene: puede ser yerba mate, té u otra mezcla. El color claro o el sabor suave no son una medida confiable del estimulante. Si el envase ofrece información sobre cafeína, guardala para tu consulta; cuando no la ofrece, describir la preparación ayuda a reconocer el hábito sin inventar una equivalencia numérica.',
+                ],
+                'items' => [],
+                'table' => null,
+            ],
+            [
+                'h2' => 'Mirar el día completo, desde el desayuno hasta la noche',
+                'body' => [
+                    'Pensá en todas las bebidas, no solamente en la que te preocupa ahora. A veces el mate de la mañana se suma al cocido de la merienda, una gaseosa cola con la comida y un café para seguir despierta. Elegir agua en algunos de esos momentos reduce la acumulación. Si también tomás [tereré](/alimentacion/terere-en-el-embarazo/), incluilo en la misma conversación porque la yerba sigue aportando cafeína.',
+                    'Podés empezar registrando en papel qué tomaste un día habitual y a qué hora. Incluí el tamaño de la taza, los rellenos y si compartiste la ronda. No hace falta pesar cada hoja ni calcular miligramos sin datos. El objetivo es descubrir momentos en que tomás por costumbre, aunque no tengas sed, y encontrar un reemplazo sencillo que puedas sostener.',
+                    'Las bebidas energizantes no son una opción para sostener el ritmo durante el embarazo. Pueden combinar cafeína con otros estimulantes y mucho azúcar. Si estás muy cansada, revisar descanso, comidas y controles ofrece una respuesta más útil que cambiar el café por una lata. El cansancio intenso o persistente merece comentarse con tu equipo, especialmente si limita tus actividades habituales.',
+                ],
+                'items' => [],
+                'table' => null,
+            ],
+            [
+                'h2' => 'Cocido quemado: sabor, azúcar y acompañamiento',
+                'body' => [
+                    'En el cocido quemado se carameliza azúcar como parte de la preparación. Ese azúcar cuenta aunque después no agregues otra cucharada a la taza. Preguntá cómo está hecho cuando lo comprás o te lo sirven. Para una versión cotidiana, podés preparar la infusión con menos azúcar y acostumbrarte gradualmente a un sabor menos dulce, sin necesidad de reemplazarla por productos caros.',
+                    'Agregar leche puede aportar nutrientes y volverlo parte de una merienda, pero no neutraliza la cafeína ni el azúcar. Elegí leche pasteurizada o tratada de forma segura, respetá su conservación y evitá dejar la mezcla tibia durante horas. Si no tolerás leche, conversá opciones de alimentación según lo que conseguís; no necesitás forzarte a tomarla dentro del cocido para cumplir con el desayuno.',
+                    'El acompañamiento cambia la comida completa. Un cocido con varias chipas puede dejar poco lugar para fruta u otros alimentos a lo largo del día. Probá servir lo que vas a comer en un plato, sentarte y reconocer hambre y saciedad. La guía de [chipa, sopa paraguaya y asado](/alimentacion/chipa-sopa-paraguaya-y-asado/) propone combinaciones para conservar comidas conocidas con más variedad.',
+                ],
+                'items' => [],
+                'table' => null,
+            ],
+            [
+                'h2' => 'Qué limitar y qué cambio podés probar',
+                'body' => [
+                    'La tabla reúne decisiones sobre bebidas habituales, sin convertirlas en un menú obligatorio. Si tenés una indicación específica por diabetes gestacional, reflujo u otro problema, adaptá estas ideas con tu equipo. El tamaño de las porciones y el resto de tu alimentación importan más que clasificar una taza aislada como buena o mala.',
+                    'Una alternativa sin cafeína necesita identificación clara. Cambiar el mate por una mezcla de yuyos desconocida no resuelve el cuidado del embarazo. El agua y, cuando forma parte de tu alimentación, la leche segura permiten variar sin sumar una planta medicinal. Revisá los ingredientes de los productos que se anuncian como relajantes o digestivos antes de incorporarlos.',
+                ],
+                'items' => [],
+                'table' => [
+                    'head' => [
+                        'Qué limitar',
+                        'Por qué revisarlo',
+                        'Cambio posible',
+                    ],
+                    'rows' => [
+                        [
+                            'Rondas prolongadas de mate',
+                            'La cafeína se acumula con otras bebidas',
+                            'Acortá la ronda y alterná con agua',
+                        ],
+                        [
+                            'Cocido con mucho azúcar',
+                            'El azúcar de la receta también cuenta',
+                            'Prepará menos dulce y evitá agregar más',
+                        ],
+                        [
+                            'Bebidas energizantes',
+                            'Pueden combinar estimulantes',
+                            'Elegí agua y consultá por el cansancio',
+                        ],
+                        [
+                            'Bebidas que queman la boca',
+                            'La temperatura puede lastimar',
+                            'Dejalas enfriar antes de beber',
+                        ],
+                        [
+                            'Infusiones medicinales desconocidas',
+                            'No se conoce bien su composición',
+                            'Consultá por cada ingrediente antes de usarlas',
+                        ],
+                    ],
+                ],
+            ],
+            [
+                'h2' => 'Temperatura, acidez y sueño',
+                'body' => [
+                    'Dejá enfriar la bebida hasta que puedas tomarla sin quemarte. Soplar entre sorbos no compensa una temperatura que sigue lastimando la boca. El termo conserva el calor durante bastante tiempo: comprobá la temperatura al servirte, sobre todo si alguien lo cargó por vos. Una bebida templada permite disfrutar el ritual sin buscar que el agua está cada vez más caliente.',
+                    'Si el mate te da acidez, probá reducir la cantidad y evitá acostarte inmediatamente después. Una preparación fuerte con el estómago vacío puede resultar molesta para algunas personas. Observá tu respuesta sin atribuir cualquier dolor al desayuno. La cafeína cerca de la hora de dormir también puede dificultar el descanso, incluso si sentís sueño; cambiar esa taza por agua es un ajuste posible.',
+                ],
+                'items' => [],
+                'table' => null,
+            ],
+            [
+                'h2' => 'Cuando una molestia necesita consulta',
+                'body' => [
+                    'La falta de aire, el dolor de pecho, el desmayo o las palpitaciones acompañadas de malestar intenso requieren atención inmediata. No tomes otra bebida para contrarrestar el efecto y no esperes a terminar la ronda. Tené presente [las señales de alarma](/salud/senales-de-alarma/) y explicá al equipo qué consumiste, cuánto aproximadamente y cuándo empezaron los síntomas.',
+                    'Si te indicaron hierro, preguntá cómo separar su toma del mate, el té o el cocido; estas infusiones pueden dificultar la absorción de hierro. No cambies la dosis ni suspendas el suplemento para mantener la merienda. También podés consultar cómo organizar las bebidas alrededor de tus comidas, especialmente si te diagnosticaron anemia. Llevar los horarios habituales permite encontrar una organización realista.',
+                ],
+                'items' => [],
+                'table' => null,
+            ],
+        ],
+        'steps' => [],
+        'appHandoff' => [
+            'text' => 'En Mi Bebé podés encontrar la guía sobre tereré, mate, cocido y cafeína. Usala junto con el seguimiento de tu semana para preparar preguntas sobre tus desayunos, meriendas y descanso.',
+            'medium' => 'article',
+            'extra' => [],
+        ],
+        'faq' => [
+            [
+                'q' => '¿La leche corta la cafeína del cocido?',
+                'a' => 'No. La mezcla conserva la cafeína de la yerba. Elegí leche segura y considerá también el azúcar de la preparación.',
+            ],
+            [
+                'q' => '¿El cocido quemado cuenta como bebida azucarada?',
+                'a' => 'Si se prepara con azúcar, ese aporte cuenta aunque no endulces la taza después. Preguntá por la receta y moderá la cantidad.',
+            ],
+            [
+                'q' => '¿Qué tomo si quiero descansar de la yerba?',
+                'a' => 'El agua es una alternativa sencilla. No reemplaces automáticamente la yerba por una mezcla medicinal de ingredientes desconocidos.',
+            ],
+        ],
+        'related' => [
+            'terere-en-el-embarazo',
+            'chipa-sopa-paraguaya-y-asado',
+            'antojos-y-anemia',
+        ],
+        'weeks' => [
+            12,
+            24,
+            32,
+        ],
+        'appGuideSlug' => null,
+        'guarani' => [],
+        'reviewedBy' => null,
+        'reviewedAt' => null,
+        'validAsOf' => null,
+        'sources' => [
+            ['title' => 'Recomendaciones de la OMS sobre atención prenatal para una experiencia positiva del embarazo', 'publisher' => 'Organización Mundial de la Salud (OMS)', 'url' => null, 'accessed' => null],
+            ['title' => 'Orientaciones sobre alimentación saludable y control prenatal', 'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)', 'url' => null, 'accessed' => null],
+        ],
+        'updated' => '2026-09-20',
+        'image' => null,
+    ],
+    'yuyos' => [
+        'cluster' => 'alimentacion',
+        'path' => '/alimentacion/yuyos/',
+        'title' => 'Yuyos en el embarazo: qué consultar antes de usarlos',
+        'seoTitle' => 'Yuyos en el embarazo: cuidados y consultas',
+        'metaDescription' => 'Yuyos en el embarazo: cómo identificar una mezcla, qué preguntar sobre menta o cedrón y por qué los extractos no equivalen a hojas en el tereré.',
+        'kind' => 'medical',
+        'lead' => 'Antes de agregar un yuyo al tereré o tomarlo como remedio, consultá por la planta y la preparación concretas. Que sea natural o de uso familiar no garantiza seguridad durante el embarazo. Evitá mezclas sin identificar, preparados concentrados y aceites esenciales por vía oral. Si buscás aliviar un síntoma, explicalo al equipo para elegir una opción adecuada.',
+        'sections' => [
+            [
+                'h2' => 'Un mismo nombre puede esconder plantas diferentes',
+                'body' => [
+                    'En la casa, la feria o el puesto de remedios yuyos se usan nombres populares que cambian según la zona. Dos manojos con el mismo nombre pueden no ser la misma especie. También se venden mezclas en las que una parte de las hojas o raíces queda sin identificar. Esa incertidumbre importa cuando la intención es tomar el preparado todos los días o usarlo para tratar una molestia.',
+                    'Para consultar, conservá el envase original y anotá el nombre con que te lo vendieron, dónde lo conseguiste y qué partes usás. Si está rotulado, llevá la lista completa de ingredientes. Una foto del manojo puede ayudar, pero no reemplaza una identificación confiable. Evitá probar una planta para reconocerla por el gusto; tampoco es seguro decidir solamente por el olor o el parecido con otra.',
+                ],
+                'items' => [],
+                'table' => null,
+            ],
+            [
+                'h2' => 'Hojas, infusiones y extractos no son intercambiables',
+                'body' => [
+                    'Usar una pequeña cantidad de una hierba como condimento culinario no es lo mismo que hervir un puñado, repetir la infusión varias veces o tomar gotas de un extracto. Cambian la concentración y la exposición. Una recomendación que recibiste para una forma de uso no se traslada automáticamente a otra. Contá si la preparación queda en agua fría, se hierve o viene lista para beber.',
+                    'Los aceites esenciales son productos concentrados y no conviene ingerirlos por cuenta propia durante el embarazo. Tampoco agregues gotas al termo porque un video las describa como naturales. Las tinturas pueden incluir alcohol u otros componentes. Si el envase no permite conocer qué contiene, elegir no consumirlo hasta aclararlo es una decisión práctica, sin necesidad de experimentar con cantidades menores.',
+                    'En el [tereré](/alimentacion/terere-en-el-embarazo/) no hace falta añadir una planta medicinal para disfrutar la bebida. La yerba ya aporta cafeína y debe moderarse por separado. Quitar los yuyos no elimina ese aporte; son dos preguntas distintas que podés llevar al control: cuánto y cómo tomás yerba, y qué otros ingredientes pensabas agregar.',
+                ],
+                'items' => [],
+                'table' => null,
+            ],
+            [
+                'h2' => 'Preguntas para cada tipo de yuyo o producto',
+                'body' => [
+                    'La tabla organiza situaciones frecuentes y las referencias generales para revisarlas. No asigna una planta a una lista de autorizadas: para eso hacen falta identificación y evaluación de tu caso. Las orientaciones de atención prenatal de la OMS y las del MSPBS ayudan a encuadrar la consulta; no prueban por sí solas la seguridad de cada especie local.',
+                    'Si alguien te ofrece una mezcla para “limpiar la sangre”, eliminar líquidos o preparar el parto, preguntá primero qué contiene y no la uses como tratamiento por tu cuenta. Una promesa amplia no explica qué efecto tendrá ni cómo puede interactuar con medicamentos. La presión alta, la infección urinaria o el sangrado necesitan evaluación clínica, aunque el preparado sea una receta conocida en la familia.',
+                ],
+                'items' => [],
+                'table' => [
+                    'head' => [
+                        'Producto o uso',
+                        'Qué llevar a la consulta',
+                        'Referencia general',
+                    ],
+                    'rows' => [
+                        [
+                            'Menta o cedrón por nombre popular',
+                            'Identificación, hojas usadas y preparación; no asumir seguridad',
+                            'OMS: recomendaciones de atención prenatal; evaluación individual',
+                        ],
+                        [
+                            'Mezcla de raíces para el tereré',
+                            'Lista completa y procedencia; evitarla si no se identifica',
+                            'MSPBS: orientación de control prenatal y uso de productos medicinales',
+                        ],
+                        [
+                            'Infusión para estreñimiento o para orinar',
+                            'Síntoma, frecuencia y otros medicamentos; no automedicarse',
+                            'OMS: recomendaciones de atención prenatal; MSPBS: control prenatal',
+                        ],
+                        [
+                            'Gotas, tinturas o aceites esenciales',
+                            'Envase y concentración; no ingerir por cuenta propia',
+                            'MSPBS: orientación sobre uso seguro de medicamentos y productos medicinales',
+                        ],
+                        [
+                            'Preparado para adelantar el parto',
+                            'Ingredientes si ya se consumió; consultar sin usarlo para inducir',
+                            'OMS: recomendaciones de atención prenatal y atención del parto',
+                        ],
+                    ],
+                ],
+            ],
+            [
+                'h2' => 'Lavar el manojo resuelve solo una parte del problema',
+                'body' => [
+                    'Las hojas, raíces y recipientes pueden traer tierra y microbios. Lavarse las manos y usar agua segura son cuidados básicos, pero no convierten una especie desconocida en una opción segura. Hervir tampoco elimina necesariamente las sustancias activas de una planta. Evitá pensar que una preparación es inocua porque quedó clara, porque se coló o porque se tomá fría.',
+                    'No recolectes plantas en lugares expuestos a residuos, aguas contaminadas o productos químicos para preparar una bebida. Si comprás alimentos frescos, cuidá su limpieza y conservación; si se trata de un preparado medicinal, además necesitás saber qué es. Esas dos condiciones se complementan. Una bolsa prolija, una etiqueta artesanal o una recomendación entusiasta no sustituyen la información sobre composición.',
+                    'Las mezclas húmedas que quedan durante horas al calor agregan un problema de conservación. Descartar restos y limpiar recipientes evita prolongar ese uso. Para organizar qué llevar en días calurosos, revisá [hidratación con el calor](/alimentacion/hidratacion-con-el-calor/): agua segura, sombra y pausas ofrecen medidas concretas sin recurrir a bebidas supuestamente depurativas.',
+                ],
+                'items' => [],
+                'table' => null,
+            ],
+            [
+                'h2' => 'Si buscás calmar náuseas, estreñimiento o nervios',
+                'body' => [
+                    'Empezá por contar el síntoma: desde cuándo aparece, cuánto interfiere con comer o dormir y qué probaste. Para náuseas leves, comer porciones pequeñas y evitar olores que te molestan puede ayudar. Para estreñimiento, los alimentos con fibra, el agua y el movimiento tolerado suelen formar parte del cuidado. Si no alcanza, tu equipo puede evaluar opciones sin que tengas que ensayar una mezcla laxante.',
+                    'Para dificultad para dormir, revisá los horarios de cafeína y una rutina de descanso. Los productos “para los nervios” pueden combinar varias sustancias y no son equivalentes a una bebida común. Si la ansiedad te desborda o te impide funcionar, pedí apoyo. Describir lo que necesitás aliviar permite elegir una respuesta al problema real, en lugar de cambiar de yuyo cada vez que alguien recomienda uno.',
+                    'Informá también qué medicamentos y suplementos usás. Las plantas pueden modificar sus efectos o sumar molestias, y dejar de tomar un medicamento indicado para reemplazarlo por un remedio casero puede perjudicarte. No suspendas tratamientos por una recomendación del vendedor. Llevá la duda a quien controla tu embarazo y, si corresponde, al profesional que indicó ese tratamiento.',
+                ],
+                'items' => [],
+                'table' => null,
+            ],
+            [
+                'h2' => 'Ya lo tomá: qué información ayuda',
+                'body' => [
+                    'Si consumiste un preparado que no conocés, guardá el envase o los datos de la mezcla, anotá cuándo lo tomaste y una cantidad aproximada, y consultá. No provoques el vómito ni tomes otra planta para neutralizarlo. Una exposición aislada no permite anticipar por sí sola qué va a pasar; la orientación depende de identificar el producto y de cómo te encontrás.',
+                    'Ante dificultad para respirar, hinchazón de labios o lengua, desmayo, dolor intenso o sangrado, buscá atención urgente. No esperes a que el preparado “termine de hacer efecto”. Podés reconocer otras situaciones en [las señales de alarma](/salud/senales-de-alarma/). Si otra persona te acompaña, pedile que lleve la información del producto sin retrasar la salida para reunirla.',
+                ],
+                'items' => [],
+                'table' => null,
+            ],
+        ],
+        'steps' => [],
+        'appHandoff' => [
+            'text' => 'Mi Bebé reúne guías de embarazo y una guía sobre tereré, mate, cocido y cafeína. Podés leerla para preparar la conversación con tu equipo sobre las bebidas y plantas que usás.',
+            'medium' => 'article',
+            'extra' => [],
+        ],
+        'faq' => [
+            [
+                'q' => '¿La menta o el cedrón están permitidos para todas?',
+                'a' => 'No se puede responder solo con el nombre popular. Consultá por la especie, la forma de preparación y la frecuencia de uso.',
+            ],
+            [
+                'q' => '¿Hervir un yuyo lo vuelve seguro?',
+                'a' => 'Hervir puede cambiar la preparación, pero no garantiza eliminar sustancias activas ni vuelve segura una planta desconocida.',
+            ],
+            [
+                'q' => '¿Puedo usar una mezcla para la infección urinaria?',
+                'a' => 'No la uses para reemplazar la consulta o un tratamiento indicado. Los síntomas urinarios durante el embarazo necesitan evaluación.',
+            ],
+            [
+                'q' => '¿Una foto alcanza para identificarlo?',
+                'a' => 'Puede orientar la conversación, pero no asegura una identificación correcta. Llevá también envase, ingredientes y procedencia.',
+            ],
+        ],
+        'related' => [
+            'terere-en-el-embarazo',
+            'mate-y-cocido',
+            'hidratacion-con-el-calor',
+        ],
+        'weeks' => [
+            6,
+            12,
+            28,
+        ],
+        'appGuideSlug' => null,
+        'guarani' => [],
+        'reviewedBy' => null,
+        'reviewedAt' => null,
+        'validAsOf' => null,
+        'sources' => [
+            ['title' => 'Recomendaciones de la OMS sobre atención prenatal para una experiencia positiva del embarazo', 'publisher' => 'Organización Mundial de la Salud (OMS)', 'url' => null, 'accessed' => null],
+            ['title' => 'Orientaciones sobre alimentación saludable y control prenatal', 'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)', 'url' => null, 'accessed' => null],
+            ['title' => 'Orientaciones sobre uso seguro de medicamentos y productos medicinales', 'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)', 'url' => null, 'accessed' => null],
+        ],
+        'updated' => '2026-09-20',
+        'image' => null,
+    ],
+    'pescado-de-rio-y-mercurio' => [
+        'cluster' => 'alimentacion',
+        'path' => '/alimentacion/pescado-de-rio-y-mercurio/',
+        'title' => 'Pescado de río en el embarazo: mercurio y cocción',
+        'seoTitle' => 'Pescado de río y mercurio en el embarazo',
+        'metaDescription' => 'Pescado de río en el embarazo: elegí con información sobre especie y procedencia, cuidá el frío y la cocción, y entendé qué cambia con el mercurio.',
+        'kind' => 'medical',
+        'lead' => 'El pescado bien cocido puede aportar nutrientes durante el embarazo, pero la especie y la procedencia importan por el mercurio y otros contaminantes. No todos los peces de río tienen el mismo riesgo. Elegí proveedores que puedan identificar lo que venden, variá tus alimentos y consultá la orientación local para el pescado que conseguís. Cocinarlo no elimina el mercurio.',
+        'sections' => [
+            [
+                'h2' => 'Nutrientes y contaminantes: dos preguntas diferentes',
+                'body' => [
+                    'El pescado aporta proteínas y, según la especie, grasas que forman parte de una alimentación variada. Eso no significa que cualquier pescado sea adecuado en cualquier cantidad. El mercurio puede acumularse en los peces y llegar a quien los consume. Durante el embarazo interesa reducir esa exposición porque puede afectar al desarrollo del sistema nervioso del bebé. La elección requiere mirar más allá de si el pescado es fresco.',
+                    'Los peces grandes y depredadores tienden a acumular más mercurio a lo largo de su vida. Es una orientación general, no una medición del pescado que tenés delante. El río, la zona de captura y el tamaño también pueden influir. Una foto o un nombre de venta no bastan para asegurar que una pieza tiene poco mercurio, y el olor normal tampoco informa sobre ese contaminante.',
+                ],
+                'items' => [],
+                'table' => null,
+            ],
+            [
+                'h2' => 'Surubí, dorado, pacú y tilapia: no armar una lista por intuición',
+                'body' => [
+                    'En Paraguay podés encontrar pescado vendido como surubí, dorado, pacú o tilapia. Preguntá por la especie concreta, si proviene de captura o de cría y cuál es su procedencia. No conviene convertir esos nombres en una tabla de “permitidos” sin orientación confiable sobre la especie y el origen. Un pescado de criadero tampoco queda automáticamente libre de contaminantes o problemas de conservación.',
+                    'Si alguien pescó una pieza para la familia, averiguá dónde y cuándo la obtuvo y cómo la mantuvo fría. Antes de consumir pescado de una zona con avisos de contaminación, consultá las recomendaciones locales aplicables. Si no podés aclarar la procedencia o hay una advertencia vigente que no entendés, elegí otra fuente de proteína mientras resolvés esa elección; no necesitás comer esa pieza para completar el día.',
+                    'Para tu consulta prenatal, llevá el nombre con que lo comprás y cuántas veces suele aparecer en tu semana. El equipo puede orientar la variedad y frecuencia según la información disponible. Evitá comer repetidamente un mismo pescado grande como única proteína. Alternar con legumbres, huevo bien cocido y otras carnes bien cocidas permite diversificar sin depender de un producto cuya procedencia no conocés.',
+                ],
+                'items' => [],
+                'table' => null,
+            ],
+            [
+                'h2' => 'Qué cambia al cocinar y qué no',
+                'body' => [
+                    'La cocción completa reduce riesgos por microbios y parásitos. El limón del ceviche, la sal o el ahumado no equivalen a cocinar completamente una pieza. Durante el embarazo elegí preparaciones cocidas y evitá pescado crudo o poco hecho. Si comés fuera de casa, podés pedir que lo cocinen bien y preguntar cómo se conserva antes de llegar al plato.',
+                    'El mercurio está dentro del tejido del pescado. Lavar, freír, hervir, sacar la piel o agregar limón no lo elimina de forma confiable. Tampoco congelar corrige ese problema. Por eso hay dos cuidados separados: elegir el pescado con información sobre contaminantes y prepararlo de forma higiénica. Resolver la cocción no compensa una procedencia preocupante; una procedencia conocida tampoco permite comerlo crudo.',
+                    'La carne del pescado cocido suele volverse opaca y separarse con facilidad, pero el aspecto por sí solo no garantiza que toda la pieza alcanzó una cocción segura. Las partes gruesas requieren especial atención y un termómetro de cocina usado según las indicaciones de seguridad alimentaria ayuda a comprobarla. Evitá servir porciones con centro crudo, aunque la superficie está dorada.',
+                ],
+                'items' => [],
+                'table' => null,
+            ],
+            [
+                'h2' => 'De la compra a la heladera',
+                'body' => [
+                    'Comprá pescado que se mantenga refrigerado o sobre hielo en condiciones limpias, y llevá una conservadora si el traslado lo necesita. Hacé esa compra cerca del final del recorrido para reducir el tiempo fuera del frío. Si está congelado, cuidá que siga congelado durante el traslado. Un envase roto, pérdidas de líquido o dudas sobre cuánto tiempo estuvo expuesto son motivos para elegir otra opción.',
+                    'En casa, guardalo protegido y separado de alimentos listos para comer, de modo que sus jugos no caigan sobre ensaladas o frutas. Descongelá en la heladera, en un recipiente, en vez de dejar la pieza sobre la mesada al calor. Lavá manos, cuchillos y superficies después de tocar pescado crudo. No uses el mismo plato sucio para recibir las porciones cocidas.',
+                    'Si preparás caldo o pescado al horno para varias personas, serví lo que van a comer y refrigerá las sobras pronto en recipientes adecuados. No dejes la olla toda la tarde esperando la cena. Recalentá completamente la porción que vas a usar y evitá repetir ciclos de calentamiento y enfriado. Las mismas ideas se aplican a otras [comidas paraguayas](/alimentacion/chipa-sopa-paraguaya-y-asado/) que llevan carne, huevo o queso.',
+                ],
+                'items' => [],
+                'table' => null,
+            ],
+            [
+                'h2' => 'Un plato completo sin convertirlo en obligación',
+                'body' => [
+                    'Podés acompañar el pescado con mandioca bien cocida, arroz o verduras, según lo que tengas. Lavá con agua segura las verduras que comerás crudas y preparalas aparte del pescado sin cocinar. Para una comida familiar, una porción de pescado con acompañamientos variados permite compartir la mesa sin concentrar todo el plato en una pieza muy grande.',
+                    'Si el olor te da náuseas o no conseguís una opción confiable, no hace falta forzarte. Conversá cómo cubrir tus necesidades con otros alimentos disponibles. Tampoco reemplaces automáticamente el pescado por suplementos de aceite de pescado: el tipo de producto y su indicación necesitan revisión. En el hub de [alimentación](/alimentacion/) encontrás otras formas de pensar variedad, seguridad y costumbres durante el embarazo.',
+                ],
+                'items' => [],
+                'table' => null,
+            ],
+            [
+                'h2' => 'Después de comer: cuándo pedir ayuda',
+                'body' => [
+                    'Si aparecen fiebre, vómitos persistentes, diarrea con mal estado general o dolor abdominal importante después de comer, consultá sin atribuirlo simplemente a una comida pesada. Buscá atención urgente ante dificultad respiratoria, desmayo o una reacción intensa. Contá qué comiste y si otras personas también se enfermaron; esos datos ayudan a orientar la evaluación.',
+                    'Una comida aislada no permite calcular tu exposición al mercurio ni diagnosticar un problema. Si te preocupa haber comido frecuentemente un pescado de origen dudoso, describí el consumo al equipo y no uses productos “desintoxicantes”. Para reconocer síntomas que requieren atención inmediata, revisá [las señales de alarma](/salud/senales-de-alarma/). El seguimiento se decide con tu historia, no mediante una prueba casera.',
+                ],
+                'items' => [],
+                'table' => null,
+            ],
+        ],
+        'steps' => [],
+        'appHandoff' => [
+            'text' => 'Mi Bebé incluye seguimiento semanal y guías de embarazo. Podés usarlos para acompañar tus preguntas sobre alimentación, llevando al control los nombres y la procedencia de los pescados que consumís.',
+            'medium' => 'article',
+            'extra' => [],
+        ],
+        'faq' => [
+            [
+                'q' => '¿Freír elimina el mercurio?',
+                'a' => 'No. La cocción ayuda a controlar riesgos biológicos, pero no elimina de forma confiable el mercurio del tejido.',
+            ],
+            [
+                'q' => '¿El pescado de criadero siempre es seguro?',
+                'a' => 'No es una garantía por sí sola. También importan especie, procedencia, controles, conservación y preparación.',
+            ],
+            [
+                'q' => '¿Puedo comer ceviche con mucho limón?',
+                'a' => 'El limón no reemplaza la cocción completa. Durante el embarazo elegí pescado bien cocido.',
+            ],
+            [
+                'q' => '¿Tengo que dejar todo pescado de río?',
+                'a' => 'No se puede decidir por la palabra “río” solamente. Consultá la orientación sobre especie y origen y elegí opciones identificables.',
+            ],
+        ],
+        'related' => [
+            'chipa-sopa-paraguaya-y-asado',
+            'antojos-y-anemia',
+        ],
+        'weeks' => [
+            12,
+            20,
+            28,
+        ],
+        'appGuideSlug' => null,
+        'guarani' => [],
+        'reviewedBy' => null,
+        'reviewedAt' => null,
+        'validAsOf' => null,
+        'sources' => [
+            ['title' => 'Recomendaciones de la OMS sobre atención prenatal para una experiencia positiva del embarazo', 'publisher' => 'Organización Mundial de la Salud (OMS)', 'url' => null, 'accessed' => null],
+            ['title' => 'Orientaciones sobre alimentación saludable y control prenatal', 'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)', 'url' => null, 'accessed' => null],
+            ['title' => 'Manual sobre las cinco claves para la inocuidad de los alimentos', 'publisher' => 'Organización Mundial de la Salud (OMS)', 'url' => null, 'accessed' => null],
+            ['title' => 'Mercurio y salud', 'publisher' => 'Organización Mundial de la Salud (OMS)', 'url' => null, 'accessed' => null],
+        ],
+        'updated' => '2026-09-20',
+        'image' => null,
+    ],
+    'chipa-sopa-paraguaya-y-asado' => [
+        'cluster' => 'alimentacion',
+        'path' => '/alimentacion/chipa-sopa-paraguaya-y-asado/',
+        'title' => 'Chipa, sopa paraguaya y asado durante el embarazo',
+        'seoTitle' => 'Chipa, sopa paraguaya y asado en el embarazo',
+        'metaDescription' => 'Chipa, sopa paraguaya y asado en el embarazo: combiná tus comidas de siempre con variedad y cuidá el queso, la cocción y las sobras en días de calor.',
+        'kind' => 'medical',
+        'lead' => 'Podés incluir chipa, sopa paraguaya y asado durante el embarazo con porciones que te resulten cómodas y una alimentación variada. Importan el queso y la leche seguros, la cocción completa del huevo y la carne, y conservar las sobras en frío. No hace falta dejar la comida paraguaya: elegí cómo prepararla y con qué acompañarla.',
+        'sections' => [
+            [
+                'h2' => 'Chipa: una comida conocida dentro de un día variado',
+                'body' => [
+                    'La chipa suele combinar almidón, queso, huevo y grasa; las recetas y los tamaños varían mucho. Por eso una unidad no representa siempre la misma porción. Podés servir una cantidad que te deje satisfecha y acompañarla con fruta lavada o con otro alimento que toleres. Comer directamente de una bolsa grande mientras viajás hace más difícil reconocer cuánto comiste y si seguís teniendo hambre.',
+                    'La chipa puede formar parte del desayuno o de la merienda, pero comer solo chipa durante gran parte del día deja menos espacio para verduras, legumbres y otras fuentes de nutrientes. Si estás con náuseas y es de lo poco que tolerás, probá sumar variedad en otros momentos, sin obligarte a un plato grande. Consultá si las náuseas te impiden comer o beber adecuadamente.',
+                    'Cuando la comprás, elegí un lugar que cuide manipulación y conservación. Para prepararla en casa, usá ingredientes seguros y cociná bien la masa; evitá probarla cruda porque lleva huevo y otros ingredientes que necesitan cocción. Que una pieza está dorada por fuera no siempre indica que el centro quedó hecho, especialmente si es grande o el horno calienta de manera despareja.',
+                ],
+                'items' => [],
+                'table' => null,
+            ],
+            [
+                'h2' => 'Sopa paraguaya: porción, queso y cocción del centro',
+                'body' => [
+                    'La sopa paraguaya es una preparación sólida de harina de maíz, habitualmente con queso, leche, huevo y cebolla. Puede acompañar una comida con verduras y una fuente de proteína, según la receta y lo que ya haya en el plato. Si la combinás con mandioca, pan y arroz al mismo tiempo, podés elegir cuáles te apetecen y servir menos de cada uno para dejar lugar a otros alimentos.',
+                    'Para el queso Paraguay y la leche, buscá procedencia confiable y productos pasteurizados o tratados de forma segura. El aspecto artesanal no permite saber si la leche recibió tratamiento. Preguntá al comprar y respetá el frío que necesita el producto. Evitá usar queso de origen desconocido suponiendo que cualquier horneado corregirá todos los problemas de elaboración o conservación.',
+                    'Cociná la preparación hasta que el interior está firme y bien hecho, sin masa cruda. Si hacés una fuente grande para una reunión, pensá desde el principio cómo vas a guardar lo que sobre. Cortar porciones y usar recipientes poco profundos facilita enfriarlas y refrigerarlas pronto. Una fuente tapada en la mesa sigue fuera del frío aunque no entren moscas.',
+                ],
+                'items' => [],
+                'table' => null,
+            ],
+            [
+                'h2' => 'Asado: bien cocido también por dentro',
+                'body' => [
+                    'La carne puede aportar proteínas y hierro, pero durante el embarazo conviene comerla completamente cocida. Pedí una porción bien hecha, sin centro crudo. La superficie tostada no alcanza para evaluar el interior de un corte grueso. Un termómetro de cocina, usado con las indicaciones de seguridad alimentaria para ese tipo de carne, permite comprobar mejor la cocción que mirar solamente el color.',
+                    'Prestá especial atención a hamburguesas y otras carnes picadas, porque la manipulación distribuye microbios dentro de la preparación. Los chorizos también necesitan cocción completa; ahumado o curado no significa necesariamente listo para comer. Moderá los embutidos como parte habitual de la dieta por su sal y composición, sin convertirlos en la única proteína disponible en la parrilla.',
+                    'Usá una pinza o utensilio limpio para retirar la carne cocida. El plato donde esperó cruda no sirve para recibirla sin lavar. Mantené separados jugos crudos, tablas y ensaladas. Si ayudás a preparar, lavate las manos después de manipular carne y antes de tocar pan o verduras. Los cuidados de [pescado de río](/alimentacion/pescado-de-rio-y-mercurio/) comparten esta separación entre alimentos crudos y listos para comer.',
+                ],
+                'items' => [],
+                'table' => null,
+            ],
+            [
+                'h2' => 'Ensalada, mandioca y bebidas para acompañar',
+                'body' => [
+                    'Una ensalada de tomate, zanahoria u hojas bien lavadas aporta variedad al asado. Usá agua segura y preparala lejos de la tabla de carne. Si lleva mayonesa, preferí un producto elaborado con huevo pasteurizado y mantené la preparación refrigerada; evitá mayonesa casera con huevo crudo. Sacá a la mesa lo que se va a servir y reponé desde el frío cuando haga falta.',
+                    'La mandioca se come correctamente pelada y bien cocida, nunca cruda. Puede acompañar el plato sin necesidad de que todos los acompañamientos sean harinas o almidones. La combinación no tiene que ser perfecta en cada comida: buscá variedad a lo largo del día. Si tenés diabetes gestacional, conversá cómo distribuir las porciones según tu indicación en vez de eliminar grupos enteros por tu cuenta.',
+                    'Para beber, el agua es una opción sencilla. Las gaseosas y jugos azucarados pueden sumar bastante azúcar si se repiten durante toda la reunión. Evitá alcohol durante el embarazo. Si elegís cocido o mate en otro momento del día, considerá su cafeína; la guía de [mate y cocido](/alimentacion/mate-y-cocido/) ayuda a revisar esos acompañamientos sin perder el ritual de la merienda.',
+                ],
+                'items' => [],
+                'table' => null,
+            ],
+            [
+                'h2' => 'Sobras y calor: planificar antes de sentarse a comer',
+                'body' => [
+                    'En un almuerzo largo, la comida puede quedar expuesta al calor mientras la familia sigue conversando. Conservá caliente lo que corresponde servir caliente y refrigerá pronto lo que vas a guardar, sin esperar a que termine toda la reunión. Si no hay manera de mantener una preparación perecedera a temperatura segura, prepará o serví menos cantidad de una vez.',
+                    'No guardes una sobra dudosa pensando que el recalentado arregla cualquier problema. Algunos riesgos persisten aunque vuelvas a calentar. Si desconocés cuánto tiempo estuvo una ensalada con huevo, queso o carne fuera del frío, lo prudente es descartarla. Para llevar comida de visita, usá recipientes limpios y una conservadora cuando se necesite frío; el trayecto también cuenta como parte de la conservación.',
+                ],
+                'items' => [],
+                'table' => null,
+            ],
+            [
+                'h2' => 'Disfrutar la mesa y reconocer un malestar importante',
+                'body' => [
+                    'Comer despacio, elegir porciones cómodas y evitar acostarte enseguida puede ayudar si las comidas abundantes te provocan reflujo. No necesitás compensar una reunión salteando las comidas del día siguiente. Retomá tus horarios y la variedad habitual. Si alguien insiste en que comas por dos, podés explicar que preferís servirte según tu hambre y las indicaciones que recibiste.',
+                    'Fiebre, vómitos que impiden tomar agua, diarrea con decaimiento importante o dolor intenso merecen consulta. No supongas que todo es “empacho” ni uses un yuyo para postergar la atención. Ante síntomas graves, buscá ayuda urgente y revisá [las señales de alarma](/salud/senales-de-alarma/). Contar qué comiste y cómo se conservá ayuda a evaluar lo ocurrido.',
+                ],
+                'items' => [],
+                'table' => null,
+            ],
+        ],
+        'steps' => [],
+        'appHandoff' => [
+            'text' => 'Mi Bebé ofrece seguimiento semanal y guías para acompañar el embarazo. Podés abrir tu semana y preparar preguntas sobre las comidas que tolerás y las adaptaciones que te indicó tu equipo.',
+            'medium' => 'article',
+            'extra' => [],
+        ],
+        'faq' => [
+            [
+                'q' => '¿La chipa está prohibida si estoy embarazada?',
+                'a' => 'No por el embarazo en sí. Importan la preparación segura, la porción y la variedad del resto de tu alimentación; adaptala si tenés una indicación específica.',
+            ],
+            [
+                'q' => '¿Puedo comer asado jugoso?',
+                'a' => 'Elegí carne completamente cocida, sin centro crudo. La superficie dorada por sí sola no garantiza la cocción del interior.',
+            ],
+            [
+                'q' => '¿Cualquier queso Paraguay sirve para la sopa?',
+                'a' => 'Buscá queso de procedencia confiable y leche pasteurizada o tratada de forma segura. El horneado no sustituye una buena elaboración y conservación.',
+            ],
+            [
+                'q' => '¿Puedo guardar la ensalada que quedó toda la tarde afuera?',
+                'a' => 'Si perdió el frío y no sabés si se mantuvo segura, descartala. Volver a refrigerarla no revierte lo que ocurrió durante la exposición.',
+            ],
+        ],
+        'related' => [
+            'pescado-de-rio-y-mercurio',
+            'mate-y-cocido',
+            'antojos-y-anemia',
+        ],
+        'weeks' => [
+            12,
+            24,
+            32,
+        ],
+        'appGuideSlug' => null,
+        'guarani' => [],
+        'reviewedBy' => null,
+        'reviewedAt' => null,
+        'validAsOf' => null,
+        'sources' => [
+            ['title' => 'Recomendaciones de la OMS sobre atención prenatal para una experiencia positiva del embarazo', 'publisher' => 'Organización Mundial de la Salud (OMS)', 'url' => null, 'accessed' => null],
+            ['title' => 'Orientaciones sobre alimentación saludable y control prenatal', 'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)', 'url' => null, 'accessed' => null],
+            ['title' => 'Manual sobre las cinco claves para la inocuidad de los alimentos', 'publisher' => 'Organización Mundial de la Salud (OMS)', 'url' => null, 'accessed' => null],
+        ],
+        'updated' => '2026-09-20',
+        'image' => null,
+    ],
+    'antojos-y-anemia' => [
+        'cluster' => 'alimentacion',
+        'path' => '/alimentacion/antojos-y-anemia/',
+        'title' => 'Antojos y anemia en el embarazo: cómo distinguirlos',
+        'seoTitle' => 'Antojos y anemia en el embarazo',
+        'metaDescription' => 'Antojos y anemia en el embarazo: qué significa querer comer hielo o tierra, cómo combinar alimentos con hierro y cuándo llevar tus síntomas al control.',
+        'kind' => 'medical',
+        'lead' => 'Un antojo de comida no demuestra que te falte hierro. Las ganas persistentes de comer tierra, tiza u otras sustancias no alimentarias, o de masticar hielo, necesitan consulta porque pueden relacionarse con anemia u otros problemas. La anemia se evalúa con tu historia y análisis, no por el antojo solamente. No comas esas sustancias ni te automediques con hierro.',
+        'sections' => [
+            [
+                'h2' => 'Un deseo de comida no es un análisis de sangre',
+                'body' => [
+                    'Durante el embarazo pueden cambiar el apetito, el gusto y la sensibilidad a los olores. Tener ganas de mango, chipa o algo ácido no permite identificar una carencia concreta. Si el alimento es seguro para vos, podés incluirlo dentro de una alimentación variada. No hace falta satisfacer cada antojo de inmediato ni comer algo que te cae mal por miedo a perjudicar al bebé.',
+                    'Los antojos tampoco obligan a compensar después con ayunos. Si comiste una porción más grande de lo habitual, retomá tus comidas regulares y reconocé cómo te sentís. Cuando un deseo ocupa casi todas tus comidas y desplaza otros alimentos, vale la pena conversar sobre variedad y apetito. Puede ayudar describir un día real de alimentación, con horarios y lo que conseguís, sin juzgarlo como bueno o malo.',
+                ],
+                'items' => [],
+                'table' => null,
+            ],
+            [
+                'h2' => 'Hielo, tierra o tiza: una consulta que merece escucharse',
+                'body' => [
+                    'El deseo persistente de ingerir sustancias que no son alimentos se conoce como pica. Masticar hielo de manera repetida también merece comentarse, aunque el hielo parezca inocuo. Estas conductas pueden asociarse con falta de hierro, pero no la confirman ni explican todos los casos. Contalo con claridad: qué deseás, desde cuándo, si llegaste a ingerirlo y con qué frecuencia aparece.',
+                    'Comer tierra, arcilla, tiza, jabón o cenizas puede exponerte a contaminantes, parásitos o lesiones. Evitá consumirlos y mantenelos fuera de tu alcance inmediato si el impulso es fuerte. Pedí apoyo a alguien de confianza y a tu equipo. Cambiar tierra por una versión vendida como “comestible” no garantiza seguridad; tampoco se resuelve el problema eligiendo una sustancia de aspecto más limpio.',
+                    'Si ya ingeriste un producto de limpieza u otra sustancia potencialmente tóxica, buscá orientación urgente y llevá el envase si está disponible. No provoques el vómito ni intentes neutralizarlo con otra bebida. Para las ganas frecuentes de hielo, evitá masticar trozos duros que puedan dañar los dientes y consultá por el impulso. No es un motivo de vergüenza ni algo que tengas que ocultar en el control.',
+                ],
+                'items' => [],
+                'table' => null,
+            ],
+            [
+                'h2' => 'Qué es la anemia y por qué no alcanza con mirar síntomas',
+                'body' => [
+                    'La anemia significa que la sangre tiene una capacidad reducida de transportar oxígeno, habitualmente evaluada a través de la hemoglobina y otros datos. La falta de hierro es una causa frecuente, pero existen otras. En el embarazo aumentan las necesidades y cambian los componentes de la sangre; tu equipo interpreta el resultado según la etapa y tus antecedentes, sin depender de una cifra aislada que encontraste en internet.',
+                    'Podés sentir cansancio, debilidad, palpitaciones o falta de aire con el esfuerzo, pero esos síntomas también aparecen por otras razones. A veces no hay molestias evidentes. El control prenatal permite pedir e interpretar los análisis que correspondan. Si ya tenés un resultado, llevá el informe completo y cualquier estudio previo; comparar datos útiles requiere conocer fechas y contexto, no solamente una foto de un valor marcado.',
+                    'La falta de aire en reposo, el dolor de pecho, el desmayo o el deterioro rápido requieren atención urgente. No los atribuyas a anemia sin evaluación ni esperes a mejorar con una comida rica en hierro. Revisá [las señales de alarma](/salud/senales-de-alarma/) para otras situaciones importantes. Un cambio intenso en cómo te sentís merece ayuda aunque todavía no tengas los análisis.',
+                ],
+                'items' => [],
+                'table' => null,
+            ],
+            [
+                'h2' => 'Alimentos con hierro que podés combinar en casa',
+                'body' => [
+                    'Las carnes bien cocidas aportan hierro que el cuerpo suele aprovechar con mayor facilidad. Las legumbres, como porotos y lentejas, también aportan hierro junto con otros nutrientes. Podés incluirlas en guisos, ensaladas seguras o acompañamientos, según tus gustos. No hace falta comprar un producto especial para empezar a variar; un plato casero puede combinar legumbres, cereal o mandioca y verduras.',
+                    'La vitamina C de alimentos como cítricos, guayaba, tomate o locote ayuda a aprovechar el hierro de origen vegetal cuando se consumen en la misma comida. Por ejemplo, podés acompañar un guiso de lentejas con tomate lavado o una fruta. Ese apoyo no convierte la comida en tratamiento suficiente para una anemia ya diagnosticada, pero sí forma parte de hábitos útiles.',
+                    'El mate, el té y el cocido pueden dificultar la absorción del hierro de los alimentos. En vez de acompañar todas las comidas con esas infusiones, elegí agua y conversá cómo distribuirlas, especialmente si recibiste diagnóstico de anemia. El artículo de [mate y cocido](/alimentacion/mate-y-cocido/) explica también cómo considerar la cafeína. No reemplaces una comida por varias rondas de yerba para calmar el hambre.',
+                    'No recurras al hígado como tratamiento casero habitual: puede aportar mucha vitamina A preformada, cuyo exceso es perjudicial durante el embarazo. Evitá suplementos de vitamina A o mezclas de vitaminas sin indicación. Para opciones cotidianas de carne y acompañamientos, revisá [chipa, sopa paraguaya y asado](/alimentacion/chipa-sopa-paraguaya-y-asado/), con atención a la cocción y la variedad.',
+                ],
+                'items' => [],
+                'table' => null,
+            ],
+            [
+                'h2' => 'Si te indicaron un suplemento',
+                'body' => [
+                    'Los suplementos de hierro pueden formar parte de la prevención o del tratamiento prenatal según la indicación que recibiste. Tomalos como te explicaron, sin aumentar por tu cuenta la cantidad por sentirte cansada o tener antojos. Revisá si otros productos que tomás también contienen hierro para evitar duplicaciones. Llevá los envases al control cuando no tengas claro qué incluye cada uno.',
+                    'El hierro puede causar molestias digestivas o estreñimiento. Si te pasa, avisá para que el equipo revise cómo tomarlo o qué alternativa corresponde; no lo abandones en silencio ni lo mezcles con yuyos laxantes. Preguntá qué separación necesita respecto de infusiones, lácteos y otros medicamentos. Conservá el producto fuera del alcance de niñas y niños, porque una ingestión accidental puede ser peligrosa.',
+                ],
+                'items' => [],
+                'table' => null,
+            ],
+            [
+                'h2' => 'Preparar el seguimiento sin exigir resultados inmediatos',
+                'body' => [
+                    'Anotá qué síntomas tenés, cómo afectan tus actividades y qué indicación estás siguiendo. La respuesta al tratamiento se controla con la evolución y, cuando corresponde, nuevos análisis; no se confirma porque un antojo desapareció después de una comida. Preguntá cuándo revisar resultados y qué hacer si las molestias dificultan continuar. Tener esas respuestas permite sostener el cuidado con menos incertidumbre.',
+                    'En casa, pedir ayuda para cocinar o comprar puede ser más útil que recibir comentarios sobre lo que “deberías” comer. Si el presupuesto o las náuseas limitan la variedad, contalo en el control para buscar opciones posibles. El objetivo es alimentarte y seguir el tratamiento indicado, sin convertir cada deseo de comida en una prueba de que estás haciendo algo mal.',
+                ],
+                'items' => [],
+                'table' => null,
+            ],
+        ],
+        'steps' => [],
+        'appHandoff' => [
+            'text' => 'Mi Bebé incluye herramientas de diario y resumen prenatal. Podés usar esos espacios para acompañar tus preguntas sobre síntomas y controles, junto con los informes e indicaciones de tu equipo.',
+            'medium' => 'article',
+            'extra' => [],
+        ],
+        'faq' => [
+            [
+                'q' => '¿Antojo de carne significa falta de hierro?',
+                'a' => 'No. Un deseo de comida no diagnostica una deficiencia. La evaluación considera antecedentes, síntomas y análisis.',
+            ],
+            [
+                'q' => '¿Masticar hielo puede relacionarse con anemia?',
+                'a' => 'Puede asociarse con falta de hierro y merece consulta si es persistente. No confirma el diagnóstico por sí solo.',
+            ],
+            [
+                'q' => '¿Con lentejas alcanza para tratar la anemia?',
+                'a' => 'Las lentejas ayudan a una dieta variada, pero una anemia diagnosticada puede requerir tratamiento y seguimiento. Seguí la indicación del equipo.',
+            ],
+            [
+                'q' => '¿Dejo el hierro si me estriñe?',
+                'a' => 'Consultá para adaptar la toma o revisar alternativas. No cambies la cantidad ni lo suspendas por tu cuenta.',
+            ],
+        ],
+        'related' => [
+            'mate-y-cocido',
+            'chipa-sopa-paraguaya-y-asado',
+            'pescado-de-rio-y-mercurio',
+        ],
+        'weeks' => [
+            12,
+            24,
+            28,
+        ],
+        'appGuideSlug' => null,
+        'guarani' => [],
+        'reviewedBy' => null,
+        'reviewedAt' => null,
+        'validAsOf' => null,
+        'sources' => [
+            ['title' => 'Recomendaciones de la OMS sobre atención prenatal para una experiencia positiva del embarazo', 'publisher' => 'Organización Mundial de la Salud (OMS)', 'url' => null, 'accessed' => null],
+            ['title' => 'Orientaciones sobre alimentación saludable y control prenatal', 'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)', 'url' => null, 'accessed' => null],
+        ],
+        'updated' => '2026-09-20',
+        'image' => null,
+    ],
+    'hidratacion-con-el-calor' => [
+        'cluster' => 'alimentacion',
+        'path' => '/alimentacion/hidratacion-con-el-calor/',
+        'title' => 'Hidratación en el embarazo cuando hace calor',
+        'seoTitle' => 'Hidratación con el calor en el embarazo',
+        'metaDescription' => 'Hidratación en el embarazo con calor: organizá el agua para salir, reconocé señales de deshidratación y elegí bebidas sin depender del tereré.',
+        'kind' => 'medical',
+        'lead' => 'Cuando hace calor, tomá agua segura regularmente, buscá sombra y hacé pausas para refrescarte. Las necesidades cambian con la actividad, la transpiración y tu situación de salud; no hay una cantidad idéntica para todas. No dependas solo del tereré. Si no podés retener líquidos, te desmayás o estás confusa, necesitás atención urgente.',
+        'sections' => [
+            [
+                'h2' => 'Agua a mano antes de que la salida se complique',
+                'body' => [
+                    'El calor aumenta la pérdida de agua a través del sudor. Durante el embarazo puede costarte más tolerar una espera al sol, un colectivo lleno o una caminata larga. Preparar agua antes de salir evita depender de encontrar un puesto o llegar a destino. Elegí una botella limpia, fácil de llevar y que puedas rellenar con agua de procedencia segura.',
+                    'Tomá a intervalos regulares y respondé a la sed, sin esperar a estar muy incómoda. Si un vaso grande te provoca náuseas, probá sorbos pequeños y frecuentes. La cantidad que necesitás cambia con el clima y lo que hacés durante el día. Si tu equipo te indicó restringir líquidos por un problema de salud, consultá cómo adaptar esa indicación al calor en vez de aumentarlos por tu cuenta.',
+                ],
+                'items' => [],
+                'table' => null,
+            ],
+            [
+                'h2' => 'La orina orienta, pero no cuenta toda la historia',
+                'body' => [
+                    'Orinar menos de lo habitual o tener orina muy oscura puede indicar que necesitás revisar tu hidratación, especialmente si además tenés sed o boca seca. Una orina de color claro suele acompañar una hidratación adecuada, pero vitaminas, alimentos y medicamentos también pueden cambiar el color. No uses una comparación de colores como única prueba de que todo está bien.',
+                    'Prestá atención al conjunto: cómo te sentís, cuánto estás pudiendo beber, si transpiraste mucho y si hubo vómitos o diarrea. No hace falta forzar agua hasta que la orina sea transparente ni beber grandes cantidades de golpe. El objetivo es reponer de manera regular y tolerable. Si seguís orinando muy poco pese a beber, o el malestar aumenta, buscá evaluación.',
+                    'La hinchazón de pies puede aparecer en el embarazo y no se resuelve dejando de tomar agua. Tampoco uses tés diuréticos para “sacar líquido”. Una hinchazón repentina, especialmente de cara o manos, junto con dolor de cabeza o cambios visuales necesita atención. Las recomendaciones de [yuyos](/alimentacion/yuyos/) explican por qué una mezcla para orinar no reemplaza esa evaluación.',
+                ],
+                'items' => [],
+                'table' => null,
+            ],
+            [
+                'h2' => 'Tereré, jugos y otras bebidas en días pesados',
+                'body' => [
+                    'El agua sola es una base práctica porque no agrega cafeína ni azúcar. Puede estar fresca o a la temperatura que toleres; no necesitás que está helada para que hidrate. Si agregás rodajas de fruta, lavalas antes de cortar, usá un recipiente limpio y cuidá la conservación. El hielo también tiene que hacerse con agua segura: el frío no elimina los microbios.',
+                    'El tereré aporta líquido y cafeína. Una ronda que dura toda la tarde puede aumentar el consumo de yerba sin que lo notes, sobre todo si ya tomaste mate o café. Alterná con agua y reservá el tereré para un momento acotado. En [tereré en el embarazo](/alimentacion/terere-en-el-embarazo/) podés revisar limpieza del equipo, procedencia del hielo y cuidados con los agregados.',
+                    'Los jugos y gaseosas azucaradas pueden sumar bastante azúcar si reemplazan cada vaso de agua. La fruta entera ofrece fibra y puede acompañar una colación, aunque no sustituye toda la bebida que necesitás. Evitá energizantes para enfrentar el cansancio del calor y evitá alcohol. Las bebidas deportivas no son necesarias por rutina para pasar una tarde calurosa.',
+                    'Cuando hay vómitos o diarrea, puede hacer falta reponer sales además de agua. Consultá si corresponde una solución de rehidratación oral y cómo usar el producto indicado. Una gaseosa o bebida deportiva no es equivalente. No improvises mezclas concentradas de sal o azúcar: una preparación incorrecta puede empeorar el problema. Si no retenés líquidos, necesitás atención y no seguir probando bebidas en casa.',
+                ],
+                'items' => [],
+                'table' => null,
+            ],
+            [
+                'h2' => 'El cuerpo también necesita enfriarse',
+                'body' => [
+                    'Beber agua ayuda, pero no compensa permanecer bajo sol intenso sin descanso. Buscá lugares con sombra o ventilación, elegí ropa liviana y planificá tareas físicas para los momentos menos calurosos cuando sea posible. Si estás haciendo actividad, bajá el ritmo y hacé pausas. No uses el sudor como objetivo de ejercicio ni intentes “aguantar” hasta completar una tarea.',
+                    'En viajes o esperas, ubicá dónde podés sentarte y conseguir agua segura. Si trabajás cerca de hornos, en un local muy caluroso o al aire libre, conversá cómo incorporar descansos y acceso a agua durante la jornada. Un acompañante puede ayudarte a cargar bolsas o adelantar una gestión. Esas adaptaciones reducen la exposición y pueden ser más útiles que llevar una botella cada vez más grande.',
+                    'En casa, buscá el ambiente más fresco disponible y refrescá la piel con agua si te resulta agradable. Si un ventilador no alcanza y te sentís mal, trasladate a un lugar más fresco y pedí ayuda. No permanezcas en un vehículo cerrado esperando que la incomodidad pase. La hidratación y el enfriamiento trabajan juntos; uno no reemplaza al otro.',
+                ],
+                'items' => [],
+                'table' => null,
+            ],
+            [
+                'h2' => 'Comidas livianas y agua segura fuera de casa',
+                'body' => [
+                    'Una fruta lavada, verduras y preparaciones que toleres pueden acompañar el día sin que tengas que saltear comidas por el calor. Si comés menos cantidad en una sentada, podés distribuir las comidas. Conservá en frío lo que lo requiera, como yogur, queso y platos cocidos. Llevar una colación en una bolsa al sol durante horas puede crear un problema de seguridad alimentaria.',
+                    'No rellenes una botella con agua cuyo origen desconocés solamente porque está fría. Si el abastecimiento de tu casa no es seguro, seguí las indicaciones locales para obtener agua apta para beber y preparar alimentos. Lavá la botella y su tapa con regularidad, y dejalas secar cuando no las uses. Compartir recipientes para beber también comparte saliva; llevar uno propio facilita el cuidado.',
+                ],
+                'items' => [],
+                'table' => null,
+            ],
+            [
+                'h2' => 'Cuándo el calor deja de ser una molestia común',
+                'body' => [
+                    'Si sentís mareo, debilidad o náuseas mientras estás expuesta al calor, interrumpí la actividad, andá a un lugar fresco y pedí compañía. Podés beber sorbos si estás plenamente despierta y tragás con normalidad. Si el malestar persiste, consultá; si hay desmayo, confusión, convulsiones o dificultad respiratoria, buscá atención urgente. No des líquidos por boca a alguien confuso o inconsciente.',
+                    'La fiebre durante el embarazo, los vómitos que impiden retener agua y una disminución importante de la orina también necesitan evaluación. Si ya reconocés movimientos del bebé y notás que disminuyen, consultá de inmediato: no esperes a que una bebida fría los reactive. Encontrás otras situaciones en [las señales de alarma](/salud/senales-de-alarma/). El calor no explica automáticamente cualquier síntoma nuevo.',
+                ],
+                'items' => [],
+                'table' => null,
+            ],
+        ],
+        'steps' => [
+            [
+                'title' => 'Prepará la salida',
+                'body' => [
+                    'Cargá agua segura en una botella limpia y ubicá lugares donde puedas descansar, ir al baño y rellenarla de forma segura.',
+                ],
+            ],
+            [
+                'title' => 'Repartí agua y pausas',
+                'body' => [
+                    'Bebé regularmente y buscá sombra. Ajustá el esfuerzo y el horario si el calor se vuelve difícil de tolerar.',
+                ],
+            ],
+            [
+                'title' => 'Actuá si aparece malestar',
+                'body' => [
+                    'Dejá la actividad y pedí ayuda. Ante confusión, desmayo o dificultad para respirar, buscá atención urgente.',
+                ],
+            ],
+        ],
+        'appHandoff' => [
+            'text' => 'Mi Bebé ofrece seguimiento por semanas y un apartado de emergencia. Podés conocer esos recursos y tener presente con quién consultar si el calor se acompaña de síntomas que te preocupan.',
+            'medium' => 'article',
+            'extra' => [],
+        ],
+        'faq' => [
+            [
+                'q' => '¿Cuántos litros tengo que tomar?',
+                'a' => 'Las necesidades varían con actividad, calor y salud. Tomá regularmente y pedí una orientación individual si tenés restricciones o pérdidas por vómitos y diarrea.',
+            ],
+            [
+                'q' => '¿El agua tiene que estar helada?',
+                'a' => 'No. Elegí una temperatura agradable. La seguridad del agua y tomarla regularmente importan más que el frío.',
+            ],
+            [
+                'q' => '¿Dejo de tomar agua si se me hinchan los pies?',
+                'a' => 'No reduzcas líquidos ni tomes diuréticos por tu cuenta. Consultá por la hinchazón, especialmente si aparece de golpe o con dolor de cabeza y cambios visuales.',
+            ],
+            [
+                'q' => '¿Una bebida fría sirve para comprobar que el bebé está bien?',
+                'a' => 'No es una prueba de bienestar. Si notás menos movimientos de los habituales, consultá de inmediato sin esperar a que una bebida los cambie.',
+            ],
+        ],
+        'related' => [
+            'terere-en-el-embarazo',
+            'yuyos',
+            'mate-y-cocido',
+        ],
+        'weeks' => [
+            20,
+            28,
+            32,
+            36,
+        ],
+        'appGuideSlug' => null,
+        'guarani' => [],
+        'reviewedBy' => null,
+        'reviewedAt' => null,
+        'validAsOf' => null,
+        'sources' => [
+            ['title' => 'Recomendaciones de la OMS sobre atención prenatal para una experiencia positiva del embarazo', 'publisher' => 'Organización Mundial de la Salud (OMS)', 'url' => null, 'accessed' => null],
+            ['title' => 'Orientaciones sobre alimentación saludable y control prenatal', 'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)', 'url' => null, 'accessed' => null],
+        ],
+        'updated' => '2026-09-20',
+        'image' => null,
+    ],
 ];
