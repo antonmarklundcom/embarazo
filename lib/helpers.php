@@ -159,5 +159,49 @@ function is_current(string $path, string $currentPath): bool
 /** App hand-off; one origin and campaign contract for every CTA. */
 function app_link(string $medium = 'product', string $campaign = 't0', array $extra = []): string
 {
-    return 'https://app.embarazo.com.py/?' . http_build_query(array_merge($extra, ['utm_source' => 'site', 'utm_medium' => $medium, 'utm_campaign' => $campaign]), '', '&', PHP_QUERY_RFC3986);
+    $params = ['utm_source' => 'site', 'utm_medium' => $medium, 'utm_campaign' => $campaign];
+    foreach (['w', 'fpp', 'fum', 'modo'] as $key) {
+        if (!isset($extra[$key])) {
+            continue;
+        }
+        $value = $extra[$key];
+        if (!is_scalar($value) || is_bool($value)) {
+            throw new InvalidArgumentException('App parameters must be scalar strings or numbers.');
+        }
+        $value = (string) $value;
+        if ($key === 'w' && (!ctype_digit($value) || (int) $value < 1 || (int) $value > 42)) {
+            throw new InvalidArgumentException('Week must be 1..42.');
+        }
+        if (in_array($key, ['fpp', 'fum'], true)) {
+            $date = DateTimeImmutable::createFromFormat('!Y-m-d', $value);
+            if ($date === false || $date->format('Y-m-d') !== $value) {
+                throw new InvalidArgumentException('Date must be a real YYYY-MM-DD date.');
+            }
+        }
+        $params[$key] = $key === 'w' ? (int) $value : $value;
+    }
+    // URI encoding here; callers use e() once at the HTML boundary (no double escaping).
+    return 'https://app.embarazo.com.py/?' . http_build_query($params, '', '&', PHP_QUERY_RFC3986);
+}
+
+/** WhatsApp share URL. URI-encoded text; render the returned URL with e(). */
+function wa_share(string $text, string $url): string
+{
+    return 'https://wa.me/?text=' . rawurlencode(trim($text . ' ' . $url));
+}
+
+/** Friendly-week boundaries shared by content and templates. */
+function week_trimester(int $n): int
+{
+    if ($n < 1) {
+        throw new InvalidArgumentException('Week must be positive.');
+    }
+    return $n <= 13 ? 1 : ($n <= 27 ? 2 : 3);
+}
+
+/** Plain disclaimer copy; caller escapes with e() and adds validAsOf/reviewer. */
+function disclaimer_kind(string $kind): string
+{
+    $copy = content('cta')['disclaimers'];
+    return $copy[$kind] ?? $copy['medical'];
 }

@@ -15,12 +15,23 @@ PRs; it implements only when a dispatch prompt names it.
 - No invented facts: laws, offices, prices and phone numbers appear only with a `sources[]`
   entry. No forms, no email capture, no pop-ups, no tracking beyond one cookieless script.
 - Design previews (`design/preview/*.html`) are layout and voice references, NOT sources. Figures
-  flagged F2-F11 in `docs/review-d0.md` are unverified. Do not copy a law threshold, office,
-  clinical figure or installation claim from a preview into content unless it traces to
-  `docs/app-facts.md` or a source you can name. Otherwise use hedged wording ("consultá el dato
-  vigente") and add a line to `docs/facts-to-verify.md`. Never invent a source URL: workers have
-  no network, so `sources[].url` is `null` unless the URL is an official one you are certain of;
-  `accessed` stays `null`.
+  flagged F2-F11 in `docs/review-d0.md` are unverified. Two classes of fact:
+  (A) LEGAL / ADMINISTRATIVE / PRODUCT facts: law numbers and thresholds, offices, prices, phone
+  numbers, app or installation behaviour. These trace to `docs/app-facts.md` or a source you can
+  name; otherwise hedge once ("consultá el monto vigente") and add a line to
+  `docs/facts-to-verify.md`.
+  (B) GENERAL CLINICAL EDUCATION (what happens in a pregnancy week, common symptoms, what a routine
+  control or ultrasound is for, food and hygiene basics): write it concretely and helpfully, in
+  conservative, widely accepted terms, with ranges and no promises, the way a careful health
+  editor would. Cite the kind of source by name in `sources[]` (WHO / OMS, MSPBS, a named guideline)
+  and log the page in `docs/facts-to-verify.md` as pending medical review. Never give doses,
+  diagnoses or advice to delay care; alarm signs link to `/salud/senales-de-alarma`.
+  Do NOT pad pages with meta-disclaimers ("esta página no clasifica...", "no fijamos aquí...").
+  The visible disclaimer partial carries the caution; the body answers the question the reader
+  typed, in the first 100 words. Thin, evasive, near-duplicate pages fail the audit.
+  Never invent a source URL: workers have no network, so `sources[].url` is `null` unless it is an
+  official URL you are certain of; `accessed` stays `null`. Never cite repo files (docs/, lib/) as
+  a public source: sources[] is shown to readers.
 - Workers have no network and cannot write `.git`. The manager runs every git command. Do not
   download anything.
 - Gates before any report: `php -l` on touched files, `./verify.sh`, `./deploy/make-zip.sh`

@@ -1,0 +1,17 @@
+# Facts to verify before publication
+
+## T1 STAGE A — 2026-09-20 (offline editorial review)
+- Legal exemplar and derechos hub: revalidate Ley 5508/2015, Ley 7383/2024, Código del Trabajo art. 261+, IPS percentages/contributions and leave-date rules against current official texts; `validAsOf` is an editorial reference, not a claim of fresh consultation. All source URLs/access dates remain null.
+- Ley 5508: conditions for 24 weeks, multiple births, adoption, fixed-term contracts, lactation ages/conditions, fuero scope and dismissal procedures remain unverified. No extra preview thresholds were copied.
+- Ley 7383: frequency (especially the preview's “monthly”), beneficiaries, proof and interaction with leave require verification. Copy states only up to four paid hours and asks to confirm requirements.
+- IPS: confirm regime, benefit calculation base, payment schedule, documents, submission channels and reposo/start-date application; without-IPS entitlements are not inferred. The steps are consultation preparation, not an official procedure.
+- Código del Trabajo: verify the calculation base and conditions of the documented 5% family bonus; do not infer per-child or minimum-salary rules.
+- Week 20 clinical exemplar: pending medical review of development, approximate size/weight, common symptoms, discharge, urgent alarm signs, first movements (16–24 weeks), absent movements by 24 weeks and reduced-movement advice. Public reading references: OMS antenatal-care recommendations and MSPBS prenatal-control guidance; no claim of fresh consultation.
+- Week 20: pending medical review of the approximate 18–24-week morphology window, ultrasound scope and limitations, routine-control description, and comfort/food/hygiene advice. Retained imported banana/25.6 cm/300 g seed values; confirm growth reference and head-to-feet interpretation without asserting a measurement-method switch at an exact week.
+- Week 20: review heat, mosquito-prevention and tereré/caffeine education; no fixed dengue season or numeric consumption allowance asserted. PAI field remains a brief pointer to individual vaccine-record review, without naming an unverified vaccine or schedule.
+- Trimesters: timeline prompts remain editorial reminders rather than a clinical schedule; pending medical review.
+- Maternity-leave article revision: legal thresholds beyond the established 18/24 weeks, 100% subsidy, four contribution months, four paid prenatal-control hours, 90/60 lactation minutes, two paternity weeks, one-year fuero and 5% bonus remain unexpanded. Verify extension eligibility, lactation conditions, permission frequency/proof, benefit base/payment timing and regime-specific coverage before publication; body uses short qualifications rather than repeated editorial disclaimers.
+- Ley 5099/2013: revalidate MSPBS gratuity scope and service availability; do not extend it to IPS/private studies or promise an available appointment.
+- Procedural hubs: service-specific document lists, fees, offices, competent complaint channels and free legal advice are unverified; generic preparation only.
+- The exact user-required CTA trust strip includes “funciona sin datos”; the scope of offline operation remains unverified (D0 F10). No additional offline guarantees were added.
+- Guaraní: derechos enables the strip, but strings remain absent pending native review; stage B must not invent translations.

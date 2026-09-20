@@ -243,3 +243,166 @@ function seo_jsonld(array $page): array
 
     return $blocks;
 }
+
+/**
+ * Stage-A builders below are pure: callers supply canonical absolute URLs and
+ * content, no globals/request/clock reads. Stage B wires them into templates.
+ * Keep strings raw (not HTML escaped); json_ld() is the ONLY script encoder.
+ * Existing template builders above remain backward-compatible.
+ */
+
+/** Identity: name, optional description/logo (absolute URL). No invented contacts. */
+function jsonld_site_organization(array $identity, string $origin): array
+{
+    $root = rtrim($origin, '/') . '/';
+    $data = ['@context' => 'https://schema.org', '@type' => 'Organization',
+        '@id' => $root . '#organization', 'name' => $identity['name'], 'url' => $root];
+    foreach (['description', 'logo'] as $key) {
+        if (!empty($identity[$key])) {
+            $data[$key] = $identity[$key];
+        }
+    }
+    return $data;
+}
+
+function jsonld_website(array $identity, string $origin): array
+{
+    $root = rtrim($origin, '/') . '/';
+    return ['@context' => 'https://schema.org', '@type' => 'WebSite',
+        '@id' => $root . '#website', 'url' => $root, 'name' => $identity['name'],
+        'inLanguage' => 'es-PY', 'publisher' => ['@id' => $root . '#organization']];
+}
+
+/** Sitewide pair, to replace rather than duplicate the legacy Organization block. */
+function jsonld_sitewide(array $identity, string $origin): array
+{
+    return [jsonld_site_organization($identity, $origin), jsonld_website($identity, $origin)];
+}
+
+/** App data: name,url,description; optional applicationCategory,operatingSystem.
+ * Free PWA per docs/app-facts; no rating, fabricated reviews or store listing.
+ */
+function jsonld_software_application(array $app): array
+{
+    $data = ['@context' => 'https://schema.org', '@type' => 'SoftwareApplication',
+        '@id' => rtrim($app['url'], '/') . '/#application',
+        'name' => $app['name'], 'url' => $app['url'], 'description' => $app['description'],
+        'inLanguage' => 'es-PY',
+        'offers' => ['@type' => 'Offer', 'price' => '0', 'priceCurrency' => 'PYG']];
+    foreach (['applicationCategory', 'operatingSystem'] as $key) {
+        if (!empty($app[$key])) {
+            $data[$key] = $app[$key];
+        }
+    }
+    return $data;
+}
+
+/** One OS per HowTo: pass the displayed os label in name, never mix alternatives.
+ * steps are strings or {title,body:string[]}; no invented timings or supplies.
+ */
+function jsonld_howto(string $name, string $canonical, array $steps): array
+{
+    $items = [];
+    foreach ($steps as $step) {
+        $item = ['@type' => 'HowToStep', 'position' => count($items) + 1];
+        if (is_string($step)) {
+            $item['text'] = $step;
+        } else {
+            $item['name'] = $step['title'];
+            $item['text'] = implode("\n\n", $step['body']);
+        }
+        $items[] = $item;
+    }
+    return ['@context' => 'https://schema.org', '@type' => 'HowTo',
+        'name' => $name, 'url' => $canonical, 'inLanguage' => 'es-PY', 'step' => $items];
+}
+
+/** Citation titles remain useful when a verified official URL is not yet available. */
+function jsonld_citations(array $sources): array
+{
+    return array_map(static function (array $source): array {
+        $citation = ['@type' => 'CreativeWork', 'name' => $source['title'],
+            'publisher' => ['@type' => 'Organization', 'name' => $source['publisher']]];
+        if (!empty($source['url'])) {
+            $citation['url'] = $source['url'];
+        }
+        return $citation;
+    }, $sources);
+}
+
+/** Article for all editorial kinds, including legal/procedural. image must be absolute. */
+function jsonld_content_article(array $record, string $canonical, string $organizationId, ?string $image = null): array
+{
+    $data = ['@context' => 'https://schema.org', '@type' => 'Article',
+        '@id' => $canonical . '#article', 'headline' => $record['title'],
+        'description' => $record['metaDescription'], 'inLanguage' => 'es-PY',
+        'mainEntityOfPage' => $canonical,
+        'url' => $canonical, 'publisher' => ['@id' => $organizationId],
+        'author' => ['@id' => $organizationId], 'dateModified' => $record['updated']];
+    if (!empty($record['datePublished'])) {
+        $data['datePublished'] = $record['datePublished'];
+    }
+    if ($image !== null) {
+        $data['image'] = $image;
+    }
+    if (!empty($record['sources'])) {
+        $data['citation'] = jsonld_citations($record['sources']);
+    }
+    return $data;
+}
+
+/** MedicalWebPage accompanies an Article; reviewer is omitted until actually signed. */
+function jsonld_medical_webpage(array $record, string $canonical, string $organizationId): array
+{
+    $data = ['@context' => 'https://schema.org', '@type' => 'MedicalWebPage',
+        '@id' => $canonical . '#webpage', 'url' => $canonical,
+        'name' => $record['title'], 'description' => $record['metaDescription'],
+        'inLanguage' => 'es-PY', 'dateModified' => $record['updated'],
+        'publisher' => ['@id' => $organizationId], 'mainEntity' => ['@id' => $canonical . '#article']];
+    if (!empty($record['reviewedBy']['name'])) {
+        $data['reviewedBy'] = ['@type' => 'Person', 'name' => $record['reviewedBy']['name']];
+        if (!empty($record['reviewedBy']['credentials'])) {
+            $data['reviewedBy']['hasCredential'] = $record['reviewedBy']['credentials'];
+        }
+        if (!empty($record['reviewedAt'])) {
+            $data['lastReviewed'] = $record['reviewedAt'];
+        }
+    }
+    if (!empty($record['sources'])) {
+        $data['citation'] = jsonld_citations($record['sources']);
+    }
+    return $data;
+}
+
+/** Medical set; legal/procedural/product receive Article only, plus non-empty FAQ. */
+function jsonld_editorial(array $record, string $kind, string $canonical, string $organizationId, ?string $image = null): array
+{
+    $blocks = [jsonld_content_article($record, $canonical, $organizationId, $image)];
+    if ($kind === 'medical') {
+        array_unshift($blocks, jsonld_medical_webpage($record, $canonical, $organizationId));
+    }
+    $faq = jsonld_faq($record['faq'] ?? []);
+    if ($faq !== null) {
+        $blocks[] = $faq;
+    }
+    return $blocks;
+}
+
+/** Complete trail, including home, as [{label,url:absolute}]. Works on home too. */
+function jsonld_breadcrumb_list(array $crumbs): array
+{
+    $items = [];
+    foreach ($crumbs as $crumb) {
+        $items[] = ['@type' => 'ListItem', 'position' => count($items) + 1,
+            'name' => $crumb['label'], 'item' => $crumb['url']];
+    }
+    return ['@context' => 'https://schema.org', '@type' => 'BreadcrumbList', 'itemListElement' => $items];
+}
+
+/** Tool record: title,metaDescription; explicit URL, no invented browser requirements. */
+function jsonld_web_application(array $tool, string $canonical): array
+{
+    return ['@context' => 'https://schema.org', '@type' => 'WebApplication',
+        '@id' => $canonical . '#application', 'url' => $canonical, 'name' => $tool['title'],
+        'description' => $tool['metaDescription'], 'inLanguage' => 'es-PY'];
+}
