@@ -1,0 +1,36 @@
+<!doctype html>
+<!--
+  Source of the default Open Graph card (assets/img/og-default.png, 1200x630).
+  The illustration (docs/imagery-manifest.json id og-default, raw PNG in deploy/imagery-src/og-default.png, git-ignored) carries NO text;
+  the wordmark and the line are set here in Nunito Sans so the type stays crisp and editable. Render with the installed Chrome:
+
+    chrome --headless=new --disable-gpu --hide-scrollbars --force-device-scale-factor=1 --allow-file-access-from-files \
+           --window-size=1200,630 --screenshot=assets/img/og-default.png file:///<repo>/deploy/og-card.html
+
+  A PNG on purpose: WhatsApp, Facebook and X read og:image most reliably as PNG or JPEG.
+-->
+<html lang="es-PY"><head><meta charset="utf-8"><title>Mi Bebé — OG card</title>
+<style>
+  @font-face { font-family: "Nunito Sans"; font-weight: 700; src: url("../assets/fonts/nunito-sans-700-latin.woff2") format("woff2"); }
+  @font-face { font-family: "Nunito Sans"; font-weight: 500; src: url("../assets/fonts/nunito-sans-500-latin.woff2") format("woff2"); }
+  * { box-sizing: border-box; margin: 0; }
+  html, body { width: 1200px; height: 630px; overflow: hidden; background: #FBF7F1; }
+  .card { position: relative; width: 1200px; height: 630px; font-family: "Nunito Sans", system-ui, sans-serif; }
+  .art { position: absolute; inset: 0; background: url("../deploy/imagery-src/og-default.png") center / cover no-repeat; }
+  .veil { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(251,247,241,.96) 0%, rgba(251,247,241,.9) 34%, rgba(251,247,241,0) 58%); }
+  .copy { position: absolute; left: 72px; top: 0; bottom: 0; width: 540px; display: flex; flex-direction: column; justify-content: center; gap: 22px; }
+  .mark { display: flex; align-items: center; gap: 18px; }
+  .dot { width: 64px; height: 64px; border-radius: 50%; background: #2F5D50; color: #FBF7F1; font-weight: 700; font-size: 26px; display: grid; place-items: center; letter-spacing: -.02em; }
+  .name { font-weight: 700; font-size: 64px; color: #2F5D50; letter-spacing: -.02em; line-height: 1; }
+  .line { font-weight: 700; font-size: 44px; line-height: 1.16; color: #322E29; letter-spacing: -.01em; }
+  .sub { font-weight: 500; font-size: 26px; color: #6E675D; }
+  .pill { align-self: flex-start; background: #B24A2A; color: #fff; font-weight: 700; font-size: 26px; padding: 12px 26px; border-radius: 999px; }
+</style></head>
+<body><div class="card"><div class="art"></div><div class="veil"></div>
+  <div class="copy">
+    <div class="mark"><div class="dot">MB</div><div class="name">Mi Bebé</div></div>
+    <div class="line">La app de embarazo hecha en Paraguay</div>
+    <div class="sub">Semana a semana, gratis y sin tienda</div>
+    <div class="pill">embarazo.com.py</div>
+  </div>
+</div></body></html>

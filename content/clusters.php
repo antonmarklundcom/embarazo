@@ -6,12 +6,14 @@
  * related:string[] (cluster keys). Additive sources:[{title,publisher,url,accessed}]
  * on every record, reviewedBy:null|{name,credentials,registration}, updated:ISO-date,
  * validAsOf:?ISO-date (legal/procedural); dates are editorial, not fresh legal verification.
+ * Optional image:{slug,alt,w,h} (webimg files assets/img/<slug>-<width>.avif|webp; rendered by picture(); absent files render nothing).
  * All copy is plain text; consumers use e(). No HTML or unreviewed Guaraní strings.
  */
 declare(strict_types=1);
 
 return [
     'salud' => [
+        'image' => ['slug' => 'salud-embarazo-control-prenatal-paraguay', 'alt' => 'Las manos de una partera miden con una cinta el vientre de una embarazada en un cuarto cálido, ilustración del tema salud en Paraguay.', 'w' => 1152, 'h' => 648],
         'title' => 'Salud', 'h1' => 'Salud en el embarazo en Paraguay',
         'seoTitle' => 'Salud en el embarazo en Paraguay',
         'metaDescription' => 'Salud en el embarazo en Paraguay: organizá tus dudas sobre controles, vacunas y síntomas, y conocé las guías para acompañar tu consulta prenatal.',
@@ -25,6 +27,7 @@ return [
         'reviewedBy' => null, 'updated' => '2026-09-20', 'validAsOf' => null,
     ],
     'alimentacion' => [
+        'image' => ['slug' => 'alimentacion-embarazo-terere-paraguay', 'alt' => 'Una mesa con un termo, una guampa, un atado de yuyos, mandioca y un mango, ilustración del tema alimentación en Paraguay.', 'w' => 1152, 'h' => 648],
         'title' => 'Alimentación', 'h1' => 'Alimentación en el embarazo en Paraguay',
         'seoTitle' => 'Alimentación en el embarazo: dudas de Paraguay',
         'metaDescription' => 'Alimentación en el embarazo: prepará tus preguntas sobre tereré, yuyos, comidas paraguayas e hidratación, con información general para tu consulta.',
@@ -38,6 +41,7 @@ return [
         'reviewedBy' => null, 'updated' => '2026-09-20', 'validAsOf' => null,
     ],
     'tramites' => [
+        'image' => ['slug' => 'tramites-embarazo-carne-perinatal-paraguay', 'alt' => 'Una mano sostiene un carné perinatal y una cédula en una fila bajo un techo de chapa, ilustración del tema trámites en Paraguay.', 'w' => 1152, 'h' => 648],
         'title' => 'Trámites', 'h1' => 'Trámites del embarazo y nacimiento en Paraguay',
         'seoTitle' => 'Trámites del embarazo y nacimiento en Paraguay',
         'metaDescription' => 'Trámites del embarazo y nacimiento en Paraguay: ordená tus preguntas sobre carné, cobertura y documentos, y confirmá los requisitos vigentes.',
@@ -51,6 +55,7 @@ return [
         'reviewedBy' => null, 'updated' => '2026-09-20', 'validAsOf' => '2026-09-20',
     ],
     'derechos' => [
+        'image' => ['slug' => 'derechos-embarazada-trabajadora-paraguay', 'alt' => 'Una mujer embarazada en un escritorio con una carpeta y un formulario sellado, con un calendario en la pared, ilustración del tema derechos en Paraguay.', 'w' => 1152, 'h' => 648],
         'title' => 'Derechos', 'h1' => 'Derechos de la embarazada en Paraguay',
         'seoTitle' => 'Derechos de la embarazada en Paraguay',
         'metaDescription' => 'Derechos de la embarazada en Paraguay: licencia de maternidad, permisos para controles y preguntas sobre IPS. Consultá requisitos y vigencia.',
@@ -67,6 +72,7 @@ return [
         'reviewedBy' => null, 'updated' => '2026-09-20', 'validAsOf' => '2026-09-20',
     ],
     'parto' => [
+        'image' => ['slug' => 'parto-bolso-hospital-paraguay', 'alt' => 'Un bolso preparado junto a una puerta de noche, con unas pantuflas al lado, ilustración del tema parto en Paraguay.', 'w' => 1152, 'h' => 648],
         'title' => 'Parto', 'h1' => 'Preparación para el parto en Paraguay',
         'seoTitle' => 'Preparación para el parto en Paraguay',
         'metaDescription' => 'Preparación para el parto en Paraguay: ordená tus dudas sobre el sanatorio, el bolso y los primeros días, y conversá tus opciones con tu equipo.',
@@ -80,6 +86,7 @@ return [
         'reviewedBy' => null, 'updated' => '2026-09-20', 'validAsOf' => null,
     ],
     'planear' => [
+        'image' => ['slug' => 'planear-embarazo-calendario-pareja-paraguay', 'alt' => 'Una pareja mira junta un calendario de pared en una cocina, ilustración del tema planear el embarazo en Paraguay.', 'w' => 1152, 'h' => 648],
         'title' => 'Planear', 'h1' => 'Planear un embarazo en Paraguay',
         'seoTitle' => 'Planear un embarazo en Paraguay',
         'metaDescription' => 'Planear un embarazo en Paraguay: organizá dudas sobre el ciclo, los tests y la consulta previa, y conocé el modo de planificación de Mi Bebé.',

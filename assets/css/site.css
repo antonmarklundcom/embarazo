@@ -928,3 +928,8 @@ a:hover { color: var(--petrol-dark); }
 .calc button:disabled { opacity: .65; cursor: default; }
 .calc__result .cta-tool { margin-block: var(--space-s); }
 @media (max-width: 25rem) { .result-card__rows li { flex-direction: column; gap: var(--space-3xs); } .result-card__rows b { text-align: left; } }
+
+/* == images == illustrations from docs/imagery-manifest.json, rendered by picture() */
+.pic { display: block; width: 100%; height: auto; border-radius: var(--radius-l); background: var(--surface-sunken); }
+.home-band { margin-block: var(--space-l); }
+.hub-figure { margin: var(--space-m) 0; }
