@@ -38,7 +38,7 @@ corregidos no son pendientes.
 
 ## Deuda técnica
 
-- Nunito Sans/licencia e imágenes S9/capturas reales pendientes; fallbacks activos.
+- Nunito Sans instalada (2026-09-20, OFL, subsets latin y latin-ext); ẽ y g̃ del guaraní salen de una fuente de reserva hasta agregar el subset vietnamese (ver assets/fonts/README.md). Imágenes S9 y capturas reales pendientes; fallbacks activos.
 - Analítica apagada por defecto: para Cloudflare Web Analytics cargar el token en
   content/site.php (partials/analytics.php agrega un solo script sin cookies); si no, dejar null.
   Contacto tiene campos duplicados (superiores y contact) que deben mantenerse coherentes.
