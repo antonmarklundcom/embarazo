@@ -207,12 +207,16 @@ agrega un solo script solo si el token tiene el formato correcto; cualquier otro
 No publiques tokens en documentación o logs. Google Analytics, Meta, formularios, captura de correo y
 pop-ups quedan fuera.
 
-## Cómo agregar Nunito Sans e imágenes
+## Fuentes e imágenes
 
-Seguí `assets/fonts/README.md`: seis WOFF2 licenciados (400/500/700 en latin y latin-ext, con licencia).
-Verificá las marcas guaraní y ₲. En cuanto exista `nunito-sans-400-latin.woff2`, `partials/head.php` carga
-solo `assets/css/fonts.css` y precarga los dos archivos críticos; hasta entonces el sitio no hace pedidos de
-fuentes y usa system-ui. Imágenes y capturas reales siguen el brief y la cola de `docs/human-todo.md`.
+**Fuentes.** Nunito Sans (OFL) ya está instalada: seis WOFF2 en `assets/fonts/` y `assets/css/fonts.css`; `partials/head.php` las carga
+solo si existe `nunito-sans-400-latin.woff2`. Falta el subset vietnamese (ẽ y g̃ del guaraní): ver `assets/fonts/README.md`.
+
+**Imágenes.** Las 59 imágenes (home, 6 hubs, tarjeta OG, 9 artículos, 42 semanas) están en `assets/img/` como AVIF + WebP y se muestran con
+`picture()` (`lib/helpers.php`) a partir de un registro `image` => [slug, alt, w, h, widths] en `content/`. Si falta el archivo, la página
+muestra su diseño sin imagen (no queda ningún recuadro roto). Para reemplazar una imagen: generá la nueva (Higgsfield, modelo Sunburst; ver
+`docs/imagery-brief.md` y `docs/imagery-manifest.json`), convertila con `npx --yes github:antonmarklundcom/webimg convert <archivo> --name <mismo-slug> --alt "..." --out assets/img`
+usando el MISMO slug, y borrá `assets/img/manifest.json` (lo genera la herramienta y no debe subirse). Los PNG originales viven en `deploy/imagery-src/` (fuera de git).
 
 Anton tiene una lista priorizada en `docs/human-todo.md`, problemas en KNOWN-ISSUES.md,
 decisiones abiertas en `docs/decisions-needed.md` y evidencia por fase en `docs/log/`.

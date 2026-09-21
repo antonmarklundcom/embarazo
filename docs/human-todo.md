@@ -10,21 +10,12 @@
 3. **Analítica o ninguna.** Mantener analytics=null si no se usará. Para Cloudflare Web
    Analytics (sin cookies) cargar `'analytics' => ['cloudflare' => '<token>']` en
    `content/site.php`; ya está integrado (un solo script). No registrar tokens en documentación.
-4. **Nunito Sans y aceptación visual.** Aportar los seis WOFF2 y licencia indicados en
-   `assets/fonts/README.md`: 400/500/700, latin/latin-ext, guaraní y ₲. Verificar 360 px,
-   escritorio, accesibilidad, tools y Lighthouse móvil; capturas históricas fallaron por
-   falta de Playwright. No se ha certificado diseño ni rendimiento.
+4. **Aceptación visual en un teléfono real.** Nunito Sans ya está instalada (2026-09-20; falta el subset vietnamese para ẽ y g̃, ver `assets/fonts/README.md`, opcional, requiere tu OK). Lighthouse móvil se corrió el 2026-09-21 en el servidor de desarrollo con 98-100 en todo; mirá la home, 3-4 semanas y un artículo en tu teléfono.
 5. **Producto en dispositivos.** Validar instalación Android/iPhone, alcance offline,
    permisos, exportación/desinstalación, respaldo y campos visibles al compartir en
    familia, requisitos de cuenta y revocación. No convertir supuestos en promesas.
-6. **Imágenes S9 manual.** Confirmar allowlist *.cloudfront.net y skill de imagen
-   actualizada en el entorno autorizado; seguir brief, manifiesto y presupuesto del
-   plan. Obtener capturas reales con npm run gen:screenshots en la app o dispositivos
-   y entregarlas en assets/img/app/. Completar hero, seis hubs, 42 semanas, nueve tarjetas
-   y OG según el brief. El OG PNG 1200×630 y favicon de T0 ya existen; no son faltantes.
-7. **Comparación nominal.** Verificar Flo, Preggers y BabyCenter con fuentes actuales y
-   fechadas antes de redactarla. La página actual da siete preguntas de elección,
-   sin afirmar prestaciones de esos competidores.
+6. **Imágenes: hechas (2026-09-21).** Las 59 imágenes (hero, 6 hubs, OG, 9 tarjetas, 42 semanas) se generaron con Higgsfield Sunburst (64,5 créditos, ledger verificado) y están cableadas; detalle en `docs/imagery-manifest.json`. Las capturas reales de la app (`npm run gen:screenshots`) son opcionales para más adelante.
+7. **Comparación.** Decisión de Anton (2026-09-20): se queda como guía de elección neutral, sin afirmaciones sobre competidores con nombre.
 8. **Gestión de entrega.** Activar `bash tools/install-hooks.sh` si falta; el manager
    maneja commit, PR, merge de L y cierre del watcher si existe. T1 no creó Routine.
    CI requiere el sí explícito de Anton; no hay workflow aprobado.
