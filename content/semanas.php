@@ -5,7 +5,7 @@
  * size:{name:string,lengthCm:?number,weightG:?number}; milestone:string.
  * sections:{bebe:string[],vos:string[],paraguay:string[]}; control/vaccine/
  * rightsMilestone/season:?string; faq:[{q:string,a:string}]; related:string[]
- * (article slugs, including planned ones); image:?string (site-relative path).
+ * (article slugs, including planned ones); image:?array {slug,alt,w,h,widths} for picture().
  * reviewedBy:null|{name:string,credentials:?string,registration:?string};
  * sources:[{title:string,publisher:string,url:?string,accessed:?ISO-date}]; updated:ISO-date.
  * Derive trimester with week_trimester(n), never store it. Missing measurements = null.
@@ -52,7 +52,13 @@ return [
             ['q' => '¿Tengo que tomar ácido fólico antes de quedar embarazada?', 'a' => 'Conviene conversar sobre su inicio antes de concebir, porque el tubo neural se desarrolla temprano. Pedí una indicación según tus antecedentes y revisá los suplementos que ya tomás.'],
         ],
         'related' => ['checklist-preconcepcion', 'acido-folico', 'dias-fertiles'],
-        'image' => null,
+        'image' => [
+            'slug' => 'tamano-bebe-semana-1-calendario',
+            'alt' => 'Un calendario con el primer día del ciclo marcado: en la semana 1 todavía no hay embrión.',
+            'w' => 640,
+            'h' => 640,
+            'widths' => [320, 640],
+        ],
         'reviewedBy' => null,
         'sources' => [
             ['title' => 'Atención preconcepcional: mejorar la salud materna e infantil', 'publisher' => 'Organización Mundial de la Salud (OMS)', 'url' => null, 'accessed' => null],
@@ -104,7 +110,13 @@ return [
             ['q' => '¿Qué es la espera de las dos semanas?', 'a' => 'Es el período aproximado entre ovular y la siguiente menstruación esperada. No describe la semana 2 contada desde la FUM; los síntomas de esa espera pueden darse tanto con embarazo como sin él.'],
         ],
         'related' => ['dias-fertiles', 'test-de-embarazo-cuando', 'checklist-preconcepcion'],
-        'image' => null,
+        'image' => [
+            'slug' => 'tamano-bebe-semana-2-calendario-flores',
+            'alt' => 'Un calendario con algunos días marcados y una ramita de flores: en la semana 2 todavía no hay embrión.',
+            'w' => 640,
+            'h' => 640,
+            'widths' => [320, 640],
+        ],
         'reviewedBy' => null,
         'sources' => [
             ['title' => 'Atención preconcepcional: mejorar la salud materna e infantil', 'publisher' => 'Organización Mundial de la Salud (OMS)', 'url' => null, 'accessed' => null],
@@ -157,7 +169,13 @@ return [
             ['q' => '¿Hacer fuerza después de tener relaciones impide que se implante?', 'a' => 'Las actividades cotidianas no requieren reposo para asegurar la implantación. Si recibís un tratamiento o tenés una condición que requiere límites, seguí las indicaciones específicas de tu equipo.'],
         ],
         'related' => ['test-de-embarazo-cuando', 'primeros-sintomas', 'senales-de-alarma'],
-        'image' => null,
+        'image' => [
+            'slug' => 'tamano-bebe-semana-3-semilla-de-chia',
+            'alt' => 'El tamaño de tu bebé en la semana 3: una semilla de chía.',
+            'w' => 640,
+            'h' => 640,
+            'widths' => [320, 640],
+        ],
         'reviewedBy' => null,
         'sources' => [
             ['title' => 'Recomendaciones de la OMS sobre atención prenatal para una experiencia positiva del embarazo', 'publisher' => 'Organización Mundial de la Salud (OMS)', 'url' => null, 'accessed' => null],
@@ -210,7 +228,13 @@ return [
             ['q' => '¿Puedo pedir control sin ecografía previa?', 'a' => 'Podés solicitar la atención con el test y las fechas que conocés. En la consulta se decide qué estudios necesitás y cuándo hacerlos según tu situación.'],
         ],
         'related' => ['test-de-embarazo-cuando', 'carne-perinatal', 'senales-de-alarma'],
-        'image' => null,
+        'image' => [
+            'slug' => 'tamano-bebe-semana-4-semilla-de-amapola',
+            'alt' => 'El tamaño de tu bebé en la semana 4: una semilla de amapola.',
+            'w' => 640,
+            'h' => 640,
+            'widths' => [320, 640],
+        ],
         'reviewedBy' => null,
         'sources' => [
             ['title' => 'Recomendaciones de la OMS sobre atención prenatal para una experiencia positiva del embarazo', 'publisher' => 'Organización Mundial de la Salud (OMS)', 'url' => null, 'accessed' => null],
@@ -264,7 +288,13 @@ return [
             ['q' => '¿Para qué me piden orina si no me arde?', 'a' => 'Algunos estudios buscan infección urinaria aun sin síntomas. El equipo te indicará cómo recoger la muestra y explicará si el resultado necesita tratamiento.'],
         ],
         'related' => ['acido-folico', 'primeros-sintomas', 'control-prenatal-ips-vs-privado'],
-        'image' => null,
+        'image' => [
+            'slug' => 'tamano-bebe-semana-5-grano-de-sesamo',
+            'alt' => 'El tamaño de tu bebé en la semana 5: un grano de sésamo.',
+            'w' => 640,
+            'h' => 640,
+            'widths' => [320, 640],
+        ],
         'reviewedBy' => null,
         'sources' => [
             ['title' => 'Recomendaciones de la OMS sobre atención prenatal para una experiencia positiva del embarazo', 'publisher' => 'Organización Mundial de la Salud (OMS)', 'url' => null, 'accessed' => null],
@@ -318,7 +348,13 @@ return [
             ['q' => '¿Es normal que un día tenga menos síntomas?', 'a' => 'Los síntomas pueden variar entre días. Ese cambio aislado no permite saber cómo evoluciona el embarazo; dolor intenso, desmayo o sangrado abundante sí requieren atención inmediata.'],
         ],
         'related' => ['primeros-sintomas', 'senales-de-alarma', 'permiso-para-controles'],
-        'image' => null,
+        'image' => [
+            'slug' => 'tamano-bebe-semana-6-lenteja',
+            'alt' => 'El tamaño de tu bebé en la semana 6: una lenteja.',
+            'w' => 640,
+            'h' => 640,
+            'widths' => [320, 640],
+        ],
         'reviewedBy' => null,
         'sources' => [
             ['title' => 'Recomendaciones de la OMS sobre atención prenatal para una experiencia positiva del embarazo', 'publisher' => 'Organización Mundial de la Salud (OMS)', 'url' => null, 'accessed' => null],
@@ -372,7 +408,13 @@ return [
             ['q' => '¿Es normal no tener panza todavía?', 'a' => 'Sí, el embrión sigue siendo pequeño y el aspecto del abdomen varía. La hinchazón digestiva también puede cambiar durante el día; la panza no mide la evolución del embarazo.'],
         ],
         'related' => ['salud-dental', 'carne-perinatal', 'senales-de-alarma'],
-        'image' => null,
+        'image' => [
+            'slug' => 'tamano-bebe-semana-7-grano-de-maiz',
+            'alt' => 'El tamaño de tu bebé en la semana 7: un grano de maíz.',
+            'w' => 640,
+            'h' => 640,
+            'widths' => [320, 640],
+        ],
         'reviewedBy' => null,
         'sources' => [
             ['title' => 'Recomendaciones de la OMS sobre atención prenatal para una experiencia positiva del embarazo', 'publisher' => 'Organización Mundial de la Salud (OMS)', 'url' => null, 'accessed' => null],
@@ -440,7 +482,13 @@ return [
             'terere-en-el-embarazo',
             'control-prenatal-ips-vs-privado',
         ],
-        'image' => null,
+        'image' => [
+            'slug' => 'tamano-bebe-semana-8-poroto',
+            'alt' => 'El tamaño de tu bebé en la semana 8: un poroto.',
+            'w' => 640,
+            'h' => 640,
+            'widths' => [320, 640],
+        ],
         'reviewedBy' => null,
         'sources' => [
             [
@@ -528,7 +576,13 @@ return [
             'control-prenatal-ips-vs-privado',
             'vacunas-en-el-embarazo',
         ],
-        'image' => null,
+        'image' => [
+            'slug' => 'tamano-bebe-semana-9-aceituna',
+            'alt' => 'El tamaño de tu bebé en la semana 9: una aceituna.',
+            'w' => 640,
+            'h' => 640,
+            'widths' => [320, 640],
+        ],
         'reviewedBy' => null,
         'sources' => [
             [
@@ -616,7 +670,13 @@ return [
             'senales-de-alarma',
             'control-prenatal-ips-vs-privado',
         ],
-        'image' => null,
+        'image' => [
+            'slug' => 'tamano-bebe-semana-10-guinda',
+            'alt' => 'El tamaño de tu bebé en la semana 10: una guinda.',
+            'w' => 640,
+            'h' => 640,
+            'widths' => [320, 640],
+        ],
         'reviewedBy' => null,
         'sources' => [
             [
@@ -704,7 +764,13 @@ return [
             'dengue-en-el-embarazo',
             'vacunas-en-el-embarazo',
         ],
-        'image' => null,
+        'image' => [
+            'slug' => 'tamano-bebe-semana-11-frutilla',
+            'alt' => 'El tamaño de tu bebé en la semana 11: una frutilla.',
+            'w' => 640,
+            'h' => 640,
+            'widths' => [320, 640],
+        ],
         'reviewedBy' => null,
         'sources' => [
             [
@@ -796,7 +862,13 @@ return [
             'senales-de-alarma',
             'vacunas-en-el-embarazo',
         ],
-        'image' => null,
+        'image' => [
+            'slug' => 'tamano-bebe-semana-12-lima',
+            'alt' => 'El tamaño de tu bebé en la semana 12: una lima.',
+            'w' => 640,
+            'h' => 640,
+            'widths' => [320, 640],
+        ],
         'reviewedBy' => null,
         'sources' => [
             [
@@ -884,7 +956,13 @@ return [
             'control-prenatal-ips-vs-privado',
             'dengue-en-el-embarazo',
         ],
-        'image' => null,
+        'image' => [
+            'slug' => 'tamano-bebe-semana-13-durazno',
+            'alt' => 'El tamaño de tu bebé en la semana 13: un durazno.',
+            'w' => 640,
+            'h' => 640,
+            'widths' => [320, 640],
+        ],
         'reviewedBy' => null,
         'sources' => [
             [
@@ -976,7 +1054,13 @@ return [
             'vacunas-en-el-embarazo',
             'control-prenatal-ips-vs-privado',
         ],
-        'image' => null,
+        'image' => [
+            'slug' => 'tamano-bebe-semana-14-limon',
+            'alt' => 'El tamaño de tu bebé en la semana 14: un limón.',
+            'w' => 640,
+            'h' => 640,
+            'widths' => [320, 640],
+        ],
         'reviewedBy' => null,
         'sources' => [
             [
@@ -1048,7 +1132,13 @@ return [
             ['q' => '¿Puedo usar gotas para la nariz tapada?', 'a' => 'Consultá antes de usar descongestivos o retomar un producto anterior. Llevá el nombre y la composición para que el equipo revise qué opción corresponde.'],
         ],
         'related' => ['senales-de-alarma', 'vacunas-en-el-embarazo', 'control-prenatal-ips-vs-privado'],
-        'image' => null,
+        'image' => [
+            'slug' => 'tamano-bebe-semana-15-mandarina',
+            'alt' => 'El tamaño de tu bebé en la semana 15: una mandarina.',
+            'w' => 640,
+            'h' => 640,
+            'widths' => [320, 640],
+        ],
         'reviewedBy' => null,
         'sources' => [
             ['title' => 'Recomendaciones de la OMS sobre atención prenatal para una experiencia positiva del embarazo', 'publisher' => 'Organización Mundial de la Salud (OMS)', 'url' => null, 'accessed' => null],
@@ -1100,7 +1190,13 @@ return [
             ['q' => '¿Qué hago si el hierro me estriñe?', 'a' => 'Contá cuándo empezó y qué presentación usás. El equipo puede revisar el manejo; no lo suspendas ni cambies la cantidad por tu cuenta.'],
         ],
         'related' => ['senales-de-alarma', 'vacunas-en-el-embarazo', 'control-prenatal-ips-vs-privado'],
-        'image' => null,
+        'image' => [
+            'slug' => 'tamano-bebe-semana-16-palta-pequena',
+            'alt' => 'El tamaño de tu bebé en la semana 16: una palta pequeña.',
+            'w' => 640,
+            'h' => 640,
+            'widths' => [320, 640],
+        ],
         'reviewedBy' => null,
         'sources' => [
             ['title' => 'Recomendaciones de la OMS sobre atención prenatal para una experiencia positiva del embarazo', 'publisher' => 'Organización Mundial de la Salud (OMS)', 'url' => null, 'accessed' => null],
@@ -1152,7 +1248,13 @@ return [
             ['q' => '¿Tengo que tomar más calcio porque se forman los huesos?', 'a' => 'No aumentes suplementos por tu cuenta. Conversá sobre tu alimentación y las indicaciones que ya tenés; el desarrollo del esqueleto no determina por sí solo una nueva cantidad.'],
         ],
         'related' => ['senales-de-alarma', 'vacunas-en-el-embarazo', 'control-prenatal-ips-vs-privado'],
-        'image' => null,
+        'image' => [
+            'slug' => 'tamano-bebe-semana-17-granada',
+            'alt' => 'El tamaño de tu bebé en la semana 17: una granada.',
+            'w' => 640,
+            'h' => 640,
+            'widths' => [320, 640],
+        ],
         'reviewedBy' => null,
         'sources' => [
             ['title' => 'Recomendaciones de la OMS sobre atención prenatal para una experiencia positiva del embarazo', 'publisher' => 'Organización Mundial de la Salud (OMS)', 'url' => null, 'accessed' => null],
@@ -1204,7 +1306,13 @@ return [
             ['q' => '¿Tengo que ir en ayunas a la ecografía?', 'a' => 'Pedí las instrucciones al lugar donde la vas a hacer. La preparación depende del estudio; no saltees comidas ni tomes agua en exceso por una indicación que recibió otra persona.'],
         ],
         'related' => ['senales-de-alarma', 'vacunas-en-el-embarazo', 'control-prenatal-ips-vs-privado'],
-        'image' => null,
+        'image' => [
+            'slug' => 'tamano-bebe-semana-18-mamon-pequeno',
+            'alt' => 'El tamaño de tu bebé en la semana 18: un mamón pequeño.',
+            'w' => 640,
+            'h' => 640,
+            'widths' => [320, 640],
+        ],
         'reviewedBy' => null,
         'sources' => [
             ['title' => 'Recomendaciones de la OMS sobre atención prenatal para una experiencia positiva del embarazo', 'publisher' => 'Organización Mundial de la Salud (OMS)', 'url' => null, 'accessed' => null],
@@ -1256,7 +1364,13 @@ return [
             ['q' => '¿Es normal que me duela el pubis al caminar?', 'a' => 'Puede haber molestias de la cintura pélvica, pero si limitan caminar conviene evaluarlas. Dolor fuerte o persistente, sangrado o pérdida de líquido requieren atención sin esperar.'],
         ],
         'related' => ['senales-de-alarma', 'vacunas-en-el-embarazo', 'control-prenatal-ips-vs-privado'],
-        'image' => null,
+        'image' => [
+            'slug' => 'tamano-bebe-semana-19-mango',
+            'alt' => 'El tamaño de tu bebé en la semana 19: un mango.',
+            'w' => 640,
+            'h' => 640,
+            'widths' => [320, 640],
+        ],
         'reviewedBy' => null,
         'sources' => [
             ['title' => 'Recomendaciones de la OMS sobre atención prenatal para una experiencia positiva del embarazo', 'publisher' => 'Organización Mundial de la Salud (OMS)', 'url' => null, 'accessed' => null],
@@ -1330,7 +1444,13 @@ return [
             'senales-de-alarma',
             'vacunas-en-el-embarazo',
         ],
-        'image' => null,
+        'image' => [
+            'slug' => 'tamano-bebe-semana-20-banana',
+            'alt' => 'El tamaño de tu bebé en la semana 20: una banana.',
+            'w' => 640,
+            'h' => 640,
+            'widths' => [320, 640],
+        ],
         'reviewedBy' => null,
         'sources' => [
             [
@@ -1392,7 +1512,13 @@ return [
             ['q' => '¿La acidez significa que el bebé tiene mucho pelo?', 'a' => 'La acidez se relaciona con cambios digestivos del embarazo y no permite saber cuánto pelo tiene. Comidas pequeñas y evitar acostarte al terminar pueden aliviarla; consultá si persiste.'],
         ],
         'related' => ['senales-de-alarma', 'vacunas-en-el-embarazo', 'control-prenatal-ips-vs-privado'],
-        'image' => null,
+        'image' => [
+            'slug' => 'tamano-bebe-semana-21-choclo',
+            'alt' => 'El tamaño de tu bebé en la semana 21: una mazorca de choclo.',
+            'w' => 640,
+            'h' => 640,
+            'widths' => [320, 640],
+        ],
         'reviewedBy' => null,
         'sources' => [
             ['title' => 'Recomendaciones de la OMS sobre atención prenatal para una experiencia positiva del embarazo', 'publisher' => 'Organización Mundial de la Salud (OMS)', 'url' => null, 'accessed' => null],
@@ -1444,7 +1570,13 @@ return [
             ['q' => '¿La ecografía de 22 semanas muestra la cara definitiva?', 'a' => 'Permite observar estructuras de la cara, pero el aspecto sigue cambiando. La posición del bebé y la calidad de la imagen también influyen en lo que se distingue.'],
         ],
         'related' => ['senales-de-alarma', 'control-prenatal-ips-vs-privado', 'permiso-para-controles'],
-        'image' => null,
+        'image' => [
+            'slug' => 'tamano-bebe-semana-22-mamon-mediano',
+            'alt' => 'El tamaño de tu bebé en la semana 22: un mamón mediano.',
+            'w' => 640,
+            'h' => 640,
+            'widths' => [320, 640],
+        ],
         'reviewedBy' => null,
         'sources' => [
             ['title' => 'Recomendaciones de la OMS sobre atención prenatal para una experiencia positiva del embarazo', 'publisher' => 'Organización Mundial de la Salud (OMS)', 'url' => null, 'accessed' => null],
@@ -1496,7 +1628,13 @@ return [
             ['q' => '¿Todavía puedo confundir las pataditas con gases?', 'a' => 'Sí, las primeras sensaciones pueden costar reconocer. Si a las 24 semanas completas no sentiste movimientos, avisá al equipo. Si lo que ya sentías disminuye claramente, consultá de inmediato.'],
         ],
         'related' => ['senales-de-alarma', 'dormir-en-el-embarazo', 'diabetes-gestacional'],
-        'image' => null,
+        'image' => [
+            'slug' => 'tamano-bebe-semana-23-pomelo',
+            'alt' => 'El tamaño de tu bebé en la semana 23: un pomelo.',
+            'w' => 640,
+            'h' => 640,
+            'widths' => [320, 640],
+        ],
         'reviewedBy' => null,
         'sources' => [
             ['title' => 'Recomendaciones de la OMS sobre atención prenatal para una experiencia positiva del embarazo', 'publisher' => 'Organización Mundial de la Salud (OMS)', 'url' => null, 'accessed' => null],
@@ -1548,7 +1686,13 @@ return [
             ['q' => '¿Qué hago si todavía no siento al bebé a las 24 semanas?', 'a' => 'Si llegaste a las 24 semanas completas sin sentir movimientos, contactá al equipo para evaluación. Una disminución clara de movimientos que ya reconocías requiere consulta inmediata.'],
         ],
         'related' => ['diabetes-gestacional', 'senales-de-alarma', 'carne-perinatal'],
-        'image' => null,
+        'image' => [
+            'slug' => 'tamano-bebe-semana-24-mandioca',
+            'alt' => 'El tamaño de tu bebé en la semana 24: una mandioca.',
+            'w' => 640,
+            'h' => 640,
+            'widths' => [320, 640],
+        ],
         'reviewedBy' => null,
         'sources' => [
             ['title' => 'Recomendaciones de la OMS sobre atención prenatal para una experiencia positiva del embarazo', 'publisher' => 'Organización Mundial de la Salud (OMS)', 'url' => null, 'accessed' => null],
@@ -1601,7 +1745,13 @@ return [
             ['q' => '¿La presión abajo significa que el bebé va a nacer?', 'a' => 'No permite saberlo por sí sola. Una presión nueva persistente, especialmente con contracciones, dolor lumbar o pérdida de líquido, requiere atención inmediata para evaluar qué está pasando.'],
         ],
         'related' => ['diabetes-gestacional', 'antojos-y-anemia', 'senales-de-alarma'],
-        'image' => null,
+        'image' => [
+            'slug' => 'tamano-bebe-semana-25-coco',
+            'alt' => 'El tamaño de tu bebé en la semana 25: un coco.',
+            'w' => 640,
+            'h' => 640,
+            'widths' => [320, 640],
+        ],
         'reviewedBy' => null,
         'sources' => [
             ['title' => 'Recomendaciones de la OMS sobre atención prenatal para una experiencia positiva del embarazo', 'publisher' => 'Organización Mundial de la Salud (OMS)', 'url' => null, 'accessed' => null],
@@ -1653,7 +1803,13 @@ return [
             ['q' => '¿Puedo usar un aparato para escuchar al bebé si se mueve menos?', 'a' => 'Un dispositivo casero no permite descartar un problema. Si hay una disminución clara o ausencia respecto de sus movimientos habituales, buscá evaluación inmediata.'],
         ],
         'related' => ['dormir-en-el-embarazo', 'diabetes-gestacional', 'senales-de-alarma'],
-        'image' => null,
+        'image' => [
+            'slug' => 'tamano-bebe-semana-26-repollo-pequeno',
+            'alt' => 'El tamaño de tu bebé en la semana 26: un repollo pequeño.',
+            'w' => 640,
+            'h' => 640,
+            'widths' => [320, 640],
+        ],
         'reviewedBy' => null,
         'sources' => [
             ['title' => 'Recomendaciones de la OMS sobre atención prenatal para una experiencia positiva del embarazo', 'publisher' => 'Organización Mundial de la Salud (OMS)', 'url' => null, 'accessed' => null],
@@ -1705,7 +1861,13 @@ return [
             ['q' => '¿Si tengo mucha acidez debo dejar de cenar?', 'a' => 'No hace falta saltarte la comida. Probá porciones más pequeñas y evitá acostarte enseguida. Si no podés alimentarte bien o el dolor persiste, consultá para recibir una indicación adecuada.'],
         ],
         'related' => ['contracciones-y-cuando-ir', 'senales-de-alarma', 'dormir-en-el-embarazo'],
-        'image' => null,
+        'image' => [
+            'slug' => 'tamano-bebe-semana-27-coliflor',
+            'alt' => 'El tamaño de tu bebé en la semana 27: una coliflor.',
+            'w' => 640,
+            'h' => 640,
+            'widths' => [320, 640],
+        ],
         'reviewedBy' => null,
         'sources' => [
             ['title' => 'Recomendaciones de la OMS sobre atención prenatal para una experiencia positiva del embarazo', 'publisher' => 'Organización Mundial de la Salud (OMS)', 'url' => null, 'accessed' => null],
@@ -1757,7 +1919,13 @@ return [
             ['q' => '¿Qué hago si llegué a la semana 28 sin el estudio de glucosa?', 'a' => 'Contactá a tu equipo para coordinar la pesquisa pendiente y su preparación. Sentirte bien no descarta una alteración de glucosa, y no corresponde cambiar la dieta para intentar modificar el resultado.'],
         ],
         'related' => ['diabetes-gestacional', 'vacunas-en-el-embarazo', 'senales-de-alarma'],
-        'image' => null,
+        'image' => [
+            'slug' => 'tamano-bebe-semana-28-berenjena-grande',
+            'alt' => 'El tamaño de tu bebé en la semana 28: una berenjena grande.',
+            'w' => 640,
+            'h' => 640,
+            'widths' => [320, 640],
+        ],
         'reviewedBy' => null,
         'sources' => [
             ['title' => 'Recomendaciones de la OMS sobre atención prenatal para una experiencia positiva del embarazo', 'publisher' => 'Organización Mundial de la Salud (OMS)', 'url' => null, 'accessed' => null],
@@ -1810,7 +1978,13 @@ return [
             ['q' => '¿Ya empiezo el bolso a las 29 semanas?', 'a' => 'Podés reunir carné, informes y una lista de lo que pide tu servicio. Organizarlo por partes evita compras apuradas; consultá [qué llevar al sanatorio](/parto/que-llevar-al-sanatorio/) y adaptalo a tus necesidades.'],
         ],
         'related' => ['senales-de-alarma', 'que-llevar-al-sanatorio', 'licencia-de-maternidad'],
-        'image' => null,
+        'image' => [
+            'slug' => 'tamano-bebe-semana-29-coco-grande',
+            'alt' => 'El tamaño de tu bebé en la semana 29: un coco grande.',
+            'w' => 640,
+            'h' => 640,
+            'widths' => [320, 640],
+        ],
         'reviewedBy' => null,
         'sources' => [
             ['title' => 'Recomendaciones de la OMS sobre atención prenatal para una experiencia positiva del embarazo', 'publisher' => 'Organización Mundial de la Salud (OMS)', 'url' => null, 'accessed' => null],
@@ -1862,7 +2036,13 @@ return [
             ['q' => '¿Puedo preguntar por anestesia para el parto desde ahora?', 'a' => 'Sí. Preguntá qué opciones ofrece tu servicio, en qué situaciones pueden usarse y cuándo conviene una evaluación. La disponibilidad y la elección dependen del establecimiento y de tu situación clínica.'],
         ],
         'related' => ['senales-de-alarma', 'que-llevar-al-sanatorio', 'licencia-de-maternidad'],
-        'image' => null,
+        'image' => [
+            'slug' => 'tamano-bebe-semana-30-repollo',
+            'alt' => 'El tamaño de tu bebé en la semana 30: un repollo.',
+            'w' => 640,
+            'h' => 640,
+            'widths' => [320, 640],
+        ],
         'reviewedBy' => null,
         'sources' => [
             ['title' => 'Recomendaciones de la OMS sobre atención prenatal para una experiencia positiva del embarazo', 'publisher' => 'Organización Mundial de la Salud (OMS)', 'url' => null, 'accessed' => null],
@@ -1914,7 +2094,13 @@ return [
             ['q' => '¿Cómo sí si a las 31 semanas está de cabeza?', 'a' => 'El lugar de las patadas no alcanza para saberlo. El equipo puede valorar la posición mediante el examen y, si corresponde, ecografía; todavía puede cambiar y no define por sí sola la vía del parto.'],
         ],
         'related' => ['senales-de-alarma', 'que-llevar-al-sanatorio', 'licencia-de-maternidad'],
-        'image' => null,
+        'image' => [
+            'slug' => 'tamano-bebe-semana-31-coco-con-cascara',
+            'alt' => 'El tamaño de tu bebé en la semana 31: un coco con su cáscara.',
+            'w' => 640,
+            'h' => 640,
+            'widths' => [320, 640],
+        ],
         'reviewedBy' => null,
         'sources' => [
             ['title' => 'Recomendaciones de la OMS sobre atención prenatal para una experiencia positiva del embarazo', 'publisher' => 'Organización Mundial de la Salud (OMS)', 'url' => null, 'accessed' => null],
@@ -1966,7 +2152,13 @@ return [
             ['q' => '¿Qué ropa preparo para el bebé a las 32 semanas?', 'a' => 'Elegí prendas cómodas, fáciles de cambiar y acordes al clima. Confirmá la cantidad con el lugar de atención y organizá [qué llevar al sanatorio](/parto/que-llevar-al-sanatorio/) sin cargar el bolso con cosas innecesarias.'],
         ],
         'related' => ['senales-de-alarma', 'que-llevar-al-sanatorio', 'licencia-de-maternidad'],
-        'image' => null,
+        'image' => [
+            'slug' => 'tamano-bebe-semana-32-lechuga',
+            'alt' => 'El tamaño de tu bebé en la semana 32: una lechuga.',
+            'w' => 640,
+            'h' => 640,
+            'widths' => [320, 640],
+        ],
         'reviewedBy' => null,
         'sources' => [
             ['title' => 'Recomendaciones de la OMS sobre atención prenatal para una experiencia positiva del embarazo', 'publisher' => 'Organización Mundial de la Salud (OMS)', 'url' => null, 'accessed' => null],
@@ -2018,7 +2210,13 @@ return [
             ['q' => '¿Los anticuerpos de la mamá protegen de todo al bebé?', 'a' => 'No. El paso de anticuerpos por la placenta aporta protección inicial, pero el sistema inmunitario sigue madurando y el bebé necesitará cuidados y las vacunas que le indiquen.'],
         ],
         'related' => ['senales-de-alarma', 'que-llevar-al-sanatorio', 'licencia-de-maternidad'],
-        'image' => null,
+        'image' => [
+            'slug' => 'tamano-bebe-semana-33-anana',
+            'alt' => 'El tamaño de tu bebé en la semana 33: un ananá.',
+            'w' => 640,
+            'h' => 640,
+            'widths' => [320, 640],
+        ],
         'reviewedBy' => null,
         'sources' => [
             ['title' => 'Recomendaciones de la OMS sobre atención prenatal para una experiencia positiva del embarazo', 'publisher' => 'Organización Mundial de la Salud (OMS)', 'url' => null, 'accessed' => null],
@@ -2070,7 +2268,13 @@ return [
             ['q' => '¿Ya tengo que decidir cesárea o parto normal?', 'a' => 'Podés conversar ahora sobre tus preferencias y antecedentes, y preguntar qué situaciones cambiarían el plan. La vía de nacimiento se valora con el equipo según tu historia y la evolución, sin basarse solo en un peso estimado.'],
         ],
         'related' => ['senales-de-alarma', 'que-llevar-al-sanatorio', 'licencia-de-maternidad'],
-        'image' => null,
+        'image' => [
+            'slug' => 'tamano-bebe-semana-34-melon-pequeno',
+            'alt' => 'El tamaño de tu bebé en la semana 34: un melón pequeño.',
+            'w' => 640,
+            'h' => 640,
+            'widths' => [320, 640],
+        ],
         'reviewedBy' => null,
         'sources' => [
             ['title' => 'Recomendaciones de la OMS sobre atención prenatal para una experiencia positiva del embarazo', 'publisher' => 'Organización Mundial de la Salud (OMS)', 'url' => null, 'accessed' => null],
@@ -2122,7 +2326,13 @@ return [
             ['q' => '¿Tengo que hacer ayuno si creo que voy a tener cesárea?', 'a' => 'No inicies ayuno ni suspendas medicamentos por una suposición. Si hay una cirugía programada, seguí las instrucciones individuales del servicio; ante una urgencia, acudí sin retrasarte para cumplir una preparación casera.'],
         ],
         'related' => ['senales-de-alarma', 'que-llevar-al-sanatorio', 'licencia-de-maternidad'],
-        'image' => null,
+        'image' => [
+            'slug' => 'tamano-bebe-semana-35-melon',
+            'alt' => 'El tamaño de tu bebé en la semana 35: un melón.',
+            'w' => 640,
+            'h' => 640,
+            'widths' => [320, 640],
+        ],
         'reviewedBy' => null,
         'sources' => [
             ['title' => 'Recomendaciones de la OMS sobre atención prenatal para una experiencia positiva del embarazo', 'publisher' => 'Organización Mundial de la Salud (OMS)', 'url' => null, 'accessed' => null],
@@ -2175,7 +2385,13 @@ return [
             ['q' => '¿Cómo sé si el bebé está de cabeza en la semana 36?', 'a' => 'La evaluación del abdomen y, si hace falta, una ecografía permiten revisar la presentación. La forma de tu panza o dónde sentís una patada no alcanza para confirmarla.'],
         ],
         'related' => ['contracciones-y-cuando-ir', 'senales-de-alarma', 'que-llevar-al-sanatorio'],
-        'image' => null,
+        'image' => [
+            'slug' => 'tamano-bebe-semana-36-lechuga-grande',
+            'alt' => 'El tamaño de tu bebé en la semana 36: una lechuga grande.',
+            'w' => 640,
+            'h' => 640,
+            'widths' => [320, 640],
+        ],
         'reviewedBy' => null,
         'sources' => [
             ['title' => 'Recomendaciones de la OMS sobre atención prenatal para una experiencia positiva del embarazo', 'publisher' => 'Organización Mundial de la Salud (OMS)', 'url' => null, 'accessed' => null],
@@ -2227,7 +2443,13 @@ return [
             ['q' => '¿Es normal que se mueva menos porque está por nacer?', 'a' => 'El tipo de movimiento puede cambiar, pero una reducción clara respecto de lo habitual necesita atención inmediata. No la atribuyas al poco espacio ni a que empezó a prepararse para el parto.'],
         ],
         'related' => ['contracciones-y-cuando-ir', 'senales-de-alarma', 'que-llevar-al-sanatorio'],
-        'image' => null,
+        'image' => [
+            'slug' => 'tamano-bebe-semana-37-sandia-pequena',
+            'alt' => 'El tamaño de tu bebé en la semana 37: una sandía pequeña.',
+            'w' => 640,
+            'h' => 640,
+            'widths' => [320, 640],
+        ],
         'reviewedBy' => null,
         'sources' => [
             ['title' => 'Recomendaciones de la OMS sobre atención prenatal para una experiencia positiva del embarazo', 'publisher' => 'Organización Mundial de la Salud (OMS)', 'url' => null, 'accessed' => null],
@@ -2278,7 +2500,13 @@ return [
             ['q' => '¿Que baje la panza significa que nazca hoy?', 'a' => 'Puede reflejar un cambio de posición o descenso, pero no predice el día del nacimiento. La evaluación y la evolución de las contracciones orientan mejor que la forma del abdomen.'],
         ],
         'related' => ['contracciones-y-cuando-ir', 'senales-de-alarma', 'licencia-de-maternidad'],
-        'image' => null,
+        'image' => [
+            'slug' => 'tamano-bebe-semana-38-zapallo-pequeno',
+            'alt' => 'El tamaño de tu bebé en la semana 38: un zapallo pequeño.',
+            'w' => 640,
+            'h' => 640,
+            'widths' => [320, 640],
+        ],
         'reviewedBy' => null,
         'sources' => [
             ['title' => 'Recomendaciones de la OMS sobre atención prenatal para una experiencia positiva del embarazo', 'publisher' => 'Organización Mundial de la Salud (OMS)', 'url' => null, 'accessed' => null],
@@ -2331,7 +2559,13 @@ return [
             ['q' => '¿Caminar mucho ayuda a que nazca a las 39 semanas?', 'a' => 'Caminar de manera cómoda puede darte bienestar si no tenés restricciones, pero agotarte no garantiza iniciar el parto. Evitá exigirte o probar preparados caseros para provocarlo.'],
         ],
         'related' => ['contracciones-y-cuando-ir', 'senales-de-alarma', 'que-llevar-al-sanatorio'],
-        'image' => null,
+        'image' => [
+            'slug' => 'tamano-bebe-semana-39-sandia-mediana',
+            'alt' => 'El tamaño de tu bebé en la semana 39: una sandía mediana.',
+            'w' => 640,
+            'h' => 640,
+            'widths' => [320, 640],
+        ],
         'reviewedBy' => null,
         'sources' => [
             ['title' => 'Recomendaciones de la OMS sobre atención prenatal para una experiencia positiva del embarazo', 'publisher' => 'Organización Mundial de la Salud (OMS)', 'url' => null, 'accessed' => null],
@@ -2383,7 +2617,13 @@ return [
             ['q' => '¿Una ecografía normal permite esperar sin más controles?', 'a' => 'No. Informa sobre aspectos del momento evaluado. Cumplí el plan de seguimiento y consultá enseguida si aparecen síntomas o disminuyen los movimientos, aunque el estudio haya sido tranquilizador.'],
         ],
         'related' => ['contracciones-y-cuando-ir', 'senales-de-alarma', 'que-llevar-al-sanatorio'],
-        'image' => null,
+        'image' => [
+            'slug' => 'tamano-bebe-semana-40-sandia',
+            'alt' => 'El tamaño de tu bebé en la semana 40: una sandía.',
+            'w' => 640,
+            'h' => 640,
+            'widths' => [320, 640],
+        ],
         'reviewedBy' => null,
         'sources' => [
             ['title' => 'Recomendaciones de la OMS sobre atención prenatal para una experiencia positiva del embarazo', 'publisher' => 'Organización Mundial de la Salud (OMS)', 'url' => null, 'accessed' => null],
@@ -2435,7 +2675,13 @@ return [
             ['q' => '¿Un monitoreo normal asegura que puedo seguir esperando?', 'a' => 'Muestra información del momento y no garantiza los días siguientes. Cumplí la próxima evaluación y el plan de nacimiento, y acudí ante cambios aunque el resultado anterior haya sido normal.'],
         ],
         'related' => ['contracciones-y-cuando-ir', 'senales-de-alarma', 'que-llevar-al-sanatorio'],
-        'image' => null,
+        'image' => [
+            'slug' => 'tamano-bebe-semana-41-sandia-grande',
+            'alt' => 'El tamaño de tu bebé en la semana 41: una sandía grande.',
+            'w' => 640,
+            'h' => 640,
+            'widths' => [320, 640],
+        ],
         'reviewedBy' => null,
         'sources' => [
             ['title' => 'Recomendaciones de la OMS sobre atención prenatal para una experiencia positiva del embarazo', 'publisher' => 'Organización Mundial de la Salud (OMS)', 'url' => null, 'accessed' => null],
@@ -2487,7 +2733,13 @@ return [
             ['q' => '¿Un bebé más grande significa que la placenta sigue bien?', 'a' => 'No. El peso estimado no demuestra por sí solo el bienestar ni el funcionamiento placentario. Se consideran movimientos, evaluaciones y edad gestacional para decidir la atención y el nacimiento.'],
         ],
         'related' => ['contracciones-y-cuando-ir', 'senales-de-alarma', 'que-llevar-al-sanatorio'],
-        'image' => null,
+        'image' => [
+            'slug' => 'tamano-bebe-semana-42-sandia-madura',
+            'alt' => 'El tamaño de tu bebé en la semana 42: una sandía grande y madura.',
+            'w' => 640,
+            'h' => 640,
+            'widths' => [320, 640],
+        ],
         'reviewedBy' => null,
         'sources' => [
             ['title' => 'Recomendaciones de la OMS sobre atención prenatal para una experiencia positiva del embarazo', 'publisher' => 'Organización Mundial de la Salud (OMS)', 'url' => null, 'accessed' => null],
