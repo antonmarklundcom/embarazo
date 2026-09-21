@@ -21,6 +21,49 @@ function rich(string $text): string
     return preg_replace('~\[([^\[\]\r\n]+)\]\((/(?!/)[A-Za-z0-9/-]*(?:#[A-Za-z0-9-]+)?|tel:141|tel:911)\)~', '<a href="$2">$1</a>', e($text)) ?? e($text);
 }
 
+/**
+ * Responsive <picture> for an image record {slug, alt, w, h[, widths]} made by webimg: assets/img/<slug>-<width>.avif|webp.
+ * Returns '' when the files are not there, so the page keeps its designed fallback (no broken image, no empty box).
+ * The slug is validated, every value is escaped, and width/height are always set so the layout never shifts.
+ */
+function picture(array $img, string $sizes, string $loading = 'lazy', string $class = 'pic'): string
+{
+    $slug = (string) ($img['slug'] ?? '');
+    if (preg_match('/\A[a-z0-9-]+\z/', $slug) !== 1) {
+        return '';
+    }
+    $widths = array_values(array_filter((array) ($img['widths'] ?? [480, 768, 1152]), 'is_int'));
+    $have = array_values(array_filter($widths, static fn (int $w): bool => is_file(ROOT_DIR . "/assets/img/{$slug}-{$w}.webp")));
+    if ($have === []) {
+        return '';
+    }
+    sort($have);
+    $largest = end($have);
+    $w = (int) ($img['w'] ?? $largest);
+    $h = (int) ($img['h'] ?? 0);
+    $srcset = static function (string $ext) use ($slug, $have): string {
+        $parts = [];
+        foreach ($have as $width) {
+            if (is_file(ROOT_DIR . "/assets/img/{$slug}-{$width}.{$ext}")) {
+                $parts[] = e(asset("/assets/img/{$slug}-{$width}.{$ext}")) . ' ' . $width . 'w';
+            }
+        }
+
+        return implode(', ', $parts);
+    };
+    $fallback = $have[intdiv(count($have), 2)];
+    $html = '<picture>';
+    if (($avif = $srcset('avif')) !== '') {
+        $html .= '<source type="image/avif" srcset="' . $avif . '" sizes="' . e($sizes) . '">';
+    }
+    $html .= '<source type="image/webp" srcset="' . $srcset('webp') . '" sizes="' . e($sizes) . '">';
+    $html .= '<img class="' . e($class) . '" src="' . e(asset("/assets/img/{$slug}-{$fallback}.webp")) . '" alt="' . e((string) ($img['alt'] ?? '')) . '"'
+        . ' width="' . $w . '"' . ($h > 0 ? ' height="' . $h . '"' : '') . ' loading="' . ($loading === 'eager' ? 'eager' : 'lazy') . '" decoding="async"'
+        . ($loading === 'eager' ? ' fetchpriority="high"' : '') . '></picture>';
+
+    return $html;
+}
+
 /** es-PY measurements, preserving missing values and trimming decimal zeroes. */
 function fmt_measure(?float $value): string
 {

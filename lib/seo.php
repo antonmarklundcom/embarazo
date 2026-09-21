@@ -62,7 +62,7 @@ function seo_canonical(array $page): string
  */
 function seo_og_image(array $page): string
 {
-    $image = $page['ogImage'] ?? '/assets/img/og-default.png';
+    $image = $page['ogImage'] ?? '/assets/img/og-default.jpg';
 
     return str_starts_with($image, 'http') ? $image : url($image);
 }
@@ -95,7 +95,7 @@ function jsonld_organization(): array
         '@id'        => url('/') . '#organization',
         'name'       => (string) site('name'),
         'url'        => url('/'),
-        'image'      => url('/assets/img/og-default.png'),
+        'image'      => url('/assets/img/og-default.jpg'),
         'areaServed' => ['@type' => 'Country', 'name' => site('country') ?? market_country()],
     ];
 

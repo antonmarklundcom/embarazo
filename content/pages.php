@@ -3,6 +3,7 @@
 declare(strict_types=1);
 return [
     '/' => [
+        'heroImage' => ['slug' => 'mujer-embarazada-celular-patio-paraguayo', 'alt' => 'Una mujer embarazada mira su celular sentada en un patio paraguayo, con un termo de tereré al lado.', 'w' => 1152, 'h' => 494],
     // Home-only copy: proofs[{title,text}], features[{key,icon,title,text,tone,label,extra?}],
     // weeks:int[], phoneWeek:int, faq[{q,a}], trust and named section/CTA strings.
         'title' => 'Mi Bebé: la app de embarazo para Paraguay, gratis',
