@@ -41,10 +41,7 @@ $_trimestres = [
 'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)',
 'url' => null,
 'accessed' => null],
-['title' => 'Ley 7383/2024',
-'publisher' => 'Biblioteca y Archivo Central del Congreso Nacional (BACN)',
-'url' => null,
-'accessed' => null]]],
+['title' => 'Ley 7383/2024 — permisos para controles prenatales (nota oficial del MTESS)', 'publisher' => 'Ministerio de Trabajo, Empleo y Seguridad Social (MTESS)', 'url' => 'https://www.mtess.gov.py/?p=30138', 'accessed' => '2026-09-20']]],
 2 => ['title' => 'Segundo trimestre de embarazo',
 'seoTitle' => 'Segundo trimestre: movimientos y estudios',
 'metaDescription' => 'Recorré el segundo trimestre: primeras pataditas, ecografía de anatomía, controles y análisis de glucosa. Prepará tus preguntas para cada consulta.',
@@ -83,10 +80,7 @@ $_trimestres = [
 'publisher' => 'National Institute for Health and Care Excellence (NICE)',
 'url' => null,
 'accessed' => null],
-['title' => 'Ley 7383/2024',
-'publisher' => 'Biblioteca y Archivo Central del Congreso Nacional (BACN)',
-'url' => null,
-'accessed' => null]]],
+['title' => 'Ley 7383/2024 — permisos para controles prenatales (nota oficial del MTESS)', 'publisher' => 'Ministerio de Trabajo, Empleo y Seguridad Social (MTESS)', 'url' => 'https://www.mtess.gov.py/?p=30138', 'accessed' => '2026-09-20']]],
 3 => ['title' => 'Tercer trimestre de embarazo',
 'seoTitle' => 'Tercer trimestre: controles y preparación',
 'metaDescription' => 'Prepará el tercer trimestre de embarazo: movimientos del bebé, controles finales, señales de parto y organización del nacimiento y la licencia laboral.',
@@ -127,10 +121,7 @@ $_trimestres = [
 'publisher' => 'Organización Mundial de la Salud (OMS)',
 'url' => null,
 'accessed' => null],
-['title' => 'Ley 5508/2015',
-'publisher' => 'Biblioteca y Archivo Central del Congreso Nacional (BACN)',
-'url' => null,
-'accessed' => null]]]
+['title' => 'Ley 5508/2015 — promoción, protección de la maternidad y apoyo a la lactancia materna', 'publisher' => 'Biblioteca y Archivo Central del Congreso Nacional (BACN)', 'url' => 'https://www.bacn.gov.py/leyes-paraguayas/4428/promocion-proteccion-de-la-maternidad-y-apoyo-a-la-lactancia-materna', 'accessed' => '2026-09-20']]]
 ];
 foreach ($_trimestres as $_trimestre => &$_record) {
     $_record['weeks'] = array_values(array_filter(range(1, 42), static fn(int $_n): bool => week_trimester($_n) === $_trimestre));

@@ -21,86 +21,157 @@ return [
         'path' => '/derechos/licencia-de-maternidad/',
         'title' => 'Licencia de maternidad en Paraguay: duración, inicio y pago',
         'seoTitle' => 'Licencia de maternidad en Paraguay: semanas, inicio y pago',
-        'metaDescription' => 'Licencia de maternidad en Paraguay: 18 semanas según la Ley 5508, fechas orientativas y preguntas sobre el subsidio IPS. Confirmá requisitos vigentes.',
+        'metaDescription' => 'Licencia de maternidad en Paraguay: 18 semanas (24 si hay prematurez o bajo peso), inicio hasta 2 semanas antes del parto y subsidio del IPS del 100 %.',
         'kind' => 'legal',
-        'lead' => 'En Paraguay, la licencia de maternidad es de 18 semanas, equivalentes a 126 días, según la Ley 5508/2015. Puede extenderse a 24 semanas en los casos previstos por la ley. El inicio más temprano se calcula 14 días antes de la fecha probable de parto. IPS contempla un subsidio del 100 %, sujeto a sus requisitos, entre ellos al menos cuatro meses de aportes.',
+        'lead' => 'La licencia de maternidad en Paraguay dura 18 semanas seguidas y podés empezarla hasta 2 semanas antes del parto (Ley 5508/2015). Son 24 semanas si el bebé nace antes de la semana 35, pesa menos de 2.000 gramos o tiene una enfermedad congénita que requiere incubadora o cuidados especiales, y suma un mes por cada bebé desde el segundo en embarazos múltiples. Durante la licencia, el IPS paga el 100 % de tu remuneración. Para pedirla necesitás un certificado médico que indique el embarazo y la fecha probable de parto.',
         'sections' => [
             [
                 'h2' => 'Cuánto dura la licencia de maternidad',
                 'body' => [
-                    'Las 18 semanas son el período general de licencia: multiplicar 18 por siete da los 126 días que vas a ver en el cálculo de fechas. Si te corresponde una extensión a 24 semanas, cambia la duración y también la organización de tu regreso. Confirmá con quien gestione tu licencia cuáles son las condiciones de extensión aplicables a tu caso.',
-                    'Para planificar en casa y en el trabajo, empezá por estas tres fechas: la probable de parto, el inicio de la licencia y el final calculado. Podés anotarlas juntas en un calendario y compartirlas con quien vaya a acompañarte. Si después recibís una fecha distinta en la documentación del trámite, actualizá también ese calendario para que todos trabajen con la misma información.',
+                    'El artículo 11 de la Ley 5508/2015 da a toda trabajadora, sea cual sea su tipo de contrato o de prestación de servicio, un permiso de maternidad de 18 semanas ininterrumpidas. En interés del bebé, podés tomar hasta 2 semanas antes del parto. Las 18 semanas equivalen a 126 días.',
+                    'El permiso es de 24 semanas cuando el parto ocurre antes de iniciada la semana 35 de gestación, cuando el bebé pesa menos de 2.000 gramos al nacer o cuando nace con una enfermedad congénita que requiere incubadora o cuidados especiales, siempre con certificación médica. En embarazos múltiples, el permiso aumenta un mes por cada bebé a partir del segundo. Si se dan a la vez una de las situaciones de 24 semanas y un embarazo múltiple, rige la duración más larga.',
+                    'Si adoptás o sos madre de acogimiento con sentencia judicial, tenés 18 semanas cuando el niño o la niña tiene menos de 6 meses y 12 semanas cuando tiene más de 6 meses (artículo 13). La Ley 6453/2019 modificó los artículos 1, 2, 16, 17 y 19 de la Ley 5508 y la amplió.'
                 ],
-                'items' => [], 'table' => null,
+                'items' => [
+                    [
+                        'title' => 'Duración general',
+                        'text' => '18 semanas seguidas (126 días)'
+                    ],
+                    [
+                        'title' => 'Inicio',
+                        'text' => 'Hasta 2 semanas antes del parto'
+                    ],
+                    [
+                        'title' => 'Nacimiento antes de la semana 35, bebé de menos de 2.000 g o con cuidados especiales',
+                        'text' => '24 semanas, con certificación médica'
+                    ],
+                    [
+                        'title' => 'Embarazo múltiple',
+                        'text' => 'Un mes más por cada bebé desde el segundo'
+                    ]
+                ]
             ],
             [
                 'h2' => 'Cómo se calculan las fechas orientativas',
                 'body' => [
-                    'Para calcular el inicio más temprano, restá 14 días a tu fecha probable de parto, también llamada FPP. Desde ese inicio, sumá 126 días para obtener el final orientativo de una licencia de 18 semanas. Por separado, la referencia del reposo de IPS se calcula restando 21 días a la FPP y corresponde a la semana 38 del seguimiento.',
-                    'Por ejemplo, con FPP el 7 de diciembre de 2026, el inicio más temprano es el 23 de noviembre y el final calculado es el 29 de marzo de 2027. La referencia de reposo de IPS cae el 16 de noviembre. La diferencia aparece porque las fórmulas parten de márgenes distintos respecto del parto. Confirmá las fechas de tu trámite y de reincorporación con IPS y tu empleador.',
-                    'La tabla toma como inicio el más temprano permitido. Si usás otra fecha de inicio, la suma de 126 días parte de esa nueva fecha. La FPP es una estimación del nacimiento: anotá cualquier actualización que te comunique tu equipo para volver a calcular y conversar los cambios con tiempo.',
+                    'Para calcular el inicio más temprano, restá 14 días a tu fecha probable de parto (FPP). Desde ese inicio, sumá 126 días para obtener el final de una licencia de 18 semanas. Por separado, el IPS solo emite el reposo de maternidad a partir de la semana 38 de gestación, es decir, 21 días antes de la FPP.',
+                    'Por ejemplo, con FPP el 7 de diciembre de 2026, el inicio más temprano es el 23 de noviembre y el final calculado es el 29 de marzo de 2027; el reposo del IPS se puede emitir desde el 16 de noviembre. Si empezás en otra fecha, sumá los 126 días desde esa fecha. La FPP es una estimación: si tu equipo de salud la corrige, volvé a calcular.'
                 ],
-                'items' => [],
                 'table' => [
-                    'head' => ['Referencia', 'Regla documentada', 'Ejemplo orientativo'],
-                    'rows' => [
-                        ['Fecha probable de parto', 'Dato de partida', '7 de diciembre de 2026'],
-                        ['Inicio más temprano', 'FPP menos 14 días', '23 de noviembre de 2026'],
-                        ['Fin calculado', 'Inicio más 126 días', '29 de marzo de 2027'],
-                        ['Reposo IPS', 'FPP menos 21 días', '16 de noviembre de 2026'],
+                    'head' => [
+                        'Referencia',
+                        'Regla',
+                        'Ejemplo orientativo'
                     ],
-                ],
+                    'rows' => [
+                        [
+                            'Fecha probable de parto',
+                            'Dato de partida',
+                            '7 de diciembre de 2026'
+                        ],
+                        [
+                            'Inicio más temprano',
+                            'FPP menos 14 días',
+                            '23 de noviembre de 2026'
+                        ],
+                        [
+                            'Fin calculado',
+                            'Inicio más 126 días',
+                            '29 de marzo de 2027'
+                        ],
+                        [
+                            'Reposo del IPS',
+                            'Desde la semana 38 (FPP menos 21 días)',
+                            '16 de noviembre de 2026'
+                        ]
+                    ]
+                ]
             ],
             [
-                'h2' => 'Licencia y subsidio de IPS: qué significa cada uno',
+                'h2' => 'Cómo pedirla',
                 'body' => [
-                    'La licencia es el período de ausencia del trabajo por maternidad; el subsidio es la prestación económica. IPS contempla un subsidio del 100 % y al menos cuatro meses de aportes como requisito. Consultá en IPS la base de cálculo, los requisitos de tu régimen y el calendario de pago antes de cerrar tu presupuesto.',
-                    'Podés preparar una hoja con dos columnas: en una, las fechas de licencia; en la otra, las preguntas sobre el subsidio. Para la segunda, anotá si conocés tu situación de aportes, qué documentación te pidieron y si ya recibiste una respuesta sobre el importe. Tener un inicio de licencia anotado no equivale a tener un pago confirmado; separar ambas cosas evita confusiones cuando hablás con el trabajo y con IPS.',
-                    'Si trabajás por tu cuenta, cambiaste de empleo o tenés dudas sobre tu cobertura, empezá por identificar bajo qué régimen estás. Llevá esa pregunta concreta a IPS. Para organizar los gastos de los primeros meses, te puede servir distinguir el importe que esperás cobrar de una fecha de cobro ya comunicada, y dejar anotada la respuesta que falta.',
-                ],
-                'items' => [], 'table' => null,
+                    'La ley pide un certificado médico expedido o visado por el IPS o por el Ministerio de Salud Pública y Bienestar Social (MSPBS), que indique tu embarazo y la fecha probable de parto. Con ese certificado avisás a tu empleador cuándo vas a empezar la licencia.',
+                    'Desde el momento en que el empleador sabe de tu embarazo, el preaviso y el despido son nulos mientras uses la licencia o cualquiera de estos permisos, y tenés protección laboral hasta 1 año después del nacimiento (mirá [fuero maternal y despido](/derechos/fuero-maternal-y-despido/)).'
+                ]
             ],
             [
-                'h2' => 'Permisos para controles y otros derechos',
+                'h2' => 'Quién paga la licencia',
                 'body' => [
-                    'La Ley 7383/2024 contempla hasta cuatro horas remuneradas para controles prenatales. Es el permiso para asistir a una consulta durante el embarazo. Confirmá alcance, frecuencia y constancias con tu empleador. Cuando tengas un turno, podés comunicar el horario y preguntar cómo dejar registrada la solicitud para que quede claro a qué consulta corresponde.',
-                    'La Ley 5508/2015 también contempla descansos de lactancia de 90 o 60 minutos, según corresponda, dos semanas de licencia de paternidad y fuero maternal hasta un año. Confirmá las condiciones de aplicación de cada derecho para tu situación. Para preparar la vuelta al trabajo, podés conversar sobre los descansos de lactancia y tu horario; para organizar el acompañamiento después del nacimiento, sobre la licencia de paternidad.',
-                    'El Código del Trabajo, artículo 261 y siguientes, contempla la bonificación familiar del 5 %. Confirmá la base de cálculo y los requisitos antes de estimar un importe. Anotá este tema por separado del subsidio de maternidad: aunque ambos se relacionan con ingresos de la familia, son conceptos distintos y conviene identificarlos por su nombre al preguntar.',
-                ],
-                'items' => [], 'table' => null,
+                    'Durante el permiso, la trabajadora recibe un subsidio del régimen de seguridad social del IPS equivalente al 100 % de su remuneración al momento del parto (artículo 12). Si tu empleador no te inscribió en el IPS o está en mora con sus obligaciones, debe pagar él el 100 % del subsidio, sin perjuicio de otras sanciones administrativas.',
+                    'El IPS pide, entre otros requisitos, estar al día con los aportes y tener al menos cuatro meses de aportes anteriores y seis semanas de cuotas de trabajo efectivo en esos meses. El detalle está en [subsidio de maternidad del IPS](/derechos/subsidio-de-maternidad-ips/).'
+                ]
             ],
             [
-                'h2' => 'Si recibís respuestas distintas',
+                'h2' => 'Otros derechos que se suman',
                 'body' => [
-                    'Si una fecha o un requisito no coincide con una respuesta anterior, juntá ambos mensajes y pedí que aclaren la diferencia. Una pregunta útil es: “¿Esta fecha corresponde al reposo, a la licencia o al pago del subsidio?”. También podés pedir que identifiquen la norma o el requisito que están usando. Conservá las respuestas junto con la fecha en que las recibiste.',
-                    'Como organización personal, guardá copias de lo que entregás y de las constancias que recibís. Podés armar una carpeta con fechas, comunicaciones con el trabajo y respuestas sobre aportes o subsidio. Si surge un conflicto sobre la licencia o la continuidad laboral, buscá asesoramiento jurídico con esa información a mano. Tener los hechos ordenados ayuda a explicar qué pasó y qué necesitás resolver.',
-                ],
-                'items' => [], 'table' => null,
-            ],
+                    'Al volver al trabajo tenés descansos para amamantar: [hora de lactancia](/derechos/hora-de-lactancia/). Para tus controles durante el embarazo tenés permiso pago: [permiso para controles prenatales](/derechos/permiso-para-controles/). Y el padre tiene 2 semanas de permiso después del parto: [licencia de paternidad](/derechos/licencia-de-paternidad/).'
+                ]
+            ]
         ],
         'steps' => [
-            ['title' => 'Ordená tus fechas', 'body' => ['Anotá tu fecha probable de parto y las fechas que te comunicaron. Marcá cuáles son cálculos orientativos y cuáles fueron confirmadas para tu trámite.']],
-            ['title' => 'Prepará las preguntas', 'body' => ['Separá los temas para tu empleador de los temas para IPS: fechas y comunicación de la ausencia, por un lado; cobertura, aportes, documentación y pago, por otro.']],
-            ['title' => 'Revisá las respuestas', 'body' => ['Conservá la información recibida, anotá qué gestión sigue pendiente y actualizá tu calendario cuando te confirmen una fecha.']],
+            [
+                'title' => 'Conseguí el certificado',
+                'body' => [
+                    'Pedí en el IPS o en el MSPBS el certificado médico que indica tu embarazo y la fecha probable de parto.'
+                ]
+            ],
+            [
+                'title' => 'Avisá a tu empleador',
+                'body' => [
+                    'Comunicá el embarazo y la fecha en que pensás empezar la licencia. Guardá una copia de lo que entregues.'
+                ]
+            ],
+            [
+                'title' => 'Tramitá el subsidio',
+                'body' => [
+                    'Reunís los documentos que pide el IPS y pedís el pago del subsidio; te conviene empezar cerca de la semana 38, cuando se puede emitir el reposo.'
+                ]
+            ]
         ],
         'appHandoff' => [
             'text' => 'Mi Bebé incluye un apartado de derechos con cálculo de fechas de licencia. Podés usarlo para preparar tus preguntas y después confirmar las fechas de tu trámite. Sin cuenta, todo queda en tu teléfono; con cuenta, el servidor guarda un sobre que no puede leer.',
             'medium' => 'article', 'extra' => [],
         ],
         'faq' => [
-            ['q' => '¿Cuántos días son 18 semanas de licencia?', 'a' => 'Son 126 días: 18 multiplicado por siete. La Ley 5508/2015 prevé una extensión a 24 semanas en determinados casos.'],
-            ['q' => '¿La fecha del reposo de IPS es la misma que el inicio calculado?', 'a' => 'Son cálculos diferentes: FPP menos 21 días para la referencia de reposo IPS y FPP menos 14 días para el inicio más temprano de la licencia.'],
-            ['q' => '¿Cuánto paga IPS por maternidad?', 'a' => 'El subsidio previsto es del 100 %, sujeto a los requisitos de IPS. Para conocer la suma en guaraníes, pedí el cálculo correspondiente a tu régimen y aportes.'],
-            ['q' => '¿Hay permiso pagado para controles prenatales?', 'a' => 'Sí. La Ley 7383/2024 contempla hasta cuatro horas remuneradas para controles prenatales; el alcance y las constancias se coordinan con tu empleador.'],
+            [
+                'q' => '¿Cuántas semanas dura la licencia de maternidad en Paraguay?',
+                'a' => '18 semanas ininterrumpidas, o 24 si el bebé nace antes de la semana 35, pesa menos de 2.000 gramos o nace con una enfermedad congénita que requiere cuidados especiales. En embarazos múltiples se suma un mes por bebé desde el segundo.'
+            ],
+            [
+                'q' => '¿Cuándo puedo empezar la licencia?',
+                'a' => 'Hasta 2 semanas antes del parto. Con una FPP del 7 de diciembre de 2026, el inicio más temprano sería el 23 de noviembre.'
+            ],
+            [
+                'q' => '¿Cuánto cobro durante la licencia?',
+                'a' => 'El IPS paga el 100 % de tu remuneración al momento del parto. Si tu empleador no te inscribió o está en mora con el IPS, tiene que pagarlo él.'
+            ],
+            [
+                'q' => '¿Qué papel necesito para pedir la licencia?',
+                'a' => 'Un certificado médico expedido o visado por el IPS o por el MSPBS que indique el embarazo y la fecha probable de parto.'
+            ]
         ],
         'related' => ['subsidio-de-maternidad-ips', 'permiso-para-controles', 'derechos-de-la-embarazada-que-trabaja'],
         'weeks' => [20, 30, 38], 'appGuideSlug' => null, 'guarani' => [],
         'reviewedBy' => null, 'reviewedAt' => null, 'validAsOf' => '2026-09-20',
         'sources' => [
-            ['title' => 'Ley 5508/2015 — promoción, protección de la maternidad y apoyo a la lactancia materna', 'publisher' => 'Congreso de la Nación Paraguaya', 'url' => null, 'accessed' => null],
-            ['title' => 'Ley 7383/2024 — permiso remunerado para controles prenatales', 'publisher' => 'Congreso de la Nación Paraguaya', 'url' => null, 'accessed' => null],
-            ['title' => 'Código del Trabajo — artículo 261 y siguientes, bonificación familiar', 'publisher' => 'Congreso de la Nación Paraguaya', 'url' => null, 'accessed' => null],
-            ['title' => 'Subsidio por reposo de maternidad: requisitos y trámite', 'publisher' => 'Instituto de Previsión Social (IPS)', 'url' => null, 'accessed' => null],
+            [
+                'title' => 'Ley 5508/2015 — promoción, protección de la maternidad y apoyo a la lactancia materna',
+                'publisher' => 'Biblioteca y Archivo Central del Congreso Nacional (BACN)',
+                'url' => 'https://www.bacn.gov.py/leyes-paraguayas/4428/promocion-proteccion-de-la-maternidad-y-apoyo-a-la-lactancia-materna',
+                'accessed' => '2026-09-20'
+            ],
+            [
+                'title' => 'Ley 6453/2019 — modifica y amplía la Ley 5508/2015',
+                'publisher' => 'Biblioteca y Archivo Central del Congreso Nacional (BACN)',
+                'url' => 'https://www.bacn.gov.py/leyes-paraguayas/9184/ley-n-6453-modifica-y-amplia-la-ley-n-55082015-promocion-proteccion-de-la-maternidad-y-apoyo-a-la-lactancia-materna',
+                'accessed' => '2026-09-20'
+            ],
+            [
+                'title' => '¿Qué saber del pago del subsidio por reposo de maternidad?',
+                'publisher' => 'Instituto de Previsión Social (IPS)',
+                'url' => 'https://portal.ips.gov.py/sistemas/ipsportal/noticia.php?cod=685',
+                'accessed' => '2026-09-20'
+            ]
         ],
         'updated' => '2026-09-20', 'image' => null,
     ],
@@ -109,115 +180,87 @@ return [
         'path' => '/derechos/subsidio-de-maternidad-ips/',
         'title' => 'Subsidio de maternidad IPS: aportes, trámite y pago',
         'seoTitle' => 'Subsidio de maternidad IPS: trámite y pago',
-        'metaDescription' => 'Conocé el subsidio de maternidad IPS: aportes, documentos habituales y preguntas sobre el cálculo y el pago para organizar tu licencia.',
+        'metaDescription' => 'Subsidio de maternidad del IPS: 100 % de tu remuneración durante la licencia, requisitos de aportes, reposo desde la semana 38 y documentos para cobrar.',
         'kind' => 'legal',
-        'lead' => 'El subsidio de maternidad de IPS es una prestación económica vinculada al reposo por maternidad. La referencia disponible contempla el 100 % y al menos cuatro meses de aportes, sujetos al régimen aplicable. Para saber cuánto vas a cobrar, necesitás la base de cálculo de tu caso. La licencia laboral y el pago del subsidio se gestionan como asuntos distintos.',
+        'lead' => 'Durante la licencia de maternidad, el IPS paga a la trabajadora un subsidio equivalente al 100 % de su remuneración al momento del parto (Ley 5508/2015, artículo 12). Para cobrarlo tenés que estar al día con tus aportes, tener al menos cuatro meses de aportes anteriores y seis semanas de cuotas de trabajo efectivo en esos meses. El reposo de maternidad se emite recién desde la semana 38 de gestación. Si tu empleador no te inscribió en el IPS o está en mora, el 100 % lo paga él.',
         'sections' => [
             [
-                'h2' => 'Qué cubre el subsidio y qué tenés que separar',
+                'h2' => 'Cuánto paga el IPS y por cuánto tiempo',
                 'body' => [
-                    'El subsidio responde a una pregunta económica: qué ingreso corresponde durante el reposo por maternidad. La [licencia de maternidad](/derechos/licencia-de-maternidad/) responde a otra: cómo se organiza la ausencia del trabajo. Podés tener una conversación avanzada sobre tu reemplazo y todavía no conocer el estado de la prestación. Por eso, al hablar con quien lleva personal, identificá si están tratando el permiso laboral o la documentación para IPS.',
-                    'El porcentaje del 100 % no alcanza, por sí solo, para calcular una suma en guaraníes. Falta saber sobre qué base se aplica y qué conceptos forman parte de ella. Si comparás una estimación con tu recibo, separá salario, descuentos y otros conceptos para poder preguntar por la diferencia concreta. Evitá armar el presupuesto familiar suponiendo que cualquier depósito tendrá el mismo importe que tu último cobro.',
-                    'Confirmá con IPS y tu empleador los requisitos, eventuales costos y plazos vigentes para tu situación.'
+                    'El subsidio cubre el período de licencia de maternidad: 18 semanas (126 días), o más en los casos de la ley. Es el 100 % de la remuneración que tenías al momento del parto. El IPS llegó al 100 % de forma gradual: para los nacimientos desde el 30 de octubre de 2018 se paga el 100 %.',
+                    'Si tu empleador no te inscribió en el IPS o estaba en mora con sus obligaciones, la ley lo obliga a pagarte el 100 % del subsidio, sin perjuicio de otras sanciones administrativas.'
                 ],
-                'items' => [],
-                'table' => null
-            ],
-            [
-                'h2' => 'Aportes y cobertura: por dónde empezar',
-                'body' => [
-                    'La referencia de al menos cuatro meses de aportes sirve para abrir la consulta, pero no permite resolver todas las historias laborales. Un cambio de empleo, períodos sin aportes o un régimen distinto son datos que conviene explicar desde el comienzo. Habitualmente, la consulta sobre cobertura y aportes se dirige a IPS; el área que liquida salarios suele ayudar a identificar lo declarado por el empleador.',
-                    'Prepará una cronología sencilla de tus empleos y conservá los comprobantes que ya tengas. Si hay una diferencia entre lo que figura descontado y lo que te informan sobre tus aportes, señalá el período concreto. Pedí que te expliquen qué dato necesita corrección y quién puede presentarla. No completes una solicitud con fechas aproximadas solamente para llenar un casillero: marcá esa información como pendiente.',
-                    'Si trabajás por cuenta propia o no sabés bajo qué modalidad estás inscripta, empezá por esa pregunta. La experiencia de una compañera puede ayudarte a formular dudas, pero no confirma que ambas tengan la misma cobertura.'
-                ],
-                'items' => [],
-                'table' => null
-            ],
-            [
-                'h2' => 'Documentos que suelen entrar en la consulta',
-                'body' => [
-                    'Habitualmente se consulta por la identificación de la solicitante, la constancia médica del reposo y los antecedentes de aportes. La lista siguiente te ayuda a revisar lo que ya tenés y a preguntar por el resto; no implica que debas conseguir todos los documentos antes de hacer una primera consulta. Revisá que nombres y datos coincidan entre los papeles disponibles.',
-                    'Guardá los originales y prepará copias cuando te las soliciten. Si entregás documentación, pedí una constancia que permita reconocer qué presentaste y cuándo. Un archivo guardado en tu teléfono puede ayudarte a ubicar un dato, pero preguntá qué formato acepta el trámite antes de depender únicamente de una foto.',
-                    'Si otra persona va a acompañarte o consultar por vos, averiguá qué autorización necesita. No compartas contraseñas ni códigos de acceso para resolver una gestión. Anotá el nombre del documento faltante tal como te lo indiquen, para no confundir un certificado médico con una constancia laboral.'
-                ],
-                'items' => [],
-                'table' => [
-                    'head' => [
-                        'Documento habitual',
-                        'Para qué puede servir',
-                        'Qué revisar'
+                'items' => [
+                    [
+                        'title' => 'Monto',
+                        'text' => '100 % de tu remuneración al momento del parto'
                     ],
-                    'rows' => [
-                        [
-                            'Identificación',
-                            'Relacionar la solicitud con tus datos',
-                            'Nombre y documento legibles'
-                        ],
-                        [
-                            'Constancia de reposo',
-                            'Identificar el período informado',
-                            'Fechas y datos profesionales'
-                        ],
-                        [
-                            'Antecedentes de aportes',
-                            'Consultar cobertura',
-                            'Períodos que figuran registrados'
-                        ],
-                        [
-                            'Constancia de presentación',
-                            'Seguir la gestión',
-                            'Referencia y fecha de entrega'
-                        ]
+                    [
+                        'title' => 'Período',
+                        'text' => '18 semanas (126 días), o más en los casos que fija la ley'
+                    ],
+                    [
+                        'title' => 'Si el empleador está en mora con el IPS',
+                        'text' => 'Debe pagar él el 100 % del subsidio'
                     ]
                 ]
             ],
             [
-                'h2' => 'Reposo, licencia y fecha de cobro',
+                'h2' => 'Requisitos para cobrarlo',
                 'body' => [
-                    'La referencia documentada de reposo IPS parte de la semana 38 del seguimiento. Ese dato no es una fecha de depósito. En tu carpeta, mantené separados el período médico informado, las fechas laborales y cualquier comunicación sobre pago. Si recibís una fecha sin explicación, preguntá a cuál de esas tres cosas corresponde antes de comunicarla como definitiva en casa.',
-                    'El seguimiento suele resultar más claro cuando usás la referencia de tu presentación y describís qué respuesta falta. Por ejemplo: si ya recibieron los documentos, si hay una observación o si todavía deben informar el cálculo. Una solicitud recibida no equivale a un importe aprobado. Pedí que distingan esos estados cuando te expliquen cómo sigue la gestión.',
-                    'Para organizar los gastos, anotá ingresos confirmados y gastos próximos por separado. No hace falta compartir todo tu presupuesto con el trabajo: la pregunta laboral puede limitarse al dato que falta para el trámite. Si te informan una corrección, guardá también la versión anterior para reconstruir lo ocurrido.'
-                ],
-                'items' => [],
-                'table' => null
+                    'Según el IPS, la asegurada tiene que estar al día con sus aportes y tener como mínimo cuatro meses de aportes anteriores y seis semanas de cuotas correspondientes a trabajo efectivo en el transcurso de esos meses.',
+                    'El reposo de maternidad solo puede emitirse a partir de la semana 38 de gestación. El certificado de reposo debe incluir la fecha de la última menstruación (FUM), por eso llevá ese dato a la consulta.'
+                ]
             ],
             [
-                'h2' => 'Cómo revisar una diferencia en el pago',
+                'h2' => 'Documentos y trámite',
                 'body' => [
-                    'Si el importe comunicado no coincide con tu expectativa, empezá por pedir el detalle de la base utilizada y el período reconocido. Compará conceptos equivalentes: un total esperado para todo el reposo no se puede comparar directamente con un movimiento cuyo alcance todavía desconocés. Anotá qué parte de la explicación entendiste y cuál necesita una respuesta adicional.',
-                    'También puede haber diferencias entre una respuesta verbal y una comunicación posterior. En ese caso, presentá ambas de forma ordenada, sin atribuir una causa que todavía no conocés. Una consulta útil identifica la solicitud, resume la diferencia y pide la aclaración específica. Conservá cualquier respuesta que modifique el estado o el importe informado.',
-                    'Si además necesitás ordenar los permisos de consulta durante el embarazo, revisá [permiso para controles](/derechos/permiso-para-controles/). Son ausencias distintas del reposo por maternidad y conviene llevarlas en un registro separado. El [hub de derechos](/derechos/) reúne las guías para ubicar cada tema.'
+                    'Para el pago, el IPS pide el certificado de reposo, el formulario de solicitud de pago del subsidio y tu cédula de identidad, entre otros documentos que indica en su portal. Antes de ir, revisá el detalle vigente en el sitio del IPS o preguntalo en la sucursal.',
+                    'Si el pago llega con una diferencia, pedí en el IPS el detalle del cálculo y compará con tu recibo del mes del parto. Para las fechas de tu licencia, usá las reglas de [licencia de maternidad](/derechos/licencia-de-maternidad/).'
                 ],
-                'items' => [],
-                'table' => null
-            ],
-            [
-                'h2' => 'Si tu empleador no cumple',
-                'body' => [
-                    'Si el problema está en información laboral que no te entregan o en una negativa relacionada con tu maternidad, podés preguntar al ministerio MTESS qué orientación corresponde. Llevá el pedido que hiciste, la respuesta recibida y la documentación disponible sobre tu relación laboral. Describí el obstáculo concreto, por ejemplo un dato de aportes que necesitás aclarar, sin suponer que todas las demoras de IPS dependen del empleador.',
-                    'Cuando el desacuerdo sea sobre la prestación, mantené también identificada la consulta dirigida a IPS. Diferenciar ambas cuestiones ayuda a explicar qué solución buscás. Si aparecen descuentos, amenazas o una propuesta de renuncia, buscá asesoramiento jurídico individual con los mensajes y recibos a mano. No necesitás resolver por tu cuenta qué norma fue vulnerada para pedir orientación.'
-                ],
-                'items' => [],
-                'table' => null
+                'table' => [
+                    'head' => [
+                        'Paso',
+                        'Cuándo',
+                        'Qué llevar'
+                    ],
+                    'rows' => [
+                        [
+                            'Reposo de maternidad',
+                            'Desde la semana 38',
+                            'Consulta con la fecha de la última menstruación'
+                        ],
+                        [
+                            'Solicitud del subsidio',
+                            'Con el reposo emitido',
+                            'Certificado de reposo, formulario de solicitud y cédula, entre otros'
+                        ],
+                        [
+                            'Seguimiento del pago',
+                            'Durante la licencia',
+                            'Recibo del mes del parto y comprobantes'
+                        ]
+                    ]
+                ]
             ]
         ],
         'steps' => [
             [
-                'title' => 'Consultá tu situación de aportes',
+                'title' => 'Verificá tus aportes',
                 'body' => [
-                    'Habitualmente el primer intercambio con IPS permite identificar el régimen y los antecedentes que deben revisarse.'
+                    'Confirmá en el IPS que estás al día, con cuatro meses de aportes y seis semanas de cuotas de trabajo efectivo.'
                 ]
             ],
             [
-                'title' => 'Reuní lo solicitado',
+                'title' => 'Pedí el reposo',
                 'body' => [
-                    'La constancia de reposo y los datos laborales suelen formar parte de la preparación; anotá cualquier observación.'
+                    'Desde la semana 38, tu equipo de salud puede emitir el reposo con la fecha de la última menstruación.'
                 ]
             ],
             [
-                'title' => 'Seguí la presentación',
+                'title' => 'Solicitá el pago',
                 'body' => [
-                    'Usá la referencia recibida para preguntar por documentos pendientes, cálculo y comunicación del pago.'
+                    'Presentá el certificado de reposo, el formulario y tu cédula, y seguí el trámite en el IPS.'
                 ]
             ]
         ],
@@ -228,16 +271,20 @@ return [
         ],
         'faq' => [
             [
-                'q' => '¿El 100 % es mi último sueldo en mano?',
-                'a' => 'No permite concluir eso por sí solo. Pedí la base de cálculo y el período reconocido para entender el importe.'
+                'q' => '¿Cuánto paga el IPS en la licencia de maternidad?',
+                'a' => 'El 100 % de tu remuneración al momento del parto, durante la licencia.'
             ],
             [
-                'q' => '¿Cuatro meses de aportes garantizan el pago?',
-                'a' => 'Es un requisito documentado, pero la cobertura y los demás requisitos dependen del régimen y de tu situación.'
+                'q' => '¿Qué aportes necesito?',
+                'a' => 'Estar al día con los aportes, tener al menos cuatro meses de aportes anteriores y seis semanas de cuotas de trabajo efectivo en esos meses.'
             ],
             [
-                'q' => '¿El comienzo del reposo indica cuándo cobro?',
-                'a' => 'No. El período de reposo y la comunicación del pago son datos diferentes.'
+                'q' => '¿Desde cuándo se emite el reposo de maternidad?',
+                'a' => 'Desde la semana 38 de gestación.'
+            ],
+            [
+                'q' => '¿Y si mi empleador no me inscribió en el IPS?',
+                'a' => 'Según la ley, si no te inscribió o está en mora con el IPS, debe pagar él el 100 % del subsidio.'
             ]
         ],
         'related' => [
@@ -256,22 +303,16 @@ return [
         'validAsOf' => '2026-09-20',
         'sources' => [
             [
-                'title' => 'Ley 5508/2015 — protección de la maternidad y apoyo a la lactancia',
-                'publisher' => 'Congreso de la Nación Paraguaya',
-                'url' => null,
-                'accessed' => null
+                'title' => 'Ley 5508/2015 — promoción, protección de la maternidad y apoyo a la lactancia materna',
+                'publisher' => 'Biblioteca y Archivo Central del Congreso Nacional (BACN)',
+                'url' => 'https://www.bacn.gov.py/leyes-paraguayas/4428/promocion-proteccion-de-la-maternidad-y-apoyo-a-la-lactancia-materna',
+                'accessed' => '2026-09-20'
             ],
             [
-                'title' => 'Subsidio por reposo de maternidad: requisitos y trámite',
+                'title' => '¿Qué saber del pago del subsidio por reposo de maternidad?',
                 'publisher' => 'Instituto de Previsión Social (IPS)',
-                'url' => null,
-                'accessed' => null
-            ],
-            [
-                'title' => 'Orientación sobre derechos laborales y maternidad — referencia para consulta',
-                'publisher' => 'MTESS',
-                'url' => null,
-                'accessed' => null
+                'url' => 'https://portal.ips.gov.py/sistemas/ipsportal/noticia.php?cod=685',
+                'accessed' => '2026-09-20'
             ]
         ],
         'updated' => '2026-09-20',
@@ -282,110 +323,87 @@ return [
         'path' => '/derechos/permiso-para-controles/',
         'title' => 'Permiso para controles prenatales en Paraguay',
         'seoTitle' => 'Permiso para controles prenatales en Paraguay',
-        'metaDescription' => 'Permiso para controles prenatales: conocé la referencia de cuatro horas pagadas y cómo preparar el aviso, la constancia y tus preguntas laborales.',
+        'metaDescription' => 'Ley 7383/2024: hasta cuatro horas pagas por cada control prenatal, con aviso de 48 horas y constancia. Qué cubre, cómo pedirlo y qué hacer si te lo niegan.',
         'kind' => 'legal',
-        'lead' => 'La Ley 7383/2024 contempla hasta cuatro horas remuneradas para controles prenatales. Para organizar el permiso, comunicá el turno y preguntá cómo registrar la ausencia y su constancia. La frecuencia, el alcance y el tratamiento de situaciones particulares necesitan una respuesta para tu caso; no supongas que las cuatro horas se renuevan con cada consulta.',
+        'lead' => 'La Ley 7383/2024 da a las trabajadoras embarazadas, del sector público y del privado, permiso de hasta cuatro horas por cada control prenatal. Esas horas se cuentan como trabajadas: no pueden descontarse de tu salario. Tenés que avisar con al menos 48 horas de anticipación y presentar después la constancia de la consulta, salvo en una urgencia. Si necesitás más tiempo, el permiso puede ampliarse con el aval de tu médico o médica tratante, y el empleador no puede negarlo.',
         'sections' => [
             [
-                'h2' => 'Qué permiso estás solicitando',
+                'h2' => 'Qué establece la ley',
                 'body' => [
-                    'El permiso para controles prenatales permite plantear una ausencia laboral vinculada a tu seguimiento durante el embarazo. Es útil nombrarlo de esa manera al solicitarlo: si solamente decís que necesitás salir, puede quedar sin aclarar la razón administrativa de la ausencia. No hace falta contar conversaciones íntimas de la consulta para explicar que tenés un control y necesitás coordinar el horario.',
-                    'La referencia legal es de hasta cuatro horas remuneradas. Ese dato no define por sí solo cuántas solicitudes podés hacer ni cómo se acredita cada una. Tampoco resuelve automáticamente el tiempo de traslado o una espera prolongada. Separá esas preguntas al hablar con quien registra la asistencia, para que una respuesta sobre el horario no se confunda con una respuesta sobre el alcance del permiso.',
-                    'Confirmá con el empleador o el organismo competente los requisitos, eventuales costos de constancias y plazos vigentes.'
-                ],
-                'items' => [],
-                'table' => null
+                    'La Ley 7383/2024 regula los permisos laborales para consultas, controles y estudios prenatales de las trabajadoras embarazadas. Alcanza al sector público y al privado, sin importar la modalidad de trabajo. El Ministerio de Trabajo, Empleo y Seguridad Social (MTESS) la difundió el 27 de diciembre de 2024.',
+                    'El límite es de hasta cuatro horas por cada control. No es un total mensual ni anual: cada consulta, control o estudio prenatal tiene su propio permiso. Esas horas se computan como tiempo efectivamente trabajado, así que no pueden descontarse de tu salario ni de tu remuneración.',
+                    'Si por la distancia, la espera o el tipo de estudio necesitás más de cuatro horas, el permiso puede ampliarse con el aval de tu médico o médica tratante. La ley establece que estos permisos no pueden ser negados.'
+                ]
             ],
             [
-                'h2' => 'Cómo avisar cuando ya tenés turno',
+                'h2' => 'Cómo pedirlo',
                 'body' => [
-                    'Habitualmente la coordinación empieza con la persona que organiza tu jornada o con el área de personal, si existe. Prepará un aviso breve con la fecha, el horario informado por el servicio de salud y la consulta sobre cómo justificar la ausencia. Pedí que te indiquen quién debe recibirlo, especialmente si tu jefatura y quien controla la asistencia son personas distintas.',
-                    'Podés escribir: “Tengo un control prenatal en el horario indicado. Solicito coordinar el permiso correspondiente y que me indiquen qué constancia presentar”. Adaptá el mensaje a tu situación real; no agregues una duración que todavía no conocés. Guardá la respuesta junto al turno para poder revisar lo acordado si luego aparece una diferencia en el registro.',
-                    'Si tu trabajo tiene tareas que deben cubrirse mientras salís, podés identificar qué queda pendiente y quién necesita conocerlo. Esa organización práctica ayuda a evitar confusiones, pero no reemplaza la solicitud del permiso. Mantené separados el aviso de ausencia y el traspaso de tareas.'
+                    'Avisá con al menos 48 horas de anticipación. Conviene hacerlo por escrito, con un mensaje o un correo a tu jefatura o al área de personal: así queda registrada la fecha, el horario del control y que lo pediste a tiempo. Si el turno te lo dan con menos anticipación, o se trata de una urgencia, la ley prevé una excepción: avisá apenas puedas.',
+                    'Después del control, presentá la constancia de la consulta que te entrega el servicio de salud, y guardá una copia para vos. La ley pide esa constancia; si en el trabajo te reclaman más información clínica, preguntá qué norma lo exige antes de entregarla.',
+                    'Si te cambian el turno después de avisar, avisá de nuevo con el dato actualizado y guardá el mensaje. Para cada control siguiente repetís el aviso y la constancia, porque el permiso es por control.'
                 ],
-                'items' => [],
-                'table' => null
-            ],
-            [
-                'h2' => 'Qué comprobantes suelen servir',
-                'body' => [
-                    'Habitualmente se pide alguna constancia del turno o de la asistencia, según el momento de la gestión. Un comprobante de reserva muestra que había una consulta prevista; una constancia posterior puede ayudar a registrar que asististe. Preguntá cuál necesitan y qué información debe incluir, sin asumir que ambos documentos cumplen la misma función.',
-                    'Antes de salir del servicio, revisá que cualquier constancia entregada sea legible y corresponda a tus datos. Si encontrás un error, pedí que te indiquen cómo corregirlo. Conservá una copia para vos cuando presentes el documento en el trabajo. Podés anotar aparte la hora en que saliste y regresaste, como registro personal de la jornada.',
-                    'Evitá entregar estudios completos o antecedentes que nadie te haya explicado por qué necesita. Si te solicitan información clínica adicional, preguntá cuál es el propósito del pedido y buscá orientación sobre su alcance. La carpeta del trabajo y la carpeta de seguimiento médico pueden permanecer separadas.'
-                ],
-                'items' => [],
                 'table' => [
                     'head' => [
-                        'Referencia habitual',
-                        'Momento de uso',
-                        'Pregunta útil'
+                        'Qué',
+                        'Cuánto o cuándo',
+                        'Qué guardar'
                     ],
                     'rows' => [
                         [
-                            'Turno asignado',
-                            'Antes del control',
-                            '¿Sirve para iniciar el aviso?'
+                            'Permiso por control',
+                            'Hasta 4 horas por cada control, consulta o estudio prenatal',
+                            'El turno o comprobante de la reserva'
                         ],
                         [
-                            'Constancia de asistencia',
+                            'Aviso al empleador',
+                            'Con al menos 48 horas de anticipación, salvo urgencia',
+                            'El mensaje o correo enviado y la respuesta'
+                        ],
+                        [
+                            'Constancia',
                             'Después de la consulta',
-                            '¿Qué datos debe contener?'
+                            'Una copia de la constancia entregada'
                         ],
                         [
-                            'Aviso y respuesta',
-                            'Al registrar la ausencia',
-                            '¿Quién deja asentado el permiso?'
+                            'Más tiempo del previsto',
+                            'Se puede ampliar con el aval del médico tratante',
+                            'La indicación o constancia del médico'
                         ]
                     ]
                 ]
             ],
             [
-                'h2' => 'Si el horario cambia o la consulta se demora',
+                'h2' => 'Permiso, reposo y licencia: no son lo mismo',
                 'body' => [
-                    'Un turno puede cambiar después de que ya avisaste. Cuando tengas la nueva información, actualizá el pedido e identificá qué dato cambió. No envíes una segunda solicitud sin explicar su relación con la anterior: podría parecer que se trata de otra ausencia. Guardá el aviso de reprogramación si el servicio te lo proporciona.',
-                    'Si la atención se extiende más de lo previsto, comunicá la situación por el canal que acordaron cuando te sea posible. Después, consultá cómo registrar la diferencia y qué respaldo necesitan. La referencia de cuatro horas no permite afirmar desde esta guía cómo se resolverá todo exceso de tiempo. Evitá prometer que vas a regresar a una hora que depende de una atención todavía en curso.',
-                    'Si tenés una preocupación urgente de salud, buscá atención y usá la guía de [señales de alarma](/salud/senales-de-alarma/) para reconocer cuándo pedir ayuda. La coordinación administrativa no debe convertirse en una razón para postergar la atención que necesitás.'
-                ],
-                'items' => [],
-                'table' => null
+                    'El permiso para controles cubre las horas de una consulta, un control o un estudio. No es un reposo médico ni la [licencia de maternidad](/derechos/licencia-de-maternidad/), que son otro derecho, con otro trámite y otro pago. Si en algún momento te indican reposo, presentá el certificado como reposo, no como aviso de control.',
+                    'Para ordenar todos tus derechos laborales durante el embarazo, mirá el [mapa de derechos de la embarazada que trabaja](/derechos/derechos-de-la-embarazada-que-trabaja/).'
+                ]
             ],
             [
-                'h2' => 'Permiso, reposo y licencia: cómo distinguirlos',
+                'h2' => 'Si te niegan el permiso o te descuentan las horas',
                 'body' => [
-                    'Una consulta prenatal programada no es lo mismo que una indicación de reposo ni que la [licencia de maternidad](/derechos/licencia-de-maternidad/). Al comunicar un documento nuevo, indicó qué situación acredita. Así evitás usar el aviso de un control para intentar resolver una ausencia distinta, que puede necesitar otra conversación y otra documentación.',
-                    'Si en el recibo aparece un descuento que vinculás con el control, compará la fecha de la ausencia, el aviso enviado y el concepto registrado. Pedí que te expliquen qué motivo usaron y qué falta para revisar el asiento. Esa pregunta concreta suele ser más útil que discutir un total sin saber a qué corresponde.',
-                    'Para controles sucesivos, conservá cada turno con su propia constancia y respuesta. No des por hecho que una autorización anterior cubre cualquier cita futura. Si cambia tu jornada, informá ese cambio al consultar cómo coordinar el siguiente control. Podés volver al [mapa de derechos laborales](/derechos/derechos-de-la-embarazada-que-trabaja/) para ordenar los demás temas del embarazo.'
-                ],
-                'items' => [],
-                'table' => null
-            ],
-            [
-                'h2' => 'Si tu empleador no cumple',
-                'body' => [
-                    'Si te niegan el permiso o aparece un descuento que no lográs aclarar, consultá al ministerio MTESS sobre la orientación aplicable. Prepará una descripción del turno, del aviso que diste y de la respuesta del trabajo. Adjuntá solamente la documentación pertinente al problema y conservá tus originales. Explicá si necesitás resolver una próxima ausencia o revisar algo que ya ocurrió.',
-                    'Una negativa verbal también puede anotarse en tu registro personal, con fecha y contexto, diferenciándola de una respuesta escrita. Si te presionan para abandonar los controles o cambiar tu relación laboral, buscá asesoramiento individual. La consulta puede centrarse en cómo proceder y preservar la información sin que tengas que interpretar sola el alcance de la ley.'
-                ],
-                'items' => [],
-                'table' => null
+                    'La ley dice que el permiso no puede negarse y que las horas no se descuentan. Si igual te lo niegan, o aparece un descuento en el recibo, juntá el turno, tu aviso, la respuesta del empleador y el recibo, y consultá en el Ministerio de Trabajo, Empleo y Seguridad Social (MTESS), que difundió la ley. Los empleadores que incumplen pueden ser sancionados.',
+                    'Si te presionan para dejar de ir a tus controles, no lo hagas: el seguimiento prenatal es parte de cuidar tu salud. Ante una señal de alarma, no esperes ningún permiso: revisá las [señales de alarma](/salud/senales-de-alarma/) y buscá atención.'
+                ]
             ]
         ],
         'steps' => [
             [
-                'title' => 'Presentá el aviso',
+                'title' => 'Avisá con 48 horas',
                 'body' => [
-                    'La coordinación suele comenzar con personal o con quien organiza la jornada, usando los datos del turno.'
+                    'Escribí a tu jefatura o a personal con la fecha y el horario del control. Guardá el mensaje.'
                 ]
             ],
             [
-                'title' => 'Preguntá por la constancia',
+                'title' => 'Andá al control',
                 'body' => [
-                    'Habitualmente se aclara qué comprobante necesitan y dónde se entrega.'
+                    'Pedí en el servicio de salud la constancia de la consulta.'
                 ]
             ],
             [
-                'title' => 'Revisá la asistencia',
+                'title' => 'Presentá la constancia',
                 'body' => [
-                    'Después del control, comprobá que la ausencia registrada coincida con lo comunicado.'
+                    'Entregá la constancia en el trabajo y guardá una copia. Repetí el proceso en cada control.'
                 ]
             ]
         ],
@@ -397,15 +415,23 @@ return [
         'faq' => [
             [
                 'q' => '¿Las cuatro horas son por mes?',
-                'a' => 'La frecuencia requiere verificación; la referencia disponible solo establece hasta cuatro horas remuneradas.'
+                'a' => 'No. La ley fija hasta cuatro horas por cada control, consulta o estudio prenatal, no un total mensual: cada control tiene su propio permiso.'
             ],
             [
-                'q' => '¿Puedo usar el aviso de turno como constancia de asistencia?',
-                'a' => 'Son documentos distintos. Preguntá cuál corresponde en cada etapa del registro.'
+                'q' => '¿Me pueden descontar esas horas del sueldo?',
+                'a' => 'No. Las horas del permiso se computan como tiempo efectivamente trabajado y no pueden descontarse del salario ni de la remuneración.'
             ],
             [
-                'q' => '¿Qué hago si reprograman el control?',
-                'a' => 'Actualizá el aviso y señalá que reemplaza al turno anterior, conservando la comunicación del cambio.'
+                'q' => '¿Con cuánta anticipación tengo que avisar?',
+                'a' => 'Al menos 48 horas antes, salvo situaciones de urgencia. Después del control presentás la constancia de la consulta.'
+            ],
+            [
+                'q' => '¿Puede mi empleador negarme el permiso?',
+                'a' => 'La ley establece que estos permisos no pueden ser negados. Si lo hace, guardá tu aviso y su respuesta y consultá en el MTESS.'
+            ],
+            [
+                'q' => '¿Y si necesito más de cuatro horas?',
+                'a' => 'El permiso puede ampliarse con el aval de tu médico o médica tratante. Pedile una indicación por escrito.'
             ]
         ],
         'related' => [
@@ -425,22 +451,10 @@ return [
         'validAsOf' => '2026-09-20',
         'sources' => [
             [
-                'title' => 'Ley 5508/2015 — protección de la maternidad y apoyo a la lactancia',
-                'publisher' => 'Congreso de la Nación Paraguaya',
-                'url' => null,
-                'accessed' => null
-            ],
-            [
-                'title' => 'Ley 7383/2024 — permiso remunerado para controles prenatales',
-                'publisher' => 'Congreso de la Nación Paraguaya',
-                'url' => null,
-                'accessed' => null
-            ],
-            [
-                'title' => 'Orientación sobre derechos laborales y maternidad — referencia para consulta',
-                'publisher' => 'MTESS',
-                'url' => null,
-                'accessed' => null
+                'title' => 'Ley 7383/2024 — permisos para controles prenatales (nota oficial del MTESS)',
+                'publisher' => 'Ministerio de Trabajo, Empleo y Seguridad Social (MTESS)',
+                'url' => 'https://www.mtess.gov.py/?p=30138',
+                'accessed' => '2026-09-20'
             ]
         ],
         'updated' => '2026-09-20',
@@ -451,115 +465,83 @@ return [
         'path' => '/derechos/hora-de-lactancia/',
         'title' => 'Hora de lactancia en Paraguay: descansos y trabajo',
         'seoTitle' => 'Hora de lactancia en Paraguay: descansos',
-        'metaDescription' => 'Descansos de lactancia en Paraguay: referencias de 90 y 60 minutos, preguntas para coordinar la jornada y documentos habituales para el regreso.',
+        'metaDescription' => 'Hora de lactancia en Paraguay: 90 minutos por día los primeros 6 meses y 60 minutos hasta los 24 meses con indicación médica. Es tiempo trabajado y pago.',
         'kind' => 'legal',
-        'lead' => 'La llamada hora de lactancia no siempre equivale a una hora: la Ley 5508/2015 contempla descansos de 90 o 60 minutos, según corresponda. Para organizar la vuelta al trabajo, necesitás aclarar qué duración y modalidad se aplican a tu situación. Conversá el horario y dejá registrado cómo se coordinará el descanso dentro de tu jornada.',
+        'lead' => 'En Paraguay, las madres trabajadoras tienen un permiso de 90 minutos por día para amamantar durante los primeros 6 meses de vida del bebé (Ley 5508/2015, artículo 14). Podés usarlo como te convenga según las necesidades de tu hijo o hija, desde el primer día de tu regreso al trabajo. Con indicación médica, puede extenderse desde los 7 meses hasta los 24 meses, a razón de 60 minutos por día. Ese tiempo cuenta como trabajado y se paga.',
         'sections' => [
             [
-                'h2' => 'Por qué se habla de 90 o 60 minutos',
+                'h2' => 'Qué dice la ley',
                 'body' => [
-                    'El nombre cotidiano “hora de lactancia” puede llevar a pensar que hay una única duración para todas las trabajadoras. La referencia legal disponible distingue descansos de 90 y 60 minutos. Para elegir cuál corresponde, hacen falta las condiciones aplicables a tu caso; no conviene resolverlo comparando solamente lo que hace una compañera o lo que figuraba en un horario anterior.',
-                    'Prepará la consulta con los datos de tu jornada, la fecha prevista de regreso y la documentación que ya tengas sobre el nacimiento. Si recibís una respuesta que menciona una duración, pedí también que te expliquen desde cuándo y bajo qué condiciones la están aplicando. Así podés identificar si la conversación trata del derecho al descanso o de la forma de distribuirlo.',
-                    'Confirmá con personal o el organismo competente los requisitos, eventuales costos de documentación y plazos vigentes.'
+                    'El artículo 14 de la Ley 5508/2015 concede a las madres trabajadoras un permiso de 90 minutos por día para amamantar durante los primeros 6 meses del bebé. Los minutos se cuentan desde el primer día de reintegro al trabajo, después de la licencia de maternidad.',
+                    'Lo podés usar de la forma que estimes conveniente según las necesidades de tu hijo o hija: por ejemplo, en dos momentos, o al empezar o terminar la jornada. Ese permiso se considera período trabajado, con goce de salario, es decir que no te pueden descontar el sueldo.',
+                    'Desde los 7 meses y hasta los 24 meses de edad, el permiso puede extenderse por indicación médica, y en ese caso es de 60 minutos por día.'
                 ],
-                'items' => [],
-                'table' => null
+                'items' => [
+                    [
+                        'title' => 'Primeros 6 meses',
+                        'text' => '90 minutos por día, pagos'
+                    ],
+                    [
+                        'title' => 'Desde los 7 hasta los 24 meses',
+                        'text' => '60 minutos por día, con indicación médica, pagos'
+                    ],
+                    [
+                        'title' => 'Cómo se cuenta',
+                        'text' => 'Desde el primer día de regreso al trabajo, y se considera tiempo trabajado'
+                    ]
+                ]
             ],
             [
-                'h2' => 'Cómo preparar el regreso al trabajo',
+                'h2' => 'Cómo organizarlo con tu empleador',
                 'body' => [
-                    'Antes de retomar, revisá tu horario real: entrada, salida, traslados y tareas que exigen continuidad. Sobre ese esquema, anotá en qué momentos necesitás conversar la organización del descanso. Llevar una propuesta concreta ayuda a que la respuesta no quede en un “después vemos”, especialmente cuando hay turnos variables o personas diferentes a cargo de la asistencia.',
-                    'Habitualmente esta coordinación se conversa con el empleador o el área de personal. Si quien autoriza el horario no es quien organiza las tareas, preguntá cómo se comunicará el acuerdo. Podés pedir una confirmación escrita del esquema previsto y guardar cualquier modificación posterior. Una conversación sobre la cobertura de tus tareas no aclara necesariamente cómo se registrará el descanso.',
-                    'La [licencia de maternidad](/derechos/licencia-de-maternidad/) y los descansos de lactancia corresponden a momentos distintos de esa organización. No sumes minutos al final de la licencia ni cambies la fecha de regreso por tu cuenta: llevá ambas preguntas por separado a quien gestione la reincorporación.'
+                    'Antes de volver, conversá cómo vas a usar los minutos: todo junto, en dos pausas, al inicio o al final del día. La ley te deja elegir la forma según las necesidades del bebé; lo práctico es acordarlo con anticipación y dejarlo por escrito.',
+                    'Para la extensión desde los 7 meses, pedile a tu médico o médica pediatra una indicación por escrito y entregala en el trabajo.'
                 ],
-                'items' => [],
-                'table' => null
-            ],
-            [
-                'h2' => 'Qué conviene preguntar sobre la modalidad',
-                'body' => [
-                    'Preguntá si el esquema aplicable contempla pausas dentro de la jornada y cómo se acuerda su distribución. Si querés consultar por una entrada posterior o una salida anterior, plantealo expresamente, sin presentarlo como una opción ya autorizada. La existencia del descanso no permite deducir todas las modalidades posibles ni decidir unilateralmente cómo se acumula.',
-                    'También sirve describir obstáculos concretos del puesto. Por ejemplo, si atendés público sin reemplazo, si cambiás de sector durante el día o si tu turno se modifica con frecuencia. No necesitás proponer una solución definitiva para señalar que el esquema comunicado resulta difícil de cumplir. Pedí que la conversación incluya cómo avisar y a quién acudir si una tarea coincide con la pausa acordada.',
-                    'Si necesitás un espacio para extraerte leche, podés preguntar por privacidad, condiciones de higiene y disponibilidad real en tu lugar de trabajo. Las necesidades prácticas merecen una respuesta específica. Esta consulta no supone afirmar que todos los establecimientos tienen las mismas instalaciones ni los mismos requisitos legales.'
-                ],
-                'items' => [],
-                'table' => null
-            ],
-            [
-                'h2' => 'Documentación y registro del acuerdo',
-                'body' => [
-                    'La información que suele pedirse para conversar el descanso incluye datos del nacimiento, antecedentes de la licencia y, según la situación, alguna constancia adicional. Pedí la lista aplicable antes de gestionar certificados que tal vez no necesites. Si un documento contiene información clínica amplia, preguntá qué dato se requiere para el asunto laboral.',
-                    'Guardá el horario acordado en un lugar donde puedas encontrarlo al cambiar de turno o de responsable. Podés registrar cuándo se comunicá, qué distribución se explicá y qué pregunta quedó pendiente. Si recibís instrucciones distintas, mostrales la última versión disponible y pedí que identifiquen qué cambio están haciendo.',
-                    'Un registro personal también puede mostrar dificultades repetidas: pausas interrumpidas, reuniones superpuestas o falta de aviso al equipo. Describí hechos concretos y sus fechas, sin convertir cada anotación en una conclusión jurídica. Eso facilita una conversación sobre la organización y, si hace falta, una consulta posterior.'
-                ],
-                'items' => [],
                 'table' => [
                     'head' => [
-                        'Información habitual',
-                        'Utilidad para la coordinación',
-                        'Qué aclarar'
+                        'Etapa del bebé',
+                        'Tiempo por día',
+                        'Qué necesitás'
                     ],
                     'rows' => [
                         [
-                            'Datos del nacimiento',
-                            'Ubicar la situación familiar',
-                            'Qué constancia solicitan'
+                            '0 a 6 meses',
+                            '90 minutos',
+                            'Avisar tu regreso y cómo vas a usarlos'
                         ],
                         [
-                            'Fecha de regreso',
-                            'Preparar la reincorporación',
-                            'Qué horario se tomará como referencia'
-                        ],
-                        [
-                            'Jornada y turnos',
-                            'Organizar el descanso',
-                            'Cómo se comunican cambios'
-                        ],
-                        [
-                            'Acuerdo recibido',
-                            'Revisar la aplicación',
-                            'Quién responde por el registro'
+                            '7 a 24 meses',
+                            '60 minutos',
+                            'Indicación médica para extender el permiso'
                         ]
                     ]
                 ]
             ],
             [
-                'h2' => 'Cuando cambia tu jornada o tu situación',
+                'h2' => 'Salas de lactancia y protección laboral',
                 'body' => [
-                    'Si te proponen otro turno, revisá qué pasa con el descanso antes de dar por resuelto el nuevo horario. Un acuerdo pensado para la mañana puede necesitar otra organización si pasás a trabajar en un horario diferente. Pedí una respuesta que abarque el cambio completo, incluidas las tareas que se superponen y la forma de registrar la pausa.',
-                    'Si tu situación de lactancia cambia, llevá esa información a una consulta sobre las condiciones aplicables. No supongas que un comentario informal de alguien del equipo modifica automáticamente el acuerdo. Tampoco uses esta guía para decidir cuestiones clínicas de alimentación del bebé: esa orientación corresponde al equipo de salud que los acompaña.',
-                    'Para distinguir los descansos de otros asuntos laborales, consultá [derechos de la embarazada que trabaja](/derechos/derechos-de-la-embarazada-que-trabaja/) y la guía sobre [fuero maternal](/derechos/fuero-maternal-y-despido/). El descanso, la continuidad del empleo y la fecha de regreso pueden aparecer en una misma reunión, pero conviene que cada punto tenga una respuesta identificable.'
-                ],
-                'items' => [],
-                'table' => null
-            ],
-            [
-                'h2' => 'Si tu empleador no cumple',
-                'body' => [
-                    'Si el descanso se niega, se interrumpe de forma reiterada o no coincide con lo comunicado, podés pedir orientación al ministerio MTESS. Llevá la descripción de tu jornada y el acuerdo disponible, junto con ejemplos concretos de lo que ocurrió. Explicá si el problema está en la duración informada, en la distribución o en que no podés usar las pausas previstas.',
-                    'Si además aparecen amenazas o cambios que te preocupan sobre tu continuidad laboral, buscá asesoramiento jurídico sobre el conjunto de la situación. Conservá las comunicaciones tal como las recibiste. No necesitás discutir detalles íntimos de tu lactancia con todo el equipo: centrá el relato en el horario, las solicitudes y las respuestas que recibiste.'
-                ],
-                'items' => [],
-                'table' => null
+                    'La Ley 6453/2019 reforzó la obligación de garantizar espacios adecuados para la lactancia en los lugares de trabajo. Además, la lactancia nunca puede ser causa justificada de despido, y el despido comunicado mientras usás estos permisos es nulo (artículo 15). Más en [fuero maternal y despido](/derechos/fuero-maternal-y-despido/).',
+                    'Si te ponen trabas o te descuentan estos minutos, guardá tu aviso, la indicación médica y tus recibos, y consultá en el Ministerio de Trabajo, Empleo y Seguridad Social (MTESS). Para el resto de tus derechos, volvé a la [licencia de maternidad](/derechos/licencia-de-maternidad/).'
+                ]
             ]
         ],
         'steps' => [
             [
-                'title' => 'Prepará tu propuesta de jornada',
+                'title' => 'Antes de volver',
                 'body' => [
-                    'Habitualmente la conversación parte del horario de regreso y de las necesidades de coordinación.'
+                    'Avisá que vas a usar el permiso de lactancia y proponé cómo repartir los 90 minutos.'
                 ]
             ],
             [
-                'title' => 'Pedí la modalidad aplicable',
+                'title' => 'Desde los 7 meses',
                 'body' => [
-                    'El empleador suele indicar cómo tramitar el pedido y qué respaldo presentar.'
+                    'Si querés seguir, pedí una indicación médica por escrito y entregala para pasar a 60 minutos por día.'
                 ]
             ],
             [
-                'title' => 'Registrá lo conversado',
+                'title' => 'Guardá todo',
                 'body' => [
-                    'Anotá duración, distribución y persona de contacto para revisar cómo funciona al retomar.'
+                    'Conservá el acuerdo, la indicación médica y tus recibos, por si hay una diferencia.'
                 ]
             ]
         ],
@@ -570,16 +552,20 @@ return [
         ],
         'faq' => [
             [
-                'q' => '¿La hora de lactancia siempre dura sesenta minutos?',
-                'a' => 'No. La referencia de la Ley 5508/2015 contempla 90 o 60 minutos según las condiciones aplicables.'
+                'q' => '¿Cuántos minutos por día tengo para amamantar?',
+                'a' => '90 minutos por día durante los primeros 6 meses del bebé. Con indicación médica se puede extender desde los 7 hasta los 24 meses, a razón de 60 minutos por día.'
             ],
             [
-                'q' => '¿Puedo salir antes en vez de hacer pausas?',
-                'a' => 'Consultá la modalidad aplicable y su coordinación; no lo des por autorizado por el solo hecho de tener un descanso.'
+                'q' => '¿Me descuentan esos minutos del sueldo?',
+                'a' => 'No. La ley dice que el permiso se considera período trabajado, con goce de salario.'
             ],
             [
-                'q' => '¿Qué pasa si cambian mi turno?',
-                'a' => 'Pedí que aclaren cómo quedará el descanso dentro del nuevo horario y conservá la respuesta.'
+                'q' => '¿Puedo usar los 90 minutos todos juntos?',
+                'a' => 'Sí. La ley deja que la madre los use de la forma que estime conveniente según las necesidades del niño o la niña.'
+            ],
+            [
+                'q' => '¿Desde cuándo se cuentan los 6 meses?',
+                'a' => 'Los minutos se cuentan desde el primer día de reintegro al trabajo, después de la licencia de maternidad.'
             ]
         ],
         'related' => [
@@ -598,16 +584,16 @@ return [
         'validAsOf' => '2026-09-20',
         'sources' => [
             [
-                'title' => 'Ley 5508/2015 — protección de la maternidad y apoyo a la lactancia',
-                'publisher' => 'Congreso de la Nación Paraguaya',
-                'url' => null,
-                'accessed' => null
+                'title' => 'Ley 5508/2015 — promoción, protección de la maternidad y apoyo a la lactancia materna',
+                'publisher' => 'Biblioteca y Archivo Central del Congreso Nacional (BACN)',
+                'url' => 'https://www.bacn.gov.py/leyes-paraguayas/4428/promocion-proteccion-de-la-maternidad-y-apoyo-a-la-lactancia-materna',
+                'accessed' => '2026-09-20'
             ],
             [
-                'title' => 'Orientación sobre derechos laborales y maternidad — referencia para consulta',
-                'publisher' => 'MTESS',
-                'url' => null,
-                'accessed' => null
+                'title' => 'Ley 6453/2019 — modifica y amplía la Ley 5508/2015',
+                'publisher' => 'Biblioteca y Archivo Central del Congreso Nacional (BACN)',
+                'url' => 'https://www.bacn.gov.py/leyes-paraguayas/9184/ley-n-6453-modifica-y-amplia-la-ley-n-55082015-promocion-proteccion-de-la-maternidad-y-apoyo-a-la-lactancia-materna',
+                'accessed' => '2026-09-20'
             ]
         ],
         'updated' => '2026-09-20',
@@ -618,99 +604,92 @@ return [
         'path' => '/derechos/fuero-maternal-y-despido/',
         'title' => 'Fuero maternal y despido en Paraguay',
         'seoTitle' => 'Fuero maternal y despido en Paraguay',
-        'metaDescription' => 'Fuero maternal en Paraguay: qué preparar ante un despido, cómo ordenar comunicaciones y qué preguntar sobre la protección laboral por maternidad.',
+        'metaDescription' => 'Fuero maternal en Paraguay: el despido es nulo desde que tu empleador sabe del embarazo y tenés protección laboral hasta 1 año después del nacimiento.',
         'kind' => 'legal',
-        'lead' => 'El fuero maternal es la protección laboral vinculada a la maternidad. La Ley 5508/2015 contempla una referencia de protección hasta un año, cuyo alcance en tu caso requiere asesoramiento. Si recibís un aviso de despido o presión para renunciar, conservá la comunicación y buscá orientación jurídica cuanto antes. La respuesta depende de tu relación laboral y de lo que efectivamente ocurrió.',
+        'lead' => 'En Paraguay, desde el momento en que tu empleador sabe que estás embarazada y mientras usás la licencia de maternidad u otros permisos de la ley, el preaviso y el despido son nulos. Además, tenés inamovilidad laboral hasta 1 año después del nacimiento o la adopción, y el embarazo, el nacimiento o la lactancia nunca pueden ser causa justificada de despido (Ley 5508/2015, artículo 15). Por eso conviene avisar el embarazo por escrito y guardar una copia.',
         'sections' => [
             [
-                'h2' => 'Qué significa tener protección por maternidad',
+                'h2' => 'Qué protege el fuero maternal',
                 'body' => [
-                    'La protección por maternidad pone el foco en la continuidad laboral durante una etapa que también implica controles, licencia y organización del cuidado. La referencia de hasta un año no permite decidir, sin conocer el caso, cómo se computa el período ni qué procedimiento corresponde ante un conflicto. Esas preguntas son especialmente importantes si hay cambios de contrato, de empleador o de modalidad de trabajo.',
-                    'Para una primera consulta, explicá cómo trabajás y qué situación te preocupa. Puede ser una comunicación de desvinculación, una propuesta para que firmes una renuncia o una modificación de tareas que no entendés. Nombrar el hecho con precisión ayuda a que la orientación no se limite a una explicación general de la ley.',
-                    'Confirmá con el organismo competente los requisitos, eventuales costos y plazos vigentes para consultar o presentar tu caso.'
+                    'El artículo 15 de la Ley 5508/2015 dice que, desde que el empleador es notificado del embarazo y mientras la trabajadora usufructúa el permiso de maternidad y los demás permisos de la ley, incluidos los de lactancia, son nulos el preaviso y el despido que se le comuniquen.',
+                    'La misma norma reconoce inamovilidad laboral hasta 1 año después del nacimiento o de la adopción, y aclara que en ningún caso el embarazo, la adopción, el nacimiento o la lactancia pueden ser, directa o indirectamente, causa justificada de despido.'
                 ],
-                'items' => [],
-                'table' => null
+                'items' => [
+                    [
+                        'title' => 'Desde cuándo',
+                        'text' => 'Desde que el empleador es notificado del embarazo'
+                    ],
+                    [
+                        'title' => 'Hasta cuándo',
+                        'text' => 'Hasta 1 año después del nacimiento o la adopción'
+                    ],
+                    [
+                        'title' => 'Qué es nulo',
+                        'text' => 'El preaviso y el despido comunicados durante la protección'
+                    ]
+                ]
             ],
             [
-                'h2' => 'Cómo ordenar lo que pasó',
+                'h2' => 'Cómo avisar el embarazo',
                 'body' => [
-                    'Armá una cronología con el comienzo de la relación laboral, la comunicación del embarazo si la hubo y los hechos posteriores que considerás relevantes. Usá las fechas que puedas respaldar. Si recordás una conversación pero no su fecha exacta, señalá esa duda en lugar de completar el dato como si fuera seguro. Separá lo que viste o recibiste de lo que otra persona te contá.',
-                    'Guardá contratos, recibos, avisos y mensajes relacionados con el conflicto en su formato original cuando sea posible. Una captura aislada puede perder contexto; conservá también la conversación completa que explique a qué estaban respondiendo. No alteres documentos para destacar tu versión. Podés hacer un resumen aparte con las preguntas que querés plantear.',
-                    'Si el aviso fue verbal, anotá quién habló, en qué contexto y qué palabras recordás. Ese registro personal no equivale a una constancia emitida por el empleador, pero te ayuda a relatar los hechos sin mezclar episodios. Evitá publicar documentación privada en grupos para conseguir opiniones sobre el caso.'
-                ],
-                'items' => [],
-                'table' => null
+                    'La protección corre desde que tu empleador está notificado, así que te conviene avisar por escrito, con la fecha, y guardar una copia. Podés acompañar el aviso con el certificado médico de tu embarazo.',
+                    'No hace falta esperar a la licencia para avisar: la protección corre desde que el empleador es notificado del embarazo. Para tus controles durante el embarazo, mirá el [permiso para controles prenatales](/derechos/permiso-para-controles/).'
+                ]
             ],
             [
-                'h2' => 'Documentos útiles para una consulta individual',
+                'h2' => 'Qué hacer si te despiden o te presionan',
                 'body' => [
-                    'Habitualmente, quien brinda orientación necesita conocer la relación laboral y la comunicación que originó la preocupación. Puede pedirte documentación del embarazo o del nacimiento para ubicar la situación, además de los antecedentes del trabajo. La siguiente tabla sirve para preparar lo disponible; no es una lista que debas completar antes de pedir ayuda.',
-                    'Llevá una copia ordenada y conservá tus originales. Si falta el contrato, explicá cómo acordaron el trabajo y qué comprobantes tenés de pagos o tareas. La ausencia de un papel no es motivo para abandonar la consulta: es un dato que la persona que te asesore necesita conocer para evaluar cómo seguir.',
-                    'Prepará también una lista breve de lo que querés resolver: entender el aviso, saber cómo responder, consultar sobre tu continuidad o revisar una propuesta escrita. Esa lista evita que una conversación sobre cifras deje sin tratar la pregunta principal que te llevá a buscar orientación.'
+                    'Si te comunican un despido, o te piden firmar una renuncia o un acuerdo mientras estás embarazada o dentro del año posterior al nacimiento, no firmes sin asesoramiento. Guardá la comunicación original, los mensajes, tus recibos y la fecha en que avisaste el embarazo.',
+                    'Consultá en el Ministerio de Trabajo, Empleo y Seguridad Social (MTESS) o con un abogado o abogada laboralista. Para un caso concreto, la evaluación necesita tus documentos; esta guía explica lo que dice la ley, no reemplaza el asesoramiento legal.'
                 ],
-                'items' => [],
                 'table' => [
                     'head' => [
-                        'Antecedente',
-                        'Qué ayuda a explicar',
-                        'Cómo prepararlo'
+                        'Qué guardar',
+                        'Para qué sirve'
                     ],
                     'rows' => [
                         [
-                            'Contrato o comunicaciones de ingreso',
-                            'La relación laboral',
-                            'Versión completa disponible'
+                            'Aviso del embarazo con fecha y certificado médico',
+                            'Muestra desde cuándo el empleador estaba notificado'
                         ],
                         [
-                            'Recibos o comprobantes',
-                            'La situación de pagos',
-                            'Ordenados por período'
+                            'Comunicación de despido o propuesta de renuncia',
+                            'Es la prueba de lo que te comunicaron'
                         ],
                         [
-                            'Aviso cuestionado',
-                            'La decisión comunicada',
-                            'Mensaje completo y fecha'
-                        ],
-                        [
-                            'Constancia del embarazo o nacimiento',
-                            'El contexto de maternidad',
-                            'Documento que ya tengas'
+                            'Recibos de sueldo y contrato',
+                            'Permiten revisar tu situación laboral'
                         ]
                     ]
                 ]
             ],
             [
-                'h2' => 'Si te piden firmar una renuncia o un acuerdo',
+                'h2' => 'Otros derechos ligados',
                 'body' => [
-                    'Una propuesta para firmar puede contener asuntos diferentes: recepción de un documento, terminación de la relación, pagos o compromisos futuros. Pedí leer el texto completo y obtener una copia para consultar su alcance. Si hay expresiones que no entendés, marcá cuáles son y pedí una explicación antes de tomar una decisión. No confundas el título del documento con todo lo que dice su contenido.',
-                    'Si te presentan una cifra, pedí el detalle de los conceptos que la componen. Esta guía no puede calcular lo que corresponde ni valorar una oferta con información parcial. Una consulta jurídica puede revisar el documento junto con tu historia laboral y explicar las alternativas. Contá también si hubo presión para responder de inmediato.',
-                    'Conservá las distintas versiones si la propuesta cambia. Si ya firmaste, llevá lo firmado y relatá las circunstancias en que ocurrió; no supongas que ya no tiene sentido consultar. El paso útil es obtener una evaluación de tus documentos, sin promesas sobre un resultado ni conclusiones tomadas de otro caso.'
-                ],
-                'items' => [],
-                'table' => null
-            ],
-            [
-                'h2' => 'Cambios de tareas, permisos y regreso',
-                'body' => [
-                    'No toda preocupación aparece como un aviso de despido. También podés necesitar orientación si después de comunicar el embarazo cambian tus tareas, tu horario o el trato que recibís. Describí qué cambió respecto de la organización anterior y qué explicación te dieron. Evitá atribuir automáticamente un motivo, pero incluí la secuencia que te hace pensar que los hechos están relacionados.',
-                    'Los [permisos para controles](/derechos/permiso-para-controles/) y la [licencia de maternidad](/derechos/licencia-de-maternidad/) deben identificarse por separado en tu relato. Por ejemplo, una ausencia autorizada y una comunicación posterior sobre continuidad laboral son dos hechos distintos, aunque formen parte del mismo problema. Adjuntar el aviso y su respuesta permite comprender esa relación.',
-                    'Si el conflicto surge al regresar, sumá el horario comunicado y cualquier acuerdo sobre [descansos de lactancia](/derechos/hora-de-lactancia/). Antes de responder a nuevas instrucciones que te generan dudas, buscá orientación sobre cómo dejar constancia de la situación. No resuelvas una controversia laboral mediante consejos anónimos que desconozcan tus documentos.'
-                ],
-                'items' => [],
-                'table' => null
-            ],
-            [
-                'h2' => 'Si tu empleador no cumple',
-                'body' => [
-                    'El ministerio MTESS es un lugar al que podés preguntar qué orientación corresponde ante un posible incumplimiento laboral por maternidad. Explicá desde el inicio si recibiste un despido, una presión para renunciar o una negativa relacionada con el embarazo. Pedí que te indiquen el canal adecuado para tu situación y qué información necesitan para escucharte.',
-                    'Buscá también asesoramiento jurídico individual cuanto antes si hay una decisión sobre tu empleo. Anotá cualquier plazo que te informen en esa consulta, quién lo indicó y a qué actuación corresponde. No uses el período de protección como si fuera un plazo para esperar antes de pedir ayuda: son cuestiones diferentes. Conservá el registro de tus consultas y de cualquier nueva comunicación del empleador.'
-                ],
-                'items' => [],
-                'table' => null
+                    'La protección cubre también la [licencia de maternidad](/derechos/licencia-de-maternidad/) y la [hora de lactancia](/derechos/hora-de-lactancia/). Para ver todos tus derechos juntos, mirá el [mapa de derechos de la embarazada que trabaja](/derechos/derechos-de-la-embarazada-que-trabaja/).'
+                ]
             ]
         ],
-        'steps' => [],
+        'steps' => [
+            [
+                'title' => 'Avisá por escrito',
+                'body' => [
+                    'Comunicá el embarazo a tu empleador con fecha y, si podés, con el certificado médico.'
+                ]
+            ],
+            [
+                'title' => 'Guardá las pruebas',
+                'body' => [
+                    'Conservá el aviso, los mensajes, el contrato y los recibos.'
+                ]
+            ],
+            [
+                'title' => 'Buscá asesoramiento',
+                'body' => [
+                    'Ante un despido o una propuesta de renuncia, consultá en el MTESS o con un abogado o abogada laboralista antes de firmar.'
+                ]
+            ]
+        ],
         'appHandoff' => [
             'text' => 'Mi Bebé reúne derechos relacionados con embarazo y maternidad. Puede ayudarte a identificar el tema de tu consulta; la evaluación de un despido necesita asesoramiento sobre tus documentos.',
             'medium' => 'article',
@@ -718,16 +697,20 @@ return [
         ],
         'faq' => [
             [
-                'q' => '¿El fuero garantiza que nunca puede haber un despido?',
-                'a' => 'No permite hacer esa afirmación general. El alcance de la protección y el procedimiento requieren revisar tu caso.'
+                'q' => '¿Hasta cuándo estoy protegida contra el despido?',
+                'a' => 'Hasta 1 año después del nacimiento o la adopción, desde que el empleador es notificado del embarazo.'
             ],
             [
-                'q' => '¿Puedo consultar si no tengo contrato escrito?',
-                'a' => 'Sí, podés pedir orientación explicando cómo trabajás y qué comprobantes o comunicaciones tenés disponibles.'
+                'q' => '¿Qué pasa si me despiden estando embarazada?',
+                'a' => 'Según la ley, el preaviso y el despido comunicados durante la protección son nulos. Consultá en el MTESS o con un abogado o abogada laboralista.'
             ],
             [
-                'q' => '¿Sirve consultar si ya firmé un documento?',
-                'a' => 'Llevá una copia y explicá las circunstancias para que un profesional evalúe su alcance.'
+                'q' => '¿Tengo que avisar mi embarazo para estar protegida?',
+                'a' => 'La protección corre desde que el empleador es notificado, por eso conviene avisar por escrito y guardar una copia.'
+            ],
+            [
+                'q' => '¿La lactancia puede ser motivo de despido?',
+                'a' => 'No. La ley dice que la lactancia nunca puede ser causa justificada de despido, directa ni indirectamente.'
             ]
         ],
         'related' => [
@@ -746,16 +729,10 @@ return [
         'validAsOf' => '2026-09-20',
         'sources' => [
             [
-                'title' => 'Ley 5508/2015 — protección de la maternidad y apoyo a la lactancia',
-                'publisher' => 'Congreso de la Nación Paraguaya',
-                'url' => null,
-                'accessed' => null
-            ],
-            [
-                'title' => 'Orientación sobre derechos laborales y maternidad — referencia para consulta',
-                'publisher' => 'MTESS',
-                'url' => null,
-                'accessed' => null
+                'title' => 'Ley 5508/2015 — promoción, protección de la maternidad y apoyo a la lactancia materna',
+                'publisher' => 'Biblioteca y Archivo Central del Congreso Nacional (BACN)',
+                'url' => 'https://www.bacn.gov.py/leyes-paraguayas/4428/promocion-proteccion-de-la-maternidad-y-apoyo-a-la-lactancia-materna',
+                'accessed' => '2026-09-20'
             ]
         ],
         'updated' => '2026-09-20',
@@ -766,115 +743,63 @@ return [
         'path' => '/derechos/licencia-de-paternidad/',
         'title' => 'Licencia de paternidad en Paraguay: cómo organizarla',
         'seoTitle' => 'Licencia de paternidad en Paraguay',
-        'metaDescription' => 'Licencia de paternidad en Paraguay: referencia de dos semanas, aviso al trabajo, documentos habituales y organización del acompañamiento familiar.',
+        'metaDescription' => 'Licencia de paternidad en Paraguay: 2 semanas posteriores al parto, con goce de sueldo a cargo del empleador y de carácter irrenunciable, según la Ley 5508.',
         'kind' => 'legal',
-        'lead' => 'La Ley 5508/2015 contempla dos semanas de licencia de paternidad. Para organizarla, el papá necesita conversar con su empleador cómo comunicar el nacimiento, qué constancia presentar y cómo se definirán las fechas de ausencia y regreso. El nacimiento puede no coincidir con la fecha prevista, por eso conviene separar la planificación previa de las fechas que se registren finalmente.',
+        'lead' => 'En Paraguay, todo trabajador padre de un recién nacido tiene 2 semanas de permiso posteriores al parto, con goce de sueldo a cargo del empleador y de carácter irrenunciable (Ley 5508/2015, artículo 13). Durante ese período, el padre debe inscribir al niño o niña en el Registro del Estado Civil y empezar el trámite de la cédula de identidad. Avisale a tu empleador con anticipación y guardá una copia de lo que entregues.',
         'sections' => [
             [
-                'h2' => 'Qué tiempo estás organizando',
+                'h2' => 'Qué te corresponde',
                 'body' => [
-                    'La referencia de dos semanas permite empezar a conversar sobre el acompañamiento después del nacimiento. No alcanza por sí sola para resolver cómo se inicia el período en cada situación, qué documentación se acepta o cómo se registra en el trabajo. Si sos el papá, llevá esas preguntas a quien gestiona tus ausencias, en lugar de asumir que se tramita igual que una vacación.',
-                    'La fecha probable de parto es una estimación para organizarse, no una confirmación del día del nacimiento. Podés usarla para anticipar tareas y conversar un reemplazo, dejando claro que el aviso definitivo dependerá de lo que ocurra. En casa, esa diferencia también ayuda a no cerrar un plan de apoyo que solo funcione si todo sucede en una fecha exacta.',
-                    'Confirmá con tu empleador o el organismo competente los requisitos, eventuales costos de constancias y plazos vigentes.'
+                    'El artículo 13 de la Ley 5508/2015 concede a todo trabajador padre de un recién nacido 2 semanas de permiso posteriores al parto, con goce de sueldo, a cargo del empleador. Es irrenunciable: no se puede firmar un acuerdo para renunciar a él.',
+                    'Es un permiso distinto de la [licencia de maternidad](/derechos/licencia-de-maternidad/), que corresponde a la madre y la paga el IPS. En la licencia de paternidad quien paga el sueldo es el empleador.'
                 ],
-                'items' => [],
-                'table' => null
-            ],
-            [
-                'h2' => 'A quién avisar y qué dejar conversado',
-                'body' => [
-                    'Habitualmente el aviso se coordina con el empleador o el área de personal, mientras la organización de tareas se conversa con la persona responsable del equipo. Si son interlocutores distintos, preguntá cómo se compartirán las novedades. Elegí un canal que puedas usar cuando ocurra el nacimiento y guardá la respuesta sobre qué información necesitan recibir.',
-                    'Antes de la ausencia, podés preparar un listado de tareas abiertas con su estado y la persona que seguirá cada asunto. Compartí la información laboral necesaria mediante los canales del trabajo; no entregues contraseñas personales para facilitar un reemplazo. Una entrega clara puede reducir llamadas evitables durante el tiempo que querés dedicar al cuidado familiar.',
-                    'También conviene preguntar cómo se comunicará la fecha de regreso y qué hacer si aparece una diferencia entre lo previsto y lo registrado. Si recibís una indicación verbal, podés resumirla por escrito y pedir que aclaren cualquier error. El objetivo es que todas las personas involucradas trabajen con los mismos datos.'
-                ],
-                'items' => [],
-                'table' => null
-            ],
-            [
-                'h2' => 'Documentación habitual después del nacimiento',
-                'body' => [
-                    'Para acreditar el motivo de la ausencia suele solicitarse una constancia vinculada al nacimiento y los datos de quien pide la licencia. El documento concreto y el momento de presentación necesitan una indicación del empleador. No confundas una constancia disponible al salir del servicio de salud con todos los documentos que se gestionarán después para el bebé.',
-                    'Si todavía no tenés el documento que te pidieron, explicá qué constancia está disponible y preguntá cómo continuar. Conservá una copia de lo que entregues y de la respuesta. Evitá mandar documentación familiar a grupos amplios del trabajo: usá el destinatario indicado para la gestión y preguntá qué datos necesita.',
-                    'La tabla ordena preguntas frecuentes al preparar la consulta. No obliga a tramitar documentos adicionales ni reemplaza una lista oficial. Si alguien más va a entregar papeles mientras acompañás a la familia, averiguá primero cómo se admite esa presentación y qué respaldo necesita esa persona.'
-                ],
-                'items' => [],
-                'table' => [
-                    'head' => [
-                        'Dato o documento habitual',
-                        'Para qué se consulta',
-                        'Qué preguntar'
+                'items' => [
+                    [
+                        'title' => 'Duración',
+                        'text' => '2 semanas posteriores al parto'
                     ],
-                    'rows' => [
-                        [
-                            'Identificación del trabajador',
-                            'Vincular el pedido laboral',
-                            'Qué datos necesitan'
-                        ],
-                        [
-                            'Constancia del nacimiento',
-                            'Respaldar el motivo de la ausencia',
-                            'Qué documento aceptan'
-                        ],
-                        [
-                            'Aviso enviado',
-                            'Ubicar la comunicación',
-                            'Quién confirma recepción'
-                        ],
-                        [
-                            'Fechas registradas',
-                            'Organizar el regreso',
-                            'Cómo se informa una corrección'
-                        ]
+                    [
+                        'title' => 'Pago',
+                        'text' => 'Con goce de sueldo, a cargo del empleador'
+                    ],
+                    [
+                        'title' => 'Carácter',
+                        'text' => 'Irrenunciable'
                     ]
                 ]
             ],
             [
-                'h2' => 'Cómo repartir el acompañamiento en casa',
+                'h2' => 'Qué tenés que hacer durante esas dos semanas',
                 'body' => [
-                    'La licencia puede servir para participar en tareas concretas: organizar comidas, atender pendientes de la casa, acompañar traslados y facilitar que la madre descanse. Preguntale qué ayuda necesita y revisen el plan según cómo están. No conviertas la lista en una agenda rígida ni supongas que todas las familias tienen otra persona disponible para colaborar.',
-                    'Pueden separar las tareas que necesitan tu presencia de las que otra persona podría hacer con indicaciones sencillas. Por ejemplo, una compra puede delegarse, mientras una conversación sobre cómo se sienten requiere tiempo compartido. Hablar de esas prioridades antes del nacimiento permite pedir apoyos concretos cuando lleguen días más demandantes.',
-                    'Coordiná también qué información quieren compartir con familiares y visitas. Ser el contacto para mensajes puede aliviar esa carga si ambos lo acuerdan. La [licencia de maternidad](/derechos/licencia-de-maternidad/) tiene su propia duración y gestión: no asuman que los permisos de ambos terminan juntos ni que una solicitud resuelve la otra.'
-                ],
-                'items' => [],
-                'table' => null
+                    'La ley pone una obligación concreta: durante el permiso, el padre debe inscribir al niño o niña ante la Dirección General del Registro del Estado Civil de las Personas y tramitar los documentos necesarios para pedir la cédula de identidad en el Departamento de Identificaciones de la Policía Nacional.',
+                    'Podés adelantar la información con estas guías: [inscripción en el Registro Civil](/tramites/inscripcion-en-el-registro-civil/) y [cédula del bebé](/tramites/cedula-del-bebe/). Para todo lo que sigue, mirá [después del nacimiento](/tramites/despues-del-nacimiento/).'
+                ]
             ],
             [
-                'h2' => 'Si el nacimiento cambia el plan inicial',
+                'h2' => 'Cómo avisar en el trabajo',
                 'body' => [
-                    'Si el bebé nace antes o después de lo previsto, actualizá el aviso al trabajo con la información disponible y pedí que te indiquen cómo quedarán las fechas. Conservá la primera comunicación y la corrección. Si la familia atraviesa una situación que requiere más acompañamiento, planteá esa necesidad y consultá las opciones aplicables sin asumir una extensión automática de la licencia.',
-                    'Cuando tengas más de una relación laboral, consultá por separado cómo se gestiona la ausencia en cada una. No copies una autorización de un empleo como si resolviera la organización del otro. Si trabajás por cuenta propia, la planificación de tareas e ingresos necesita otro enfoque; la referencia laboral de dos semanas no confirma por sí sola una prestación económica.',
-                    'Para preparar el regreso, revisen quién queda a cargo de los pendientes que venías resolviendo. El [hub de derechos](/derechos/) y la [guía de la embarazada que trabaja](/derechos/derechos-de-la-embarazada-que-trabaja/) pueden ayudar a distinguir el calendario de cada integrante de la familia. La coordinación se vuelve más clara cuando cada ausencia tiene una fecha y un responsable de confirmarla.'
-                ],
-                'items' => [],
-                'table' => null
-            ],
-            [
-                'h2' => 'Si tu empleador no cumple',
-                'body' => [
-                    'Si te niegan la licencia o las fechas registradas no coinciden con la respuesta que recibiste, podés consultar al ministerio MTESS. Llevá el aviso del nacimiento, la solicitud y las comunicaciones laborales relevantes. Describí si la dificultad está en obtener una respuesta, acreditar el nacimiento o revisar una decisión ya comunicada.',
-                    'Si aparecen consecuencias sobre tu salario o tu continuidad, pedí orientación individual con los recibos y documentos disponibles. Una conversación familiar puede ayudarte a ordenar lo ocurrido, pero no reemplaza la evaluación del caso. Anotá las preguntas que no se resolvieron para que la consulta no termine únicamente en repetir que existe una licencia de dos semanas.'
-                ],
-                'items' => [],
-                'table' => null
+                    'Avisale a tu empleador con anticipación, por escrito, la fecha probable de parto y que vas a usar el permiso desde el nacimiento. Como el parto puede adelantarse, dejá dicho que la fecha es estimada y que la confirmás apenas nazca el bebé.',
+                    'Guardá el mensaje y, después del nacimiento, una copia de lo que te pidan. Si el empleador se niega o te descuenta esos días, juntá los mensajes y los recibos y consultá en el Ministerio de Trabajo, Empleo y Seguridad Social (MTESS).'
+                ]
             ]
         ],
         'steps' => [
             [
-                'title' => 'Anticipá la coordinación',
+                'title' => 'Avisá antes del parto',
                 'body' => [
-                    'Habitualmente se avisa al empleador que se aproxima el nacimiento y se pregunta por el canal de comunicación.'
+                    'Comunicá por escrito la fecha probable de parto y que vas a usar las 2 semanas.'
                 ]
             ],
             [
-                'title' => 'Comunicá el nacimiento',
+                'title' => 'Confirmá el nacimiento',
                 'body' => [
-                    'La gestión suele continuar con la constancia solicitada y la revisión de las fechas de ausencia.'
+                    'Apenas nazca el bebé, avisá la fecha real y entregá lo que te pidan.'
                 ]
             ],
             [
-                'title' => 'Revisá el regreso',
+                'title' => 'Hacé los trámites del bebé',
                 'body' => [
-                    'Pedí que la fecha comunicada quede identificada y actualizá tu organización familiar.'
+                    'Durante el permiso, inscribí al niño o niña en el Registro Civil y empezá el trámite de la cédula.'
                 ]
             ]
         ],
@@ -885,16 +810,16 @@ return [
         ],
         'faq' => [
             [
-                'q' => '¿Cuánto dura la licencia de paternidad?',
-                'a' => 'La referencia de la Ley 5508/2015 es de dos semanas; la aplicación se consulta según la relación laboral.'
+                'q' => '¿Cuántos días de licencia tiene el padre en Paraguay?',
+                'a' => '2 semanas posteriores al parto, con goce de sueldo. Las paga el empleador, no el IPS.'
             ],
             [
-                'q' => '¿La fecha probable de parto fija mi ausencia definitiva?',
-                'a' => 'No confirma el día del nacimiento. Usala para anticipar la organización y consultá cómo se fijan las fechas reales.'
+                'q' => '¿Se puede renunciar a la licencia de paternidad?',
+                'a' => 'No. La ley la establece con carácter irrenunciable.'
             ],
             [
-                'q' => '¿La licencia de la madre tramita también la del padre?',
-                'a' => 'Cada trabajador necesita identificar cómo se gestiona su propia ausencia con su empleador.'
+                'q' => '¿Qué tengo que hacer durante esas dos semanas?',
+                'a' => 'Inscribir al niño o niña en el Registro del Estado Civil y tramitar los documentos para pedir la cédula de identidad.'
             ]
         ],
         'related' => [
@@ -913,16 +838,10 @@ return [
         'validAsOf' => '2026-09-20',
         'sources' => [
             [
-                'title' => 'Ley 5508/2015 — protección de la maternidad y apoyo a la lactancia',
-                'publisher' => 'Congreso de la Nación Paraguaya',
-                'url' => null,
-                'accessed' => null
-            ],
-            [
-                'title' => 'Orientación sobre derechos laborales y maternidad — referencia para consulta',
-                'publisher' => 'MTESS',
-                'url' => null,
-                'accessed' => null
+                'title' => 'Ley 5508/2015 — promoción, protección de la maternidad y apoyo a la lactancia materna',
+                'publisher' => 'Biblioteca y Archivo Central del Congreso Nacional (BACN)',
+                'url' => 'https://www.bacn.gov.py/leyes-paraguayas/4428/promocion-proteccion-de-la-maternidad-y-apoyo-a-la-lactancia-materna',
+                'accessed' => '2026-09-20'
             ]
         ],
         'updated' => '2026-09-20',
@@ -1079,12 +998,7 @@ return [
         'reviewedAt' => null,
         'validAsOf' => '2026-09-20',
         'sources' => [
-            [
-                'title' => 'Ley 5099/2013 — gratuidad de la atención en servicios del MSPBS',
-                'publisher' => 'Congreso de la Nación Paraguaya',
-                'url' => null,
-                'accessed' => null
-            ],
+            ['title' => 'Ley 5099/2013 — gratuidad de aranceles de las prestaciones de salud del Ministerio de Salud Pública', 'publisher' => 'Biblioteca y Archivo Central del Congreso Nacional (BACN)', 'url' => 'https://www.bacn.gov.py/leyes-paraguayas/4706/de-la-gratuidad-de-aranceles-de-las-prestaciones-de-salud-de-los-establecimientos-del-ministerio-de-salud-publica-y-bienestar-social', 'accessed' => '2026-09-20'],
             [
                 'title' => 'Información institucional sobre gratuidad y acceso a servicios de salud — referencia para consulta',
                 'publisher' => 'MSPBS',
@@ -1273,24 +1187,9 @@ return [
         'reviewedAt' => null,
         'validAsOf' => '2026-09-20',
         'sources' => [
-            [
-                'title' => 'Ley 5508/2015 — protección de la maternidad y apoyo a la lactancia',
-                'publisher' => 'Congreso de la Nación Paraguaya',
-                'url' => null,
-                'accessed' => null
-            ],
-            [
-                'title' => 'Ley 7383/2024 — permiso remunerado para controles prenatales',
-                'publisher' => 'Congreso de la Nación Paraguaya',
-                'url' => null,
-                'accessed' => null
-            ],
-            [
-                'title' => 'Subsidio por reposo de maternidad: requisitos y trámite',
-                'publisher' => 'Instituto de Previsión Social (IPS)',
-                'url' => null,
-                'accessed' => null
-            ],
+            ['title' => 'Ley 5508/2015 — promoción, protección de la maternidad y apoyo a la lactancia materna', 'publisher' => 'Biblioteca y Archivo Central del Congreso Nacional (BACN)', 'url' => 'https://www.bacn.gov.py/leyes-paraguayas/4428/promocion-proteccion-de-la-maternidad-y-apoyo-a-la-lactancia-materna', 'accessed' => '2026-09-20'],
+            ['title' => 'Ley 7383/2024 — permisos para controles prenatales (nota oficial del MTESS)', 'publisher' => 'Ministerio de Trabajo, Empleo y Seguridad Social (MTESS)', 'url' => 'https://www.mtess.gov.py/?p=30138', 'accessed' => '2026-09-20'],
+            ['title' => '¿Qué saber del pago del subsidio por reposo de maternidad?', 'publisher' => 'Instituto de Previsión Social (IPS)', 'url' => 'https://portal.ips.gov.py/sistemas/ipsportal/noticia.php?cod=685', 'accessed' => '2026-09-20'],
             [
                 'title' => 'Orientación sobre derechos laborales y maternidad — referencia para consulta',
                 'publisher' => 'MTESS',
@@ -2287,107 +2186,74 @@ return [
     'asignacion-familiar' => [
         'cluster' => 'tramites',
         'path' => '/tramites/asignacion-familiar/',
-        'title' => 'Asignación familiar: cómo consultar la bonificación',
-        'seoTitle' => 'Asignación familiar: requisitos y consulta',
-        'metaDescription' => 'Conocé cómo consultar la bonificación familiar: documentos habituales, base de cálculo y preguntas para revisar la solicitud y el recibo de salario.',
+        'title' => 'Asignación familiar en Paraguay: monto y condiciones',
+        'seoTitle' => 'Asignación familiar: monto y requisitos',
+        'metaDescription' => 'Asignación familiar en Paraguay: el Código del Trabajo reconoce el 5 % del salario mínimo por cada hijo menor de 17 años. Condiciones y cómo consultarla.',
         'kind' => 'procedural',
-        'lead' => 'Si buscás información sobre asignación familiar en el trabajo, preguntá por la bonificación familiar y por las condiciones aplicables a tu relación laboral. El Código del Trabajo, artículo 261 y siguientes, contempla una referencia del 5 %. Ese porcentaje solo no permite calcular tu importe: necesitás conocer la base y los requisitos de tu caso. Habitualmente la consulta empieza con quien gestiona personal o salarios.',
+        'lead' => 'El Código del Trabajo (artículo 261) reconoce a todo trabajador una asignación familiar equivalente al 5 % del salario mínimo por cada hijo, matrimonial, extramatrimonial o adoptivo. Para cobrarla, el hijo o la hija debe ser menor de 17 años cumplidos (sin límite de edad si tiene una discapacidad física o mental total), estar bajo tu patria potestad, criarse y educarse a tus expensas y residir en el país (artículo 262). Preguntá en el área de personal cómo se liquida y qué documentos piden.',
         'sections' => [
             [
-                'h2' => 'Identificá el beneficio que estás consultando',
+                'h2' => 'Qué es y cuánto es',
                 'body' => [
-                    'La expresión asignación familiar puede usarse para hablar de ayudas distintas. Si tu consulta nace de un recibo de salario o de una conversación con el empleador, pedí que identifiquen el concepto exacto. La referencia disponible para la bonificación familiar es el Código del Trabajo, artículo 261 y siguientes. Nombrar el concepto permite separar esa consulta de un subsidio por maternidad o de otra prestación para la familia.',
-                    'Empezá por explicar tu relación laboral y si ya recibís algún concepto con ese nombre. Si tenés más de una actividad o cambiaste de empleo, contalo antes de calcular un monto esperado. Habitualmente quien liquida salarios puede explicar qué información tiene registrada y qué antecedentes necesita para revisar el caso. No supongas que la situación de una compañera se aplica automáticamente a la tuya.',
-                    'Confirmá con quien tramita el beneficio los requisitos, costos y plazos vigentes, y consultá el monto vigente para tu caso.'
-                ],
-                'items' => [],
-                'table' => null
+                    'La asignación familiar es un beneficio del Código del Trabajo (Ley 213/93, artículo 261): todo trabajador tiene derecho a percibir una asignación equivalente al 5 % del salario mínimo por cada hijo, sea matrimonial, extramatrimonial o adoptivo. La ley la prevé hasta que se implante un sistema legal de compensación de asignaciones familiares basado en el seguro social.',
+                    'El monto exacto depende del salario mínimo vigente, que cambia. Consultá el valor actual en el Ministerio de Trabajo, Empleo y Seguridad Social (MTESS) y aplicá el 5 % por cada hijo o hija.'
+                ]
             ],
             [
-                'h2' => 'Qué significa la referencia del porcentaje',
+                'h2' => 'Condiciones para cobrarla',
                 'body' => [
-                    'El dato del 5 % necesita una base de cálculo para convertirse en una suma de dinero. Pedí que te expliquen qué base utilizan, qué condiciones revisan y cómo aparece el resultado en la liquidación. No lo multipliques por una cantidad de hijos ni por un salario elegido por intuición. Esas condiciones necesitan una respuesta específica antes de armar una expectativa de cobro.',
-                    'Podés preparar una hoja con el nombre del concepto, la base informada y el importe comunicado. Si todavía falta un dato, dejalo identificado como pendiente. Eso te permite revisar una explicación sin confundir una estimación personal con una liquidación del empleador. Si la respuesta usa términos que no conocés, preguntá qué significa cada uno y qué documento respalda la información aplicada a tu situación.',
-                    'Para el presupuesto familiar, separá los ingresos ya confirmados de los que estás consultando. Un documento entregado no demuestra por sí solo que el beneficio está reconocido ni que vaya a aparecer en el siguiente pago. Preguntá cómo te comunicarán el resultado de la revisión y por qué medio podés seguirla.'
+                    'El artículo 262 pide que el hijo o la hija cumpla estas condiciones a la vez: que sea menor de diecisiete años cumplidos (sin límite de edad si tiene una discapacidad física o mental total), que esté bajo tu patria potestad, que su crianza y educación corran por tu cuenta y que resida en el territorio nacional.'
                 ],
-                'items' => [],
-                'table' => null
-            ],
-            [
-                'h2' => 'Documentos habituales para la solicitud',
-                'body' => [
-                    'Habitualmente la consulta incluye identificación, documentación que permita acreditar el vínculo familiar y antecedentes laborales. La lista depende de las condiciones que deban revisarse. La tabla muestra documentos usuales por confirmar; usala para preguntar qué corresponde presentar, no para reunir certificados sin una indicación concreta. La [inscripción del nacimiento](/tramites/inscripcion-en-el-registro-civil/) puede ayudarte a ubicar la documentación del bebé que te soliciten.',
-                    'Si el documento pedido todavía está en trámite, explicá cuál tenés disponible y preguntá cómo continuar. No afirmes que una foto o el certificado del parto reemplaza cualquier constancia de inscripción. Conservá una referencia de lo que entregaste y de la respuesta sobre documentos pendientes. Si hay datos que no coinciden, describí la diferencia antes de presentar nuevas copias del mismo papel.'
-                ],
-                'items' => [],
                 'table' => [
                     'head' => [
-                        'Documento habitual, a confirmar',
-                        'Para qué sirve',
-                        'Qué revisar'
+                        'Condición',
+                        'Qué dice el artículo 262'
                     ],
                     'rows' => [
                         [
-                            'Identificación de quien solicita',
-                            'Relacionar la consulta con el empleo',
-                            'Datos del registro laboral'
+                            'Edad',
+                            'Menor de 17 años cumplidos; sin límite de edad si tiene una discapacidad física o mental total'
                         ],
                         [
-                            'Documento del vínculo familiar',
-                            'Revisar la condición invocada',
-                            'Constancia aceptada'
+                            'Patria potestad',
+                            'El hijo o la hija está bajo tu patria potestad'
                         ],
                         [
-                            'Recibo de salario disponible',
-                            'Identificar concepto y período',
-                            'Base e importe informados'
+                            'Crianza y educación',
+                            'Corren a tus expensas'
                         ],
                         [
-                            'Referencia de presentación',
-                            'Seguir la revisión',
-                            'Documentos pendientes'
+                            'Residencia',
+                            'Reside en el territorio nacional'
                         ]
                     ]
                 ]
             ],
             [
-                'h2' => 'Cómo revisar el recibo y una diferencia de importe',
+                'h2' => 'Cómo pedirla y cómo revisar el pago',
                 'body' => [
-                    'Cuando recibas una explicación o una liquidación, buscá el nombre del concepto y el período al que corresponde. Compará esa información con lo que te comunicaron al iniciar la consulta. Si aparece un importe distinto del esperado, preguntá primero por la base, las condiciones consideradas y el período reconocido. Así podés identificar una diferencia concreta en lugar de reclamar sobre una suma calculada con supuestos.',
-                    'Guardá el recibo y la respuesta que usaste como referencia. Si el beneficio no figura, consultá si falta documentación, si la revisión está pendiente o si te comunicaron que no corresponde. Son explicaciones diferentes y requieren preguntas distintas. Pedí que indiquen el motivo cuando la respuesta sea negativa, para poder entender qué condición están aplicando.',
-                    'Si persiste un desacuerdo, reuní contrato o antecedentes laborales disponibles, recibos, documentos presentados y comunicaciones. Con esa información podés buscar orientación jurídica sobre tu caso. Evitá firmar una explicación que no comprendés sin pedir que te aclaren su alcance; ordenar los hechos ayuda a formular una consulta más precisa.'
-                ],
-                'items' => [],
-                'table' => null
-            ],
-            [
-                'h2' => 'Cómo se relaciona con los demás trámites del nacimiento',
-                'body' => [
-                    'La bonificación familiar no es lo mismo que la [licencia de maternidad](/derechos/licencia-de-maternidad/) ni que el subsidio durante el reposo. Si gestionás esos temas al mismo tiempo, armá consultas separadas aunque hables con la misma persona del trabajo. Una puede tratar fechas de ausencia, otra condiciones de un pago por maternidad y otra la documentación familiar. Esa separación evita considerar una respuesta general como aprobación de todo.',
-                    'También puede ser útil coordinar con quien te acompaña qué documento está disponible y quién guarda cada constancia. No compartas recibos completos con personas que solo necesitan ayudarte a retirar un papel. Para pedir una copia o consultar una entrega, comunicá únicamente los datos necesarios. Conservá en tu carpeta laboral la referencia del documento familiar presentado, de modo que puedas localizarlo después.',
-                    'Si cambia una circunstancia que declaraste, preguntá cómo se informa y qué revisión corresponde. No deduzcas por tu cuenta que el importe seguirá igual o que un cambio obliga a devolver una suma. En el [hub de trámites](/tramites/) y en la guía [después del nacimiento](/tramites/despues-del-nacimiento/) podés ordenar las otras gestiones sin mezclarlas con esta consulta laboral.'
-                ],
-                'items' => [],
-                'table' => null
+                    'Después del nacimiento, tendrás que acreditar el vínculo con el hijo o la hija. Preguntá en el área de personal de tu trabajo cómo se liquida la asignación y qué documentos piden; suelen pedir la partida de nacimiento, que se obtiene al inscribir al bebé (mirá [inscripción en el Registro Civil](/tramites/inscripcion-en-el-registro-civil/)).',
+                    'Para revisar el recibo, calculá el 5 % del salario mínimo vigente por cada hijo o hija que cumple las condiciones y compará con el concepto que figura en tu recibo. Si hay una diferencia, pedí que te expliquen cómo la calcularon. Más trámites del nacimiento en [después del nacimiento](/tramites/despues-del-nacimiento/) y [cédula del bebé](/tramites/cedula-del-bebe/).'
+                ]
             ]
         ],
         'steps' => [
             [
-                'title' => 'Nombrá el beneficio',
+                'title' => 'Inscribí al bebé',
                 'body' => [
-                    'Preguntá por bonificación familiar y explicá tu situación laboral.'
+                    'Con la inscripción en el Registro Civil obtenés la partida de nacimiento.'
                 ]
             ],
             [
-                'title' => 'Pedí la base de cálculo',
+                'title' => 'Preguntá en personal',
                 'body' => [
-                    'Revisá condiciones e importe antes de incorporarlo al presupuesto.'
+                    'Consultá cómo se liquida la asignación en tu trabajo y qué documentos piden.'
                 ]
             ],
             [
-                'title' => 'Presentá lo solicitado',
+                'title' => 'Revisá tu recibo',
                 'body' => [
-                    'Guardá constancia de la entrega y preguntá cómo conocer el resultado.'
+                    'Calculá el 5 % del salario mínimo vigente por hijo y compará con el concepto del recibo.'
                 ]
             ]
         ],
@@ -2398,16 +2264,16 @@ return [
         ],
         'faq' => [
             [
-                'q' => '¿El 5 % me dice cuánto voy a cobrar?',
-                'a' => 'No por sí solo. Necesitás conocer la base y las condiciones aplicables antes de calcular una suma.'
+                'q' => '¿De cuánto es la asignación familiar?',
+                'a' => 'El 5 % del salario mínimo por cada hijo, matrimonial, extramatrimonial o adoptivo (Código del Trabajo, artículo 261).'
             ],
             [
-                'q' => '¿Es el mismo pago que el subsidio por maternidad?',
-                'a' => 'Son conceptos distintos. Consultá por separado el beneficio familiar y el subsidio vinculado al reposo.'
+                'q' => '¿Hasta qué edad se cobra?',
+                'a' => 'Hasta que el hijo o la hija cumple 17 años; no hay límite de edad si tiene una discapacidad física o mental total.'
             ],
             [
-                'q' => '¿Qué hago si no aparece en el recibo?',
-                'a' => 'Preguntá por el estado de la revisión y por el motivo: documentación pendiente, evaluación sin concluir o una respuesta sobre su aplicación.'
+                'q' => '¿Qué condiciones tiene que cumplir el hijo o la hija?',
+                'a' => 'Estar bajo tu patria potestad, criarse y educarse a tus expensas y residir en el territorio nacional, además de la edad.'
             ]
         ],
         'related' => [
@@ -2423,16 +2289,10 @@ return [
         'validAsOf' => '2026-09-20',
         'sources' => [
             [
-                'title' => 'Código del Trabajo ¿? artículo 261 y siguientes, bonificación familiar',
-                'publisher' => 'Congreso de la Nación Paraguaya',
-                'url' => null,
-                'accessed' => null
-            ],
-            [
-                'title' => 'Guía de derechos de la embarazada que trabaja',
-                'publisher' => 'Mi Bebé',
-                'url' => null,
-                'accessed' => null
+                'title' => 'Código del Trabajo (Ley 213/93) — artículos 261 y 262, asignación familiar',
+                'publisher' => 'Biblioteca y Archivo Central del Congreso Nacional (BACN)',
+                'url' => 'https://www.bacn.gov.py/leyes-paraguayas/2608/ley-n-213establece-el-',
+                'accessed' => '2026-09-20'
             ]
         ],
         'updated' => '2026-09-20',
