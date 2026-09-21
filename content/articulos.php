@@ -173,7 +173,18 @@ return [
                 'accessed' => '2026-09-20'
             ]
         ],
-        'updated' => '2026-09-20', 'image' => null,
+        'updated' => '2026-09-20',
+        'image' => [
+            'slug' => 'licencia-maternidad-formulario-sellado-paraguay',
+            'alt' => 'Un formulario con sello sobre un escritorio de madera, con un calendario y una lapicera, ilustración del artículo sobre licencia de maternidad.',
+            'w' => 768,
+            'h' => 432,
+            'widths' => [
+                160,
+                480,
+                768
+            ]
+        ]
     ],
     'subsidio-de-maternidad-ips' => [
         'cluster' => 'derechos',
@@ -1204,7 +1215,17 @@ return [
             ]
         ],
         'updated' => '2026-09-20',
-        'image' => null
+        'image' => [
+            'slug' => 'embarazada-que-trabaja-derechos-oficina-paraguay',
+            'alt' => 'Una embarazada sentada en su escritorio de trabajo con una carpeta y un termo de tereré, ilustración del artículo sobre derechos de la embarazada que trabaja.',
+            'w' => 768,
+            'h' => 432,
+            'widths' => [
+                160,
+                480,
+                768
+            ]
+        ]
     ],
     'carne-perinatal' => [
         'cluster' => 'tramites',
@@ -1362,7 +1383,17 @@ return [
             ]
         ],
         'updated' => '2026-09-20',
-        'image' => null
+        'image' => [
+            'slug' => 'carne-perinatal-embarazo-paraguay',
+            'alt' => 'Una mano sostiene abierto un carné perinatal con un lápiz al lado, ilustración del artículo sobre el carné perinatal.',
+            'w' => 768,
+            'h' => 432,
+            'widths' => [
+                160,
+                480,
+                768
+            ]
+        ]
     ],
     'inscribirse-en-ips-embarazada' => [
         'cluster' => 'tramites',
@@ -1717,7 +1748,17 @@ return [
             ]
         ],
         'updated' => '2026-09-20',
-        'image' => null
+        'image' => [
+            'slug' => 'control-prenatal-ips-o-sanatorio-privado',
+            'alt' => 'Dos edificios de salud, uno público con techo de chapa y otro privado con puerta verde, ilustración del artículo sobre control prenatal en IPS o privado.',
+            'w' => 768,
+            'h' => 432,
+            'widths' => [
+                160,
+                480,
+                768
+            ]
+        ]
     ],
     'certificado-de-nacido-vivo' => [
         'cluster' => 'tramites',
@@ -2477,7 +2518,17 @@ return [
             ]
         ],
         'updated' => '2026-09-20',
-        'image' => null
+        'image' => [
+            'slug' => 'tramites-despues-del-nacimiento-partida-paraguay',
+            'alt' => 'Una carpeta con documentos junto a un gorrito tejido de bebé, ilustración del artículo sobre trámites después del nacimiento.',
+            'w' => 768,
+            'h' => 432,
+            'widths' => [
+                160,
+                480,
+                768
+            ]
+        ]
     ],
     'vacunas-en-el-embarazo' => [
         'cluster' => 'salud',
@@ -2650,7 +2701,17 @@ return [
             ]
         ],
         'updated' => '2026-09-20',
-        'image' => null
+        'image' => [
+            'slug' => 'vacunas-embarazo-carne-vacunacion-paraguay',
+            'alt' => 'Un carné de vacunación abierto junto a un algodón y una curita sobre una mesa, ilustración del artículo sobre vacunas en el embarazo.',
+            'w' => 768,
+            'h' => 432,
+            'widths' => [
+                160,
+                480,
+                768
+            ]
+        ]
     ],
     'dengue-en-el-embarazo' => [
         'cluster' => 'salud',
@@ -2822,7 +2883,17 @@ return [
             ]
         ],
         'updated' => '2026-09-20',
-        'image' => null
+        'image' => [
+            'slug' => 'dengue-embarazo-mosquitero-ventana-paraguay',
+            'alt' => 'Una ventana con mosquitero y un ventilador, y una mano que vacía un balde con agua, ilustración del artículo sobre dengue en el embarazo.',
+            'w' => 768,
+            'h' => 432,
+            'widths' => [
+                160,
+                480,
+                768
+            ]
+        ]
     ],
     'senales-de-alarma' => [
         'cluster' => 'salud',
@@ -2973,7 +3044,17 @@ return [
             ]
         ],
         'updated' => '2026-09-20',
-        'image' => null
+        'image' => [
+            'slug' => 'senales-de-alarma-embarazo-llamada-celular',
+            'alt' => 'Un celular sobre una mesa de luz con una llamada en curso, junto a un vaso de agua, ilustración del artículo sobre señales de alarma en el embarazo.',
+            'w' => 768,
+            'h' => 432,
+            'widths' => [
+                160,
+                480,
+                768
+            ]
+        ]
     ],
     'presion-alta-y-preeclampsia' => [
         'cluster' => 'salud',
@@ -3867,7 +3948,17 @@ return [
             ['title' => 'Manual sobre las cinco claves para la inocuidad de los alimentos', 'publisher' => 'Organización Mundial de la Salud (OMS)', 'url' => null, 'accessed' => null],
         ],
         'updated' => '2026-09-20',
-        'image' => null,
+        'image' => [
+            'slug' => 'terere-embarazo-guampa-termo-paraguay',
+            'alt' => 'Un termo, una guampa con bombilla y un manojo de yuyos sobre una mesa de madera, ilustración del artículo sobre tereré en el embarazo.',
+            'w' => 768,
+            'h' => 432,
+            'widths' => [
+                160,
+                480,
+                768
+            ]
+        ],
     ],
     'mate-y-cocido' => [
         'cluster' => 'alimentacion',
