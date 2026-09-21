@@ -33,15 +33,21 @@ function fmt_measure(?float $value): string
  */
 function site_origin(): string
 {
-    $configured = cfg('SITE_URL');
-    if ($configured !== null) {
+    $configured = trim((string) cfg('SITE_URL'));
+    if ($configured !== '') {
         return rtrim($configured, '/');
     }
 
-    $https  = ($_SERVER['HTTPS'] ?? '') === 'on' || ($_SERVER['SERVER_PORT'] ?? '') === '443';
-    $host   = $_SERVER['HTTP_HOST'] ?? (string) site('domain');
+    // The request Host header is attacker-controlled: trust it only for local preview, never
+    // for the canonical, Open Graph and sitemap URLs of the live site (host-header poisoning).
+    $host = (string) ($_SERVER['HTTP_HOST'] ?? '');
+    if (preg_match('/\A(localhost|127\.0\.0\.1|\[::1\])(:\d{1,5})?\z/', $host) === 1) {
+        $https = ($_SERVER['HTTPS'] ?? '') === 'on' || ($_SERVER['SERVER_PORT'] ?? '') === '443';
 
-    return ($https ? 'https://' : 'http://') . $host;
+        return ($https ? 'https://' : 'http://') . $host;
+    }
+
+    return 'https://' . (string) site('domain');
 }
 
 /**

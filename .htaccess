@@ -34,15 +34,20 @@ DirectoryIndex index.php index.html
 ErrorDocument 404 /404.php
 
 # --- keep the application's internals off the web ------------------------
-RedirectMatch 404 ^/(content|lib|partials|templates|docs|prompts|tests|deploy)(/|$)
+# Hostinger's Git deploy puts the whole repository in the web root, so every folder that is not
+# the site itself must be denied here (design/ holds preview pages with unverified copy).
+RedirectMatch 404 ^/(content|lib|partials|templates|docs|prompts|tests|deploy|design|tools)(/|$)
 RedirectMatch 404 ^/logs(/|$)
-RedirectMatch 404 ^/\.git(/|$)
+# Dotfiles and dot-folders (.git, .github, .gitattributes) except /.well-known/ (SSL validation).
+RedirectMatch 404 ^/\.(?!well-known/)
+# PHP under assets/ is include-only, never a page.
+RedirectMatch 404 ^/assets/.*\.php$
 
 <FilesMatch "^(config|config\.example)\.php$">
   Require all denied
 </FilesMatch>
 
-<FilesMatch "\.(md|sh|json|lock|ya?ml|log|dc\.html)$">
+<FilesMatch "\.(md|sh|json|lock|ya?ml|log|mjs|dc\.html)$">
   Require all denied
 </FilesMatch>
 
