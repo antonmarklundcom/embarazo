@@ -8,6 +8,11 @@ corregidos no son pendientes.
 
 - Revisión humana médica/legal y fuentes oficiales vigentes pendientes. Gates técnicos
   verdes no equivalen a aprobación editorial (todos los lotes).
+- Verificado el 2026-09-20 contra los textos oficiales (Ley 5508, Ley 7383 vía MTESS, Ley 5099, Código del
+  Trabajo arts. 261-262 y la página del IPS): los artículos licencia de maternidad, permiso para controles,
+  hora de lactancia, licencia de paternidad, fuero, subsidio IPS y asignación familiar se reescribieron con
+  esas cifras y enlaces oficiales. Sigue faltando la revisión de un abogado o abogada laboralista y de un
+  profesional de salud; ver docs/facts-to-verify.md (secciones VERIFIED y Still NOT verified).
 - No hay canal público de contacto/correcciones: /contacto/ permanece 200/noindex hasta que se
   cargue WhatsApp, correo o teléfono en content/site.php; entonces se activa sola (indexable, en
   el sitemap, con los canales listados).

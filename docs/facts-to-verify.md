@@ -423,3 +423,39 @@ de su fase: L ya activó los enlaces y P1 retiró la promesa offline compartida.
 
 ### T1 STAGE A — 2026-09-20 (offline editorial review)
 - Guaraní: derechos enables the strip, but strings remain absent pending native review; stage B must not invent translations.
+
+## VERIFIED against official sources (2026-09-20, Sonnet, pages opened in a browser)
+
+Each line was read on the official page itself, not from a search snippet. Articles rewritten from these: licencia-de-maternidad,
+permiso-para-controles, hora-de-lactancia, licencia-de-paternidad, fuero-maternal-y-despido, subsidio-de-maternidad-ips, asignacion-familiar.
+
+- **Ley 5508/2015** (BACN, https://www.bacn.gov.py/leyes-paraguayas/4428/promocion-proteccion-de-la-maternidad-y-apoyo-a-la-lactancia-materna):
+  art. 11 licencia 18 semanas, hasta 2 semanas antes del parto, certificado médico expedido o visado por IPS o MSPBS; 24 semanas si el parto es
+  antes de la semana 35, el bebé pesa menos de 2.000 g o nace con enfermedad congénita que requiere incubadora o cuidados especiales; embarazo
+  múltiple +1 mes por cada niño desde el segundo; rige la duración mayor si coinciden. Art. 12 subsidio IPS 100 % de la remuneración al momento del
+  parto; si el empleador no inscribió o está en mora con el IPS, paga él el 100 %. Art. 13 adopción 18 semanas (<6 meses) o 12 (>6 meses);
+  paternidad 2 semanas posteriores al parto, con goce de sueldo a cargo del empleador, irrenunciable, con inscripción en el Registro Civil y
+  trámite de cédula durante el período. Art. 14 lactancia 90 min/día los primeros 6 meses, desde el reintegro; 60 min/día desde los 7 hasta los
+  24 meses con indicación médica; tiempo trabajado con goce de salario. Art. 15 preaviso y despido nulos desde la notificación del embarazo y
+  durante los permisos; inamovilidad hasta 1 año después del nacimiento o adopción; embarazo, nacimiento y lactancia nunca son causa justificada.
+- **Ley 6453/2019** (BACN, promulgada 16-12-2019): modifica los artículos 1, 2, 16, 17 y 19 de la Ley 5508 y la amplía. No se verificó qué cambió
+  exactamente en cada uno; los artículos 11 a 15 citados arriba no figuran entre los modificados.
+- **Ley 7383/2024** (nota oficial del MTESS, 27-12-2024, https://www.mtess.gov.py/?p=30138): hasta 4 horas por control prenatal, computadas como
+  trabajadas y no descontables; ampliables con aval del médico tratante; aviso de al menos 48 horas y constancia posterior salvo urgencia; no pueden
+  denegarse; el incumplimiento se sanciona. NOTA: la dirección de la BACN que devuelve el buscador para esta ley (id 12925) abre OTRA ley; no se usa.
+- **Ley 5099/2013** (BACN, promulgada 19-11-2013): gratuidad de aranceles de las prestaciones de salud de los establecimientos del MSPBS; el MSPBS aplica la
+  gratuidad según el listado institucional de medicamentos e insumos.
+- **Código del Trabajo, Ley 213/93** (BACN): art. 261 asignación familiar = 5 % del salario mínimo por hijo (matrimonial, extramatrimonial o adoptivo);
+  art. 262 condiciones: menor de 17 años cumplidos (sin límite si discapacidad total), bajo patria potestad, a expensas del trabajador, residente en el país.
+- **IPS** (https://portal.ips.gov.py/sistemas/ipsportal/noticia.php?cod=685): subsidio del 100 % para nacimientos desde el 30-10-2018; requisitos: al día con
+  aportes, mínimo 4 meses de aportes anteriores y 6 semanas de cuotas de trabajo efectivo; reposo de maternidad solo desde la semana 38; el certificado
+  incluye la FUM; documentos: certificado de reposo, formulario de solicitud de pago y cédula, entre otros.
+
+## Still NOT verified (needs a person or a source)
+
+- About 80 distinct generic source titles (for example "Orientaciones para el control prenatal | MSPBS") are not real document titles and have no URL.
+  Real, well-known ones (WHO antenatal care recommendations, NICE NG201) need their official URLs checked before being linked. Replace or link each.
+- Three IPS entries in the tramites articles ("Orientación vigente sobre afiliación y prestaciones", "... prestaciones de salud", "... atención de maternidad y admisión").
+- The multiplier for the IPS maximum daily subsidy (a search summary said 5 times the minimum daily wage) was not read on an official page: not stated on the site.
+- Blog post on dengue names ibuprofeno and aspirina as things not to self-medicate with in suspected dengue: standard advice, but a clinician should confirm the wording.
+- Tramites articles (carné perinatal, IPS enrolment, certificado de nacido vivo, Registro Civil, cédula, después del nacimiento) remain deliberately general.

@@ -216,7 +216,7 @@ return [
             ['title' => 'Recomendaciones de la OMS sobre atención prenatal para una experiencia positiva del embarazo', 'publisher' => 'Organización Mundial de la Salud (OMS)', 'url' => null, 'accessed' => null],
             ['title' => 'Orientaciones para el control prenatal', 'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)', 'url' => null, 'accessed' => null],
             ['title' => 'Ectopic pregnancy and miscarriage: diagnosis and initial management (NG126)', 'publisher' => 'National Institute for Health and Care Excellence (NICE)', 'url' => null, 'accessed' => null],
-            ['title' => 'Ley 7383/2024 — permisos para controles prenatales', 'publisher' => 'Congreso de la Nación Paraguaya', 'url' => null, 'accessed' => null],
+            ['title' => 'Ley 7383/2024 — permisos para controles prenatales (nota oficial del MTESS)', 'publisher' => 'Ministerio de Trabajo, Empleo y Seguridad Social (MTESS)', 'url' => 'https://www.mtess.gov.py/?p=30138', 'accessed' => '2026-09-20'],
             ['title' => 'Orientaciones de vacunación del Programa Ampliado de Inmunizaciones (PAI)', 'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)', 'url' => null, 'accessed' => null],
         ],
         'size' => [
@@ -270,7 +270,7 @@ return [
             ['title' => 'Recomendaciones de la OMS sobre atención prenatal para una experiencia positiva del embarazo', 'publisher' => 'Organización Mundial de la Salud (OMS)', 'url' => null, 'accessed' => null],
             ['title' => 'Orientaciones para el control prenatal', 'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)', 'url' => null, 'accessed' => null],
             ['title' => 'How Your Fetus Grows During Pregnancy', 'publisher' => 'American College of Obstetricians and Gynecologists (ACOG)', 'url' => null, 'accessed' => null],
-            ['title' => 'Ley 5099/2013 — gratuidad de prestaciones del MSPBS', 'publisher' => 'Congreso de la Nación Paraguaya', 'url' => null, 'accessed' => null],
+            ['title' => 'Ley 5099/2013 — gratuidad de aranceles de las prestaciones de salud del Ministerio de Salud Pública', 'publisher' => 'Biblioteca y Archivo Central del Congreso Nacional (BACN)', 'url' => 'https://www.bacn.gov.py/leyes-paraguayas/4706/de-la-gratuidad-de-aranceles-de-las-prestaciones-de-salud-de-los-establecimientos-del-ministerio-de-salud-publica-y-bienestar-social', 'accessed' => '2026-09-20'],
             ['title' => 'Orientaciones de vacunación del Programa Ampliado de Inmunizaciones (PAI)', 'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)', 'url' => null, 'accessed' => null],
         ],
         'size' => [
@@ -324,7 +324,7 @@ return [
             ['title' => 'Recomendaciones de la OMS sobre atención prenatal para una experiencia positiva del embarazo', 'publisher' => 'Organización Mundial de la Salud (OMS)', 'url' => null, 'accessed' => null],
             ['title' => 'Orientaciones para el control prenatal', 'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)', 'url' => null, 'accessed' => null],
             ['title' => 'Ectopic pregnancy and miscarriage: diagnosis and initial management (NG126)', 'publisher' => 'National Institute for Health and Care Excellence (NICE)', 'url' => null, 'accessed' => null],
-            ['title' => 'Ley 7383/2024 — permisos para controles prenatales', 'publisher' => 'Congreso de la Nación Paraguaya', 'url' => null, 'accessed' => null],
+            ['title' => 'Ley 7383/2024 — permisos para controles prenatales (nota oficial del MTESS)', 'publisher' => 'Ministerio de Trabajo, Empleo y Seguridad Social (MTESS)', 'url' => 'https://www.mtess.gov.py/?p=30138', 'accessed' => '2026-09-20'],
             ['title' => 'Orientaciones de vacunación del Programa Ampliado de Inmunizaciones (PAI)', 'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)', 'url' => null, 'accessed' => null],
         ],
         'size' => [
@@ -378,7 +378,7 @@ return [
             ['title' => 'Recomendaciones de la OMS sobre atención prenatal para una experiencia positiva del embarazo', 'publisher' => 'Organización Mundial de la Salud (OMS)', 'url' => null, 'accessed' => null],
             ['title' => 'Orientaciones para el control prenatal y la salud bucodental durante el embarazo', 'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)', 'url' => null, 'accessed' => null],
             ['title' => 'How Your Fetus Grows During Pregnancy', 'publisher' => 'American College of Obstetricians and Gynecologists (ACOG)', 'url' => null, 'accessed' => null],
-            ['title' => 'Ley 7383/2024 — permisos para controles prenatales', 'publisher' => 'Congreso de la Nación Paraguaya', 'url' => null, 'accessed' => null],
+            ['title' => 'Ley 7383/2024 — permisos para controles prenatales (nota oficial del MTESS)', 'publisher' => 'Ministerio de Trabajo, Empleo y Seguridad Social (MTESS)', 'url' => 'https://www.mtess.gov.py/?p=30138', 'accessed' => '2026-09-20'],
             ['title' => 'Orientaciones de vacunación del Programa Ampliado de Inmunizaciones (PAI)', 'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)', 'url' => null, 'accessed' => null],
         ],
         'size' => [
@@ -467,12 +467,7 @@ return [
                 'url' => null,
                 'accessed' => null,
             ],
-            [
-                'title' => 'Ley 7383/2024 — permisos para controles prenatales',
-                'publisher' => 'Congreso de la Nación Paraguaya',
-                'url' => null,
-                'accessed' => null,
-            ],
+            ['title' => 'Ley 7383/2024 — permisos para controles prenatales (nota oficial del MTESS)', 'publisher' => 'Ministerio de Trabajo, Empleo y Seguridad Social (MTESS)', 'url' => 'https://www.mtess.gov.py/?p=30138', 'accessed' => '2026-09-20'],
         ],
         'size' => [
             'name' => 'un poroto',
@@ -560,12 +555,7 @@ return [
                 'url' => null,
                 'accessed' => null,
             ],
-            [
-                'title' => 'Ley 7383/2024 — permisos para controles prenatales',
-                'publisher' => 'Congreso de la Nación Paraguaya',
-                'url' => null,
-                'accessed' => null,
-            ],
+            ['title' => 'Ley 7383/2024 — permisos para controles prenatales (nota oficial del MTESS)', 'publisher' => 'Ministerio de Trabajo, Empleo y Seguridad Social (MTESS)', 'url' => 'https://www.mtess.gov.py/?p=30138', 'accessed' => '2026-09-20'],
         ],
         'size' => [
             'name' => 'una aceituna',
@@ -653,12 +643,7 @@ return [
                 'url' => null,
                 'accessed' => null,
             ],
-            [
-                'title' => 'Ley 7383/2024 — permisos para controles prenatales',
-                'publisher' => 'Congreso de la Nación Paraguaya',
-                'url' => null,
-                'accessed' => null,
-            ],
+            ['title' => 'Ley 7383/2024 — permisos para controles prenatales (nota oficial del MTESS)', 'publisher' => 'Ministerio de Trabajo, Empleo y Seguridad Social (MTESS)', 'url' => 'https://www.mtess.gov.py/?p=30138', 'accessed' => '2026-09-20'],
         ],
         'size' => [
             'name' => 'una guinda',
@@ -746,12 +731,7 @@ return [
                 'url' => null,
                 'accessed' => null,
             ],
-            [
-                'title' => 'Ley 7383/2024 — permisos para controles prenatales',
-                'publisher' => 'Congreso de la Nación Paraguaya',
-                'url' => null,
-                'accessed' => null,
-            ],
+            ['title' => 'Ley 7383/2024 — permisos para controles prenatales (nota oficial del MTESS)', 'publisher' => 'Ministerio de Trabajo, Empleo y Seguridad Social (MTESS)', 'url' => 'https://www.mtess.gov.py/?p=30138', 'accessed' => '2026-09-20'],
         ],
         'size' => [
             'name' => 'una frutilla',
@@ -843,12 +823,7 @@ return [
                 'url' => null,
                 'accessed' => null,
             ],
-            [
-                'title' => 'Ley 7383/2024 — permisos para controles prenatales',
-                'publisher' => 'Congreso de la Nación Paraguaya',
-                'url' => null,
-                'accessed' => null,
-            ],
+            ['title' => 'Ley 7383/2024 — permisos para controles prenatales (nota oficial del MTESS)', 'publisher' => 'Ministerio de Trabajo, Empleo y Seguridad Social (MTESS)', 'url' => 'https://www.mtess.gov.py/?p=30138', 'accessed' => '2026-09-20'],
         ],
         'size' => [
             'name' => 'una lima',
@@ -936,12 +911,7 @@ return [
                 'url' => null,
                 'accessed' => null,
             ],
-            [
-                'title' => 'Ley 7383/2024 — permisos para controles prenatales',
-                'publisher' => 'Congreso de la Nación Paraguaya',
-                'url' => null,
-                'accessed' => null,
-            ],
+            ['title' => 'Ley 7383/2024 — permisos para controles prenatales (nota oficial del MTESS)', 'publisher' => 'Ministerio de Trabajo, Empleo y Seguridad Social (MTESS)', 'url' => 'https://www.mtess.gov.py/?p=30138', 'accessed' => '2026-09-20'],
         ],
         'size' => [
             'name' => 'un durazno',
@@ -1033,12 +1003,7 @@ return [
                 'url' => null,
                 'accessed' => null,
             ],
-            [
-                'title' => 'Ley 7383/2024 — permisos para controles prenatales',
-                'publisher' => 'Congreso de la Nación Paraguaya',
-                'url' => null,
-                'accessed' => null,
-            ],
+            ['title' => 'Ley 7383/2024 — permisos para controles prenatales (nota oficial del MTESS)', 'publisher' => 'Ministerio de Trabajo, Empleo y Seguridad Social (MTESS)', 'url' => 'https://www.mtess.gov.py/?p=30138', 'accessed' => '2026-09-20'],
         ],
         'size' => [
             'name' => 'un limón',
@@ -1090,7 +1055,7 @@ return [
             ['title' => 'Orientaciones para el control prenatal', 'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)', 'url' => null, 'accessed' => null],
             ['title' => 'How Your Fetus Grows During Pregnancy', 'publisher' => 'American College of Obstetricians and Gynecologists (ACOG)', 'url' => null, 'accessed' => null],
             ['title' => 'Orientaciones de vacunación del Programa Ampliado de Inmunizaciones (PAI)', 'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)', 'url' => null, 'accessed' => null],
-            ['title' => 'Ley 7383/2024 — permisos para controles prenatales', 'publisher' => 'Congreso de la Nación Paraguaya', 'url' => null, 'accessed' => null],
+            ['title' => 'Ley 7383/2024 — permisos para controles prenatales (nota oficial del MTESS)', 'publisher' => 'Ministerio de Trabajo, Empleo y Seguridad Social (MTESS)', 'url' => 'https://www.mtess.gov.py/?p=30138', 'accessed' => '2026-09-20'],
         ],
         'size' => [
             'name' => 'una mandarina',
@@ -1142,7 +1107,7 @@ return [
             ['title' => 'Orientaciones para el control prenatal', 'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)', 'url' => null, 'accessed' => null],
             ['title' => 'How Your Fetus Grows During Pregnancy', 'publisher' => 'American College of Obstetricians and Gynecologists (ACOG)', 'url' => null, 'accessed' => null],
             ['title' => 'Orientaciones de vacunación del Programa Ampliado de Inmunizaciones (PAI)', 'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)', 'url' => null, 'accessed' => null],
-            ['title' => 'Ley 7383/2024 — permisos para controles prenatales', 'publisher' => 'Congreso de la Nación Paraguaya', 'url' => null, 'accessed' => null],
+            ['title' => 'Ley 7383/2024 — permisos para controles prenatales (nota oficial del MTESS)', 'publisher' => 'Ministerio de Trabajo, Empleo y Seguridad Social (MTESS)', 'url' => 'https://www.mtess.gov.py/?p=30138', 'accessed' => '2026-09-20'],
         ],
         'size' => [
             'name' => 'una palta pequeña',
@@ -1194,7 +1159,7 @@ return [
             ['title' => 'Orientaciones para el control prenatal', 'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)', 'url' => null, 'accessed' => null],
             ['title' => 'How Your Fetus Grows During Pregnancy', 'publisher' => 'American College of Obstetricians and Gynecologists (ACOG)', 'url' => null, 'accessed' => null],
             ['title' => 'Orientaciones de vacunación del Programa Ampliado de Inmunizaciones (PAI)', 'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)', 'url' => null, 'accessed' => null],
-            ['title' => 'Ley 7383/2024 — permisos para controles prenatales', 'publisher' => 'Congreso de la Nación Paraguaya', 'url' => null, 'accessed' => null],
+            ['title' => 'Ley 7383/2024 — permisos para controles prenatales (nota oficial del MTESS)', 'publisher' => 'Ministerio de Trabajo, Empleo y Seguridad Social (MTESS)', 'url' => 'https://www.mtess.gov.py/?p=30138', 'accessed' => '2026-09-20'],
         ],
         'size' => [
             'name' => 'una granada',
@@ -1246,7 +1211,7 @@ return [
             ['title' => 'Orientaciones para el control prenatal', 'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)', 'url' => null, 'accessed' => null],
             ['title' => 'How Your Fetus Grows During Pregnancy', 'publisher' => 'American College of Obstetricians and Gynecologists (ACOG)', 'url' => null, 'accessed' => null],
             ['title' => 'Orientaciones de vacunación del Programa Ampliado de Inmunizaciones (PAI)', 'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)', 'url' => null, 'accessed' => null],
-            ['title' => 'Ley 7383/2024 — permisos para controles prenatales', 'publisher' => 'Congreso de la Nación Paraguaya', 'url' => null, 'accessed' => null],
+            ['title' => 'Ley 7383/2024 — permisos para controles prenatales (nota oficial del MTESS)', 'publisher' => 'Ministerio de Trabajo, Empleo y Seguridad Social (MTESS)', 'url' => 'https://www.mtess.gov.py/?p=30138', 'accessed' => '2026-09-20'],
         ],
         'size' => [
             'name' => 'un mamón pequeño',
@@ -1298,7 +1263,7 @@ return [
             ['title' => 'Orientaciones para el control prenatal', 'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)', 'url' => null, 'accessed' => null],
             ['title' => 'How Your Fetus Grows During Pregnancy', 'publisher' => 'American College of Obstetricians and Gynecologists (ACOG)', 'url' => null, 'accessed' => null],
             ['title' => 'Orientaciones de vacunación del Programa Ampliado de Inmunizaciones (PAI)', 'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)', 'url' => null, 'accessed' => null],
-            ['title' => 'Ley 7383/2024 — permisos para controles prenatales', 'publisher' => 'Congreso de la Nación Paraguaya', 'url' => null, 'accessed' => null],
+            ['title' => 'Ley 7383/2024 — permisos para controles prenatales (nota oficial del MTESS)', 'publisher' => 'Ministerio de Trabajo, Empleo y Seguridad Social (MTESS)', 'url' => 'https://www.mtess.gov.py/?p=30138', 'accessed' => '2026-09-20'],
         ],
         'size' => [
             'name' => 'un mango',
@@ -1380,18 +1345,8 @@ return [
                 'url' => null,
                 'accessed' => null,
             ],
-            [
-                'title' => 'Ley 7383/2024 — permisos para controles prenatales',
-                'publisher' => 'Congreso de la Nación Paraguaya',
-                'url' => null,
-                'accessed' => null,
-            ],
-            [
-                'title' => 'Ley 5099/2013 — gratuidad MSPBS',
-                'publisher' => 'Congreso de la Nación Paraguaya',
-                'url' => null,
-                'accessed' => null,
-            ],
+            ['title' => 'Ley 7383/2024 — permisos para controles prenatales (nota oficial del MTESS)', 'publisher' => 'Ministerio de Trabajo, Empleo y Seguridad Social (MTESS)', 'url' => 'https://www.mtess.gov.py/?p=30138', 'accessed' => '2026-09-20'],
+            ['title' => 'Ley 5099/2013 — gratuidad de aranceles de las prestaciones de salud del Ministerio de Salud Pública', 'publisher' => 'Biblioteca y Archivo Central del Congreso Nacional (BACN)', 'url' => 'https://www.bacn.gov.py/leyes-paraguayas/4706/de-la-gratuidad-de-aranceles-de-las-prestaciones-de-salud-de-los-establecimientos-del-ministerio-de-salud-publica-y-bienestar-social', 'accessed' => '2026-09-20'],
         ],
         'size' => [
             'name' => 'una banana',
@@ -1444,7 +1399,7 @@ return [
             ['title' => 'Orientaciones para el control prenatal', 'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)', 'url' => null, 'accessed' => null],
             ['title' => 'How Your Fetus Grows During Pregnancy', 'publisher' => 'American College of Obstetricians and Gynecologists (ACOG)', 'url' => null, 'accessed' => null],
             ['title' => 'Orientaciones de vacunación del Programa Ampliado de Inmunizaciones (PAI)', 'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)', 'url' => null, 'accessed' => null],
-            ['title' => 'Ley 7383/2024 — permisos para controles prenatales', 'publisher' => 'Congreso de la Nación Paraguaya', 'url' => null, 'accessed' => null],
+            ['title' => 'Ley 7383/2024 — permisos para controles prenatales (nota oficial del MTESS)', 'publisher' => 'Ministerio de Trabajo, Empleo y Seguridad Social (MTESS)', 'url' => 'https://www.mtess.gov.py/?p=30138', 'accessed' => '2026-09-20'],
         ],
         'size' => [
             'name' => 'una mazorca de choclo',
@@ -1496,7 +1451,7 @@ return [
             ['title' => 'Orientaciones para el control prenatal', 'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)', 'url' => null, 'accessed' => null],
             ['title' => 'How Your Fetus Grows During Pregnancy', 'publisher' => 'American College of Obstetricians and Gynecologists (ACOG)', 'url' => null, 'accessed' => null],
             ['title' => 'Orientaciones de vacunación del Programa Ampliado de Inmunizaciones', 'publisher' => 'MSPBS — PAI', 'url' => null, 'accessed' => null],
-            ['title' => 'Ley 7383/2024 — permisos para controles prenatales', 'publisher' => 'Congreso de la Nación Paraguaya', 'url' => null, 'accessed' => null],
+            ['title' => 'Ley 7383/2024 — permisos para controles prenatales (nota oficial del MTESS)', 'publisher' => 'Ministerio de Trabajo, Empleo y Seguridad Social (MTESS)', 'url' => 'https://www.mtess.gov.py/?p=30138', 'accessed' => '2026-09-20'],
         ],
         'size' => [
             'name' => 'un mamón mediano',
@@ -1548,7 +1503,7 @@ return [
             ['title' => 'Orientaciones para el control prenatal', 'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)', 'url' => null, 'accessed' => null],
             ['title' => 'How Your Fetus Grows During Pregnancy', 'publisher' => 'American College of Obstetricians and Gynecologists (ACOG)', 'url' => null, 'accessed' => null],
             ['title' => 'Orientaciones de vacunación del Programa Ampliado de Inmunizaciones', 'publisher' => 'MSPBS — PAI', 'url' => null, 'accessed' => null],
-            ['title' => 'Ley 7383/2024 — permisos para controles prenatales', 'publisher' => 'Congreso de la Nación Paraguaya', 'url' => null, 'accessed' => null],
+            ['title' => 'Ley 7383/2024 — permisos para controles prenatales (nota oficial del MTESS)', 'publisher' => 'Ministerio de Trabajo, Empleo y Seguridad Social (MTESS)', 'url' => 'https://www.mtess.gov.py/?p=30138', 'accessed' => '2026-09-20'],
         ],
         'size' => [
             'name' => 'un pomelo',
@@ -1600,7 +1555,7 @@ return [
             ['title' => 'Orientaciones para el control prenatal', 'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)', 'url' => null, 'accessed' => null],
             ['title' => 'How Your Fetus Grows During Pregnancy', 'publisher' => 'American College of Obstetricians and Gynecologists (ACOG)', 'url' => null, 'accessed' => null],
             ['title' => 'Orientaciones de vacunación del Programa Ampliado de Inmunizaciones', 'publisher' => 'MSPBS — PAI', 'url' => null, 'accessed' => null],
-            ['title' => 'Ley 7383/2024 — permisos para controles prenatales', 'publisher' => 'Congreso de la Nación Paraguaya', 'url' => null, 'accessed' => null],
+            ['title' => 'Ley 7383/2024 — permisos para controles prenatales (nota oficial del MTESS)', 'publisher' => 'Ministerio de Trabajo, Empleo y Seguridad Social (MTESS)', 'url' => 'https://www.mtess.gov.py/?p=30138', 'accessed' => '2026-09-20'],
             ['title' => 'Antenatal care (NG201)', 'publisher' => 'National Institute for Health and Care Excellence (NICE)', 'url' => null, 'accessed' => null],
         ],
         'size' => [
@@ -1653,7 +1608,7 @@ return [
             ['title' => 'Orientaciones para el control prenatal', 'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)', 'url' => null, 'accessed' => null],
             ['title' => 'How Your Fetus Grows During Pregnancy', 'publisher' => 'American College of Obstetricians and Gynecologists (ACOG)', 'url' => null, 'accessed' => null],
             ['title' => 'Orientaciones de vacunación del Programa Ampliado de Inmunizaciones', 'publisher' => 'MSPBS — PAI', 'url' => null, 'accessed' => null],
-            ['title' => 'Ley 7383/2024 — permisos para controles prenatales', 'publisher' => 'Congreso de la Nación Paraguaya', 'url' => null, 'accessed' => null],
+            ['title' => 'Ley 7383/2024 — permisos para controles prenatales (nota oficial del MTESS)', 'publisher' => 'Ministerio de Trabajo, Empleo y Seguridad Social (MTESS)', 'url' => 'https://www.mtess.gov.py/?p=30138', 'accessed' => '2026-09-20'],
         ],
         'size' => [
             'name' => 'un coco',
@@ -1705,7 +1660,7 @@ return [
             ['title' => 'Orientaciones para el control prenatal', 'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)', 'url' => null, 'accessed' => null],
             ['title' => 'How Your Fetus Grows During Pregnancy', 'publisher' => 'American College of Obstetricians and Gynecologists (ACOG)', 'url' => null, 'accessed' => null],
             ['title' => 'Orientaciones de vacunación del Programa Ampliado de Inmunizaciones', 'publisher' => 'MSPBS — PAI', 'url' => null, 'accessed' => null],
-            ['title' => 'Ley 7383/2024 — permisos para controles prenatales', 'publisher' => 'Congreso de la Nación Paraguaya', 'url' => null, 'accessed' => null],
+            ['title' => 'Ley 7383/2024 — permisos para controles prenatales (nota oficial del MTESS)', 'publisher' => 'Ministerio de Trabajo, Empleo y Seguridad Social (MTESS)', 'url' => 'https://www.mtess.gov.py/?p=30138', 'accessed' => '2026-09-20'],
         ],
         'size' => [
             'name' => 'un repollo pequeño',
@@ -1757,7 +1712,7 @@ return [
             ['title' => 'Orientaciones para el control prenatal', 'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)', 'url' => null, 'accessed' => null],
             ['title' => 'How Your Fetus Grows During Pregnancy', 'publisher' => 'American College of Obstetricians and Gynecologists (ACOG)', 'url' => null, 'accessed' => null],
             ['title' => 'Orientaciones de vacunación del Programa Ampliado de Inmunizaciones', 'publisher' => 'MSPBS — PAI', 'url' => null, 'accessed' => null],
-            ['title' => 'Ley 7383/2024 — permisos para controles prenatales', 'publisher' => 'Congreso de la Nación Paraguaya', 'url' => null, 'accessed' => null],
+            ['title' => 'Ley 7383/2024 — permisos para controles prenatales (nota oficial del MTESS)', 'publisher' => 'Ministerio de Trabajo, Empleo y Seguridad Social (MTESS)', 'url' => 'https://www.mtess.gov.py/?p=30138', 'accessed' => '2026-09-20'],
         ],
         'size' => [
             'name' => 'una coliflor',
@@ -1809,7 +1764,7 @@ return [
             ['title' => 'Orientaciones para el control prenatal', 'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)', 'url' => null, 'accessed' => null],
             ['title' => 'How Your Fetus Grows During Pregnancy', 'publisher' => 'American College of Obstetricians and Gynecologists (ACOG)', 'url' => null, 'accessed' => null],
             ['title' => 'Orientaciones de vacunación del Programa Ampliado de Inmunizaciones', 'publisher' => 'MSPBS — PAI', 'url' => null, 'accessed' => null],
-            ['title' => 'Ley 7383/2024 — permisos para controles prenatales', 'publisher' => 'Congreso de la Nación Paraguaya', 'url' => null, 'accessed' => null],
+            ['title' => 'Ley 7383/2024 — permisos para controles prenatales (nota oficial del MTESS)', 'publisher' => 'Ministerio de Trabajo, Empleo y Seguridad Social (MTESS)', 'url' => 'https://www.mtess.gov.py/?p=30138', 'accessed' => '2026-09-20'],
             ['title' => 'Antenatal care (NG201)', 'publisher' => 'National Institute for Health and Care Excellence (NICE)', 'url' => null, 'accessed' => null],
         ],
         'size' => [
@@ -1862,7 +1817,7 @@ return [
             ['title' => 'Orientaciones para el control prenatal', 'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)', 'url' => null, 'accessed' => null],
             ['title' => 'How Your Fetus Grows During Pregnancy', 'publisher' => 'American College of Obstetricians and Gynecologists (ACOG)', 'url' => null, 'accessed' => null],
             ['title' => 'Orientaciones de vacunación del Programa Ampliado de Inmunizaciones', 'publisher' => 'MSPBS — PAI', 'url' => null, 'accessed' => null],
-            ['title' => 'Ley 7383/2024 — permisos para controles prenatales', 'publisher' => 'Congreso de la Nación Paraguaya', 'url' => null, 'accessed' => null],
+            ['title' => 'Ley 7383/2024 — permisos para controles prenatales (nota oficial del MTESS)', 'publisher' => 'Ministerio de Trabajo, Empleo y Seguridad Social (MTESS)', 'url' => 'https://www.mtess.gov.py/?p=30138', 'accessed' => '2026-09-20'],
         ],
         'size' => [
             'name' => 'un coco grande',
@@ -1914,7 +1869,7 @@ return [
             ['title' => 'Orientaciones para el control prenatal', 'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)', 'url' => null, 'accessed' => null],
             ['title' => 'How Your Fetus Grows During Pregnancy', 'publisher' => 'American College of Obstetricians and Gynecologists (ACOG)', 'url' => null, 'accessed' => null],
             ['title' => 'Orientaciones de vacunación del Programa Ampliado de Inmunizaciones', 'publisher' => 'MSPBS — PAI', 'url' => null, 'accessed' => null],
-            ['title' => 'Ley 7383/2024 — permisos para controles prenatales', 'publisher' => 'Congreso de la Nación Paraguaya', 'url' => null, 'accessed' => null],
+            ['title' => 'Ley 7383/2024 — permisos para controles prenatales (nota oficial del MTESS)', 'publisher' => 'Ministerio de Trabajo, Empleo y Seguridad Social (MTESS)', 'url' => 'https://www.mtess.gov.py/?p=30138', 'accessed' => '2026-09-20'],
         ],
         'size' => [
             'name' => 'un repollo',
@@ -1966,7 +1921,7 @@ return [
             ['title' => 'Orientaciones para el control prenatal', 'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)', 'url' => null, 'accessed' => null],
             ['title' => 'How Your Fetus Grows During Pregnancy', 'publisher' => 'American College of Obstetricians and Gynecologists (ACOG)', 'url' => null, 'accessed' => null],
             ['title' => 'Orientaciones de vacunación del Programa Ampliado de Inmunizaciones', 'publisher' => 'MSPBS — PAI', 'url' => null, 'accessed' => null],
-            ['title' => 'Ley 7383/2024 — permisos para controles prenatales', 'publisher' => 'Congreso de la Nación Paraguaya', 'url' => null, 'accessed' => null],
+            ['title' => 'Ley 7383/2024 — permisos para controles prenatales (nota oficial del MTESS)', 'publisher' => 'Ministerio de Trabajo, Empleo y Seguridad Social (MTESS)', 'url' => 'https://www.mtess.gov.py/?p=30138', 'accessed' => '2026-09-20'],
         ],
         'size' => [
             'name' => 'un coco con su cáscara',
@@ -2018,7 +1973,7 @@ return [
             ['title' => 'Orientaciones para el control prenatal', 'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)', 'url' => null, 'accessed' => null],
             ['title' => 'How Your Fetus Grows During Pregnancy', 'publisher' => 'American College of Obstetricians and Gynecologists (ACOG)', 'url' => null, 'accessed' => null],
             ['title' => 'Orientaciones de vacunación del Programa Ampliado de Inmunizaciones', 'publisher' => 'MSPBS — PAI', 'url' => null, 'accessed' => null],
-            ['title' => 'Ley 7383/2024 — permisos para controles prenatales', 'publisher' => 'Congreso de la Nación Paraguaya', 'url' => null, 'accessed' => null],
+            ['title' => 'Ley 7383/2024 — permisos para controles prenatales (nota oficial del MTESS)', 'publisher' => 'Ministerio de Trabajo, Empleo y Seguridad Social (MTESS)', 'url' => 'https://www.mtess.gov.py/?p=30138', 'accessed' => '2026-09-20'],
         ],
         'size' => [
             'name' => 'una lechuga',
@@ -2070,7 +2025,7 @@ return [
             ['title' => 'Orientaciones para el control prenatal', 'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)', 'url' => null, 'accessed' => null],
             ['title' => 'How Your Fetus Grows During Pregnancy', 'publisher' => 'American College of Obstetricians and Gynecologists (ACOG)', 'url' => null, 'accessed' => null],
             ['title' => 'Orientaciones de vacunación del Programa Ampliado de Inmunizaciones', 'publisher' => 'MSPBS — PAI', 'url' => null, 'accessed' => null],
-            ['title' => 'Ley 7383/2024 — permisos para controles prenatales', 'publisher' => 'Congreso de la Nación Paraguaya', 'url' => null, 'accessed' => null],
+            ['title' => 'Ley 7383/2024 — permisos para controles prenatales (nota oficial del MTESS)', 'publisher' => 'Ministerio de Trabajo, Empleo y Seguridad Social (MTESS)', 'url' => 'https://www.mtess.gov.py/?p=30138', 'accessed' => '2026-09-20'],
         ],
         'size' => [
             'name' => 'un ananá',
@@ -2122,7 +2077,7 @@ return [
             ['title' => 'Orientaciones para el control prenatal', 'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)', 'url' => null, 'accessed' => null],
             ['title' => 'How Your Fetus Grows During Pregnancy', 'publisher' => 'American College of Obstetricians and Gynecologists (ACOG)', 'url' => null, 'accessed' => null],
             ['title' => 'Orientaciones de vacunación del Programa Ampliado de Inmunizaciones', 'publisher' => 'MSPBS — PAI', 'url' => null, 'accessed' => null],
-            ['title' => 'Ley 7383/2024 — permisos para controles prenatales', 'publisher' => 'Congreso de la Nación Paraguaya', 'url' => null, 'accessed' => null],
+            ['title' => 'Ley 7383/2024 — permisos para controles prenatales (nota oficial del MTESS)', 'publisher' => 'Ministerio de Trabajo, Empleo y Seguridad Social (MTESS)', 'url' => 'https://www.mtess.gov.py/?p=30138', 'accessed' => '2026-09-20'],
         ],
         'size' => [
             'name' => 'un melón pequeño',
@@ -2174,7 +2129,7 @@ return [
             ['title' => 'Orientaciones para el control prenatal', 'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)', 'url' => null, 'accessed' => null],
             ['title' => 'How Your Fetus Grows During Pregnancy', 'publisher' => 'American College of Obstetricians and Gynecologists (ACOG)', 'url' => null, 'accessed' => null],
             ['title' => 'Orientaciones de vacunación del Programa Ampliado de Inmunizaciones', 'publisher' => 'MSPBS — PAI', 'url' => null, 'accessed' => null],
-            ['title' => 'Ley 7383/2024 — permisos para controles prenatales', 'publisher' => 'Congreso de la Nación Paraguaya', 'url' => null, 'accessed' => null],
+            ['title' => 'Ley 7383/2024 — permisos para controles prenatales (nota oficial del MTESS)', 'publisher' => 'Ministerio de Trabajo, Empleo y Seguridad Social (MTESS)', 'url' => 'https://www.mtess.gov.py/?p=30138', 'accessed' => '2026-09-20'],
             ['title' => 'Orientaciones sobre estreptococo del grupo B y embarazo', 'publisher' => 'American College of Obstetricians and Gynecologists (ACOG)', 'url' => null, 'accessed' => null],
         ],
         'size' => [
@@ -2330,8 +2285,8 @@ return [
             ['title' => 'Orientaciones para el control prenatal y la atención del parto', 'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)', 'url' => null, 'accessed' => null],
             ['title' => 'How Your Fetus Grows During Pregnancy', 'publisher' => 'American College of Obstetricians and Gynecologists (ACOG)', 'url' => null, 'accessed' => null],
             ['title' => 'Orientaciones de vacunación del Programa Ampliado de Inmunizaciones', 'publisher' => 'MSPBS — PAI', 'url' => null, 'accessed' => null],
-            ['title' => 'Ley 5508/2015 — promoción, protección de la maternidad y apoyo a la lactancia materna', 'publisher' => 'Congreso de la Nación Paraguaya', 'url' => null, 'accessed' => null],
-            ['title' => 'Orientaciones sobre reposo y subsidio de maternidad', 'publisher' => 'Instituto de Previsión Social (IPS)', 'url' => null, 'accessed' => null],
+            ['title' => 'Ley 5508/2015 — promoción, protección de la maternidad y apoyo a la lactancia materna', 'publisher' => 'Biblioteca y Archivo Central del Congreso Nacional (BACN)', 'url' => 'https://www.bacn.gov.py/leyes-paraguayas/4428/promocion-proteccion-de-la-maternidad-y-apoyo-a-la-lactancia-materna', 'accessed' => '2026-09-20'],
+            ['title' => '¿Qué saber del pago del subsidio por reposo de maternidad?', 'publisher' => 'Instituto de Previsión Social (IPS)', 'url' => 'https://portal.ips.gov.py/sistemas/ipsportal/noticia.php?cod=685', 'accessed' => '2026-09-20'],
         ],
         'size' => [
             'name' => 'un zapallo pequeño',

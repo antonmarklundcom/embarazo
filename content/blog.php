@@ -127,8 +127,8 @@ return [
         ],
         'related' => ['licencia-de-maternidad', 'derechos-de-la-embarazada-que-trabaja'],
         'sources' => [
-            ['title' => 'Ley 7383/2024', 'publisher' => 'Biblioteca y Archivo Central del Congreso Nacional', 'url' => null, 'accessed' => null],
-            ['title' => 'Ley 5508/2015', 'publisher' => 'Biblioteca y Archivo Central del Congreso Nacional', 'url' => null, 'accessed' => null],
+            ['title' => 'Ley 7383/2024 — permisos para controles prenatales (nota oficial del MTESS)', 'publisher' => 'Ministerio de Trabajo, Empleo y Seguridad Social (MTESS)', 'url' => 'https://www.mtess.gov.py/?p=30138', 'accessed' => '2026-09-20'],
+            ['title' => 'Ley 5508/2015 — promoción, protección de la maternidad y apoyo a la lactancia materna', 'publisher' => 'Biblioteca y Archivo Central del Congreso Nacional (BACN)', 'url' => 'https://www.bacn.gov.py/leyes-paraguayas/4428/promocion-proteccion-de-la-maternidad-y-apoyo-a-la-lactancia-materna', 'accessed' => '2026-09-20'],
         ],
     ],
     [
