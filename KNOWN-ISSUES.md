@@ -18,8 +18,7 @@ corregidos no son pendientes.
   el sitemap, con los canales listados).
 - Respaldo recuperable de WordPress, docroot y deploy por Anton pendientes; el reemplazo
   elimina WordPress. PR/merge y eventual watcher pertenecen al manager.
-- Aceptación visual y rendimiento móvil sin completar: capturas históricas fallaron por
-  Playwright ausente o acceso del navegador; no se afirma Lighthouse ni QA visual.
+- Aceptación visual en dispositivos reales sin completar. Lighthouse móvil corrido el 2026-09-21 contra el servidor de desarrollo (rendimiento 98-100, accesibilidad, buenas prácticas y SEO 100); ver HANDOFF. Falta mirar en un teléfono real.
 
 ## Contenido que necesita revisión humana
 
@@ -38,7 +37,7 @@ corregidos no son pendientes.
 
 ## Deuda técnica
 
-- Nunito Sans instalada (2026-09-20, OFL, subsets latin y latin-ext); ẽ y g̃ del guaraní salen de una fuente de reserva hasta agregar el subset vietnamese (ver assets/fonts/README.md). Imágenes S9 y capturas reales pendientes; fallbacks activos.
+- Nunito Sans instalada (2026-09-20, OFL, subsets latin y latin-ext); ẽ y g̃ del guaraní salen de una fuente de reserva hasta agregar el subset vietnamese (ver assets/fonts/README.md). Las 59 imágenes (hero, 6 hubs, OG, 9 tarjetas, 42 semanas) están hechas y cableadas (2026-09-21); capturas reales de la app siguen opcionales.
 - Analítica apagada por defecto: para Cloudflare Web Analytics cargar el token en
   content/site.php (partials/analytics.php agrega un solo script sin cookies); si no, dejar null.
   Contacto tiene campos duplicados (superiores y contact) que deben mantenerse coherentes.
