@@ -14,6 +14,7 @@ require ROOT_DIR . '/partials/head.php'; require ROOT_DIR . '/partials/header.ph
 <?php if (empty($page['sticky'])): ?><div class="hero__actions"><a class="btn btn--primary btn--lg" href="<?= e(app_link('product', trim($path, '/') . '-hero')) ?>"><?= e(content('cta')['primary']) ?></a></div><?php require ROOT_DIR . '/partials/trust-strip.php'; endif; ?>
 </div><?php if (!empty($pgRecord['phoneWeek'])): ?><div class="hero__art"><?php $phoneNumber = (int) $pgRecord['phoneWeek']; $phoneWeek = content('semanas')[$phoneNumber]; $phoneImage = $pgRecord['phoneImage'] ?? null; require ROOT_DIR . '/partials/phone-frame.php'; ?></div><?php endif; ?></div></section>
 <div class="wrap wrap--text"><?php $bodySections = $pgRecord['sections'] ?? []; require ROOT_DIR . '/partials/sections.php'; ?></div>
+<?php if (!empty($pgRecord['contactChannels'])) { require ROOT_DIR . '/partials/contact-channels.php'; } ?>
 <?php if (!empty($pgRecord['features'])): ?><section class="section wrap"><h2><?= e($pgRecord['featuresTitle'] ?? ui('foundation.features')) ?></h2><div class="bento">
 <?php foreach ($pgRecord['features'] as $pgIndex => $pgFeature):
     $pgTone = in_array($pgFeature['tone'], ['rosa','celeste','salvia','lavanda','arena'], true) ? $pgFeature['tone'] : 'celeste';

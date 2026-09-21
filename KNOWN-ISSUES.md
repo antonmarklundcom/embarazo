@@ -8,8 +8,9 @@ corregidos no son pendientes.
 
 - Revisión humana médica/legal y fuentes oficiales vigentes pendientes. Gates técnicos
   verdes no equivalen a aprobación editorial (todos los lotes).
-- No hay canal público de contacto/correcciones: /contacto/ permanece 200/noindex;
-  configurar valores no publica enlaces automáticamente (T0/P1).
+- No hay canal público de contacto/correcciones: /contacto/ permanece 200/noindex hasta que se
+  cargue WhatsApp, correo o teléfono en content/site.php; entonces se activa sola (indexable, en
+  el sitemap, con los canales listados).
 - Respaldo recuperable de WordPress, docroot y deploy por Anton pendientes; el reemplazo
   elimina WordPress. PR/merge y eventual watcher pertenecen al manager.
 - Aceptación visual y rendimiento móvil sin completar: capturas históricas fallaron por
@@ -33,8 +34,9 @@ corregidos no son pendientes.
 ## Deuda técnica
 
 - Nunito Sans/licencia e imágenes S9/capturas reales pendientes; fallbacks activos.
-- Analytics existe pero no se consume: elegir ninguna o integrar un script sin cookies.
-  Contacto tiene campos duplicados que deben mantenerse coherentes.
+- Analítica apagada por defecto: para Cloudflare Web Analytics cargar el token en
+  content/site.php (partials/analytics.php agrega un solo script sin cookies); si no, dejar null.
+  Contacto tiene campos duplicados (superiores y contact) que deben mantenerse coherentes.
 - Producto: related[] se valida pero no produce tarjetas (P1). La comparación tiene
   acceso real por footer; la navegación completa queda a dos clics.
 - Semana 12: H2 de ecografía requiere ampliar plantilla/contrato; el contenido existe

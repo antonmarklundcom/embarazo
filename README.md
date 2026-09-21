@@ -193,27 +193,26 @@ Los nombres de menús se confirman al operar; este manual no afirma un deploy re
 
 ## Cómo cambiar analítica y contacto
 
-`content/site.php` tiene analytics=null, contact con whatsapp/phone/email y campos
-superiores whatsapp/phone/email usados por helpers y SEO. Cuando Anton confirme datos
-públicos, mantené ambas representaciones coherentes; teléfonos en formato internacional.
-No uses ejemplos como contactos reales.
+**Contacto.** En `content/site.php` completá los campos superiores `whatsapp` (formato internacional,
+por ejemplo `+595 981 123 456`), `email` y/o `phone`. No hace falta tocar nada más: `/contacto/` se
+activa sola. Sin ningún canal es una página noindex fuera del sitemap; con al menos un canal válido pasa a
+ser indexable, entra al sitemap y lista los canales (WhatsApp, correo, teléfono) con el aviso de que no
+atiende urgencias. Un número o correo mal formado se ignora, nunca se inventa. Después corré
+`bash ./verify.sh --final`. No uses ejemplos como contactos reales.
 
-Configurar valores todavía no publica el canal: `/contacto/` tiene texto propio en
-pages.php y sigue stub/noindex. Una entrega de contacto debe agregar enlaces confirmados,
-actualizar texto y quitar esos flags, seguida de los chequeos.
-
-Analítica está apagada y no hay consumidor de analytics en plantillas. Dejá null para
-no medir. Si elegís Cloudflare Web Analytics o Umami sin cookies, una entrega posterior
-debe definir la configuración e integrar un solo script; pegar un valor no basta.
-No publiques tokens, claves ni credenciales en documentación o logs. Google Analytics,
-Meta, formularios, captura de correo y pop-ups quedan fuera.
+**Analítica.** Por defecto no hay analítica ni pedidos a terceros (`'analytics' => null`). Para activar
+Cloudflare Web Analytics (sin cookies, sin banner) poné en `content/site.php`:
+`'analytics' => ['cloudflare' => '<token de 32 caracteres del panel de Cloudflare>']`. `partials/analytics.php`
+agrega un solo script solo si el token tiene el formato correcto; cualquier otro valor no renderiza nada.
+No publiques tokens en documentación o logs. Google Analytics, Meta, formularios, captura de correo y
+pop-ups quedan fuera.
 
 ## Cómo agregar Nunito Sans e imágenes
 
-Seguí `assets/fonts/README.md`: seis WOFF2 licenciados, pesos 400/500/700 en latin y
-latin-ext, más licencia. Verificá marcas guaraní y ₲. Hasta entonces se usa system-ui
-sin preloads de archivos ausentes. Imágenes y capturas reales siguen el brief y la
-cola de `docs/human-todo.md`.
+Seguí `assets/fonts/README.md`: seis WOFF2 licenciados (400/500/700 en latin y latin-ext, con licencia).
+Verificá las marcas guaraní y ₲. En cuanto exista `nunito-sans-400-latin.woff2`, `partials/head.php` carga
+solo `assets/css/fonts.css` y precarga los dos archivos críticos; hasta entonces el sitio no hace pedidos de
+fuentes y usa system-ui. Imágenes y capturas reales siguen el brief y la cola de `docs/human-todo.md`.
 
 Anton tiene una lista priorizada en `docs/human-todo.md`, problemas en KNOWN-ISSUES.md,
 decisiones abiertas en `docs/decisions-needed.md` y evidencia por fase en `docs/log/`.

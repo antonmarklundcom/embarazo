@@ -74,7 +74,11 @@ $headBlocks = array_merge($headBlocks, $page['jsonld'] ?? []);
 <meta name="theme-color" content="#2F5D50">
 <link rel="icon" href="<?= e(asset('/assets/img/favicon.svg')) ?>" type="image/svg+xml">
 
-<?php /* Preload the two critical Nunito Sans files, but only once they exist (a preload of a missing file is a 404). */ ?>
+<?php /* Nunito Sans: the @font-face rules (assets/css/fonts.css) and the two critical preloads are emitted only once the
+   woff2 files exist, so the site makes no failing font requests until they are added (assets/fonts/README.md). */ ?>
+<?php if (is_file(ROOT_DIR . '/assets/fonts/nunito-sans-400-latin.woff2')): ?>
+<link rel="stylesheet" href="<?= e(asset('/assets/css/fonts.css')) ?>">
+<?php endif; ?>
 <?php foreach (['nunito-sans-400-latin', 'nunito-sans-700-latin'] as $headFont): ?>
 <?php if (is_file(ROOT_DIR . '/assets/fonts/' . $headFont . '.woff2')): ?>
 <link rel="preload" href="<?= e(asset('/assets/fonts/' . $headFont . '.woff2')) ?>" as="font" type="font/woff2" crossorigin>

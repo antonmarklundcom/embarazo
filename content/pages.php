@@ -657,7 +657,9 @@ return [
             '/app/'
         ]
     ],
-    '/contacto/' => [
+    // Self-activating: with no channel in content/site.php this is the noindex stub below; as soon as a WhatsApp number,
+    // email or phone is set, the page becomes indexable and lists the channels (partials/contact-channels.php).
+    '/contacto/' => array_merge([
         'title' => 'Contacto con Mi Bebé',
         'seoTitle' => 'Contacto con Mi Bebé',
         'description' => 'El canal de contacto de Mi Bebé está pendiente de habilitación. Mientras tanto, consultá las preguntas frecuentes y la información sobre la app.',
@@ -687,7 +689,17 @@ return [
             '/preguntas-frecuentes/',
             '/sobre/'
         ]
-    ],
+    ], contact_channels() === [] ? [] : [
+        'description' => 'Cómo escribirle a Mi Bebé: consultas sobre la app, sugerencias y avisos de errores en el contenido.',
+        'metaDescription' => 'Cómo escribirle a Mi Bebé: consultas sobre la app, sugerencias y avisos de errores en el contenido.',
+        'lead' => 'Escribinos por el medio que prefieras. También podés mirar las [preguntas frecuentes](/preguntas-frecuentes/) y [cómo trabajamos](/sobre/) antes de escribir.',
+        'stub' => false,
+        'noindex' => false,
+        'contactChannels' => true,
+        'faq' => [
+            ['q' => '¿Puedo avisar de un error en una página?', 'a' => 'Sí. Escribinos por cualquiera de los medios de esta página e indicá la dirección de la página y qué dato te parece incorrecto.'],
+        ],
+    ]),
     '/app/comparacion/' => [
         'title' => 'Cómo elegir una app de embarazo en Paraguay',
         'seoTitle' => 'Cómo elegir una app de embarazo en Paraguay',

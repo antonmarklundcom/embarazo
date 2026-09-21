@@ -33,6 +33,8 @@ return [
 
     'legalName'   => null,                       // registered legal name
     'description' => 'Mi Bebé: la app de embarazo gratuita hecha para Paraguay.',
+    // null = no analytics and no third-party request. To enable cookieless Cloudflare Web Analytics (no consent banner needed):
+    // 'analytics' => ['cloudflare' => '<32-character token>'],   (rendered by partials/analytics.php)
     'analytics' => null,
     'contact' => ['whatsapp' => null, 'phone' => null, 'email' => null],
 

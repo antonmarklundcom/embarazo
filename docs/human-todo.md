@@ -4,12 +4,12 @@
    oficiales actuales de `docs/facts-to-verify.md`. Cerrar D0 F2–F11 de
    `docs/decisions-needed.md` sin usar previews como evidencia. Completar identidad,
    credenciales, registro y fechas solo tras revisión real. Guaraní requiere revisión nativa.
-2. **Canal de contacto/correcciones.** Confirmar correo y WhatsApp; configurar los campos
-   superiores y contact en site.php. Encargar enlaces públicos y actualización de
-   `/contacto/`, hoy único stub noindex; cambiar valores no activa esa página.
-3. **Analítica o ninguna.** Mantener analytics=null si no se usará; si se elige Cloudflare
-   Web Analytics o Umami sin cookies, encargar el consumidor y un único script. Hoy no
-   hay integración. No registrar credenciales ni tokens en documentación.
+2. **Canal de contacto/correcciones.** Confirmar correo y WhatsApp y cargarlos en los campos
+   superiores de `content/site.php` (formato internacional). `/contacto/`, hoy stub noindex,
+   se activa sola con el primer canal válido; después correr `bash ./verify.sh --final`.
+3. **Analítica o ninguna.** Mantener analytics=null si no se usará. Para Cloudflare Web
+   Analytics (sin cookies) cargar `'analytics' => ['cloudflare' => '<token>']` en
+   `content/site.php`; ya está integrado (un solo script). No registrar tokens en documentación.
 4. **Nunito Sans y aceptación visual.** Aportar los seis WOFF2 y licencia indicados en
    `assets/fonts/README.md`: 400/500/700, latin/latin-ext, guaraní y ₲. Verificar 360 px,
    escritorio, accesibilidad, tools y Lighthouse móvil; capturas históricas fallaron por

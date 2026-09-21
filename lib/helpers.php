@@ -158,6 +158,34 @@ function whatsapp_link(?string $text = null): ?string
 }
 
 /**
+ * The contact channels actually configured in content/site.php (top-level keys, or the contact group),
+ * validated and never invented: [['key','href','text'], ...]. Empty until Anton supplies a channel;
+ * /contacto/ stays a noindex stub while this is empty (content/pages.php).
+ */
+function contact_channels(): array
+{
+    $site    = content('site');
+    $contact = is_array($site['contact'] ?? null) ? $site['contact'] : [];
+    $pick    = static fn (string $key): string => trim((string) ($site[$key] ?? $contact[$key] ?? ''));
+    $out     = [];
+
+    $whatsapp = phone_digits($pick('whatsapp'));
+    if (strlen($whatsapp) >= 8 && strlen($whatsapp) <= 15) {
+        $out[] = ['key' => 'whatsapp', 'href' => 'https://wa.me/' . $whatsapp, 'text' => $pick('whatsapp')];
+    }
+    $email = $pick('email');
+    if ($email !== '' && filter_var($email, FILTER_VALIDATE_EMAIL) !== false) {
+        $out[] = ['key' => 'email', 'href' => 'mailto:' . $email, 'text' => $email];
+    }
+    $phone = phone_digits($pick('phone'));
+    if (strlen($phone) >= 8 && strlen($phone) <= 15) {
+        $out[] = ['key' => 'phone', 'href' => 'tel:+' . $phone, 'text' => $pick('phone')];
+    }
+
+    return $out;
+}
+
+/**
  * Where the primary "contact us" action points: WhatsApp when a number exists,
  * the contact page until then.
  */
