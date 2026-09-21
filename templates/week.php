@@ -10,14 +10,14 @@ $page = ['title' => $wkRecord['seoTitle'], 'description' => $wkRecord['metaDescr
     'kind' => 'medical', 'record' => $wkRecord, 'weekNumber' => $n, 'sticky' => true,
     'noindex' => !array_filter($wkRecord['sections'] ?? []) || !empty($wkRecord['stub']) || !empty($wkRecord['noindex']), 'ogType' => 'article',
     'breadcrumbs' => [['label' => ui('foundation.weeks'), 'path' => '/semana/'], ['label' => content('trimestres')[$wkTrimester]['title'], 'path' => '/trimestre/' . $wkTrimester . '/'], ['label' => $wkRecord['title'], 'path' => '/semana/' . $n . '/']]];
-if (!empty($wkRecord['image'])) { $page['ogImage'] = $wkRecord['image']; }
+if (is_string($wkRecord['image'] ?? null) && $wkRecord['image'] !== '') { $page['ogImage'] = $wkRecord['image']; }
 require ROOT_DIR . '/partials/head.php'; require ROOT_DIR . '/partials/header.php';
 ?>
 <main id="main"><article class="wrap wrap--text section section--tight">
 <?php require ROOT_DIR . '/partials/breadcrumbs.php'; ?>
 <h1><?= e($wkRecord['title']) ?></h1><p class="lead"><?= e(content('trimestres')[$wkTrimester]['title']) ?> · <?= e(strtr(ui('foundation.completed'), ['{n}' => (string) $n, '{completed}' => (string) ($n - 1)])) ?></p>
 <div class="size-panel"><span class="size-panel__n"><?= e((string) $n) ?></span><span class="size-panel__what"><?= e(str_replace('{size}', $wkRecord['size']['name'], ui('foundation.size'))) ?></span><span class="size-panel__sub"><?= e(strtr(ui('foundation.measure'), ['{length}' => fmt_measure($wkRecord['size']['lengthCm']), '{weight}' => fmt_measure($wkRecord['size']['weightG'])])) ?></span></div>
-<?php if (!empty($wkRecord['image'])): ?><img src="<?= e($wkRecord['image']) ?>" alt="<?= e($wkRecord['title']) ?>" width="640" height="640"><?php endif; ?>
+<?php $wkPic = picture(is_array($wkRecord['image'] ?? null) ? $wkRecord['image'] : [], '(min-width: 720px) 480px, calc(100vw - 32px)'); if ($wkPic !== ''): ?><figure class="week-figure"><?= $wkPic ?></figure><?php endif; unset($wkPic); ?>
 <?php foreach (['bebe', 'vos'] as $wkKey): ?><section class="prose section--tight"><h2><?= e(ui('foundation.' . $wkKey)) ?></h2>
 <?php if ($wkKey === 'bebe'): ?><p><?= rich($wkRecord['milestone']) ?></p><?php endif; ?>
 <?php foreach ($wkRecord['sections'][$wkKey] as $wkParagraph): ?><p><?= rich($wkParagraph) ?></p><?php endforeach; ?>

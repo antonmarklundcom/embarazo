@@ -16,12 +16,12 @@ $arRecord += page_meta($arRecord['path']);
 $page = ['title' => $arRecord['seoTitle'] ?: $arRecord['title'], 'description' => $arRecord['metaDescription'], 'path' => $arRecord['path'], 'record' => $arRecord, 'kind' => $arRecord['kind'], 'ogType' => 'article', 'sticky' => true,
     'noindex' => !empty($arRecord['stub']) || !empty($arRecord['noindex']),
     'breadcrumbs' => [['label' => content('clusters')[$arRecord['cluster']]['title'] ?? ui('foundation.blog'), 'path' => '/' . $arRecord['cluster'] . '/'], ['label' => $arRecord['title'], 'path' => $arRecord['path']]]];
-if (!empty($arRecord['image'])) { $page['ogImage'] = $arRecord['image']; }
+if (is_string($arRecord['image'] ?? null) && $arRecord['image'] !== '') { $page['ogImage'] = $arRecord['image']; }
 require ROOT_DIR . '/partials/head.php'; require ROOT_DIR . '/partials/header.php';
 ?>
 <main id="main"><article class="wrap wrap--text section section--tight">
 <?php require ROOT_DIR . '/partials/breadcrumbs.php'; ?>
-<h1><?= e($arRecord['title']) ?></h1><p class="lead"><?= rich($arRecord['lead']) ?></p>
+<h1><?= e($arRecord['title']) ?></h1><p class="lead"><?= rich($arRecord['lead']) ?></p><?php $arPic = picture(is_array($arRecord['image'] ?? null) ? $arRecord['image'] : [], '(min-width: 720px) 640px, calc(100vw - 32px)'); if ($arPic !== ''): ?><figure class="article-figure"><?= $arPic ?></figure><?php endif; unset($arPic); ?>
 <?php $bodySections = $arRecord['sections'] ?? []; require ROOT_DIR . '/partials/sections.php'; ?>
 <?php if (!empty($arRecord['steps'])): ?><section class="prose section--tight"><h2><?= e(ui('foundation.steps')) ?></h2><ol class="steps"><?php foreach ($arRecord['steps'] as $arStep): ?><li><h3><?= e($arStep['title']) ?></h3><?php foreach ($arStep['body'] as $arParagraph): ?><p><?= rich($arParagraph) ?></p><?php endforeach; ?></li><?php endforeach; ?></ol></section><?php endif; ?>
 <?php if (!empty($arRecord['appHandoff'])): $ctaOptions = $arRecord['appHandoff'] + ['title' => ui('foundation.handoff'), 'campaign' => $slug]; require ROOT_DIR . '/partials/cta-tool.php'; else: require ROOT_DIR . '/partials/cta-primary.php'; endif; require ROOT_DIR . '/partials/trust-strip.php'; ?>

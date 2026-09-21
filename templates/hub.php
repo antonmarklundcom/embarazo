@@ -21,7 +21,7 @@ require ROOT_DIR . '/partials/head.php'; require ROOT_DIR . '/partials/header.ph
 <?php if ($hbWeeks): ?>
 <?php foreach (content('trimestres') as $hbNumber => $hbTrimester): ?><section class="section--tight"><h2><a class="link-arrow" href="<?= e('/trimestre/' . $hbNumber . '/') ?>"><?= e($hbTrimester['title']) ?></a></h2><?php $gridWeeks = $hbTrimester['weeks']; require ROOT_DIR . '/partials/week-grid.php'; ?></section><?php endforeach; ?>
 <?php else: ?><section class="section--tight"><h2><?= e(ui('foundation.related')) ?></h2><div class="grid grid--2">
-<?php foreach (content('articulos') as $hbArticle): if ($hbArticle['cluster'] === $cluster): ?><a class="article-card" href="<?= e($hbArticle['path']) ?>"><span class="article-card__thumb" aria-hidden="true">↗</span><div class="article-card__body"><h3><?= e($hbArticle['title']) ?></h3><p><?= e($hbArticle['metaDescription']) ?></p></div></a><?php endif; endforeach; ?></div></section>
+<?php foreach (content('articulos') as $hbArticle): if ($hbArticle['cluster'] === $cluster): ?><a class="article-card" href="<?= e($hbArticle['path']) ?>"><span class="article-card__thumb" aria-hidden="true"><?php $hbThumb = is_array($hbArticle['image'] ?? null) ? picture($hbArticle['image'], '72px', 'lazy', 'article-card__img') : ''; echo $hbThumb !== '' ? $hbThumb : '↗'; unset($hbThumb); ?></span><div class="article-card__body"><h3><?= e($hbArticle['title']) ?></h3><p><?= e($hbArticle['metaDescription']) ?></p></div></a><?php endif; endforeach; ?></div></section>
 <?php endif; ?>
 <div class="wrap--text section--tight"><?php $ctaOptions = ['medium' => 'hub']; require ROOT_DIR . '/partials/cta-primary.php'; ?></div>
 <?php $faqItems = $hbRecord['faq'] ?? []; require ROOT_DIR . '/partials/faq.php'; ?>

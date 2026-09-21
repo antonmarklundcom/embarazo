@@ -933,3 +933,7 @@ a:hover { color: var(--petrol-dark); }
 .pic { display: block; width: 100%; height: auto; border-radius: var(--radius-l); background: var(--surface-sunken); }
 .home-band { margin-block: var(--space-l); }
 .hub-figure { margin: var(--space-m) 0; }
+.article-figure, .week-figure { margin: var(--space-m) 0; }
+.article-card__thumb picture, .article-card__thumb .article-card__img { display: block; width: 100%; height: 100%; }
+.article-card__thumb .article-card__img { object-fit: cover; border-radius: 0; }
+.week-figure .pic { max-width: 30rem; margin-inline: auto; }
