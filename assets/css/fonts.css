@@ -1,0 +1,56 @@
+/* Nunito Sans @font-face rules. partials/head.php loads this file ONLY when the woff2 files exist in
+   assets/fonts/ (see assets/fonts/README.md), so the site makes no failing font requests until they are added. */
+
+@font-face {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/nunito-sans-400-latin.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+2000-206F;
+}
+
+@font-face {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/nunito-sans-400-latin-ext.woff2") format("woff2");
+  unicode-range: U+0100-02FF, U+0300-036F, U+1E00-1EFF, U+20B2, U+2192;
+}
+
+@font-face {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../fonts/nunito-sans-500-latin.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+2000-206F;
+}
+
+@font-face {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../fonts/nunito-sans-500-latin-ext.woff2") format("woff2");
+  unicode-range: U+0100-02FF, U+0300-036F, U+1E00-1EFF, U+20B2, U+2192;
+}
+
+@font-face {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/nunito-sans-700-latin.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+2000-206F;
+}
+
+@font-face {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/nunito-sans-700-latin-ext.woff2") format("woff2");
+  unicode-range: U+0100-02FF, U+0300-036F, U+1E00-1EFF, U+20B2, U+2192;
+}

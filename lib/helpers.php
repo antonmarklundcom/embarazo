@@ -33,15 +33,21 @@ function fmt_measure(?float $value): string
  */
 function site_origin(): string
 {
-    $configured = cfg('SITE_URL');
-    if ($configured !== null) {
+    $configured = trim((string) cfg('SITE_URL'));
+    if ($configured !== '') {
         return rtrim($configured, '/');
     }
 
-    $https  = ($_SERVER['HTTPS'] ?? '') === 'on' || ($_SERVER['SERVER_PORT'] ?? '') === '443';
-    $host   = $_SERVER['HTTP_HOST'] ?? (string) site('domain');
+    // The request Host header is attacker-controlled: trust it only for local preview, never
+    // for the canonical, Open Graph and sitemap URLs of the live site (host-header poisoning).
+    $host = (string) ($_SERVER['HTTP_HOST'] ?? '');
+    if (preg_match('/\A(localhost|127\.0\.0\.1|\[::1\])(:\d{1,5})?\z/', $host) === 1) {
+        $https = ($_SERVER['HTTPS'] ?? '') === 'on' || ($_SERVER['SERVER_PORT'] ?? '') === '443';
 
-    return ($https ? 'https://' : 'http://') . $host;
+        return ($https ? 'https://' : 'http://') . $host;
+    }
+
+    return 'https://' . (string) site('domain');
 }
 
 /**
@@ -149,6 +155,34 @@ function whatsapp_link(?string $text = null): ?string
     }
 
     return $link;
+}
+
+/**
+ * The contact channels actually configured in content/site.php (top-level keys, or the contact group),
+ * validated and never invented: [['key','href','text'], ...]. Empty until Anton supplies a channel;
+ * /contacto/ stays a noindex stub while this is empty (content/pages.php).
+ */
+function contact_channels(): array
+{
+    $site    = content('site');
+    $contact = is_array($site['contact'] ?? null) ? $site['contact'] : [];
+    $pick    = static fn (string $key): string => trim((string) ($site[$key] ?? $contact[$key] ?? ''));
+    $out     = [];
+
+    $whatsapp = phone_digits($pick('whatsapp'));
+    if (strlen($whatsapp) >= 8 && strlen($whatsapp) <= 15) {
+        $out[] = ['key' => 'whatsapp', 'href' => 'https://wa.me/' . $whatsapp, 'text' => $pick('whatsapp')];
+    }
+    $email = $pick('email');
+    if ($email !== '' && filter_var($email, FILTER_VALIDATE_EMAIL) !== false) {
+        $out[] = ['key' => 'email', 'href' => 'mailto:' . $email, 'text' => $email];
+    }
+    $phone = phone_digits($pick('phone'));
+    if (strlen($phone) >= 8 && strlen($phone) <= 15) {
+        $out[] = ['key' => 'phone', 'href' => 'tel:+' . $phone, 'text' => $pick('phone')];
+    }
+
+    return $out;
 }
 
 /**

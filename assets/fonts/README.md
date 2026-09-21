@@ -1,6 +1,6 @@
 # Nunito Sans (pending offline assets)
 
-Drop these licensed WOFF2 files here; preserve their upstream license. No preload is emitted until the files exist. CSS uses font-display: swap and falls back to system-ui.
+Drop these six licensed WOFF2 files here (all six, keep their upstream license). As soon as nunito-sans-400-latin.woff2 exists, partials/head.php automatically loads assets/css/fonts.css and preloads the two critical files; until then the site makes no font requests and uses the system-ui fallback.
 
 - nunito-sans-400-latin.woff2
 - nunito-sans-400-latin-ext.woff2

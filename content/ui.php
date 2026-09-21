@@ -58,6 +58,15 @@ return [
     'footer' => [
     'blurb' => 'Mi Bebé, la app de embarazo hecha para Paraguay.',
     'rights' => 'Todos los derechos reservados.'
+],
+    // Shown on /contacto/ only once a channel exists in content/site.php (see contact_channels()).
+    'contactPage' => [
+    'heading' => 'Escribinos',
+    'intro' => 'Para consultas sobre la app, sugerencias o para avisarnos de un error en el contenido.',
+    'whatsapp' => 'WhatsApp',
+    'email' => 'Correo',
+    'phone' => 'Teléfono',
+    'note' => 'Esta vía no atiende urgencias de salud: si tenés una señal de alarma, llamá al [141 SEME](tel:141) o al [911](tel:911).'
 ]
 ];
 

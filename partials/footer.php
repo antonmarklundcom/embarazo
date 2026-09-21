@@ -5,5 +5,6 @@
 <p class="footer__legal">© <?= e(date('Y')) ?> <?= e(site('name')) ?> · <?= e(ui('footer.rights')) ?></p></div></footer>
 <?php if (!empty($page['sticky'])) { require ROOT_DIR . '/partials/sticky-cta.php'; } ?>
 <script src="<?= e(asset('/assets/js/site.js')) ?>" defer></script>
+<?php require ROOT_DIR . '/partials/analytics.php'; ?>
 </body></html>
 <?php unset($ftLink); ?>

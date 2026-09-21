@@ -78,7 +78,13 @@ $routes['/robots.txt'] = [200, 'stub'];
 $routes['/sitemap.xml'] = [200, 'stub'];
 $routes['/esta-pagina-no-existe/'] = [404, 'stub'];
 foreach (['/lib/helpers.php', '/lib/market/py.php', '/content/site.php', '/partials/header.php',
-    '/templates/page.php', '/config.example.php', '/logs/private.log'] as $path) {
+    '/templates/page.php', '/config.example.php', '/logs/private.log',
+    // Git deploys the whole repo into the web root: none of these may be served.
+    '/design/components.html', '/design/preview/home.html', '/design/tokens.css',
+    '/tools/import-weeks.mjs', '/tools/git-hooks/pre-commit', '/tests/links.mjs',
+    '/assets/js/tools/island.php', '/assets/js/tools/export-weeks.php',
+    '/verify.sh', '/plan.md', '/README.md', '/KNOWN-ISSUES.md', '/AGENTS.md',
+    '/.gitattributes', '/deploy/routes.php', '/docs/human-todo.md'] as $path) {
     $routes[$path] = [404, 'stub'];
 }
 foreach ($routes as $path => [$status, $flag]) {
