@@ -147,6 +147,15 @@ while IFS=$'\t' read -r path expected flag; do
 done <<< "$ROUTE_LIST"
 ok "$ROUTE_COUNT URLs answered as specified"
 
+# Leftovers of the WordPress install this site replaces (mirrored from .htaccess in router.php).
+for pair in "/wp-content/uploads/x.jpg 410" "/wp-json/ 410" "/hello-world/ 410" "/blog/x/feed/ 410" \
+            "/category/embarazo/ 301" "/page/2/ 301" "/?p=12 301" "/?s=semana 301" "/feed/ 301"; do
+  set -- $pair
+  actual=$(curl -s -o /dev/null -w '%{http_code}' "${BASE}$1")
+  [ "$actual" = "$2" ] || fail "legacy $1 — expected $2, got $actual"
+done
+ok "WordPress leftovers answer 410 or 301"
+
 # --------------------------------------------------- 5. no PHP warnings -------
 step "php warnings"
 if grep -qE 'PHP (Warning|Notice|Fatal error|Parse error|Deprecated)' "$LOG"; then

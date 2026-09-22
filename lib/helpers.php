@@ -298,6 +298,26 @@ function wa_share(string $text, string $url): string
     return 'https://wa.me/?text=' . rawurlencode(trim($text . ' ' . $url));
 }
 
+/**
+ * Article slugs for a reading list: the hand-picked ones first, then every article whose
+ * weeks[] touches $weeks, closest match first, deduplicated and capped. Lets week and
+ * trimester pages link the guides written for them without listing them twice.
+ */
+function related_for_weeks(array $picked, array $weeks, int $limit): array
+{
+    $articles = content('articulos');
+    $scored = [];
+    foreach ($articles as $slug => $article) {
+        $hits = count(array_intersect($article['weeks'] ?? [], $weeks));
+        if ($hits > 0) {
+            $scored[$slug] = $hits;
+        }
+    }
+    arsort($scored);
+    $slugs = array_values(array_unique(array_merge($picked, array_keys($scored))));
+    return array_slice(array_values(array_filter($slugs, static fn (string $s): bool => isset($articles[$s]))), 0, $limit);
+}
+
 /** Friendly-week boundaries shared by content and templates. */
 function week_trimester(int $n): int
 {

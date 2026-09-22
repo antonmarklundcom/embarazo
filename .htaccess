@@ -42,6 +42,14 @@ DirectoryIndex index.php index.html
   # Gone for good, and saying so stops the bot traffic from retrying forever.
   RewriteRule ^(wp-login\.php|xmlrpc\.php)$ - [G,L]
   RewriteRule ^wp-admin(/|$)               - [G,L]
+  RewriteRule ^(wp-content|wp-includes|wp-json)(/|$) - [G,L]
+  RewriteRule ^(hello-world|sample-page|pagina-ejemplo|hola-mundo)/?$ - [G,L]
+  RewriteRule ^.+/feed/?$                  - [G,L]
+  # Archive listings had no content of their own: send them to the blog.
+  RewriteRule ^(category|tag|author|page)(/|$) /blog/ [R=301,L]
+  # Query-string addresses (?p=, ?page_id=, ?cat=, ?s=) land on the home page, query dropped.
+  RewriteCond %{QUERY_STRING} (^|&)(p|page_id|cat|s|attachment_id)=
+  RewriteRule ^$ /? [R=301,L]
 
   # --- generated text endpoints -------------------------------------------
   RewriteRule ^sitemap\.xml$ /sitemap.php [L]

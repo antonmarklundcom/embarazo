@@ -80,6 +80,10 @@ require ROOT_DIR . '/partials/header.php';
   <?php endif; ?>
   <section class="section"><div class="wrap">
     <p><a class="link-arrow" href="/semana/"><?= e($tool['ui']['weeksLink']) ?></a></p>
+    <?php $relatedSlugs = $tool['relatedArticles'] ?? []; require ROOT_DIR . '/partials/related.php'; ?>
+    <?php $toolRelated = array_filter(array_map(static fn (string $p): array => ['path' => $p, 'title' => page_meta($p)['title'] ?? ''], array_diff($tool['related'] ?? [], ['/semana/'])), static fn (array $r): bool => $r['title'] !== ''); ?>
+    <?php if ($toolRelated !== []): ?><ul class="stack"><?php foreach ($toolRelated as $toolLink): ?><li><a class="link-arrow" href="<?= e($toolLink['path']) ?>"><?= e($toolLink['title']) ?></a></li><?php endforeach; ?></ul><?php endif; unset($toolRelated, $toolLink); ?>
+    <?php require ROOT_DIR . '/partials/wa-share.php'; ?>
     <?php $disclaimerRecord = $tool; require ROOT_DIR . '/partials/disclaimer.php'; ?>
     <?php $sourcesRecord = $tool; require ROOT_DIR . '/partials/sources.php'; ?>
   </div></section>

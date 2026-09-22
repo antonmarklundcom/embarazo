@@ -365,8 +365,10 @@ function jsonld_content_article(array $record, string $canonical, string $organi
         'mainEntityOfPage' => $canonical,
         'url' => $canonical, 'publisher' => ['@id' => $organizationId],
         'author' => ['@id' => $organizationId], 'dateModified' => $record['updated']];
-    if (!empty($record['datePublished'])) {
-        $data['datePublished'] = $record['datePublished'];
+    // Google's Article guidelines want datePublished; records without one fall back to their date or updated.
+    $published = $record['datePublished'] ?? $record['date'] ?? $record['updated'] ?? null;
+    if (!empty($published)) {
+        $data['datePublished'] = $published;
     }
     if ($image !== null) {
         $data['image'] = $image;
