@@ -1,15 +1,20 @@
 # Pendientes de Anton — orden de prioridad
 
-1. **Antes de lanzar: revisión médica y legal.** Asignar revisores y comprobar fuentes
-   oficiales actuales de `docs/facts-to-verify.md`. Cerrar D0 F2–F11 de
-   `docs/decisions-needed.md` sin usar previews como evidencia. Completar identidad,
-   credenciales, registro y fechas solo tras revisión real. Guaraní requiere revisión nativa.
-2. **Canal de contacto/correcciones.** Confirmar correo y WhatsApp y cargarlos en los campos
-   superiores de `content/site.php` (formato internacional). `/contacto/`, hoy stub noindex,
-   se activa sola con el primer canal válido; después correr `bash ./verify.sh --final`.
-3. **Analítica o ninguna.** Mantener analytics=null si no se usará. Para Cloudflare Web
-   Analytics (sin cookies) cargar `'analytics' => ['cloudflare' => '<token>']` en
-   `content/site.php`; ya está integrado (un solo script). No registrar tokens en documentación.
+1. **Revisión médica y legal: diferida por decisión de Anton (2026-09-22).** Se lanza sin
+   revisor externo durante los primeros meses; el aviso visible de alcance en cada página de
+   salud y las fechas `validAsOf` en lo legal sostienen la postura mientras tanto. Sigue
+   pendiente, no cancelado: `docs/facts-to-verify.md` mantiene la cola por página y D0 F2–F11
+   de `docs/decisions-needed.md` siguen abiertos. No completar `reviewedBy`, credenciales ni
+   registro sin revisión real. Guaraní sigue oculto hasta revisión nativa.
+2. **Canal de contacto: hecho (2026-09-22).** WhatsApp +595 992 279 599 cargado en
+   `content/site.php`; `/contacto/` quedó indexable, en el sitemap y enlazada desde el pie.
+   Falta del lado humano: contestar. Si el número cambia, se edita ese campo y listo.
+3. **Analítica: apagada por decisión de Anton (2026-09-22).** Sin Google Analytics. Queda
+   `analytics => null`, sin pedidos a terceros. Nota: los CTA llevan UTM (`utm_source=site`,
+   `utm_medium`, `utm_campaign`), así que hoy esas etiquetas solo se pueden leer del lado de
+   la app. Si más adelante querés ver qué página trae instalaciones desde el sitio mismo,
+   Cloudflare Web Analytics (sin cookies, sin banner) ya está integrado: cargar
+   `'analytics' => ['cloudflare' => '<token>']`. No registrar tokens en documentación.
 4. **Aceptación visual en un teléfono real.** Nunito Sans ya está instalada (2026-09-20; falta el subset vietnamese para ẽ y g̃, ver `assets/fonts/README.md`, opcional, requiere tu OK). Lighthouse móvil se corrió el 2026-09-21 en el servidor de desarrollo con 98-100 en todo; mirá la home, 3-4 semanas y un artículo en tu teléfono.
 5. **Producto en dispositivos.** Validar instalación Android/iPhone, alcance offline,
    permisos, exportación/desinstalación, respaldo y campos visibles al compartir en
@@ -27,7 +32,12 @@
     retirar ambos de app/sitemap.ts; /conoce → 301 https://embarazo.com.py/;
     NEXT_PUBLIC_SITE_URL; contador agregado arrivals_from_site{page_type} con entrada
     en DECISIONS.md. No adelantar estos cambios al sitio vivo.
-11. **Después del deploy: Search Console.** Verificar embarazo.com.py, enviar sitemap.xml,
+11. **Antes del deploy: exportar las URLs del WordPress viejo.** Desde Search Console, la
+    lista de páginas indexadas del sitio actual. `.htaccess` ya cubre los endpoints genéricos
+    de WordPress, pero cada URL de contenido con tráfico necesita su propio 301 al equivalente
+    nuevo (bloque legacy de `.htaccess` + rama en `router.php`). Es la única parte del cambio
+    que no se puede reconstruir después.
+12. **Después del deploy: Search Console.** Verificar embarazo.com.py, enviar sitemap.xml,
     comprobar indexación y retirar URLs de semanas/guías de la app después del PR anterior.
     Revisar tráfico y CTA únicamente si se habilitó analítica.
 

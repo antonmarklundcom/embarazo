@@ -21,7 +21,7 @@ require ROOT_DIR . '/partials/head.php'; require ROOT_DIR . '/partials/header.ph
 ?>
 <main id="main"><article class="wrap wrap--text section section--tight">
 <?php require ROOT_DIR . '/partials/breadcrumbs.php'; ?>
-<h1><?= e($arRecord['title']) ?></h1><p class="lead"><?= rich($arRecord['lead']) ?></p><?php $arPic = picture(is_array($arRecord['image'] ?? null) ? $arRecord['image'] : [], '(min-width: 720px) 640px, calc(100vw - 32px)'); if ($arPic !== ''): ?><figure class="article-figure"><?= $arPic ?></figure><?php endif; unset($arPic); ?>
+<h1><?= e($arRecord['title']) ?></h1><p class="lead"><?= rich($arRecord['lead']) ?></p><?php $arPic = picture(is_array($arRecord['image'] ?? null) ? $arRecord['image'] : [], '(min-width: 720px) 640px, calc(100vw - 32px)', 'eager'); if ($arPic !== ''): ?><figure class="article-figure"><?= $arPic ?></figure><?php endif; unset($arPic); ?>
 <?php $bodySections = $arRecord['sections'] ?? []; require ROOT_DIR . '/partials/sections.php'; ?>
 <?php if (!empty($arRecord['steps'])): ?><section class="prose section--tight"><h2><?= e(ui('foundation.steps')) ?></h2><ol class="steps"><?php foreach ($arRecord['steps'] as $arStep): ?><li><h3><?= e($arStep['title']) ?></h3><?php foreach ($arStep['body'] as $arParagraph): ?><p><?= rich($arParagraph) ?></p><?php endforeach; ?></li><?php endforeach; ?></ol></section><?php endif; ?>
 <?php if (!empty($arRecord['appHandoff'])): $ctaOptions = $arRecord['appHandoff'] + ['title' => ui('foundation.handoff'), 'campaign' => $slug]; require ROOT_DIR . '/partials/cta-tool.php'; else: require ROOT_DIR . '/partials/cta-primary.php'; endif; require ROOT_DIR . '/partials/trust-strip.php'; ?>

@@ -41,7 +41,9 @@ marcadores para redactar, nunca contenido publicable:
 ],
 ```
 
-Completá las tres secciones, al menos dos fuentes y 3–5 preguntas. Las medidas necesitan
+El mes de embarazo no se guarda: lo calcula `week_month()` (`lib/helpers.php`) con la tabla
+usual en español y se imprime como "mes N aproximadamente" junto al trimestre; las semanas 41 y
+42 no muestran mes. Completá las tres secciones, al menos dos fuentes y 3–5 preguntas. Las medidas necesitan
 respaldo; no inventes datos para llenar campos. El trimestre se calcula, no se guarda.
 La ruta `semana/20/index.php` tiene exactamente tres líneas:
 
@@ -187,18 +189,32 @@ Comprobá fuente y paquete antes de subir.
 5. Comprobá inicio, tools, instalación, semana, guía, 404, sitemap, canonicals y bloqueo
    de archivos internos. Si falla, recuperá desde el respaldo.
 
+**URLs del WordPress anterior.** Antes de reemplazarlo, exportá de Search Console la lista de URLs
+indexadas del sitio viejo y guardala. `.htaccess` ya mapea los endpoints genéricos de WordPress
+(`wp-sitemap.xml` y `sitemap_index.xml` a `/sitemap.xml`, los feeds a `/blog/`, `wp-admin` y
+`wp-login.php` a 410), pero las direcciones de contenido no se pueden adivinar desde el repo: por cada
+página vieja que tenía tráfico, agregá un `RewriteRule ... [R=301,L]` en el bloque de legacy de
+`.htaccess` y la rama equivalente en `router.php`. Sin eso, el enlace externo que apuntaba ahí muere en
+un 404. `.htaccess` también fuerza HTTPS y saca el `www.`, así que confirmá que el certificado esté
+activo antes del cambio.
+
 Alternativa manual: subir el ZIP comprobado por File Manager y extraerlo en docroot.
 Es plano y excluye archivos de desarrollo. Elegí Git o ZIP sin superponer versiones.
 Los nombres de menús se confirman al operar; este manual no afirma un deploy realizado.
 
 ## Cómo cambiar analítica y contacto
 
-**Contacto.** En `content/site.php` completá los campos superiores `whatsapp` (formato internacional,
-por ejemplo `+595 981 123 456`), `email` y/o `phone`. No hace falta tocar nada más: `/contacto/` se
-activa sola. Sin ningún canal es una página noindex fuera del sitemap; con al menos un canal válido pasa a
-ser indexable, entra al sitemap y lista los canales (WhatsApp, correo, teléfono) con el aviso de que no
-atiende urgencias. Un número o correo mal formado se ignora, nunca se inventa. Después corré
-`bash ./verify.sh --final`. No uses ejemplos como contactos reales.
+**Contacto.** El WhatsApp `+595 992 279 599` ya está cargado en `content/site.php` (campo superior
+`whatsapp` y grupo `contact`), así que `/contacto/` está activa: indexable, en el sitemap y enlazada solo
+desde el pie. Para cambiar el número, agregar `email` o `phone`, o quitar el canal, editá esos campos: la
+página se reescribe sola. Sin ningún canal vuelve a ser un stub noindex fuera del sitemap. Un número o
+correo mal formado se ignora, nunca se inventa; el mensaje con el que se abre el chat vive en
+`ui('contactPage.waPrefill')`. La página tiene su propio cuerpo en `content/pages.php` (para qué escribir,
+qué no respondemos, cómo avisar de un error, uso del número): si cambiás el canal, revisá ese texto.
+No hay formulario ni captura de correo. Después de cualquier cambio corré `bash ./verify.sh --final`.
+
+El botón flotante de WhatsApp (`partials/whatsapp-fab.php`) existe pero no se incluye en ninguna plantilla,
+a propósito: la acción principal de cada página es abrir la app, y dos botones fijos compiten entre sí.
 
 **Analítica.** Por defecto no hay analítica ni pedidos a terceros (`'analytics' => null`). Para activar
 Cloudflare Web Analytics (sin cookies, sin banner) poné en `content/site.php`:

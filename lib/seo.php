@@ -264,7 +264,31 @@ function jsonld_site_organization(array $identity, string $origin): array
             $data[$key] = $identity[$key];
         }
     }
+    /* A contact point only exists once a real channel is configured: the same
+       validated list the contact page renders, never a number written here. */
+    $points = [];
+    foreach (contact_channels() as $channel) {
+        if ($channel['key'] === 'email') {
+            $points[] = ['@type' => 'ContactPoint', 'contactType' => 'customer support',
+                'email' => $channel['text'], 'areaServed' => 'PY', 'availableLanguage' => ['es', 'gn']];
+            continue;
+        }
+        $points[] = ['@type' => 'ContactPoint', 'contactType' => 'customer support',
+            'telephone' => '+' . phone_digits($channel['text']), 'areaServed' => 'PY',
+            'availableLanguage' => ['es', 'gn']];
+    }
+    if ($points !== []) {
+        $data['contactPoint'] = $points;
+    }
     return $data;
+}
+
+/** The contact page itself, so the channel is attached to a URL search engines can show. */
+function jsonld_contact_page(string $canonical, string $organizationId, string $name): array
+{
+    return ['@context' => 'https://schema.org', '@type' => 'ContactPage',
+        '@id' => $canonical . '#contactpage', 'url' => $canonical, 'name' => $name,
+        'inLanguage' => 'es-PY', 'about' => ['@id' => $organizationId]];
 }
 
 function jsonld_website(array $identity, string $origin): array

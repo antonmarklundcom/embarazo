@@ -10,6 +10,17 @@ DirectoryIndex index.php index.html
 <IfModule mod_rewrite.c>
   RewriteEngine On
 
+  # --- canonical host and scheme -----------------------------------------
+  # One address per page or the same content competes with itself in the index.
+  # Both rules are host-agnostic (no domain is written here), and neither fires
+  # on the built-in server, so router.php has nothing to mirror.
+  RewriteCond %{HTTPS} off
+  RewriteCond %{HTTP:X-Forwarded-Proto} !https
+  RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+  RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+  RewriteRule ^ https://%1%{REQUEST_URI} [R=301,L]
+
   # --- legacy URLs --------------------------------------------------------
   # A rebuild of an existing site adds its 410s and redirects here — and the
   # matching branches in router.php, and the expected statuses in
@@ -19,6 +30,18 @@ DirectoryIndex index.php index.html
   #   RewriteCond %{QUERY_STRING} ^page_id=3$
   #   RewriteRule ^$ /privacidad/? [R=301,L]
   #   RewriteRule ^wp-sitemap\.xml$ /sitemap.xml [R=301,L]
+  #
+  # The WordPress endpoints below are generic: every WordPress install has them,
+  # so they are safe to map without knowing the old URL list. The *content* URLs
+  # of the old site are not knowable from here — export them from Search Console
+  # before the cutover and add a RewriteRule per surviving page (see README).
+  RewriteRule ^wp-sitemap\.xml$    /sitemap.xml [R=301,L]
+  RewriteRule ^sitemap_index\.xml$ /sitemap.xml [R=301,L]
+  RewriteRule ^feed/?$             /blog/       [R=301,L]
+  RewriteRule ^comments/feed/?$    /blog/       [R=301,L]
+  # Gone for good, and saying so stops the bot traffic from retrying forever.
+  RewriteRule ^(wp-login\.php|xmlrpc\.php)$ - [G,L]
+  RewriteRule ^wp-admin(/|$)               - [G,L]
 
   # --- generated text endpoints -------------------------------------------
   RewriteRule ^sitemap\.xml$ /sitemap.php [L]

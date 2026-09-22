@@ -8,6 +8,10 @@ return [
         'pending' => 'Pendiente de revisión profesional.',
         'medicalReviewed' => 'Información general, no es un diagnóstico ni reemplaza tu consulta.',
         'share' => 'Compartí por WhatsApp', 'shareHint' => 'Para conversar en familia',
+        // Alt text of the shared social card (assets/img/og-default.jpg), read by screen readers on X and Facebook.
+        'ogImageAlt' => 'Mi Bebé: la app de embarazo hecha para Paraguay.',
+        // Printed next to the trimester on a week page; {m} is week_month().
+        'month' => 'mes {m} aproximadamente',
         'dismiss' => 'Ocultá la barra de la app', 'week' => 'Semana', 'weeks' => 'Semana a semana',
         'previous' => '← Anterior', 'next' => 'Siguiente →', 'weekNav' => 'Navegación entre semanas',
         'bebe' => 'Tu bebé esta semana', 'vos' => 'Vos esta semana', 'paraguay' => 'En Paraguay esta semana',
@@ -62,10 +66,12 @@ return [
     // Shown on /contacto/ only once a channel exists in content/site.php (see contact_channels()).
     'contactPage' => [
     'heading' => 'Escribinos',
-    'intro' => 'Para consultas sobre la app, sugerencias o para avisarnos de un error en el contenido.',
+    'intro' => 'Tocá el número y se abre el chat con un mensaje ya empezado. Respondemos de lunes a viernes, en horario de Paraguay.',
     'whatsapp' => 'WhatsApp',
     'email' => 'Correo',
     'phone' => 'Teléfono',
+    // Prefills the WhatsApp chat so the person does not have to open with a blank screen.
+    'waPrefill' => 'Hola, tengo una consulta sobre la app Mi Bebé.',
     'note' => 'Esta vía no atiende urgencias de salud: si tenés una señal de alarma, llamá al [141 SEME](tel:141) o al [911](tel:911).'
 ]
 ];

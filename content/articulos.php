@@ -20,7 +20,7 @@ return [
         'cluster' => 'derechos',
         'path' => '/derechos/licencia-de-maternidad/',
         'title' => 'Licencia de maternidad en Paraguay: duración, inicio y pago',
-        'seoTitle' => 'Licencia de maternidad en Paraguay: semanas, inicio y pago',
+        'seoTitle' => 'Licencia de maternidad en Paraguay: semanas y pago',
         'metaDescription' => 'Licencia de maternidad en Paraguay: 18 semanas (24 si hay prematurez o bajo peso), inicio hasta 2 semanas antes del parto y subsidio del IPS del 100 %.',
         'kind' => 'legal',
         'lead' => 'La licencia de maternidad en Paraguay dura 18 semanas seguidas y podés empezarla hasta 2 semanas antes del parto (Ley 5508/2015). Son 24 semanas si el bebé nace antes de la semana 35, pesa menos de 2.000 gramos o tiene una enfermedad congénita que requiere incubadora o cuidados especiales, y suma un mes por cada bebé desde el segundo en embarazos múltiples. Durante la licencia, el IPS paga el 100 % de tu remuneración. Para pedirla necesitás un certificado médico que indique el embarazo y la fecha probable de parto.',
@@ -754,7 +754,7 @@ return [
         'path' => '/derechos/licencia-de-paternidad/',
         'title' => 'Licencia de paternidad en Paraguay: cómo organizarla',
         'seoTitle' => 'Licencia de paternidad en Paraguay',
-        'metaDescription' => 'Licencia de paternidad en Paraguay: 2 semanas posteriores al parto, con goce de sueldo a cargo del empleador y de carácter irrenunciable, según la Ley 5508.',
+        'metaDescription' => 'Licencia de paternidad en Paraguay: 2 semanas después del parto, con goce de sueldo a cargo del empleador e irrenunciable, según la Ley 5508.',
         'kind' => 'legal',
         'lead' => 'En Paraguay, todo trabajador padre de un recién nacido tiene 2 semanas de permiso posteriores al parto, con goce de sueldo a cargo del empleador y de carácter irrenunciable (Ley 5508/2015, artículo 13). Durante ese período, el padre debe inscribir al niño o niña en el Registro del Estado Civil y empezar el trámite de la cédula de identidad. Avisale a tu empleador con anticipación y guardá una copia de lo que entregues.',
         'sections' => [

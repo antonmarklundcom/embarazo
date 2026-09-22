@@ -214,7 +214,13 @@ function contact_channels(): array
 
     $whatsapp = phone_digits($pick('whatsapp'));
     if (strlen($whatsapp) >= 8 && strlen($whatsapp) <= 15) {
-        $out[] = ['key' => 'whatsapp', 'href' => 'https://wa.me/' . $whatsapp, 'text' => $pick('whatsapp')];
+        // The chat opens with a first line already written; an empty prefill string keeps the bare link.
+        $prefill = trim((string) ui('contactPage.waPrefill'));
+        $out[] = [
+            'key'  => 'whatsapp',
+            'href' => 'https://wa.me/' . $whatsapp . ($prefill === '' ? '' : '?text=' . rawurlencode($prefill)),
+            'text' => $pick('whatsapp'),
+        ];
     }
     $email = $pick('email');
     if ($email !== '' && filter_var($email, FILTER_VALIDATE_EMAIL) !== false) {
@@ -299,6 +305,25 @@ function week_trimester(int $n): int
         throw new InvalidArgumentException('Week must be positive.');
     }
     return $n <= 13 ? 1 : ($n <= 27 ? 2 : 3);
+}
+
+/**
+ * The month of pregnancy a week falls in, for weeks 1..40, or null outside that
+ * range. "¿Cuántos meses son?" is the question asked next to every week number,
+ * and the answer is a counting convention, not a measurement: obstetric care is
+ * counted in weeks, and the months below are the usual Spanish-language table
+ * (four to five weeks each, nine months to term). Weeks 41 and 42 return null
+ * rather than stretch the table past term, and the label that prints this says
+ * "aproximadamente".
+ */
+function week_month(int $n): ?int
+{
+    foreach ([4 => 1, 8 => 2, 13 => 3, 17 => 4, 22 => 5, 27 => 6, 31 => 7, 35 => 8, 40 => 9] as $last => $month) {
+        if ($n >= 1 && $n <= $last) {
+            return $month;
+        }
+    }
+    return null;
 }
 
 /** Plain disclaimer copy; caller escapes with e() and adds validAsOf/reviewer. */

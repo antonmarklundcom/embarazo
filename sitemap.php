@@ -16,6 +16,46 @@ require __DIR__ . '/lib/bootstrap.php';
 $today = date('Y-m-d');
 $urls  = [];
 
+/* lastmod has to be a fact, not the date of the last deploy: a sitemap that
+   claims every page changed today teaches Google to ignore the field. Hubs and
+   indexes have no date of their own, so they inherit the newest date among the
+   entries they list; a page with nothing to inherit falls back to today. */
+$newest = static function (array $dates): ?string {
+    $dates = array_values(array_filter($dates));
+    if ($dates === []) {
+        return null;
+    }
+    sort($dates);
+    return (string) end($dates);
+};
+$weekDates = array_map(static fn (array $week): ?string => $week['updated'] ?? null, content('semanas'));
+$articleDates = [];
+$clusterDates = [];
+foreach (content('articulos') as $record) {
+    $articleDates[] = $record['updated'] ?? null;
+    $clusterDates[$record['cluster']][] = $record['updated'] ?? null;
+}
+$blogDates = array_map(static fn (array $post): ?string => $post['updated'] ?? $post['date'] ?? null, content('blog'));
+$toolDates = [];
+foreach (content('tools') as $tool) {
+    if (!empty($tool['path'])) {
+        $toolDates[$tool['path']] = $tool['updated'] ?? null;
+    }
+}
+$derived = [
+    '/'        => $newest(array_merge($weekDates, $articleDates, $blogDates)),
+    '/semana/' => $newest($weekDates),
+    '/blog/'   => $newest($blogDates),
+] + $toolDates;
+foreach (content('clusters') as $clusterKey => $cluster) {
+    $derived['/' . $clusterKey . '/'] = $newest($clusterDates[$clusterKey] ?? []);
+}
+foreach (content('trimestres') as $trimesterNumber => $trimester) {
+    $derived['/trimestre/' . $trimesterNumber . '/'] = $newest(
+        array_intersect_key($weekDates, array_flip($trimester['weeks'] ?? []))
+    );
+}
+
 foreach (content('pages') as $path => $meta) {
     /* Stubs are noindex until the phase that owns them writes the content, and
        '/404' is not a URL of its own — neither belongs in a sitemap. */
@@ -24,6 +64,7 @@ foreach (content('pages') as $path => $meta) {
     }
     $urls[] = [
         'loc'        => url($path),
+        'lastmod'    => $meta['updated'] ?? $derived[$path] ?? null,
         'changefreq' => $meta['changefreq'] ?? 'monthly',
         'priority'   => $meta['priority'] ?? '0.5',
     ];

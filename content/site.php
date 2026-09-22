@@ -36,7 +36,7 @@ return [
     // null = no analytics and no third-party request. To enable cookieless Cloudflare Web Analytics (no consent banner needed):
     // 'analytics' => ['cloudflare' => '<32-character token>'],   (rendered by partials/analytics.php)
     'analytics' => null,
-    'contact' => ['whatsapp' => null, 'phone' => null, 'email' => null],
+    'contact' => ['whatsapp' => '+595 992 279 599', 'phone' => null, 'email' => null],
 
     // --- contact ------------------------------------------------------------
     // 'phone' and 'whatsapp' in international form, e.g. '+595 981 123 456'.
@@ -44,7 +44,7 @@ return [
     // service CTA point at /contacto/ instead of wa.me — see
     // partials/whatsapp-fab.php.
     'phone'    => null,
-    'whatsapp' => null,
+    'whatsapp' => '+595 992 279 599',
     'email'    => null,
 
     // --- address ------------------------------------------------------------
