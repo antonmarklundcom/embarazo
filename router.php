@@ -42,7 +42,11 @@ if ($gone !== [] && in_array(rtrim($path, '/') . '/', $gone, true)) {
 /* The generic WordPress endpoints the old install leaves behind. The host and
    scheme rules in .htaccess have no counterpart here on purpose: the built-in
    server is reached as http://127.0.0.1 and would redirect to itself forever. */
-if (preg_match('#^/(wp-login\.php|xmlrpc\.php)$#', $path) || preg_match('#^/wp-admin(/|$)#', $path)) {
+if (preg_match('#^/(wp-login\.php|xmlrpc\.php)$#', $path) || preg_match('#^/wp-admin(/|$)#', $path)
+    || preg_match('#^/(wp-content|wp-includes|wp-json)(/|$)#', $path)
+    || preg_match('#^/(hello-world|sample-page|pagina-ejemplo|hola-mundo)/?$#', $path)
+    || preg_match('#^/.+/feed/?$#', $path)
+) {
     $halt(410, '<h1>410 Gone</h1>');
     return true;
 }
@@ -54,6 +58,12 @@ $legacy = [
     '/comments/feed'     => '/blog/',
     '/comments/feed/'    => '/blog/',
 ];
+if (preg_match('#^/(category|tag|author|page)(/|$)#', $path)) {
+    $legacy[$path] = '/blog/';
+}
+if ($path === '/' && preg_match('#(^|&)(p|page_id|cat|s|attachment_id)=#', $query)) {
+    $legacy[$path] = '/';
+}
 if (isset($legacy[$path])) {
     http_response_code(301);
     header('Location: ' . $legacy[$path]);

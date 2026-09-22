@@ -12,6 +12,7 @@
  *   intro            string[] 200–300 words of copy, readable without JS
  *   faq              array    [['q' => ..., 'a' => ...], ...] → FAQPage JSON-LD
  *   related          string[] related site paths
+ *   relatedArticles  string[] article slugs shown as reading cards (optional)
  *   ctaWhatsapp      string   legacy key, kept empty (no lead capture)
  *   formNeed         string   legacy key, kept empty (no forms)
  *   analyticsTool    string   legacy key, kept empty (no event tracking)
@@ -80,6 +81,7 @@ return [
                 'a' => 'En un embarazo por tratamiento, usá la FPP que te indicó el equipo que conoce las fechas del procedimiento. No reemplaces esa datación por una menstruación aproximada. Desde el resultado podés abrir la página de tu semana.',
             ],
         ],
+        'relatedArticles' => ['control-prenatal-ips-vs-privado', 'carne-perinatal', 'senales-de-alarma'],
         'related' => [
             '/semana/',
             '/calendario-de-ovulacion/',
@@ -162,6 +164,7 @@ return [
                 'a' => 'No confirma ovulación, fertilidad ni embarazo. Si tenés un atraso, un test de embarazo y la orientación de tu equipo de salud son más útiles que mover fechas en el calendario. La cuenta tampoco evalúa las causas de una dificultad para concebir.',
             ],
         ],
+        'relatedArticles' => ['dias-fertiles', 'acido-folico', 'checklist-preconcepcion'],
         'related' => [
             '/calculadora/',
             '/semana/',

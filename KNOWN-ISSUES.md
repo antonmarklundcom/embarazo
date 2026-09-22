@@ -45,14 +45,15 @@ corregidos no son pendientes.
   integrado (token en content/site.php, un script, sin cookies).
   Contacto tiene campos duplicados (superiores y contact) que deben mantenerse coherentes;
   hoy ambos llevan el mismo número.
-- Las URLs de contenido del WordPress anterior no están mapeadas: .htaccess cubre los endpoints
-  genéricos (wp-sitemap, sitemap_index, feeds, wp-admin, wp-login) y falta la lista real, que
-  sale de Search Console antes del cambio.
-- Producto: related[] se valida pero no produce tarjetas (P1). La comparación tiene
+- WordPress anterior sin contenido de valor (Anton, 2026-09-22): no hay lista de URLs que mapear.
+  .htaccess y router.php responden 410 a wp-content, wp-includes, wp-json, páginas de ejemplo y
+  feeds anidados, y 301 a archivos (category, tag, author, page) hacia /blog/ y a ?p=/?s= hacia
+  el inicio; verify.sh lo comprueba.
+- related[] produce tarjetas en semanas, artículos, trimestres y herramientas; semanas y
+  trimestres suman las guías cuyo weeks[] coincide (related_for_weeks). La comparación tiene
   acceso real por footer; la navegación completa queda a dos clics.
-- Semana 12: H2 de ecografía requiere ampliar plantilla/contrato; el contenido existe
-  en párrafos (W2). Semana 20 conserva menos de dos enlaces contextuales en prosa (W3),
-  aunque related, hub y navegación pasan. Su cuerpo no se reescribió.
+- Semanas 12 y 20 tienen H2 propio para su ecografía (campo opcional feature) y la 20 suma
+  enlaces contextuales en prosa (2026-09-22).
 - Derechos: “Si tu empleador no cumple” es la última sección de contenido, pero pasos,
   CTA/FAQ/related agregan H2 después; decidir si se exige último H2 literal (A1).
 - Metadatos remedidos el 2026-09-22 con mb_strlen sobre los registros (las auditorías viejas

@@ -14,7 +14,7 @@ require ROOT_DIR . '/partials/head.php'; require ROOT_DIR . '/partials/header.ph
 <h1><?= e($tmRecord['title']) ?></h1><p class="lead"><?= rich($tmRecord['lead']) ?></p>
 <section class="section--tight"><h2><?= e(ui('foundation.timeline')) ?></h2><ol class="timeline"><?php foreach ($tmRecord['timeline'] as $tmEntry): ?><li><a class="timeline__wk" href="<?= e('/semana/' . $tmEntry['week'] . '/') ?>"><?= e(ui('foundation.week') . ' ' . $tmEntry['week']) ?></a><span class="timeline__what"><?= rich($tmEntry['what']) ?></span></li><?php endforeach; ?></ol></section>
 <section class="section--tight"><h2><?= e(ui('foundation.weeks')) ?></h2><?php $gridWeeks = $tmRecord['weeks']; require ROOT_DIR . '/partials/week-grid.php'; ?></section>
-<?php $ctaOptions = ['medium' => 'trimester']; require ROOT_DIR . '/partials/cta-primary.php'; $faqItems = $tmRecord['faq']; require ROOT_DIR . '/partials/faq.php'; ?>
+<?php $ctaOptions = ['medium' => 'trimester']; require ROOT_DIR . '/partials/cta-primary.php'; $faqItems = $tmRecord['faq']; require ROOT_DIR . '/partials/faq.php'; $relatedSlugs = related_for_weeks([], $tmRecord['weeks'], 6); require ROOT_DIR . '/partials/related.php'; ?>
 <div class="section--tight"><?php $disclaimerRecord = $tmRecord + ['kind' => 'medical']; require ROOT_DIR . '/partials/disclaimer.php'; ?></div>
 <?php $sourcesRecord = $tmRecord; require ROOT_DIR . '/partials/sources.php'; ?>
 </article></main><?php require ROOT_DIR . '/partials/footer.php'; unset($tmRecord, $tmEntry); ?>

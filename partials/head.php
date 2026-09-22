@@ -60,6 +60,9 @@ $headBlocks = array_merge($headBlocks, $page['jsonld'] ?? []);
 <?php endforeach; ?>
 <?php if (!empty($page['noindex'])): ?>
 <meta name="robots" content="noindex, follow">
+<?php else: ?>
+<?php /* Large previews are what Google Discover and image results show; the default is a thumbnail. */ ?>
+<meta name="robots" content="max-image-preview:large">
 <?php endif; ?>
 
 <meta property="og:type" content="<?= e($page['ogType'] ?? 'website') ?>">
@@ -79,6 +82,9 @@ $headBlocks = array_merge($headBlocks, $page['jsonld'] ?? []);
 <meta property="og:image:height" content="<?= e((string) $headOgH) ?>">
 <meta property="og:image:alt" content="<?= e($page['ogImageAlt'] ?? ui('foundation.ogImageAlt')) ?>">
 <meta name="twitter:card" content="summary_large_image">
+<?php if (($page['ogType'] ?? '') === 'article' && !empty($page['record']['updated'])): ?>
+<meta property="article:modified_time" content="<?= e($page['record']['updated']) ?>">
+<?php endif; ?>
 
 <!-- Keep in step with --ink in assets/css/site.css. -->
 <meta name="theme-color" content="#2F5D50">
