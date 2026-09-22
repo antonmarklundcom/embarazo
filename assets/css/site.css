@@ -937,3 +937,12 @@ a:hover { color: var(--petrol-dark); }
 .article-card__thumb picture, .article-card__thumb .article-card__img { display: block; width: 100%; height: 100%; }
 .article-card__thumb .article-card__img { object-fit: cover; border-radius: 0; }
 .week-figure .pic { max-width: 30rem; margin-inline: auto; }
+
+/* Contact channels: one button per configured channel (partials/contact-channels.php).
+   Full width on a phone so the number is the easiest thing on the screen to hit,
+   side by side once there is room for it. */
+.channels { display: flex; flex-wrap: wrap; gap: var(--space-xs); margin: var(--space-m) 0 var(--space-s); }
+.channels__btn { flex: 1 1 16rem; flex-direction: column; gap: 2px; padding-block: var(--space-xs); text-align: center; }
+.channels__label { font-size: var(--step--1); font-weight: var(--weight-regular); opacity: 0.85; }
+.channels__value { font-size: var(--step-1); font-weight: var(--weight-bold); }
+.channels__note { font-size: var(--step--1); color: var(--muted); }
