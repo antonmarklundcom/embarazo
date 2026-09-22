@@ -10,6 +10,8 @@ return [
         'share' => 'Compartí por WhatsApp', 'shareHint' => 'Para conversar en familia',
         // Alt text of the shared social card (assets/img/og-default.jpg), read by screen readers on X and Facebook.
         'ogImageAlt' => 'Mi Bebé: la app de embarazo hecha para Paraguay.',
+        // Printed next to the trimester on a week page; {m} is week_month().
+        'month' => 'mes {m} aproximadamente',
         'dismiss' => 'Ocultá la barra de la app', 'week' => 'Semana', 'weeks' => 'Semana a semana',
         'previous' => '← Anterior', 'next' => 'Siguiente →', 'weekNav' => 'Navegación entre semanas',
         'bebe' => 'Tu bebé esta semana', 'vos' => 'Vos esta semana', 'paraguay' => 'En Paraguay esta semana',
