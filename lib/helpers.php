@@ -214,7 +214,13 @@ function contact_channels(): array
 
     $whatsapp = phone_digits($pick('whatsapp'));
     if (strlen($whatsapp) >= 8 && strlen($whatsapp) <= 15) {
-        $out[] = ['key' => 'whatsapp', 'href' => 'https://wa.me/' . $whatsapp, 'text' => $pick('whatsapp')];
+        // The chat opens with a first line already written; an empty prefill string keeps the bare link.
+        $prefill = trim((string) ui('contactPage.waPrefill'));
+        $out[] = [
+            'key'  => 'whatsapp',
+            'href' => 'https://wa.me/' . $whatsapp . ($prefill === '' ? '' : '?text=' . rawurlencode($prefill)),
+            'text' => $pick('whatsapp'),
+        ];
     }
     $email = $pick('email');
     if ($email !== '' && filter_var($email, FILTER_VALIDATE_EMAIL) !== false) {

@@ -623,7 +623,7 @@ return [
                 'h2' => 'Política de correcciones',
                 'body' => [
                     'Al corregir un dato, la política editorial es contrastarlo con una fuente identificable, actualizar la explicación y ajustar la fecha de la página. Una observación útil incluye el enlace de la página, la frase a revisar y la fuente que permite comprobarla.',
-                    'El canal para recibir correcciones está pendiente de habilitación. Consultá [contacto](/contacto/) para conocer su estado; no envíes historias clínicas ni fotos del carné para señalar un error de contenido.'
+                    'Para señalar una corrección escribinos por WhatsApp desde [contacto](/contacto/): indicá la dirección de la página, la frase a revisar y, si la tenés, la fuente que lo confirma. No envíes historias clínicas ni fotos del carné para señalar un error de contenido.'
                 ]
             ]
         ],
@@ -650,7 +650,7 @@ return [
             ],
             [
                 'q' => '¿Dónde puedo señalar un error?',
-                'a' => 'El canal público de contacto todavía está pendiente. En [contacto](/contacto/) se informará cuando haya un medio disponible.'
+                'a' => 'Escribinos por WhatsApp desde [contacto](/contacto/), con la dirección de la página y la frase que te parece incorrecta. Se contrasta con la fuente y, si corresponde, se corrige.'
             ]
         ],
         'related' => [
@@ -691,15 +691,73 @@ return [
             '/sobre/'
         ]
     ], contact_channels() === [] ? [] : [
-        'description' => 'Cómo escribirle a Mi Bebé: consultas sobre la app, sugerencias y avisos de errores en el contenido.',
-        'metaDescription' => 'Cómo escribirle a Mi Bebé: consultas sobre la app, sugerencias y avisos de errores en el contenido.',
-        'lead' => 'Escribinos por el medio que prefieras. También podés mirar las [preguntas frecuentes](/preguntas-frecuentes/) y [cómo trabajamos](/sobre/) antes de escribir.',
+        'title' => 'Contacto',
+        'seoTitle' => 'Contacto: escribinos por WhatsApp',
+        'description' => 'Escribile a Mi Bebé por WhatsApp: consultas sobre la app de embarazo, sugerencias y avisos de errores en el contenido. No atendemos urgencias.',
+        'metaDescription' => 'Escribile a Mi Bebé por WhatsApp: consultas sobre la app de embarazo, sugerencias y avisos de errores en el contenido. No atendemos urgencias.',
+        'h1' => 'Contacto',
+        'lead' => 'Escribinos por WhatsApp: es el medio más rápido para una consulta sobre la app, una sugerencia o el aviso de un dato que haya que corregir. Leemos todos los mensajes; si tu duda es sobre cómo instalar Mi Bebé o qué trae, capaz la resolvés en un minuto con la [guía de instalación](/instalar/) o las [preguntas frecuentes](/preguntas-frecuentes/).',
         'stub' => false,
         'noindex' => false,
         'contactChannels' => true,
-        'faq' => [
-            ['q' => '¿Puedo avisar de un error en una página?', 'a' => 'Sí. Escribinos por cualquiera de los medios de esta página e indicá la dirección de la página y qué dato te parece incorrecto.'],
+        'sections' => [
+            [
+                'h2' => 'Para qué escribirnos',
+                'body' => [
+                    'Este canal es para la app y para el contenido del sitio. Respondemos en español y en guaraní jopara, de lunes a viernes, en horario de Paraguay. No hay un formulario ni pedimos tus datos: el mensaje llega directo a WhatsApp y sigue siendo tuyo.'
+                ],
+                'items' => [
+                    ['title' => 'Consultas sobre la app', 'text' => 'No se instala, no abre, perdiste el acceso o no entendés una función. Contanos qué teléfono usás y qué pasa en pantalla.'],
+                    ['title' => 'Sugerencias', 'text' => 'Falta una guía, un trámite o una herramienta que te haría falta. Las ideas de las usuarias definen qué se escribe después.'],
+                    ['title' => 'Errores en el contenido', 'text' => 'Un dato, una cifra o un plazo que no coincide con lo que te dijeron en el servicio o en la institución.'],
+                    ['title' => 'Prensa y alianzas', 'text' => 'Consultas de medios, servicios de salud u organizaciones que quieran difundir el contenido.']
+                ]
+            ],
+            [
+                'h2' => 'Qué no podemos responder',
+                'body' => [
+                    'No damos diagnósticos, indicaciones ni segundas opiniones: no somos un servicio de salud y no conocemos tu historia clínica. Tampoco interpretamos estudios ni ecografías, ni confirmamos si un síntoma es normal en tu caso. Para eso está la consulta con tu profesional o el servicio donde te controlás.',
+                    'Si tenés una [señal de alarma](/salud/senales-de-alarma/) —sangrado, dolor de cabeza fuerte, pérdida de líquido, fiebre alta o el bebé se mueve menos— no escribas por acá: llamá al 141 (SEME) o al 911, o andá al servicio más cercano. WhatsApp no se lee al instante y una urgencia no espera.'
+                ]
+            ],
+            [
+                'h2' => 'Cómo avisar de un error en una página',
+                'body' => [
+                    'Los datos de leyes, trámites y salud cambian, y una cifra vieja puede costarle tiempo o dinero a alguien. Si ves algo que no cuadra, avisanos: se revisa contra la fuente oficial y, si corresponde, se corrige y se actualiza la fecha de la página.'
+                ],
+                'items' => [
+                    ['title' => '1. Mandá la dirección', 'text' => 'Copiá el link de la página donde viste el dato, o contanos el título.'],
+                    ['title' => '2. Señalá la frase', 'text' => 'Indicá qué parte te parece incorrecta y qué debería decir según lo que sabés.'],
+                    ['title' => '3. Si tenés la fuente, sumala', 'text' => 'Una resolución, una ley o la respuesta de la institución acelera la corrección.']
+                ]
+            ],
+            [
+                'h2' => 'Tus datos',
+                'body' => [
+                    'Al escribir por WhatsApp compartís tu número con nosotros, como en cualquier chat. Usamos ese contacto solo para responderte: no armamos listas de difusión, no mandamos publicidad y no cedemos números a terceros. No hace falta que mandes tu cédula, tu historia clínica ni fotos del carné perinatal para hacer una consulta o señalar un error.',
+                    'La app tiene su propia explicación de qué guarda y qué no: leé [cómo tratamos los datos](/privacidad/).'
+                ]
+            ]
         ],
+        'features' => [
+            ['key' => 'instalar', 'title' => 'Cómo instalar Mi Bebé', 'text' => 'Paso a paso para Android y iPhone, sin tienda de aplicaciones.', 'path' => '/instalar/', 'tone' => 'celeste', 'icon' => '↓', 'label' => 'Ver la guía'],
+            ['key' => 'preguntas', 'title' => 'Preguntas frecuentes', 'text' => 'Cuenta, respaldo, familia, precio y qué funciona sin conexión.', 'path' => '/preguntas-frecuentes/', 'tone' => 'salvia', 'icon' => '?', 'label' => 'Leer las respuestas'],
+            ['key' => 'sobre', 'title' => 'Cómo trabajamos', 'text' => 'Qué fuentes usamos, qué revisamos y cómo corregimos un dato.', 'path' => '/sobre/', 'tone' => 'arena', 'icon' => '✓', 'label' => 'Ver la política']
+        ],
+        'featuresTitle' => 'Antes de escribir, capaz está acá',
+        'faq' => [
+            ['q' => '¿Puedo avisar de un error en una página?', 'a' => 'Sí, y es bienvenido. Escribinos por WhatsApp con la dirección de la página, la frase que te parece incorrecta y, si la tenés, la fuente oficial que lo confirma. Se revisa y, si corresponde, se corrige.'],
+            ['q' => '¿En cuánto tiempo responden?', 'a' => 'Leemos los mensajes de lunes a viernes, en horario de Paraguay. No es un canal de urgencias: si tenés una señal de alarma, llamá al 141 (SEME) o al 911 en vez de escribir.'],
+            ['q' => '¿Me pueden decir si lo que siento es normal?', 'a' => 'No. No damos indicaciones médicas ni interpretamos estudios, porque no conocemos tu historia clínica. Consultá con tu profesional o en el servicio donde te controlás; en el sitio podés leer las señales de alarma del embarazo.'],
+            ['q' => '¿Hace falta una cuenta para escribir?', 'a' => 'No. El contacto es por WhatsApp y no requiere cuenta ni registro. La app también se puede usar sin cuenta, con todo guardado en tu teléfono.'],
+            ['q' => '¿Usan mi número para otra cosa?', 'a' => 'No. Tu número se usa solo para responderte: no hay listas de difusión, publicidad ni cesión a terceros.']
+        ],
+        'related' => [
+            '/instalar/',
+            '/preguntas-frecuentes/',
+            '/sobre/'
+        ],
+        'updated' => '2026-09-22',
     ]),
     '/app/comparacion/' => [
         'title' => 'Cómo elegir una app de embarazo en Paraguay',

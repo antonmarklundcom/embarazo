@@ -40,6 +40,9 @@ if (($page['path'] ?? '') === '/instalar/') {
     }
 }
 if (!empty($page['tool'])) { $headBlocks[] = jsonld_web_application($page['tool'], seo_canonical($page)); }
+if (($page['path'] ?? '') === '/contacto/' && contact_channels() !== []) {
+    $headBlocks[] = jsonld_contact_page(seo_canonical($page), url('/') . '#organization', $page['title'] ?? ui('contactPage.heading'));
+}
 $headBlocks = array_merge($headBlocks, $page['jsonld'] ?? []);
 ?>
 <!doctype html>
@@ -68,11 +71,23 @@ $headBlocks = array_merge($headBlocks, $page['jsonld'] ?? []);
 <?php endif; ?>
 <meta property="og:url" content="<?= e(seo_canonical($page)) ?>">
 <meta property="og:image" content="<?= e(seo_og_image($page)) ?>">
+<?php /* Declared dimensions let WhatsApp, Facebook and X lay the card out before the file arrives —
+   the share preview is the first thing most Paraguayan traffic sees. The default card is 1200x630;
+   a page that sets its own ogImage may declare ogImageSize => [w, h]. */ ?>
+<?php [$headOgW, $headOgH] = $page['ogImageSize'] ?? [1200, 630]; ?>
+<meta property="og:image:width" content="<?= e((string) $headOgW) ?>">
+<meta property="og:image:height" content="<?= e((string) $headOgH) ?>">
+<meta property="og:image:alt" content="<?= e($page['ogImageAlt'] ?? ui('foundation.ogImageAlt')) ?>">
 <meta name="twitter:card" content="summary_large_image">
 
 <!-- Keep in step with --ink in assets/css/site.css. -->
 <meta name="theme-color" content="#2F5D50">
 <link rel="icon" href="<?= e(asset('/assets/img/favicon.svg')) ?>" type="image/svg+xml">
+
+<?php /* Every page's primary action leaves for the app origin; warming the connection here shaves the
+   handshake off that hop, which is the one click the whole site is built to earn. */ ?>
+<link rel="preconnect" href="https://app.embarazo.com.py" crossorigin>
+<link rel="dns-prefetch" href="https://app.embarazo.com.py">
 
 <?php /* Nunito Sans: the @font-face rules (assets/css/fonts.css) and the two critical preloads are emitted only once the
    woff2 files exist, so the site makes no failing font requests until they are added (assets/fonts/README.md). */ ?>
@@ -94,4 +109,4 @@ $headBlocks = array_merge($headBlocks, $page['jsonld'] ?? []);
 <body>
 <a class="skip-link" href="#main"><?= e(ui('nav.skip')) ?></a>
 
-<?php unset($headLang, $headBlocks, $headTrail, $headCrumb, $headFaq, $headArticle, $headOs, $headBlock, $headLocale, $headPath, $headFont); ?>
+<?php unset($headLang, $headBlocks, $headTrail, $headCrumb, $headFaq, $headArticle, $headOs, $headBlock, $headOgW, $headOgH, $headLocale, $headPath, $headFont); ?>

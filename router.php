@@ -39,6 +39,27 @@ if ($gone !== [] && in_array(rtrim($path, '/') . '/', $gone, true)) {
     return true;
 }
 
+/* The generic WordPress endpoints the old install leaves behind. The host and
+   scheme rules in .htaccess have no counterpart here on purpose: the built-in
+   server is reached as http://127.0.0.1 and would redirect to itself forever. */
+if (preg_match('#^/(wp-login\.php|xmlrpc\.php)$#', $path) || preg_match('#^/wp-admin(/|$)#', $path)) {
+    $halt(410, '<h1>410 Gone</h1>');
+    return true;
+}
+$legacy = [
+    '/wp-sitemap.xml'    => '/sitemap.xml',
+    '/sitemap_index.xml' => '/sitemap.xml',
+    '/feed'              => '/blog/',
+    '/feed/'             => '/blog/',
+    '/comments/feed'     => '/blog/',
+    '/comments/feed/'    => '/blog/',
+];
+if (isset($legacy[$path])) {
+    http_response_code(301);
+    header('Location: ' . $legacy[$path]);
+    return true;
+}
+
 // --- generated text endpoints -----------------------------------------------
 if ($path === '/sitemap.xml') {
     require $root . '/sitemap.php';

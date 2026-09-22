@@ -17,7 +17,7 @@ require ROOT_DIR . '/partials/head.php'; require ROOT_DIR . '/partials/header.ph
 <?php require ROOT_DIR . '/partials/breadcrumbs.php'; ?>
 <h1><?= e($wkRecord['title']) ?></h1><p class="lead"><?= e(content('trimestres')[$wkTrimester]['title']) ?> · <?= e(strtr(ui('foundation.completed'), ['{n}' => (string) $n, '{completed}' => (string) ($n - 1)])) ?></p>
 <div class="size-panel"><span class="size-panel__n"><?= e((string) $n) ?></span><span class="size-panel__what"><?= e(str_replace('{size}', $wkRecord['size']['name'], ui('foundation.size'))) ?></span><span class="size-panel__sub"><?= e(strtr(ui('foundation.measure'), ['{length}' => fmt_measure($wkRecord['size']['lengthCm']), '{weight}' => fmt_measure($wkRecord['size']['weightG'])])) ?></span></div>
-<?php $wkPic = picture(is_array($wkRecord['image'] ?? null) ? $wkRecord['image'] : [], '(min-width: 720px) 480px, calc(100vw - 32px)'); if ($wkPic !== ''): ?><figure class="week-figure"><?= $wkPic ?></figure><?php endif; unset($wkPic); ?>
+<?php $wkPic = picture(is_array($wkRecord['image'] ?? null) ? $wkRecord['image'] : [], '(min-width: 720px) 480px, calc(100vw - 32px)', 'eager'); if ($wkPic !== ''): ?><figure class="week-figure"><?= $wkPic ?></figure><?php endif; unset($wkPic); ?>
 <?php foreach (['bebe', 'vos'] as $wkKey): ?><section class="prose section--tight"><h2><?= e(ui('foundation.' . $wkKey)) ?></h2>
 <?php if ($wkKey === 'bebe'): ?><p><?= rich($wkRecord['milestone']) ?></p><?php endif; ?>
 <?php foreach ($wkRecord['sections'][$wkKey] as $wkParagraph): ?><p><?= rich($wkParagraph) ?></p><?php endforeach; ?>
