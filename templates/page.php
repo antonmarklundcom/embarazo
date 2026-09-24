@@ -26,7 +26,7 @@ require ROOT_DIR . '/partials/head.php'; require ROOT_DIR . '/partials/header.ph
             throw new InvalidArgumentException('Bento site links must be local paths.');
         }
         $pgHref = $pgFeature['path'];
-    } elseif (in_array(trim($pgFeature['appPath'] ?? '', '/'), ['privacidad', 'terminos', 'borrar-cuenta'], true)) {
+    } elseif (preg_match('~\A(privacidad|terminos|borrar-cuenta|derechos|emergencia|semana/\d+|guias/[a-z0-9-]+)\z~', trim($pgFeature['appPath'] ?? '', '/'))) {
         $pgHref = app_page_link($pgFeature['appPath'], 'product', $pgCampaign);
     } else {
         $pgHref = app_link('product', $pgCampaign, $pgFeature['extra'] ?? []);

@@ -1,4 +1,4 @@
-# Facts pulled from the app repo (antonmarklundcom/embarazo.2.1) — 2026-09-20
+# Facts pulled from the app repo (antonmarklundcom/embarazo.2.1) — 2026-09-20, re-checked 2026-09-24
 
 Read-only reference for every session in this repo. The app repo is **context only**;
 nothing in this site repo imports from it at build time. When a fact here goes stale,
@@ -11,10 +11,18 @@ re-read the app repo and fix this file in the same PR.
 - **Site origin (this repo):** `https://embarazo.com.py` (root domain, currently WordPress, replaced in place).
 - **Two modes:** "Estoy embarazada" (week-by-week, tools, prenatal summary) and
   "Estoy planeando / buscando" (menstrual calendar, fertile-window estimate, preconception checklist).
-- **Accounts optional.** Google sign-in for backup/sync + family sharing by WhatsApp link;
-  "seguir sin cuenta" keeps everything on the phone. Photos are never uploaded.
-- **Honest privacy line:** "sin cuenta, todo queda en tu teléfono; con cuenta, el servidor
-  guarda un sobre que no puede leer". Never "no recolectamos datos".
+- **Accounts optional.** Sign in with Google **or email + password** (with email
+  confirmation and password reset) for backup/sync + family sharing by WhatsApp link;
+  "seguir sin cuenta" keeps everything on the phone.
+- **Photos:** stay on the phone by default. Opt-in "Copia de tus fotos" (Ajustes) uploads
+  them to private object storage; turning it off deletes the copies. Family only sees belly
+  photos if that is also switched on in Familia. Never write "las fotos nunca se suben".
+- **Honest privacy line:** "sin cuenta, todo queda en tu teléfono; con cuenta, tus registros
+  se copian al servidor para respaldarlos". Synced health records are NOT end-to-end
+  encrypted; only diary notes protected with a PIN travel encrypted ("el servidor no puede
+  leerlas"). Never write "un sobre que no puede leer" and never "no recolectamos datos".
+  Source of truth: app `app/(app)/privacidad/page.tsx`.
+- **Push reminders:** optional weekly "semana nueva" and prenatal-control reminders (Ajustes).
 - **No pop-up ads, no email capture, no forms on the site.** Founder rules.
 - **Medical reviewer:** not yet recruited. Build no longer refuses without one; content
   carries a visible disclaimer instead (`DECISIONS.md` "disclaimer model", 2026-09-05).
@@ -27,7 +35,8 @@ re-read the app repo and fix this file in the same PR.
 Weeks `/semana/1..42` · Guides `/guias/<slug>` · `/derechos` (rights browser with leave-date
 math) · `/emergencia` (141 SEME, 911, alarm signs) · `/directorio` (gated on real listings) ·
 `/planeando/{calendario,fertilidad,checklist,consultar}` · `/familia` · `/eventos` ·
-`/recomendados` · `/preguntas` · `/privacidad` · `/terminos` · `/borrar-cuenta` · `/conoce`
+`/recomendados` · `/preguntas` · `/privacidad` · `/terminos` · `/borrar-cuenta` ·
+`/cuenta` (+ `/cuenta/olvide`, `/cuenta/restablecer`, `/cuenta/verificar`) · `/conoce`
 (current public landing; the site replaces it) ·
 Tools `/herramientas/{bebe-ia,carne,checklist,comer,contracciones,dental,diario,ejercicios,
 fotos,kegel,nombres,pataditas,peso,precios,resumen,sintomas,sueno}`.
@@ -58,12 +67,13 @@ The site builds every CTA through ONE helper (`app_link()`), never by hand.
 ## Brand tokens (app `app/globals.css`, copy verbatim into the site tokens block)
 
 ```
-cream #FBF7F1 · petrol #2F5D50 · petrol-dark #24463D · terracotta #C96342 · rose #E0A4A0
-sage #6F8A66 · ink #322E29 · muted #7A7369 · line #EDE5DA · whatsapp #25D366
+cream #FBF7F1 · petrol #2F5D50 · petrol-dark #24463D · terracotta #B5553A · rose #E0A4A0
+sage #6F8A66 · ink #322E29 · muted #7A7369 · line #EDE5DA · whatsapp #0F7F43
 sand-bg #F8E2CB · sand-text #8A5A2E
 pastel: rosa #F3DAD4 · celeste #D9E5EC · salvia #DFE8D8 · lavanda #E6E0F0 · arena #F8E2CB
 radius card 16px · tile 14px · font Nunito Sans 400/500 (self-host woff2 on the site)
 ```
+(The app darkened terracotta from #C96342 and WhatsApp from #25D366 for WCAG AA.)
 Terracotta is the single CTA colour. Nothing dark, nothing navy/hot-pink.
 
 ## Pregnancy math to port verbatim (app `lib/pregnancy.ts`, tests in `lib/pregnancy.test.ts`)

@@ -17,6 +17,7 @@ $page = ['title' => $arRecord['seoTitle'] ?: $arRecord['title'], 'description' =
     'noindex' => !empty($arRecord['stub']) || !empty($arRecord['noindex']),
     'breadcrumbs' => [['label' => content('clusters')[$arRecord['cluster']]['title'] ?? ui('foundation.blog'), 'path' => '/' . $arRecord['cluster'] . '/'], ['label' => $arRecord['title'], 'path' => $arRecord['path']]]];
 if (is_string($arRecord['image'] ?? null) && $arRecord['image'] !== '') { $page['ogImage'] = $arRecord['image']; }
+elseif (isset(content('articulos')[$slug ?? '']) && ($arOg = og_card('articulo-' . $slug)) !== null) { $page['ogImage'] = $arOg; $page['ogImageAlt'] = $arRecord['image']['alt'] ?? $arRecord['title']; }
 require ROOT_DIR . '/partials/head.php'; require ROOT_DIR . '/partials/header.php';
 ?>
 <main id="main"><article class="wrap wrap--text section section--tight">

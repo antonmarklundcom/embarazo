@@ -22,9 +22,10 @@
   --on-petrol: #FBF7F1;       /* cream on petrol — 6.9:1 */
 
   /* ---- Accent (terracotta) — the ONLY CTA colour --------------------- */
-  --accent: #C96342;          /* brand terracotta: rings, icons, underlines,
-                                 tints, the progress arc. Decorative + large
-                                 only — 3.7:1, not a text colour. */
+  --accent: #B5553A;          /* brand terracotta, the app's own value since it
+                                 darkened #C96342 for contrast: rings, icons,
+                                 underlines, tints, the progress arc. 4.5:1 on
+                                 --bg; still decorative + large only here. */
   --accent-text: #B24A2A;     /* terracotta-700: CTA fill, links, eyebrows.
                                  5.0:1 on --bg, 5.4:1 on --surface,
                                  5.4:1 against white text. AA everywhere. */
@@ -50,7 +51,7 @@
   --rose: #E0A4A0;            /* decorative only, never a state */
   --alert: #A4362A;           /* señales de alarma, "no es normal" — 6.0:1 */
   --alert-bg: #FBEBE7;
-  --whatsapp: #25D366;        /* brand mark only */
+  --whatsapp: #0F7F43;        /* brand mark only — the app's value */
   --whatsapp-text: #0E7A3C;   /* 4.6:1 — the share button's fill */
 
   /* ---- Focus --------------------------------------------------------- */
