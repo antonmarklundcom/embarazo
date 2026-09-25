@@ -33,7 +33,7 @@ return [
     ],
         [
         'title' => 'Tus datos son tuyos',
-        'text' => 'Sin cuenta, todo queda en tu teléfono. Con cuenta, el servidor guarda un sobre que no puede leer. Las fotos nunca se suben.'
+        'text' => 'Sin cuenta, todo queda en tu teléfono. Con cuenta, tus registros se respaldan para verlos en otro celular. Las fotos solo se suben si vos lo activás.'
     ]
     ],
         'weekTitle' => '¿En qué semana estás?',
@@ -147,7 +147,7 @@ return [
             [
                 'h2' => 'Elegí cómo guardar tu información',
                 'body' => [
-                    'Podés seguir sin cuenta y mantener todo en tu teléfono. La cuenta con Google agrega respaldo y sincronización: el servidor guarda un sobre que no puede leer. Las fotos nunca se suben. Leé cómo se distinguen esas opciones en [privacidad](/privacidad/).'
+                    'Podés seguir sin cuenta y mantener todo en tu teléfono. La cuenta (con Google o con tu correo) agrega respaldo y sincronización. Las fotos solo se suben si activás la copia de fotos. Leé cómo se distinguen esas opciones en [privacidad](/privacidad/).'
                 ]
             ]
         ],
@@ -198,9 +198,16 @@ return [
             [
                 'key' => 'herramientas',
                 'title' => 'Herramientas para el día a día',
-                'text' => 'Tené a mano el carné, el diario y los registros de peso, síntomas, pataditas y contracciones.',
+                'text' => 'Tené a mano el carné, el diario y los registros de peso, síntomas, pataditas y contracciones. Con «Preparar mi control» llevás tus preguntas y tus datos en una hoja para tu médico/a.',
                 'appPath' => '/herramientas/resumen',
                 'tone' => 'celeste'
+            ],
+            [
+                'key' => 'avisos',
+                'title' => 'Avisos que vos elegís',
+                'text' => 'Si los activás, te avisa el día antes de tu control prenatal y, si querés, el día que empieza tu semana nueva. En iPhone, los avisos necesitan la app instalada.',
+                'appPath' => '/ajustes',
+                'tone' => 'salvia'
             ],
             [
                 'key' => 'derechos',
@@ -265,7 +272,7 @@ return [
             [
                 'h2' => 'La cuenta es una elección aparte',
                 'body' => [
-                    'La instalación y la cuenta son decisiones distintas. Seguir sin cuenta mantiene tus datos en el teléfono; la cuenta con Google permite respaldo, sincronización y compartir por WhatsApp. Revisá [cómo se guardan tus datos](/privacidad/) y [cómo acompañarte en familia](/familia/).'
+                    'La instalación y la cuenta son decisiones distintas. Seguir sin cuenta mantiene tus datos en el teléfono; la cuenta, con Google o con tu correo, permite respaldo, sincronización y compartir por WhatsApp. Revisá [cómo se guardan tus datos](/privacidad/) y [cómo acompañarte en familia](/familia/).'
                 ]
             ]
         ],
@@ -292,7 +299,7 @@ return [
             ],
             [
                 'q' => '¿Instalarla me crea una cuenta?',
-                'a' => 'La cuenta es opcional. Podés elegir «seguir sin cuenta»; si elegís una cuenta con Google, tenés respaldo, sincronización y seguimiento familiar.'
+                'a' => 'La cuenta es opcional. Podés elegir «seguir sin cuenta»; si creás una cuenta con Google o con tu correo, tenés respaldo, sincronización y seguimiento familiar.'
             ]
         ],
         'related' => [
@@ -353,10 +360,10 @@ return [
     '/privacidad/' => [
         'title' => 'Privacidad en Mi Bebé: vos elegís la cuenta',
         'seoTitle' => 'Privacidad en Mi Bebé: vos elegís la cuenta',
-        'description' => 'Entendé qué guarda Mi Bebé en tu teléfono y qué cambia con una cuenta: respaldo, sincronización y fotos que nunca se suben al servidor.',
-        'metaDescription' => 'Entendé qué guarda Mi Bebé en tu teléfono y qué cambia con una cuenta: respaldo, sincronización y fotos que nunca se suben al servidor.',
+        'description' => 'Entendé qué guarda Mi Bebé en tu teléfono y qué cambia con una cuenta: respaldo, sincronización y una copia de fotos que solo existe si la activás.',
+        'metaDescription' => 'Entendé qué guarda Mi Bebé en tu teléfono y qué cambia con una cuenta: respaldo, sincronización y una copia de fotos que solo existe si la activás.',
         'h1' => 'Privacidad en Mi Bebé: vos elegís la cuenta',
-        'lead' => 'Sin cuenta, todo queda en tu teléfono. Con cuenta, el servidor guarda un sobre que no puede leer. Las fotos nunca se suben. Esa es la diferencia principal para elegir cómo usar Mi Bebé, tanto si estás embarazada como si estás planeando.',
+        'lead' => 'Sin cuenta, todo queda en tu teléfono. Con cuenta, tus registros se copian al servidor para respaldarlos y verlos en otro celular. Las fotos solo se suben si vos lo activás. Esa es la diferencia principal para elegir cómo usar Mi Bebé, tanto si estás embarazada como si estás planeando.',
         'sections' => [
             [
                 'h2' => 'Si seguís sin cuenta',
@@ -367,13 +374,13 @@ return [
             [
                 'h2' => 'Si elegís una cuenta',
                 'body' => [
-                    'La cuenta con Google habilita respaldo, sincronización y seguimiento familiar por un link de WhatsApp. El contenido que guarda el servidor está dentro de ese sobre que no puede leer. Para conocer la opción de compartir, pasá por [Mi Bebé en familia](/familia/).'
+                    'La cuenta, con Google o con tu correo y una contraseña, habilita respaldo, sincronización y seguimiento familiar por un link de WhatsApp. Tus registros del embarazo se copian al servidor para que no los pierdas si cambiás de teléfono; el equipo no lee su contenido para darte soporte. Las notas del diario que protegés con un PIN viajan cifradas y el servidor no puede leerlas. Para conocer la opción de compartir, pasá por [Mi Bebé en familia](/familia/).'
                 ]
             ],
             [
                 'h2' => 'Las fotos tienen una regla propia',
                 'body' => [
-                    'Las fotos nunca se suben, también cuando usás una cuenta. No confundas tener respaldo con tener una copia de tus fotos en el servidor.'
+                    'Las fotos de la panza y del carné perinatal se quedan en tu teléfono, también cuando usás una cuenta. Solo se suben si activás «Copia de tus fotos» en Ajustes; si la apagás, las copias se borran. Tu familia no las ve salvo que también lo actives en Familia.'
                 ]
             ],
             [
@@ -431,15 +438,15 @@ return [
         'faq' => [
             [
                 'q' => '¿Necesito Google para usar Mi Bebé?',
-                'a' => 'No. Podés elegir seguir sin cuenta. Google es la opción documentada para entrar con una cuenta y usar respaldo, sincronización y seguimiento familiar.'
+                'a' => 'No. Podés seguir sin cuenta. Si querés respaldo, sincronización y seguimiento familiar, podés crear la cuenta con Google o con tu correo y una contraseña.'
             ],
             [
                 'q' => '¿El servidor puede leer lo que guardo con cuenta?',
-                'a' => 'El modelo de Mi Bebé guarda en el servidor un sobre que no puede leer. La política de privacidad de la app explica sus condiciones.'
+                'a' => 'Tus registros se guardan en el servidor para respaldarlos, y el equipo no lee su contenido para darte soporte. Las notas del diario con PIN viajan cifradas: esas el servidor no las puede leer. La política de privacidad de la app explica el detalle.'
             ],
             [
                 'q' => '¿Las fotos se incluyen en lo que se sube?',
-                'a' => 'No. Las fotos nunca se suben; la opción de cuenta no cambia esa regla.'
+                'a' => 'No, salvo que lo pidas. Las fotos solo se suben si activás «Copia de tus fotos» en Ajustes.'
             ]
         ],
         'related' => [
@@ -493,15 +500,15 @@ return [
             ],
             [
                 'q' => '¿Cómo entro con una cuenta?',
-                'a' => 'La opción documentada es iniciar sesión con Google. Si preferís no hacerlo, podés continuar sin cuenta.'
+                'a' => 'Podés entrar con Google o crear la cuenta con tu correo y una contraseña. Si preferís no hacerlo, podés continuar sin cuenta.'
             ],
             [
                 'q' => '¿Qué guarda el servidor cuando tengo cuenta?',
-                'a' => 'Guarda un sobre que no puede leer. La página de [privacidad](/privacidad/) resume la diferencia entre usar una cuenta y seguir sin ella.'
+                'a' => 'Guarda una copia de tus registros para respaldarlos y sincronizarlos; las notas del diario con PIN van cifradas. La página de [privacidad](/privacidad/) resume la diferencia entre usar una cuenta y seguir sin ella.'
             ],
             [
                 'q' => '¿Se suben mis fotos?',
-                'a' => 'No. Las fotos nunca se suben, incluso si elegís usar una cuenta.'
+                'a' => 'Solo si vos lo activás. Con cuenta, podés encender «Copia de tus fotos» en Ajustes; si no, las fotos quedan en tu teléfono.'
             ],
             [
                 'q' => '¿Sirve antes del embarazo?',
@@ -555,7 +562,7 @@ return [
             [
                 'h2' => 'Antes de mandar el link',
                 'body' => [
-                    'La función familiar está asociada a una cuenta con Google. Desde la app, buscá el apartado Familia para compartir por WhatsApp. Si todavía estás eligiendo entre usar una cuenta o seguir sin ella, revisá la [explicación de privacidad](/privacidad/).',
+                    'La función familiar necesita una cuenta, con Google o con tu correo. Desde la app, buscá el apartado Familia para compartir por WhatsApp. Si todavía estás eligiendo entre usar una cuenta o seguir sin ella, revisá la [explicación de privacidad](/privacidad/).',
                     'Elijan juntos a quién enviar el link. Para dudas sobre qué información verá quien lo reciba, revisen lo que indique la app antes de compartir.'
                 ]
             ]
@@ -782,13 +789,13 @@ return [
             [
                 'h2' => '3. ¿Puedo empezar sin una cuenta?',
                 'body' => [
-                    'Fijate si podés conocer y usar la app antes de iniciar sesión. Mi Bebé permite seguir sin cuenta, con todo en el teléfono. La cuenta con Google se usa para respaldo, sincronización y seguimiento familiar.'
+                    'Fijate si podés conocer y usar la app antes de iniciar sesión. Mi Bebé permite seguir sin cuenta, con todo en el teléfono. La cuenta, con Google o con tu correo, se usa para respaldo, sincronización y seguimiento familiar.'
                 ]
             ],
             [
                 'h2' => '4. ¿Qué pasa con mis datos y fotos?',
                 'body' => [
-                    'Leé la política de privacidad y ubicá las indicaciones para borrar una cuenta. En Mi Bebé, con cuenta, el servidor guarda un sobre que no puede leer; las fotos nunca se suben. La [explicación de privacidad](/privacidad/) distingue las opciones.'
+                    'Leé la política de privacidad y ubicá las indicaciones para borrar una cuenta. En Mi Bebé, con cuenta, tus registros se respaldan en el servidor y las fotos solo se suben si lo activás. La [explicación de privacidad](/privacidad/) distingue las opciones.'
                 ]
             ],
             [

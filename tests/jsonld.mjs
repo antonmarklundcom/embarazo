@@ -90,7 +90,7 @@ if (option('--audit')) {
     if (bytes > 250 * 1024) fail(`${route}: HTML+CSS ${bytes} bytes exceeds 250 KB`);
     for (const match of html.matchAll(/<a\b[^>]*href="([^"]+)"[^>]*>/gi)) {
       const href = decode(match[1]);
-      if ((/app\.embarazo\.com\.py/i.test(href) || /class="[^"]*\bbtn--primary\b/.test(match[0])) && !/^https:\/\/app\.embarazo\.com\.py\/(?:privacidad\/|terminos\/|borrar-cuenta\/)?\?utm_source=site(?:&|$)/.test(href)) fail(`${route}: invalid app CTA ${href}`);
+      if ((/app\.embarazo\.com\.py/i.test(href) || /class="[^"]*\bbtn--primary\b/.test(match[0])) && !/^https:\/\/app\.embarazo\.com\.py\/(?:privacidad|terminos|borrar-cuenta|derechos|emergencia|semana\/(?:[1-9]|[1-3]\d|4[0-2])|guias\/[a-z0-9]+(?:-[a-z0-9]+)*)?\?utm_source=site(?:&|$)/.test(href)) fail(`${route}: invalid app CTA ${href}`);
     }
     if (flag === 'stub' && !/name="robots" content="noindex, follow"/.test(html)) fail(`${route}: stub lacks noindex`);
     if (flag === 'indexable' || indexable.has(route)) {

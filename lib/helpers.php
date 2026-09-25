@@ -280,13 +280,18 @@ function app_link(string $medium = 'product', string $campaign = 't0', array $ex
     return 'https://app.embarazo.com.py/?' . http_build_query($params, '', '&', PHP_QUERY_RFC3986);
 }
 
-/** Allow-listed app legal pages; URI-encode query values, then use e() at the HTML boundary. */
+/**
+ * Allow-listed app pages that open without onboarding: the legal pages plus the content
+ * pages a feature tile can land on (a week, a guide, rights, emergency). Tools that need a
+ * profile (resumen, familia, calendario) go through app_link() and the app's onboarding.
+ * URI-encode query values, then use e() at the HTML boundary.
+ */
 function app_page_link(string $path, string $medium, string $campaign): string
 {
-    if (!preg_match('~\A/?(privacidad|terminos|borrar-cuenta)/?\z~', $path, $match)) {
-        throw new InvalidArgumentException('Unsupported app legal page.');
+    if (!preg_match('~\A/?(privacidad|terminos|borrar-cuenta|derechos|emergencia|semana/(?:[1-9]|[1-3][0-9]|4[0-2])|guias/[a-z0-9]+(?:-[a-z0-9]+)*)/?\z~', $path, $match)) {
+        throw new InvalidArgumentException('Unsupported app page.');
     }
-    return 'https://app.embarazo.com.py/' . $match[1] . '/?' . http_build_query(
+    return 'https://app.embarazo.com.py/' . $match[1] . '?' . http_build_query(
         ['utm_source' => 'site', 'utm_medium' => $medium, 'utm_campaign' => $campaign],
         '', '&', PHP_QUERY_RFC3986
     );

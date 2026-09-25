@@ -58,6 +58,20 @@ function seo_canonical(array $page): string
 }
 
 /**
+ * Path of a per-page share card rendered by deploy/og-cards.mjs, or null when that card
+ * has not been rendered (the page then keeps og-default.jpg).
+ */
+function og_card(string $key): ?string
+{
+    if (!preg_match('~\A[a-z0-9-]+\z~', $key)) {
+        return null;
+    }
+    $path = '/assets/img/og/' . $key . '.jpg';
+
+    return is_file(ROOT_DIR . $path) ? $path : null;
+}
+
+/**
  * Absolute URL of the social preview image.
  */
 function seo_og_image(array $page): string

@@ -815,6 +815,9 @@ return [
         'sections' => [
             'bebe' => [
                 'En la semana 12 de embarazo, tu bebé tiene como comparación una lima. El cuerpo se alarga, los dedos están más definidos y puede hacer movimientos que todavía no sentís. Esta semana suele coincidir con la ecografía del primer trimestre, que revisa la edad gestacional, el número de bebés y aspectos de su anatomía temprana. Para vos, las náuseas pueden empezar a disminuir, aunque no hay un día exacto para ese cambio.',
+                'Mide alrededor de 5 centímetros desde la cabeza hasta las nalgas y pesa unos 14 gramos, aunque cada ecografía informa sus propias medidas. La cabeza todavía es grande en proporción al cuerpo, pero el tronco y las piernas empiezan a alargarse. Los párpados están cerrados y cubren los ojos, las orejas se acercan a su posición definitiva y en la boca ya se están formando los brotes de los dientes de leche.',
+                'Casi todos los órganos ya están formados y, desde ahora, la tarea principal es crecer y madurar. Los riñones empiezan a producir orina, que pasa al líquido amniótico; el intestino, que durante semanas se desarrolló en parte dentro del cordón umbilical, termina de acomodarse en el abdomen. El sistema nervioso organiza los primeros reflejos: el bebé puede abrir y cerrar los dedos, fruncir la boca o reaccionar si se presiona suavemente el vientre durante el estudio.',
+                'La placenta asume cada vez más el trabajo de nutrir y oxigenar al bebé, y por eso muchas mujeres notan que algunos síntomas del comienzo se estabilizan hacia el final del primer trimestre. Los movimientos existen, pero son tan pequeños que no se perciben desde afuera: la mayoría de las primerizas los empieza a sentir entre las semanas 18 y 22. Si todavía no sentís nada, es lo esperable para esta etapa y no dice nada sobre cómo está tu bebé.',
             ],
             'vos' => [
                 'Si empiezan a bajar las náuseas, tal vez puedas volver a comidas que habías dejado por el olor. Reincorporalas según tu tolerancia, sin exigirte recuperar enseguida el ritmo de antes. El cansancio puede durar más que los vómitos. Si seguís sin retener líquidos o estás perdiendo peso, solicitá atención; llegar a esta semana no vuelve menos importante tratar los síntomas que afectan tu hidratación y alimentación.',
@@ -909,7 +912,7 @@ return [
             'weightG' => 14,
         ],
         'milestone' => 'Casi todos los órganos están formados. Los reflejos aparecen y el bebé puede mover los dedos.',
-        'updated' => '2026-09-20',
+        'updated' => '2026-09-24',
     ],
     13 => [
         'title' => 'Semana 13 de embarazo',

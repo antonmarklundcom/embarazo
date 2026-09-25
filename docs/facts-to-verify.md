@@ -237,6 +237,7 @@ de su fase: L ya activó los enlaces y P1 retiró la promesa offline compartida.
 
 ### /semana/12/
 - pending medical review of first-trimester ultrasound scope, approximate 11–14-week window and precise dating/size eligibility for nuchal translucency, screening versus diagnosis, later anatomy scan and early sex-identification limitations. [W2 — weeks 8–14 — 2026-09-20 (offline editorial review)]
+- pending medical review of the fetal-development paragraphs added 2026-09-24: ~5 cm / ~14 g, tooth buds, kidneys producing urine, physiological midgut herniation returning to the abdomen, early reflexes, placenta taking over, first movements usually felt at 18–22 weeks in a first pregnancy.
 
 ### /semana/13/
 - pending medical review of limb/face growth, trimester transition, pigment changes, transient discomfort, nutrition and return to activity. [W2 — weeks 8–14 — 2026-09-20 (offline editorial review)]

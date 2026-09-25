@@ -11,6 +11,7 @@ $page = ['title' => $hbRecord['seoTitle'] ?? $hbRecord['title'], 'description' =
     'noindex' => !empty($hbRecord['stub']) || !empty($hbRecord['noindex']), 'faq' => $hbRecord['faq'] ?? [],
     'breadcrumbs' => [['label' => $hbRecord['title'], 'path' => '/' . $cluster . '/']]];
 if (!empty($hbRecord['updated'])) { $page['record'] = $hbRecord; $page['kind'] = $hbRecord['kind']; }
+if (!$hbWeeks && ($hbOg = og_card('tema-' . $cluster)) !== null) { $page['ogImage'] = $hbOg; $page['ogImageAlt'] = $hbRecord['image']['alt'] ?? $hbRecord['title']; }
 require ROOT_DIR . '/partials/head.php'; require ROOT_DIR . '/partials/header.php';
 ?>
 <main id="main"><div class="wrap section section--tight">

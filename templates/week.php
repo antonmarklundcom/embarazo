@@ -11,6 +11,7 @@ $page = ['title' => $wkRecord['seoTitle'], 'description' => $wkRecord['metaDescr
     'noindex' => !array_filter($wkRecord['sections'] ?? []) || !empty($wkRecord['stub']) || !empty($wkRecord['noindex']), 'ogType' => 'article',
     'breadcrumbs' => [['label' => ui('foundation.weeks'), 'path' => '/semana/'], ['label' => content('trimestres')[$wkTrimester]['title'], 'path' => '/trimestre/' . $wkTrimester . '/'], ['label' => $wkRecord['title'], 'path' => '/semana/' . $n . '/']]];
 if (is_string($wkRecord['image'] ?? null) && $wkRecord['image'] !== '') { $page['ogImage'] = $wkRecord['image']; }
+elseif (($wkOg = og_card('semana-' . $n)) !== null) { $page['ogImage'] = $wkOg; $page['ogImageAlt'] = $wkRecord['image']['alt'] ?? $wkRecord['title']; }
 require ROOT_DIR . '/partials/head.php'; require ROOT_DIR . '/partials/header.php';
 ?>
 <main id="main"><article class="wrap wrap--text section section--tight">
@@ -33,4 +34,4 @@ require ROOT_DIR . '/partials/head.php'; require ROOT_DIR . '/partials/header.ph
 <?php require ROOT_DIR . '/partials/week-nav.php'; $relatedSlugs = related_for_weeks($wkRecord['related'], [$n], 5); require ROOT_DIR . '/partials/related.php'; require ROOT_DIR . '/partials/wa-share.php'; ?>
 <div class="section--tight"><?php $disclaimerRecord = $wkRecord + ['kind' => 'medical']; require ROOT_DIR . '/partials/disclaimer.php'; ?></div>
 <?php $sourcesRecord = $wkRecord; require ROOT_DIR . '/partials/sources.php'; ?>
-</article></main><?php require ROOT_DIR . '/partials/footer.php'; unset($wkMonth, $wkRecord, $wkTrimester, $wkKey, $wkParagraph); ?>
+</article></main><?php require ROOT_DIR . '/partials/footer.php'; unset($wkMonth, $wkRecord, $wkTrimester, $wkKey, $wkParagraph, $wkOg); ?>
