@@ -171,3 +171,10 @@ Under 15 lines: PR links, merged or not, what changed for a user, anything waiti
 - 12 — done: "Cerca tuyo" leaves the bottom nav while no listing or event is published (4 tabs today); routes stay — antonmarklundcom/embarazo.2.1#122
 - 13 — already done: the Línea 155 card shows right after a low mood (verified on a real render), no change — antonmarklundcom/embarazo.2.1#122
 - 20a — already done: no user-facing copy assumes private care, no change — antonmarklundcom/embarazo.2.1#122
+- 16 — done: arrivals from the site counted by `utm_medium`, once per install; `/admin/metricas` "Llegadas desde el sitio" — antonmarklundcom/embarazo.2.1#123
+- 17 — done: onboarding finished (by channel), first tool, opened again 7+ days later; weekly table in `/admin/metricas` — antonmarklundcom/embarazo.2.1#123
+- 18 — done: `?src=<slug>` counted per card per day; URL to print in `docs/QR-CLINICS.md` (app) — antonmarklundcom/embarazo.2.1#123
+- 19 — done (code only): Cloudflare switch checked by `verify.sh` in both positions, privacy page wording; token waits on Anton (`docs/human-todo.md` 3) — antonmarklundcom/embarazo#22
+- 3 — done: `/mes/` hub and `/mes/1/` … `/mes/9/`, weeks from `week_month()`, key changes from week milestones — antonmarklundcom/embarazo#22
+- 4 — already done: `/planear/primeros-sintomas/` and `/planear/test-de-embarazo-cuando/` (~1,070 words each, class B, alarm link, `modo=planeando` hand-off) cover both articles; no near-duplicates under `/salud/`
+

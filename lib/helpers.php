@@ -282,13 +282,14 @@ function app_link(string $medium = 'product', string $campaign = 't0', array $ex
 
 /**
  * Allow-listed app pages that open without onboarding: the legal pages plus the content
- * pages a feature tile can land on (a week, a guide, rights, emergency). Tools that need a
- * profile (resumen, familia, calendario) go through app_link() and the app's onboarding.
+ * pages a feature tile can land on (a week, a guide, rights, emergency, and the two lookup tools
+ * the food and name pages hand off to). Tools that need a profile (resumen, familia,
+ * calendario) go through app_link() and the app's onboarding.
  * URI-encode query values, then use e() at the HTML boundary.
  */
 function app_page_link(string $path, string $medium, string $campaign): string
 {
-    if (!preg_match('~\A/?(privacidad|terminos|borrar-cuenta|derechos|emergencia|semana/(?:[1-9]|[1-3][0-9]|4[0-2])|guias/[a-z0-9]+(?:-[a-z0-9]+)*)/?\z~', $path, $match)) {
+    if (!preg_match('~\A/?(privacidad|terminos|borrar-cuenta|derechos|emergencia|herramientas/(?:comer|nombres)|semana/(?:[1-9]|[1-3][0-9]|4[0-2])|guias/[a-z0-9]+(?:-[a-z0-9]+)*)/?\z~', $path, $match)) {
         throw new InvalidArgumentException('Unsupported app page.');
     }
     return 'https://app.embarazo.com.py/' . $match[1] . '?' . http_build_query(

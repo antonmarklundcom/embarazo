@@ -37,6 +37,12 @@ return [
         'colMonth' => 'Mes', 'colWeeks' => 'Semanas', 'colTrimester' => 'Trimestre',
         'tableCaption' => 'Meses y semanas de embarazo',
     ],
+    // Growth plan item 1 — templates/food.php.
+    'food' => [
+        'title' => '¿Puedo comer {food} embarazada?', 'filter' => 'Filtrar por respuesta',
+        'synonyms' => 'También se busca como:', 'all' => 'Ver todos los alimentos',
+        'ctaTitle' => 'Buscalo en la app', 'ctaText' => 'En Mi Bebé tenés esta lista a mano, también sin conexión.',
+    ],
     'nav' => [
     'home' => 'Inicio',
     'skip' => 'Saltá al contenido',

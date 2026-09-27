@@ -50,6 +50,18 @@ foreach ($collections['trimesters'] as $n => $record) {
 foreach ($collections['months'] as $n => $record) {
     $add('months', $n, '/mes/' . $n . '/', $record + ['kind' => 'medical'], 'n', (int) $n, 'month');
 }
+// Growth plan item 1: only reviewed foods are published (tools/import-food.php), so with
+// none reviewed there is no hub and no page, and nothing here adds a route.
+$foods = array_filter(content('comer')['foods'], static fn(array $f): bool => $f['published']);
+if ($foods !== []) {
+    $add('foods', 'hub', '/alimentacion/puedo-comer/', content('comer-hub') + ['kind' => 'medical'], 'slug', null, 'food');
+    foreach ($foods as $slug => $food) {
+        if (!$food['page']) { continue; }
+        $source = explode(' — ', $food['source'], 2);
+        $add('foods', $slug, '/alimentacion/puedo-comer/' . $slug . '/', ['title' => $food['name'], 'kind' => 'medical',
+            'sources' => [['title' => $source[1] ?? $food['source'], 'publisher' => $source[0], 'url' => null, 'accessed' => null]]], 'slug', $slug, 'food');
+    }
+}
 foreach ($collections['hubs'] as $cluster => $record) {
     $add('hubs', $cluster, '/' . $cluster . '/', $record, 'cluster', $cluster, 'hub');
 }

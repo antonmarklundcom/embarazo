@@ -269,6 +269,15 @@ elif [ "$an_state" = ON ] && [ "$beacons" != 1 ]; then
 else
   ok "switch rule holds; content/site.php says $an_state and the home page loads $beacons beacon(s)"
 fi
+# ------------------------------------------------------- generated content ----
+# Growth plan item 1: tools/import-food.php --preview-unreviewed publishes unreviewed food
+# verdicts for a local render check. That file must never be what ships.
+step "generated content"
+if php -r 'require "'"$SITE_ROOT"'/lib/bootstrap.php"; exit(content("comer")["preview"] ? 1 : 0);'; then
+  ok "content/comer.php is a real import, not a preview"
+else
+  fail "content/comer.php is a --preview-unreviewed import; re-run php tools/import-food.php"
+fi
 # ---------------------------------------------------------- T1 foundation ----
 step "foundation sources, links, HTML and JSON-LD"
 AUDIT_DATA=$(mktemp)
