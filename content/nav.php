@@ -43,6 +43,9 @@ return [
     'label' => 'Semana a semana',
     'path' => '/semana/'
 ], [
+    'label' => 'Mes a mes',
+    'path' => '/mes/'
+], [
     'label' => 'Calculadora',
     'path' => '/calculadora/'
 ], [

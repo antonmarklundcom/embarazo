@@ -11,7 +11,7 @@ require rtrim($root, '/\\') . '/lib/bootstrap.php';
 $mode = $argv[2] ?? '';
 $collections = [
     'pages' => content('pages'), 'weeks' => content('semanas'),
-    'trimesters' => content('trimestres'), 'hubs' => content('clusters'),
+    'trimesters' => content('trimestres'), 'months' => content('meses'), 'hubs' => content('clusters'),
     'articles' => content('articulos'), 'blog' => content('blog'), 'tools' => content('tools'),
 ];
 $routes = [];
@@ -37,10 +37,18 @@ $add = static function (string $type, $key, string $path, array $record, string 
 foreach ($collections['pages'] as $path => $record) {
     if (rtrim($path, '/') === '/404') { continue; }
     $weekHub = $path === '/semana/';
+    if ($path === '/mes/') {
+        // The months hub renders from templates/month.php with no month selected.
+        $add('pages', $path, $path, $record + ['kind' => 'medical'], 'n', null, 'month');
+        continue;
+    }
     $add('pages', $path, $path, $record, $weekHub ? 'cluster' : 'path', $weekHub ? 'semana' : $path, $weekHub ? 'hub' : 'page');
 }
 foreach ($collections['trimesters'] as $n => $record) {
     $add('trimesters', $n, '/trimestre/' . $n . '/', $record + ['kind' => 'medical'], 'n', (int) $n, 'trimester');
+}
+foreach ($collections['months'] as $n => $record) {
+    $add('months', $n, '/mes/' . $n . '/', $record + ['kind' => 'medical'], 'n', (int) $n, 'month');
 }
 foreach ($collections['hubs'] as $cluster => $record) {
     $add('hubs', $cluster, '/' . $cluster . '/', $record, 'cluster', $cluster, 'hub');

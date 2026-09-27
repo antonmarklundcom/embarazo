@@ -167,4 +167,7 @@ Under 15 lines: PR links, merged or not, what changed for a user, anything waiti
 
 ## Log
 
-- (empty)
+- 7 — done: the site's 42 week illustrations are in the app hero, framed rather than composited because they are opaque (`lib/hero/weekArt.ts`); the transparent renders wait on Anton's approval — antonmarklundcom/embarazo.2.1#122
+- 12 — done: "Cerca tuyo" leaves the bottom nav while no listing or event is published (4 tabs today); routes stay — antonmarklundcom/embarazo.2.1#122
+- 13 — already done: the Línea 155 card shows right after a low mood (verified on a real render), no change — antonmarklundcom/embarazo.2.1#122
+- 20a — already done: no user-facing copy assumes private care, no change — antonmarklundcom/embarazo.2.1#122
