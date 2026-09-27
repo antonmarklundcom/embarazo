@@ -110,6 +110,18 @@ if ($comerFoods !== [] && is_file(ROOT_DIR . '/alimentacion/puedo-comer/index.ph
         }
     }
 }
+// Growth plan item 2: the names hub, origin pages and any gender pages.
+$nombres = content('nombres');
+$nombresPaths = ['/nombres/'];
+foreach ($nombres['originSlugs'] as $nombresSlug) { $nombresPaths[] = '/nombres/' . $nombresSlug . '/'; }
+foreach ($nombres['genderPages'] as [$nombresOrigin, $nombresGender]) {
+    $nombresPaths[] = '/nombres/' . $nombres['originSlugs'][$nombresOrigin] . '/' . $nombres['genderSlugs'][$nombresGender] . '/';
+}
+foreach ($nombresPaths as $nombresPath) {
+    if (is_file(ROOT_DIR . $nombresPath . 'index.php')) {
+        $urls[] = ['loc' => url($nombresPath), 'lastmod' => $nombres['updated'], 'changefreq' => 'monthly', 'priority' => '0.5'];
+    }
+}
 foreach (content('articulos') as $articleRecord) {
     $articleRecord += page_meta($articleRecord['path']);
     if (!empty($articleRecord['stub']) || !empty($articleRecord['noindex'])) { continue; }

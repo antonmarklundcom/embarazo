@@ -62,6 +62,18 @@ if ($foods !== []) {
             'sources' => [['title' => $source[1] ?? $food['source'], 'publisher' => $source[0], 'url' => null, 'accessed' => null]]], 'slug', $slug, 'food');
     }
 }
+// Growth plan item 2: /nombres/, one page per origin, gender pages only where
+// tools/import-names.php found enough names (content/nombres.php genderPages).
+$nombres = content('nombres');
+$nombresCopy = content('nombres-hub');
+$add('names', 'hub', '/nombres/', $nombresCopy['hub'] + ['kind' => 'product'], 'origin', null, 'names');
+foreach ($nombres['originSlugs'] as $origin => $originSlug) {
+    $add('names', $origin, '/nombres/' . $originSlug . '/', $nombresCopy['origins'][$origin] + ['kind' => 'product'], 'origin', $origin, 'names');
+}
+foreach ($nombres['genderPages'] as [$origin, $gender]) {
+    $add('names', $origin . '-' . $gender, '/nombres/' . $nombres['originSlugs'][$origin] . '/' . $nombres['genderSlugs'][$gender] . '/',
+        $nombresCopy['origins'][$origin] + ['kind' => 'product'], 'origin', $origin, 'names');
+}
 foreach ($collections['hubs'] as $cluster => $record) {
     $add('hubs', $cluster, '/' . $cluster . '/', $record, 'cluster', $cluster, 'hub');
 }

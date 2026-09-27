@@ -46,6 +46,9 @@ return [
     'label' => 'Mes a mes',
     'path' => '/mes/'
 ], [
+    'label' => 'Nombres de bebé',
+    'path' => '/nombres/'
+], [
     'label' => 'Calculadora',
     'path' => '/calculadora/'
 ], [

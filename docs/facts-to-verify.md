@@ -465,3 +465,7 @@ permiso-para-controles, hora-de-lactancia, licencia-de-paternidad, fuero-materna
 - `/mes/` and `/mes/1/` … `/mes/9/` (growth plan item 3, 2026-09-27): class (B) clinical text, pending medical review. Week ranges come from
   `week_month()` (the table the week pages already print); key changes are the week records' own `milestone` text; leads and FAQs reuse
   the trimester pages' ranges (pataditas 16–24 semanas, morfológica 18–24, glucosa 24–28, tamizaje 11–14, término desde 37 semanas completas).
+- `/nombres/` pages (growth plan item 2, 2026-09-27): the 52 names and meanings are copied verbatim from the app's `lib/seed/names.json`
+  by `tools/import-names.php`. Pending a native Guaraní speaker's check of the 20 Guaraní names (spelling, ã/ĩ, meanings) and a general
+  check of the Spanish and Biblical etymologies. Note: the seed lists both "Arami" (Un pedacito de cielo) and "Aramí" (Cielito); fix them in the app seed and re-run the import, never here.
+
