@@ -43,6 +43,12 @@ return [
         'synonyms' => 'También se busca como:', 'all' => 'Ver todos los alimentos',
         'ctaTitle' => 'Buscalo en la app', 'ctaText' => 'En Mi Bebé tenés esta lista a mano, también sin conexión.',
     ],
+    // Growth plan item 2 — templates/names.php.
+    'names' => [
+        'filter' => 'Ir a', 'others' => 'Más nombres', 'count' => '{n} nombres',
+        'ctaTitle' => 'Guardá tus favoritos en la app', 'ctaText' => 'En Mi Bebé podés buscar nombres por su significado y guardar los que te gustan.',
+        'back' => 'Ver {origin}',
+    ],
     'nav' => [
     'home' => 'Inicio',
     'skip' => 'Saltá al contenido',
