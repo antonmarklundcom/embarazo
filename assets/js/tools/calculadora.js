@@ -106,6 +106,14 @@
     link.textContent = copy.weekLink.replace('{n}', String(week));
     link.href = '/semana/' + week + '/';
 
+    // Growth plan item 6: share "Estoy de N semanas" with the week page, whose
+    // preview is that week's card. The week only: her FUM or FPP never leaves.
+    var share = document.getElementById("r-share");
+    if (share) {
+      var weekUrl = new URL('/semana/' + week + '/', share.dataset.origin).href;
+      share.href = 'https://wa.me/?text=' + encodeURIComponent(copy.shareText.replace('{n}', String(week)) + ' ' + weekUrl);
+    }
+
     result.hidden = false;
   }
 

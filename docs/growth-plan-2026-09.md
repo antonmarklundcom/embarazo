@@ -178,4 +178,5 @@ Under 15 lines: PR links, merged or not, what changed for a user, anything waiti
 - 3 — done: `/mes/` hub and `/mes/1/` … `/mes/9/`, weeks from `week_month()`, key changes from week milestones — antonmarklundcom/embarazo#22
 - 4 — already done: `/planear/primeros-sintomas/` and `/planear/test-de-embarazo-cuando/` (~1,070 words each, class B, alarm link, `modo=planeando` hand-off) cover both articles; no near-duplicates under `/salud/`
 - 1 — built, not live: `tools/import-food.php` + `/alimentacion/puedo-comer/` hub and pages, gated on `reviewedBy` like the app (DECISIONS PR-19); 0 of 62 foods reviewed, so nothing publishes yet (`docs/human-todo.md` 3b) — antonmarklundcom/embarazo#23
+- 2 — done: `/nombres/` hub + guaraníes (20), españoles (20), bíblicos (12) from the app seed; gender pages start at 15 names (none yet, near-duplicates); Guaraní check pending — antonmarklundcom/embarazo#24
 
