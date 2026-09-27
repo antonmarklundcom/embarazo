@@ -117,6 +117,9 @@ return [
             'handoffButton' => 'Abrir Mi Bebé con mi fecha',
             'weeksLink' => 'Ver las 42 semanas de embarazo',
             'weekLink' => 'Leer la página de la semana {n}',
+            // Growth plan item 6: only the week travels, never her dates.
+            'shareButton' => 'Contalo por WhatsApp', 'shareText' => 'Estoy en la semana {n} de mi embarazo. Mirá qué pasa esta semana:',
+            'shareFallback' => 'Calculá tus semanas de embarazo:',
             'trimesters' => ['Primer trimestre', 'Segundo trimestre', 'Tercer trimestre'],
             'sizeUnavailable' => 'Consultá la página de tu semana',
             'dueReached' => 'ya llegaste a la FPP', 'day' => 'día', 'days' => 'días',

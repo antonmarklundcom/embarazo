@@ -48,7 +48,8 @@ ob_start();
       <h2><?= e($copy['handoffTitle']) ?></h2><p><?= e($copy['handoffText']) ?></p>
       <a class="btn btn--primary btn--block" id="r-cta" data-base="<?= e($destination) ?>" href="<?= e($destination) ?>"><?= e($copy['handoffButton']) ?></a>
     </aside>
-    <?php if ($pregnancy): ?><p><a class="link-arrow" id="r-weeklink" href="/semana/"><?= e($copy['weeksLink']) ?></a></p><?php endif; ?>
+    <?php if ($pregnancy): ?><p><a class="link-arrow" id="r-weeklink" href="/semana/"><?= e($copy['weeksLink']) ?></a></p>
+    <p><a class="btn btn--wa" id="r-share" data-origin="<?= e(url('/')) ?>" href="<?= e(wa_share($copy['shareFallback'], url('/calculadora/'))) ?>"><?= e($copy['shareButton']) ?></a></p><?php endif; ?>
   </div>
 </div>
 <script type="application/json" id="tool-copy"><?= json_encode($copy, JSON_HEX_TAG | JSON_HEX_AMP | JSON_HEX_APOS | JSON_HEX_QUOT | JSON_UNESCAPED_UNICODE | JSON_THROW_ON_ERROR) ?></script>

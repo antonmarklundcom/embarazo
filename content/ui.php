@@ -8,6 +8,8 @@ return [
         'pending' => 'Pendiente de revisión profesional.',
         'medicalReviewed' => 'Información general, no es un diagnóstico ni reemplaza tu consulta.',
         'share' => 'Compartí por WhatsApp', 'shareHint' => 'Para conversar en familia',
+        // Growth plan item 6: the WhatsApp message on a week page; {n} is the week.
+        'shareWeek' => 'Estoy en la semana {n} de mi embarazo. Mirá qué pasa esta semana:',
         // Alt text of the shared social card (assets/img/og-default.jpg), read by screen readers on X and Facebook.
         'ogImageAlt' => 'Mi Bebé: la app de embarazo hecha para Paraguay.',
         // Printed next to the trimester on a week page; {m} is week_month().

@@ -27,6 +27,13 @@
    `php tools/import-food.php ../embarazo.2.1` y aparecen solos el índice
    `/alimentacion/puedo-comer/` y la página de cada alimento revisado con texto propio (hoy 9 de 62
    tienen `detail`); la app se enciende con el mismo campo. Sin firma no se publica nada.
+3c. **Google Play bajo la AB sueca (lo hacés vos).** (1) Buscá el D-U-N-S de la AB con su
+   nombre y dirección registrados exactos (D&B o la búsqueda gratuita de Apple); si no existe, se
+   pide gratis (1–4 semanas). (2) Creá la cuenta de organización en Play Console y pagá los USD 25;
+   nombre y dirección tienen que coincidir con D&B. (3) Cuando exista la empresa paraguaya, con su
+   propio D-U-N-S y cuenta, pedí la transferencia de la app en Play Console antes de cerrar la AB.
+   Cuando la ficha exista: en la app, `NEXT_PUBLIC_PLAY_STORE_URL` enciende el pedido de reseña
+   (plan de crecimiento, ítem 14); el sello de Google Play en el sitio sigue fuera de este plan.
 4. **Aceptación visual en un teléfono real.** Nunito Sans ya está instalada (2026-09-20; falta el subset vietnamese para ẽ y g̃, ver `assets/fonts/README.md`, opcional, requiere tu OK). Lighthouse móvil se corrió el 2026-09-21 en el servidor de desarrollo con 98-100 en todo; mirá la home, 3-4 semanas y un artículo en tu teléfono.
 5. **Producto en dispositivos.** Validar instalación Android/iPhone, alcance offline,
    permisos, exportación/desinstalación, respaldo y campos visibles al compartir en

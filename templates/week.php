@@ -31,7 +31,7 @@ require ROOT_DIR . '/partials/head.php'; require ROOT_DIR . '/partials/header.ph
 <?php foreach (['control', 'vaccine', 'rightsMilestone', 'season'] as $wkKey): if (!empty($wkRecord[$wkKey])): ?><h3><?= e(ui('foundation.' . $wkKey)) ?></h3><p><?= rich($wkRecord[$wkKey]) ?></p><?php endif; endforeach; ?></section>
 <?php $faqItems = $wkRecord['faq']; require ROOT_DIR . '/partials/faq.php'; ?>
 <div class="section--tight"><?php $ctaOptions = ['campaign' => 'semana-' . $n . '-cierre']; require ROOT_DIR . '/partials/cta-week.php'; require ROOT_DIR . '/partials/trust-strip.php'; ?></div>
-<?php require ROOT_DIR . '/partials/week-nav.php'; $relatedSlugs = related_for_weeks($wkRecord['related'], [$n], 5); require ROOT_DIR . '/partials/related.php'; require ROOT_DIR . '/partials/wa-share.php'; ?>
+<?php require ROOT_DIR . '/partials/week-nav.php'; $relatedSlugs = related_for_weeks($wkRecord['related'], [$n], 5); require ROOT_DIR . '/partials/related.php'; $shareText = str_replace('{n}', (string) $n, ui('foundation.shareWeek')); require ROOT_DIR . '/partials/wa-share.php'; ?>
 <div class="section--tight"><?php $disclaimerRecord = $wkRecord + ['kind' => 'medical']; require ROOT_DIR . '/partials/disclaimer.php'; ?></div>
 <?php $sourcesRecord = $wkRecord; require ROOT_DIR . '/partials/sources.php'; ?>
 </article></main><?php require ROOT_DIR . '/partials/footer.php'; unset($wkMonth, $wkRecord, $wkTrimester, $wkKey, $wkParagraph, $wkOg); ?>
