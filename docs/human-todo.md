@@ -20,6 +20,13 @@
    La página `/privacidad/` ya explica el contador. No registrar el token en documentación.
    Los CTA siguen llevando UTM (`utm_source=site`, `utm_medium`, `utm_campaign`); la app
    los cuenta desde el ítem 16 en `/admin/metricas`.
+3b. **«¿Puedo comer…?» (plan de crecimiento, ítem 1): construido y apagado hasta la revisión médica.**
+   Tu decisión del 2026-09-05 (DECISIONS.md de la app, PR-19) mantiene ocultos los veredictos de
+   alimentos hasta que un profesional firme cada uno; el sitio respeta la misma regla. Cuando una
+   entrada de `lib/seed/food.json` (app) tenga `reviewedBy`, corré en el sitio
+   `php tools/import-food.php ../embarazo.2.1` y aparecen solos el índice
+   `/alimentacion/puedo-comer/` y la página de cada alimento revisado con texto propio (hoy 9 de 62
+   tienen `detail`); la app se enciende con el mismo campo. Sin firma no se publica nada.
 4. **Aceptación visual en un teléfono real.** Nunito Sans ya está instalada (2026-09-20; falta el subset vietnamese para ẽ y g̃, ver `assets/fonts/README.md`, opcional, requiere tu OK). Lighthouse móvil se corrió el 2026-09-21 en el servidor de desarrollo con 98-100 en todo; mirá la home, 3-4 semanas y un artículo en tu teléfono.
 5. **Producto en dispositivos.** Validar instalación Android/iPhone, alcance offline,
    permisos, exportación/desinstalación, respaldo y campos visibles al compartir en

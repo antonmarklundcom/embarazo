@@ -99,6 +99,17 @@ foreach (content('meses') as $monthNumber => $monthRecord) {
         $urls[] = ['loc' => url($monthPath), 'lastmod' => $monthRecord['updated'], 'changefreq' => 'monthly', 'priority' => '0.6'];
     }
 }
+// Growth plan item 1: the food hub and pages exist only for reviewed foods.
+$comer = content('comer');
+$comerFoods = array_filter($comer['foods'], static fn(array $f): bool => $f['published']);
+if ($comerFoods !== [] && is_file(ROOT_DIR . '/alimentacion/puedo-comer/index.php')) {
+    $urls[] = ['loc' => url('/alimentacion/puedo-comer/'), 'lastmod' => $comer['updated'], 'changefreq' => 'monthly', 'priority' => '0.6'];
+    foreach ($comerFoods as $comerSlug => $comerFood) {
+        if ($comerFood['page'] && is_file(ROOT_DIR . '/alimentacion/puedo-comer/' . $comerSlug . '/index.php')) {
+            $urls[] = ['loc' => url('/alimentacion/puedo-comer/' . $comerSlug . '/'), 'lastmod' => $comer['updated'], 'changefreq' => 'monthly', 'priority' => '0.5'];
+        }
+    }
+}
 foreach (content('articulos') as $articleRecord) {
     $articleRecord += page_meta($articleRecord['path']);
     if (!empty($articleRecord['stub']) || !empty($articleRecord['noindex'])) { continue; }

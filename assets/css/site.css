@@ -735,6 +735,11 @@ hr { border: 0;
 .month-table { width: 100%; border-collapse: collapse; }
 .month-table th, .month-table td { text-align: left; padding: var(--space-2xs) var(--space-xs); border-bottom: 1px solid var(--line); vertical-align: top; }
 .month-table thead th { color: var(--muted); font-size: .875rem; }
+/* Growth plan items 1 and 2 — verdict chips, the food and name lists. */
+.chips { display: flex; flex-wrap: wrap; gap: var(--space-2xs); margin: var(--space-s) 0; }
+.chip { display: inline-block; padding: 2px var(--space-xs); border: 1px solid var(--line-strong); border-radius: 999px; background: var(--surface); color: var(--ink); font-size: .875rem; font-weight: 700; text-decoration: none; }
+.food-list, .name-list { list-style: none; margin: 0; padding: 0; }
+.food-list li, .name-list li { padding: var(--space-2xs) 0; border-bottom: 1px solid var(--line); }
 .gn { background: var(--tone-salvia);
   border-left: 4px solid var(--sage);
   border-radius: 0 var(--radius-s) var(--radius-s) 0;
