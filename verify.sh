@@ -237,6 +237,38 @@ else
   ok "home has exactly 2 trust-strip elements"
 fi
 
+# ------------------------------------------------------- analytics switch ----
+# Growth plan item 19. Cloudflare Web Analytics is the one script plan.md 1.6
+# allows. Off (null) must mean no request to Cloudflare at all; on must mean
+# exactly one beacon. The rule itself is checked in both positions, and the
+# live home page against whatever content/site.php says today.
+step "analytics switch"
+an_out=$(php -r '
+require "'"$SITE_ROOT"'/lib/bootstrap.php";
+$fail = 0; $say = function (string $m) use (&$fail) { echo $m, "\n"; $fail = 1; };
+$good = str_repeat("0123456789abcdef", 2);
+analytics_token(null) === null || $say("null must be off");
+analytics_token("x") === null || $say("a bare string must be off");
+analytics_token(["cloudflare" => ""]) === null || $say("an empty token must be off");
+analytics_token(["cloudflare" => "<token>"]) === null || $say("a placeholder must be off");
+analytics_token(["cloudflare" => substr($good, 1)]) === null || $say("31 characters must be off");
+analytics_token(["google" => $good]) === null || $say("another provider must be off");
+analytics_token(["cloudflare" => $good]) === $good || $say("a 32-hex token must be on");
+echo analytics_token(site("analytics")) === null ? "OFF" : "ON";
+exit($fail);
+' 2>&1)
+an_status=$?
+an_state=$(printf '%s' "$an_out" | tail -1)
+beacons=$(curl -fsS "$BASE/" | grep -o 'static.cloudflareinsights.com/beacon.min.js' | wc -l | tr -d ' ')
+if [ "$an_status" -ne 0 ]; then
+  fail "analytics_token() rule"; printf '%s\n' "$an_out" | sed 's/^/        /'
+elif [ "$an_state" = OFF ] && [ "$beacons" != 0 ]; then
+  fail "analytics is off in content/site.php but the home page loads $beacons beacon(s)"
+elif [ "$an_state" = ON ] && [ "$beacons" != 1 ]; then
+  fail "analytics is on in content/site.php but the home page loads $beacons beacon(s), expected 1"
+else
+  ok "switch rule holds; content/site.php says $an_state and the home page loads $beacons beacon(s)"
+fi
 # ---------------------------------------------------------- T1 foundation ----
 step "foundation sources, links, HTML and JSON-LD"
 AUDIT_DATA=$(mktemp)

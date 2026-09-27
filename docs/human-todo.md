@@ -9,12 +9,17 @@
 2. **Canal de contacto: hecho (2026-09-22).** WhatsApp +595 992 279 599 cargado en
    `content/site.php`; `/contacto/` quedó indexable, en el sitemap y enlazada desde el pie.
    Falta del lado humano: contestar. Si el número cambia, se edita ese campo y listo.
-3. **Analítica: apagada por decisión de Anton (2026-09-22).** Sin Google Analytics. Queda
-   `analytics => null`, sin pedidos a terceros. Nota: los CTA llevan UTM (`utm_source=site`,
-   `utm_medium`, `utm_campaign`), así que hoy esas etiquetas solo se pueden leer del lado de
-   la app. Si más adelante querés ver qué página trae instalaciones desde el sitio mismo,
-   Cloudflare Web Analytics (sin cookies, sin banner) ya está integrado: cargar
-   `'analytics' => ['cloudflare' => '<token>']`. No registrar tokens en documentación.
+3. **Analítica del sitio: lista para encender, falta tu token (plan de crecimiento, ítem 19).**
+   Sin Google Analytics; se usa solo Cloudflare Web Analytics (sin cookies, sin banner).
+   **Pegá el token acá:** `content/site.php`, reemplazá `'analytics' => null,` por
+   `'analytics' => ['cloudflare' => '<token de 32 caracteres del panel de Cloudflare>'],`.
+   Dónde sacarlo: en el panel de Cloudflare, sección Web Analytics, al agregar
+   embarazo.com.py te muestra un fragmento JS con `"token": "…"`; copiá solo ese valor.
+   Después corré `./verify.sh`: el paso «analytics switch» tiene que decir `ON` y
+   `1 beacon(s)`. Un token mal copiado deja la analítica apagada, sin romper nada.
+   La página `/privacidad/` ya explica el contador. No registrar el token en documentación.
+   Los CTA siguen llevando UTM (`utm_source=site`, `utm_medium`, `utm_campaign`); la app
+   los cuenta desde el ítem 16 en `/admin/metricas`.
 4. **Aceptación visual en un teléfono real.** Nunito Sans ya está instalada (2026-09-20; falta el subset vietnamese para ẽ y g̃, ver `assets/fonts/README.md`, opcional, requiere tu OK). Lighthouse móvil se corrió el 2026-09-21 en el servidor de desarrollo con 98-100 en todo; mirá la home, 3-4 semanas y un artículo en tu teléfono.
 5. **Producto en dispositivos.** Validar instalación Android/iPhone, alcance offline,
    permisos, exportación/desinstalación, respaldo y campos visibles al compartir en

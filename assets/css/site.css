@@ -731,6 +731,10 @@ hr { border: 0;
   text-transform: uppercase;
   color: var(--accent-text); }
 .timeline__what { display: block; color: var(--ink); }
+/* Growth plan item 3 — the months table on /mes/. */
+.month-table { width: 100%; border-collapse: collapse; }
+.month-table th, .month-table td { text-align: left; padding: var(--space-2xs) var(--space-xs); border-bottom: 1px solid var(--line); vertical-align: top; }
+.month-table thead th { color: var(--muted); font-size: .875rem; }
 .gn { background: var(--tone-salvia);
   border-left: 4px solid var(--sage);
   border-radius: 0 var(--radius-s) var(--radius-s) 0;

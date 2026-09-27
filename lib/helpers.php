@@ -351,6 +351,18 @@ function week_month(int $n): ?int
     return null;
 }
 
+/**
+ * The Cloudflare Web Analytics token from site('analytics'), or null when the
+ * switch is off. On means exactly ['cloudflare' => <32 hex characters>];
+ * null, another shape or a malformed token is off. Pure, so verify.sh can
+ * check the switch in both positions without rendering a page.
+ */
+function analytics_token(mixed $config): ?string
+{
+    $token = is_array($config) ? ($config['cloudflare'] ?? null) : null;
+    return is_string($token) && preg_match('/\A[a-f0-9]{32}\z/i', $token) === 1 ? $token : null;
+}
+
 /** Plain disclaimer copy; caller escapes with e() and adds validAsOf/reviewer. */
 function disclaimer_kind(string $kind): string
 {

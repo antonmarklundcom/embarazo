@@ -460,3 +460,8 @@ permiso-para-controles, hora-de-lactancia, licencia-de-paternidad, fuero-materna
 - The multiplier for the IPS maximum daily subsidy (a search summary said 5 times the minimum daily wage) was not read on an official page: not stated on the site.
 - Blog post on dengue names ibuprofeno and aspirina as things not to self-medicate with in suspected dengue: standard advice, but a clinician should confirm the wording.
 - Tramites articles (carné perinatal, IPS enrolment, certificado de nacido vivo, Registro Civil, cédula, después del nacimiento) remain deliberately general.
+- `/privacidad/` "Y este sitio web" (growth plan item 19, 2026-09-27): describes Cloudflare Web Analytics as cookieless and not identifying or
+  following visitors across sites, from Cloudflare's own product description; confirm on Cloudflare's current privacy page when the token is added.
+- `/mes/` and `/mes/1/` … `/mes/9/` (growth plan item 3, 2026-09-27): class (B) clinical text, pending medical review. Week ranges come from
+  `week_month()` (the table the week pages already print); key changes are the week records' own `milestone` text; leads and FAQs reuse
+  the trimester pages' ranges (pataditas 16–24 semanas, morfológica 18–24, glucosa 24–28, tamizaje 11–14, término desde 37 semanas completas).

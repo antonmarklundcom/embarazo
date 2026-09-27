@@ -50,6 +50,7 @@ $derived = [
 foreach (content('clusters') as $clusterKey => $cluster) {
     $derived['/' . $clusterKey . '/'] = $newest($clusterDates[$clusterKey] ?? []);
 }
+$derived['/mes/'] = $newest(array_column(content('meses'), 'updated'));
 foreach (content('trimestres') as $trimesterNumber => $trimester) {
     $derived['/trimestre/' . $trimesterNumber . '/'] = $newest(
         array_intersect_key($weekDates, array_flip($trimester['weeks'] ?? []))
@@ -88,6 +89,14 @@ foreach (content('semanas') as $weekNumber => $weekRecord) {
     $weekRecord += page_meta($weekPath);
     if (array_filter($weekRecord['sections'] ?? []) && empty($weekRecord['stub']) && empty($weekRecord['noindex']) && is_file(ROOT_DIR . $weekPath . 'index.php')) {
         $urls[] = ['loc' => url($weekPath), 'lastmod' => $weekRecord['updated'], 'changefreq' => 'monthly', 'priority' => '0.7'];
+    }
+}
+// Growth plan item 3: the nine month pages.
+foreach (content('meses') as $monthNumber => $monthRecord) {
+    $monthPath = '/mes/' . $monthNumber . '/';
+    $monthRecord += page_meta($monthPath);
+    if (empty($monthRecord['stub']) && empty($monthRecord['noindex']) && is_file(ROOT_DIR . $monthPath . 'index.php')) {
+        $urls[] = ['loc' => url($monthPath), 'lastmod' => $monthRecord['updated'], 'changefreq' => 'monthly', 'priority' => '0.6'];
     }
 }
 foreach (content('articulos') as $articleRecord) {

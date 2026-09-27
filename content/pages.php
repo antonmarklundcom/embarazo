@@ -384,6 +384,12 @@ return [
                 ]
             ],
             [
+                'h2' => 'Y este sitio web',
+                'body' => [
+                    'embarazo.com.py no usa cookies, publicidad ni formularios, y no te pide datos. Si cuenta visitas, lo hace con Cloudflare Web Analytics, un contador sin cookies que no te identifica ni te sigue en otros sitios: suma páginas vistas en conjunto para saber qué guías se leen. Tus fechas de la calculadora se calculan en tu teléfono y no se envían.'
+                ]
+            ],
+            [
                 'h2' => 'Dónde leer las condiciones',
                 'body' => [
                     'Seguí los enlaces de abajo para leer la política de privacidad y los términos, o consultar las indicaciones para borrar tu cuenta en la app. Para otras dudas de uso, consultá las [preguntas frecuentes](/preguntas-frecuentes/).'
@@ -912,7 +918,7 @@ return [
 'intro' => ['Las semanas de embarazo se cuentan desde el primer día de la última menstruación, no desde la concepción. Ese conteo permite estimar la fecha probable de parto y ordenar el seguimiento. En las primeras semanas se forman las estructuras del bebé; después crece, se mueve y sus órganos siguen madurando. Acá podés recorrer las 42 semanas, conocer cambios frecuentes en tu cuerpo y preparar preguntas para cada control.',
 'En el [primer trimestre](/trimestre/1/) pueden aparecer náuseas, sueño y sensibilidad en los pechos. El [segundo trimestre](/trimestre/2/) suele traer una panza más visible y las primeras pataditas. Durante el [tercer trimestre](/trimestre/3/) se acompaña el crecimiento y se prepara el nacimiento. Cada embarazo tiene su ritmo: una molestia o el tamaño de la panza no permiten saber por sí solos cómo está el bebé.',
 'Mi Bebé muestra la semana que transcurre: la semana 20 equivale a 19 semanas completas y entre cero y seis días. Para coordinar estudios, usá las semanas y días que figuran en tu carné perinatal. La ecografía temprana puede ayudar a ajustar la fecha cuando la menstruación es incierta o los ciclos son irregulares.',
-'¿No sabés por dónde empezar? Abrí la [calculadora de embarazo](/calculadora/) para ubicar tu semana y después elegí su tarjeta. Anotá tus dudas sobre síntomas, controles y resultados para conversarlas en consulta. Ante sangrado, pérdida de líquido, dolor intenso o una disminución clara de los movimientos habituales, buscá atención inmediata: las [señales de alarma](/salud/senales-de-alarma/) te ayudan a reconocer situaciones que necesitan evaluación sin esperar al próximo turno prenatal programado.'],
+'¿No sabés por dónde empezar? Abrí la [calculadora de embarazo](/calculadora/) para ubicar tu semana y después elegí su tarjeta. Si pensás en meses, la tabla de [meses de embarazo](/mes/) muestra qué semanas tiene cada uno. Anotá tus dudas sobre síntomas, controles y resultados para conversarlas en consulta. Ante sangrado, pérdida de líquido, dolor intenso o una disminución clara de los movimientos habituales, buscá atención inmediata: las [señales de alarma](/salud/senales-de-alarma/) te ayudan a reconocer situaciones que necesitan evaluación sin esperar al próximo turno prenatal programado.'],
 'sections' => [],
 'stub' => false,
 'noindex' => false,
@@ -934,6 +940,31 @@ return [
 'updated' => '2026-09-20',
 'related' => ['senales-de-alarma',
 'vacunas-en-el-embarazo']],
+    '/mes/' => ['title' => 'Meses de embarazo',
+'seoTitle' => 'Meses de embarazo: cuántas semanas tiene cada mes',
+'description' => 'Cuántas semanas tiene cada mes de embarazo: la tabla de los 9 meses con sus semanas y trimestres, y qué cambia en cada uno para vos y tu bebé.',
+'metaDescription' => 'Cuántas semanas tiene cada mes de embarazo: la tabla de los 9 meses con sus semanas y trimestres, y qué cambia en cada uno para vos y tu bebé.',
+'h1' => 'Meses de embarazo: cuántas semanas tiene cada mes',
+'lead' => 'Un embarazo dura unos nueve meses, pero se cuenta en semanas: alrededor de 40 desde el primer día de la última menstruación. Cada mes agrupa, aproximadamente, cuatro o cinco semanas. La tabla muestra qué semanas corresponden a cada mes y a qué trimestre pertenecen. Es una equivalencia de uso común, no una medida clínica: tu equipo y tu carné perinatal hablan en semanas y días, y ese es el dato que importa para tus estudios.',
+'sections' => [],
+'stub' => false,
+'noindex' => false,
+'faq' => [['q' => '¿Cuántos meses dura un embarazo?',
+'a' => 'Unos nueve meses, que equivalen a alrededor de 40 semanas contadas desde la última menstruación. La fecha probable de parto es una referencia, no un día exacto; si la superás, el seguimiento se acuerda con el equipo.'],
+['q' => '¿Por qué en el control me hablan de semanas y no de meses?',
+'a' => 'Porque las semanas son más precisas: cada mes tiene cuatro o cinco, y muchos estudios se indican para una ventana de semanas concreta. Usá la [calculadora](/calculadora/) para saber en qué semana estás.'],
+['q' => '¿Cómo sé en qué mes estoy?',
+'a' => 'Buscá tu semana en la tabla. Por ejemplo, la semana 20 cae en el quinto mes. Si no sabés tu semana, calculala desde tu última menstruación o tu fecha probable de parto.']],
+'sources' => [['title' => 'Recomendaciones de la OMS sobre atención prenatal para una experiencia positiva del embarazo',
+'publisher' => 'Organización Mundial de la Salud (OMS)',
+'url' => null,
+'accessed' => null],
+['title' => 'Orientaciones vigentes sobre control prenatal y vacunación durante el embarazo',
+'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)',
+'url' => null,
+'accessed' => null]],
+'reviewedBy' => null,
+'updated' => '2026-09-27'],
     '/trimestre/1/' => ['title' => 'Primer trimestre de embarazo',
 'description' => 'Conocé qué pasa en el primer trimestre de embarazo: desarrollo inicial, náuseas, primera consulta y estudios para conversar con tu equipo en Paraguay.',
 'h1' => 'Primer trimestre de embarazo',

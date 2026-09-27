@@ -28,6 +28,15 @@ return [
         'brandMark' => 'MB', 'blog' => 'Blog', 'timeline' => 'Tu recorrido',
         'guarani' => 'También en guaraní', 'legalLinks' => 'Mi Bebé',
     ],
+    // Growth plan item 3 — /mes/ and /mes/<n>/ (templates/month.php).
+    'month' => [
+        'hub' => 'Meses de embarazo', 'changes' => 'Cambios clave de este mes',
+        'weeks' => 'Las semanas de este mes', 'range' => 'Semanas {a} a {b}',
+        'partOf' => 'Este mes es parte del', 'calc' => 'Calculá tu semana exacta',
+        'nav' => 'Navegación entre meses', 'label' => 'Mes {m}',
+        'colMonth' => 'Mes', 'colWeeks' => 'Semanas', 'colTrimester' => 'Trimestre',
+        'tableCaption' => 'Meses y semanas de embarazo',
+    ],
     'nav' => [
     'home' => 'Inicio',
     'skip' => 'Saltá al contenido',
