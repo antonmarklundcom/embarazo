@@ -327,7 +327,17 @@ return [
             ]
         ],
         'updated' => '2026-09-20',
-        'image' => null
+        'image' => [
+            'slug' => 'subsidio-maternidad-ips-recibo-paraguay',
+            'alt' => 'Una embarazada revisa un recibo y un calendario en la mesa de la cocina, ilustración del artículo sobre el subsidio de maternidad del IPS.',
+            'w' => 768,
+            'h' => 432,
+            'widths' => [
+                160,
+                480,
+                768
+            ]
+        ]
     ],
     'permiso-para-controles' => [
         'cluster' => 'derechos',
@@ -469,7 +479,17 @@ return [
             ]
         ],
         'updated' => '2026-09-20',
-        'image' => null
+        'image' => [
+            'slug' => 'permiso-controles-prenatales-trabajo-paraguay',
+            'alt' => 'Una trabajadora embarazada entrega un turno de control a una compañera en la oficina, ilustración del artículo sobre el permiso para controles prenatales.',
+            'w' => 768,
+            'h' => 432,
+            'widths' => [
+                160,
+                480,
+                768
+            ]
+        ]
     ],
     'hora-de-lactancia' => [
         'cluster' => 'derechos',
@@ -608,7 +628,17 @@ return [
             ]
         ],
         'updated' => '2026-09-20',
-        'image' => null
+        'image' => [
+            'slug' => 'hora-de-lactancia-trabajo-paraguay',
+            'alt' => 'Una madre amamanta a su bebé en una sala tranquila del trabajo, ilustración del artículo sobre la hora de lactancia.',
+            'w' => 768,
+            'h' => 432,
+            'widths' => [
+                160,
+                480,
+                768
+            ]
+        ]
     ],
     'fuero-maternal-y-despido' => [
         'cluster' => 'derechos',
@@ -747,7 +777,17 @@ return [
             ]
         ],
         'updated' => '2026-09-20',
-        'image' => null
+        'image' => [
+            'slug' => 'fuero-maternal-carpeta-documentos-paraguay',
+            'alt' => 'Una embarazada sostiene una carpeta con documentos frente a una oficina, ilustración del artículo sobre el fuero maternal.',
+            'w' => 768,
+            'h' => 432,
+            'widths' => [
+                160,
+                480,
+                768
+            ]
+        ]
     ],
     'licencia-de-paternidad' => [
         'cluster' => 'derechos',
@@ -856,7 +896,17 @@ return [
             ]
         ],
         'updated' => '2026-09-20',
-        'image' => null
+        'image' => [
+            'slug' => 'licencia-paternidad-papa-bebe-paraguay',
+            'alt' => 'Un papá sostiene a su bebé recién nacido en casa, ilustración del artículo sobre la licencia de paternidad.',
+            'w' => 768,
+            'h' => 432,
+            'widths' => [
+                160,
+                480,
+                768
+            ]
+        ]
     ],
     'gratuidad-mspbs-y-tekopora' => [
         'cluster' => 'derechos',
@@ -1030,7 +1080,17 @@ return [
             ]
         ],
         'updated' => '2026-09-20',
-        'image' => null
+        'image' => [
+            'slug' => 'gratuidad-salud-publica-embarazo-paraguay',
+            'alt' => 'Una embarazada entra a un puesto de salud público con techo de chapa y un lapacho, ilustración del artículo sobre la gratuidad en Salud Pública y Tekoporã.',
+            'w' => 768,
+            'h' => 432,
+            'widths' => [
+                160,
+                480,
+                768
+            ]
+        ]
     ],
     'derechos-de-la-embarazada-que-trabaja' => [
         'cluster' => 'derechos',
@@ -1551,7 +1611,17 @@ return [
             ]
         ],
         'updated' => '2026-09-20',
-        'image' => null
+        'image' => [
+            'slug' => 'inscripcion-ips-embarazada-ventanilla-paraguay',
+            'alt' => 'Una embarazada entrega su cédula y papeles en una ventanilla, ilustración del artículo sobre cómo inscribirse en IPS.',
+            'w' => 768,
+            'h' => 432,
+            'widths' => [
+                160,
+                480,
+                768
+            ]
+        ]
     ],
     'control-prenatal-ips-vs-privado' => [
         'cluster' => 'tramites',
@@ -1912,7 +1982,17 @@ return [
             ]
         ],
         'updated' => '2026-09-20',
-        'image' => null
+        'image' => [
+            'slug' => 'certificado-nacido-vivo-bebe-paraguay',
+            'alt' => 'Un recién nacido duerme en una cunita junto a un certificado doblado, ilustración del artículo sobre el certificado de nacido vivo.',
+            'w' => 768,
+            'h' => 432,
+            'widths' => [
+                160,
+                480,
+                768
+            ]
+        ]
     ],
     'inscripcion-en-el-registro-civil' => [
         'cluster' => 'tramites',
@@ -2067,7 +2147,17 @@ return [
             ]
         ],
         'updated' => '2026-09-20',
-        'image' => null
+        'image' => [
+            'slug' => 'registro-civil-inscripcion-bebe-paraguay',
+            'alt' => 'Una pareja con su bebé en brazos inscribe el nacimiento en el Registro Civil, ilustración del artículo sobre la inscripción del nacimiento.',
+            'w' => 768,
+            'h' => 432,
+            'widths' => [
+                160,
+                480,
+                768
+            ]
+        ]
     ],
     'cedula-del-bebe' => [
         'cluster' => 'tramites',
@@ -2222,7 +2312,17 @@ return [
             ]
         ],
         'updated' => '2026-09-20',
-        'image' => null
+        'image' => [
+            'slug' => 'cedula-bebe-foto-identificaciones-paraguay',
+            'alt' => 'Una madre sostiene a su bebé para la foto de la cédula, ilustración del artículo sobre la cédula del bebé.',
+            'w' => 768,
+            'h' => 432,
+            'widths' => [
+                160,
+                480,
+                768
+            ]
+        ]
     ],
     'asignacion-familiar' => [
         'cluster' => 'tramites',
@@ -2337,7 +2437,17 @@ return [
             ]
         ],
         'updated' => '2026-09-20',
-        'image' => null
+        'image' => [
+            'slug' => 'asignacion-familiar-familia-paraguay',
+            'alt' => 'Una familia joven en casa con un bebé y un niño pequeño, ilustración del artículo sobre la asignación familiar.',
+            'w' => 768,
+            'h' => 432,
+            'widths' => [
+                160,
+                480,
+                768
+            ]
+        ]
     ],
     'despues-del-nacimiento' => [
         'cluster' => 'tramites',
@@ -3197,7 +3307,17 @@ return [
             ]
         ],
         'updated' => '2026-09-20',
-        'image' => null
+        'image' => [
+            'slug' => 'presion-arterial-control-embarazo-paraguay',
+            'alt' => 'Una enfermera controla la presión de una embarazada sentada, ilustración del artículo sobre presión alta y preeclampsia.',
+            'w' => 768,
+            'h' => 432,
+            'widths' => [
+                160,
+                480,
+                768
+            ]
+        ]
     ],
     'diabetes-gestacional' => [
         'cluster' => 'salud',
@@ -3349,7 +3469,17 @@ return [
             ]
         ],
         'updated' => '2026-09-20',
-        'image' => null
+        'image' => [
+            'slug' => 'diabetes-gestacional-control-glucosa-paraguay',
+            'alt' => 'Una embarazada frente a un plato con verduras y frutas y un cuaderno, ilustración del artículo sobre diabetes gestacional.',
+            'w' => 768,
+            'h' => 432,
+            'widths' => [
+                160,
+                480,
+                768
+            ]
+        ]
     ],
     'salud-dental' => [
         'cluster' => 'salud',
@@ -3517,7 +3647,17 @@ return [
             ]
         ],
         'updated' => '2026-09-20',
-        'image' => null
+        'image' => [
+            'slug' => 'salud-dental-embarazo-dentista-paraguay',
+            'alt' => 'Una embarazada sonríe en el sillón del dentista, ilustración del artículo sobre salud dental en el embarazo.',
+            'w' => 768,
+            'h' => 432,
+            'widths' => [
+                160,
+                480,
+                768
+            ]
+        ]
     ],
     'dormir-en-el-embarazo' => [
         'cluster' => 'salud',
@@ -3661,7 +3801,17 @@ return [
             ]
         ],
         'updated' => '2026-09-20',
-        'image' => null
+        'image' => [
+            'slug' => 'dormir-de-costado-embarazo-almohada-paraguay',
+            'alt' => 'Una embarazada duerme de costado abrazada a una almohada larga, ilustración del artículo sobre dormir en el embarazo.',
+            'w' => 768,
+            'h' => 432,
+            'widths' => [
+                160,
+                480,
+                768
+            ]
+        ]
     ],
     'ejercicio-y-kegel' => [
         'cluster' => 'salud',
@@ -3835,7 +3985,17 @@ return [
             ]
         ],
         'updated' => '2026-09-20',
-        'image' => null
+        'image' => [
+            'slug' => 'ejercicio-suave-embarazo-caminata-paraguay',
+            'alt' => 'Una embarazada estira suavemente en una colchoneta en un patio, ilustración del artículo sobre ejercicio y Kegel.',
+            'w' => 768,
+            'h' => 432,
+            'widths' => [
+                160,
+                480,
+                768
+            ]
+        ]
     ],
     'terere-en-el-embarazo' => [
         'cluster' => 'alimentacion',
@@ -4099,7 +4259,17 @@ return [
             ['title' => 'Orientaciones sobre alimentación saludable y control prenatal', 'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)', 'url' => null, 'accessed' => null],
         ],
         'updated' => '2026-09-20',
-        'image' => null,
+        'image' => [
+            'slug' => 'mate-cocido-embarazo-taza-paraguay',
+            'alt' => 'Una taza de cocido y un mate sobre una mesa de madera junto a un vaso de agua, ilustración del artículo sobre mate y cocido en el embarazo.',
+            'w' => 768,
+            'h' => 432,
+            'widths' => [
+                160,
+                480,
+                768
+            ]
+        ],
     ],
     'yuyos' => [
         'cluster' => 'alimentacion',
@@ -4246,7 +4416,17 @@ return [
             ['title' => 'Orientaciones sobre uso seguro de medicamentos y productos medicinales', 'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)', 'url' => null, 'accessed' => null],
         ],
         'updated' => '2026-09-20',
-        'image' => null,
+        'image' => [
+            'slug' => 'yuyos-mortero-hierbas-paraguay',
+            'alt' => 'Un mortero de madera con yuyos frescos sobre una mesa de mercado, ilustración del artículo sobre yuyos en el embarazo.',
+            'w' => 768,
+            'h' => 432,
+            'widths' => [
+                160,
+                480,
+                768
+            ]
+        ],
     ],
     'pescado-de-rio-y-mercurio' => [
         'cluster' => 'alimentacion',
