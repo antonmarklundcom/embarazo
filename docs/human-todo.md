@@ -68,12 +68,10 @@
     app:** Nunito Sans no trae **ẽ** ni **g̃** en los subsets cargados; están en el subset
     `vietnamese` (ver `assets/fonts/README.md`, opcional, requiere tu OK). Conviene agregarlo antes
     de encender el guaraní, o esas dos letras se ven en otra fuente.
-14. **App — imágenes pendientes (no generadas).** (a) Ejercicios: 24 ilustraciones, brief exacto por
-    paso en `public/assets/ejercicios/README.md` de la app; se colocan con
-    `node scripts/place-exercise-art.mjs` (ítem 15). (b) «Ya nació»: 4 ilustraciones por edad
-    (0–2, 3–5, 6–8 y 9–12 meses) en `docs/imagery-manifest.json` → `baby`, con prompt; mientras
-    falten, la pantalla muestra un dibujo simple (ítem 9). Se generan solo cuando escribas
-    «Generate image».
+14. **Imágenes: hechas (2026-09-28).** App: 24 ilustraciones de Ejercicios (los 12 ejercicios quedan
+    publicados), 4 del bebé por edad («Ya nació»), las 40 semanas y las 40 frutas y verduras de
+    comparación. Sitio: los 34 artículos que no tenían imagen. Todo con GPT Image 2.5 Sunburst,
+    detalle en los dos `docs/imagery-manifest.json`.
 15. **App — calendario PAI del bebé (0–12 meses) con su fuente oficial (MSPBS).** La tarjeta
     «Vacunas» de «Ya nació» no muestra vacunas ni edades hasta que exista ese calendario con fuente
     en el repo. Pasá el enlace o el PDF oficial vigente.
