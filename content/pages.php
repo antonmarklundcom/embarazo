@@ -940,6 +940,65 @@ return [
 'updated' => '2026-09-20',
 'related' => ['senales-de-alarma',
 'vacunas-en-el-embarazo']],
+    // Growth plan item 9 (G4): the site half of "Ya nació". Class (B) basics, pending medical review
+    // (docs/facts-to-verify.md); the app's baby home is the tool this page points to.
+    '/bebe/' => [
+        'title' => 'Tu bebé en su primer año',
+        'seoTitle' => 'Bebé recién nacido: el primer año mes a mes | Mi Bebé',
+        'description' => 'Tu bebé ya nació: trámites de los primeros días, vacunas con la libreta, lactancia, sueño seguro y señales de alarma del recién nacido, para Paraguay.',
+        'metaDescription' => 'Tu bebé ya nació: trámites de los primeros días, vacunas con la libreta, lactancia, sueño seguro y señales de alarma del recién nacido, para Paraguay.',
+        'h1' => 'Tu bebé ya nació: el primer año',
+        'lead' => 'Los primeros meses de un bebé se ordenan en pocas cosas: sus documentos, sus vacunas, la alimentación, el sueño y saber cuándo consultar ya. Esta página resume cada una para Paraguay, en términos generales. Mi Bebé sigue con vos después del parto: cuando le contás a la app que tu bebé nació, te muestra su edad en semanas y después en meses, con lo de cada etapa.',
+        'sections' => [
+            [
+                'h2' => 'Los trámites de los primeros días',
+                'body' => [
+                    'El orden es siempre el mismo: primero el [certificado de nacido vivo](/tramites/certificado-de-nacido-vivo/) que da el lugar donde nació, después la [inscripción en el Registro Civil](/tramites/inscripcion-en-el-registro-civil/) y con eso la [cédula del bebé](/tramites/cedula-del-bebe/). La guía de [después del nacimiento](/tramites/despues-del-nacimiento/) los reúne. Confirmá requisitos y horarios con cada oficina antes de ir.'
+                ]
+            ],
+            [
+                'h2' => 'Vacunas: la libreta a cada control',
+                'body' => [
+                    'Llevá la libreta de vacunación a cada control y a cada visita al vacunatorio: ahí anotan lo que recibió y te dicen qué le toca y cuándo. Las vacunas del Programa Ampliado de Inmunizaciones (PAI) son gratuitas en los vacunatorios públicos. El calendario exacto lo tiene el vacunatorio con el esquema vigente del Ministerio de Salud; por eso no lo copiamos acá.'
+                ]
+            ],
+            [
+                'h2' => 'Alimentación',
+                'body' => [
+                    'La OMS recomienda solo leche materna durante los primeros 6 meses, sin agua, tés ni otros alimentos, y darle el pecho cada vez que lo pida. Si te duele al amamantar o el bebé no se prende bien, consultá en tu servicio de salud: tiene solución.',
+                    'Desde los 6 meses se suman otros alimentos blandos, de a uno por vez, sin dejar el pecho; la OMS recomienda seguir con la lactancia hasta los 2 años o más. Nada de miel antes del año.'
+                ]
+            ],
+            [
+                'h2' => 'Sueño seguro',
+                'body' => [
+                    'Acostalo siempre boca arriba para dormir, también en la siesta, sobre una superficie firme y plana, en su propia cuna y sin almohadas, peluches ni mantas sueltas. Que duerma en tu misma pieza, sobre todo los primeros 6 meses, sin humo de cigarrillo cerca y sin abrigarlo de más.'
+                ]
+            ],
+            [
+                'h2' => 'Señales de alarma: consultá ya',
+                'body' => [
+                    'Llevalo enseguida a la guardia o a un servicio de salud si tiene fiebre (sobre todo con menos de 3 meses) o está muy frío; si le cuesta respirar, respira muy rápido o se pone morado; si no quiere tomar el pecho o vomita todo; si está muy dormido o flojito; si tiene la piel o los ojos amarillos en los primeros días; si tiene convulsiones; o si moja pocos pañales. Ante la duda, no esperes. Para vos después del parto, mirá también los [primeros días en casa](/parto/primeros-dias-en-casa/).'
+                ]
+            ]
+        ],
+        'stub' => false,
+        'noindex' => false,
+        'kind' => 'medical',
+        'reviewedBy' => null,
+        'updated' => '2026-09-28',
+        'sources' => [
+            ['title' => 'Lactancia materna exclusiva durante los primeros 6 meses', 'publisher' => 'OMS', 'url' => null, 'accessed' => null],
+            ['title' => 'Programa Ampliado de Inmunizaciones (PAI)', 'publisher' => 'MSPBS', 'url' => null, 'accessed' => null],
+            ['title' => 'Signos de peligro en el recién nacido (AIEPI)', 'publisher' => 'OPS/OMS', 'url' => null, 'accessed' => null],
+        ],
+        'faq' => [
+            ['q' => '¿La app Mi Bebé sirve después del parto?', 'a' => 'Sí. Desde la semana 37 la app te pregunta si tu bebé ya nació; cuando le das la fecha, el inicio muestra su edad y las tarjetas de vacunas, trámites, alimentación y sueño, y señales de alarma. Lo que anotaste en el embarazo queda guardado.'],
+            ['q' => '¿Dónde veo el calendario de vacunas del bebé?', 'a' => 'En la libreta de vacunación y en el vacunatorio, que tienen el esquema vigente del PAI. Llevá la libreta a cada control para que anoten cada vacuna.'],
+            ['q' => '¿Cuándo tengo que llevar al bebé a la guardia?', 'a' => 'Ante fiebre (sobre todo con menos de 3 meses), dificultad para respirar, si no quiere tomar el pecho, si está muy dormido o flojito, piel amarilla en los primeros días o convulsiones. Ante la duda, no esperes.'],
+        ],
+        'related' => ['/tramites/despues-del-nacimiento/', '/parto/primeros-dias-en-casa/', '/nombres/'],
+    ],
     '/mes/' => ['title' => 'Meses de embarazo',
 'seoTitle' => 'Meses de embarazo: cuántas semanas tiene cada mes',
 'description' => 'Cuántas semanas tiene cada mes de embarazo: la tabla de los 9 meses con sus semanas y trimestres, y qué cambia en cada uno para vos y tu bebé.',

@@ -60,4 +60,22 @@
     comprobar indexación y retirar URLs de semanas/guías de la app después del PR anterior.
     Revisar tráfico y CTA únicamente si se habilitó analítica.
 
+13. **App — guaraní apagado hasta la revisión nativa (plan de crecimiento, ítem 20b).** En la app
+    todo el guaraní (el selector en Ajustes y la línea en guaraní bajo el castellano) depende de un
+    solo interruptor: el flag `guarani` en `/admin/flags`, apagado. Pasos: (1) que una hablante
+    nativa revise `docs/GUARANI-REVIEW.md` de la app (82 frases, jopara); (2) aplicar las
+    correcciones y regenerar la hoja; (3) encender el flag, sin deploy. **Fuente del sitio y de la
+    app:** Nunito Sans no trae **ẽ** ni **g̃** en los subsets cargados; están en el subset
+    `vietnamese` (ver `assets/fonts/README.md`, opcional, requiere tu OK). Conviene agregarlo antes
+    de encender el guaraní, o esas dos letras se ven en otra fuente.
+14. **App — imágenes pendientes (no generadas).** (a) Ejercicios: 24 ilustraciones, brief exacto por
+    paso en `public/assets/ejercicios/README.md` de la app; se colocan con
+    `node scripts/place-exercise-art.mjs` (ítem 15). (b) «Ya nació»: 4 ilustraciones por edad
+    (0–2, 3–5, 6–8 y 9–12 meses) en `docs/imagery-manifest.json` → `baby`, con prompt; mientras
+    falten, la pantalla muestra un dibujo simple (ítem 9). Se generan solo cuando escribas
+    «Generate image».
+15. **App — calendario PAI del bebé (0–12 meses) con su fuente oficial (MSPBS).** La tarjeta
+    «Vacunas» de «Ya nació» no muestra vacunas ni edades hasta que exista ese calendario con fuente
+    en el repo. Pasá el enlace o el PDF oficial vigente.
+
 Las correcciones técnicas menores están agrupadas en `KNOWN-ISSUES.md`.

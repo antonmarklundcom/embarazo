@@ -49,6 +49,9 @@ return [
     'label' => 'Nombres de bebé',
     'path' => '/nombres/'
 ], [
+    'label' => 'Tu bebé ya nació',
+    'path' => '/bebe/'
+], [
     'label' => 'Calculadora',
     'path' => '/calculadora/'
 ], [
