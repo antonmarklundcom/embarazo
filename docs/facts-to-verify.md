@@ -468,4 +468,7 @@ permiso-para-controles, hora-de-lactancia, licencia-de-paternidad, fuero-materna
 - `/nombres/` pages (growth plan item 2, 2026-09-27): the 52 names and meanings are copied verbatim from the app's `lib/seed/names.json`
   by `tools/import-names.php`. Pending a native Guaraní speaker's check of the 20 Guaraní names (spelling, ã/ĩ, meanings) and a general
   check of the Spanish and Biblical etymologies. Note: the seed lists both "Arami" (Un pedacito de cielo) and "Aramí" (Cielito); fix them in the app seed and re-run the import, never here.
-
+- `/bebe/` (growth plan item 9, G4, 2026-09-28): class (B) newborn basics mirroring the app's baby home (`lib/baby/content.ts`): exclusive
+  breastfeeding to 6 months and continued to 2 years (WHO), no honey before 1 year, safe sleep (on the back, firm flat surface, own cot in
+  the parents' room), and danger signs in a baby (WHO/PAHO AIEPI list). Pending medical review. No PAI calendar on purpose: needs the official
+  MSPBS schedule first (`docs/human-todo.md` 15). Source titles are generic, no URL.
