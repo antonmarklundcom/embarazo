@@ -4540,7 +4540,17 @@ return [
             ['title' => 'Mercurio y salud', 'publisher' => 'Organización Mundial de la Salud (OMS)', 'url' => null, 'accessed' => null],
         ],
         'updated' => '2026-09-20',
-        'image' => null,
+        'image' => [
+            'slug' => 'pescado-de-rio-coccion-embarazo-paraguay',
+            'alt' => 'Un pescado de río bien cocido con limón sobre un plato, junto a un río, ilustración del artículo sobre pescado de río en el embarazo.',
+            'w' => 768,
+            'h' => 432,
+            'widths' => [
+                160,
+                480,
+                768
+            ]
+        ],
     ],
     'chipa-sopa-paraguaya-y-asado' => [
         'cluster' => 'alimentacion',
@@ -4655,7 +4665,17 @@ return [
             ['title' => 'Manual sobre las cinco claves para la inocuidad de los alimentos', 'publisher' => 'Organización Mundial de la Salud (OMS)', 'url' => null, 'accessed' => null],
         ],
         'updated' => '2026-09-20',
-        'image' => null,
+        'image' => [
+            'slug' => 'chipa-sopa-paraguaya-asado-mesa-paraguay',
+            'alt' => 'Una mesa con chipa, sopa paraguaya y asado bien cocido, ilustración del artículo sobre comidas paraguayas en el embarazo.',
+            'w' => 768,
+            'h' => 432,
+            'widths' => [
+                160,
+                480,
+                768
+            ]
+        ],
     ],
     'antojos-y-anemia' => [
         'cluster' => 'alimentacion',
@@ -4769,7 +4789,17 @@ return [
             ['title' => 'Orientaciones sobre alimentación saludable y control prenatal', 'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)', 'url' => null, 'accessed' => null],
         ],
         'updated' => '2026-09-20',
-        'image' => null,
+        'image' => [
+            'slug' => 'antojos-anemia-alimentos-hierro-paraguay',
+            'alt' => 'Una embarazada elige porotos, verduras de hoja y cítricos en un puesto de mercado, ilustración del artículo sobre antojos y anemia.',
+            'w' => 768,
+            'h' => 432,
+            'widths' => [
+                160,
+                480,
+                768
+            ]
+        ],
     ],
     'hidratacion-con-el-calor' => [
         'cluster' => 'alimentacion',
@@ -4903,7 +4933,17 @@ return [
             ['title' => 'Orientaciones sobre alimentación saludable y control prenatal', 'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)', 'url' => null, 'accessed' => null],
         ],
         'updated' => '2026-09-20',
-        'image' => null,
+        'image' => [
+            'slug' => 'hidratacion-calor-embarazo-agua-paraguay',
+            'alt' => 'Una embarazada toma agua a la sombra de un mango en un día de calor, ilustración del artículo sobre hidratación.',
+            'w' => 768,
+            'h' => 432,
+            'widths' => [
+                160,
+                480,
+                768
+            ]
+        ],
     ],
     'dias-fertiles' => [
         'cluster' => 'planear', 'path' => '/planear/dias-fertiles/',
@@ -4955,7 +4995,17 @@ return [
         'sources' => [
             ['title' => 'Orientaciones sobre salud sexual y reproductiva y fertilidad', 'publisher' => 'Organización Mundial de la Salud (OMS)', 'url' => null, 'accessed' => null],
             ['title' => 'Orientaciones sobre planificación familiar y atención preconcepcional', 'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)', 'url' => null, 'accessed' => null]
-        ], 'updated' => '2026-09-20', 'image' => null
+        ], 'updated' => '2026-09-20', 'image' => [
+            'slug' => 'dias-fertiles-calendario-pareja-paraguay',
+            'alt' => 'Una pareja mira juntos un calendario en la pared, ilustración del artículo sobre los días fértiles.',
+            'w' => 768,
+            'h' => 432,
+            'widths' => [
+                160,
+                480,
+                768
+            ]
+        ]
     ],
     'test-de-embarazo-cuando' => [
         'cluster' => 'planear', 'path' => '/planear/test-de-embarazo-cuando/',
@@ -5011,7 +5061,17 @@ return [
             ['title' => 'Recomendaciones de la OMS sobre atención prenatal para una experiencia positiva del embarazo', 'publisher' => 'Organización Mundial de la Salud (OMS)', 'url' => null, 'accessed' => null],
             ['title' => 'Orientaciones sobre atención preconcepcional y control prenatal', 'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)', 'url' => null, 'accessed' => null],
             ['title' => 'Doing a pregnancy test', 'publisher' => 'National Health Service (NHS)', 'url' => null, 'accessed' => null]
-        ], 'updated' => '2026-09-20', 'image' => null
+        ], 'updated' => '2026-09-20', 'image' => [
+            'slug' => 'test-de-embarazo-bano-paraguay',
+            'alt' => 'Una mujer sostiene un test de embarazo sentada en el baño, ilustración del artículo sobre cuándo hacer el test.',
+            'w' => 768,
+            'h' => 432,
+            'widths' => [
+                160,
+                480,
+                768
+            ]
+        ]
     ],
     'primeros-sintomas' => [
         'cluster' => 'planear', 'path' => '/planear/primeros-sintomas/',
@@ -5062,7 +5122,17 @@ return [
         'sources' => [
             ['title' => 'Recomendaciones de la OMS sobre atención prenatal para una experiencia positiva del embarazo', 'publisher' => 'Organización Mundial de la Salud (OMS)', 'url' => null, 'accessed' => null],
             ['title' => 'Orientaciones sobre síntomas y cuidados en el control prenatal', 'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)', 'url' => null, 'accessed' => null]
-        ], 'updated' => '2026-09-20', 'image' => null
+        ], 'updated' => '2026-09-20', 'image' => [
+            'slug' => 'primeros-sintomas-embarazo-cansancio-paraguay',
+            'alt' => 'Una mujer joven descansa en el sillón con la mano en la panza y una taza de té, ilustración del artículo sobre los primeros síntomas.',
+            'w' => 768,
+            'h' => 432,
+            'widths' => [
+                160,
+                480,
+                768
+            ]
+        ]
     ],
     'acido-folico' => [
         'cluster' => 'planear', 'path' => '/planear/acido-folico/',
@@ -5115,7 +5185,17 @@ return [
         'sources' => [
             ['title' => 'Orientaciones sobre suplementación con ácido fólico antes y durante el embarazo', 'publisher' => 'Organización Mundial de la Salud (OMS)', 'url' => null, 'accessed' => null],
             ['title' => 'Orientaciones sobre atención preconcepcional, nutrición y control prenatal', 'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)', 'url' => null, 'accessed' => null]
-        ], 'updated' => '2026-09-20', 'image' => null
+        ], 'updated' => '2026-09-20', 'image' => [
+            'slug' => 'acido-folico-verduras-hoja-paraguay',
+            'alt' => 'Una mesada con espinaca, lentejas, naranjas y un frasco sin etiqueta, ilustración del artículo sobre el ácido fólico.',
+            'w' => 768,
+            'h' => 432,
+            'widths' => [
+                160,
+                480,
+                768
+            ]
+        ]
     ],
     'checklist-preconcepcion' => [
         'cluster' => 'planear', 'path' => '/planear/checklist-preconcepcion/',
@@ -5171,7 +5251,17 @@ return [
         'sources' => [
             ['title' => 'Orientaciones sobre atención preconcepcional y salud reproductiva', 'publisher' => 'Organización Mundial de la Salud (OMS)', 'url' => null, 'accessed' => null],
             ['title' => 'Orientaciones sobre atención preconcepcional y vacunación', 'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)', 'url' => null, 'accessed' => null]
-        ], 'updated' => '2026-09-20', 'image' => null
+        ], 'updated' => '2026-09-20', 'image' => [
+            'slug' => 'checklist-preconcepcion-consulta-paraguay',
+            'alt' => 'Una pareja conversa con una médica llevando una lista escrita, ilustración del artículo sobre la consulta preconcepcional.',
+            'w' => 768,
+            'h' => 432,
+            'widths' => [
+                160,
+                480,
+                768
+            ]
+        ]
     ],
     'si-no-llega-el-embarazo' => [
         'cluster' => 'planear', 'path' => '/planear/si-no-llega-el-embarazo/',
@@ -5226,7 +5316,17 @@ return [
             ['title' => 'Orientaciones sobre infertilidad y salud reproductiva', 'publisher' => 'Organización Mundial de la Salud (OMS)', 'url' => null, 'accessed' => null],
             ['title' => 'Orientaciones sobre atención preconcepcional y salud sexual y reproductiva', 'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)', 'url' => null, 'accessed' => null],
             ['title' => 'Fertility evaluation of infertile women: a committee opinion', 'publisher' => 'American Society for Reproductive Medicine (ASRM)', 'url' => null, 'accessed' => null]
-        ], 'updated' => '2026-09-20', 'image' => null
+        ], 'updated' => '2026-09-20', 'image' => [
+            'slug' => 'si-no-llega-el-embarazo-pareja-apoyo-paraguay',
+            'alt' => 'Una pareja sentada en un banco del jardín tomada de la mano, ilustración del artículo sobre cuándo consultar si no llega el embarazo.',
+            'w' => 768,
+            'h' => 432,
+            'widths' => [
+                160,
+                480,
+                768
+            ]
+        ]
     ],
     'que-llevar-al-sanatorio' => [
         'cluster' => 'parto',
@@ -5412,7 +5512,17 @@ return [
             ]
         ],
         'updated' => '2026-09-20',
-        'image' => null
+        'image' => [
+            'slug' => 'bolso-sanatorio-parto-mama-paraguay',
+            'alt' => 'Una embarazada prepara el bolso para el sanatorio sobre la cama, ilustración del artículo sobre qué llevar al parto.',
+            'w' => 768,
+            'h' => 432,
+            'widths' => [
+                160,
+                480,
+                768
+            ]
+        ]
     ],
     'bolso-del-bebe' => [
         'cluster' => 'parto',
@@ -5563,7 +5673,17 @@ return [
             ]
         ],
         'updated' => '2026-09-20',
-        'image' => null
+        'image' => [
+            'slug' => 'bolso-del-bebe-ropa-panales-paraguay',
+            'alt' => 'Ropa de bebé, gorrito, pañales y una mantita junto a un bolso, ilustración del artículo sobre el bolso del bebé.',
+            'w' => 768,
+            'h' => 432,
+            'widths' => [
+                160,
+                480,
+                768
+            ]
+        ]
     ],
     'contracciones-y-cuando-ir' => [
         'cluster' => 'parto',
@@ -5725,7 +5845,17 @@ return [
             ]
         ],
         'updated' => '2026-09-20',
-        'image' => null
+        'image' => [
+            'slug' => 'contracciones-reloj-pareja-paraguay',
+            'alt' => 'Una embarazada respira durante una contracción mientras su pareja la cronometra, ilustración del artículo sobre cuándo ir al hospital.',
+            'w' => 768,
+            'h' => 432,
+            'widths' => [
+                160,
+                480,
+                768
+            ]
+        ]
     ],
     'parto-en-ips-paso-a-paso' => [
         'cluster' => 'parto',
@@ -5902,7 +6032,17 @@ return [
             ]
         ],
         'updated' => '2026-09-20',
-        'image' => null
+        'image' => [
+            'slug' => 'parto-ips-llegada-hospital-paraguay',
+            'alt' => 'Una embarazada llega al hospital con su pareja y un bolso, ilustración del artículo sobre el parto en IPS.',
+            'w' => 768,
+            'h' => 432,
+            'widths' => [
+                160,
+                480,
+                768
+            ]
+        ]
     ],
     'cesarea-que-esperar' => [
         'cluster' => 'parto',
@@ -6048,7 +6188,17 @@ return [
             ]
         ],
         'updated' => '2026-09-20',
-        'image' => null
+        'image' => [
+            'slug' => 'cesarea-recuperacion-mama-bebe-paraguay',
+            'alt' => 'Una mamá descansa en la cama del hospital con su recién nacido en brazos, ilustración del artículo sobre la cesárea.',
+            'w' => 768,
+            'h' => 432,
+            'widths' => [
+                160,
+                480,
+                768
+            ]
+        ]
     ],
     'primeros-dias-en-casa' => [
         'cluster' => 'parto',
@@ -6200,6 +6350,16 @@ return [
             ]
         ],
         'updated' => '2026-09-20',
-        'image' => null
+        'image' => [
+            'slug' => 'primeros-dias-en-casa-recien-nacido-paraguay',
+            'alt' => 'Una mamá en casa con su recién nacido mientras la abuela le trae un té, ilustración del artículo sobre los primeros días en casa.',
+            'w' => 768,
+            'h' => 432,
+            'widths' => [
+                160,
+                480,
+                768
+            ]
+        ]
     ],
 ];
