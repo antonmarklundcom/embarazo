@@ -204,8 +204,8 @@ Los nombres de menús se confirman al operar; este manual no afirma un deploy re
 
 ## Cómo cambiar analítica y contacto
 
-**Contacto.** El WhatsApp `+595 992 279 599` ya está cargado en `content/site.php` (campo superior
-`whatsapp` y grupo `contact`), así que `/contacto/` está activa: indexable, en el sitemap y enlazada solo
+**Contacto.** El WhatsApp ya está cargado en `content/site.php` (campo superior `whatsapp` y grupo
+`contact`; el número vive solo ahí, para que esta guía no quede vieja cuando cambie), así que `/contacto/` está activa: indexable, en el sitemap y enlazada solo
 desde el pie. Para cambiar el número, agregar `email` o `phone`, o quitar el canal, editá esos campos: la
 página se reescribe sola. Sin ningún canal vuelve a ser un stub noindex fuera del sitemap. Un número o
 correo mal formado se ignora, nunca se inventa; el mensaje con el que se abre el chat vive en
