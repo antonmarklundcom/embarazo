@@ -45,6 +45,9 @@
     input.setAttribute("aria-invalid", "true");
     result.hidden = true;
   }
+  function clearStatus() {
+    document.getElementById("calc-status").textContent = "";
+  }
   function clearError() {
     errBox.hidden = true;
     field.removeAttribute("data-invalid");
@@ -96,10 +99,17 @@
     document.getElementById("r-left").textContent =
       left === 0 ? copy.dueReached : (left + " " + (left === 1 ? copy.day : copy.days));
 
+    // F12: the date she typed travels in the fragment, under the key that says
+    // which date it is. The browser never sends a fragment to a server, so it
+    // reaches the app on her phone and no access log; the app reads it, keeps
+    // the method, and drops it from the address bar. Only the week stays in the
+    // query (docs/app-facts.md, "Deep-link contract").
     var cta = document.getElementById("r-cta");
     var destination = new URL(cta.dataset.base);
-    destination.searchParams.set('fpp', toISO(fpp));
+    destination.searchParams.delete('fpp');
+    destination.searchParams.delete('fum');
     destination.searchParams.set('w', String(week));
+    destination.hash = (mode === "fum" ? "fum=" + toISO(lmp) : "fpp=" + toISO(entered));
     cta.href = destination.href;
 
     var link = document.getElementById("r-weeklink");
@@ -115,6 +125,12 @@
     }
 
     result.hidden = false;
+    // S4: a live region that was `hidden` until now is not reliably announced,
+    // so the sentence goes to a status region that is always in the page.
+    document.getElementById("calc-status").textContent = copy.resultStatus
+      .replace("{n}", String(week))
+      .replace("{completed}", formatCompletedGestation(completed))
+      .replace("{fpp}", Market.fmtDate(fpp));
   }
 
   tabs.forEach(function (t) {
@@ -132,14 +148,16 @@
   });
   go.disabled = false;
   go.addEventListener("click", calculate);
-  input.addEventListener("input", function () { clearError(); result.hidden = true; });
+  input.addEventListener("input", function () { clearError(); clearStatus(); result.hidden = true; });
   input.addEventListener("keydown", function (e) {
     if (e.key === "Enter") { e.preventDefault(); calculate(); }
   });
 
-  /* Prefill + auto-run from the query string, so the exit-criteria vector is
-     one URL away and so /semana/<n> can link here with a date already set. */
-  var preFum = params.get("fum"), preFpp = params.get("fpp");
+  /* Prefill + auto-run from the URL, so the exit-criteria vector is one URL
+     away. F12: the fragment first (#fum= / #fpp=), which never reaches this
+     server's logs; the query still works for old links. */
+  var fragment = new URLSearchParams(location.hash.slice(1));
+  var preFum = fragment.get("fum") || params.get("fum"), preFpp = fragment.get("fpp") || params.get("fpp");
   if (preFpp) { setMode("fpp"); input.value = preFpp; calculate(); }
   else if (preFum) { setMode("fum"); input.value = preFum; calculate(); }
 })();

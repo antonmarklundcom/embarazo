@@ -8,6 +8,7 @@
   var go = document.getElementById('calc-go');
   function calculate() {
     result.hidden = true;
+    document.getElementById('calc-status').textContent = '';
     error.hidden = true;
     input.removeAttribute('aria-invalid');
     cycle.removeAttribute('aria-invalid');
@@ -24,11 +25,16 @@
       document.getElementById('r-' + key).textContent = Market.fmtDate(dates[key]);
     });
     result.hidden = false;
+    // S4: announced through the always-present status region (island.php).
+    document.getElementById('calc-status').textContent = copy.resultStatus
+      .replace('{ovulation}', Market.fmtDate(dates.ovulation))
+      .replace('{start}', Market.fmtDate(dates.start))
+      .replace('{end}', Market.fmtDate(dates.end));
   }
   go.disabled = false;
   go.addEventListener('click', calculate);
   [input,cycle].forEach(function (field) {
-    field.addEventListener('input', function () { result.hidden = true; error.hidden = true; });
+    field.addEventListener('input', function () { result.hidden = true; error.hidden = true; document.getElementById('calc-status').textContent = ''; });
     field.addEventListener('keydown', function (event) {
       if (event.key === 'Enter') { event.preventDefault(); calculate(); }
     });

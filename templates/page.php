@@ -38,6 +38,10 @@ require ROOT_DIR . '/partials/head.php'; require ROOT_DIR . '/partials/header.ph
 <?php foreach ($pgRecord['howto'] as $pgOs): ?><details class="os" id="<?= e(strtolower($pgOs['os'])) ?>"<?= stripos($pgOs['os'], 'android') !== false ? ' open' : '' ?>><summary><?= e($pgOs['os']) ?></summary><div class="os__body"><ol class="steps">
 <?php foreach ($pgOs['steps'] as $pgStep): ?><li><?php if (is_string($pgStep)): ?><?= rich($pgStep) ?><?php else: ?><h3><?= e($pgStep['title']) ?></h3><?php foreach ($pgStep['body'] as $pgParagraph): ?><p><?= rich($pgParagraph) ?></p><?php endforeach; endif; ?></li><?php endforeach; ?></ol></div></details><?php endforeach; ?></section><?php endif; ?>
 <div class="wrap wrap--text section--tight"><?php $faqItems = $pgRecord['faq'] ?? []; require ROOT_DIR . '/partials/faq.php'; ?></div>
+<?php /* S1: a page record that declares itself medical or legal (/bebe/: newborn alarm signs,
+   safe sleep) carries the same visible disclaimer as articles. Records without a kind are
+   product pages and stay as they were — the partial would default them to medical. */ ?>
+<?php if (($pgRecord['kind'] ?? 'product') !== 'product'): ?><div class="wrap wrap--text section--tight"><?php $disclaimerRecord = $pgRecord; require ROOT_DIR . '/partials/disclaimer.php'; ?></div><?php endif; ?>
 <?php if (!empty($pgRecord['sources'])): ?><div class="wrap wrap--text section--tight"><?php $sourcesRecord = $pgRecord; require ROOT_DIR . '/partials/sources.php'; ?></div><?php endif; ?>
 <?php require ROOT_DIR . '/partials/cta-band.php'; ?>
 </main><?php require ROOT_DIR . '/partials/footer.php'; unset($pgRecord, $pgIndex, $pgFeature, $pgTone, $pgOs, $pgStep, $pgParagraph); ?>

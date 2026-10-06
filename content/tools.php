@@ -25,12 +25,16 @@
  *   updated          string   ISO editorial update date, not source access date
  *   ui               array    raw copy, escaped in island/template or textContent in JS:
  *     calculate,noScript,handoffTitle,handoffText,handoffButton,weeksLink,dateError:string
+ *     resultStatus    string   one sentence read out by screen readers when a result
+ *                              appears; placeholders filled by the tool's script
  *     rows            map<string,string> result element suffix => label
  *     introHeadings   map<int,string> intro paragraph index => preceding H2
  *     pregnancy only: modeLabel,weekLabel,weekLink (with {n}),sizeUnavailable,
  *       dueReached,day,days,futureError,oldFumError,futureFppError,oldFppError:string;
- *       modes:{fum:{tab,label,hint},fpp:{tab,label,hint}}; trimesters:string[3]
- *     ovulation only: dateLabel,dateHint,cycleLabel,cycleHint,cycleError,notice:string
+ *       modes:{fum:{tab,label,hint},fpp:{tab,label,hint}}; trimesters:string[3];
+ *       resultStatus placeholders {n} (week), {completed}, {fpp}
+ *     ovulation only: dateLabel,dateHint,cycleLabel,cycleHint,cycleError,notice:string;
+ *       resultStatus placeholders {ovulation}, {start}, {end}
  *
  * Three-line routes select templates/tool.php, which loads assets/js/tools/island.php
  * to build escaped $toolCalcHtml. pregnancy.js owns arithmetic; slug.js enhances the UI.
@@ -61,7 +65,7 @@ return [
             'La cuenta supone un ciclo de 28 días. Si tus ciclos cambian mucho o no recordás cuándo empezó el sangrado, la estimación puede alejarse de tu edad gestacional. En el control prenatal, el equipo compara tu historia con la ecografía, especialmente la temprana, y define la fecha que conviene usar para el seguimiento.',
             'Semanas completas y semana en curso son dos maneras de ubicarte. A los 202 días desde la FUM, completaste 28 semanas y 6 días: estás transitando la semana 29. Anotá las semanas completas más los días al hablar de tus estudios; para leer sobre esta etapa, entrá a [embarazo semana a semana](/semana/).',
             'La comparación de tamaño es orientativa: representa esa semana y no una medición de tu bebé. Tampoco la FPP predice el día exacto del nacimiento. Si todavía estás buscando un embarazo, el [calendario de ovulación](/calendario-de-ovulacion/) hace otra cuenta, basada en la duración de tu ciclo.',
-            'Cambiar la fecha borra el resultado anterior. Solo si tocás el botón del resultado, el enlace lleva tu FPP y tu semana a Mi Bebé para completar el inicio. Podés leer [cómo se manejan los datos](/privacidad/) antes de continuar.',
+            'Cambiar la fecha borra el resultado anterior. Solo si tocás el botón del resultado, el enlace lleva a Mi Bebé la fecha que ingresaste, indicando si es tu FUM o tu FPP, y tu semana, para completar el inicio. La fecha va en la parte del enlace que el navegador no manda a ningún servidor: la lee la app en tu teléfono. Podés leer [cómo se manejan los datos](/privacidad/) antes de continuar.',
         ],
         'faq' => [
             [
@@ -97,7 +101,7 @@ return [
         'math' => 'pregnancy',
         'kind' => 'medical',
         'reviewedBy' => null,
-        'updated' => '2026-09-20',
+        'updated' => '2026-10-06',
         'sources' => [
             ['title' => 'WHO recommendations on antenatal care for a positive pregnancy experience', 'publisher' => 'Organización Mundial de la Salud (OMS)', 'url' => null, 'accessed' => null],
             ['title' => 'Guía vigente de atención prenatal del MSPBS', 'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)', 'url' => null, 'accessed' => null],
@@ -113,13 +117,14 @@ return [
             'weekLabel' => 'estás en la semana',
             'rows' => ['completed' => 'Gestación', 'fpp' => 'Fecha probable de parto', 'tri' => 'Trimestre', 'size' => 'Tamaño orientativo del bebé', 'left' => 'Faltan'],
             'handoffTitle' => 'Continuá con tu fecha en Mi Bebé',
-            'handoffText' => 'Al tocar el botón, el enlace lleva tu FPP y tu semana a la app para completar el inicio. Podés seguir sin cuenta.',
+            'handoffText' => 'Al tocar el botón, el enlace lleva a la app la fecha que ingresaste y tu semana, para completar el inicio. La fecha no pasa por ningún servidor. Podés seguir sin cuenta.',
             'handoffButton' => 'Abrir Mi Bebé con mi fecha',
             'weeksLink' => 'Ver las 42 semanas de embarazo',
             'weekLink' => 'Leer la página de la semana {n}',
             // Growth plan item 6: only the week travels, never her dates.
             'shareButton' => 'Contalo por WhatsApp', 'shareText' => 'Estoy en la semana {n} de mi embarazo. Mirá qué pasa esta semana:',
             'shareFallback' => 'Calculá tus semanas de embarazo:',
+            'resultStatus' => 'Resultado: estás en la semana {n}, con {completed}. Fecha probable de parto: {fpp}.',
             'trimesters' => ['Primer trimestre', 'Segundo trimestre', 'Tercer trimestre'],
             'sizeUnavailable' => 'Consultá la página de tu semana',
             'dueReached' => 'ya llegaste a la FPP', 'day' => 'día', 'days' => 'días',
@@ -202,6 +207,7 @@ return [
             'weeksLink' => 'Conocé el embarazo semana a semana',
             'dateError' => 'Elegí una fecha válida de inicio de menstruación que no sea posterior a hoy.',
             'cycleError' => 'Ingresá una duración de ciclo en días enteros, entre 21 y 35.',
+            'resultStatus' => 'Resultado: ovulación estimada el {ovulation}; días fértiles estimados del {start} al {end}.',
             'introHeadings' => [0 => 'Cómo se calcula', 2 => 'Cómo contar tu ciclo', 4 => 'Tu calendario y tus datos'],
         ],
     ],
