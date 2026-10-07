@@ -15,7 +15,7 @@ corregidos no son pendientes.
   hora de lactancia, licencia de paternidad, fuero, subsidio IPS y asignación familiar se reescribieron con
   esas cifras y enlaces oficiales. Sigue faltando la revisión de un abogado o abogada laboralista y de un
   profesional de salud; ver docs/facts-to-verify.md (secciones VERIFIED y Still NOT verified).
-- Canal de contacto resuelto (2026-09-22): WhatsApp +595 992 279 599 en content/site.php;
+- Canal de contacto resuelto (2026-09-22): WhatsApp en content/site.php (el número vive solo ahí);
   /contacto/ quedó indexable, en el sitemap y enlazada desde el pie, con cuerpo propio. No hay
   correo ni teléfono cargados, y el sitio no promete horarios fuera de "lunes a viernes".
 - Respaldo recuperable de WordPress, docroot y deploy por Anton pendientes; el reemplazo

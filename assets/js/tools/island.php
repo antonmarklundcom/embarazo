@@ -37,7 +37,8 @@ ob_start();
   <button class="btn btn--primary btn--lg btn--block" type="button" id="calc-go" disabled><?= e($copy['calculate']) ?></button>
   <noscript><p><?= e($copy['noScript']) ?></p></noscript>
 <?php if (!$pregnancy): ?><p class="calc__notice"><strong><?= e($copy['notice']) ?></strong></p><?php endif; ?>
-  <div class="calc__result" id="calc-result" hidden aria-live="polite" aria-atomic="true">
+  <p class="sr-only" id="calc-status" role="status" aria-atomic="true"></p>
+  <div class="calc__result" id="calc-result" hidden>
     <div class="result-card">
       <?php if ($pregnancy): ?><strong class="result-card__wk"><span id="r-week"></span><small><?= e($copy['weekLabel']) ?></small></strong><?php endif; ?>
       <ul class="result-card__rows">

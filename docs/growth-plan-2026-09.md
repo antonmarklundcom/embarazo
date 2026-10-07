@@ -21,7 +21,9 @@ which channel works. The Google Play badge on the site is deliberately NOT in th
   product decision (the app's `AGENTS.md` restriction is for Codex workers, not this session).
 - Anything that is the SAME fact in both repos (food verdicts, names, week sizes) comes from
   the app's typed seed (`lib/seed/*.json`, `lib/weeks.ts`) and is copied into the site by a
-  script, never retyped by hand.
+  script, never retyped by hand. Week sizes travel as the app's versioned JSON export
+  (`contracts/weeks.v1.json`, read by `tools/import-weeks.mjs`); week milestones and prose
+  are the site's reviewed text and are not imported (F11, 2026-10).
 - No image generation. Where an item needs new images, write the art brief into the PR
   body and `docs/` and stop that part; Anton generates images only when he writes
   "Generate image". Reusing images already in either repo is fine.

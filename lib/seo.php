@@ -324,8 +324,12 @@ function jsonld_sitewide(array $identity, string $origin): array
  */
 function jsonld_software_application(array $app): array
 {
+    /* S3: the url may carry campaign parameters (app_link). The identifier is the app's
+       origin, so it is the same node on every page and never ends in "...&utm_campaign=x/#". */
+    $appParts = parse_url($app['url']);
+    $appRoot = ($appParts['scheme'] ?? 'https') . '://' . ($appParts['host'] ?? '') . '/';
     $data = ['@context' => 'https://schema.org', '@type' => 'SoftwareApplication',
-        '@id' => rtrim($app['url'], '/') . '/#application',
+        '@id' => $appRoot . '#application',
         'name' => $app['name'], 'url' => $app['url'], 'description' => $app['description'],
         'inLanguage' => 'es-PY', 'applicationCategory' => 'HealthApplication', 'operatingSystem' => 'Web',
         'offers' => ['@type' => 'Offer', 'price' => '0', 'priceCurrency' => 'PYG']];

@@ -374,19 +374,19 @@ return [
             [
                 'h2' => 'Si elegís una cuenta',
                 'body' => [
-                    'La cuenta, con Google o con tu correo y una contraseña, habilita respaldo, sincronización y seguimiento familiar por un link de WhatsApp. Tus registros del embarazo se copian al servidor para que no los pierdas si cambiás de teléfono; el equipo no lee su contenido para darte soporte. Las notas del diario que protegés con un PIN viajan cifradas y el servidor no puede leerlas. Para conocer la opción de compartir, pasá por [Mi Bebé en familia](/familia/).'
+                    'La cuenta, con Google o con tu correo y una contraseña, habilita respaldo, sincronización y seguimiento familiar por un link de WhatsApp. Tus registros del embarazo se copian al servidor para que no los pierdas si cambiás de teléfono; el equipo no lee su contenido para darte soporte. Las notas del diario que protegés con un PIN no se suben: quedan cifradas solo en ese teléfono, así que no vuelven en otro aparato. Para conocer la opción de compartir, pasá por [Mi Bebé en familia](/familia/).'
                 ]
             ],
             [
                 'h2' => 'Las fotos tienen una regla propia',
                 'body' => [
-                    'Las fotos de la panza y del carné perinatal se quedan en tu teléfono, también cuando usás una cuenta. Solo se suben si activás «Copia de tus fotos» en Ajustes; si la apagás, las copias se borran. Tu familia no las ve salvo que también lo actives en Familia.'
+                    'Las fotos de la panza y del carné perinatal se quedan en tu teléfono, también cuando usás una cuenta. Solo se suben si activás «Copia de tus fotos» en Ajustes, y quedan a tu nombre; si la apagás, las copias del servidor se borran. Ni tu pareja ni tu familia las ven.'
                 ]
             ],
             [
                 'h2' => 'Y este sitio web',
                 'body' => [
-                    'embarazo.com.py no usa cookies, publicidad ni formularios, y no te pide datos. Si cuenta visitas, lo hace con Cloudflare Web Analytics, un contador sin cookies que no te identifica ni te sigue en otros sitios: suma páginas vistas en conjunto para saber qué guías se leen. Tus fechas de la calculadora se calculan en tu teléfono y no se envían.'
+                    'embarazo.com.py no usa cookies, publicidad ni formularios, y no te pide datos. Si cuenta visitas, lo hace con Cloudflare Web Analytics, un contador sin cookies que no te identifica ni te sigue en otros sitios: suma páginas vistas en conjunto para saber qué guías se leen. Tus fechas de la calculadora se calculan en tu teléfono y no se envían a este sitio. Si tocás «Abrir Mi Bebé con mi fecha», la fecha viaja a la app dentro del enlace, en la parte que el navegador no manda a ningún servidor.'
                 ]
             ],
             [
@@ -399,7 +399,7 @@ return [
         'stub' => false,
         'noindex' => false,
         'reviewedBy' => null,
-        'updated' => '2026-09-20',
+        'updated' => '2026-10-06',
         'featuresTitle' => 'Leé las condiciones en la app',
         'features' => [
             [
@@ -448,7 +448,7 @@ return [
             ],
             [
                 'q' => '¿El servidor puede leer lo que guardo con cuenta?',
-                'a' => 'Tus registros se guardan en el servidor para respaldarlos, y el equipo no lee su contenido para darte soporte. Las notas del diario con PIN viajan cifradas: esas el servidor no las puede leer. La política de privacidad de la app explica el detalle.'
+                'a' => 'Tus registros se guardan en el servidor para respaldarlos, y el equipo no lee su contenido para darte soporte. Las notas del diario con PIN no se suben: quedan cifradas solo en tu teléfono. La política de privacidad de la app explica el detalle.'
             ],
             [
                 'q' => '¿Las fotos se incluyen en lo que se sube?',
@@ -478,7 +478,7 @@ return [
         'stub' => false,
         'noindex' => false,
         'reviewedBy' => null,
-        'updated' => '2026-09-20',
+        'updated' => '2026-10-06',
         'sources' => [
             [
                 'title' => 'Mi Bebé: presentación y funciones de la aplicación',
@@ -510,7 +510,7 @@ return [
             ],
             [
                 'q' => '¿Qué guarda el servidor cuando tengo cuenta?',
-                'a' => 'Guarda una copia de tus registros para respaldarlos y sincronizarlos; las notas del diario con PIN van cifradas. La página de [privacidad](/privacidad/) resume la diferencia entre usar una cuenta y seguir sin ella.'
+                'a' => 'Guarda una copia de tus registros para respaldarlos y sincronizarlos; las notas del diario con PIN no se suben. La página de [privacidad](/privacidad/) resume la diferencia entre usar una cuenta y seguir sin ella.'
             ],
             [
                 'q' => '¿Se suben mis fotos?',
@@ -569,14 +569,14 @@ return [
                 'h2' => 'Antes de mandar el link',
                 'body' => [
                     'La función familiar necesita una cuenta, con Google o con tu correo. Desde la app, buscá el apartado Familia para compartir por WhatsApp. Si todavía estás eligiendo entre usar una cuenta o seguir sin ella, revisá la [explicación de privacidad](/privacidad/).',
-                    'Elijan juntos a quién enviar el link. Para dudas sobre qué información verá quien lo reciba, revisen lo que indique la app antes de compartir.'
+                    'Elijan juntos a quién enviar el link. Quien lo recibe ve la semana, la fecha probable de parto y el próximo control. Solo la pareja, y solo si la embarazada lo activa, ve también su último peso y su último conteo de pataditas. Nadie ve las notas del diario, los síntomas ni las fotos.'
                 ]
             ]
         ],
         'stub' => false,
         'noindex' => false,
         'reviewedBy' => null,
-        'updated' => '2026-09-20',
+        'updated' => '2026-10-06',
         'sources' => [
             [
                 'title' => 'Mi Bebé: presentación y funciones de la aplicación',

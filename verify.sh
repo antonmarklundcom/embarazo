@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #
-# The build gate. Runs on every PR (.github/workflows/verify.yml) and should be
-# run locally before pushing:
+# The build gate. No CI workflow runs it (this repo has none, and adding one needs
+# Anton's yes — AGENTS.md), so run it locally before pushing:
 #
 #     ./verify.sh                 # check the repository
 #     ./verify.sh --root dist/x   # check an unzipped deploy artifact

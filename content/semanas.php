@@ -11,8 +11,10 @@
  * sources:[{title:string,publisher:string,url:?string,accessed:?ISO-date}]; updated:ISO-date.
  * Derive trimester with week_trimester(n), never store it. Missing measurements = null.
  * Seed-only rows deliberately have empty sections/sources; keep noindex until authored.
- * Source for seed size/milestone: app lib/weeks.ts (read-only import).
- * Re-import preserves editorial fields, refreshes size/milestone/updated; edit here.
+ * Seeded once from the app's lib/weeks.ts. Since 2026-10 (F11) tools/import-weeks.mjs reads
+ * the app's contracts/weeks.v1.json and updates size only (name, lengthCm, weightG), editing
+ * those lines in place; updated moves only on a week whose size changed. milestone and all
+ * prose are the site's reviewed text and are never imported; edit them here.
  */
 declare(strict_types=1);
 

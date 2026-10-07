@@ -252,10 +252,17 @@ function is_current(string $path, string $currentPath): bool
     return rtrim($path, '/') === rtrim($currentPath, '/');
 }
 
-/** App hand-off; one origin and campaign contract for every CTA. */
+/**
+ * App hand-off; one origin and campaign contract for every CTA.
+ *
+ * A personal date (`fpp`, `fum`) goes in the `#` fragment, never the query: the browser
+ * does not send a fragment to any server, so the date reaches the app on her phone and no
+ * access log on the way (F12, docs/app-facts.md "Deep-link contract").
+ */
 function app_link(string $medium = 'product', string $campaign = 't0', array $extra = []): string
 {
     $params = ['utm_source' => 'site', 'utm_medium' => $medium, 'utm_campaign' => $campaign];
+    $fragment = [];
     foreach (['w', 'fpp', 'fum', 'modo'] as $key) {
         if (!isset($extra[$key])) {
             continue;
@@ -274,10 +281,15 @@ function app_link(string $medium = 'product', string $campaign = 't0', array $ex
                 throw new InvalidArgumentException('Date must be a real YYYY-MM-DD date.');
             }
         }
+        if (in_array($key, ['fpp', 'fum'], true)) {
+            $fragment[$key] = $value;
+            continue;
+        }
         $params[$key] = $key === 'w' ? (int) $value : $value;
     }
     // URI encoding here; callers use e() once at the HTML boundary (no double escaping).
-    return 'https://app.embarazo.com.py/?' . http_build_query($params, '', '&', PHP_QUERY_RFC3986);
+    $url = 'https://app.embarazo.com.py/?' . http_build_query($params, '', '&', PHP_QUERY_RFC3986);
+    return $fragment === [] ? $url : $url . '#' . http_build_query($fragment, '', '&', PHP_QUERY_RFC3986);
 }
 
 /**

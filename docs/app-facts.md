@@ -1,4 +1,4 @@
-# Facts pulled from the app repo (antonmarklundcom/embarazo.2.1) — 2026-09-20, re-checked 2026-09-24
+# Facts pulled from the app repo (antonmarklundcom/embarazo.2.1) — 2026-09-20, re-checked 2026-09-24, 2026-10-06
 
 Read-only reference for every session in this repo. The app repo is **context only**;
 nothing in this site repo imports from it at build time. When a fact here goes stale,
@@ -15,13 +15,22 @@ re-read the app repo and fix this file in the same PR.
   confirmation and password reset) for backup/sync + family sharing by WhatsApp link;
   "seguir sin cuenta" keeps everything on the phone.
 - **Photos:** stay on the phone by default. Opt-in "Copia de tus fotos" (Ajustes) uploads
-  them to private object storage; turning it off deletes the copies. Family only sees belly
-  photos if that is also switched on in Familia. Never write "las fotos nunca se suben".
+  them to private object storage, for the account holder only; turning it off deletes the
+  server copies (if offline, as soon as there is a connection). **Nobody else sees them:**
+  pareja and familia never get photos (the old Familia "fotos" switch is gone, 2026-10).
+  Never write "las fotos nunca se suben", and never that family can see photos.
 - **Honest privacy line:** "sin cuenta, todo queda en tu teléfono; con cuenta, tus registros
   se copian al servidor para respaldarlos". Synced health records are NOT end-to-end
-  encrypted; only diary notes protected with a PIN travel encrypted ("el servidor no puede
-  leerlas"). Never write "un sobre que no puede leer" and never "no recolectamos datos".
-  Source of truth: app `app/(app)/privacidad/page.tsx`.
+  encrypted. Diary notes protected with a PIN are **not uploaded at all**: they stay
+  encrypted on that one phone and do not come back on another device (2026-10 correction:
+  never write that they "viajan cifradas"). Never write "un sobre que no puede leer" and
+  never "no recolectamos datos". Source of truth: app `app/(app)/privacidad/page.tsx`.
+- **What a companion sees:** pareja and familia see the week, the due date and the next
+  control. Only the pareja, and only if the mamá turns it on in Familia, also sees her last
+  weight and her last kick count. Never notes, symptoms or photos.
+- **Account deletion:** removes everything of hers from the server. Two records stay, with no
+  name, email or health data: the admin audit trail, and (if she used the AI baby image) how
+  many images were generated that month and what they cost. Source: app `/borrar-cuenta`.
 - **Push reminders:** optional weekly "semana nueva" and prenatal-control reminders (Ajustes).
 - **No pop-up ads, no email capture, no forms on the site.** Founder rules.
 - **Medical reviewer:** not yet recruited. Build no longer refuses without one; content
@@ -54,14 +63,21 @@ fotos,kegel,nombres,pataditas,peso,precios,resumen,sintomas,sueno}`.
 | `vacunas-en-el-embarazo-pai` | `/salud/vacunas-en-el-embarazo` |
 | `derechos-embarazada-que-trabaja` | `/derechos/derechos-de-la-embarazada-que-trabaja` |
 
-## Deep-link contract (already implemented app-side in `lib/onboarding/siteParams.ts`)
+## Deep-link contract (implemented app-side in `lib/onboarding/siteParams.ts`)
 
 ```
 https://app.embarazo.com.py/?utm_source=site&utm_medium=<page-type>&utm_campaign=<slug>&w=<1..42>
-https://app.embarazo.com.py/?utm_source=site&utm_medium=tool&fpp=<yyyy-mm-dd>      (or fum=)
+https://app.embarazo.com.py/?utm_source=site&utm_medium=tool&utm_campaign=calculadora#fum=<yyyy-mm-dd>
+https://app.embarazo.com.py/?utm_source=site&utm_medium=tool&utm_campaign=calculadora#fpp=<yyyy-mm-dd>
 https://app.embarazo.com.py/?utm_source=site&utm_medium=article&modo=planeando
 ```
 The app prefills onboarding from `w`, `fpp`, `fum`, `modo` and drops them from the URL.
+**Personal dates go in the `#` fragment** (2026-10, F12): the browser never sends a fragment
+to any server, so a date never reaches a request URL or an access log. The key is the date
+she typed — `fum` for "fecha de última menstruación", `fpp` for "fecha probable de parto" —
+so the app knows which method she used. Attribution (`utm_*`) and the coarse week `w` stay in
+the query. The app still reads `?fpp=`/`?fum=` in the query for old links; the site no longer
+emits them. Dates are civil `YYYY-MM-DD` and must exist (the app refuses 2026-02-30).
 The site builds every CTA through ONE helper (`app_link()`), never by hand.
 
 ## Brand tokens (app `app/globals.css`, copy verbatim into the site tokens block)
@@ -88,8 +104,20 @@ site must produce the same numbers as the app for the same date. Port to
 
 Per week: friendly title, size comparison in the Paraguayan progression (semilla de chía →
 mamón → palta → choclo → coco → sandía), length/weight where measurable, milestone, 100-word
-body. The site seeds `content/semanas.php` from it once (T1 import script) and then extends
-each week to 800–1,200 words; the app keeps its short version.
+body. The site seeded `content/semanas.php` from it once (T1) and then extended each week to
+800–1,200 words; the app keeps its short version.
+
+Since 2026-10 (F11) the app publishes a versioned JSON export (`npm run export:weeks` in the
+app writes `contracts/weeks.v1.json`, contract `mibebe.weeks` version 1) and
+`tools/import-weeks.mjs` here reads **that file**, not the TypeScript source.
+`node tools/import-weeks.mjs <path> --check` is the read-only freshness check. The import is mechanical-only: it updates `size` (`name`, `lengthCm`, `weightG`), in place,
+and nothing else. Milestones and every word of site prose are the site's own, reviewed text
+and are never overwritten; `updated` changes only on a week whose numbers actually changed.
+
+**Week numbering (F05):** the big week number (app and site) is the week in progress,
+`floor(days / 7) + 1` — one ahead of the carné's completed weeks. Term starts at **37
+completed weeks** (app week 38), full term at 39 completed (app week 40). Clinical thresholds
+use completed weeks; copy must never call app week 37 "a término".
 
 ## Paraguayan facts already verified in the app (`lib/derechos.ts`, DECISIONS v5)
 

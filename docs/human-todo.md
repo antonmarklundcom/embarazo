@@ -6,8 +6,8 @@
    pendiente, no cancelado: `docs/facts-to-verify.md` mantiene la cola por página y D0 F2–F11
    de `docs/decisions-needed.md` siguen abiertos. No completar `reviewedBy`, credenciales ni
    registro sin revisión real. Guaraní sigue oculto hasta revisión nativa.
-2. **Canal de contacto: hecho (2026-09-22).** WhatsApp +595 992 279 599 cargado en
-   `content/site.php`; `/contacto/` quedó indexable, en el sitemap y enlazada desde el pie.
+2. **Canal de contacto: hecho (2026-09-22).** WhatsApp cargado en
+   `content/site.php` (el número vive solo ahí); `/contacto/` quedó indexable, en el sitemap y enlazada desde el pie.
    Falta del lado humano: contestar. Si el número cambia, se edita ese campo y listo.
 3. **Analítica del sitio: lista para encender, falta tu token (plan de crecimiento, ítem 19).**
    Sin Google Analytics; se usa solo Cloudflare Web Analytics (sin cookies, sin banner).
