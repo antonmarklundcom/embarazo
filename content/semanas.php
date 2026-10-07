@@ -1612,10 +1612,10 @@ return [
     23 => [
         'title' => 'Semana 23 de embarazo',
         'seoTitle' => 'Semana 23 de embarazo: audición y calambres',
-        'metaDescription' => 'Con un pomelo como referencia, la audición sigue madurando. Encontrá respuestas sobre tu voz, los calambres nocturnos y la posición del bebé.',
+        'metaDescription' => 'Con una berenjena grande como referencia, la audición sigue madurando. Encontrá respuestas sobre tu voz, los calambres nocturnos y la posición del bebé.',
         'sections' => [
             'bebe' => [
-                'En la semana 23 de embarazo, la audición de tu bebé continúa madurando y sus movimientos pueden sentirse más claros; su tamaño se compara con un pomelo. El cuerpo sigue creciendo y la piel conserva un aspecto fino y arrugado. Vos podés notar calambres nocturnos o piernas cansadas. En el control conviene conversar esas molestias, repasar los movimientos que empezaste a reconocer y organizar los análisis que se acercan, sin esperar a tener síntomas para consultar.',
+                'En la semana 23 de embarazo, la audición de tu bebé continúa madurando y sus movimientos pueden sentirse más claros; su tamaño se compara con una berenjena grande. El cuerpo sigue creciendo y la piel conserva un aspecto fino y arrugado. Vos podés notar calambres nocturnos o piernas cansadas. En el control conviene conversar esas molestias, repasar los movimientos que empezaste a reconocer y organizar los análisis que se acercan, sin esperar a tener síntomas para consultar.',
                 'Los sonidos llegan al útero amortiguados por los tejidos y el líquido. El bebé está rodeado de ruidos del cuerpo, como el latido de tu corazón, y gradualmente responde a estímulos sonoros. Podés hablarle o cantar si te resulta agradable. No necesitás poner auriculares sobre la panza ni subir el volumen para estimularlo: una patadita después de un sonido tampoco sirve como prueba casera de que escucha bien.',
                 'Los pulmones siguen formando estructuras que necesitarán mucho más tiempo de maduración. Aunque el tórax puede hacer movimientos de práctica, el intercambio de oxígeno ocurre a través de la placenta. El líquido amniótico ofrece espacio para moverse y participa en el entorno de desarrollo. Por eso, una salida de líquido por la vagina merece evaluación inmediata; no puede interpretarse en casa a partir del tamaño de la panza o de cuánto se mueve.',
                 'Como orientación, esta semana muestra unos 28,9 centímetros y 501 gramos. Son referencias aproximadas, no cifras que cada bebé deba alcanzar el mismo día. La posición puede cambiar varias veces y todavía no define cómo estará cerca del nacimiento. En la [semana 22](/semana/22/) podés repasar la evaluación anatómica; el recorrido del [segundo trimestre](/trimestre/2/) ayuda a conectar esa información con los controles próximos sin convertir cada semana en una ecografía obligatoria.',
@@ -1645,8 +1645,8 @@ return [
         ],
         'related' => ['senales-de-alarma', 'dormir-en-el-embarazo', 'diabetes-gestacional'],
         'image' => [
-            'slug' => 'tamano-bebe-semana-23-pomelo',
-            'alt' => 'El tamaño de tu bebé en la semana 23: un pomelo.',
+            'slug' => 'tamano-bebe-semana-23-berenjena-grande',
+            'alt' => 'El tamaño de tu bebé en la semana 23: una berenjena grande.',
             'w' => 640,
             'h' => 640,
             'widths' => [320, 640],
@@ -1660,12 +1660,12 @@ return [
             ['title' => 'Ley 7383/2024 — permisos para controles prenatales (nota oficial del MTESS)', 'publisher' => 'Ministerio de Trabajo, Empleo y Seguridad Social (MTESS)', 'url' => 'https://www.mtess.gov.py/?p=30138', 'accessed' => '2026-09-20'],
         ],
         'size' => [
-            'name' => 'un pomelo',
+            'name' => 'una berenjena grande',
             'lengthCm' => 28.9,
             'weightG' => 501,
         ],
         'milestone' => 'Empieza a escuchar tu voz, tu corazón y los ruidos de afuera. La audición se afina cada semana.',
-        'updated' => '2026-09-20',
+        'updated' => '2026-10-07',
     ],
     24 => [
         'title' => 'Semana 24 de embarazo',
@@ -1787,10 +1787,10 @@ return [
     26 => [
         'title' => 'Semana 26 de embarazo',
         'seoTitle' => 'Semana 26 de embarazo: párpados y descanso',
-        'metaDescription' => 'Tu bebé se compara con un repollo pequeño y sus párpados se acercan a la apertura. Revisá el sueño entrecortado y el hormigueo en las manos.',
+        'metaDescription' => 'Tu bebé se compara con una lechuga grande y sus párpados se acercan a la apertura. Revisá el sueño entrecortado y el hormigueo en las manos.',
         'sections' => [
             'bebe' => [
-                'En la semana 26 de embarazo, los ojos de tu bebé van acercándose a la apertura de los párpados y sus pulmones siguen madurando; el tamaño se compara con un repollo pequeño. Los movimientos pueden hacerse más notorios desde afuera. Vos quizá duermas de manera entrecortada o sientas hormigueo en las manos. En esta etapa conviene conversar el descanso y comprobar que los análisis de la ventana de 24 a 28 semanas están encaminados.',
+                'En la semana 26 de embarazo, los ojos de tu bebé van acercándose a la apertura de los párpados y sus pulmones siguen madurando; el tamaño se compara con una lechuga grande. Los movimientos pueden hacerse más notorios desde afuera. Vos quizá duermas de manera entrecortada o sientas hormigueo en las manos. En esta etapa conviene conversar el descanso y comprobar que los análisis de la ventana de 24 a 28 semanas están encaminados.',
                 'Los párpados que permanecieron cerrados durante parte del desarrollo comienzan a separarse en esta etapa, con variaciones de tiempo entre bebés. Los ojos y las conexiones que permitirán ver siguen madurando; abrirlos no equivale a tener la visión de un recién nacido. No hace falta iluminar la panza con una linterna para buscar una reacción. Los cambios que observás desde afuera no permiten examinar la vista ni reemplazan una evaluación indicada.',
                 'En los pulmones progresa la producción de sustancias que ayudarán a mantener abiertos los pequeños espacios respiratorios después del nacimiento. Ese proceso continúa durante las semanas siguientes y no significa que ya están listos para respirar sin ayuda. El bebé practica movimientos y recibe oxígeno por la placenta. Si surgiera una amenaza de nacimiento prematuro, las decisiones dependen de la evaluación del equipo, no de un dato aislado sobre maduración pulmonar.',
                 'Como referencia de crecimiento se muestran unos 35,6 centímetros y 760 gramos. A veces las pataditas se sienten más en un costado por la postura del bebé, y quien te acompaña puede empezar a notarlas al apoyar suavemente la mano. No hay obligación de sentirlas desde afuera en una fecha exacta. La [semana 25](/semana/25/) repasa otras molestias de esta etapa y el [segundo trimestre](/trimestre/2/) permite seguir el recorrido de controles.',
@@ -1820,8 +1820,8 @@ return [
         ],
         'related' => ['dormir-en-el-embarazo', 'diabetes-gestacional', 'senales-de-alarma'],
         'image' => [
-            'slug' => 'tamano-bebe-semana-26-repollo-pequeno',
-            'alt' => 'El tamaño de tu bebé en la semana 26: un repollo pequeño.',
+            'slug' => 'tamano-bebe-semana-26-lechuga-grande',
+            'alt' => 'El tamaño de tu bebé en la semana 26: una lechuga grande.',
             'w' => 640,
             'h' => 640,
             'widths' => [320, 640],
@@ -1835,20 +1835,20 @@ return [
             ['title' => 'Ley 7383/2024 — permisos para controles prenatales (nota oficial del MTESS)', 'publisher' => 'Ministerio de Trabajo, Empleo y Seguridad Social (MTESS)', 'url' => 'https://www.mtess.gov.py/?p=30138', 'accessed' => '2026-09-20'],
         ],
         'size' => [
-            'name' => 'un repollo pequeño',
+            'name' => 'una lechuga grande',
             'lengthCm' => 35.6,
             'weightG' => 760,
         ],
         'milestone' => 'Abre los ojos por primera vez y responde a la luz fuerte sobre la panza. Los pulmones siguen madurando.',
-        'updated' => '2026-09-20',
+        'updated' => '2026-10-07',
     ],
     27 => [
         'title' => 'Semana 27 de embarazo',
         'seoTitle' => 'Semana 27 de embarazo: hipo del bebé',
-        'metaDescription' => 'Con una coliflor como referencia, quizá sientas saltitos rítmicos por el hipo. Leé sobre acidez, panza dura y el cierre del segundo trimestre.',
+        'metaDescription' => 'Con una sandía pequeña como referencia, quizá sientas saltitos rítmicos por el hipo. Leé sobre acidez, panza dura y el cierre del segundo trimestre.',
         'sections' => [
             'bebe' => [
-                'En la semana 27 de embarazo, tu bebé sigue madurando el cerebro y los pulmones, y quizá sientas pequeños saltitos rítmicos por el hipo; su tamaño se compara con una coliflor. Estás cerrando el segundo trimestre. Vos podés notar acidez más molesta al acostarte o dificultades para encontrar una postura cómoda. El control permite revisar los estudios pendientes y conversar cómo reconocer cambios importantes en los movimientos y en las molestias de la panza.',
+                'En la semana 27 de embarazo, tu bebé sigue madurando el cerebro y los pulmones, y quizá sientas pequeños saltitos rítmicos por el hipo; su tamaño se compara con una sandía pequeña. Estás cerrando el segundo trimestre. Vos podés notar acidez más molesta al acostarte o dificultades para encontrar una postura cómoda. El control permite revisar los estudios pendientes y conversar cómo reconocer cambios importantes en los movimientos y en las molestias de la panza.',
                 'El hipo se relaciona con contracciones del diafragma, el músculo que participará en la respiración. Puede sentirse como una serie de golpecitos parejos en un mismo lugar. No todos los bebés lo hacen de una forma que la madre reconozca, y no sentirlo tampoco señala un problema. No necesitás detenerlo con comida o bebidas. Si lo que cambió es el movimiento habitual del bebé, consultá aunque sigas notando esos saltitos.',
                 'El cerebro continúa desarrollando conexiones y el bebé alterna períodos de mayor y menor actividad. Desde afuera no se puede saber con precisión cuándo duerme por un rato sin patadas. Los pulmones avanzan en su maduración mientras la placenta mantiene el intercambio de oxígeno. Las referencias para esta semana son unos 36,6 centímetros y 875 gramos; el crecimiento individual se evalúa con los controles, no comparando la fuerza de las pataditas con otro embarazo.',
                 'Puede girar y acomodarse en distintas posiciones, de modo que un día notes más presión hacia un costado y otro hacia abajo. La postura actual todavía puede cambiar y no decide la vía del nacimiento. En la [semana 26](/semana/26/) encontrás ideas para descansar y conversar el cansancio. El recorrido del [segundo trimestre](/trimestre/2/) permite revisar lo que falta antes de avanzar a la etapa siguiente, con las fechas que indique tu equipo.',
@@ -1878,8 +1878,8 @@ return [
         ],
         'related' => ['contracciones-y-cuando-ir', 'senales-de-alarma', 'dormir-en-el-embarazo'],
         'image' => [
-            'slug' => 'tamano-bebe-semana-27-coliflor',
-            'alt' => 'El tamaño de tu bebé en la semana 27: una coliflor.',
+            'slug' => 'tamano-bebe-semana-27-sandia-pequena',
+            'alt' => 'El tamaño de tu bebé en la semana 27: una sandía pequeña.',
             'w' => 640,
             'h' => 640,
             'widths' => [320, 640],
@@ -1893,20 +1893,20 @@ return [
             ['title' => 'Ley 7383/2024 — permisos para controles prenatales (nota oficial del MTESS)', 'publisher' => 'Ministerio de Trabajo, Empleo y Seguridad Social (MTESS)', 'url' => 'https://www.mtess.gov.py/?p=30138', 'accessed' => '2026-09-20'],
         ],
         'size' => [
-            'name' => 'una coliflor',
+            'name' => 'una sandía pequeña',
             'lengthCm' => 36.6,
             'weightG' => 875,
         ],
         'milestone' => 'Última semana del segundo trimestre. El bebé tiene hipo a veces; vas a sentir pequeños saltitos rítmicos.',
-        'updated' => '2026-09-20',
+        'updated' => '2026-10-07',
     ],
     28 => [
         'title' => 'Semana 28 de embarazo',
         'seoTitle' => 'Semana 28 de embarazo: tercer trimestre y Rh',
-        'metaDescription' => 'Empieza el tercer trimestre y la referencia es una berenjena grande. Revisá movimientos, resultados de glucosa y qué consultar si sos Rh negativa.',
+        'metaDescription' => 'Empieza el tercer trimestre y la referencia es un zapallo pequeño. Revisá movimientos, resultados de glucosa y qué consultar si sos Rh negativa.',
         'sections' => [
             'bebe' => [
-                'En la semana 28 de embarazo empieza el tercer trimestre. Tu bebé sigue desarrollando el cerebro, puede abrir y cerrar los ojos y gana peso; su tamaño se compara con una berenjena grande. Vos podés sentir más carga en la espalda y movimientos más familiares. En el control conviene revisar la pesquisa de glucosa y los resultados de grupo sanguíneo y Rh, además de conversar cómo seguir los movimientos y organizar las próximas visitas.',
+                'En la semana 28 de embarazo empieza el tercer trimestre. Tu bebé sigue desarrollando el cerebro, puede abrir y cerrar los ojos y gana peso; su tamaño se compara con un zapallo pequeño. Vos podés sentir más carga en la espalda y movimientos más familiares. En el control conviene revisar la pesquisa de glucosa y los resultados de grupo sanguíneo y Rh, además de conversar cómo seguir los movimientos y organizar las próximas visitas.',
                 'La superficie del cerebro va formando pliegues y sus conexiones continúan madurando. El bebé puede parpadear y moverse con períodos de actividad que quizá reconocés mejor que antes. Eso no significa que cada día deba repetir un horario exacto. Tampoco es posible saber si está soñando por la forma de una patada o por un movimiento visto en la ecografía. El desarrollo neurológico seguirá durante el resto del embarazo y después del nacimiento.',
                 'Las referencias de tamaño son unos 37,6 centímetros de cabeza a pies y 1005 gramos, alrededor de un kilo. La grasa bajo la piel sigue aumentando y los pulmones todavía maduran. Llegar a este peso orientativo no equivale a estar listo para nacer: un nacimiento en esta etapa sigue siendo prematuro. Si te piden una ecografía de crecimiento, preguntá qué motivó la indicación y cómo se compararán sus medidas con las anteriores.',
                 'Ahora puede ser más fácil distinguir estiramientos, giros y golpes, además de las pataditas. La sensación depende también de la posición del bebé y la placenta. No aceptes una reducción clara como algo esperado por tener menos espacio: consultá de inmediato si se mueve menos o deja de hacerlo. En la [semana 27](/semana/27/) se explica el hipo; el recorrido del [tercer trimestre](/trimestre/3/) te ayuda a ubicar los cuidados que vienen.',
@@ -1936,8 +1936,8 @@ return [
         ],
         'related' => ['diabetes-gestacional', 'vacunas-en-el-embarazo', 'senales-de-alarma'],
         'image' => [
-            'slug' => 'tamano-bebe-semana-28-berenjena-grande',
-            'alt' => 'El tamaño de tu bebé en la semana 28: una berenjena grande.',
+            'slug' => 'tamano-bebe-semana-28-zapallo-pequeno',
+            'alt' => 'El tamaño de tu bebé en la semana 28: un zapallo pequeño.',
             'w' => 640,
             'h' => 640,
             'widths' => [320, 640],
@@ -1952,12 +1952,12 @@ return [
             ['title' => 'Antenatal care (NG201)', 'publisher' => 'National Institute for Health and Care Excellence (NICE)', 'url' => null, 'accessed' => null],
         ],
         'size' => [
-            'name' => 'una berenjena grande',
+            'name' => 'un zapallo pequeño',
             'lengthCm' => 37.6,
             'weightG' => 1005,
         ],
         'milestone' => 'El bebé puede parpadear y su cerebro sigue formando pliegues y conexiones.',
-        'updated' => '2026-09-20',
+        'updated' => '2026-10-07',
     ],
     29 => [
         'title' => 'Semana 29 de embarazo',
@@ -2020,10 +2020,10 @@ return [
     30 => [
         'title' => 'Semana 30 de embarazo',
         'seoTitle' => 'Semana 30 de embarazo: cansancio y anemia',
-        'metaDescription' => 'La referencia es un repollo y la médula ósea produce glóbulos rojos. Revisá el cansancio, las dudas sobre anemia y cómo tolerar los suplementos.',
+        'metaDescription' => 'La referencia es un ananá y la médula ósea produce glóbulos rojos. Revisá el cansancio, las dudas sobre anemia y cómo tolerar los suplementos.',
         'sections' => [
             'bebe' => [
-                'En la semana 30 de embarazo, tu bebé gana grasa bajo la piel y su médula ósea participa en la producción de glóbulos rojos. El tamaño se compara con un repollo. Los movimientos siguen siendo una referencia importante para vos, mientras el cansancio puede hacerse más visible. Esta semana es útil para conversar sobre descanso, revisar si hay anemia u otros resultados pendientes y empezar a poner por escrito tus preguntas sobre el nacimiento.',
+                'En la semana 30 de embarazo, tu bebé gana grasa bajo la piel y su médula ósea participa en la producción de glóbulos rojos. El tamaño se compara con un ananá. Los movimientos siguen siendo una referencia importante para vos, mientras el cansancio puede hacerse más visible. Esta semana es útil para conversar sobre descanso, revisar si hay anemia u otros resultados pendientes y empezar a poner por escrito tus preguntas sobre el nacimiento.',
                 'Los glóbulos rojos transportan oxígeno y su producción cambia de lugar durante el desarrollo fetal. La médula ósea va asumiendo esa función, que continuará después del nacimiento. A la vez, el cerebro y los pulmones siguen madurando. La acumulación de grasa contribuye a la futura regulación de temperatura, pero todavía no significa que el bebé pueda mantenerla sin ayuda si nace antes de tiempo. Por eso, crecer no equivale a estar listo para nacer.',
                 'Las medidas orientativas son unos 39,9 centímetros y 1319 gramos. Una panza que parece más grande que otra no demuestra que el bebé pese más: también influyen tu contextura, embarazos previos y la posición fetal. Cuando el equipo mide la altura del útero, registra una tendencia para decidir si necesita estudiar algo más. Si solicita una ecografía, preguntá qué dato busca y cómo te explicarán el resultado.',
                 'Podés notar ratos de movimiento más marcado y otros tranquilos. No hace falta provocar respuestas con luces, música fuerte o golpes sobre la panza. Tampoco una actividad intensa aislada permite sacar conclusiones sobre el carácter que tendrá. El [tercer trimestre](/trimestre/3/) reúne los pasos generales; en la [semana 29](/semana/29/) encontrás cómo observar movimientos sin convertir cada día en una competencia de cantidades. Lo que importa es reconocer cambios respecto de lo habitual.',
@@ -2053,8 +2053,8 @@ return [
         ],
         'related' => ['senales-de-alarma', 'que-llevar-al-sanatorio', 'licencia-de-maternidad'],
         'image' => [
-            'slug' => 'tamano-bebe-semana-30-repollo',
-            'alt' => 'El tamaño de tu bebé en la semana 30: un repollo.',
+            'slug' => 'tamano-bebe-semana-30-anana',
+            'alt' => 'El tamaño de tu bebé en la semana 30: un ananá.',
             'w' => 640,
             'h' => 640,
             'widths' => [320, 640],
@@ -2068,12 +2068,12 @@ return [
             ['title' => 'Ley 7383/2024 — permisos para controles prenatales (nota oficial del MTESS)', 'publisher' => 'Ministerio de Trabajo, Empleo y Seguridad Social (MTESS)', 'url' => 'https://www.mtess.gov.py/?p=30138', 'accessed' => '2026-09-20'],
         ],
         'size' => [
-            'name' => 'un repollo',
+            'name' => 'un ananá',
             'lengthCm' => 39.9,
             'weightG' => 1319,
         ],
         'milestone' => 'La médula ósea produce glóbulos rojos y sigue aumentando la grasa bajo la piel.',
-        'updated' => '2026-09-20',
+        'updated' => '2026-10-07',
     ],
     31 => [
         'title' => 'Semana 31 de embarazo',
@@ -2136,10 +2136,10 @@ return [
     32 => [
         'title' => 'Semana 32 de embarazo',
         'seoTitle' => 'Semana 32 de embarazo: posición de nalgas',
-        'metaDescription' => 'Con una lechuga como referencia, practica movimientos respiratorios. Aclará qué significa estar de nalgas y cuándo consultar por la panza dura.',
+        'metaDescription' => 'Con un mamón grande como referencia, practica movimientos respiratorios. Aclará qué significa estar de nalgas y cuándo consultar por la panza dura.',
         'sections' => [
             'bebe' => [
-                'En la semana 32 de embarazo, tu bebé practica movimientos respiratorios y sigue acumulando grasa; su tamaño se compara con una lechuga. Algunos bebés ya están de cabeza y otros todavía cambian de posición. Vos podés sentir más peso en la pelvis y necesitar pausas al caminar. En el control, el crecimiento y la presión siguen siendo importantes, junto con una conversación sobre la posición fetal y lo que significa para las próximas semanas.',
+                'En la semana 32 de embarazo, tu bebé practica movimientos respiratorios y sigue acumulando grasa; su tamaño se compara con un mamón grande. Algunos bebés ya están de cabeza y otros todavía cambian de posición. Vos podés sentir más peso en la pelvis y necesitar pausas al caminar. En el control, el crecimiento y la presión siguen siendo importantes, junto con una conversación sobre la posición fetal y lo que significa para las próximas semanas.',
                 'El diafragma, un músculo que participa en la respiración, se mueve aunque el bebé reciba oxígeno a través de la placenta. Esos ensayos ayudan a preparar el sistema respiratorio; no indican que los pulmones hayan terminado de madurar. Las uñas también se desarrollan y las extremidades tienen movimientos coordinados. Si sentís golpecitos rítmicos, pueden ser hipo, pero el hipo no reemplaza prestar atención al resto de la actividad habitual del bebé.',
                 'Como referencia, mide unos 42,4 centímetros y pesa alrededor de 1702 gramos. Estas cifras orientan la comparación de tamaño, sin funcionar como un requisito exacto para esta semana. En el seguimiento interesa la evolución, y una ecografía se pide cuando la evaluación o el plan de atención lo justifican. Si el informe menciona líquido amniótico, placenta o percentiles, pedí que te expliquen cada dato en relación con tu embarazo.',
                 'La presentación describe qué parte del bebé está más cerca de la salida del útero. Estar de nalgas ahora no implica que necesariamente siga así al final, ni que tengas que hacer ejercicios para girarlo por tu cuenta. La valoración se retoma más adelante según tu caso. Podés continuar con la [semana 33](/semana/33/) y consultar el [tercer trimestre](/trimestre/3/) para ordenar las preguntas sobre preparación y nacimiento.',
@@ -2169,8 +2169,8 @@ return [
         ],
         'related' => ['senales-de-alarma', 'que-llevar-al-sanatorio', 'licencia-de-maternidad'],
         'image' => [
-            'slug' => 'tamano-bebe-semana-32-lechuga',
-            'alt' => 'El tamaño de tu bebé en la semana 32: una lechuga.',
+            'slug' => 'tamano-bebe-semana-32-mamon-grande',
+            'alt' => 'El tamaño de tu bebé en la semana 32: un mamón grande.',
             'w' => 640,
             'h' => 640,
             'widths' => [320, 640],
@@ -2184,20 +2184,20 @@ return [
             ['title' => 'Ley 7383/2024 — permisos para controles prenatales (nota oficial del MTESS)', 'publisher' => 'Ministerio de Trabajo, Empleo y Seguridad Social (MTESS)', 'url' => 'https://www.mtess.gov.py/?p=30138', 'accessed' => '2026-09-20'],
         ],
         'size' => [
-            'name' => 'una lechuga',
+            'name' => 'un mamón grande',
             'lengthCm' => 42.4,
             'weightG' => 1702,
         ],
         'milestone' => 'Practica respirar moviendo el diafragma y ya tiene uñas en los deditos. Muchos bebés se acomodan cabeza abajo.',
-        'updated' => '2026-09-20',
+        'updated' => '2026-10-07',
     ],
     33 => [
         'title' => 'Semana 33 de embarazo',
         'seoTitle' => 'Semana 33 de embarazo: pérdidas de líquido',
-        'metaDescription' => 'Tu bebé se compara con un ananá y los huesos del cráneo mantienen espacios. Revisá las ganas de hacer pis y qué hacer ante una posible pérdida de líquido.',
+        'metaDescription' => 'Tu bebé se compara con un zapallo grande y los huesos del cráneo mantienen espacios. Revisá las ganas de hacer pis y qué hacer ante una posible pérdida de líquido.',
         'sections' => [
             'bebe' => [
-                'En la semana 33 de embarazo, tu bebé sigue ganando peso y recibiendo anticuerpos a través de la placenta. Su tamaño se compara con un ananá. Los huesos del cráneo mantienen espacios entre ellos, necesarios para el crecimiento del cerebro. Para vos, dormir entre idas al baño y buscar una postura cómoda puede llevar más esfuerzo. El control permite revisar síntomas urinarios, crecimiento y los pasos de preparación para el nacimiento.',
+                'En la semana 33 de embarazo, tu bebé sigue ganando peso y recibiendo anticuerpos a través de la placenta. Su tamaño se compara con un zapallo grande. Los huesos del cráneo mantienen espacios entre ellos, necesarios para el crecimiento del cerebro. Para vos, dormir entre idas al baño y buscar una postura cómoda puede llevar más esfuerzo. El control permite revisar síntomas urinarios, crecimiento y los pasos de preparación para el nacimiento.',
                 'Las uniones del cráneo no están cerradas como las de una persona adulta. Esa disposición permite que la cabeza continúe creciendo y tenga cierta capacidad de adaptación durante el parto. No significa que debas proteger la panza de cualquier roce cotidiano ni que los movimientos normales lastimen al bebé. Después del nacimiento, el equipo examinará la cabeza y las zonas blandas llamadas fontanelas como parte de la evaluación del recién nacido.',
                 'El paso de anticuerpos maternos contribuye a una protección inicial, pero el sistema inmunitario seguirá madurando después de nacer. Eso no vuelve al bebé inmune a las infecciones ni reemplaza los cuidados y vacunas que se indiquen. La referencia de tamaño es de unos 43,7 centímetros y 1918 gramos. La grasa se va acumulando bajo la piel mientras los pulmones y el sistema nervioso continúan su desarrollo.',
                 'Los movimientos pueden sentirse como desplazamientos de una parte de la panza o empujones sostenidos, además de golpes. Observar su forma habitual de moverse es más útil que comparar tu experiencia con la de otra embarazada. La [semana 32](/semana/32/) explica cómo puede cambiar la presentación; el [tercer trimestre](/trimestre/3/) ayuda a ordenar los controles. Una sensación distinta por la postura no permite descartar una reducción real de actividad.',
@@ -2227,8 +2227,8 @@ return [
         ],
         'related' => ['senales-de-alarma', 'que-llevar-al-sanatorio', 'licencia-de-maternidad'],
         'image' => [
-            'slug' => 'tamano-bebe-semana-33-anana',
-            'alt' => 'El tamaño de tu bebé en la semana 33: un ananá.',
+            'slug' => 'tamano-bebe-semana-33-zapallo-grande',
+            'alt' => 'El tamaño de tu bebé en la semana 33: un zapallo grande.',
             'w' => 640,
             'h' => 640,
             'widths' => [320, 640],
@@ -2242,22 +2242,22 @@ return [
             ['title' => 'Ley 7383/2024 — permisos para controles prenatales (nota oficial del MTESS)', 'publisher' => 'Ministerio de Trabajo, Empleo y Seguridad Social (MTESS)', 'url' => 'https://www.mtess.gov.py/?p=30138', 'accessed' => '2026-09-20'],
         ],
         'size' => [
-            'name' => 'un ananá',
+            'name' => 'un zapallo grande',
             'lengthCm' => 43.7,
             'weightG' => 1918,
         ],
         'milestone' => 'Los huesos del cráneo todavía están blandos y separados para poder pasar por el parto. El sistema inmune se fortalece.',
-        'updated' => '2026-09-20',
+        'updated' => '2026-10-07',
     ],
     34 => [
         'title' => 'Semana 34 de embarazo',
         'seoTitle' => 'Semana 34 de embarazo: pulmones y prematuridad',
-        'metaDescription' => 'La referencia es un melón pequeño y los pulmones siguen madurando. Entendé qué implica nacer antes de término y revisá las dudas sobre hinchazón.',
+        'metaDescription' => 'La referencia es una mandioca grande y los pulmones siguen madurando. Entendé qué implica nacer antes de término y revisá las dudas sobre hinchazón.',
         'sections' => [
             'bebe' => [
-                'En la semana 34 de embarazo, tu bebé sigue madurando los pulmones y el sistema nervioso, con un tamaño comparable al de un melón pequeño. Aunque se vea más formado, un nacimiento en esta etapa todavía es prematuro y puede requerir cuidados especiales. Para vos, el peso de la panza y la hinchazón pueden hacer más lentas las tareas. Es buen momento para revisar el bolso y conversar sobre cómo se deciden las opciones de parto.',
+                'En la semana 34 de embarazo, tu bebé sigue madurando los pulmones y el sistema nervioso, con un tamaño comparable al de una mandioca grande. Aunque se vea más formado, un nacimiento en esta etapa todavía es prematuro y puede requerir cuidados especiales. Para vos, el peso de la panza y la hinchazón pueden hacer más lentas las tareas. Es buen momento para revisar el bolso y conversar sobre cómo se deciden las opciones de parto.',
                 'La grasa bajo la piel aumenta y ayuda a que el cuerpo tenga un aspecto más redondeado. El cerebro continúa desarrollándose, y la coordinación necesaria para alimentarse y respirar después de nacer todavía está madurando. No hay un peso que garantice por sí solo que todo ese proceso terminó. Si existe riesgo de nacimiento anticipado, el equipo define el seguimiento y los cuidados según la edad gestacional completa y la situación de ambos.',
-                'La medida orientativa es de unos 45 centímetros y 2146 gramos. La comparación con el melón pequeño conserva una referencia fácil de imaginar, pero las frutas y los bebés varían de tamaño. Una estimación ecográfica no es el peso medido en una balanza. Si te hablan de crecimiento pequeño o grande, pedí que expliquen qué medidas, antecedentes y evolución consideran, y cuál es el siguiente paso del seguimiento.',
+                'La medida orientativa es de unos 45 centímetros y 2146 gramos. La comparación con la mandioca grande conserva una referencia fácil de imaginar, pero las frutas y los bebés varían de tamaño. Una estimación ecográfica no es el peso medido en una balanza. Si te hablan de crecimiento pequeño o grande, pedí que expliquen qué medidas, antecedentes y evolución consideran, y cuál es el siguiente paso del seguimiento.',
                 'Podés notar un pie que empuja y luego se retira o un desplazamiento amplio de la espalda. La actividad sigue siendo importante aunque los giros se sientan diferentes. En la [semana 35](/semana/35/) se profundiza la preparación de las próximas consultas; el [tercer trimestre](/trimestre/3/) da una visión del recorrido. Que el bebé esté de cabeza no significa que el parto vaya a empezar pronto ni que necesites permanecer acostada.',
             ],
             'vos' => [
@@ -2285,8 +2285,8 @@ return [
         ],
         'related' => ['senales-de-alarma', 'que-llevar-al-sanatorio', 'licencia-de-maternidad'],
         'image' => [
-            'slug' => 'tamano-bebe-semana-34-melon-pequeno',
-            'alt' => 'El tamaño de tu bebé en la semana 34: un melón pequeño.',
+            'slug' => 'tamano-bebe-semana-34-mandioca-grande',
+            'alt' => 'El tamaño de tu bebé en la semana 34: una mandioca grande.',
             'w' => 640,
             'h' => 640,
             'widths' => [320, 640],
@@ -2300,20 +2300,20 @@ return [
             ['title' => 'Ley 7383/2024 — permisos para controles prenatales (nota oficial del MTESS)', 'publisher' => 'Ministerio de Trabajo, Empleo y Seguridad Social (MTESS)', 'url' => 'https://www.mtess.gov.py/?p=30138', 'accessed' => '2026-09-20'],
         ],
         'size' => [
-            'name' => 'un melón pequeño',
+            'name' => 'una mandioca grande',
             'lengthCm' => 45,
             'weightG' => 2146,
         ],
         'milestone' => 'Los pulmones y el sistema nervioso siguen madurando; nacer en esta etapa todavía implica prematuridad.',
-        'updated' => '2026-09-20',
+        'updated' => '2026-10-07',
     ],
     35 => [
         'title' => 'Semana 35 de embarazo',
         'seoTitle' => 'Semana 35 de embarazo: hisopado de estreptococo',
-        'metaDescription' => 'Tu bebé se compara con un melón y sigue acumulando grasa. Leé para qué sirve el hisopado de estreptococo y qué significa que la panza haya bajado.',
+        'metaDescription' => 'Tu bebé se compara con un racimo de bananas y sigue acumulando grasa. Leé para qué sirve el hisopado de estreptococo y qué significa que la panza haya bajado.',
         'sections' => [
             'bebe' => [
-                'En la semana 35 de embarazo, tu bebé sigue acumulando grasa y sus riñones producen orina, que forma parte del líquido amniótico. Su tamaño se compara con un melón. La maduración de los pulmones y del cerebro continúa, así que todavía no está a término. Vos podés notar más presión sobre la vejiga y estiramientos amplios. En el control conviene ordenar los próximos estudios, la presentación fetal y el plan para llegar al lugar de atención.',
+                'En la semana 35 de embarazo, tu bebé sigue acumulando grasa y sus riñones producen orina, que forma parte del líquido amniótico. Su tamaño se compara con un racimo de bananas. La maduración de los pulmones y del cerebro continúa, así que todavía no está a término. Vos podés notar más presión sobre la vejiga y estiramientos amplios. En el control conviene ordenar los próximos estudios, la presentación fetal y el plan para llegar al lugar de atención.',
                 'El hígado, los riñones y otros órganos ya cumplen funciones dentro del útero, pero su adaptación a la vida exterior lleva tiempo. La placenta sigue participando en el intercambio de oxígeno, nutrientes y productos de desecho. Tener órganos formados no significa que todos trabajen como los de un recién nacido a término. Tampoco una ecografía que muestre buen crecimiento permite adelantar por tu cuenta decisiones sobre el momento de nacer.',
                 'La referencia aproximada es de 46,2 centímetros y 2383 gramos. Parte del aumento de peso corresponde a reservas que se acumulan bajo la piel. Las medidas individuales pueden diferir y se interpretan en conjunto, especialmente si venís con controles por crecimiento o glucosa. Si te explican un percentil, preguntá cómo cambió respecto de antes y qué implica para tu seguimiento, en vez de intentar modificar el tamaño comiendo mucho más o mucho menos.',
                 'El espacio más ajustado cambia la forma de algunos movimientos, pero no debería usarse para justificar que el bebé se mueva menos. Los empujones y estiramientos también cuentan como actividad. Podés revisar la [semana 34](/semana/34/) para retomar las preguntas sobre vías de nacimiento y consultar el [tercer trimestre](/trimestre/3/) para ubicar los pasos siguientes. La postura de tu panza o la sensación de que bajó no predicen una fecha de parto.',
@@ -2343,8 +2343,8 @@ return [
         ],
         'related' => ['senales-de-alarma', 'que-llevar-al-sanatorio', 'licencia-de-maternidad'],
         'image' => [
-            'slug' => 'tamano-bebe-semana-35-melon',
-            'alt' => 'El tamaño de tu bebé en la semana 35: un melón.',
+            'slug' => 'tamano-bebe-semana-35-racimo-de-bananas',
+            'alt' => 'El tamaño de tu bebé en la semana 35: un racimo de bananas.',
             'w' => 640,
             'h' => 640,
             'widths' => [320, 640],
@@ -2359,20 +2359,20 @@ return [
             ['title' => 'Orientaciones sobre estreptococo del grupo B y embarazo', 'publisher' => 'American College of Obstetricians and Gynecologists (ACOG)', 'url' => null, 'accessed' => null],
         ],
         'size' => [
-            'name' => 'un melón',
+            'name' => 'un racimo de bananas',
             'lengthCm' => 46.2,
             'weightG' => 2383,
         ],
         'milestone' => 'Sigue acumulando grasa y sus riñones producen orina. Los movimientos continúan aunque cambie la forma de sentirlos.',
-        'updated' => '2026-09-20',
+        'updated' => '2026-10-07',
     ],
     36 => [
         'title' => 'Semana 36 de embarazo',
         'seoTitle' => 'Semana 36 de embarazo: contracciones y consulta',
-        'metaDescription' => 'La referencia es una lechuga grande y tu bebé aún sigue madurando. Revisá cuándo acudir por contracciones y qué significa un hisopado positivo.',
+        'metaDescription' => 'La referencia es un andaí y tu bebé aún sigue madurando. Revisá cuándo acudir por contracciones y qué significa un hisopado positivo.',
         'sections' => [
             'bebe' => [
-                'En la semana 36 de embarazo, tu bebé sigue ganando reservas de grasa y madurando sus pulmones. El tamaño se compara con una lechuga grande. Todavía es una etapa anterior al término: las contracciones repetidas o la pérdida de líquido necesitan evaluación inmediata. Vos podés sentir peso en la pelvis y dormir entrecortado. El control ayuda a revisar su posición, los resultados pendientes y cómo llegar a la maternidad si empieza el parto.',
+                'En la semana 36 de embarazo, tu bebé sigue ganando reservas de grasa y madurando sus pulmones. El tamaño se compara con un andaí. Todavía es una etapa anterior al término: las contracciones repetidas o la pérdida de líquido necesitan evaluación inmediata. Vos podés sentir peso en la pelvis y dormir entrecortado. El control ayuda a revisar su posición, los resultados pendientes y cómo llegar a la maternidad si empieza el parto.',
                 'La referencia de esta semana es de unos 47,4 centímetros y 2622 gramos. Son cifras orientativas: una ecografía estima el peso a partir de varias medidas y tiene un margen de error. El crecimiento se interpreta junto con controles anteriores, líquido amniótico y tu salud. Que la estimación supere cierto peso no demuestra madurez pulmonar ni permite elegir por cuenta propia una fecha para el nacimiento.',
                 'Los movimientos de succión y deglución continúan mientras el cerebro coordina funciones necesarias después del parto. La placenta todavía aporta oxígeno; los movimientos respiratorios dentro del útero son práctica y no respiración de aire. Algunos bebés ya están de cabeza y otros necesitan reevaluación de la presentación. El lugar donde sentís las patadas puede darte una impresión, pero no confirma la posición: eso lo revisa el equipo.',
                 'En Mi Bebé, semana 36 significa que transcurren 35 semanas completas y algunos días. Para decidir estudios o atención por contracciones, usá las semanas y días del carné. Si venís de la [semana 35](/semana/35/), este es el momento de resolver qué falta del plan de nacimiento. El recorrido del [tercer trimestre](/trimestre/3/) ayuda a ordenar consultas sin convertir cada semana de la pantalla en una fecha médica obligatoria.',
@@ -2402,8 +2402,8 @@ return [
         ],
         'related' => ['contracciones-y-cuando-ir', 'senales-de-alarma', 'que-llevar-al-sanatorio'],
         'image' => [
-            'slug' => 'tamano-bebe-semana-36-lechuga-grande',
-            'alt' => 'El tamaño de tu bebé en la semana 36: una lechuga grande.',
+            'slug' => 'tamano-bebe-semana-36-andai',
+            'alt' => 'El tamaño de tu bebé en la semana 36: un andaí.',
             'w' => 640,
             'h' => 640,
             'widths' => [320, 640],
@@ -2417,20 +2417,20 @@ return [
             ['title' => 'Orientaciones sobre estreptococo del grupo B y embarazo', 'publisher' => 'American College of Obstetricians and Gynecologists (ACOG)', 'url' => null, 'accessed' => null],
         ],
         'size' => [
-            'name' => 'una lechuga grande',
+            'name' => 'un andaí',
             'lengthCm' => 47.4,
             'weightG' => 2622,
         ],
         'milestone' => 'Sigue acumulando reservas y madurando; aún no llegó al término y se revisa su presentación para el nacimiento.',
-        'updated' => '2026-09-20',
+        'updated' => '2026-10-07',
     ],
     37 => [
         'title' => 'Semana 37 de embarazo',
         'seoTitle' => 'Semana 37 de embarazo: tapón mucoso y término',
-        'metaDescription' => 'Tu bebé se compara con una sandía pequeña y se acerca al término. Aclará el conteo de semanas y qué hacer si notás la salida del tapón mucoso.',
+        'metaDescription' => 'Tu bebé se compara con una sandía mediana y se acerca al término. Aclará el conteo de semanas y qué hacer si notás la salida del tapón mucoso.',
         'sections' => [
             'bebe' => [
-                'En la semana 37 de embarazo, tu bebé practica la succión, traga líquido y sigue acumulando grasa; su tamaño se compara con una sandía pequeña. Estás cerca del término, pero importa cómo se cuentan las semanas: en la app, esta página corresponde a 36 semanas completas más los días. Todavía necesitás evaluación inmediata si aparecen signos de parto. En el control, conviene dejar claro cuándo acudir y qué resultados llevar al nacimiento.',
+                'En la semana 37 de embarazo, tu bebé practica la succión, traga líquido y sigue acumulando grasa; su tamaño se compara con una sandía mediana. Estás cerca del término, pero importa cómo se cuentan las semanas: en la app, esta página corresponde a 36 semanas completas más los días. Todavía necesitás evaluación inmediata si aparecen signos de parto. En el control, conviene dejar claro cuándo acudir y qué resultados llevar al nacimiento.',
                 'A partir de 37 semanas completas se habla de término temprano. Esa categoría no quiere decir que la maduración haya terminado: el cerebro y los pulmones continúan desarrollándose. El número grande de la app muestra la semana en curso y puede adelantarse en uno al del carné. Pedí que te anoten semanas y días si hay dudas, especialmente cuando se conversa sobre programar un nacimiento por una indicación médica.',
                 'La comparación de esta página acompaña una longitud orientativa de 48,6 centímetros y un peso de 2859 gramos. El cuerpo va tomando una forma más redondeada y la piel conserva una cobertura protectora variable. Estas referencias no predicen cuánto pesará al nacer. Si una estimación ecográfica difiere, preguntá por su evolución y por el conjunto del estudio; la fruta de la semana no sirve para decidir si hay un problema.',
                 'El bebé puede flexionar brazos y piernas, agarrar y llevarse las manos hacia la cara. Aunque tenga menos espacio para desplazarse, seguís percibiendo actividad: no es esperable que deje de moverse porque se acerca el nacimiento. Podés volver a la [semana 36](/semana/36/) para revisar la presentación fetal. El [tercer trimestre](/trimestre/3/) reúne las etapas, pero cada control se organiza según tu evolución y la edad gestacional documentada.',
@@ -2460,8 +2460,8 @@ return [
         ],
         'related' => ['contracciones-y-cuando-ir', 'senales-de-alarma', 'que-llevar-al-sanatorio'],
         'image' => [
-            'slug' => 'tamano-bebe-semana-37-sandia-pequena',
-            'alt' => 'El tamaño de tu bebé en la semana 37: una sandía pequeña.',
+            'slug' => 'tamano-bebe-semana-37-sandia-mediana',
+            'alt' => 'El tamaño de tu bebé en la semana 37: una sandía mediana.',
             'w' => 640,
             'h' => 640,
             'widths' => [320, 640],
@@ -2474,20 +2474,20 @@ return [
             ['title' => 'Orientaciones de vacunación del Programa Ampliado de Inmunizaciones', 'publisher' => 'MSPBS — PAI', 'url' => null, 'accessed' => null],
         ],
         'size' => [
-            'name' => 'una sandía pequeña',
+            'name' => 'una sandía mediana',
             'lengthCm' => 48.6,
             'weightG' => 2859,
         ],
         'milestone' => 'Se acerca al término; este comienza a las 37 semanas completas y la maduración continúa después.',
-        'updated' => '2026-09-20',
+        'updated' => '2026-10-07',
     ],
     38 => [
         'title' => 'Semana 38 de embarazo',
         'seoTitle' => 'Semana 38 de embarazo: plan de parto y reposo',
-        'metaDescription' => 'Con un zapallo pequeño como referencia, tu bebé sigue acumulando grasa. Revisá el plan de parto y la diferencia entre licencia y reposo en cama.',
+        'metaDescription' => 'Con una sandía como referencia, tu bebé sigue acumulando grasa. Revisá el plan de parto y la diferencia entre licencia y reposo en cama.',
         'sections' => [
             'bebe' => [
-                'En la semana 38 de embarazo, tu bebé tiene como comparación un zapallo pequeño y continúa acumulando grasa que ayudará a conservar calor después del nacimiento. Según el conteo de la app, transcurren 37 semanas completas: estás en término temprano. Podés sentir más presión baja, sin que eso anuncie una fecha exacta. Esta semana conviene revisar el plan de parto y confirmar las fechas del reposo de maternidad si tu trámite corresponde a IPS.',
+                'En la semana 38 de embarazo, tu bebé tiene como comparación una sandía y continúa acumulando grasa que ayudará a conservar calor después del nacimiento. Según el conteo de la app, transcurren 37 semanas completas: estás en término temprano. Podés sentir más presión baja, sin que eso anuncie una fecha exacta. Esta semana conviene revisar el plan de parto y confirmar las fechas del reposo de maternidad si tu trámite corresponde a IPS.',
                 'La longitud de referencia ronda los 49,8 centímetros y el peso los 3083 gramos. Parte del vello fino puede ir desapareciendo y la cantidad de vérnix, la cobertura blanquecina de la piel, varía entre bebés. No necesitás que una ecografía coincida con esas cifras para que el crecimiento sea adecuado. Si el equipo sigue alguna medida, pedí que te explique la tendencia y cuándo volverá a evaluarla.',
                 'Los pulmones siguen su proceso de maduración y el cerebro desarrolla conexiones que continuarán cambiando después de nacer. Estar en término temprano no vuelve equivalentes todos los días de gestación ni significa que convenga adelantar un parto sin una razón médica. Si se plantea programarlo, conversá sobre el motivo, los beneficios y los riesgos en tu caso. La decisión considera tanto tu salud como la del bebé.',
                 'Cuando la cabeza se acomoda más abajo, puede cambiar dónde sentís los empujones; el encajamiento no ocurre igual en todos los embarazos. Tampoco garantiza parto vaginal ni obliga a que las contracciones empiecen enseguida. La [semana 37](/semana/37/) explica la diferencia entre semanas completas y semana en curso. Ubicá tus consultas en el [tercer trimestre](/trimestre/3/) y mantené presente el patrón de movimientos que reconocés todos los días.',
@@ -2517,8 +2517,8 @@ return [
         ],
         'related' => ['contracciones-y-cuando-ir', 'senales-de-alarma', 'licencia-de-maternidad'],
         'image' => [
-            'slug' => 'tamano-bebe-semana-38-zapallo-pequeno',
-            'alt' => 'El tamaño de tu bebé en la semana 38: un zapallo pequeño.',
+            'slug' => 'tamano-bebe-semana-38-sandia',
+            'alt' => 'El tamaño de tu bebé en la semana 38: una sandía.',
             'w' => 640,
             'h' => 640,
             'widths' => [320, 640],
@@ -2533,20 +2533,20 @@ return [
             ['title' => '¿Qué saber del pago del subsidio por reposo de maternidad?', 'publisher' => 'Instituto de Previsión Social (IPS)', 'url' => 'https://portal.ips.gov.py/sistemas/ipsportal/noticia.php?cod=685', 'accessed' => '2026-09-20'],
         ],
         'size' => [
-            'name' => 'un zapallo pequeño',
+            'name' => 'una sandía',
             'lengthCm' => 49.8,
             'weightG' => 3083,
         ],
         'milestone' => 'En término temprano, sigue acumulando grasa y madurando; el control orienta el plan de nacimiento.',
-        'updated' => '2026-09-20',
+        'updated' => '2026-10-07',
     ],
     39 => [
         'title' => 'Semana 39 de embarazo',
         'seoTitle' => 'Semana 39 de embarazo: inducción y parto',
-        'metaDescription' => 'La referencia es una sandía mediana y la maduración continúa. Aclará si inducción significa cesárea y qué conversar sobre las contracciones.',
+        'metaDescription' => 'La referencia es una sandía grande y la maduración continúa. Aclará si inducción significa cesárea y qué conversar sobre las contracciones.',
         'sections' => [
             'bebe' => [
-                'En la semana 39 de embarazo, tu bebé sigue madurando mientras se acerca el nacimiento; su tamaño se compara con una sandía mediana. Podés sentir contracciones irregulares, presión pélvica y cansancio. Si aparecen pérdida de líquido, sangrado o menos movimientos, necesitás atención inmediata. En el control conviene conversar sobre tus opciones para el parto y cualquier propuesta de inducción, usando las semanas completas del carné para decidir el momento adecuado.',
+                'En la semana 39 de embarazo, tu bebé sigue madurando mientras se acerca el nacimiento; su tamaño se compara con una sandía grande. Podés sentir contracciones irregulares, presión pélvica y cansancio. Si aparecen pérdida de líquido, sangrado o menos movimientos, necesitás atención inmediata. En el control conviene conversar sobre tus opciones para el parto y cualquier propuesta de inducción, usando las semanas completas del carné para decidir el momento adecuado.',
                 'La semana 39 de Mi Bebé corresponde a 38 semanas completas más los días. El término completo comienza a las 39 semanas completas; esta diferencia importa si escuchás que una intervención se programa desde cierta semana. Pedí que la indicación incluya la edad gestacional exacta y su motivo. No adelantes una fecha por interpretar que el título de la pantalla equivale al número de semanas cumplidas.',
                 'Como referencia, esta página muestra unos 50,7 centímetros y 3288 gramos. El aumento de grasa aporta reservas, mientras órganos como el cerebro siguen un desarrollo que continuará durante la infancia. La longitud y el peso reales varían. Una estimación ecográfica se combina con otros datos para planificar el nacimiento; no basta por sí sola para garantizar un parto sencillo ni para decidir que el bebé ya no puede nacer por vía vaginal.',
                 'La placenta mantiene el intercambio de oxígeno y nutrientes durante esta etapa. Los períodos de actividad y descanso continúan, y los movimientos se deben seguir percibiendo hasta el parto. El número de días que faltan no se calcula por la fuerza de una patada. Volvé a la [semana 38](/semana/38/) si necesitás repasar el reposo laboral, y al [tercer trimestre](/trimestre/3/) para situar las preguntas que querés resolver antes de nacer.',
@@ -2576,8 +2576,8 @@ return [
         ],
         'related' => ['contracciones-y-cuando-ir', 'senales-de-alarma', 'que-llevar-al-sanatorio'],
         'image' => [
-            'slug' => 'tamano-bebe-semana-39-sandia-mediana',
-            'alt' => 'El tamaño de tu bebé en la semana 39: una sandía mediana.',
+            'slug' => 'tamano-bebe-semana-39-sandia-grande',
+            'alt' => 'El tamaño de tu bebé en la semana 39: una sandía grande.',
             'w' => 640,
             'h' => 640,
             'widths' => [320, 640],
@@ -2591,20 +2591,20 @@ return [
             ['title' => 'WHO recommendations on induction of labour, at or beyond term', 'publisher' => 'Organización Mundial de la Salud (OMS)', 'url' => null, 'accessed' => null],
         ],
         'size' => [
-            'name' => 'una sandía mediana',
+            'name' => 'una sandía grande',
             'lengthCm' => 50.7,
             'weightG' => 3288,
         ],
         'milestone' => 'Se aproxima al término completo, que empieza a las 39 semanas cumplidas; continúa la maduración cerebral y pulmonar.',
-        'updated' => '2026-09-20',
+        'updated' => '2026-10-07',
     ],
     40 => [
         'title' => 'Semana 40 de embarazo',
         'seoTitle' => 'Semana 40 de embarazo: fecha probable de parto',
-        'metaDescription' => 'Tu bebé se compara con una sandía y se acerca la fecha probable de parto. Leé qué pasa si no nace ese día y cómo acordar el seguimiento con tu equipo.',
+        'metaDescription' => 'Tu bebé se compara con una sandía grande y madura y se acerca la fecha probable de parto. Leé qué pasa si no nace ese día y cómo acordar el seguimiento con tu equipo.',
         'sections' => [
             'bebe' => [
-                'En la semana 40 de embarazo, tu bebé está cerca de la fecha probable de parto y su tamaño se compara con una sandía. Sigue moviéndose y acumulando reservas mientras vos podés sentir más presión, contracciones y ganas de que llegue el nacimiento. La fecha probable es una estimación, no un vencimiento automático. Si pasa y todavía no nació, necesitás un plan de seguimiento acordado con el equipo, con próxima evaluación y pasos definidos.',
+                'En la semana 40 de embarazo, tu bebé está cerca de la fecha probable de parto y su tamaño se compara con una sandía grande y madura. Sigue moviéndose y acumulando reservas mientras vos podés sentir más presión, contracciones y ganas de que llegue el nacimiento. La fecha probable es una estimación, no un vencimiento automático. Si pasa y todavía no nació, necesitás un plan de seguimiento acordado con el equipo, con próxima evaluación y pasos definidos.',
                 'La referencia de esta semana es de 51,2 centímetros y 3462 gramos. Algunos bebés pesan menos y otros más; el equipo interpreta la estimación junto con el crecimiento previo y tu historia clínica. El tamaño de la panza no revela por sí solo cuánto pesa ni cuánto líquido queda. Si se indica una ecografía, preguntá qué busca responder: crecimiento, líquido, posición u otra cuestión de tu seguimiento.',
                 'En el conteo de Mi Bebé, semana 40 equivale a 39 semanas completas y entre cero y seis días. La fecha probable suele ubicarse en 40 semanas completas, así que puede quedar después del tramo que muestra esta página. Para hablar de que la fecha pasó, revisá el día registrado en el carné y la edad gestacional establecida por el equipo. Recalcularla con una ecografía tardía por cuenta propia puede confundir la planificación.',
                 'La maduración no se detiene cuando se aproxima el día estimado: el cerebro continúa desarrollándose y la placenta sigue sosteniendo al bebé. Eso tampoco significa que se pueda prolongar el embarazo sin evaluación. Los controles ayudan a decidir cuándo conviene nacer. Podés revisar la [semana 39](/semana/39/) para preparar preguntas sobre inducción y el [tercer trimestre](/trimestre/3/) para mantener a mano el recorrido de esta etapa final.',
@@ -2634,8 +2634,8 @@ return [
         ],
         'related' => ['contracciones-y-cuando-ir', 'senales-de-alarma', 'que-llevar-al-sanatorio'],
         'image' => [
-            'slug' => 'tamano-bebe-semana-40-sandia',
-            'alt' => 'El tamaño de tu bebé en la semana 40: una sandía.',
+            'slug' => 'tamano-bebe-semana-40-sandia-madura',
+            'alt' => 'El tamaño de tu bebé en la semana 40: una sandía grande y madura.',
             'w' => 640,
             'h' => 640,
             'widths' => [320, 640],
@@ -2649,20 +2649,20 @@ return [
             ['title' => 'WHO recommendations on induction of labour, at or beyond term', 'publisher' => 'Organización Mundial de la Salud (OMS)', 'url' => null, 'accessed' => null],
         ],
         'size' => [
-            'name' => 'una sandía',
+            'name' => 'una sandía grande y madura',
             'lengthCm' => 51.2,
             'weightG' => 3462,
         ],
         'milestone' => 'Se acerca la fecha probable de parto; si pasa, el seguimiento y el momento del nacimiento se acuerdan con el equipo.',
-        'updated' => '2026-09-20',
+        'updated' => '2026-10-07',
     ],
     41 => [
         'title' => 'Semana 41 de embarazo',
         'seoTitle' => 'Semana 41 de embarazo: seguimiento tras la fecha',
-        'metaDescription' => 'La referencia es una sandía grande: después de la fecha probable, necesitás un plan. Revisá cuándo se conversa la inducción y qué aporta el monitoreo.',
+        'metaDescription' => 'La referencia es una sandía grande y madura: después de la fecha probable, necesitás un plan. Revisá cuándo se conversa la inducción y qué aporta el monitoreo.',
         'sections' => [
             'bebe' => [
-                'En la semana 41 de embarazo, el tamaño de referencia de tu bebé es una sandía grande. Si ya pasó la fecha probable, lo importante es tener un plan concreto de seguimiento y nacimiento con tu equipo. El bebé debe seguir moviéndose; notar menos actividad requiere atención inmediata. Las páginas 41 y 42 de la app acompañan el tramo alrededor y después de la fecha probable, pero no autorizan a prolongar la espera por tu cuenta.',
+                'En la semana 41 de embarazo, el tamaño de referencia de tu bebé es una sandía grande y madura. Si ya pasó la fecha probable, lo importante es tener un plan concreto de seguimiento y nacimiento con tu equipo. El bebé debe seguir moviéndose; notar menos actividad requiere atención inmediata. Las páginas 41 y 42 de la app acompañan el tramo alrededor y después de la fecha probable, pero no autorizan a prolongar la espera por tu cuenta.',
                 'La app muestra la semana en curso: semana 41 corresponde a 40+0 a 40+6. En términos clínicos, de 41+0 a 41+6 se habla de término tardío y desde 42+0 de postérmino. Usá las semanas completas del carné para conversar sobre esas categorías. Aunque la app tenga dos páginas finales, la vigilancia del embarazo prolongado y el momento de nacer pertenecen al equipo que conoce tu evolución.',
                 'La longitud orientativa es de 51,7 centímetros y el peso de 3597 gramos. El bebé puede seguir aumentando de peso, pero la velocidad de crecimiento varía; una comparación semanal no demuestra cómo está funcionando la placenta. El equipo puede revisar el líquido amniótico y la frecuencia cardíaca cuando corresponde. Esos datos ayudan a evaluar el bienestar actual, junto con lo que vos contás sobre sus movimientos y tu estado de salud.',
                 'El sistema nervioso continúa madurando y el bebé alterna actividad con descanso. La cercanía del parto no justifica una reducción sostenida de movimientos. Si venís de la [semana 40](/semana/40/), retomá el plan que dejaron escrito al acercarse la fecha probable y confirmá el siguiente paso. En el [tercer trimestre](/trimestre/3/) podés repasar el recorrido, manteniendo como referencia clínica la edad registrada y las indicaciones de tu control.',
@@ -2692,8 +2692,8 @@ return [
         ],
         'related' => ['contracciones-y-cuando-ir', 'senales-de-alarma', 'que-llevar-al-sanatorio'],
         'image' => [
-            'slug' => 'tamano-bebe-semana-41-sandia-grande',
-            'alt' => 'El tamaño de tu bebé en la semana 41: una sandía grande.',
+            'slug' => 'tamano-bebe-semana-41-sandia-madura',
+            'alt' => 'El tamaño de tu bebé en la semana 41: una sandía grande y madura.',
             'w' => 640,
             'h' => 640,
             'widths' => [320, 640],
@@ -2707,12 +2707,12 @@ return [
             ['title' => 'WHO recommendations on induction of labour, at or beyond term', 'publisher' => 'Organización Mundial de la Salud (OMS)', 'url' => null, 'accessed' => null],
         ],
         'size' => [
-            'name' => 'una sandía grande',
+            'name' => 'una sandía grande y madura',
             'lengthCm' => 51.7,
             'weightG' => 3597,
         ],
         'milestone' => 'Después de la fecha probable, el equipo define la vigilancia y el nacimiento según semanas completas, antecedentes y bienestar fetal.',
-        'updated' => '2026-09-20',
+        'updated' => '2026-10-07',
     ],
     42 => [
         'title' => 'Semana 42 de embarazo',
