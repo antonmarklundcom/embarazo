@@ -21,6 +21,8 @@ return [
         'completed' => 'La semana {n} es la que transcurre: {completed} semanas completas más 0 a 6 días.',
         'size' => 'Del tamaño de {size}', 'measure' => '{length} cm · {weight} g, aproximadamente',
         'alarm' => 'Consultá las señales de alarma', 'related' => 'Seguí leyendo', 'steps' => 'Paso a paso',
+        // Heading of the week grid on an article (templates/article.php), built from its weeks[].
+        'articleWeeks' => 'Las semanas de este tema',
         'handoff' => 'Qué hace la app con esto', 'primaryTitle' => 'Llevá Mi Bebé con vos',
         'weekTitle' => 'Seguí tu semana', 'weekText' => 'Abrí el seguimiento semanal de Mi Bebé.',
         'toolTitle' => 'Continuá en la app', 'stickyText' => 'Hecha para Paraguay',

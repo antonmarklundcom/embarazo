@@ -27,6 +27,7 @@ require ROOT_DIR . '/partials/head.php'; require ROOT_DIR . '/partials/header.ph
 <?php if (!empty($arRecord['steps'])): ?><section class="prose section--tight"><h2><?= e(ui('foundation.steps')) ?></h2><ol class="steps"><?php foreach ($arRecord['steps'] as $arStep): ?><li><h3><?= e($arStep['title']) ?></h3><?php foreach ($arStep['body'] as $arParagraph): ?><p><?= rich($arParagraph) ?></p><?php endforeach; ?></li><?php endforeach; ?></ol></section><?php endif; ?>
 <?php if (!empty($arRecord['appHandoff'])): $ctaOptions = $arRecord['appHandoff'] + ['title' => ui('foundation.handoff'), 'campaign' => $slug]; require ROOT_DIR . '/partials/cta-tool.php'; else: require ROOT_DIR . '/partials/cta-primary.php'; endif; require ROOT_DIR . '/partials/trust-strip.php'; ?>
 <?php $faqItems = $arRecord['faq'] ?? []; require ROOT_DIR . '/partials/faq.php'; ?>
+<?php if (!empty($arRecord['weeks'])): ?><section class="section--tight"><h2><?= e(ui('foundation.articleWeeks')) ?></h2><?php $gridWeeks = $arRecord['weeks']; require ROOT_DIR . '/partials/week-grid.php'; ?></section><?php endif; ?>
 <?php $relatedSlugs = $arRecord['related'] ?? []; $relatedHub = $arRecord['cluster']; require ROOT_DIR . '/partials/related.php'; ?>
 <?php if ($arRecord['path'] === '/salud/senales-de-alarma/'): $guaraniItems = $arRecord['guarani'] ?? []; $guaraniReviewed = $arRecord['guaraniReviewed'] ?? false; require ROOT_DIR . '/partials/guarani-strip.php'; endif; ?>
 <?php require ROOT_DIR . '/partials/wa-share.php'; ?>
