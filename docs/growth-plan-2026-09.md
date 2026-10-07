@@ -34,7 +34,9 @@ which channel works. The Google Play badge on the site is deliberately NOT in th
   - App: `npx tsc --noEmit`, `npm run lint`, `npm test`, `npm run validate:content`,
     `PHOTO_STORAGE_ENDPOINT=https://bucket.example.test NEXT_PUBLIC_SUPPORT_EMAIL=hola@mibebe.example.py npm run build`,
     plus the Playwright specs the change touches (Chromium is at `/opt/pw-browsers`).
-    `npm run test:db` needs MySQL; say so if it cannot run.
+    `npm run test:db` runs on fake IndexedDB and needs no server. The real-database suite is
+    `npm run test:mysql` (throwaway local MySQL/MariaDB via `TEST_DATABASE_URL`); say so if it cannot run.
+  - Source gap report (read-only, changes nothing): `php tools/sources-report.php --list`.
 - Merge when green: app PRs when `ci.yml` is green on the head commit; site PRs when the
   local gates pass. Merge commit, delete nothing else. Fix red CI yourself; never skip or
   disable a test. Subscribe to each PR you open and keep a check-in scheduled until merged.

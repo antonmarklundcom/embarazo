@@ -944,7 +944,7 @@ return [
     // (docs/facts-to-verify.md); the app's baby home is the tool this page points to.
     '/bebe/' => [
         'title' => 'Tu bebé en su primer año',
-        'seoTitle' => 'Bebé recién nacido: el primer año mes a mes | Mi Bebé',
+        'seoTitle' => 'Bebé recién nacido: cuidados del primer año | Mi Bebé',
         'description' => 'Tu bebé ya nació: trámites de los primeros días, vacunas con la libreta, lactancia, sueño seguro y señales de alarma del recién nacido, para Paraguay.',
         'metaDescription' => 'Tu bebé ya nació: trámites de los primeros días, vacunas con la libreta, lactancia, sueño seguro y señales de alarma del recién nacido, para Paraguay.',
         'h1' => 'Tu bebé ya nació: el primer año',

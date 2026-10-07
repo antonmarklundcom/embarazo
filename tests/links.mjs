@@ -15,6 +15,15 @@ const result = spawnSync('php', [], {
 if (result.status !== 0) throw new Error(result.stderr || 'route contract failed');
 const routes = result.stdout.trim().split(/\r?\n/).map(line => line.split('\t'));
 const indexable = new Set(routes.filter(r => r[2] === 'indexable').map(r => r[0]));
+// Every article links the weeks its weeks[] names (templates/article.php), so a
+// reader on a topic can step to the week it belongs to, not only the reverse.
+const articleWeeks = spawnSync('php', [], {
+  input: `<?php require ${phpPaths[1]} . '/lib/bootstrap.php'; foreach (content('articulos') as $a) echo $a['path'], "\\t", implode(',', $a['weeks'] ?? []), "\\n";`,
+  encoding: 'utf8', shell: process.platform === 'win32',
+});
+if (articleWeeks.status !== 0) throw new Error(articleWeeks.stderr || 'article weeks failed');
+const expectedWeekLinks = articleWeeks.stdout.trim().split(/\r?\n/).map(line => line.split('\t'))
+  .map(([page, weeks]) => [page, weeks ? weeks.split(',').map(n => `/semana/${n}/`) : []]);
 const decode = s => s.replace(/&(#x[\da-f]+|#\d+|amp|quot|apos|lt|gt);/gi, (all, v) => {
   if (v[0] === '#') return String.fromCodePoint(parseInt(v.slice(v[1].toLowerCase() === 'x' ? 2 : 1), v[1].toLowerCase() === 'x' ? 16 : 10));
   return {amp:'&', quot:'"', apos:"'", lt:'<', gt:'>'}[v.toLowerCase()] || all;
@@ -85,6 +94,15 @@ const depths = new Map([['/', 0]]), queue = ['/'];
 for (let i = 0; i < queue.length; i++) for (const target of graph.get(queue[i]) || []) {
   if (!depths.has(target)) { depths.set(target, depths.get(queue[i]) + 1); queue.push(target); }
 }
+let weekLinks = 0;
+for (const [page, targets] of expectedWeekLinks) {
+  if (!graph.has(page)) continue;
+  for (const target of targets) {
+    weekLinks++;
+    if (!graph.get(page).has(target)) fail(`article ${page} does not link its week ${target}`);
+  }
+}
+console.log(`Article weeks: ${weekLinks} article-to-week links expected from weeks[] and checked`);
 const orphans = [...indexable].filter(p => !inbound.get(p)?.size);
 for (const page of orphans) fail(`orphan: ${page}`);
 for (const page of pages) if (!depths.has(page) || depths.get(page) > 3) fail(`click depth ${depths.get(page) ?? 'unreachable'}: ${page}`);
