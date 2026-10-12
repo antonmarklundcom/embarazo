@@ -1,9 +1,9 @@
 # Pregnancy-first website release — 12 October 2026
 
-Local implementation on `codex/pregnancy-launch-20261011`; not pushed or deployed.
-The matching app release and working Google OAuth configuration must accompany the
+Release branch `codex/pregnancy-launch-20261011` is published in PR #31. Merge and deployment status are recorded separately in the owner manual; a merge does not prove live PHP deployment.
+The matching app release must accompany the
 Google-first website copy. Existing app email accounts keep their sign-in/recovery path;
-new users are directed to Google. A public support/privacy email remains an owner action.
+new users are directed to Google. Google consent/client and both Hostinger credential keys are now configured; actual sign-in still needs acceptance. A working public support/privacy email remains an owner action.
 
 The homepage now leads with the current pregnancy, the next prenatal control and local
 guides. Its illustrative phone is labelled as an example. Generic actions no longer set
