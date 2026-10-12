@@ -8,24 +8,34 @@ return [
     // weeks:int[], phoneWeek:int, faq[{q,a}], trust and named section/CTA strings.
         'title' => 'Mi Bebé: la app de embarazo para Paraguay, gratis',
         'description' => 'Seguí tu embarazo semana a semana con Mi Bebé: una app gratis para Paraguay, con herramientas, guías, derechos y un espacio para compartir en familia.',
-        'h1' => 'La app de embarazo hecha para Paraguay',
-        'lead' => 'Semana a semana, con herramientas para organizar tus controles, tus derechos según la ley paraguaya y guías sobre el calor, el tereré y el dengue. Abrí Mi Bebé desde un link y elegí cómo seguir tu embarazo.',
+        'h1' => 'Tu embarazo, acompañado. Hecho para Paraguay.',
+        'lead' => 'Entendé tu semana, anotá cómo te sentís y prepará tu próximo control. Guías de acá y una app para tener tu embarazo a mano.',
         'sections' => [
 
     ],
         'stub' => false,
         'noindex' => false,
-        'eyebrow' => 'Hecha en Paraguay',
-        'primary' => 'Abrir Mi Bebé — es gratis',
+        'eyebrow' => 'Un día a la vez, con vos',
+        'primary' => 'Abrir Mi Bebé gratis',
         'secondary' => 'Conocé la app',
-        'trust' => 'Gratis · sin tienda · cuenta opcional · tus datos son tuyos',
+        'trust' => 'Gratis · cuenta con Google · fotos solo con tu permiso',
+        'accountNote' => 'Podés leer las guías de este sitio sin cuenta.',
+        'explore' => ['label' => 'Elegí tu semana para explorar', 'placeholder' => '¿En qué semana estás?', 'guideLabel' => 'Leer mi semana', 'hint' => '¿No sabés? Usá la [calculadora de embarazo](/calculadora/). Tu fecha se calcula en este dispositivo.'],
+        'previewLabel' => 'Un vistazo a Mi Bebé · ejemplo de semana',
+        'guidesTitle' => 'Para tu próxima decisión',
+        'guidesLead' => 'Información útil para cuidarte y organizarte en Paraguay.',
+        'guides' => [
+            ['path' => '/tramites/control-prenatal-paraguay/', 'label' => 'Tu atención', 'title' => 'Dónde iniciar tu control prenatal', 'text' => 'USF, hospitales y los canales oficiales del IPS. Qué consultar antes de ir.', 'action' => 'Preparar mi consulta'],
+            ['path' => '/salud/senales-de-alarma/', 'label' => 'Cuándo pedir ayuda', 'title' => 'Señales de alarma', 'text' => 'Qué cambios necesitan atención y dónde buscar ayuda.', 'action' => 'Leer las señales'],
+            ['path' => '/derechos/permiso-para-controles/', 'label' => 'Si trabajás', 'title' => 'Permiso para tus controles', 'text' => 'Los pasos y documentos que conviene revisar para conversar con tu empleador.', 'action' => 'Consultar mis derechos'],
+        ],
         'phoneWeek' => 20,
-        'proofTitle' => 'Por qué otra app de embarazo',
-        'proofLead' => 'Para acompañarte con palabras, alimentos y preguntas de acá.',
+        'proofTitle' => 'Menos cosas sueltas. Más calma para vos.',
+        'proofLead' => 'Mi Bebé te ayuda a organizar lo cotidiano y conversar mejor en tu control.',
         'proofs' => [
         [
         'title' => 'Hecha para acá',
-        'text' => 'El tamaño del bebé comparado con un mamón, una palta o un choclo. Guías sobre el embarazo y los trámites en Paraguay.'
+        'text' => 'Guías de embarazo, controles y trámites de Paraguay, para preparar tus preguntas con contexto local.'
     ],
         [
         'title' => 'Se sigue en familia',
@@ -33,7 +43,7 @@ return [
     ],
         [
         'title' => 'Tus datos son tuyos',
-        'text' => 'Sin cuenta, todo queda en tu teléfono. Con cuenta, tus registros se respaldan para verlos en otro celular. Las fotos solo se suben si vos lo activás.'
+        'text' => 'Tu cuenta permite respaldo y sincronización. Las fotos solo se suben si vos lo activás; las notas con PIN quedan en tu teléfono.'
     ]
     ],
         'weekTitle' => '¿En qué semana estás?',
@@ -47,27 +57,26 @@ return [
         28,
         36
     ],
-        'featuresTitle' => 'Qué trae Mi Bebé',
-        'featuresLead' => 'Dos modos: si ya estás embarazada, o si estás buscando.',
+        'featuresTitle' => 'Un lugar para acompañar tu embarazo',
+        'featuresLead' => 'De tu semana al próximo control: elegí lo que necesitás hoy.',
         'features' => [
         [
         'key' => 'semanas',
         'icon' => '📅',
         'title' => 'Semana a semana',
-        'text' => 'Las 42 semanas con el tamaño comparado con alimentos de acá y lo que está pasando adentro.',
+        'text' => 'Tu semana, el desarrollo de tu bebé y preguntas para conversar con tu equipo de salud.',
         'tone' => 'arena',
-        'label' => 'Abrir en mi semana',
-        'extra' => [
-        'w' => 20
-    ]
+        'label' => 'Abrir mi seguimiento',
+        'appPath' => '/'
     ],
         [
         'key' => 'herramientas',
         'icon' => '🧰',
-        'title' => 'Herramientas para acompañarte',
-        'text' => 'Pataditas, contracciones, peso, síntomas y fotos del carné perinatal, en un mismo lugar.',
+        'title' => 'Preparar mi control',
+        'text' => 'Reuní tus preguntas y registros en el resumen prenatal para conversar con tu médico u obstetra.',
         'tone' => 'celeste',
-        'label' => 'Ver herramientas'
+        'label' => 'Preparar mis preguntas',
+        'appPath' => '/herramientas/resumen'
     ],
         [
         'key' => 'derechos',
@@ -75,7 +84,8 @@ return [
         'title' => 'Tus derechos',
         'text' => 'Un apartado de derechos con cálculo de fechas de licencia para preparar tus preguntas.',
         'tone' => 'lavanda',
-        'label' => 'Ver derechos'
+        'label' => 'Ver derechos',
+        'appPath' => '/derechos'
     ],
         [
         'key' => 'emergencia',
@@ -83,7 +93,8 @@ return [
         'title' => 'Señales de alarma',
         'text' => 'Un apartado de emergencia para tener a mano durante el embarazo.',
         'tone' => 'rosa',
-        'label' => 'Conocer el apartado'
+        'label' => 'Conocer el apartado',
+        'appPath' => '/emergencia'
     ],
         [
         'key' => 'familia',
@@ -91,7 +102,8 @@ return [
         'title' => 'Familia por WhatsApp',
         'text' => 'Compartí el seguimiento con tu familia mediante un link de WhatsApp. Esta opción usa una cuenta.',
         'tone' => 'salvia',
-        'label' => 'Ver familia'
+        'label' => 'Ver familia',
+        'appPath' => '/familia'
     ]
     ],
         'faqTitle' => 'Preguntas frecuentes',
@@ -102,7 +114,7 @@ return [
     ],
         [
         'q' => '¿Necesito una cuenta?',
-        'a' => 'Podés seguir sin cuenta y guardar tus datos en el teléfono. La cuenta es opcional para respaldo, sincronización y compartir en familia.'
+        'a' => 'Sí. Para empezar tu seguimiento en Mi Bebé entrás con Google y completás tu perfil de embarazo. Las guías y la calculadora de este sitio se pueden usar sin cuenta.'
     ],
         [
         'q' => '¿También sirve si estoy buscando un embarazo?',
@@ -114,7 +126,7 @@ return [
     ]
     ],
         'closingTitle' => 'Empezá hoy, en la semana en la que estés',
-        'closingText' => 'Abrí la app y elegí si estás embarazada o planeando. Podés seguir sin cuenta.',
+        'closingText' => 'Entrá con Google y confirmá los datos de tu embarazo. Tus preguntas, tu semana y tu próximo control, en un mismo lugar.',
         'sources' => [
         [
         'title' => 'Mi Bebé: presentación y funciones de la aplicación',
@@ -125,12 +137,12 @@ return [
     ]
     ],
     '/app/' => [
-        'title' => 'Mi Bebé: embarazo y planificación en Paraguay',
-        'seoTitle' => 'Mi Bebé: embarazo y planificación en Paraguay',
-        'description' => 'Conocé los dos modos de Mi Bebé, sus herramientas, guías y seguimiento familiar. Gratis, hecha para Paraguay y con cuenta opcional.',
-        'metaDescription' => 'Conocé los dos modos de Mi Bebé, sus herramientas, guías y seguimiento familiar. Gratis, hecha para Paraguay y con cuenta opcional.',
-        'h1' => 'Mi Bebé: embarazo y planificación en Paraguay',
-        'lead' => 'Mi Bebé reúne el seguimiento del embarazo y la planificación en una app gratuita hecha para Paraguay. Elegí «Estoy embarazada» para las semanas, herramientas y resumen prenatal, o «Estoy planeando / buscando» para el calendario menstrual y la lista preconcepcional.',
+        'title' => 'Mi Bebé: tu embarazo en Paraguay',
+        'seoTitle' => 'Mi Bebé: tu embarazo en Paraguay',
+        'description' => 'Conocé Mi Bebé: tu semana de embarazo, registros, resumen prenatal y seguimiento familiar. App gratuita para Paraguay, con acceso mediante Google.',
+        'metaDescription' => 'Conocé Mi Bebé: tu semana de embarazo, registros, resumen prenatal y seguimiento familiar. App gratuita para Paraguay, con acceso mediante Google.',
+        'h1' => 'Mi Bebé: tu embarazo en Paraguay',
+        'lead' => 'Tu semana, cómo te sentís y tus preguntas para el próximo control, en una app gratuita hecha para Paraguay. Entrá con Google y confirmá los datos de tu embarazo para empezar tu seguimiento.',
         'sections' => [
             [
                 'h2' => 'Preguntas de acá, en un mismo lugar',
@@ -147,7 +159,7 @@ return [
             [
                 'h2' => 'Elegí cómo guardar tu información',
                 'body' => [
-                    'Podés seguir sin cuenta y mantener todo en tu teléfono. La cuenta (con Google o con tu correo) agrega respaldo y sincronización. Las fotos solo se suben si activás la copia de fotos. Leé cómo se distinguen esas opciones en [privacidad](/privacidad/).'
+                    'Entrás con Google para iniciar tu seguimiento. Tu cuenta permite respaldo y sincronización. Las fotos solo se suben si activás la copia de fotos. Leé cómo se distinguen esas opciones en [privacidad](/privacidad/).'
                 ]
             ]
         ],
@@ -189,11 +201,9 @@ return [
                 'key' => 'semanas',
                 'title' => 'Estoy embarazada',
                 'text' => 'Seguí las semanas y reuní tu información en el resumen prenatal.',
-                'appPath' => '/semana/20',
+                'appPath' => '/',
                 'tone' => 'arena',
-                'extra' => [
-                    'w' => 20
-                ]
+                'extra' => []
             ],
             [
                 'key' => 'herramientas',
@@ -252,10 +262,10 @@ return [
     '/instalar/' => [
         'title' => 'Instalar Mi Bebé en Android y iPhone',
         'seoTitle' => 'Instalar Mi Bebé en Android y iPhone',
-        'description' => 'Abrí Mi Bebé desde un link e instalala en Android o iPhone sin pasar por una tienda. Mirá los pasos y elegí si querés usar una cuenta.',
-        'metaDescription' => 'Abrí Mi Bebé desde un link e instalala en Android o iPhone sin pasar por una tienda. Mirá los pasos y elegí si querés usar una cuenta.',
+        'description' => 'Instalá Mi Bebé en Android o iPhone desde el navegador. Mirá los pasos y entrá con Google para empezar tu seguimiento de embarazo.',
+        'metaDescription' => 'Instalá Mi Bebé en Android o iPhone desde el navegador. Mirá los pasos y entrá con Google para empezar tu seguimiento de embarazo.',
         'h1' => 'Instalar Mi Bebé en Android y iPhone',
-        'lead' => 'Mi Bebé es una app web gratuita que se instala desde un link, sin pasar por una tienda. Abrila con el botón y seguí las indicaciones para tu teléfono. Podés empezar sin cuenta; no necesitás iniciar sesión para elegir ese modo.',
+        'lead' => 'Mi Bebé es una app web gratuita que se instala desde un link, sin pasar por una tienda. Abrila con el botón y seguí las indicaciones para tu teléfono. Para empezar tu seguimiento entrás con Google y confirmás los datos de tu embarazo.',
         'sections' => [
             [
                 'h2' => 'Primero abrí la app',
@@ -270,9 +280,9 @@ return [
                 ]
             ],
             [
-                'h2' => 'La cuenta es una elección aparte',
+                'h2' => 'Una cuenta para tu seguimiento',
                 'body' => [
-                    'La instalación y la cuenta son decisiones distintas. Seguir sin cuenta mantiene tus datos en el teléfono; la cuenta, con Google o con tu correo, permite respaldo, sincronización y compartir por WhatsApp. Revisá [cómo se guardan tus datos](/privacidad/) y [cómo acompañarte en familia](/familia/).'
+                    'La instalación es opcional. Para usar tu seguimiento en Mi Bebé entrás con Google; tu cuenta permite respaldo, sincronización y compartir por WhatsApp. Revisá [cómo se guardan tus datos](/privacidad/) y [cómo acompañarte en familia](/familia/).'
                 ]
             ]
         ],
@@ -299,7 +309,7 @@ return [
             ],
             [
                 'q' => '¿Instalarla me crea una cuenta?',
-                'a' => 'La cuenta es opcional. Podés elegir «seguir sin cuenta»; si creás una cuenta con Google o con tu correo, tenés respaldo, sincronización y seguimiento familiar.'
+                'a' => 'Sí: para empezar el seguimiento entrás con Google. La cuenta permite respaldo, sincronización y seguimiento familiar.'
             ]
         ],
         'related' => [
@@ -358,23 +368,29 @@ return [
         ]
     ],
     '/privacidad/' => [
-        'title' => 'Privacidad en Mi Bebé: vos elegís la cuenta',
-        'seoTitle' => 'Privacidad en Mi Bebé: vos elegís la cuenta',
-        'description' => 'Entendé qué guarda Mi Bebé en tu teléfono y qué cambia con una cuenta: respaldo, sincronización y una copia de fotos que solo existe si la activás.',
-        'metaDescription' => 'Entendé qué guarda Mi Bebé en tu teléfono y qué cambia con una cuenta: respaldo, sincronización y una copia de fotos que solo existe si la activás.',
-        'h1' => 'Privacidad en Mi Bebé: vos elegís la cuenta',
-        'lead' => 'Sin cuenta, todo queda en tu teléfono. Con cuenta, tus registros se copian al servidor para respaldarlos y verlos en otro celular. Las fotos solo se suben si vos lo activás. Esa es la diferencia principal para elegir cómo usar Mi Bebé, tanto si estás embarazada como si estás planeando.',
+        'title' => 'Privacidad en Mi Bebé: tus datos y permisos',
+        'seoTitle' => 'Privacidad en Mi Bebé: tus datos y permisos',
+        'description' => 'Conocé cómo tu cuenta de Mi Bebé guarda y sincroniza registros, qué queda solo en tu teléfono y cómo elegís si querés una copia de tus fotos.',
+        'metaDescription' => 'Conocé cómo tu cuenta de Mi Bebé guarda y sincroniza registros, qué queda solo en tu teléfono y cómo elegís si querés una copia de tus fotos.',
+        'h1' => 'Privacidad en Mi Bebé: tus datos y permisos',
+        'lead' => 'Mi Bebé usa una cuenta con Google para tu seguimiento. Tus registros sincronizados se copian al servidor para respaldarlos y verlos en otro celular. Las fotos solo se suben si activás su copia; las notas con PIN quedan en el dispositivo. Podés revisar los permisos y borrar tu cuenta.',
         'sections' => [
             [
-                'h2' => 'Si seguís sin cuenta',
+                'h2' => 'Quién opera Mi Bebé',
                 'body' => [
-                    'Podés usar Mi Bebé sin iniciar sesión. Esta opción mantiene la información en el teléfono. Antes de elegirla, pensá si también querés el respaldo o la sincronización asociados a una cuenta.'
+                    'Mi Bebé es una marca operada por Marklund Sales & Marketing AB. Para consultas sobre el servicio o una solicitud relacionada con tus datos, usá los canales de [contacto](/contacto/) y revisá la política completa de la app enlazada abajo.'
                 ]
             ],
             [
-                'h2' => 'Si elegís una cuenta',
+                'h2' => 'Lo que podés leer sin cuenta',
                 'body' => [
-                    'La cuenta, con Google o con tu correo y una contraseña, habilita respaldo, sincronización y seguimiento familiar por un link de WhatsApp. Tus registros del embarazo se copian al servidor para que no los pierdas si cambiás de teléfono; el equipo no lee su contenido para darte soporte. Las notas del diario que protegés con un PIN no se suben: quedan cifradas solo en ese teléfono, así que no vuelven en otro aparato. Para conocer la opción de compartir, pasá por [Mi Bebé en familia](/familia/).'
+                    'Las guías y la calculadora de embarazo.com.py se pueden usar sin cuenta. El seguimiento personal en la app Mi Bebé requiere entrar con Google. Sus páginas de privacidad, términos, borrado de cuenta y emergencia se mantienen accesibles.'
+                ]
+            ],
+            [
+                'h2' => 'Tu cuenta con Google',
+                'body' => [
+                    'Tu cuenta con Google habilita respaldo, sincronización y seguimiento familiar por un link de WhatsApp. Tus registros del embarazo se copian al servidor para que no los pierdas si cambiás de teléfono; el equipo no lee su contenido para darte soporte. Las notas del diario que protegés con un PIN no se suben: quedan cifradas solo en ese teléfono, así que no vuelven en otro aparato. Para conocer la opción de compartir, pasá por [Mi Bebé en familia](/familia/).'
                 ]
             ],
             [
@@ -444,7 +460,7 @@ return [
         'faq' => [
             [
                 'q' => '¿Necesito Google para usar Mi Bebé?',
-                'a' => 'No. Podés seguir sin cuenta. Si querés respaldo, sincronización y seguimiento familiar, podés crear la cuenta con Google o con tu correo y una contraseña.'
+                'a' => 'Sí. El seguimiento de Mi Bebé requiere entrar con Google. Podés leer las guías y usar la calculadora de este sitio sin crear una cuenta.'
             ],
             [
                 'q' => '¿El servidor puede leer lo que guardo con cuenta?',
@@ -463,10 +479,10 @@ return [
     '/preguntas-frecuentes/' => [
         'title' => 'Preguntas frecuentes sobre Mi Bebé',
         'seoTitle' => 'Preguntas frecuentes sobre Mi Bebé',
-        'description' => 'Respuestas sobre Mi Bebé: instalación, cuenta opcional, privacidad, planificación y familia. Conocé cómo empezar a usarla en Paraguay.',
-        'metaDescription' => 'Respuestas sobre Mi Bebé: instalación, cuenta opcional, privacidad, planificación y familia. Conocé cómo empezar a usarla en Paraguay.',
+        'description' => 'Respuestas sobre Mi Bebé: cuenta con Google, instalación, privacidad y seguimiento familiar. Conocé cómo empezar a acompañar tu embarazo en Paraguay.',
+        'metaDescription' => 'Respuestas sobre Mi Bebé: cuenta con Google, instalación, privacidad y seguimiento familiar. Conocé cómo empezar a acompañar tu embarazo en Paraguay.',
         'h1' => 'Preguntas frecuentes sobre Mi Bebé',
-        'lead' => 'Mi Bebé es gratis, se abre desde un link y te deja seguir sin cuenta. Acá encontrás respuestas para elegir el modo que necesitás, entender qué pasa con tus datos y compartir el seguimiento con tu familia.',
+        'lead' => 'Mi Bebé es gratis, se abre desde un link y usa una cuenta con Google para tu seguimiento. Acá encontrás respuestas para elegir el modo que necesitás, entender qué pasa con tus datos y compartir el seguimiento con tu familia.',
         'sections' => [
             [
                 'h2' => 'Elegí por dónde empezar',
@@ -502,15 +518,15 @@ return [
             ],
             [
                 'q' => '¿Es obligatorio tener una cuenta?',
-                'a' => 'No. «Seguir sin cuenta» mantiene todo en tu teléfono. Podés elegir una cuenta si necesitás respaldo, sincronización o compartir en familia.'
+                'a' => 'Sí. Entrás con Google para iniciar tu seguimiento, con respaldo, sincronización y permisos para compartir en familia.'
             ],
             [
                 'q' => '¿Cómo entro con una cuenta?',
-                'a' => 'Podés entrar con Google o crear la cuenta con tu correo y una contraseña. Si preferís no hacerlo, podés continuar sin cuenta.'
+                'a' => 'Entrás con Google. Si todavía preferís no abrir una cuenta, podés leer las guías y usar la calculadora de embarazo.com.py.'
             ],
             [
                 'q' => '¿Qué guarda el servidor cuando tengo cuenta?',
-                'a' => 'Guarda una copia de tus registros para respaldarlos y sincronizarlos; las notas del diario con PIN no se suben. La página de [privacidad](/privacidad/) resume la diferencia entre usar una cuenta y seguir sin ella.'
+                'a' => 'Guarda una copia de tus registros para respaldarlos y sincronizarlos; las notas del diario con PIN no se suben. La página de [privacidad](/privacidad/) explica los permisos, lo que se sincroniza y lo que queda solo en tu dispositivo.'
             ],
             [
                 'q' => '¿Se suben mis fotos?',
@@ -568,7 +584,7 @@ return [
             [
                 'h2' => 'Antes de mandar el link',
                 'body' => [
-                    'La función familiar necesita una cuenta, con Google o con tu correo. Desde la app, buscá el apartado Familia para compartir por WhatsApp. Si todavía estás eligiendo entre usar una cuenta o seguir sin ella, revisá la [explicación de privacidad](/privacidad/).',
+                    'Entrá con Google y buscá Familia en la app para elegir qué compartir por WhatsApp. Revisá los permisos antes de invitar a alguien y consultá la [explicación de privacidad](/privacidad/).',
                     'Elijan juntos a quién enviar el link. Quien lo recibe ve la semana, la fecha probable de parto y el próximo control. Solo la pareja, y solo si la embarazada lo activa, ve también su último peso y su último conteo de pataditas. Nadie ve las notas del diario, los síntomas ni las fotos.'
                 ]
             ]
@@ -588,7 +604,7 @@ return [
         'faq' => [
             [
                 'q' => '¿Puedo usar la función familiar sin una cuenta?',
-                'a' => 'El seguimiento familiar por WhatsApp está asociado a una cuenta. Si elegís seguir sin cuenta, todo queda en tu teléfono.'
+                'a' => 'El seguimiento familiar requiere tu cuenta con Google. Elegís a quién invitar y qué puede ver cada persona.'
             ],
             [
                 'q' => '¿Es una función solo para la pareja?',
@@ -616,7 +632,7 @@ return [
             [
                 'h2' => 'Una app para las preguntas de Paraguay',
                 'body' => [
-                    'Los contenidos incluyen temas cercanos como el tereré, el dengue, los controles prenatales y los trámites después del nacimiento. La app también reúne seguimiento por semanas y herramientas para organizar información. Conocé [sus dos modos](/app/) y la opción para [acompañarse en familia](/familia/).'
+                    'Los contenidos incluyen temas cercanos como el tereré, el dengue, los controles prenatales y los trámites después del nacimiento. La app reúne tu semana y herramientas para preparar el próximo control. Conocé [Mi Bebé](/app/) y la opción para [acompañarse en familia](/familia/).'
                 ]
             ],
             [
@@ -655,7 +671,7 @@ return [
         'faq' => [
             [
                 'q' => '¿Quién hace Mi Bebé?',
-                'a' => 'Mi Bebé está hecha en Paraguay. Por ahora no publicamos una identidad de equipo ni credenciales profesionales sin confirmar.'
+                'a' => 'Mi Bebé está pensada para Paraguay y es una marca operada por Marklund Sales & Marketing AB. Todavía no hay credenciales profesionales ni un aval médico publicado.'
             ],
             [
                 'q' => '¿Quién revisa el contenido médico?',
@@ -762,7 +778,7 @@ return [
             ['q' => '¿Puedo avisar de un error en una página?', 'a' => 'Sí, y es bienvenido. Escribinos por WhatsApp con la dirección de la página, la frase que te parece incorrecta y, si la tenés, la fuente oficial que lo confirma. Se revisa y, si corresponde, se corrige.'],
             ['q' => '¿En cuánto tiempo responden?', 'a' => 'Leemos los mensajes de lunes a viernes, en horario de Paraguay. No es un canal de urgencias: si tenés una señal de alarma, llamá al 141 (SEME) o al 911 en vez de escribir.'],
             ['q' => '¿Me pueden decir si lo que siento es normal?', 'a' => 'No. No damos indicaciones médicas ni interpretamos estudios, porque no conocemos tu historia clínica. Consultá con tu profesional o en el servicio donde te controlás; en el sitio podés leer las señales de alarma del embarazo.'],
-            ['q' => '¿Hace falta una cuenta para escribir?', 'a' => 'No. El contacto es por WhatsApp y no requiere cuenta ni registro. La app también se puede usar sin cuenta, con todo guardado en tu teléfono.'],
+            ['q' => '¿Hace falta una cuenta para escribir?', 'a' => 'No. El contacto por WhatsApp no requiere una cuenta de Mi Bebé. Para usar el seguimiento personal de la app entrás con Google.'],
             ['q' => '¿Usan mi número para otra cosa?', 'a' => 'No. Tu número se usa solo para responderte: no hay listas de difusión, publicidad ni cesión a terceros.']
         ],
         'related' => [
@@ -795,7 +811,7 @@ return [
             [
                 'h2' => '3. ¿Puedo empezar sin una cuenta?',
                 'body' => [
-                    'Fijate si podés conocer y usar la app antes de iniciar sesión. Mi Bebé permite seguir sin cuenta, con todo en el teléfono. La cuenta, con Google o con tu correo, se usa para respaldo, sincronización y seguimiento familiar.'
+                    'Revisá qué requiere una cuenta y qué información se sincroniza. Mi Bebé usa Google para iniciar el seguimiento. Las guías y la calculadora de este sitio se pueden explorar antes de crear una cuenta.'
                 ]
             ],
             [

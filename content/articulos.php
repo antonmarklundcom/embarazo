@@ -16,6 +16,37 @@
 declare(strict_types=1);
 
 return [
+    'control-prenatal-paraguay' => [
+        'cluster' => 'tramites', 'path' => '/tramites/control-prenatal-paraguay/',
+        'title' => 'Dónde iniciar tu control prenatal en Paraguay',
+        'seoTitle' => 'Control prenatal en Paraguay: dónde empezar',
+        'metaDescription' => 'Dónde iniciar tu control prenatal en Paraguay: USF, hospitales y canales oficiales del IPS. Prepará tus documentos y preguntas antes de la consulta.',
+        'kind' => 'procedural',
+        'lead' => 'Si estás embarazada y todavía no tenés un lugar para tus controles, consultá en tu Unidad de Salud de la Familia (USF) o en el hospital de tu zona. El MSPBS informa que ofrecen control prenatal. Si usás el IPS, consultá su red y los canales oficiales de agendamiento. Antes de salir, confirmá cómo pedir el turno y qué documentos llevar; las condiciones dependen del establecimiento.',
+        'sections' => [
+            ['h2' => 'Si vas a atenderte en la red del MSPBS', 'body' => ['El Ministerio de Salud informa que el control prenatal está disponible en USF y hospitales del país. Acercate o consultá con el establecimiento de tu zona para conocer su sistema de turnos, los horarios de atención y cómo se coordina una derivación si la necesitás. Anotá el nombre del servicio y cómo volver a contactarlo.'], 'items' => [], 'table' => null],
+            ['h2' => 'Si vas a atenderte en el IPS', 'body' => ['El IPS tiene atención prenatal en su red. MI IPS permite gestionar citas médicas y consultar información del seguro; la institución también tiene canales de agendamiento y atención al usuario. Revisá el canal oficial y consultá si tu establecimiento y la especialidad que necesitás están disponibles. Confirmá tu cobertura y los requisitos con el IPS antes de dar por hecho que un servicio está incluido.', 'En su publicación del 19 de marzo de 2026, el IPS recuerda confirmar las citas médicas con al menos 72 horas de anticipación para evitar que se cancelen automáticamente. Al reservar, revisá las instrucciones actuales del turno y confirmá por el canal indicado. Mi Bebé no confirma citas del IPS por vos.'], 'items' => [], 'table' => null],
+            ['h2' => 'Qué conviene preguntar antes de ir', 'body' => ['Guardá la respuesta junto con tu próxima fecha de consulta. Esta lista te ayuda a preparar una llamada o una visita al establecimiento.'], 'items' => [['title' => 'Turno', 'text' => '¿Cómo solicito y confirmo el turno?'], ['title' => 'Llegada', 'text' => '¿Dónde tengo que presentarme y con cuánto tiempo?'], ['title' => 'Documentos', 'text' => '¿Qué identificación, carné y estudios previos debo llevar?'], ['title' => 'Requisitos', 'text' => '¿Necesito una orden o una derivación?'], ['title' => 'Seguimiento', 'text' => '¿Cómo continúo mis controles y dónde acudo fuera del horario habitual?']], 'table' => null],
+            ['h2' => 'Prepará lo que querés conversar', 'body' => ['Anotá tus dudas y cualquier indicación que te hayan dado en otra consulta. Si tenés registros o estudios, reunilos para mostrarlos a tu equipo de salud. El [carné perinatal](/tramites/carne-perinatal/) te ayuda a mantener información del embarazo a mano. En Mi Bebé, el resumen prenatal reúne tus registros y preguntas para preparar la conversación; no reemplaza la evaluación del equipo que te atiende.'], 'items' => [], 'table' => null],
+            ['h2' => 'Si necesitás salir del trabajo para el control', 'body' => ['Revisá el [permiso para controles prenatales](/derechos/permiso-para-controles/) y prepará la comunicación con tu empleador. Conservá la confirmación del turno y consultá al establecimiento cómo obtener la constancia de asistencia. La guía de derechos explica qué revisar antes de solicitar el permiso; tu cobertura de salud y el permiso laboral son trámites distintos.'], 'items' => [], 'table' => null],
+            ['h2' => 'Una urgencia no espera al próximo turno', 'body' => ['Si tenés una [señal de alarma](/salud/senales-de-alarma/), buscá atención de inmediato. Un pedido de turno o un mensaje a la app no es atención de urgencias.'], 'items' => [], 'table' => null],
+        ],
+        'steps' => [],
+        'appHandoff' => ['text' => 'Entrá con Google y reuní tus preguntas y registros en el resumen prenatal antes de tu consulta.', 'medium' => 'article', 'appPath' => '/herramientas/resumen', 'extra' => []],
+        'faq' => [
+            ['q' => '¿Dónde puedo empezar a consultar?', 'a' => 'El MSPBS informa que las USF y los hospitales ofrecen control prenatal. Consultá en el establecimiento de tu zona cómo pedir el turno. Si usás el IPS, revisá los canales oficiales de su red.'],
+            ['q' => '¿La app me agenda el control?', 'a' => 'No. Mi Bebé te ayuda a organizar la información y preparar tus preguntas. El turno se gestiona directamente con el servicio de salud.'],
+        ],
+        'related' => ['control-prenatal-ips-vs-privado', 'carne-perinatal', 'senales-de-alarma'],
+        'weeks' => [], 'appGuideSlug' => null, 'guarani' => [],
+        'reviewedBy' => null, 'reviewedAt' => null, 'validAsOf' => null,
+        'sources' => [
+            ['title' => 'Día Internacional para la Erradicación de la Fístula Obstétrica: control prenatal en USF y hospitales', 'publisher' => 'Ministerio de Salud Pública y Bienestar Social (MSPBS)', 'url' => 'https://www.mspbs.gov.py/portal/35579/dia-internacional-para-la-erradicacion-de-la-fistula-obstetrica.html', 'accessed' => '2026-10-12'],
+            ['title' => 'MI IPS: gestión de citas y acceso a información para asegurados', 'publisher' => 'Instituto de Previsión Social (IPS)', 'url' => 'https://portal.ips.gov.py/sistemas/ipsportal/noticia.php?cod=4003', 'accessed' => '2026-10-12'],
+            ['title' => 'Atención prenatal en la red del IPS', 'publisher' => 'Instituto de Previsión Social (IPS)', 'url' => 'https://portal.ips.gov.py/sistemas/ipsportal/noticia.php?cod=1298', 'accessed' => '2026-10-12'],
+        ],
+        'updated' => '2026-10-12', 'image' => null,
+    ],
     'licencia-de-maternidad' => [
         'cluster' => 'derechos',
         'path' => '/derechos/licencia-de-maternidad/',

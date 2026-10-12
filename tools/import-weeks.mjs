@@ -13,7 +13,7 @@
  * changes only on a week whose measurements changed. No network, no app-repo writes,
  * nothing evaluated.
  */
-import { readFileSync, writeFileSync } from 'node:fs';
+import { readFileSync, writeFileSync, unlinkSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { execFileSync } from 'node:child_process';
 
@@ -38,6 +38,7 @@ for (const row of rows) {
 }
 
 const source = readFileSync(output, 'utf8');
+const newline = source.includes('\r\n') ? '\r\n' : '\n';
 const previous = JSON.parse(execFileSync('php', ['-r', 'echo json_encode(require $argv[1], JSON_THROW_ON_ERROR | JSON_PRESERVE_ZERO_FRACTION);', output], { encoding: 'utf8' }));
 
 const today = new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Asuncion', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date());
@@ -93,11 +94,11 @@ for (const week of [...changed].sort((a, b) => b - a)) {
   const to = at + 1 < starts.length ? starts[at + 1].index : next.lastIndexOf('\n];');
   let block = next.slice(from, to);
   const size = records[week].size;
-  const sizePattern = /^( {8})'size' => \[\n(?: {12}'(?:name|lengthCm|weightG)' => [^\n]*,\n){3} {8}\],$/m;
+  const sizePattern = /^( {8})'size' => \[\r?\n(?: {12}'(?:name|lengthCm|weightG)' => [^\r\n]*,\r?\n){3} {8}\],(?=\r?$)/m;
   if (!sizePattern.test(block)) throw new Error(`Week ${week}: size block not in the expected shape`);
   block = block.replace(sizePattern, (_, indent) =>
-    `${indent}'size' => [\n${indent}    'name' => ${phpValue(size.name)},\n${indent}    'lengthCm' => ${phpValue(size.lengthCm)},\n${indent}    'weightG' => ${phpValue(size.weightG)},\n${indent}],`);
-  const updatedPattern = /^( {8})'updated' => '\d{4}-\d{2}-\d{2}',$/m;
+    `${indent}'size' => [${newline}${indent}    'name' => ${phpValue(size.name)},${newline}${indent}    'lengthCm' => ${phpValue(size.lengthCm)},${newline}${indent}    'weightG' => ${phpValue(size.weightG)},${newline}${indent}],`);
+  const updatedPattern = /^( {8})'updated' => '\d{4}-\d{2}-\d{2}',(?=\r?$)/m;
   if (!updatedPattern.test(block)) throw new Error(`Week ${week}: updated line not found`);
   block = block.replace(updatedPattern, `$1'updated' => '${today}',`);
   next = next.slice(0, from) + block + next.slice(to);
@@ -110,6 +111,6 @@ if (JSON.stringify(readBack) !== JSON.stringify(records)) {
   throw new Error(`Edited file does not match the intended records; left untouched (see ${output}.tmp)`);
 }
 writeFileSync(output, next, 'utf8');
-execFileSync('rm', ['-f', output + '.tmp']);
+unlinkSync(output + '.tmp');
 execFileSync('php', [fileURLToPath(new URL('../assets/js/tools/export-weeks.php', import.meta.url))], { stdio: 'inherit' });
 console.log(`Updated measurements for weeks ${changed.join(', ')}; everything else preserved.`);

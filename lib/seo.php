@@ -116,6 +116,9 @@ function jsonld_organization(): array
     if (site('description')) {
         $data['description'] = site('description');
     }
+    if (site('legalName')) {
+        $data['legalName'] = site('legalName');
+    }
     if (site('phone')) {
         $data['telephone'] = site('phone');
     }

@@ -11,7 +11,7 @@ if (!empty($pgRecord['stub'])) { $page['noindex'] = true; require ROOT_DIR . '/t
 require ROOT_DIR . '/partials/head.php'; require ROOT_DIR . '/partials/header.php'; ?>
 <main id="main"><section class="hero wrap"><?php require ROOT_DIR . '/partials/breadcrumbs.php'; ?><div class="hero__inner"><div class="hero__copy">
 <h1><?= e($pgRecord['h1'] ?: $pgRecord['title']) ?></h1><p class="lead"><?= rich($pgRecord['lead'] ?? '') ?></p>
-<?php if (empty($page['sticky'])): ?><div class="hero__actions"><a class="btn btn--primary btn--lg" href="<?= e(app_link('product', trim($path, '/') . '-hero')) ?>"><?= e(content('cta')['primary']) ?></a></div><?php require ROOT_DIR . '/partials/trust-strip.php'; endif; ?>
+<?php if (empty($page['sticky'])): ?><div class="hero__actions"><a class="btn btn--primary btn--lg" href="<?= e(app_cta_link($path, 'product', trim($path, '/') . '-hero')) ?>"><?= e(content('cta')['primary']) ?></a></div><?php require ROOT_DIR . '/partials/trust-strip.php'; endif; ?>
 </div><?php if (!empty($pgRecord['phoneWeek'])): ?><div class="hero__art"><?php $phoneNumber = (int) $pgRecord['phoneWeek']; $phoneWeek = content('semanas')[$phoneNumber]; $phoneImage = $pgRecord['phoneImage'] ?? null; require ROOT_DIR . '/partials/phone-frame.php'; ?></div><?php endif; ?></div></section>
 <?php /* The channels come before the prose: someone who opens the contact page came for the
    number, and making them read four sections first is the same as hiding it. */ ?>
@@ -26,7 +26,7 @@ require ROOT_DIR . '/partials/head.php'; require ROOT_DIR . '/partials/header.ph
             throw new InvalidArgumentException('Bento site links must be local paths.');
         }
         $pgHref = $pgFeature['path'];
-    } elseif (preg_match('~\A(privacidad|terminos|borrar-cuenta|derechos|emergencia|semana/\d+|guias/[a-z0-9-]+)\z~', trim($pgFeature['appPath'] ?? '', '/'))) {
+    } elseif (isset($pgFeature['appPath'])) {
         $pgHref = app_page_link($pgFeature['appPath'], 'product', $pgCampaign);
     } else {
         $pgHref = app_link('product', $pgCampaign, $pgFeature['extra'] ?? []);

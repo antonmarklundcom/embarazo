@@ -90,7 +90,13 @@ if (option('--audit')) {
     if (bytes > 250 * 1024) fail(`${route}: HTML+CSS ${bytes} bytes exceeds 250 KB`);
     for (const match of html.matchAll(/<a\b[^>]*href="([^"]+)"[^>]*>/gi)) {
       const href = decode(match[1]);
-      if ((/app\.embarazo\.com\.py/i.test(href) || /class="[^"]*\bbtn--primary\b/.test(match[0])) && !/^https:\/\/app\.embarazo\.com\.py\/(?:privacidad|terminos|borrar-cuenta|derechos|emergencia|herramientas\/(?:comer|nombres)|semana\/(?:[1-9]|[1-3]\d|4[0-2])|guias\/[a-z0-9]+(?:-[a-z0-9]+)*)?\?utm_source=site(?:&|$)/.test(href)) fail(`${route}: invalid app CTA ${href}`);
+      if (/app\.embarazo\.com\.py/i.test(href) || /class="[^"]*\bbtn--primary\b/.test(match[0])) {
+        const destination = new URL(href, base);
+        const appPath = /^\/(?:privacidad|terminos|borrar-cuenta|derechos|emergencia|ajustes|familia|herramientas(?:\/(?:bebe-ia|carne|checklist|comer|contracciones|dental|diario|ejercicios|fotos|kegel|nombres|pataditas|peso|precios|resumen|sintomas|sueno))?|planeando\/(?:calendario|fertilidad|checklist|consultar)|semana\/(?:[1-9]|[1-3]\d|4[0-2])|guias\/[a-z0-9]+(?:-[a-z0-9]+)*)?$/.test(destination.pathname);
+        if (destination.origin !== 'https://app.embarazo.com.py' || !appPath || destination.searchParams.get('utm_source') !== 'site') fail(`${route}: invalid app CTA ${href}`);
+        if (destination.searchParams.has('fum') || destination.searchParams.has('fpp')) fail(`${route}: personal date must stay in the URL fragment`);
+        if (route === '/' && destination.searchParams.has('w')) fail(`${route}: a preview must not prefill the visitor's pregnancy week`);
+      }
     }
     if (flag === 'stub' && !/name="robots" content="noindex, follow"/.test(html)) fail(`${route}: stub lacks noindex`);
     if (flag === 'indexable' || indexable.has(route)) {

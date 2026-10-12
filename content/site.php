@@ -31,7 +31,7 @@ return [
     // 'Plumber', 'Dentist', 'AccountingService', …).
     'schemaType' => ['Organization'],
 
-    'legalName'   => null,                       // registered legal name
+    'legalName'   => 'Marklund Sales & Marketing AB', // operator confirmed by owner, 12 October 2026
     'description' => 'Mi Bebé: la app de embarazo gratuita hecha para Paraguay.',
     // null = no analytics and no third-party request. To enable cookieless Cloudflare Web Analytics (no consent banner needed):
     // 'analytics' => ['cloudflare' => '<32-character token>'],   (rendered by partials/analytics.php)
