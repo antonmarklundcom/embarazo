@@ -963,6 +963,44 @@ a:hover { color: var(--petrol-dark); }
 
 .tool-page .wrap { max-width: calc(var(--wrap-text) + 2 * var(--gutter)); }
 .tool-page .hero { padding-bottom: 0; }
+
+/* Pregnancy-first acquisition: one clear app action, an explicit week choice,
+   then practical local reading. Existing content routes keep their own layout. */
+.home-hero { padding-block: var(--space-xl); }
+.home-hero h1 { max-width: 17ch; }
+.home-hero .lead { max-width: 34rem; font-size: var(--step-1); }
+.home-hero__learn { font-size: var(--step-0); min-height: var(--tap); display: inline-flex; align-items: center; color: var(--petrol); font-weight: var(--weight-bold); }
+.home-account { color: var(--muted); font-size: var(--step--1); margin-top: var(--space-xs); }
+.home-week { margin-top: var(--space-l); padding-top: var(--space-m); border-top: 1px solid var(--line-strong); }
+.home-week label { display: block; color: var(--petrol); font-size: var(--step-0); font-weight: var(--weight-bold); margin-bottom: var(--space-xs); }
+.home-week__row { display: flex; flex-direction: column; gap: var(--space-xs); }
+.home-week select { font: inherit; font-size: var(--step-0); background: var(--surface); color: var(--ink); border: 1px solid var(--line-strong); border-radius: var(--radius-s); min-height: 48px; padding: var(--space-xs); width: 100%; min-width: 0; }
+.home-week #home-week-hint { color: var(--muted); font-size: var(--step--1); margin-top: var(--space-xs); }
+.home-preview { padding: var(--space-m); background: var(--petrol-tint); border-radius: var(--radius-l); }
+.home-preview__label { font-size: var(--step--1); color: var(--petrol); text-align: center; }
+.home-section-head { max-width: 40rem; margin-bottom: var(--space-l); }
+.home-section-head h2 { margin-top: 0; }
+.home-section-head p { color: var(--muted); }
+.home-guide { display: flex; flex-direction: column; gap: var(--space-xs); padding: var(--space-m); color: var(--ink); background: var(--surface); border: 1px solid var(--line-strong); border-radius: var(--radius-card); text-decoration: none; }
+.home-guide:hover { color: var(--ink); border-color: var(--petrol); box-shadow: var(--shadow-soft); }
+.home-guide__eyebrow { font-size: var(--step--1); color: var(--petrol); font-weight: var(--weight-bold); }
+.home-guide h3, .home-guide p { margin: 0; }
+.home-guide p { font-size: var(--step-0); color: var(--muted); }
+.home-guide .link-arrow { margin-top: auto; padding-top: var(--space-s); }
+.home-value { border-top: 3px solid var(--petrol-tint); padding-top: var(--space-s); }
+.home-value h3 { margin-top: 0; }
+.home-value p { font-size: var(--step-0); color: var(--muted); }
+.home-page .week-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.size-caption { font-size: var(--step--1); color: var(--muted); line-height: 1.6; }
+.phone__sos { color: var(--alert); background: var(--alert-bg); border-radius: var(--radius-pill); padding: 3px 8px; font-size: 11px; }
+.phone__greeting { color: var(--petrol); font-size: 16px; font-weight: var(--weight-bold); text-align: center; margin: 0; }
+.phone__action { display: block; background: var(--petrol); color: var(--on-petrol); border-radius: var(--radius-xs); padding: 7px; margin-top: 8px; font-weight: var(--weight-bold); }
+.phone__card { font-size: 12px; }
+.phone__chip { font-size: 11px; }
+.phone__tabs { gap: 4px; font-size: 11px; }
+.phone__wk { font-size: 11px; }
+@media (min-width: 36rem) { .home-week__row { flex-direction: row; } .home-week select { flex: 1; } }
+@media (min-width: 48rem) { .home-hero { padding-block: var(--space-xl); } .home-preview { flex: 0 1 36%; } }
 .calc input[type="number"] { width: 100%; min-height: var(--tap); padding: var(--space-2xs); font: inherit; border: 2px solid var(--line-strong); border-radius: var(--radius-s); }
 .calc input { min-width: 0; }
 .calc__notice { padding: var(--space-s); background: var(--alert-bg); color: var(--alert); border: 2px solid currentColor; border-radius: var(--radius-s); }

@@ -11,7 +11,7 @@ window.MiBebeSemanas = {
         "weightG": null
     },
     "3": {
-        "name": "una semilla de chía",
+        "name": "todavía microscópico",
         "lengthCm": 0.01,
         "weightG": null
     },
@@ -61,32 +61,32 @@ window.MiBebeSemanas = {
         "weightG": 14
     },
     "13": {
-        "name": "un durazno",
+        "name": "un limón",
         "lengthCm": 7.4,
         "weightG": 23
     },
     "14": {
-        "name": "un limón",
+        "name": "un durazno",
         "lengthCm": 8.7,
         "weightG": 43
     },
     "15": {
-        "name": "una mandarina",
+        "name": "una manzana",
         "lengthCm": 10.1,
         "weightG": 70
     },
     "16": {
-        "name": "una palta pequeña",
+        "name": "una palta",
         "lengthCm": 11.6,
         "weightG": 100
     },
     "17": {
-        "name": "una granada",
+        "name": "una pera",
         "lengthCm": 13,
         "weightG": 140
     },
     "18": {
-        "name": "un mamón pequeño",
+        "name": "un mango",
         "lengthCm": 14.2,
         "weightG": 190
     },
@@ -96,27 +96,27 @@ window.MiBebeSemanas = {
         "weightG": 240
     },
     "20": {
-        "name": "una banana",
+        "name": "un mango",
         "lengthCm": 25.6,
         "weightG": 300
     },
     "21": {
-        "name": "una mazorca de choclo",
+        "name": "un mango",
         "lengthCm": 26.7,
         "weightG": 360
     },
     "22": {
-        "name": "un mamón mediano",
+        "name": "un pomelo",
         "lengthCm": 27.8,
         "weightG": 430
     },
     "23": {
-        "name": "una berenjena grande",
+        "name": "un pomelo",
         "lengthCm": 28.9,
         "weightG": 501
     },
     "24": {
-        "name": "una mandioca",
+        "name": "un coco",
         "lengthCm": 30,
         "weightG": 600
     },
@@ -126,62 +126,62 @@ window.MiBebeSemanas = {
         "weightG": 660
     },
     "26": {
-        "name": "una lechuga grande",
+        "name": "un coco",
         "lengthCm": 35.6,
         "weightG": 760
     },
     "27": {
-        "name": "una sandía pequeña",
+        "name": "un melón pequeño",
         "lengthCm": 36.6,
         "weightG": 875
     },
     "28": {
-        "name": "un zapallo pequeño",
+        "name": "un melón pequeño",
         "lengthCm": 37.6,
         "weightG": 1005
     },
     "29": {
-        "name": "un coco grande",
+        "name": "un melón",
         "lengthCm": 38.6,
         "weightG": 1153
     },
     "30": {
-        "name": "un ananá",
+        "name": "un melón",
         "lengthCm": 39.9,
         "weightG": 1319
     },
     "31": {
-        "name": "un coco con su cáscara",
+        "name": "un ananá",
         "lengthCm": 41.1,
         "weightG": 1502
     },
     "32": {
-        "name": "un mamón grande",
+        "name": "un ananá",
         "lengthCm": 42.4,
         "weightG": 1702
     },
     "33": {
-        "name": "un zapallo grande",
+        "name": "un ananá",
         "lengthCm": 43.7,
         "weightG": 1918
     },
     "34": {
-        "name": "una mandioca grande",
+        "name": "un melón grande",
         "lengthCm": 45,
         "weightG": 2146
     },
     "35": {
-        "name": "un racimo de bananas",
+        "name": "un melón grande",
         "lengthCm": 46.2,
         "weightG": 2383
     },
     "36": {
-        "name": "un andaí",
+        "name": "una sandía pequeña",
         "lengthCm": 47.4,
         "weightG": 2622
     },
     "37": {
-        "name": "una sandía mediana",
+        "name": "una sandía pequeña",
         "lengthCm": 48.6,
         "weightG": 2859
     },
@@ -191,22 +191,22 @@ window.MiBebeSemanas = {
         "weightG": 3083
     },
     "39": {
-        "name": "una sandía grande",
+        "name": "una sandía",
         "lengthCm": 50.7,
         "weightG": 3288
     },
     "40": {
-        "name": "una sandía grande y madura",
+        "name": "una sandía",
         "lengthCm": 51.2,
         "weightG": 3462
     },
     "41": {
-        "name": "una sandía grande y madura",
+        "name": "una sandía",
         "lengthCm": 51.7,
         "weightG": 3597
     },
     "42": {
-        "name": "una sandía grande y madura",
+        "name": "una sandía",
         "lengthCm": 51.7,
         "weightG": 3685
     }

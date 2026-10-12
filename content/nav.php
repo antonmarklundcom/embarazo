@@ -30,14 +30,8 @@ return [
     'path' => '/planear/'
 ]]
 ], [
-    'label' => 'Blog',
-    'path' => '/blog/'
-], [
     'label' => 'La app',
     'path' => '/app/'
-], [
-    'label' => 'Instalar',
-    'path' => '/instalar/'
 ]],
     'guides' => [[
     'label' => 'Semana a semana',

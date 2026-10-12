@@ -24,11 +24,11 @@ return [
         'slug' => 'mi-bebe-ya-se-puede-instalar',
         'title' => 'Mi Bebé, la app de embarazo hecha en Paraguay, ya se puede instalar',
         'seoTitle' => 'Mi Bebé ya se puede instalar en Paraguay',
-        'description' => 'Mi Bebé ya se puede instalar desde un link, sin tienda. Conocé sus modos, la cuenta opcional y cómo empezar a seguir tu embarazo en Paraguay.',
+        'description' => 'Mi Bebé ya se puede instalar desde un link, sin tienda. Conocé el seguimiento, la cuenta con Google y cómo empezar a acompañar tu embarazo en Paraguay.',
         'date' => '2026-09-20', 'datePublished' => '2026-09-20', 'updated' => '2026-09-20',
         'tags' => ['Mi Bebé', 'Lanzamiento'], 'service' => null, 'example' => false,
         'kind' => 'product', 'reviewedBy' => null, 'image' => null,
-        'lead' => 'Mi Bebé ya se puede instalar desde un link, sin pasar por una tienda de aplicaciones. La app gratuita, hecha para Paraguay, reúne seguimiento del embarazo, herramientas y guías en español paraguayo. Si estás embarazada o estás buscando un embarazo, podés elegir el modo que corresponde a tu momento y empezar con una cuenta opcional.',
+        'lead' => 'Mi Bebé ya se puede instalar desde un link, sin pasar por una tienda de aplicaciones. La app gratuita, hecha para Paraguay, reúne seguimiento del embarazo, herramientas y guías en español paraguayo. Si estás embarazada o estás buscando un embarazo, podés elegir el modo que corresponde a tu momento y empezar con tu cuenta con Google.',
         'sections' => [
             ['h2' => 'Una entrada según el momento que estás viviendo', 'body' => [
                 'El lanzamiento acerca una opción local para consultar información y organizar preguntas desde el teléfono. El modo Estoy embarazada reúne el recorrido semana a semana, herramientas y un resumen prenatal. El modo Estoy planeando / buscando ofrece un calendario menstrual, una estimación de la ventana fértil y una lista de preparación para el embarazo. No hace falta estar esperando un bebé para encontrar una entrada que tenga sentido para vos.',
@@ -38,8 +38,8 @@ return [
                 'Entre las guías de Mi Bebé están el dengue, el tereré y la cafeína, los controles prenatales y los derechos de la embarazada que trabaja. También hay contenidos sobre qué llevar al sanatorio y los trámites posteriores al nacimiento. Son temas que suelen aparecer junto a la pregunta por la semana de embarazo: cómo organizar el día, qué preguntar y dónde ampliar una explicación.',
                 'Podés conocer el conjunto en [la presentación de la app](/app/). Para leer con más calma sobre trabajo y embarazo, guardá la guía de [derechos de la embarazada que trabaja](/derechos/derechos-de-la-embarazada-que-trabaja/). La información legal necesita contrastarse con tu situación; tener el tema identificado ayuda a preparar la conversación, pero una pantalla no decide cómo se aplica un derecho a tu caso.',
             ]],
-            ['h2' => 'La cuenta es una elección con consecuencias concretas', 'body' => [
-                'Podés seguir sin cuenta: en ese caso, todo queda en tu teléfono. Con cuenta, tus registros se copian al servidor para respaldarlos. Entrar con Google o con tu correo permite respaldo, sincronización y compartir en familia mediante un enlace de WhatsApp. Las fotos solo se suben si activás la copia de fotos. Esta distinción importa cuando decidís cómo usar la app, especialmente si el teléfono también lo usan otras personas.',
+            ['h2' => 'Qué guarda tu cuenta y qué elegís compartir', 'body' => [
+                'Entrás con Google para iniciar tu seguimiento. Tus registros sincronizados se copian al servidor para respaldarlos y compartir el seguimiento en familia mediante un enlace de WhatsApp. Las fotos solo se suben si activás la copia de fotos. Esta distinción importa cuando decidís cómo usar la app, especialmente si el teléfono también lo usan otras personas.',
                 'Antes de ingresar información personal, pensá qué necesitás conservar y con quién querés compartir el embarazo. No es lo mismo usar una herramienta para vos que invitar a alguien a acompañarte. En [privacidad](/privacidad/) podés ampliar la explicación del modelo de datos y encontrar el camino hacia las condiciones de la app. Elegí con esa información a mano, sin apurarte por completar todo al comenzar.',
             ]],
             ['h2' => 'Qué hacer para empezar', 'body' => [
@@ -48,7 +48,7 @@ return [
             ]],
         ],
         'faq' => [
-            ['q' => '¿Tengo que crear una cuenta para empezar?', 'a' => 'No. Podés seguir sin cuenta y mantener todo en tu teléfono. La cuenta, con Google o con tu correo, habilita respaldo, sincronización y compartir en familia.'],
+            ['q' => '¿Tengo que crear una cuenta para empezar?', 'a' => 'Sí. Entrás con Google para iniciar el seguimiento; tu cuenta habilita respaldo, sincronización y compartir en familia.'],
             ['q' => '¿Sirve si todavía estoy buscando un embarazo?', 'a' => 'Sí. El modo Estoy planeando / buscando incluye calendario menstrual, estimación de ventana fértil y una lista de preparación.'],
         ],
         'related' => ['derechos-de-la-embarazada-que-trabaja', 'control-prenatal-ips-vs-privado'],
@@ -176,14 +176,14 @@ return [
         'date' => '2026-09-20', 'datePublished' => '2026-09-20', 'updated' => '2026-09-20',
         'tags' => ['Familia', 'Mi Bebé'], 'service' => null, 'example' => false,
         'kind' => 'product', 'reviewedBy' => null, 'image' => null,
-        'lead' => 'Mi Bebé permite compartir el embarazo en familia mediante un enlace de WhatsApp, con una cuenta (Google o correo). Para acompañar a tu pareja, el primer paso es acordar que quiera compartirlo y revisar juntos la opción de familia en la app. La función abre una forma de estar al tanto; el apoyo cotidiano se construye con lo que hacen después de recibir el enlace.',
+        'lead' => 'Mi Bebé permite compartir el embarazo en familia mediante un enlace de WhatsApp, con tu cuenta con Google. Para acompañar a tu pareja, el primer paso es acordar que quiera compartirlo y revisar juntos la opción de familia en la app. La función abre una forma de estar al tanto; el apoyo cotidiano se construye con lo que hacen después de recibir el enlace.',
         'sections' => [
             ['h2' => 'Primero el acuerdo, después el enlace', 'body' => [
                 'Preguntale qué le gustaría compartir y con quién. Puede querer acompañamiento de su pareja, de una hermana o de su mamá, y también puede preferir guardar algunas conversaciones para el control prenatal. Recibir una invitación no te da permiso para reenviarla a un grupo. Si quieren sumar a otra persona, vuelvan a hablarlo antes de ampliar el círculo.',
-                'La opción de compartir en familia necesita una cuenta, con Google o con tu correo. Antes de enviar el enlace, revisen en la app qué información verá la persona invitada y qué opciones de acceso aparecen: los campos visibles, los requisitos para quien recibe y el manejo del enlace necesitan comprobarse allí. La página de [familia](/familia/) explica el enfoque para acompañar sin convertir el seguimiento en una obligación de contar todo.',
+                'La opción de compartir en familia necesita una cuenta, con Google. Antes de enviar el enlace, revisen en la app qué información verá la persona invitada y qué opciones de acceso aparecen: los campos visibles, los requisitos para quien recibe y el manejo del enlace necesitan comprobarse allí. La página de [familia](/familia/) explica el enfoque para acompañar sin convertir el seguimiento en una obligación de contar todo.',
             ]],
             ['h2' => 'La cuenta y la privacidad forman parte del paso', 'body' => [
-                'En Mi Bebé, seguir sin cuenta mantiene todo en el teléfono. Con cuenta, tus registros se respaldan en el servidor y podés sincronizar y compartir en familia. Las fotos solo se suben si activás la copia de fotos. Son características distintas que conviene entender juntas: elegir compartir no es lo mismo que usar la app de manera individual, aunque ambas decisiones empiecen desde el mismo teléfono.',
+                'En Mi Bebé entrás con Google. Tus registros sincronizados se respaldan en el servidor y podés compartir el seguimiento en familia con los permisos que elegís. Las fotos solo se suben si activás la copia de fotos. Son características distintas que conviene entender juntas: elegir compartir no es lo mismo que usar la app de manera individual, aunque ambas decisiones empiecen desde el mismo teléfono.',
                 'Leé con tu pareja la explicación de [privacidad](/privacidad/) antes de ingresar o compartir datos que consideren sensibles. Si el celular queda desbloqueado sobre una mesa o lo usan otras personas, conversen también sobre ese acceso cotidiano. La confianza no depende solo de la aplicación: incluye respetar cuándo alguien quiere hablar del embarazo y cuándo necesita que la conversación sea sobre otra cosa.',
             ]],
             ['h2' => 'Transformá la información en ayuda concreta', 'body' => [

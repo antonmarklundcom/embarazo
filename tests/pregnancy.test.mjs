@@ -15,8 +15,11 @@ test('classic week data exports all 42 seed sizes, including week 29', () => {
     assert.deepEqual(Object.keys(sizes[week]), ['name', 'lengthCm', 'weightG']);
     assert.equal(typeof sizes[week].name, 'string');
   }
-  // Literal verified in content/semanas.php's week-29 seed record.
-  assert.equal(sizes[29].name, 'un coco grande');
+  // Week 29 has been missed by past exports; verify its current fruit reference
+  // while preserving the separate clinical values through comparison changes.
+  assert.equal(sizes[29].name, 'un melón');
+  assert.equal(sizes[29].lengthCm, 38.6);
+  assert.equal(sizes[29].weightG, 1153);
 });
 
 test('app clampWeek vectors', () => {

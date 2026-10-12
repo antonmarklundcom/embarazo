@@ -9,7 +9,7 @@ if (!isset($slug, content('tools')[$slug])) {
 $record = content('tools')[$slug];
 $copy = $record['ui'];
 $pregnancy = $slug === 'calculadora';
-$destination = app_link($record['handoff']['medium'], $slug, $pregnancy ? [] : ['modo' => 'planeando']);
+$destination = $pregnancy ? app_link($record['handoff']['medium'], $slug) : app_page_link('/planeando/calendario', $record['handoff']['medium'], $slug);
 ob_start();
 ?>
 <div class="calc" id="calc">
@@ -45,6 +45,7 @@ ob_start();
         <?php foreach ($copy['rows'] as $id => $label): ?><li><span><?= e($label) ?></span><b id="r-<?= e($id) ?>"></b></li><?php endforeach; ?>
       </ul>
     </div>
+    <?php if ($pregnancy): ?><p class="size-caption"><?= e($copy['sizeCaption']) ?></p><?php endif; ?>
     <aside class="cta-tool">
       <h2><?= e($copy['handoffTitle']) ?></h2><p><?= e($copy['handoffText']) ?></p>
       <a class="btn btn--primary btn--block" id="r-cta" data-base="<?= e($destination) ?>" href="<?= e($destination) ?>"><?= e($copy['handoffButton']) ?></a>

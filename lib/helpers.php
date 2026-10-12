@@ -293,21 +293,42 @@ function app_link(string $medium = 'product', string $campaign = 't0', array $ex
 }
 
 /**
- * Allow-listed app pages that open without onboarding: the legal pages plus the content
- * pages a feature tile can land on (a week, a guide, rights, emergency, and the two lookup tools
- * the food and name pages hand off to). Tools that need a profile (resumen, familia,
- * calendario) go through app_link() and the app's onboarding.
+ * Allow-listed app destinations. The app preserves the selected destination while
+ * a new user signs in with Google and completes her profile. Public legal and
+ * emergency routes remain directly reachable. No arbitrary redirect target.
  * URI-encode query values, then use e() at the HTML boundary.
  */
 function app_page_link(string $path, string $medium, string $campaign): string
 {
-    if (!preg_match('~\A/?(privacidad|terminos|borrar-cuenta|derechos|emergencia|herramientas/(?:comer|nombres)|semana/(?:[1-9]|[1-3][0-9]|4[0-2])|guias/[a-z0-9]+(?:-[a-z0-9]+)*)/?\z~', $path, $match)) {
+    if ($path === '/') {
+        return app_link($medium, $campaign);
+    }
+    if (!preg_match('~\A/?(privacidad|terminos|borrar-cuenta|derechos|emergencia|ajustes|familia|herramientas(?:/(?:bebe-ia|carne|checklist|comer|contracciones|dental|diario|ejercicios|fotos|kegel|nombres|pataditas|peso|precios|resumen|sintomas|sueno))?|planeando/(?:calendario|fertilidad|checklist|consultar)|semana/(?:[1-9]|[1-3][0-9]|4[0-2])|guias/[a-z0-9]+(?:-[a-z0-9]+)*)/?\z~', $path, $match)) {
         throw new InvalidArgumentException('Unsupported app page.');
     }
     return 'https://app.embarazo.com.py/' . $match[1] . '?' . http_build_query(
         ['utm_source' => 'site', 'utm_medium' => $medium, 'utm_campaign' => $campaign],
         '', '&', PHP_QUERY_RFC3986
     );
+}
+
+/** A content CTA keeps the reader's task, rather than opening an unrelated app home. */
+function app_cta_link(string $sitePath, string $medium, string $campaign, array $extra = []): string
+{
+    $path = trim($sitePath, '/');
+    $destination = match (true) {
+        $path === 'familia' => '/familia',
+        $path === 'calendario-de-ovulacion', str_starts_with($path, 'planear/') => '/planeando/calendario',
+        $path === 'derechos', str_starts_with($path, 'derechos/') => '/derechos',
+        $path === 'salud/senales-de-alarma' => '/emergencia',
+        $path === 'parto/contracciones-y-cuando-ir' => '/herramientas/contracciones',
+        $path === 'tramites/carne-perinatal' => '/herramientas/carne',
+        $path === 'tramites/control-prenatal-ips-vs-privado', $path === 'tramites/control-prenatal-paraguay' => '/herramientas/resumen',
+        $path === 'alimentacion', str_starts_with($path, 'alimentacion/') => '/herramientas/comer',
+        $path === 'nombres', str_starts_with($path, 'nombres/') => '/herramientas/nombres',
+        default => null,
+    };
+    return $destination === null ? app_link($medium, $campaign, $extra) : app_page_link($destination, $medium, $campaign);
 }
 
 /** WhatsApp share URL. URI-encoded text; render the returned URL with e(). */

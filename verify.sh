@@ -35,6 +35,13 @@ while [ $# -gt 0 ]; do
   esac
 done
 
+# Native PHP does not translate /c/... inside a php -r program. Normalize once
+# on Git Bash; forward-slash absolute paths also work for find, Node and PHP.
+if command -v cygpath >/dev/null 2>&1; then
+  ROOT="$(cygpath -m "$ROOT")"
+  SITE_ROOT="$(cygpath -m "$SITE_ROOT")"
+fi
+
 BASE="http://127.0.0.1:${PORT}"
 LOG="$(mktemp)"
 FAILURES=0

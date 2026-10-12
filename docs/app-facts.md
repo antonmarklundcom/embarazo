@@ -1,4 +1,9 @@
-# Facts pulled from the app repo (antonmarklundcom/embarazo.2.1) — 2026-09-20, re-checked 2026-09-24, 2026-10-06
+# Mi Bebé product and handoff contract — updated 12 October 2026
+
+The Google-first, account-required copy below is the owner's approved release contract
+being implemented together in both repositories on `codex/pregnancy-launch-20261011`.
+It is not a claim that these local changes are deployed. Ship this website copy with
+the matching app authentication/profile changes; test both on the same staging release.
 
 Read-only reference for every session in this repo. The app repo is **context only**;
 nothing in this site repo imports from it at build time. When a fact here goes stale,
@@ -11,16 +16,25 @@ re-read the app repo and fix this file in the same PR.
 - **Site origin (this repo):** `https://embarazo.com.py` (root domain, currently WordPress, replaced in place).
 - **Two modes:** "Estoy embarazada" (week-by-week, tools, prenatal summary) and
   "Estoy planeando / buscando" (menstrual calendar, fertile-window estimate, preconception checklist).
-- **Accounts optional.** Sign in with Google **or email + password** (with email
-  confirmation and password reset) for backup/sync + family sharing by WhatsApp link;
-  "seguir sin cuenta" keeps everything on the phone.
+- **Google account required for new personal tracking.** Start with Google, then
+  confirm the pregnancy profile and health-data consent. The public website guides
+  and calculators remain usable without a Mi Bebé account. Emergency and app legal
+  pages stay public. Do not market guest tracking or new email/password signup.
+- Existing email/password accounts retain sign-in and password recovery in the app;
+  the website promotes Google for new users. Google Cloud/OAuth setup is in progress;
+  the production OAuth client ID and secret are not confirmed configured yet.
+- **Operator:** the owner confirmed Marklund Sales & Marketing AB on 12 October 2026.
+  Mi Bebé remains the public product brand. Public support/privacy email is still pending.
+- **Pregnancy first.** The app's main value is the mother's current week, personal
+  records, next prenatal control and summary for her consultation. Planning articles
+  and the public fertility calculator remain part of this website's search content.
 - **Photos:** stay on the phone by default. Opt-in "Copia de tus fotos" (Ajustes) uploads
   them to private object storage, for the account holder only; turning it off deletes the
   server copies (if offline, as soon as there is a connection). **Nobody else sees them:**
   pareja and familia never get photos (the old Familia "fotos" switch is gone, 2026-10).
   Never write "las fotos nunca se suben", and never that family can see photos.
-- **Honest privacy line:** "sin cuenta, todo queda en tu teléfono; con cuenta, tus registros
-  se copian al servidor para respaldarlos". Synced health records are NOT end-to-end
+- **Honest privacy line:** "tu cuenta permite respaldo y sincronización; las fotos solo
+  se suben si lo activás y las notas con PIN quedan en este teléfono". Synced health records are NOT end-to-end
   encrypted. Diary notes protected with a PIN are **not uploaded at all**: they stay
   encrypted on that one phone and do not come back on another device (2026-10 correction:
   never write that they "viajan cifradas"). Never write "un sobre que no puede leer" and
@@ -39,7 +53,7 @@ re-read the app repo and fix this file in the same PR.
 - **Guaraní:** 78 jopara strings exist in the app, pending native review. Site shows them
   inline with `lang="gn"` only on the emergency article and the rights hub.
 
-## App routes (public, for deep links and for "what the app has")
+## App routes (for deep links; access depends on the app's auth/profile gate)
 
 Weeks `/semana/1..42` · Guides `/guias/<slug>` · `/derechos` (rights browser with leave-date
 math) · `/emergencia` (141 SEME, 911, alarm signs) · `/directorio` (gated on real listings) ·
@@ -78,7 +92,14 @@ she typed — `fum` for "fecha de última menstruación", `fpp` for "fecha proba
 so the app knows which method she used. Attribution (`utm_*`) and the coarse week `w` stay in
 the query. The app still reads `?fpp=`/`?fum=` in the query for old links; the site no longer
 emits them. Dates are civil `YYYY-MM-DD` and must exist (the app refuses 2026-02-30).
-The site builds every CTA through ONE helper (`app_link()`), never by hand.
+Generic/week/date handoffs use `app_link()`; destination-specific handoffs use
+`app_page_link()` with an allowlisted path. `app_cta_link()` maps the site context
+to a relevant app task (prenatal summary, rights, emergency or a tool).
+Only a selected week or a visited week page can supply `w`; an illustrative phone
+preview never initializes the visitor's profile. The app captures a date fragment
+locally before Google sign-in, preserves the safe destination and attribution,
+then returns the user after sign-in/profile confirmation. Never put a personal date
+in `returnTo`, a server-visible query or an OAuth URL.
 
 ## Brand tokens (app `app/globals.css`, copy verbatim into the site tokens block)
 
@@ -102,17 +123,24 @@ site must produce the same numbers as the app for the same date. Port to
 
 ## Week data to import (app `lib/weeks.ts`, `RAW_WEEKS[]`)
 
-Per week: friendly title, size comparison in the Paraguayan progression (semilla de chía →
-mamón → palta → choclo → coco → sandía), length/weight where measurable, milestone, 100-word
-body. The site seeded `content/semanas.php` from it once (T1) and then extended each week to
+Per week: friendly title, an illustrative seed/fruit reference (weeks 1–3 have no fruit;
+later references include manzana, palta, pera, mango, pomelo, coco, melón, ananá and sandía),
+length/weight where measurable, milestone and a short body. From week 20 the fruit reference
+is by approximate weight; clinical length is separate and switches from crown-rump to
+crown-heel at week 20. Fruits vary and can repeat; never imply a fruit has the baby's cm/g.
+The site seeded `content/semanas.php` from it once (T1) and then extended each week to
 800–1,200 words; the app keeps its short version.
 
 Since 2026-10 (F11) the app publishes a versioned JSON export (`npm run export:weeks` in the
 app writes `contracts/weeks.v1.json`, contract `mibebe.weeks` version 1) and
 `tools/import-weeks.mjs` here reads **that file**, not the TypeScript source.
 `node tools/import-weeks.mjs <path> --check` is the read-only freshness check. The import is mechanical-only: it updates `size` (`name`, `lengthCm`, `weightG`), in place,
-and nothing else. Milestones and every word of site prose are the site's own, reviewed text
-and are never overwritten; `updated` changes only on a week whose numbers actually changed.
+and nothing else. Milestones and every word of site prose are the site's own text and are
+never overwritten by the importer; `updated` changes only on a week whose size changed.
+On 12 October 2026 the authored comparison phrases were reconciled separately to this
+contract, preserving clinical numbers and guidance. Images depicting a replaced fruit
+were detached from the week record; asset files/URLs were retained. Medical review remains
+pending; a content edit does not constitute review approval.
 
 **Week numbering (F05):** the big week number (app and site) is the week in progress,
 `floor(days / 7) + 1` — one ahead of the carné's completed weeks. Term starts at **37
