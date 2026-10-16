@@ -1025,3 +1025,5 @@ a:hover { color: var(--petrol-dark); }
 .channels__label { font-size: var(--step--1); font-weight: var(--weight-regular); opacity: 0.85; }
 .channels__value { font-size: var(--step-1); font-weight: var(--weight-bold); }
 .channels__note { font-size: var(--step--1); color: var(--muted); }
+.install-qr { display: block; max-width: 100%; height: auto; margin-block: var(--space-s); }
+[data-install-device][aria-pressed="true"] { background: var(--petrol); color: white; }
