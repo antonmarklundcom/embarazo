@@ -1,0 +1,3549 @@
+{
+  "date": "2026-10-15",
+  "page": "/semana/",
+  "owner_scope": "Neutral baby/produce thumbnails, one global selector. Existing app assets reused; no generation or boy/girl variants.",
+  "source_repository": "https://github.com/antonmarklundcom/embarazo.2.1",
+  "source_revision": "d7ed9fe2809a31610867a4180a542dadd043c33b",
+  "credits_spent": 0,
+  "widths": [
+    160,
+    320
+  ],
+  "rendered_px": 160,
+  "model": null,
+  "resolution": null,
+  "thinking_level": null,
+  "prompt": null,
+  "assets": [
+    {
+      "id": "bebe-ilustrado-semana-3-paraguay",
+      "file": "bebe-ilustrado-semana-3-paraguay",
+      "source": "E:/ai work/Projects/embarazo.2.1/worktrees/claude-embarazo.2.1/public/assets/semanas/bebe-3.webp",
+      "source_sha256": "763bc12bac3f17170a7dd0e55e0cbab7968f460fd4b67f737b6f70d2e9019308",
+      "alt_es": "Ilustración orientativa del bebé durante la semana 3 de embarazo, sin escala.",
+      "ratio": "1:1",
+      "url": null,
+      "job_id": null,
+      "generated_at": null,
+      "files": [
+        {
+          "file": "bebe-ilustrado-semana-3-paraguay-160.avif",
+          "format": "avif",
+          "width": 160,
+          "height": 160,
+          "bytes": 2409,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-3-paraguay-160.webp",
+          "format": "webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 5312,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-3-paraguay-320.avif",
+          "format": "avif",
+          "width": 320,
+          "height": 320,
+          "bytes": 4301,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-3-paraguay-320.webp",
+          "format": "webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 13752,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-3-paraguay-og.jpg",
+          "format": "jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 34447,
+          "budget_kb": 200
+        }
+      ]
+    },
+    {
+      "id": "bebe-ilustrado-semana-4-paraguay",
+      "file": "bebe-ilustrado-semana-4-paraguay",
+      "source": "E:/ai work/Projects/embarazo.2.1/worktrees/claude-embarazo.2.1/public/assets/semanas/bebe-4.webp",
+      "source_sha256": "fd7972893aac687e41507becc1b89d63f8def9db98fe599c8f905916d38e101d",
+      "alt_es": "Ilustración orientativa del bebé durante la semana 4 de embarazo, sin escala.",
+      "ratio": "1:1",
+      "url": null,
+      "job_id": null,
+      "generated_at": null,
+      "files": [
+        {
+          "file": "bebe-ilustrado-semana-4-paraguay-160.avif",
+          "format": "avif",
+          "width": 160,
+          "height": 160,
+          "bytes": 1717,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-4-paraguay-160.webp",
+          "format": "webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 3818,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-4-paraguay-320.avif",
+          "format": "avif",
+          "width": 320,
+          "height": 320,
+          "bytes": 2872,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-4-paraguay-320.webp",
+          "format": "webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 9254,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-4-paraguay-og.jpg",
+          "format": "jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 23240,
+          "budget_kb": 200
+        }
+      ]
+    },
+    {
+      "id": "bebe-ilustrado-semana-5-paraguay",
+      "file": "bebe-ilustrado-semana-5-paraguay",
+      "source": "E:/ai work/Projects/embarazo.2.1/worktrees/claude-embarazo.2.1/public/assets/semanas/bebe-5.webp",
+      "source_sha256": "912476d5f9a4cb0122f4c9fd653828506e30587cc0f335a554607068dddbf379",
+      "alt_es": "Ilustración orientativa del bebé durante la semana 5 de embarazo, sin escala.",
+      "ratio": "1:1",
+      "url": null,
+      "job_id": null,
+      "generated_at": null,
+      "files": [
+        {
+          "file": "bebe-ilustrado-semana-5-paraguay-160.avif",
+          "format": "avif",
+          "width": 160,
+          "height": 160,
+          "bytes": 2616,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-5-paraguay-160.webp",
+          "format": "webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 4294,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-5-paraguay-320.avif",
+          "format": "avif",
+          "width": 320,
+          "height": 320,
+          "bytes": 4409,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-5-paraguay-320.webp",
+          "format": "webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 9464,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-5-paraguay-og.jpg",
+          "format": "jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 26468,
+          "budget_kb": 200
+        }
+      ]
+    },
+    {
+      "id": "bebe-ilustrado-semana-6-paraguay",
+      "file": "bebe-ilustrado-semana-6-paraguay",
+      "source": "E:/ai work/Projects/embarazo.2.1/worktrees/claude-embarazo.2.1/public/assets/semanas/bebe-6.webp",
+      "source_sha256": "ea0400f35890323be07b0057413ee6220b005d6375c9323d7b91c8620747f080",
+      "alt_es": "Ilustración orientativa del bebé durante la semana 6 de embarazo, sin escala.",
+      "ratio": "1:1",
+      "url": null,
+      "job_id": null,
+      "generated_at": null,
+      "files": [
+        {
+          "file": "bebe-ilustrado-semana-6-paraguay-160.avif",
+          "format": "avif",
+          "width": 160,
+          "height": 160,
+          "bytes": 2217,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-6-paraguay-160.webp",
+          "format": "webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 3578,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-6-paraguay-320.avif",
+          "format": "avif",
+          "width": 320,
+          "height": 320,
+          "bytes": 3751,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-6-paraguay-320.webp",
+          "format": "webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 7798,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-6-paraguay-og.jpg",
+          "format": "jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 26093,
+          "budget_kb": 200
+        }
+      ]
+    },
+    {
+      "id": "bebe-ilustrado-semana-7-paraguay",
+      "file": "bebe-ilustrado-semana-7-paraguay",
+      "source": "E:/ai work/Projects/embarazo.2.1/worktrees/claude-embarazo.2.1/public/assets/semanas/bebe-7.webp",
+      "source_sha256": "7a890dfc8205eba3c8c07c0937bc3795529bfe8d1b37bc8d342c3bc566eecd25",
+      "alt_es": "Ilustración orientativa del bebé durante la semana 7 de embarazo, sin escala.",
+      "ratio": "1:1",
+      "url": null,
+      "job_id": null,
+      "generated_at": null,
+      "files": [
+        {
+          "file": "bebe-ilustrado-semana-7-paraguay-160.avif",
+          "format": "avif",
+          "width": 160,
+          "height": 160,
+          "bytes": 2262,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-7-paraguay-160.webp",
+          "format": "webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 3560,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-7-paraguay-320.avif",
+          "format": "avif",
+          "width": 320,
+          "height": 320,
+          "bytes": 3889,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-7-paraguay-320.webp",
+          "format": "webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 7708,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-7-paraguay-og.jpg",
+          "format": "jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 25822,
+          "budget_kb": 200
+        }
+      ]
+    },
+    {
+      "id": "bebe-ilustrado-semana-8-paraguay",
+      "file": "bebe-ilustrado-semana-8-paraguay",
+      "source": "E:/ai work/Projects/embarazo.2.1/worktrees/claude-embarazo.2.1/public/assets/semanas/bebe-8.webp",
+      "source_sha256": "1f1f51acf0c34d564dbb1409bb0cfa47c4cb37bbaef32ddb77f14afba22ac4bf",
+      "alt_es": "Ilustración orientativa del bebé durante la semana 8 de embarazo, sin escala.",
+      "ratio": "1:1",
+      "url": null,
+      "job_id": null,
+      "generated_at": null,
+      "files": [
+        {
+          "file": "bebe-ilustrado-semana-8-paraguay-160.avif",
+          "format": "avif",
+          "width": 160,
+          "height": 160,
+          "bytes": 2285,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-8-paraguay-160.webp",
+          "format": "webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 3480,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-8-paraguay-320.avif",
+          "format": "avif",
+          "width": 320,
+          "height": 320,
+          "bytes": 3763,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-8-paraguay-320.webp",
+          "format": "webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 8134,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-8-paraguay-og.jpg",
+          "format": "jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 26319,
+          "budget_kb": 200
+        }
+      ]
+    },
+    {
+      "id": "bebe-ilustrado-semana-9-paraguay",
+      "file": "bebe-ilustrado-semana-9-paraguay",
+      "source": "E:/ai work/Projects/embarazo.2.1/worktrees/claude-embarazo.2.1/public/assets/semanas/bebe-9.webp",
+      "source_sha256": "c01b369bacdffdb3521e0077e67fd17c4010153811a1d03cc2d3569a03137300",
+      "alt_es": "Ilustración orientativa del bebé durante la semana 9 de embarazo, sin escala.",
+      "ratio": "1:1",
+      "url": null,
+      "job_id": null,
+      "generated_at": null,
+      "files": [
+        {
+          "file": "bebe-ilustrado-semana-9-paraguay-160.avif",
+          "format": "avif",
+          "width": 160,
+          "height": 160,
+          "bytes": 2437,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-9-paraguay-160.webp",
+          "format": "webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 4022,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-9-paraguay-320.avif",
+          "format": "avif",
+          "width": 320,
+          "height": 320,
+          "bytes": 4021,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-9-paraguay-320.webp",
+          "format": "webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 8940,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-9-paraguay-og.jpg",
+          "format": "jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 26278,
+          "budget_kb": 200
+        }
+      ]
+    },
+    {
+      "id": "bebe-ilustrado-semana-10-paraguay",
+      "file": "bebe-ilustrado-semana-10-paraguay",
+      "source": "E:/ai work/Projects/embarazo.2.1/worktrees/claude-embarazo.2.1/public/assets/semanas/bebe-10.webp",
+      "source_sha256": "1eafcfb99461a73ec87c57b0b10e4822cd59447cacbd5c955957dba7013f8db8",
+      "alt_es": "Ilustración orientativa del bebé durante la semana 10 de embarazo, sin escala.",
+      "ratio": "1:1",
+      "url": null,
+      "job_id": null,
+      "generated_at": null,
+      "files": [
+        {
+          "file": "bebe-ilustrado-semana-10-paraguay-160.avif",
+          "format": "avif",
+          "width": 160,
+          "height": 160,
+          "bytes": 2544,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-10-paraguay-160.webp",
+          "format": "webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 4076,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-10-paraguay-320.avif",
+          "format": "avif",
+          "width": 320,
+          "height": 320,
+          "bytes": 4285,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-10-paraguay-320.webp",
+          "format": "webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 8942,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-10-paraguay-og.jpg",
+          "format": "jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 28717,
+          "budget_kb": 200
+        }
+      ]
+    },
+    {
+      "id": "bebe-ilustrado-semana-11-paraguay",
+      "file": "bebe-ilustrado-semana-11-paraguay",
+      "source": "E:/ai work/Projects/embarazo.2.1/worktrees/claude-embarazo.2.1/public/assets/semanas/bebe-11.webp",
+      "source_sha256": "4254052a86941730051cf54e744060afc3760f1823c9f5dc88f25e9e56b46019",
+      "alt_es": "Ilustración orientativa del bebé durante la semana 11 de embarazo, sin escala.",
+      "ratio": "1:1",
+      "url": null,
+      "job_id": null,
+      "generated_at": null,
+      "files": [
+        {
+          "file": "bebe-ilustrado-semana-11-paraguay-160.avif",
+          "format": "avif",
+          "width": 160,
+          "height": 160,
+          "bytes": 2589,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-11-paraguay-160.webp",
+          "format": "webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 4216,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-11-paraguay-320.avif",
+          "format": "avif",
+          "width": 320,
+          "height": 320,
+          "bytes": 4402,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-11-paraguay-320.webp",
+          "format": "webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 9456,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-11-paraguay-og.jpg",
+          "format": "jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 28121,
+          "budget_kb": 200
+        }
+      ]
+    },
+    {
+      "id": "bebe-ilustrado-semana-12-paraguay",
+      "file": "bebe-ilustrado-semana-12-paraguay",
+      "source": "E:/ai work/Projects/embarazo.2.1/worktrees/claude-embarazo.2.1/public/assets/semanas/bebe-12.webp",
+      "source_sha256": "0b303aff5b08883c873e1b66f2a2f117e9790cf9856700625906087a27a43f2e",
+      "alt_es": "Ilustración orientativa del bebé durante la semana 12 de embarazo, sin escala.",
+      "ratio": "1:1",
+      "url": null,
+      "job_id": null,
+      "generated_at": null,
+      "files": [
+        {
+          "file": "bebe-ilustrado-semana-12-paraguay-160.avif",
+          "format": "avif",
+          "width": 160,
+          "height": 160,
+          "bytes": 2462,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-12-paraguay-160.webp",
+          "format": "webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 4032,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-12-paraguay-320.avif",
+          "format": "avif",
+          "width": 320,
+          "height": 320,
+          "bytes": 4034,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-12-paraguay-320.webp",
+          "format": "webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 8946,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-12-paraguay-og.jpg",
+          "format": "jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 25459,
+          "budget_kb": 200
+        }
+      ]
+    },
+    {
+      "id": "bebe-ilustrado-semana-13-paraguay",
+      "file": "bebe-ilustrado-semana-13-paraguay",
+      "source": "E:/ai work/Projects/embarazo.2.1/worktrees/claude-embarazo.2.1/public/assets/semanas/bebe-13.webp",
+      "source_sha256": "482f3d0a8b5f0c451635a04fb9453dc5dd7a0812508774d0b09daa99d8a0c3d5",
+      "alt_es": "Ilustración orientativa del bebé durante la semana 13 de embarazo, sin escala.",
+      "ratio": "1:1",
+      "url": null,
+      "job_id": null,
+      "generated_at": null,
+      "files": [
+        {
+          "file": "bebe-ilustrado-semana-13-paraguay-160.avif",
+          "format": "avif",
+          "width": 160,
+          "height": 160,
+          "bytes": 2387,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-13-paraguay-160.webp",
+          "format": "webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 3766,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-13-paraguay-320.avif",
+          "format": "avif",
+          "width": 320,
+          "height": 320,
+          "bytes": 4060,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-13-paraguay-320.webp",
+          "format": "webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 8560,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-13-paraguay-og.jpg",
+          "format": "jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 25966,
+          "budget_kb": 200
+        }
+      ]
+    },
+    {
+      "id": "bebe-ilustrado-semana-14-paraguay",
+      "file": "bebe-ilustrado-semana-14-paraguay",
+      "source": "E:/ai work/Projects/embarazo.2.1/worktrees/claude-embarazo.2.1/public/assets/semanas/bebe-14.webp",
+      "source_sha256": "ce4357682168672f380bc4a54fc889b563da5a610cd27a6cad5d7086ae65bbf7",
+      "alt_es": "Ilustración orientativa del bebé durante la semana 14 de embarazo, sin escala.",
+      "ratio": "1:1",
+      "url": null,
+      "job_id": null,
+      "generated_at": null,
+      "files": [
+        {
+          "file": "bebe-ilustrado-semana-14-paraguay-160.avif",
+          "format": "avif",
+          "width": 160,
+          "height": 160,
+          "bytes": 2338,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-14-paraguay-160.webp",
+          "format": "webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 3246,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-14-paraguay-320.avif",
+          "format": "avif",
+          "width": 320,
+          "height": 320,
+          "bytes": 3923,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-14-paraguay-320.webp",
+          "format": "webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 7550,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-14-paraguay-og.jpg",
+          "format": "jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 27044,
+          "budget_kb": 200
+        }
+      ]
+    },
+    {
+      "id": "bebe-ilustrado-semana-15-paraguay",
+      "file": "bebe-ilustrado-semana-15-paraguay",
+      "source": "E:/ai work/Projects/embarazo.2.1/worktrees/claude-embarazo.2.1/public/assets/semanas/bebe-15.webp",
+      "source_sha256": "792a6c00733718eb45cf3066557dcbd025bcf55df1e0156f59649114b94c2eee",
+      "alt_es": "Ilustración orientativa del bebé durante la semana 15 de embarazo, sin escala.",
+      "ratio": "1:1",
+      "url": null,
+      "job_id": null,
+      "generated_at": null,
+      "files": [
+        {
+          "file": "bebe-ilustrado-semana-15-paraguay-160.avif",
+          "format": "avif",
+          "width": 160,
+          "height": 160,
+          "bytes": 2263,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-15-paraguay-160.webp",
+          "format": "webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 3520,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-15-paraguay-320.avif",
+          "format": "avif",
+          "width": 320,
+          "height": 320,
+          "bytes": 3822,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-15-paraguay-320.webp",
+          "format": "webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 7878,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-15-paraguay-og.jpg",
+          "format": "jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 25412,
+          "budget_kb": 200
+        }
+      ]
+    },
+    {
+      "id": "bebe-ilustrado-semana-16-paraguay",
+      "file": "bebe-ilustrado-semana-16-paraguay",
+      "source": "E:/ai work/Projects/embarazo.2.1/worktrees/claude-embarazo.2.1/public/assets/semanas/bebe-16.webp",
+      "source_sha256": "32eb9416cd3daa50885d6aea93fc0a05ac18b9df1baec7f0d6b421ebdd0d75b5",
+      "alt_es": "Ilustración orientativa del bebé durante la semana 16 de embarazo, sin escala.",
+      "ratio": "1:1",
+      "url": null,
+      "job_id": null,
+      "generated_at": null,
+      "files": [
+        {
+          "file": "bebe-ilustrado-semana-16-paraguay-160.avif",
+          "format": "avif",
+          "width": 160,
+          "height": 160,
+          "bytes": 2913,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-16-paraguay-160.webp",
+          "format": "webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 4408,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-16-paraguay-320.avif",
+          "format": "avif",
+          "width": 320,
+          "height": 320,
+          "bytes": 5108,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-16-paraguay-320.webp",
+          "format": "webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 10160,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-16-paraguay-og.jpg",
+          "format": "jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 31397,
+          "budget_kb": 200
+        }
+      ]
+    },
+    {
+      "id": "bebe-ilustrado-semana-17-paraguay",
+      "file": "bebe-ilustrado-semana-17-paraguay",
+      "source": "E:/ai work/Projects/embarazo.2.1/worktrees/claude-embarazo.2.1/public/assets/semanas/bebe-17.webp",
+      "source_sha256": "2a0cbe40e3fea006cfda9ef9c794f40a4e7c3844d9d1ef29c791a4ddb5b163ae",
+      "alt_es": "Ilustración orientativa del bebé durante la semana 17 de embarazo, sin escala.",
+      "ratio": "1:1",
+      "url": null,
+      "job_id": null,
+      "generated_at": null,
+      "files": [
+        {
+          "file": "bebe-ilustrado-semana-17-paraguay-160.avif",
+          "format": "avif",
+          "width": 160,
+          "height": 160,
+          "bytes": 2408,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-17-paraguay-160.webp",
+          "format": "webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 3732,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-17-paraguay-320.avif",
+          "format": "avif",
+          "width": 320,
+          "height": 320,
+          "bytes": 4130,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-17-paraguay-320.webp",
+          "format": "webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 8742,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-17-paraguay-og.jpg",
+          "format": "jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 27198,
+          "budget_kb": 200
+        }
+      ]
+    },
+    {
+      "id": "bebe-ilustrado-semana-18-paraguay",
+      "file": "bebe-ilustrado-semana-18-paraguay",
+      "source": "E:/ai work/Projects/embarazo.2.1/worktrees/claude-embarazo.2.1/public/assets/semanas/bebe-18.webp",
+      "source_sha256": "082cfcb79230d7d3ea61c2c54cfa8c6f40203d1c75097aa6d0fc6cc47fff0ec6",
+      "alt_es": "Ilustración orientativa del bebé durante la semana 18 de embarazo, sin escala.",
+      "ratio": "1:1",
+      "url": null,
+      "job_id": null,
+      "generated_at": null,
+      "files": [
+        {
+          "file": "bebe-ilustrado-semana-18-paraguay-160.avif",
+          "format": "avif",
+          "width": 160,
+          "height": 160,
+          "bytes": 2951,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-18-paraguay-160.webp",
+          "format": "webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 4612,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-18-paraguay-320.avif",
+          "format": "avif",
+          "width": 320,
+          "height": 320,
+          "bytes": 5094,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-18-paraguay-320.webp",
+          "format": "webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 10500,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-18-paraguay-og.jpg",
+          "format": "jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 31752,
+          "budget_kb": 200
+        }
+      ]
+    },
+    {
+      "id": "bebe-ilustrado-semana-19-paraguay",
+      "file": "bebe-ilustrado-semana-19-paraguay",
+      "source": "E:/ai work/Projects/embarazo.2.1/worktrees/claude-embarazo.2.1/public/assets/semanas/bebe-19.webp",
+      "source_sha256": "87f16a9e39d87e3bf2139204d237186ba2a93ab9e8582f7d2c34f19cb7731a82",
+      "alt_es": "Ilustración orientativa del bebé durante la semana 19 de embarazo, sin escala.",
+      "ratio": "1:1",
+      "url": null,
+      "job_id": null,
+      "generated_at": null,
+      "files": [
+        {
+          "file": "bebe-ilustrado-semana-19-paraguay-160.avif",
+          "format": "avif",
+          "width": 160,
+          "height": 160,
+          "bytes": 2594,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-19-paraguay-160.webp",
+          "format": "webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 4116,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-19-paraguay-320.avif",
+          "format": "avif",
+          "width": 320,
+          "height": 320,
+          "bytes": 4559,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-19-paraguay-320.webp",
+          "format": "webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 9318,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-19-paraguay-og.jpg",
+          "format": "jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 29345,
+          "budget_kb": 200
+        }
+      ]
+    },
+    {
+      "id": "bebe-ilustrado-semana-20-paraguay",
+      "file": "bebe-ilustrado-semana-20-paraguay",
+      "source": "E:/ai work/Projects/embarazo.2.1/worktrees/claude-embarazo.2.1/public/assets/semanas/bebe-20.webp",
+      "source_sha256": "33f88e9e1ea74e4b62b964e5bb65b09d3689b1831e6be5cb632ee6d8ade847f5",
+      "alt_es": "Ilustración orientativa del bebé durante la semana 20 de embarazo, sin escala.",
+      "ratio": "1:1",
+      "url": null,
+      "job_id": null,
+      "generated_at": null,
+      "files": [
+        {
+          "file": "bebe-ilustrado-semana-20-paraguay-160.avif",
+          "format": "avif",
+          "width": 160,
+          "height": 160,
+          "bytes": 2625,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-20-paraguay-160.webp",
+          "format": "webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 4108,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-20-paraguay-320.avif",
+          "format": "avif",
+          "width": 320,
+          "height": 320,
+          "bytes": 4611,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-20-paraguay-320.webp",
+          "format": "webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 9122,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-20-paraguay-og.jpg",
+          "format": "jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 27073,
+          "budget_kb": 200
+        }
+      ]
+    },
+    {
+      "id": "bebe-ilustrado-semana-21-paraguay",
+      "file": "bebe-ilustrado-semana-21-paraguay",
+      "source": "E:/ai work/Projects/embarazo.2.1/worktrees/claude-embarazo.2.1/public/assets/semanas/bebe-21.webp",
+      "source_sha256": "1d641499b32ef3dae84b0c742fa554018bb5db0a282ead00abe09a1e811312f6",
+      "alt_es": "Ilustración orientativa del bebé durante la semana 21 de embarazo, sin escala.",
+      "ratio": "1:1",
+      "url": null,
+      "job_id": null,
+      "generated_at": null,
+      "files": [
+        {
+          "file": "bebe-ilustrado-semana-21-paraguay-160.avif",
+          "format": "avif",
+          "width": 160,
+          "height": 160,
+          "bytes": 2870,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-21-paraguay-160.webp",
+          "format": "webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 4708,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-21-paraguay-320.avif",
+          "format": "avif",
+          "width": 320,
+          "height": 320,
+          "bytes": 5062,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-21-paraguay-320.webp",
+          "format": "webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 10834,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-21-paraguay-og.jpg",
+          "format": "jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 31451,
+          "budget_kb": 200
+        }
+      ]
+    },
+    {
+      "id": "bebe-ilustrado-semana-22-paraguay",
+      "file": "bebe-ilustrado-semana-22-paraguay",
+      "source": "E:/ai work/Projects/embarazo.2.1/worktrees/claude-embarazo.2.1/public/assets/semanas/bebe-22.webp",
+      "source_sha256": "53d156305c5ec13a68912089125180cc3ed57551184d515566c97a9940b5a8cf",
+      "alt_es": "Ilustración orientativa del bebé durante la semana 22 de embarazo, sin escala.",
+      "ratio": "1:1",
+      "url": null,
+      "job_id": null,
+      "generated_at": null,
+      "files": [
+        {
+          "file": "bebe-ilustrado-semana-22-paraguay-160.avif",
+          "format": "avif",
+          "width": 160,
+          "height": 160,
+          "bytes": 2859,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-22-paraguay-160.webp",
+          "format": "webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 4542,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-22-paraguay-320.avif",
+          "format": "avif",
+          "width": 320,
+          "height": 320,
+          "bytes": 5010,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-22-paraguay-320.webp",
+          "format": "webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 10358,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-22-paraguay-og.jpg",
+          "format": "jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 31590,
+          "budget_kb": 200
+        }
+      ]
+    },
+    {
+      "id": "bebe-ilustrado-semana-23-paraguay",
+      "file": "bebe-ilustrado-semana-23-paraguay",
+      "source": "E:/ai work/Projects/embarazo.2.1/worktrees/claude-embarazo.2.1/public/assets/semanas/bebe-23.webp",
+      "source_sha256": "bc419d776477155c11292acb9c8730fc76cc881084e2aae49d9941655ab46be5",
+      "alt_es": "Ilustración orientativa del bebé durante la semana 23 de embarazo, sin escala.",
+      "ratio": "1:1",
+      "url": null,
+      "job_id": null,
+      "generated_at": null,
+      "files": [
+        {
+          "file": "bebe-ilustrado-semana-23-paraguay-160.avif",
+          "format": "avif",
+          "width": 160,
+          "height": 160,
+          "bytes": 2776,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-23-paraguay-160.webp",
+          "format": "webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 4670,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-23-paraguay-320.avif",
+          "format": "avif",
+          "width": 320,
+          "height": 320,
+          "bytes": 4955,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-23-paraguay-320.webp",
+          "format": "webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 10526,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-23-paraguay-og.jpg",
+          "format": "jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 30954,
+          "budget_kb": 200
+        }
+      ]
+    },
+    {
+      "id": "bebe-ilustrado-semana-24-paraguay",
+      "file": "bebe-ilustrado-semana-24-paraguay",
+      "source": "E:/ai work/Projects/embarazo.2.1/worktrees/claude-embarazo.2.1/public/assets/semanas/bebe-24.webp",
+      "source_sha256": "7be8d3bff06d1b0d2a8f368422d663e7992291d2ad6443087941eb3d282a5bf6",
+      "alt_es": "Ilustración orientativa del bebé durante la semana 24 de embarazo, sin escala.",
+      "ratio": "1:1",
+      "url": null,
+      "job_id": null,
+      "generated_at": null,
+      "files": [
+        {
+          "file": "bebe-ilustrado-semana-24-paraguay-160.avif",
+          "format": "avif",
+          "width": 160,
+          "height": 160,
+          "bytes": 2921,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-24-paraguay-160.webp",
+          "format": "webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 4514,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-24-paraguay-320.avif",
+          "format": "avif",
+          "width": 320,
+          "height": 320,
+          "bytes": 4954,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-24-paraguay-320.webp",
+          "format": "webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 10464,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-24-paraguay-og.jpg",
+          "format": "jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 31401,
+          "budget_kb": 200
+        }
+      ]
+    },
+    {
+      "id": "bebe-ilustrado-semana-25-paraguay",
+      "file": "bebe-ilustrado-semana-25-paraguay",
+      "source": "E:/ai work/Projects/embarazo.2.1/worktrees/claude-embarazo.2.1/public/assets/semanas/bebe-25.webp",
+      "source_sha256": "c0780d8604cb8dc731c1ccb42f98f3e178eafedc1972699eaf3d154e82dd0d33",
+      "alt_es": "Ilustración orientativa del bebé durante la semana 25 de embarazo, sin escala.",
+      "ratio": "1:1",
+      "url": null,
+      "job_id": null,
+      "generated_at": null,
+      "files": [
+        {
+          "file": "bebe-ilustrado-semana-25-paraguay-160.avif",
+          "format": "avif",
+          "width": 160,
+          "height": 160,
+          "bytes": 2885,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-25-paraguay-160.webp",
+          "format": "webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 4584,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-25-paraguay-320.avif",
+          "format": "avif",
+          "width": 320,
+          "height": 320,
+          "bytes": 5017,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-25-paraguay-320.webp",
+          "format": "webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 10436,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-25-paraguay-og.jpg",
+          "format": "jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 28960,
+          "budget_kb": 200
+        }
+      ]
+    },
+    {
+      "id": "bebe-ilustrado-semana-26-paraguay",
+      "file": "bebe-ilustrado-semana-26-paraguay",
+      "source": "E:/ai work/Projects/embarazo.2.1/worktrees/claude-embarazo.2.1/public/assets/semanas/bebe-26.webp",
+      "source_sha256": "e8c7be544289f3ef4c17aa009a47ea5cb16be2b30d5df2bb1fd78ecf76e6e243",
+      "alt_es": "Ilustración orientativa del bebé durante la semana 26 de embarazo, sin escala.",
+      "ratio": "1:1",
+      "url": null,
+      "job_id": null,
+      "generated_at": null,
+      "files": [
+        {
+          "file": "bebe-ilustrado-semana-26-paraguay-160.avif",
+          "format": "avif",
+          "width": 160,
+          "height": 160,
+          "bytes": 2964,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-26-paraguay-160.webp",
+          "format": "webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 4836,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-26-paraguay-320.avif",
+          "format": "avif",
+          "width": 320,
+          "height": 320,
+          "bytes": 5124,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-26-paraguay-320.webp",
+          "format": "webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 10872,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-26-paraguay-og.jpg",
+          "format": "jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 31794,
+          "budget_kb": 200
+        }
+      ]
+    },
+    {
+      "id": "bebe-ilustrado-semana-27-paraguay",
+      "file": "bebe-ilustrado-semana-27-paraguay",
+      "source": "E:/ai work/Projects/embarazo.2.1/worktrees/claude-embarazo.2.1/public/assets/semanas/bebe-27.webp",
+      "source_sha256": "442a747358ab11e5e509e54a2ba9591945aaf08b4ec596d7356a373678b3ff32",
+      "alt_es": "Ilustración orientativa del bebé durante la semana 27 de embarazo, sin escala.",
+      "ratio": "1:1",
+      "url": null,
+      "job_id": null,
+      "generated_at": null,
+      "files": [
+        {
+          "file": "bebe-ilustrado-semana-27-paraguay-160.avif",
+          "format": "avif",
+          "width": 160,
+          "height": 160,
+          "bytes": 2917,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-27-paraguay-160.webp",
+          "format": "webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 5052,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-27-paraguay-320.avif",
+          "format": "avif",
+          "width": 320,
+          "height": 320,
+          "bytes": 5245,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-27-paraguay-320.webp",
+          "format": "webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 11510,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-27-paraguay-og.jpg",
+          "format": "jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 29559,
+          "budget_kb": 200
+        }
+      ]
+    },
+    {
+      "id": "bebe-ilustrado-semana-28-paraguay",
+      "file": "bebe-ilustrado-semana-28-paraguay",
+      "source": "E:/ai work/Projects/embarazo.2.1/worktrees/claude-embarazo.2.1/public/assets/semanas/bebe-28.webp",
+      "source_sha256": "2ace1a6934846e98bccf9aa9b9ad8f15c422561d08aec9b1552fa34a884ecf8e",
+      "alt_es": "Ilustración orientativa del bebé durante la semana 28 de embarazo, sin escala.",
+      "ratio": "1:1",
+      "url": null,
+      "job_id": null,
+      "generated_at": null,
+      "files": [
+        {
+          "file": "bebe-ilustrado-semana-28-paraguay-160.avif",
+          "format": "avif",
+          "width": 160,
+          "height": 160,
+          "bytes": 3038,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-28-paraguay-160.webp",
+          "format": "webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 4840,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-28-paraguay-320.avif",
+          "format": "avif",
+          "width": 320,
+          "height": 320,
+          "bytes": 5284,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-28-paraguay-320.webp",
+          "format": "webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 10968,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-28-paraguay-og.jpg",
+          "format": "jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 31881,
+          "budget_kb": 200
+        }
+      ]
+    },
+    {
+      "id": "bebe-ilustrado-semana-29-paraguay",
+      "file": "bebe-ilustrado-semana-29-paraguay",
+      "source": "E:/ai work/Projects/embarazo.2.1/worktrees/claude-embarazo.2.1/public/assets/semanas/bebe-29.webp",
+      "source_sha256": "5e04c635f72b9079c1fd31cf7eae1c7f0e3e1b59c27d739273cbea01c809ff1e",
+      "alt_es": "Ilustración orientativa del bebé durante la semana 29 de embarazo, sin escala.",
+      "ratio": "1:1",
+      "url": null,
+      "job_id": null,
+      "generated_at": null,
+      "files": [
+        {
+          "file": "bebe-ilustrado-semana-29-paraguay-160.avif",
+          "format": "avif",
+          "width": 160,
+          "height": 160,
+          "bytes": 3014,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-29-paraguay-160.webp",
+          "format": "webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 5024,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-29-paraguay-320.avif",
+          "format": "avif",
+          "width": 320,
+          "height": 320,
+          "bytes": 5323,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-29-paraguay-320.webp",
+          "format": "webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 11328,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-29-paraguay-og.jpg",
+          "format": "jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 31988,
+          "budget_kb": 200
+        }
+      ]
+    },
+    {
+      "id": "bebe-ilustrado-semana-30-paraguay",
+      "file": "bebe-ilustrado-semana-30-paraguay",
+      "source": "E:/ai work/Projects/embarazo.2.1/worktrees/claude-embarazo.2.1/public/assets/semanas/bebe-30.webp",
+      "source_sha256": "bdce7484365d1491e43a1a32eb4117178ee8d85f4149dc46b88be8db8903b1ec",
+      "alt_es": "Ilustración orientativa del bebé durante la semana 30 de embarazo, sin escala.",
+      "ratio": "1:1",
+      "url": null,
+      "job_id": null,
+      "generated_at": null,
+      "files": [
+        {
+          "file": "bebe-ilustrado-semana-30-paraguay-160.avif",
+          "format": "avif",
+          "width": 160,
+          "height": 160,
+          "bytes": 3122,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-30-paraguay-160.webp",
+          "format": "webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 5114,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-30-paraguay-320.avif",
+          "format": "avif",
+          "width": 320,
+          "height": 320,
+          "bytes": 5550,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-30-paraguay-320.webp",
+          "format": "webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 11482,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-30-paraguay-og.jpg",
+          "format": "jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 34101,
+          "budget_kb": 200
+        }
+      ]
+    },
+    {
+      "id": "bebe-ilustrado-semana-31-paraguay",
+      "file": "bebe-ilustrado-semana-31-paraguay",
+      "source": "E:/ai work/Projects/embarazo.2.1/worktrees/claude-embarazo.2.1/public/assets/semanas/bebe-31.webp",
+      "source_sha256": "1bb8e1ea198d95883d70246919e42a0993ea22387d1433714f7d5347fba52508",
+      "alt_es": "Ilustración orientativa del bebé durante la semana 31 de embarazo, sin escala.",
+      "ratio": "1:1",
+      "url": null,
+      "job_id": null,
+      "generated_at": null,
+      "files": [
+        {
+          "file": "bebe-ilustrado-semana-31-paraguay-160.avif",
+          "format": "avif",
+          "width": 160,
+          "height": 160,
+          "bytes": 2926,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-31-paraguay-160.webp",
+          "format": "webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 4716,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-31-paraguay-320.avif",
+          "format": "avif",
+          "width": 320,
+          "height": 320,
+          "bytes": 5201,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-31-paraguay-320.webp",
+          "format": "webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 10892,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-31-paraguay-og.jpg",
+          "format": "jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 32934,
+          "budget_kb": 200
+        }
+      ]
+    },
+    {
+      "id": "bebe-ilustrado-semana-32-paraguay",
+      "file": "bebe-ilustrado-semana-32-paraguay",
+      "source": "E:/ai work/Projects/embarazo.2.1/worktrees/claude-embarazo.2.1/public/assets/semanas/bebe-32.webp",
+      "source_sha256": "fc25d3cfeae1aaf3d5aba9e0a214d592d69b54eb13764fa31d47596215862630",
+      "alt_es": "Ilustración orientativa del bebé durante la semana 32 de embarazo, sin escala.",
+      "ratio": "1:1",
+      "url": null,
+      "job_id": null,
+      "generated_at": null,
+      "files": [
+        {
+          "file": "bebe-ilustrado-semana-32-paraguay-160.avif",
+          "format": "avif",
+          "width": 160,
+          "height": 160,
+          "bytes": 3020,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-32-paraguay-160.webp",
+          "format": "webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 5050,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-32-paraguay-320.avif",
+          "format": "avif",
+          "width": 320,
+          "height": 320,
+          "bytes": 5352,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-32-paraguay-320.webp",
+          "format": "webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 11326,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-32-paraguay-og.jpg",
+          "format": "jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 33287,
+          "budget_kb": 200
+        }
+      ]
+    },
+    {
+      "id": "bebe-ilustrado-semana-33-paraguay",
+      "file": "bebe-ilustrado-semana-33-paraguay",
+      "source": "E:/ai work/Projects/embarazo.2.1/worktrees/claude-embarazo.2.1/public/assets/semanas/bebe-33.webp",
+      "source_sha256": "f34c6506d2c08415dc04dcd33bb233af223a4d3bd083b1a1845d3a346d8318ec",
+      "alt_es": "Ilustración orientativa del bebé durante la semana 33 de embarazo, sin escala.",
+      "ratio": "1:1",
+      "url": null,
+      "job_id": null,
+      "generated_at": null,
+      "files": [
+        {
+          "file": "bebe-ilustrado-semana-33-paraguay-160.avif",
+          "format": "avif",
+          "width": 160,
+          "height": 160,
+          "bytes": 2980,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-33-paraguay-160.webp",
+          "format": "webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 4976,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-33-paraguay-320.avif",
+          "format": "avif",
+          "width": 320,
+          "height": 320,
+          "bytes": 5348,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-33-paraguay-320.webp",
+          "format": "webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 11318,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-33-paraguay-og.jpg",
+          "format": "jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 31759,
+          "budget_kb": 200
+        }
+      ]
+    },
+    {
+      "id": "bebe-ilustrado-semana-34-paraguay",
+      "file": "bebe-ilustrado-semana-34-paraguay",
+      "source": "E:/ai work/Projects/embarazo.2.1/worktrees/claude-embarazo.2.1/public/assets/semanas/bebe-34.webp",
+      "source_sha256": "aceffc85a0553d8a913829de1f602f93a6412252307807920f4d9eabff46a360",
+      "alt_es": "Ilustración orientativa del bebé durante la semana 34 de embarazo, sin escala.",
+      "ratio": "1:1",
+      "url": null,
+      "job_id": null,
+      "generated_at": null,
+      "files": [
+        {
+          "file": "bebe-ilustrado-semana-34-paraguay-160.avif",
+          "format": "avif",
+          "width": 160,
+          "height": 160,
+          "bytes": 2980,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-34-paraguay-160.webp",
+          "format": "webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 4758,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-34-paraguay-320.avif",
+          "format": "avif",
+          "width": 320,
+          "height": 320,
+          "bytes": 5172,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-34-paraguay-320.webp",
+          "format": "webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 10760,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-34-paraguay-og.jpg",
+          "format": "jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 32393,
+          "budget_kb": 200
+        }
+      ]
+    },
+    {
+      "id": "bebe-ilustrado-semana-35-paraguay",
+      "file": "bebe-ilustrado-semana-35-paraguay",
+      "source": "E:/ai work/Projects/embarazo.2.1/worktrees/claude-embarazo.2.1/public/assets/semanas/bebe-35.webp",
+      "source_sha256": "bb245d9dbeb4b9d7ff448890cb5db729aea3a53e925303fcb68b7f4cac75d942",
+      "alt_es": "Ilustración orientativa del bebé durante la semana 35 de embarazo, sin escala.",
+      "ratio": "1:1",
+      "url": null,
+      "job_id": null,
+      "generated_at": null,
+      "files": [
+        {
+          "file": "bebe-ilustrado-semana-35-paraguay-160.avif",
+          "format": "avif",
+          "width": 160,
+          "height": 160,
+          "bytes": 2927,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-35-paraguay-160.webp",
+          "format": "webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 4818,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-35-paraguay-320.avif",
+          "format": "avif",
+          "width": 320,
+          "height": 320,
+          "bytes": 5132,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-35-paraguay-320.webp",
+          "format": "webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 10754,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-35-paraguay-og.jpg",
+          "format": "jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 31382,
+          "budget_kb": 200
+        }
+      ]
+    },
+    {
+      "id": "bebe-ilustrado-semana-36-paraguay",
+      "file": "bebe-ilustrado-semana-36-paraguay",
+      "source": "E:/ai work/Projects/embarazo.2.1/worktrees/claude-embarazo.2.1/public/assets/semanas/bebe-36.webp",
+      "source_sha256": "1b75ca577c26d6568371141a5f6e1036c5d32b0ebd236636326670cb9070c40b",
+      "alt_es": "Ilustración orientativa del bebé durante la semana 36 de embarazo, sin escala.",
+      "ratio": "1:1",
+      "url": null,
+      "job_id": null,
+      "generated_at": null,
+      "files": [
+        {
+          "file": "bebe-ilustrado-semana-36-paraguay-160.avif",
+          "format": "avif",
+          "width": 160,
+          "height": 160,
+          "bytes": 2931,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-36-paraguay-160.webp",
+          "format": "webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 4758,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-36-paraguay-320.avif",
+          "format": "avif",
+          "width": 320,
+          "height": 320,
+          "bytes": 5201,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-36-paraguay-320.webp",
+          "format": "webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 10996,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-36-paraguay-og.jpg",
+          "format": "jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 32403,
+          "budget_kb": 200
+        }
+      ]
+    },
+    {
+      "id": "bebe-ilustrado-semana-37-paraguay",
+      "file": "bebe-ilustrado-semana-37-paraguay",
+      "source": "E:/ai work/Projects/embarazo.2.1/worktrees/claude-embarazo.2.1/public/assets/semanas/bebe-37.webp",
+      "source_sha256": "26238c6ffefe196467dcad471711a5f5a4af29da210654568319f634e7a746f4",
+      "alt_es": "Ilustración orientativa del bebé durante la semana 37 de embarazo, sin escala.",
+      "ratio": "1:1",
+      "url": null,
+      "job_id": null,
+      "generated_at": null,
+      "files": [
+        {
+          "file": "bebe-ilustrado-semana-37-paraguay-160.avif",
+          "format": "avif",
+          "width": 160,
+          "height": 160,
+          "bytes": 2897,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-37-paraguay-160.webp",
+          "format": "webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 4706,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-37-paraguay-320.avif",
+          "format": "avif",
+          "width": 320,
+          "height": 320,
+          "bytes": 5058,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-37-paraguay-320.webp",
+          "format": "webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 10670,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-37-paraguay-og.jpg",
+          "format": "jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 31028,
+          "budget_kb": 200
+        }
+      ]
+    },
+    {
+      "id": "bebe-ilustrado-semana-38-paraguay",
+      "file": "bebe-ilustrado-semana-38-paraguay",
+      "source": "E:/ai work/Projects/embarazo.2.1/worktrees/claude-embarazo.2.1/public/assets/semanas/bebe-38.webp",
+      "source_sha256": "21033836258bbb874f2508fa23dc965ec0ba9d79175f12c4e875bbaae5a2bbda",
+      "alt_es": "Ilustración orientativa del bebé durante la semana 38 de embarazo, sin escala.",
+      "ratio": "1:1",
+      "url": null,
+      "job_id": null,
+      "generated_at": null,
+      "files": [
+        {
+          "file": "bebe-ilustrado-semana-38-paraguay-160.avif",
+          "format": "avif",
+          "width": 160,
+          "height": 160,
+          "bytes": 3006,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-38-paraguay-160.webp",
+          "format": "webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 4968,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-38-paraguay-320.avif",
+          "format": "avif",
+          "width": 320,
+          "height": 320,
+          "bytes": 5358,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-38-paraguay-320.webp",
+          "format": "webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 11114,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-38-paraguay-og.jpg",
+          "format": "jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 33289,
+          "budget_kb": 200
+        }
+      ]
+    },
+    {
+      "id": "bebe-ilustrado-semana-39-paraguay",
+      "file": "bebe-ilustrado-semana-39-paraguay",
+      "source": "E:/ai work/Projects/embarazo.2.1/worktrees/claude-embarazo.2.1/public/assets/semanas/bebe-39.webp",
+      "source_sha256": "6eef9f784c4045ad3db43057cf88e10a2e591ba7549fe318a5de95d06e3b4a22",
+      "alt_es": "Ilustración orientativa del bebé durante la semana 39 de embarazo, sin escala.",
+      "ratio": "1:1",
+      "url": null,
+      "job_id": null,
+      "generated_at": null,
+      "files": [
+        {
+          "file": "bebe-ilustrado-semana-39-paraguay-160.avif",
+          "format": "avif",
+          "width": 160,
+          "height": 160,
+          "bytes": 3015,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-39-paraguay-160.webp",
+          "format": "webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 5042,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-39-paraguay-320.avif",
+          "format": "avif",
+          "width": 320,
+          "height": 320,
+          "bytes": 5288,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-39-paraguay-320.webp",
+          "format": "webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 11230,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-39-paraguay-og.jpg",
+          "format": "jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 32936,
+          "budget_kb": 200
+        }
+      ]
+    },
+    {
+      "id": "bebe-ilustrado-semana-40-paraguay",
+      "file": "bebe-ilustrado-semana-40-paraguay",
+      "source": "E:/ai work/Projects/embarazo.2.1/worktrees/claude-embarazo.2.1/public/assets/semanas/bebe-40.webp",
+      "source_sha256": "22f4dd40b713b7ca1da1cdeebb414716d8fcc7e6d2c37f77c001cfad0bb88a78",
+      "alt_es": "Ilustración orientativa del bebé durante la semana 40 de embarazo, sin escala.",
+      "ratio": "1:1",
+      "url": null,
+      "job_id": null,
+      "generated_at": null,
+      "files": [
+        {
+          "file": "bebe-ilustrado-semana-40-paraguay-160.avif",
+          "format": "avif",
+          "width": 160,
+          "height": 160,
+          "bytes": 3105,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-40-paraguay-160.webp",
+          "format": "webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 5356,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-40-paraguay-320.avif",
+          "format": "avif",
+          "width": 320,
+          "height": 320,
+          "bytes": 5452,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-40-paraguay-320.webp",
+          "format": "webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 11982,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-40-paraguay-og.jpg",
+          "format": "jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 32482,
+          "budget_kb": 200
+        }
+      ]
+    },
+    {
+      "id": "bebe-ilustrado-semana-41-paraguay",
+      "file": "bebe-ilustrado-semana-41-paraguay",
+      "source": "E:/ai work/Projects/embarazo.2.1/worktrees/claude-embarazo.2.1/public/assets/semanas/bebe-41.webp",
+      "source_sha256": "2e8ce4e8e45fd1820f34f44292c4cd170a3f0b1f6bab39c8ec2a2897649ffa39",
+      "alt_es": "Ilustración orientativa del bebé durante la semana 41 de embarazo, sin escala.",
+      "ratio": "1:1",
+      "url": null,
+      "job_id": null,
+      "generated_at": null,
+      "files": [
+        {
+          "file": "bebe-ilustrado-semana-41-paraguay-160.avif",
+          "format": "avif",
+          "width": 160,
+          "height": 160,
+          "bytes": 3061,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-41-paraguay-160.webp",
+          "format": "webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 5082,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-41-paraguay-320.avif",
+          "format": "avif",
+          "width": 320,
+          "height": 320,
+          "bytes": 5421,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-41-paraguay-320.webp",
+          "format": "webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 11386,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-41-paraguay-og.jpg",
+          "format": "jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 31314,
+          "budget_kb": 200
+        }
+      ]
+    },
+    {
+      "id": "bebe-ilustrado-semana-42-paraguay",
+      "file": "bebe-ilustrado-semana-42-paraguay",
+      "source": "E:/ai work/Projects/embarazo.2.1/worktrees/claude-embarazo.2.1/public/assets/semanas/bebe-42.webp",
+      "source_sha256": "2424654f2e806a08c5a7bc785585f2618a6b4242474e9a237c13766c9e70dab7",
+      "alt_es": "Ilustración orientativa del bebé durante la semana 42 de embarazo, sin escala.",
+      "ratio": "1:1",
+      "url": null,
+      "job_id": null,
+      "generated_at": null,
+      "files": [
+        {
+          "file": "bebe-ilustrado-semana-42-paraguay-160.avif",
+          "format": "avif",
+          "width": 160,
+          "height": 160,
+          "bytes": 2995,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-42-paraguay-160.webp",
+          "format": "webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 4956,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-42-paraguay-320.avif",
+          "format": "avif",
+          "width": 320,
+          "height": 320,
+          "bytes": 5337,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-42-paraguay-320.webp",
+          "format": "webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 11364,
+          "budget_kb": 35
+        },
+        {
+          "file": "bebe-ilustrado-semana-42-paraguay-og.jpg",
+          "format": "jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 33776,
+          "budget_kb": 200
+        }
+      ]
+    },
+    {
+      "id": "referencia-semilla-de-amapola-embarazo-paraguay",
+      "file": "referencia-semilla-de-amapola-embarazo-paraguay",
+      "source": "E:/ai work/Projects/embarazo.2.1/worktrees/claude-embarazo.2.1/public/assets/comparaciones/semilla-de-amapola.webp",
+      "source_sha256": "f0cda73caefc2d19e338f227a531d50c182748f7271b49aa99f0bed13d8517bf",
+      "alt_es": "Ilustración de una semilla de amapola como referencia aproximada del embarazo, sin escala.",
+      "ratio": "1:1",
+      "url": null,
+      "job_id": null,
+      "generated_at": null,
+      "files": [
+        {
+          "file": "referencia-semilla-de-amapola-embarazo-paraguay-160.avif",
+          "format": "avif",
+          "width": 160,
+          "height": 160,
+          "bytes": 3574,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-semilla-de-amapola-embarazo-paraguay-160.webp",
+          "format": "webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 5342,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-semilla-de-amapola-embarazo-paraguay-320.avif",
+          "format": "avif",
+          "width": 320,
+          "height": 320,
+          "bytes": 7989,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-semilla-de-amapola-embarazo-paraguay-320.webp",
+          "format": "webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 15258,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-semilla-de-amapola-embarazo-paraguay-og.jpg",
+          "format": "jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 66016,
+          "budget_kb": 200
+        }
+      ]
+    },
+    {
+      "id": "referencia-grano-de-sesamo-embarazo-paraguay",
+      "file": "referencia-grano-de-sesamo-embarazo-paraguay",
+      "source": "E:/ai work/Projects/embarazo.2.1/worktrees/claude-embarazo.2.1/public/assets/comparaciones/grano-de-sesamo.webp",
+      "source_sha256": "7a329f610956c370d1cd1b89e6b93a1d8fdf8534529a2aeb32ca28658a521c7b",
+      "alt_es": "Ilustración de un grano de sésamo como referencia aproximada del embarazo, sin escala.",
+      "ratio": "1:1",
+      "url": null,
+      "job_id": null,
+      "generated_at": null,
+      "files": [
+        {
+          "file": "referencia-grano-de-sesamo-embarazo-paraguay-160.avif",
+          "format": "avif",
+          "width": 160,
+          "height": 160,
+          "bytes": 2358,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-grano-de-sesamo-embarazo-paraguay-160.webp",
+          "format": "webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 3870,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-grano-de-sesamo-embarazo-paraguay-320.avif",
+          "format": "avif",
+          "width": 320,
+          "height": 320,
+          "bytes": 3910,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-grano-de-sesamo-embarazo-paraguay-320.webp",
+          "format": "webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 9056,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-grano-de-sesamo-embarazo-paraguay-og.jpg",
+          "format": "jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 26199,
+          "budget_kb": 200
+        }
+      ]
+    },
+    {
+      "id": "referencia-lenteja-embarazo-paraguay",
+      "file": "referencia-lenteja-embarazo-paraguay",
+      "source": "E:/ai work/Projects/embarazo.2.1/worktrees/claude-embarazo.2.1/public/assets/comparaciones/lenteja.webp",
+      "source_sha256": "41e36787e792ce5c75e4820cf6ae6df724cc973521b1edde913846899813d771",
+      "alt_es": "Ilustración de una lenteja como referencia aproximada del embarazo, sin escala.",
+      "ratio": "1:1",
+      "url": null,
+      "job_id": null,
+      "generated_at": null,
+      "files": [
+        {
+          "file": "referencia-lenteja-embarazo-paraguay-160.avif",
+          "format": "avif",
+          "width": 160,
+          "height": 160,
+          "bytes": 2304,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-lenteja-embarazo-paraguay-160.webp",
+          "format": "webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 3902,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-lenteja-embarazo-paraguay-320.avif",
+          "format": "avif",
+          "width": 320,
+          "height": 320,
+          "bytes": 3853,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-lenteja-embarazo-paraguay-320.webp",
+          "format": "webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 9222,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-lenteja-embarazo-paraguay-og.jpg",
+          "format": "jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 54168,
+          "budget_kb": 200
+        }
+      ]
+    },
+    {
+      "id": "referencia-grano-de-maiz-embarazo-paraguay",
+      "file": "referencia-grano-de-maiz-embarazo-paraguay",
+      "source": "E:/ai work/Projects/embarazo.2.1/worktrees/claude-embarazo.2.1/public/assets/comparaciones/grano-de-maiz.webp",
+      "source_sha256": "f052433f35a12da787749f38a12c53e1f19a2524e5d72bc7bc203bc7e2ffe31e",
+      "alt_es": "Ilustración de un grano de maíz como referencia aproximada del embarazo, sin escala.",
+      "ratio": "1:1",
+      "url": null,
+      "job_id": null,
+      "generated_at": null,
+      "files": [
+        {
+          "file": "referencia-grano-de-maiz-embarazo-paraguay-160.avif",
+          "format": "avif",
+          "width": 160,
+          "height": 160,
+          "bytes": 2545,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-grano-de-maiz-embarazo-paraguay-160.webp",
+          "format": "webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 3932,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-grano-de-maiz-embarazo-paraguay-320.avif",
+          "format": "avif",
+          "width": 320,
+          "height": 320,
+          "bytes": 4270,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-grano-de-maiz-embarazo-paraguay-320.webp",
+          "format": "webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 8864,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-grano-de-maiz-embarazo-paraguay-og.jpg",
+          "format": "jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 26772,
+          "budget_kb": 200
+        }
+      ]
+    },
+    {
+      "id": "referencia-poroto-embarazo-paraguay",
+      "file": "referencia-poroto-embarazo-paraguay",
+      "source": "E:/ai work/Projects/embarazo.2.1/worktrees/claude-embarazo.2.1/public/assets/comparaciones/poroto.webp",
+      "source_sha256": "758d019c4c8536268215c31b9cd358e956f6cd7bb1ff9f69f73c6fb80c5fac46",
+      "alt_es": "Ilustración de un poroto como referencia aproximada del embarazo, sin escala.",
+      "ratio": "1:1",
+      "url": null,
+      "job_id": null,
+      "generated_at": null,
+      "files": [
+        {
+          "file": "referencia-poroto-embarazo-paraguay-160.avif",
+          "format": "avif",
+          "width": 160,
+          "height": 160,
+          "bytes": 4019,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-poroto-embarazo-paraguay-160.webp",
+          "format": "webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 5614,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-poroto-embarazo-paraguay-320.avif",
+          "format": "avif",
+          "width": 320,
+          "height": 320,
+          "bytes": 7662,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-poroto-embarazo-paraguay-320.webp",
+          "format": "webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 13522,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-poroto-embarazo-paraguay-og.jpg",
+          "format": "jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 52940,
+          "budget_kb": 200
+        }
+      ]
+    },
+    {
+      "id": "referencia-aceituna-embarazo-paraguay",
+      "file": "referencia-aceituna-embarazo-paraguay",
+      "source": "E:/ai work/Projects/embarazo.2.1/worktrees/claude-embarazo.2.1/public/assets/comparaciones/aceituna.webp",
+      "source_sha256": "266494e8241ad6a11b6b8d7016b5a20a860d40d5c1a6463fe3ac15ed9099ea06",
+      "alt_es": "Ilustración de una aceituna como referencia aproximada del embarazo, sin escala.",
+      "ratio": "1:1",
+      "url": null,
+      "job_id": null,
+      "generated_at": null,
+      "files": [
+        {
+          "file": "referencia-aceituna-embarazo-paraguay-160.avif",
+          "format": "avif",
+          "width": 160,
+          "height": 160,
+          "bytes": 2908,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-aceituna-embarazo-paraguay-160.webp",
+          "format": "webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 5042,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-aceituna-embarazo-paraguay-320.avif",
+          "format": "avif",
+          "width": 320,
+          "height": 320,
+          "bytes": 5224,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-aceituna-embarazo-paraguay-320.webp",
+          "format": "webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 11632,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-aceituna-embarazo-paraguay-og.jpg",
+          "format": "jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 50936,
+          "budget_kb": 200
+        }
+      ]
+    },
+    {
+      "id": "referencia-guinda-embarazo-paraguay",
+      "file": "referencia-guinda-embarazo-paraguay",
+      "source": "E:/ai work/Projects/embarazo.2.1/worktrees/claude-embarazo.2.1/public/assets/comparaciones/guinda.webp",
+      "source_sha256": "b94dd7c5255a99907cab761638fa24518b433841d31f1aead3dfad8be22e31e1",
+      "alt_es": "Ilustración de una guinda como referencia aproximada del embarazo, sin escala.",
+      "ratio": "1:1",
+      "url": null,
+      "job_id": null,
+      "generated_at": null,
+      "files": [
+        {
+          "file": "referencia-guinda-embarazo-paraguay-160.avif",
+          "format": "avif",
+          "width": 160,
+          "height": 160,
+          "bytes": 2356,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-guinda-embarazo-paraguay-160.webp",
+          "format": "webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 3678,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-guinda-embarazo-paraguay-320.avif",
+          "format": "avif",
+          "width": 320,
+          "height": 320,
+          "bytes": 4253,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-guinda-embarazo-paraguay-320.webp",
+          "format": "webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 9180,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-guinda-embarazo-paraguay-og.jpg",
+          "format": "jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 30262,
+          "budget_kb": 200
+        }
+      ]
+    },
+    {
+      "id": "referencia-frutilla-embarazo-paraguay",
+      "file": "referencia-frutilla-embarazo-paraguay",
+      "source": "E:/ai work/Projects/embarazo.2.1/worktrees/claude-embarazo.2.1/public/assets/comparaciones/frutilla.webp",
+      "source_sha256": "2c9e6d193cf60d48c89b22607d07ddad5699c88e69da1621dd894c2be6056192",
+      "alt_es": "Ilustración de una frutilla como referencia aproximada del embarazo, sin escala.",
+      "ratio": "1:1",
+      "url": null,
+      "job_id": null,
+      "generated_at": null,
+      "files": [
+        {
+          "file": "referencia-frutilla-embarazo-paraguay-160.avif",
+          "format": "avif",
+          "width": 160,
+          "height": 160,
+          "bytes": 4441,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-frutilla-embarazo-paraguay-160.webp",
+          "format": "webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 5962,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-frutilla-embarazo-paraguay-320.avif",
+          "format": "avif",
+          "width": 320,
+          "height": 320,
+          "bytes": 9100,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-frutilla-embarazo-paraguay-320.webp",
+          "format": "webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 15148,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-frutilla-embarazo-paraguay-og.jpg",
+          "format": "jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 74763,
+          "budget_kb": 200
+        }
+      ]
+    },
+    {
+      "id": "referencia-lima-embarazo-paraguay",
+      "file": "referencia-lima-embarazo-paraguay",
+      "source": "E:/ai work/Projects/embarazo.2.1/worktrees/claude-embarazo.2.1/public/assets/comparaciones/lima.webp",
+      "source_sha256": "cdf250ea06d031f4502f0411865b326491d3b499f126b1b71fcefcfd2756cef4",
+      "alt_es": "Ilustración de una lima como referencia aproximada del embarazo, sin escala.",
+      "ratio": "1:1",
+      "url": null,
+      "job_id": null,
+      "generated_at": null,
+      "files": [
+        {
+          "file": "referencia-lima-embarazo-paraguay-160.avif",
+          "format": "avif",
+          "width": 160,
+          "height": 160,
+          "bytes": 3242,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-lima-embarazo-paraguay-160.webp",
+          "format": "webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 5052,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-lima-embarazo-paraguay-320.avif",
+          "format": "avif",
+          "width": 320,
+          "height": 320,
+          "bytes": 6569,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-lima-embarazo-paraguay-320.webp",
+          "format": "webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 12842,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-lima-embarazo-paraguay-og.jpg",
+          "format": "jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 75702,
+          "budget_kb": 200
+        }
+      ]
+    },
+    {
+      "id": "referencia-limon-embarazo-paraguay",
+      "file": "referencia-limon-embarazo-paraguay",
+      "source": "E:/ai work/Projects/embarazo.2.1/worktrees/claude-embarazo.2.1/public/assets/comparaciones/limon.webp",
+      "source_sha256": "26c0d0d1ed7340d9a16a626bd698346d55eaf25b8a83b66072518bbff7dee65d",
+      "alt_es": "Ilustración de un limón como referencia aproximada del embarazo, sin escala.",
+      "ratio": "1:1",
+      "url": null,
+      "job_id": null,
+      "generated_at": null,
+      "files": [
+        {
+          "file": "referencia-limon-embarazo-paraguay-160.avif",
+          "format": "avif",
+          "width": 160,
+          "height": 160,
+          "bytes": 3171,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-limon-embarazo-paraguay-160.webp",
+          "format": "webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 4798,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-limon-embarazo-paraguay-320.avif",
+          "format": "avif",
+          "width": 320,
+          "height": 320,
+          "bytes": 6202,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-limon-embarazo-paraguay-320.webp",
+          "format": "webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 11744,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-limon-embarazo-paraguay-og.jpg",
+          "format": "jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 40212,
+          "budget_kb": 200
+        }
+      ]
+    },
+    {
+      "id": "referencia-durazno-embarazo-paraguay",
+      "file": "referencia-durazno-embarazo-paraguay",
+      "source": "E:/ai work/Projects/embarazo.2.1/worktrees/claude-embarazo.2.1/public/assets/comparaciones/durazno.webp",
+      "source_sha256": "dc93c8ccde0f3307d02972d003d7d1b506906360dfff06b2d6ea5fa600189f04",
+      "alt_es": "Ilustración de un durazno como referencia aproximada del embarazo, sin escala.",
+      "ratio": "1:1",
+      "url": null,
+      "job_id": null,
+      "generated_at": null,
+      "files": [
+        {
+          "file": "referencia-durazno-embarazo-paraguay-160.avif",
+          "format": "avif",
+          "width": 160,
+          "height": 160,
+          "bytes": 3292,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-durazno-embarazo-paraguay-160.webp",
+          "format": "webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 5318,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-durazno-embarazo-paraguay-320.avif",
+          "format": "avif",
+          "width": 320,
+          "height": 320,
+          "bytes": 6561,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-durazno-embarazo-paraguay-320.webp",
+          "format": "webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 14186,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-durazno-embarazo-paraguay-og.jpg",
+          "format": "jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 88843,
+          "budget_kb": 200
+        }
+      ]
+    },
+    {
+      "id": "referencia-manzana-embarazo-paraguay",
+      "file": "referencia-manzana-embarazo-paraguay",
+      "source": "E:/ai work/Projects/embarazo.2.1/worktrees/claude-embarazo.2.1/public/assets/comparaciones/manzana.svg",
+      "source_sha256": "d65e26c24a7b48a0382336eb5c760c1a7ca7009e9401cb5ec825652b27677187",
+      "alt_es": "Ilustración de una manzana como referencia aproximada del embarazo, sin escala.",
+      "ratio": "1:1",
+      "url": null,
+      "job_id": null,
+      "generated_at": null,
+      "files": [
+        {
+          "file": "referencia-manzana-embarazo-paraguay-160.avif",
+          "format": "avif",
+          "width": 160,
+          "height": 160,
+          "bytes": 3594,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-manzana-embarazo-paraguay-160.webp",
+          "format": "webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 4330,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-manzana-embarazo-paraguay-320.avif",
+          "format": "avif",
+          "width": 320,
+          "height": 320,
+          "bytes": 6191,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-manzana-embarazo-paraguay-320.webp",
+          "format": "webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 8584,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-manzana-embarazo-paraguay-og.jpg",
+          "format": "jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 13469,
+          "budget_kb": 200
+        }
+      ]
+    },
+    {
+      "id": "referencia-palta-pequena-embarazo-paraguay",
+      "file": "referencia-palta-pequena-embarazo-paraguay",
+      "source": "E:/ai work/Projects/embarazo.2.1/worktrees/claude-embarazo.2.1/public/assets/comparaciones/palta-pequena.webp",
+      "source_sha256": "a3b3ecf5ca959401deb3accd1bd163197c5f89025d8c7d8e03d39f3e1de84ad0",
+      "alt_es": "Ilustración de una palta como referencia aproximada del embarazo, sin escala.",
+      "ratio": "1:1",
+      "url": null,
+      "job_id": null,
+      "generated_at": null,
+      "files": [
+        {
+          "file": "referencia-palta-pequena-embarazo-paraguay-160.avif",
+          "format": "avif",
+          "width": 160,
+          "height": 160,
+          "bytes": 2421,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-palta-pequena-embarazo-paraguay-160.webp",
+          "format": "webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 3792,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-palta-pequena-embarazo-paraguay-320.avif",
+          "format": "avif",
+          "width": 320,
+          "height": 320,
+          "bytes": 4589,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-palta-pequena-embarazo-paraguay-320.webp",
+          "format": "webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 9222,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-palta-pequena-embarazo-paraguay-og.jpg",
+          "format": "jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 43274,
+          "budget_kb": 200
+        }
+      ]
+    },
+    {
+      "id": "referencia-pera-embarazo-paraguay",
+      "file": "referencia-pera-embarazo-paraguay",
+      "source": "E:/ai work/Projects/embarazo.2.1/worktrees/claude-embarazo.2.1/public/assets/comparaciones/pera.svg",
+      "source_sha256": "4f05e5f3a0ed46c0d1e3c324adb95ab34b9778117847e4b51de43c59e1fd1ef3",
+      "alt_es": "Ilustración de una pera como referencia aproximada del embarazo, sin escala.",
+      "ratio": "1:1",
+      "url": null,
+      "job_id": null,
+      "generated_at": null,
+      "files": [
+        {
+          "file": "referencia-pera-embarazo-paraguay-160.avif",
+          "format": "avif",
+          "width": 160,
+          "height": 160,
+          "bytes": 3288,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-pera-embarazo-paraguay-160.webp",
+          "format": "webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 4004,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-pera-embarazo-paraguay-320.avif",
+          "format": "avif",
+          "width": 320,
+          "height": 320,
+          "bytes": 5303,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-pera-embarazo-paraguay-320.webp",
+          "format": "webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 7512,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-pera-embarazo-paraguay-og.jpg",
+          "format": "jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 9504,
+          "budget_kb": 200
+        }
+      ]
+    },
+    {
+      "id": "referencia-mango-embarazo-paraguay",
+      "file": "referencia-mango-embarazo-paraguay",
+      "source": "E:/ai work/Projects/embarazo.2.1/worktrees/claude-embarazo.2.1/public/assets/comparaciones/mango.webp",
+      "source_sha256": "9c5741a429cea6c4b45563681bb7c1d94fd875a5454510207bcff1f4b8b7df2e",
+      "alt_es": "Ilustración de un mango como referencia aproximada del embarazo, sin escala.",
+      "ratio": "1:1",
+      "url": null,
+      "job_id": null,
+      "generated_at": null,
+      "files": [
+        {
+          "file": "referencia-mango-embarazo-paraguay-160.avif",
+          "format": "avif",
+          "width": 160,
+          "height": 160,
+          "bytes": 3199,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-mango-embarazo-paraguay-160.webp",
+          "format": "webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 5054,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-mango-embarazo-paraguay-320.avif",
+          "format": "avif",
+          "width": 320,
+          "height": 320,
+          "bytes": 6493,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-mango-embarazo-paraguay-320.webp",
+          "format": "webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 12798,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-mango-embarazo-paraguay-og.jpg",
+          "format": "jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 59786,
+          "budget_kb": 200
+        }
+      ]
+    },
+    {
+      "id": "referencia-pomelo-embarazo-paraguay",
+      "file": "referencia-pomelo-embarazo-paraguay",
+      "source": "E:/ai work/Projects/embarazo.2.1/worktrees/claude-embarazo.2.1/public/assets/comparaciones/pomelo.webp",
+      "source_sha256": "a807da2ab561dfdcc2ac77bab4e48178f93f0298c14b1fc99a7a26c28a290881",
+      "alt_es": "Ilustración de un pomelo como referencia aproximada del embarazo, sin escala.",
+      "ratio": "1:1",
+      "url": null,
+      "job_id": null,
+      "generated_at": null,
+      "files": [
+        {
+          "file": "referencia-pomelo-embarazo-paraguay-160.avif",
+          "format": "avif",
+          "width": 160,
+          "height": 160,
+          "bytes": 4185,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-pomelo-embarazo-paraguay-160.webp",
+          "format": "webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 6446,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-pomelo-embarazo-paraguay-320.avif",
+          "format": "avif",
+          "width": 320,
+          "height": 320,
+          "bytes": 9072,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-pomelo-embarazo-paraguay-320.webp",
+          "format": "webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 17218,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-pomelo-embarazo-paraguay-og.jpg",
+          "format": "jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 71125,
+          "budget_kb": 200
+        }
+      ]
+    },
+    {
+      "id": "referencia-coco-embarazo-paraguay",
+      "file": "referencia-coco-embarazo-paraguay",
+      "source": "E:/ai work/Projects/embarazo.2.1/worktrees/claude-embarazo.2.1/public/assets/comparaciones/coco.webp",
+      "source_sha256": "d4942d4cc79d06a8b7a085c8d53e970f8db2a53357a97144ed26b61b21f6ddd2",
+      "alt_es": "Ilustración de un coco como referencia aproximada del embarazo, sin escala.",
+      "ratio": "1:1",
+      "url": null,
+      "job_id": null,
+      "generated_at": null,
+      "files": [
+        {
+          "file": "referencia-coco-embarazo-paraguay-160.avif",
+          "format": "avif",
+          "width": 160,
+          "height": 160,
+          "bytes": 4746,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-coco-embarazo-paraguay-160.webp",
+          "format": "webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 7866,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-coco-embarazo-paraguay-320.avif",
+          "format": "avif",
+          "width": 320,
+          "height": 320,
+          "bytes": 10705,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-coco-embarazo-paraguay-320.webp",
+          "format": "webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 22790,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-coco-embarazo-paraguay-og.jpg",
+          "format": "jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 77716,
+          "budget_kb": 200
+        }
+      ]
+    },
+    {
+      "id": "referencia-melon-pequeno-embarazo-paraguay",
+      "file": "referencia-melon-pequeno-embarazo-paraguay",
+      "source": "E:/ai work/Projects/embarazo.2.1/worktrees/claude-embarazo.2.1/public/assets/comparaciones/melon-pequeno.webp",
+      "source_sha256": "ae05509375a2e734ef25c349361a8f4bf2b882c9429e89c92717e959bde354e5",
+      "alt_es": "Ilustración de un melón pequeño como referencia aproximada del embarazo, sin escala.",
+      "ratio": "1:1",
+      "url": null,
+      "job_id": null,
+      "generated_at": null,
+      "files": [
+        {
+          "file": "referencia-melon-pequeno-embarazo-paraguay-160.avif",
+          "format": "avif",
+          "width": 160,
+          "height": 160,
+          "bytes": 4526,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-melon-pequeno-embarazo-paraguay-160.webp",
+          "format": "webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 7674,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-melon-pequeno-embarazo-paraguay-320.avif",
+          "format": "avif",
+          "width": 320,
+          "height": 320,
+          "bytes": 11615,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-melon-pequeno-embarazo-paraguay-320.webp",
+          "format": "webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 21864,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-melon-pequeno-embarazo-paraguay-og.jpg",
+          "format": "jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 96443,
+          "budget_kb": 200
+        }
+      ]
+    },
+    {
+      "id": "referencia-melon-embarazo-paraguay",
+      "file": "referencia-melon-embarazo-paraguay",
+      "source": "E:/ai work/Projects/embarazo.2.1/worktrees/claude-embarazo.2.1/public/assets/comparaciones/melon.webp",
+      "source_sha256": "704fbac42ea9c2baec45cac848e7b88574593ebeb233bf674f2caa2b189e6ba3",
+      "alt_es": "Ilustración de un melón como referencia aproximada del embarazo, sin escala.",
+      "ratio": "1:1",
+      "url": null,
+      "job_id": null,
+      "generated_at": null,
+      "files": [
+        {
+          "file": "referencia-melon-embarazo-paraguay-160.avif",
+          "format": "avif",
+          "width": 160,
+          "height": 160,
+          "bytes": 4766,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-melon-embarazo-paraguay-160.webp",
+          "format": "webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 8278,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-melon-embarazo-paraguay-320.avif",
+          "format": "avif",
+          "width": 320,
+          "height": 320,
+          "bytes": 10668,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-melon-embarazo-paraguay-320.webp",
+          "format": "webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 21380,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-melon-embarazo-paraguay-og.jpg",
+          "format": "jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 83786,
+          "budget_kb": 200
+        }
+      ]
+    },
+    {
+      "id": "referencia-anana-embarazo-paraguay",
+      "file": "referencia-anana-embarazo-paraguay",
+      "source": "E:/ai work/Projects/embarazo.2.1/worktrees/claude-embarazo.2.1/public/assets/comparaciones/anana.webp",
+      "source_sha256": "b1049b0a51c9f449f602981bfb8cce436f7d5ed9485930f96a6ee8a910cd1f21",
+      "alt_es": "Ilustración de un ananá como referencia aproximada del embarazo, sin escala.",
+      "ratio": "1:1",
+      "url": null,
+      "job_id": null,
+      "generated_at": null,
+      "files": [
+        {
+          "file": "referencia-anana-embarazo-paraguay-160.avif",
+          "format": "avif",
+          "width": 160,
+          "height": 160,
+          "bytes": 5141,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-anana-embarazo-paraguay-160.webp",
+          "format": "webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 6542,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-anana-embarazo-paraguay-320.avif",
+          "format": "avif",
+          "width": 320,
+          "height": 320,
+          "bytes": 11373,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-anana-embarazo-paraguay-320.webp",
+          "format": "webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 17774,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-anana-embarazo-paraguay-og.jpg",
+          "format": "jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 54490,
+          "budget_kb": 200
+        }
+      ]
+    },
+    {
+      "id": "referencia-sandia-pequena-embarazo-paraguay",
+      "file": "referencia-sandia-pequena-embarazo-paraguay",
+      "source": "E:/ai work/Projects/embarazo.2.1/worktrees/claude-embarazo.2.1/public/assets/comparaciones/sandia-pequena.webp",
+      "source_sha256": "49bb30279d325773ec81671fa99caaab7d04ef8393f9e7c0d0720699c82d35ed",
+      "alt_es": "Ilustración de una sandía pequeña como referencia aproximada del embarazo, sin escala.",
+      "ratio": "1:1",
+      "url": null,
+      "job_id": null,
+      "generated_at": null,
+      "files": [
+        {
+          "file": "referencia-sandia-pequena-embarazo-paraguay-160.avif",
+          "format": "avif",
+          "width": 160,
+          "height": 160,
+          "bytes": 4245,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-sandia-pequena-embarazo-paraguay-160.webp",
+          "format": "webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 5846,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-sandia-pequena-embarazo-paraguay-320.avif",
+          "format": "avif",
+          "width": 320,
+          "height": 320,
+          "bytes": 9017,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-sandia-pequena-embarazo-paraguay-320.webp",
+          "format": "webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 14784,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-sandia-pequena-embarazo-paraguay-og.jpg",
+          "format": "jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 70069,
+          "budget_kb": 200
+        }
+      ]
+    },
+    {
+      "id": "referencia-sandia-embarazo-paraguay",
+      "file": "referencia-sandia-embarazo-paraguay",
+      "source": "E:/ai work/Projects/embarazo.2.1/worktrees/claude-embarazo.2.1/public/assets/comparaciones/sandia.webp",
+      "source_sha256": "9f00052bfe4a90761cf246f68223814a956173fc4034eb6261bc0c89119108e4",
+      "alt_es": "Ilustración de una sandía como referencia aproximada del embarazo, sin escala.",
+      "ratio": "1:1",
+      "url": null,
+      "job_id": null,
+      "generated_at": null,
+      "files": [
+        {
+          "file": "referencia-sandia-embarazo-paraguay-160.avif",
+          "format": "avif",
+          "width": 160,
+          "height": 160,
+          "bytes": 3933,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-sandia-embarazo-paraguay-160.webp",
+          "format": "webp",
+          "width": 160,
+          "height": 160,
+          "bytes": 5888,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-sandia-embarazo-paraguay-320.avif",
+          "format": "avif",
+          "width": 320,
+          "height": 320,
+          "bytes": 7732,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-sandia-embarazo-paraguay-320.webp",
+          "format": "webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 13662,
+          "budget_kb": 35
+        },
+        {
+          "file": "referencia-sandia-embarazo-paraguay-og.jpg",
+          "format": "jpg",
+          "width": 1200,
+          "height": 630,
+          "bytes": 76895,
+          "budget_kb": 200
+        }
+      ]
+    }
+  ],
+  "weeks": [
+    {
+      "week": 3,
+      "baby": "bebe-ilustrado-semana-3-paraguay",
+      "comparison": null,
+      "basis": null
+    },
+    {
+      "week": 4,
+      "baby": "bebe-ilustrado-semana-4-paraguay",
+      "comparison": "referencia-semilla-de-amapola-embarazo-paraguay",
+      "basis": "length"
+    },
+    {
+      "week": 5,
+      "baby": "bebe-ilustrado-semana-5-paraguay",
+      "comparison": "referencia-grano-de-sesamo-embarazo-paraguay",
+      "basis": "length"
+    },
+    {
+      "week": 6,
+      "baby": "bebe-ilustrado-semana-6-paraguay",
+      "comparison": "referencia-lenteja-embarazo-paraguay",
+      "basis": "length"
+    },
+    {
+      "week": 7,
+      "baby": "bebe-ilustrado-semana-7-paraguay",
+      "comparison": "referencia-grano-de-maiz-embarazo-paraguay",
+      "basis": "length"
+    },
+    {
+      "week": 8,
+      "baby": "bebe-ilustrado-semana-8-paraguay",
+      "comparison": "referencia-poroto-embarazo-paraguay",
+      "basis": "length"
+    },
+    {
+      "week": 9,
+      "baby": "bebe-ilustrado-semana-9-paraguay",
+      "comparison": "referencia-aceituna-embarazo-paraguay",
+      "basis": "length"
+    },
+    {
+      "week": 10,
+      "baby": "bebe-ilustrado-semana-10-paraguay",
+      "comparison": "referencia-guinda-embarazo-paraguay",
+      "basis": "length"
+    },
+    {
+      "week": 11,
+      "baby": "bebe-ilustrado-semana-11-paraguay",
+      "comparison": "referencia-frutilla-embarazo-paraguay",
+      "basis": "length"
+    },
+    {
+      "week": 12,
+      "baby": "bebe-ilustrado-semana-12-paraguay",
+      "comparison": "referencia-lima-embarazo-paraguay",
+      "basis": "length"
+    },
+    {
+      "week": 13,
+      "baby": "bebe-ilustrado-semana-13-paraguay",
+      "comparison": "referencia-limon-embarazo-paraguay",
+      "basis": "length"
+    },
+    {
+      "week": 14,
+      "baby": "bebe-ilustrado-semana-14-paraguay",
+      "comparison": "referencia-durazno-embarazo-paraguay",
+      "basis": "length"
+    },
+    {
+      "week": 15,
+      "baby": "bebe-ilustrado-semana-15-paraguay",
+      "comparison": "referencia-manzana-embarazo-paraguay",
+      "basis": "length"
+    },
+    {
+      "week": 16,
+      "baby": "bebe-ilustrado-semana-16-paraguay",
+      "comparison": "referencia-palta-pequena-embarazo-paraguay",
+      "basis": "length"
+    },
+    {
+      "week": 17,
+      "baby": "bebe-ilustrado-semana-17-paraguay",
+      "comparison": "referencia-pera-embarazo-paraguay",
+      "basis": "length"
+    },
+    {
+      "week": 18,
+      "baby": "bebe-ilustrado-semana-18-paraguay",
+      "comparison": "referencia-mango-embarazo-paraguay",
+      "basis": "length"
+    },
+    {
+      "week": 19,
+      "baby": "bebe-ilustrado-semana-19-paraguay",
+      "comparison": "referencia-mango-embarazo-paraguay",
+      "basis": "length"
+    },
+    {
+      "week": 20,
+      "baby": "bebe-ilustrado-semana-20-paraguay",
+      "comparison": "referencia-mango-embarazo-paraguay",
+      "basis": "weight"
+    },
+    {
+      "week": 21,
+      "baby": "bebe-ilustrado-semana-21-paraguay",
+      "comparison": "referencia-mango-embarazo-paraguay",
+      "basis": "weight"
+    },
+    {
+      "week": 22,
+      "baby": "bebe-ilustrado-semana-22-paraguay",
+      "comparison": "referencia-pomelo-embarazo-paraguay",
+      "basis": "weight"
+    },
+    {
+      "week": 23,
+      "baby": "bebe-ilustrado-semana-23-paraguay",
+      "comparison": "referencia-pomelo-embarazo-paraguay",
+      "basis": "weight"
+    },
+    {
+      "week": 24,
+      "baby": "bebe-ilustrado-semana-24-paraguay",
+      "comparison": "referencia-coco-embarazo-paraguay",
+      "basis": "weight"
+    },
+    {
+      "week": 25,
+      "baby": "bebe-ilustrado-semana-25-paraguay",
+      "comparison": "referencia-coco-embarazo-paraguay",
+      "basis": "weight"
+    },
+    {
+      "week": 26,
+      "baby": "bebe-ilustrado-semana-26-paraguay",
+      "comparison": "referencia-coco-embarazo-paraguay",
+      "basis": "weight"
+    },
+    {
+      "week": 27,
+      "baby": "bebe-ilustrado-semana-27-paraguay",
+      "comparison": "referencia-melon-pequeno-embarazo-paraguay",
+      "basis": "weight"
+    },
+    {
+      "week": 28,
+      "baby": "bebe-ilustrado-semana-28-paraguay",
+      "comparison": "referencia-melon-pequeno-embarazo-paraguay",
+      "basis": "weight"
+    },
+    {
+      "week": 29,
+      "baby": "bebe-ilustrado-semana-29-paraguay",
+      "comparison": "referencia-melon-embarazo-paraguay",
+      "basis": "weight"
+    },
+    {
+      "week": 30,
+      "baby": "bebe-ilustrado-semana-30-paraguay",
+      "comparison": "referencia-melon-embarazo-paraguay",
+      "basis": "weight"
+    },
+    {
+      "week": 31,
+      "baby": "bebe-ilustrado-semana-31-paraguay",
+      "comparison": "referencia-anana-embarazo-paraguay",
+      "basis": "weight"
+    },
+    {
+      "week": 32,
+      "baby": "bebe-ilustrado-semana-32-paraguay",
+      "comparison": "referencia-anana-embarazo-paraguay",
+      "basis": "weight"
+    },
+    {
+      "week": 33,
+      "baby": "bebe-ilustrado-semana-33-paraguay",
+      "comparison": "referencia-anana-embarazo-paraguay",
+      "basis": "weight"
+    },
+    {
+      "week": 34,
+      "baby": "bebe-ilustrado-semana-34-paraguay",
+      "comparison": "referencia-melon-embarazo-paraguay",
+      "basis": "weight"
+    },
+    {
+      "week": 35,
+      "baby": "bebe-ilustrado-semana-35-paraguay",
+      "comparison": "referencia-melon-embarazo-paraguay",
+      "basis": "weight"
+    },
+    {
+      "week": 36,
+      "baby": "bebe-ilustrado-semana-36-paraguay",
+      "comparison": "referencia-sandia-pequena-embarazo-paraguay",
+      "basis": "weight"
+    },
+    {
+      "week": 37,
+      "baby": "bebe-ilustrado-semana-37-paraguay",
+      "comparison": "referencia-sandia-pequena-embarazo-paraguay",
+      "basis": "weight"
+    },
+    {
+      "week": 38,
+      "baby": "bebe-ilustrado-semana-38-paraguay",
+      "comparison": "referencia-sandia-embarazo-paraguay",
+      "basis": "weight"
+    },
+    {
+      "week": 39,
+      "baby": "bebe-ilustrado-semana-39-paraguay",
+      "comparison": "referencia-sandia-embarazo-paraguay",
+      "basis": "weight"
+    },
+    {
+      "week": 40,
+      "baby": "bebe-ilustrado-semana-40-paraguay",
+      "comparison": "referencia-sandia-embarazo-paraguay",
+      "basis": "weight"
+    },
+    {
+      "week": 41,
+      "baby": "bebe-ilustrado-semana-41-paraguay",
+      "comparison": "referencia-sandia-embarazo-paraguay",
+      "basis": "weight"
+    },
+    {
+      "week": 42,
+      "baby": "bebe-ilustrado-semana-42-paraguay",
+      "comparison": "referencia-sandia-embarazo-paraguay",
+      "basis": "weight"
+    }
+  ],
+  "conversion_tool": "webimg 0.2.0, existing tool/dependencies reused; SVG apple/pear rasterized from vectors before conversion",
+  "converted_at": "2026-10-15"
+}

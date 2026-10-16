@@ -1,5 +1,29 @@
 (function () {
   'use strict';
+  var root = document.querySelector('[data-week-overview]');
+  if (!root) return;
+  var controls = root.querySelector('[data-week-controls]');
+  controls.hidden = false;
+  controls.querySelectorAll('[data-week-view]').forEach(function (button) {
+    button.addEventListener('click', function () {
+      var mode = button.dataset.weekView;
+      controls.querySelectorAll('[data-week-view]').forEach(function (choice) {
+        choice.setAttribute('aria-pressed', String(choice === button));
+      });
+      root.querySelectorAll('[data-week-picture]').forEach(function (picture) {
+        picture.querySelectorAll('source').forEach(function (source) {
+          source.srcset = source.dataset[mode + 'Srcset'];
+        });
+        var image = picture.querySelector('img');
+        image.src = image.dataset[mode + 'Src'];
+        image.alt = image.dataset[mode + 'Alt'];
+      });
+    });
+  });
+}());
+
+(function () {
+  'use strict';
   var root = document.querySelector('[data-install-root]');
   if (!root) return;
   var ua = navigator.userAgent;

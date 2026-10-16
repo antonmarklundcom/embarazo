@@ -20,7 +20,16 @@ require ROOT_DIR . '/partials/head.php'; require ROOT_DIR . '/partials/header.ph
 <?php foreach ($hbRecord['intro'] ?? [$hbRecord['lead'] ?? ''] as $hbParagraph): ?><p class="lead"><?= rich($hbParagraph) ?></p><?php endforeach; ?></div></header>
 <?php $hbPic = picture($hbRecord['image'] ?? [], '(min-width: 1200px) 1152px, calc(100vw - 32px)', 'eager'); if ($hbPic !== ''): ?><figure class="hub-figure"><?= $hbPic ?></figure><?php endif; unset($hbPic); ?>
 <?php if ($hbWeeks): ?>
-<?php foreach (content('trimestres') as $hbNumber => $hbTrimester): ?><section class="section--tight"><h2><a class="link-arrow" href="<?= e('/trimestre/' . $hbNumber . '/') ?>"><?= e($hbTrimester['title']) ?></a></h2><?php $gridWeeks = $hbTrimester['weeks']; require ROOT_DIR . '/partials/week-grid.php'; ?></section><?php endforeach; ?>
+<div class="week-overview" data-week-overview>
+<div class="week-overview__controls" data-week-controls hidden role="group" aria-label="<?= e(content('week-overview')['selector']) ?>">
+<button type="button" class="btn btn--secondary" data-week-view="baby" aria-pressed="true"><?= e(content('week-overview')['babyLabel']) ?></button>
+<button type="button" class="btn btn--secondary" data-week-view="food" aria-pressed="false"><?= e(content('week-overview')['foodLabel']) ?></button>
+</div>
+<p class="week-overview__note"><?= e(content('week-overview')['caption']) ?></p>
+<p class="week-overview__note"><?= e(content('week-overview')['lengthBasis']) ?></p>
+<p class="week-overview__note"><?= e(content('week-overview')['foodBasis']) ?></p>
+<?php foreach (content('trimestres') as $hbNumber => $hbTrimester): ?><section class="section--tight"><h2><a class="link-arrow" href="<?= e('/trimestre/' . $hbNumber . '/') ?>"><?= e($hbTrimester['title']) ?></a></h2><?php $gridWeeks = $hbTrimester['weeks']; $gridVisual = true; require ROOT_DIR . '/partials/week-grid.php'; ?></section><?php endforeach; ?>
+</div>
 <?php else: ?><?php if ($cluster === 'alimentacion' && is_file(ROOT_DIR . '/alimentacion/puedo-comer/index.php')): /* growth plan 1: only once a food is reviewed */ ?><p class="section--tight"><a class="link-arrow" href="/alimentacion/puedo-comer/"><?= e(content('comer-hub')['title']) ?></a></p><?php endif; ?><section class="section--tight"><h2><?= e(ui('foundation.related')) ?></h2><div class="grid grid--2">
 <?php foreach (content('articulos') as $hbArticle): if ($hbArticle['cluster'] === $cluster): ?><a class="article-card" href="<?= e($hbArticle['path']) ?>"><span class="article-card__thumb" aria-hidden="true"><?php $hbThumb = is_array($hbArticle['image'] ?? null) ? picture($hbArticle['image'], '72px', 'lazy', 'article-card__img') : ''; echo $hbThumb !== '' ? $hbThumb : '↗'; unset($hbThumb); ?></span><div class="article-card__body"><h3><?= e($hbArticle['title']) ?></h3><p><?= e($hbArticle['metaDescription']) ?></p></div></a><?php endif; endforeach; ?></div></section>
 <?php endif; ?>
