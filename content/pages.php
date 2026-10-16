@@ -260,6 +260,16 @@ return [
         ]
     ],
     '/instalar/' => [
+        'install' => [
+            'title' => 'Elegí cómo abrir Mi Bebé',
+            'selector' => 'Elegí tu dispositivo',
+            'iphone' => 'iPhone / iPad',
+            'android' => 'Android',
+            'desktop' => 'Computadora',
+            'phoneHint' => 'Abrí la app en tu teléfono y seguí los pasos de tu dispositivo más abajo. Si llegaste desde Instagram o WhatsApp, abrí el link en Safari (iPhone) o Chrome (Android).',
+            'desktopHint' => 'Escaneá el QR con la cámara de tu teléfono para abrir Mi Bebé. También podés usarla en esta computadora desde el botón Abrí Mi Bebé.',
+            'qrAlt' => 'Código QR para abrir Mi Bebé en app.embarazo.com.py',
+        ],
         'title' => 'Instalar Mi Bebé en Android y iPhone',
         'seoTitle' => 'Instalar Mi Bebé en Android y iPhone',
         'description' => 'Instalá Mi Bebé en Android o iPhone desde el navegador. Mirá los pasos y entrá con Google para empezar tu seguimiento de embarazo.',
@@ -289,8 +299,20 @@ return [
         'stub' => false,
         'noindex' => false,
         'reviewedBy' => null,
-        'updated' => '2026-09-20',
+        'updated' => '2026-10-15',
         'sources' => [
+            [
+                'title' => 'Convertir un sitio web en una app en Safari en el iPhone',
+                'publisher' => 'Apple',
+                'url' => 'https://support.apple.com/guide/iphone/open-as-web-app-iphea86e5236/ios',
+                'accessed' => '2026-10-15'
+            ],
+            [
+                'title' => 'Usar aplicaciones web en Android',
+                'publisher' => 'Google Chrome',
+                'url' => 'https://support.google.com/chrome/answer/9658361?co=GENIE.Platform%3DAndroid&hl=es',
+                'accessed' => '2026-10-15'
+            ],
             [
                 'title' => 'Mi Bebé: presentación y funciones de la aplicación',
                 'publisher' => 'Mi Bebé',
@@ -309,7 +331,7 @@ return [
             ],
             [
                 'q' => '¿Instalarla me crea una cuenta?',
-                'a' => 'Sí: para empezar el seguimiento entrás con Google. La cuenta permite respaldo, sincronización y seguimiento familiar.'
+                'a' => 'No. Agregar el ícono no crea una cuenta. Para empezar tu seguimiento entrás con Google y aceptás el permiso para guardar tus datos. Si ya tenés cuenta, usás la misma.'
             ]
         ],
         'related' => [
@@ -348,19 +370,19 @@ return [
                     [
                         'title' => 'Entrá desde el link',
                         'body' => [
-                            'Abrí Mi Bebé con el botón de esta página en tu iPhone.'
+                            'Abrí Mi Bebé con el botón de esta página en Safari en tu iPhone o iPad. Si llegaste desde otra app, abrí el link en Safari.'
                         ]
                     ],
                     [
                         'title' => 'Buscá la opción de pantalla de inicio',
                         'body' => [
-                            'Buscá «Agregar a la pantalla de inicio» entre las opciones disponibles del navegador.'
+                            'Tocá Compartir en Safari y elegí «Agregar a la pantalla de inicio».'
                         ]
                     ],
                     [
                         'title' => 'Confirmá en tu teléfono',
                         'body' => [
-                            'Seguí las indicaciones que aparezcan para agregar Mi Bebé a la pantalla de inicio.'
+                            'Si aparece «Abrir como app web», dejalo activado. Tocá «Agregar» y abrí Mi Bebé desde su ícono. La cuenta con Google es la misma que usás en el navegador.'
                         ]
                     ]
                 ]
