@@ -1,3 +1,33 @@
+(function () {
+  'use strict';
+  var root = document.querySelector('[data-install-root]');
+  if (!root) return;
+  var ua = navigator.userAgent;
+  var iphone = /iPad|iPhone|iPod/i.test(ua) || (/Macintosh/i.test(ua) && navigator.maxTouchPoints > 1);
+  var detected = iphone ? 'iphone' : /Android/i.test(ua) ? 'android' : 'desktop';
+  function select(device) {
+    root.querySelectorAll('[data-install-device]').forEach(function (button) {
+      button.setAttribute('aria-pressed', String(button.dataset.installDevice === device));
+    });
+    root.querySelectorAll('[data-install-panel]').forEach(function (panel) {
+      panel.hidden = panel.dataset.installPanel !== (device === 'desktop' ? 'desktop' : 'phone');
+    });
+    ['android', 'iphone'].forEach(function (name) {
+      var guide = document.getElementById(name);
+      if (guide) guide.open = device === 'desktop' || device === name;
+    });
+  }
+  root.querySelectorAll('[data-install-device]').forEach(function (button) {
+    button.addEventListener('click', function () { select(button.dataset.installDevice); });
+  });
+  var requested = location.hash.slice(1);
+  select(['android', 'iphone'].includes(requested) ? requested : detected);
+  window.addEventListener('hashchange', function () {
+    var device = location.hash.slice(1);
+    if (['android', 'iphone'].includes(device)) select(device);
+  });
+}());
+
 /* Native share is optional: the WhatsApp anchor remains the fallback. */
 if (navigator.share) {
   document.querySelectorAll('[data-share]').forEach(link => {

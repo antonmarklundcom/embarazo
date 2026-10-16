@@ -1,0 +1,17 @@
+# Device-aware installation — 15 October 2026
+
+/instalar/ now prioritizes iPhone/iPad, Android or desktop based on browser hints, while keeping manual platform choice and explicit #iphone/#android links. Desktop presents a local QR for https://app.embarazo.com.py/ and both installation guides. No JavaScript still exposes the QR and both guides. iPad desktop-mode browser hints are recognized. In-app browser visitors are advised to open Safari/Chrome. This is a PWA installation guide, not an App Store/Play listing or one-click iOS installation promise.
+
+The QR contains only the public app root, with no tracking, dates, account information or third-party QR service. It was generated with qrcode and independently decoded with ZXing. Both app and website carry the same static SVG, with four-module quiet zone. This does not add a production package dependency.
+
+Content remains in content/pages.php; the page template has conditional install markup only. Existing app links, route names, no-JS guides and SEO metadata are preserved. JS detection is progressive enhancement, not a redirect. No cookies, new analytics, health-data transmission, hosting configuration or production deployment is introduced.
+
+Local regression command: start PHP using router.php on8735, then `node --test tests/device-install.test.mjs`. Tests use the existing tests/playwright dependency, or PLAYWRIGHT_MODULE_PATH to point to an already installed compatible Playwright package without a fresh dependency installation. Tests cover desktop/iPhone/Android, manual override, hash links, no-JS fallback, QR loading, overflow and JS errors. Actual phone installation still needs owner hardware acceptance.
+
+Sources: Apple https://support.apple.com/guide/iphone/open-as-web-app-iphea86e5236/ios and Google https://support.google.com/chrome/answer/9658361?co=GENIE.Platform%3DAndroid&hl=en (checked15October2026). App-side notification setup is in the partner app repository docs/NOTIFICATIONS-INSTALL-HOSTINGER.md; website-only installation needs no new Hostinger variables or DNS changes.
+
+## Validation
+
+Changed PHP lint, JavaScript syntax, CSS minification and all10pregnancy/export tests PASS. Final source and final staged-package verify.sh PASS:129indexable pages,718JSON-LD blocks,5957internal links,139same-page fragments,0orphans. Initial audit caught a bare app anchor missing the existing CTA attribution contract; corrected through app_page_link and both full audits rerun. No verifier rule was weakened. Browser regression PASS for desktop/iPhone/Android, manual selection, explicit platform hashes, no-JS fallback, image loading, overflow and JS errors. QR independently decoded with ZXing to the intended public app root. Desktop layout inspected in a real browser.
+
+Required deploy/make-zip.sh could not run because zip is unavailable on this PC (exit2before packaging). A manifest-equivalent native .NET archive was created outside the checkout: E:/ai work/Artifacts/embarazo/2026-10-15/device-install-final.zip, with its staged tree verified independently. The earlier device-install-package*.zip iterations are superseded, not deployment artifacts. Source verifier/package inspection excludes private config.php and development folders; protected logs/.htaccess supplied in the staged package. No production upload, merge, hosting/DNS change or new CI workflow. The app companion is PR145: https://github.com/antonmarklundcom/embarazo.2.1/pull/145 .

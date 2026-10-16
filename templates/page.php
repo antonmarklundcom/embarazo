@@ -13,6 +13,16 @@ require ROOT_DIR . '/partials/head.php'; require ROOT_DIR . '/partials/header.ph
 <h1><?= e($pgRecord['h1'] ?: $pgRecord['title']) ?></h1><p class="lead"><?= rich($pgRecord['lead'] ?? '') ?></p>
 <?php if (empty($page['sticky'])): ?><div class="hero__actions"><a class="btn btn--primary btn--lg" href="<?= e(app_cta_link($path, 'product', trim($path, '/') . '-hero')) ?>"><?= e(content('cta')['primary']) ?></a></div><?php require ROOT_DIR . '/partials/trust-strip.php'; endif; ?>
 </div><?php if (!empty($pgRecord['phoneWeek'])): ?><div class="hero__art"><?php $phoneNumber = (int) $pgRecord['phoneWeek']; $phoneWeek = content('semanas')[$phoneNumber]; $phoneImage = $pgRecord['phoneImage'] ?? null; require ROOT_DIR . '/partials/phone-frame.php'; ?></div><?php endif; ?></div></section>
+<?php if (!empty($pgRecord['install'])): $pgInstall = $pgRecord['install']; ?>
+<section class="section wrap wrap--text" data-install-root aria-labelledby="install-device-title">
+<h2 id="install-device-title"><?= e($pgInstall['title']) ?></h2>
+<div class="hero__actions" role="group" aria-label="<?= e($pgInstall['selector']) ?>">
+<?php foreach (['iphone','android','desktop'] as $pgDevice): ?><button type="button" class="btn btn--secondary" data-install-device="<?= e($pgDevice) ?>" aria-pressed="false"><?= e($pgInstall[$pgDevice]) ?></button><?php endforeach; ?>
+</div>
+<div data-install-panel="desktop"><p><?= e($pgInstall['desktopHint']) ?></p><img class="install-qr" src="/assets/img/install-qr.svg" width="232" height="232" alt="<?= e($pgInstall['qrAlt']) ?>"><p><a href="<?= e(app_page_link('/', 'product', 'instalar-qr')) ?>">app.embarazo.com.py</a></p></div>
+<p data-install-panel="phone"><?= e($pgInstall['phoneHint']) ?></p>
+</section>
+<?php unset($pgInstall, $pgDevice); endif; ?>
 <?php /* The channels come before the prose: someone who opens the contact page came for the
    number, and making them read four sections first is the same as hiding it. */ ?>
 <?php if (!empty($pgRecord['contactChannels'])) { require ROOT_DIR . '/partials/contact-channels.php'; } ?>
